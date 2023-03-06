@@ -43,7 +43,7 @@ gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into t
 # Build settings
 theme: just-the-docs
 plugins:
-  - jekyll-feed
+  - ekyll-default-layout
 
 # Exclude from processing.
 # The following items will not be processed, by default.
