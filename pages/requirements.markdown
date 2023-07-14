@@ -1,6 +1,8 @@
+---
 layout: page
 title: "Technical requirements"
 permalink: /requirements
+---
 
 ## Devices
 * Wi-Fi tablets or touch screen phones for judges, speaker, music and line up
