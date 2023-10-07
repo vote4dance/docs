@@ -6,11 +6,18 @@
     
     "relUrl": "/"
   },"1": {
-    "doc": "Test",
-    "title": "Test",
-    "content": "test . ",
-    "url": "/test/",
+    "doc": "Point summary",
+    "title": "Qualification round",
+    "content": "Create a normal round for qualification Assign group priority settings . After judging is done and all results are in, assign groups based on ranges . ",
+    "url": "/point-summary/",
     
-    "relUrl": "/test/"
+    "relUrl": "/point-summary/"
+  },"2": {
+    "doc": "Point summary",
+    "title": "Point summary",
+    "content": "Create round . Create a special round type for “Summarize points” . Assign group points . Priority should be set to groups . Assign group points . Check results are OK and then publish the round . ",
+    "url": "/point-summary/",
+    
+    "relUrl": "/point-summary/"
   }
 }
