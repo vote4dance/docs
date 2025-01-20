@@ -2,6 +2,7 @@
 layout: page
 title: Jack'n'Jill
 permalink: /jack-n-jill/
+nav_order: 3
 ---
 
 <h1>Jack'n'Jill setup</h1>

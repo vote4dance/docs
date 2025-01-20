@@ -14,6 +14,20 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-01-15
+ 🛠️ **Improvements**
+* Login show home button when no redirect is found
+* Screen help text for zoom and fullscreen
+* Slightly more contrast to light theme
+* Manager can print round results
+* Support for invoice with card payment
+* Support merge and separate classes in ver 2
+* Manager can not delete round with teams in it from table
+* Manager multi edit button disabled when no valid rounds are selected
+* Manager send through a bit more clear save button
+* Documentation update
+
+---
 ## 2024-12-27
  🛠️ **Improvements**
 * Screen for group results only display name of group instead of "Through to ..."

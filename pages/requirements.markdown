@@ -2,6 +2,7 @@
 layout: page
 title: "Technical requirements"
 permalink: /requirements
+nav_order: 1
 ---
 
 ## Devices
