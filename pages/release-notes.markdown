@@ -16,6 +16,7 @@ permalink: /release-notes/
 ---
 ## 2025-01-20
  🛠️ **Improvements**
+* Judges will not be visible unless results have been published
 * Login show home button when no redirect is found
 * Screen help text for zoom and fullscreen
 * Slightly more contrast to light theme
