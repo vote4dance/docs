@@ -14,7 +14,7 @@ permalink: /release-notes/
 {:toc}
 
 ---
-## 2025-01-15
+## 2025-01-20
  🛠️ **Improvements**
 * Login show home button when no redirect is found
 * Screen help text for zoom and fullscreen
