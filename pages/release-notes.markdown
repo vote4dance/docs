@@ -14,6 +14,13 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-01-23
+ 🛠️ **Improvements**
+* Speaker results can be sorted by class order
+* Removed "Blank Screen" from speaker results, can display round name instead
+* Judging only show comments when available
+* Fixed some tooltips not showing
+
 ## 2025-01-20
  🛠️ **Improvements**
 * Judges will not be visible unless results have been published
