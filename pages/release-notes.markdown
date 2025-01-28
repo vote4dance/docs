@@ -14,6 +14,15 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-01-28
+ 🛠️ **Improvements**
+* Version 2 for lineup
+* Speaker only show "Waiting for judges" automatically if there is 1 heat and first round in list
+* Screen lineup added federation logo
+* Speaker can display teams for redance on screen
+* West Coast Swing - Yes, alternates support slider and assign values based on score, also for Chief Judge
+* Closed competitions will now show button to publish all results
+
 ## 2025-01-23
  🛠️ **Improvements**
 * Speaker results can be sorted by class order
