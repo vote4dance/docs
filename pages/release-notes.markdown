@@ -14,6 +14,12 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-02-03
+ 🛠️ **Improvements**
+* Corrected registration price when using per registration
+* Fix for creating a dance team not updating in registration list
+* Registration list in profile view had missing class label
+
 ## 2025-01-28
  🛠️ **Improvements**
 * Version 2 for lineup
