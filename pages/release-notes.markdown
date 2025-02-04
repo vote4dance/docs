@@ -14,6 +14,18 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-02-04
+ 🛠️ **Improvements**
+* Judging partial more compact in layout
+* Judging partial can have summary override disabled
+* Fix for judging save state not appearing in heat correctly
+* Localization fixes for Swedish summary and acro names
+* Judges will see available judging components and descriptions in round overview
+* Include show name in standard placement judging
+* Checkin updates for manager ver 2
+* Speaker clarify empty heat with info when there are unpublished results
+* Group prioritize can now have empty names (will use class name)
+
 ## 2025-02-03
  🛠️ **Improvements**
 * Corrected registration price when using per registration
