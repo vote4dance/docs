@@ -14,6 +14,23 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-02-12
+ 🛠️ **Improvements**
+* Improved results download with class sorting and localization
+* Judging increased font size in slider and placement buttons
+* Judging adjusted summary yellow line in bright mode
+* Judging TCI summary sorted by points
+* Judging rows and summary a bit more compact for less scrolling
+* Live-placement updated to moving rows for screens
+* Updates for AJS
+* Manager can assign start numbers
+* Manager checkin can handle team with different status and show table summary
+* Manager enabled heat reverse order with only 1 heat
+* Speaker heat will only count dancers that are not cancelled
+* Show judges on competition before start date, setting per federation
+* Federation round guide can also remove rounds
+* Public teams should display class when sorted by start number
+
 ## 2025-02-04
  🛠️ **Improvements**
 * Judging partial more compact in layout
