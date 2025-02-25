@@ -14,6 +14,19 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-02-25
+ 🛠️ **Improvements**
+* Participant lists are now fetched per class for better performance
+* Speaker gets a floating button for displaying competition name and blank
+* Manager duplicating teams will remember start number
+* Support for team groups in ver 2
+* Judging cache cleanup (max 10 rounds)
+* WCS chief judge separation fix
+* WCS shuffle team updates
+* WDSF API support in ver 2
+* Support registration team without dancers
+* Screen heat show placeholder after all heats are done
+
 ## 2025-02-12
  🛠️ **Improvements**
 * Improved results download with class sorting and localization
