@@ -14,6 +14,11 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-03-05
+ 🛠️ **Improvements**
+* Organizations can handle federation membership
+* Ranking cleanup outdated teams
+
 ## 2025-02-25
  🛠️ **Improvements**
 * Participant lists are now fetched per class for better performance
