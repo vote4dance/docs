@@ -14,6 +14,21 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-03-17
+ 🛠️ **Improvements**
+* Manager search teams show cancelled status
+* Searched teams can be duplicated
+* Ranking show correct updated time
+* Manager change class now chunked into groups of 20
+* Organization can sign registrations
+* Manager sider fixed checkin button style
+* Registration QR code print larger image
+* Registration status and import update
+* Registration bug fix where team could not be created with different setup
+* Registration send email to participants
+* Result print and preview update with details
+* Competition validator only check normal rounds and update properly in ver 2
+
 ## 2025-03-05
  🛠️ **Improvements**
 * Organizations can handle federation membership
