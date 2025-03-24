@@ -19,7 +19,7 @@ permalink: /release-notes/
 * Registration can use organization name and country
 * Registration menu fix for not updating count
 * WDSF API updates
-* DSF summary rounds fixed sum override bug
+* DSF summary rounds, corrected problem with rounds not being displayed
 
 ## 2025-03-17
  🛠️ **Improvements**
