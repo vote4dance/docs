@@ -14,6 +14,18 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-03-31
+ 🛠️ **Improvements**
+* Judging type 1-5 with reversed numbers
+* Judging type acrobatics updated UI and corrected acro step
+* Judging partial slider for component now automatically closes after timer
+* Judging type partial highlight which component is active
+* Judging slider popup menu moved from above to below competitors
+* Judging type full (10-0) now include result position
+* Heat screen jump to next round if all heats are marked as done
+* Manager fixed bug with warning for judges not being displayed properly
+* Manager round will not allow empty space in first part of round name
+
 ## 2025-03-24
  🛠️ **Improvements**
 * Registration can use organization name and country
