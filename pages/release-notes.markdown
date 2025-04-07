@@ -14,6 +14,19 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-04-07
+ 🛠️ **Improvements**
+* Manager fix for round guide unable to set round hide settings type
+* Manager round names fixed with blank space as first letter
+* Manager assign start numbers can take either registration or person id into account when re-using
+* Registrations stop if user birthdate is not set
+* Registration status name change from Created to Preliminary
+* Registration count on multiple competitions were wrong
+* Registration send email on status change
+* Registration only allow team change on those without entries
+* Screens will now only move to next round when marked as done early for matches
+* Speaker has judge list in overview
+
 ## 2025-03-31
  🛠️ **Improvements**
 * Judging type 1-5 with reversed numbers
