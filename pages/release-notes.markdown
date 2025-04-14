@@ -14,6 +14,15 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-04-14
+ 🛠️ **Improvements**
+* Supervisor app first iteration
+* Manager confirm round warning if no targets have been set or if final has shared placements
+* Manager print results now include sideskating states
+* WDSF AJS fix for floating-point precision causing values to be off from tolerance
+* WDSF API fix for uploading judges
+* WDSF API support download specific teams
+
 ## 2025-04-07
  🛠️ **Improvements**
 * Manager fix for round guide unable to set round hide settings type
