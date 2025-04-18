@@ -14,6 +14,13 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-04-18
+ 🛠️ **Improvements**
+* Manager fixed problem with judges not being changeable
+* Manager checkin preview pre-cancelled teams correctly
+* Manager print team start number fixed problem with filter on number 
+* Speaker and supervisor first pass with schedule
+
 ## 2025-04-14
  🛠️ **Improvements**
 * Supervisor app first iteration
