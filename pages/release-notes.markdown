@@ -14,6 +14,22 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-05-07
+ 🛠️ **Improvements**
+* Federation classes are now sortable
+* Ranking lists can be manually corrected
+* Support registration form
+* Clarify text when heat count or specific heat
+* Manager added missing round qualifier setting
+* Manager allow teams to not be prioritized
+* Floors can have both name and letter code
+* Checkin can be open during competition to cancel participants
+* Supervisor only show judging status when round is active
+* Supervisor show hidden marks
+* Supervisor fix sorting by start number
+* Supervisor and speaker only show valid schedule tabs
+* Judge schedule with information on when they are judging
+
 ## 2025-04-18
  🛠️ **Improvements**
 * Manager fixed problem with judges not being changeable
