@@ -14,6 +14,12 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-05-12
+ 🛠️ **Improvements**
+* User profile registrations more mobile friendly
+* User registrations fixed double rows in child competitions
+* Registration checkin support scan QR codes
+
 ## 2025-05-07
  🛠️ **Improvements**
 * Federation classes are now sortable
