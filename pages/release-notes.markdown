@@ -14,6 +14,12 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-05-15
+ 🛠️ **Improvements**
+* Screens can display podium top 3
+* Registration help texts
+* Floor code display fixes
+
 ## 2025-05-12
  🛠️ **Improvements**
 * User profile registrations more mobile friendly
