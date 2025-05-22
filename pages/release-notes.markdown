@@ -14,6 +14,12 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-05-22
+ 🛠️ **Improvements**
+* DSF summary rounds will not include rounds with qualifier
+* Flags are not supported on all platforms (Windows 10), fallback to image instead of letters
+* Registrations fix to show registrations correctly per competition in user accounts
+
 ## 2025-05-15
  🛠️ **Improvements**
 * Screens can display podium top 3
