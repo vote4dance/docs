@@ -14,6 +14,10 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-05-26
+ 🛠️ **Improvements**
+* Registration clarify text to create dancer
+
 ## 2025-05-22
  🛠️ **Improvements**
 * DSF summary rounds will not include rounds with qualifier
