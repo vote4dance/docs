@@ -17,6 +17,7 @@ permalink: /release-notes/
 ## 2025-05-26
  🛠️ **Improvements**
 * Registration clarify text to create dancer
+* Manager fix for match-race not creating rounds without manual change
 
 ## 2025-05-22
  🛠️ **Improvements**
