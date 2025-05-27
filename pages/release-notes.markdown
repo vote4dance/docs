@@ -14,6 +14,10 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-05-27
+ 🛠️ **Improvements**
+* Fixed schedule with wrong page data per day
+
 ## 2025-05-26
  🛠️ **Improvements**
 * Registration clarify text to create dancer
