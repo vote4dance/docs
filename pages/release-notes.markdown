@@ -14,6 +14,11 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-05-28
+ 🛠️ **Improvements**
+* Registration period fix to enable remove classes with only deleted teams
+* Fix so judges can see which classes they judge
+
 ## 2025-05-27
  🛠️ **Improvements**
 * Fixed schedule with wrong page data per day
