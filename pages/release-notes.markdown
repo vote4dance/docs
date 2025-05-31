@@ -14,6 +14,13 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-05-31
+ 🛠️ **Improvements**
+* Screens will show names in live mode and less than 12 teams
+* Manager also allow manager level to send notifications
+* Manager fix for some forms not being able to save data
+* Creating a danceteam will close search dialog on click
+
 ## 2025-05-28
  🛠️ **Improvements**
 * Registration period fix to enable remove classes with only deleted teams
