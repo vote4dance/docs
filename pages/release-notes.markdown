@@ -14,6 +14,18 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-06-11
+ 🛠️ **Improvements**
+* Screens top3 is now default placement presentation
+* Screens will reduce center space and be more compact in height
+* Screens per heat will display names when 10 or less competitors
+* Screens and speaker schedule will show times
+* Speaker judges show grouped by competition
+* Competition registration will only show main registration button
+* Registration fixed problem with multiple registrations per entry
+* Registration account problem updating from user profile
+* Registration can request both country and show name
+
 ## 2025-05-31
  🛠️ **Improvements**
 * Screens will show names in live mode and less than 12 teams
