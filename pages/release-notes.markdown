@@ -14,6 +14,15 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-06-23
+ 🛠️ **Improvements**
+* Dance teams can set role as leader or follower
+* Registration periods are now sortable
+* Added NOK as currency
+* Organizations can be in draft before publishing
+* User organizations are listed on top
+* Checkin can print start numbers
+
 ## 2025-06-11
  🛠️ **Improvements**
 * Screens top3 is now default placement presentation
