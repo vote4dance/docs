@@ -14,6 +14,10 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-06-26
+ 🛠️ **Improvements**
+* Introduce a new event check-in page 
+
 ## 2025-06-23
  🛠️ **Improvements**
 * Dance teams can set role as leader or follower
