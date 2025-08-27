@@ -14,6 +14,14 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-08-25
+ 🛠️ **Improvements**
+* Fixed problem with manually creating a registration
+* Jack'n'Jill, allow duplicate start number to be copied to final class
+* Speaker schedule will default to correct date
+* Manager now uses mobile friendly Drawer as menu
+* New rules for DSF september
+
 ## 2025-06-26
  🛠️ **Improvements**
 * Introduce a new event check-in page 
