@@ -14,6 +14,16 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-09-15
+ 🛠️ **Improvements**
+* Filter registrations based on status, ignore cancelled as default
+* Disabled pay later for registration
+* Support judge score summary without skating on internal placements
+* Round table show icons for hide results setting
+* Judging sheets can hide placement and score to avoid comparison
+* Federation class rules can use copy/paste
+* Checkin registration only show active entries
+
 ## 2025-08-25
  🛠️ **Improvements**
 * Fixed problem with manually creating a registration
