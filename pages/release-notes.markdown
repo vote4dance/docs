@@ -16,6 +16,14 @@ permalink: /release-notes/
 ---
 ## 2025-09-15
  🛠️ **Improvements**
+* Filter registrations fix
+* Winner screen, badge for others bigger
+* Judging slider get more screen space
+* Manager round guide support round size margin
+* Supervisor show upcoming schedule menu
+
+## 2025-09-15
+ 🛠️ **Improvements**
 * Filter registrations based on status, ignore cancelled as default
 * Disabled pay later for registration
 * Support judge score summary without skating on internal placements
