@@ -14,7 +14,7 @@ permalink: /release-notes/
 {:toc}
 
 ---
-## 2025-09-15
+## 2025-09-24
  🛠️ **Improvements**
 * Filter registrations fix
 * Winner screen, badge for others bigger
