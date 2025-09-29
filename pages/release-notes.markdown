@@ -14,6 +14,13 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-09-29
+ 🛠️ **Improvements**
+* Round guide should keep number of heats when adding child chance round (without placement)
+* Manager update competitions should re-validate problems
+* WDSF API fixes for team upload
+* Remove country flag from heat screen
+
 ## 2025-09-24
  🛠️ **Improvements**
 * Filter registrations fix
