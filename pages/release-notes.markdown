@@ -14,7 +14,7 @@ permalink: /release-notes/
 {:toc}
 
 ---
-## 2025-09-29
+## 2025-09-28
  🛠️ **Improvements**
 * Round guide should keep number of heats when adding child chance round (without placement)
 * Manager update competitions should re-validate problems
