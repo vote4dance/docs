@@ -14,6 +14,11 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-10-08
+ 🛠️ **Improvements**
+* Color theme updates
+* WDSF adjudicator and Show result upload fix
+
 ## 2025-09-28
  🛠️ **Improvements**
 * Round guide should keep number of heats when adding child chance round (without placement)
