@@ -14,6 +14,11 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-10-20
+ 🛠️ **Improvements**
+* Fix for dates not working properly with checkin and registration periods
+* Registration tabs have changed order
+
 ## 2025-10-08
  🛠️ **Improvements**
 * Color theme updates
