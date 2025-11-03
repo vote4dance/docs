@@ -14,6 +14,12 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-11-03
+ 🛠️ **Improvements**
+* Require country on registration
+* Registration overview reworked
+* Jack'n'Jill merge teams minor fixes
+
 ## 2025-10-20
  🛠️ **Improvements**
 * Fix for dates not working properly with checkin and registration periods
