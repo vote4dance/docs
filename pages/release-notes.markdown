@@ -14,6 +14,16 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-11-10
+ 🛠️ **Improvements**
+* Added new judge types: Chief judge (both in and out of ranking) and Observer
+* Jack'n'Jill improvements to better handle leader and follower coupling
+* WSDC rules and export support
+* Registration class count fix
+* Manager team through warning disabled for B-finals if round has best placement set
+* Screens now support hide names in prelims
+* Screens fixed bug where heat was delayed
+
 ## 2025-11-03
  🛠️ **Improvements**
 * Require country on registration
