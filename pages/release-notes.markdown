@@ -21,7 +21,6 @@ permalink: /release-notes/
 * Judges see submission errors and highlight the affected teams
 * Judges only be able to submit complete results with components
 * Manager can generate random teams for testing
-* Fix for screens not showing names in final
 
 ## 2025-11-10
  🛠️ **Improvements**
