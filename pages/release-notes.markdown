@@ -14,6 +14,15 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-11-17
+ 🛠️ **Improvements**
+* WDSF fixed download of solos
+* Registration can use external api to check dancer level
+* Judges see submission errors and highlight the affected teams
+* Judges only be able to submit complete results with components
+* Manager can generate random teams for testing
+* Fix for screens not showing names in final
+
 ## 2025-11-10
  🛠️ **Improvements**
 * Added new judge types: Chief judge (both in and out of ranking) and Observer
