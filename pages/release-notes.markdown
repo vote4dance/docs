@@ -21,6 +21,9 @@ permalink: /release-notes/
 * Judges see submission errors and highlight the affected teams
 * Judges only be able to submit complete results with components
 * Manager can generate random teams for testing
+* Remove license conflict test
+* Result screen, smaller podiums and name support
+* Screen to show AJS scores per team
 
 ## 2025-11-10
  🛠️ **Improvements**
