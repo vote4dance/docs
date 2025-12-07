@@ -14,6 +14,33 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-12-07
+ 🛠️ **Improvements**
+* Registration emails now saved in logs
+* Registration acceptance can be set to manual or direct (require payment upfront)
+* Registration rules can be set on the registration period
+* Registration payment status can be manually changed
+* Registration refunds can be made from Manager
+* Registration simplified partner details
+* Registration can require birth year
+* Registration fix check age on competition day instead of current day
+* Registration can ask for organization as info
+* Registration users can edit unused danceteams
+* Registration fix for paid users for period
+* Screen "Results (Last 5)" now only show publiched rounds, and changed to last 6, also limited to the last schedule block
+* Speaker can show any schedule item on screen
+* Speaker lineup remember name or number tab
+* Judging components can allow 0 for submit
+* Results for partial values fixed to show number even if 0
+* User external ids are moved to simplify account settings
+* WDSF MIN numbers converted to external ids
+* Manager, Added judge type information
+* Manager, Assign start numbers fix for registrations and cancelled teams
+* Manager, Can see competition follower count
+* Manager, Can create teams for other users
+* Manager, fixed judge submit warning with chance round child
+* Added Café
+
 ## 2025-11-17
  🛠️ **Improvements**
 * WDSF fixed download of solos
