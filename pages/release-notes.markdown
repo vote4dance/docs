@@ -14,6 +14,11 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-12-09
+ 🛠️ **Improvements**
+* Manager, schedule count fix
+* Registration fix for max limit on registration count
+
 ## 2025-12-07
  🛠️ **Improvements**
 * Registration emails now saved in logs
@@ -39,6 +44,7 @@ permalink: /release-notes/
 * Manager, Can see competition follower count
 * Manager, Can create teams for other users
 * Manager, fixed judge submit warning with chance round child
+* Manager, assign start numbers, fix for solo and non-leader couples
 * Added Café
 
 ## 2025-11-17
