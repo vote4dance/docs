@@ -14,9 +14,22 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2025-12-20
+ 🛠️ **Improvements**
+* WSDC Jack'n'Jill rules update
+* Judging demo mode
+* Judging require PIN code
+* Judging fix for results mismatch error on submit
+* Judging removed most overviews and submit directly
+* Judging automatically assign TCI and JnJ values directly
+* Manager DSF special sideskating removed
+* Manager event require image before it can be published
+* Speaker float button fix for not being hidden when it should
+* Registration fixed bug where users could not cancel
+
 ## 2025-12-09
  🛠️ **Improvements**
-* Manager, schedule count fix
+* Manager schedule count fix
 * Registration fix for max limit on registration count
 
 ## 2025-12-07
@@ -39,12 +52,12 @@ permalink: /release-notes/
 * Results for partial values fixed to show number even if 0
 * User external ids are moved to simplify account settings
 * WDSF MIN numbers converted to external ids
-* Manager, Added judge type information
-* Manager, Assign start numbers fix for registrations and cancelled teams
-* Manager, Can see competition follower count
-* Manager, Can create teams for other users
-* Manager, fixed judge submit warning with chance round child
-* Manager, assign start numbers, fix for solo and non-leader couples
+* Manager Added judge type information
+* Manager Assign start numbers fix for registrations and cancelled teams
+* Manager Can see competition follower count
+* Manager Can create teams for other users
+* Manager fixed judge submit warning with chance round child
+* Manage, assign start numbers, fix for solo and non-leader couples
 * Added Café
 
 ## 2025-11-17
