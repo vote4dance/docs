@@ -14,6 +14,22 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2026-01-01
+ 🛠️ **Improvements**
+* Removed legacy version 1
+* Manager use judging panels
+* Manager publish schedule
+* Manager fix so we can copy to class with alternates priority
+* Manager use estimated round times
+* Cafe products can be re-ordered
+* Competition country must be specified
+* Registration date corrected
+* Judges will only validate ChiefJudge unique points when we are using slider
+* Connection issues now keep page without reload
+* Printable judging sheets
+* Improved user search
+* Jack'n'jill heat lineup show slots with both roles
+
 ## 2025-12-20
  🛠️ **Improvements**
 * WSDC Jack'n'Jill rules update
