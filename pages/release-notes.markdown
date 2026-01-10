@@ -14,6 +14,21 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2026-01-10
+ 🛠️ **Improvements**
+* Speaker warning if publish final without presenting teams
+* Speaker show why rounds are empty when unpublished
+* Judge and functionary schedule now expandable
+* Manager round settings, ask when leave without saving
+* Registration button for functionary to add teams on site
+* Manager printable schedule - PDF and CSV
+
+## 2026-01-07
+ 🛠️ **Improvements**
+* Import registrations check for existing data better
+* Import csv formatting improvement
+* Round start time correction to show estimated value
+
 ## 2026-01-01
  🛠️ **Improvements**
 * Removed legacy version 1
