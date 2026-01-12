@@ -22,6 +22,7 @@ permalink: /release-notes/
 * Manager round settings, ask when leave without saving
 * Registration button for functionary to add teams on site
 * Manager printable schedule - PDF and CSV
+* Registration edit can use more organization fields
 
 ## 2026-01-07
  🛠️ **Improvements**
