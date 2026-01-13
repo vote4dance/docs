@@ -14,6 +14,11 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2026-01-13
+ 🛠️ **Improvements**
+* Manager automatically update round start time 
+* Registration fix for emails not being sent properly
+
 ## 2026-01-10
  🛠️ **Improvements**
 * Speaker warning if publish final without presenting teams
