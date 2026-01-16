@@ -17,6 +17,8 @@ permalink: /release-notes/
 ## 2026-01-16
  🛠️ **Improvements**
 * Manager fix for round start times not being shared properly
+* Manager fix for new rounds names not being possible to enter
+* Manager remove generate start times button, not needed now
 
 ## 2026-01-13
  🛠️ **Improvements**
