@@ -14,6 +14,10 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2026-01-16
+ 🛠️ **Improvements**
+* Manager fix for round start times not being shared properly
+
 ## 2026-01-13
  🛠️ **Improvements**
 * Manager automatically update round start time 
