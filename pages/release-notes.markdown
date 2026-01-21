@@ -14,6 +14,15 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2026-01-21
+ 🛠️ **Improvements**
+* Judges fix for preliminary TCI auto assign cut
+* Judges show tie warning for placement rounds
+* Manager dont show trainee judges in result view
+* Manager round guide how shows correct num heats for child rounds
+* Manager round hierarchy show more info
+* Jack'n'jill fix for no couples in direct final
+
 ## 2026-01-16
  🛠️ **Improvements**
 * Manager fix for round start times not being shared properly
