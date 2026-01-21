@@ -14,11 +14,12 @@ Under Floors, press "Create floor", this will help when judging both followers a
 ![Initial classes](../../assets/images/jack-n-jill/floors.png)
 
 <h3>Class setup</h3>
-Under Classes, press "Add class" and select Jack & Jill mode. Fill in the fields with 3 classes per category, leader+follower+final, rename all classes to your needs after these have all been created
+Under Classes, press "Add class" and select Jack & Jill mode. Fill in the fields with 3 classes per category, leader+follower+final, rename all classes to your needs after these have all been created. You should have 3 classes even if there is a final only.
 ![Initial classes](../../assets/images/jack-n-jill/class-initial.png)
 
 <h3>Round guide</h3>
 * Run the "Round guide" on all classes using these settings.
+* If you only have a final, don't create any rounds in the Leader and Follower classes, leave empty
 * Adjust "Federation Class" depending on leader, follower or final class
 * Select the matching floor (leader or follower)
 * Play around with number of participants to see different setups
