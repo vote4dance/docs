@@ -14,6 +14,10 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2026-01-22
+ 🛠️ **Improvements**
+* Manager fix for round settings not being set correctly
+
 ## 2026-01-21
  🛠️ **Improvements**
 * Judges fix for preliminary TCI auto assign cut
