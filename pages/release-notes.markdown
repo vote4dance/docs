@@ -14,6 +14,13 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2026-01-26
+ 🛠️ **Improvements**
+* Login captcha for improved security against abuse
+* Speaker fix background and icons restored
+* Competition owners can adjust administrator roles
+* Team show names listed
+
 ## 2026-01-22
  🛠️ **Improvements**
 * Manager fix for round settings not being set correctly
