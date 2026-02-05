@@ -14,6 +14,18 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2026-02-05
+ 🛠️ **Improvements**
+* Judging faster buttons for one to five judging
+* Judging remove tie handling from one to five rating
+* Manager fix problems with saving round settings
+
+## 2026-02-03
+ 🛠️ **Improvements**
+* Use animated video background for screens
+* Display message for unsupported browsers
+* TCI judging can show marks but hide components
+
 ## 2026-01-26
  🛠️ **Improvements**
 * Login captcha for improved security against abuse
