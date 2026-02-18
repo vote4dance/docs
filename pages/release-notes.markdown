@@ -14,6 +14,21 @@ permalink: /release-notes/
 {:toc}
 
 ---
+## 2026-02-18
+ 🛠️ **Improvements**
+* Judging with partial components can now be expanded
+* Judging sliders snap to minimum 0.5 step when click on track
+* Judging buttons with improved performance
+* Manager updated schedule times for battles
+* Manager round results for TCI summarize component scores
+* Manager heat table columns have the same width
+* Manager assign round beat take into account sub round floor group
+* Supervisor can sort teams by number or placement
+* Supervisor show judge mark count in footer
+* Sponsors available for beta-testing
+* Checkin fix for error when trying to sign pre-cancelled teams
+* Ranking correction for empty lists
+
 ## 2026-02-05
  🛠️ **Improvements**
 * Judging faster buttons for one to five judging
