@@ -2,27 +2,44 @@
 layout: page
 title: Point summary
 permalink: /point-summary/
+parent: Special formats
+nav_order: 2
 ---
 
-<h1>Qualification round</h1>
-Create a normal round for qualification
-![Alt text](../../assets/images/point-summary/qualification.png)
-Assign group priority settings
-![Alt text](../../assets/images/point-summary/groups.png)
+# Point summary setup
 
-After judging is done and all results are in, assign groups based on ranges
-![Alt text](../../assets/images/point-summary/assign-groups.png)
+Use this flow when qualification is done first and final ranking uses summarized group points.
 
-<h1>Point summary</h1>
-<h3>Create round</h3>
-Create a special round type for "Summarize points"
-![Alt text](../../assets/images/point-summary/create-summary.png)
+## 1. Run qualification round
 
-<h3>Assign group points</h3>
-Priority should be set to groups
-![Alt text](../../assets/images/point-summary/group-points-edit.png)
-![Alt text](../../assets/images/point-summary/group-points.png)
+Create a normal qualification round.
 
-<h3>Assign group points</h3>
-Check results are OK and then publish the round
-![Alt text](../../assets/images/point-summary/results.png)
+![Qualification](/assets/images/point-summary/qualification.png)
+
+Set group-based priority settings.
+
+![Groups](/assets/images/point-summary/groups.png)
+
+When qualification is complete, assign groups by ranges.
+
+![Assign groups](/assets/images/point-summary/assign-groups.png)
+
+## 2. Create summarize points round
+
+Create a dedicated round configured for summarized points.
+
+![Create summary](/assets/images/point-summary/create-summary.png)
+
+## 3. Configure group points
+
+Set priority mode to groups and configure group point distribution.
+
+![Group points edit](/assets/images/point-summary/group-points-edit.png)
+
+![Group points](/assets/images/point-summary/group-points.png)
+
+## 4. Validate and publish
+
+Validate summarized outcomes, then publish the round.
+
+![Results](/assets/images/point-summary/results.png)

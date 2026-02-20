@@ -2,56 +2,76 @@
 layout: page
 title: Jack'n'Jill
 permalink: /jack-n-jill/
-nav_order: 3
+parent: Special formats
+nav_order: 1
 ---
 
-<h1>Jack'n'Jill setup</h1>
-This guide is for using Jack'n'Jill with indivdual judging in prelims and judged as couples in final
+# Jack'n'Jill setup
 
-<h3>Floor setup</h3>
-Under Floors, press "Create floor", this will help when judging both followers and leaders together in the schedule
+Use this guide for formats where prelims are judged by role and finals are judged as couples.
 
-![Initial classes](../../assets/images/jack-n-jill/floors.png)
+## Prerequisites
 
-<h3>Class setup</h3>
-Under Classes, press "Add class" and select Jack & Jill mode. Fill in the fields with 3 classes per category, leader+follower+final, rename all classes to your needs after these have all been created. You should have 3 classes even if there is a final only.
-![Initial classes](../../assets/images/jack-n-jill/class-initial.png)
+- Event and competition already created
+- Floors configured
+- Classes page accessible
+- You understand standard round lifecycle
 
-<h3>Round guide</h3>
-* Run the "Round guide" on all classes using these settings.
-* If you only have a final, don't create any rounds in the Leader and Follower classes, leave empty
-* Adjust "Federation Class" depending on leader, follower or final class
-* Select the matching floor (leader or follower)
-* Play around with number of participants to see different setups
-* Make sure there is no final round in either leader or follower class setup (delete if it is)
-![Round guide](../../assets/images/jack-n-jill/round-guide.png)
+## 1. Create floor structure
 
-Example of a standard Jack & Jill class setup
-![Class setup](../../assets/images/jack-n-jill/class-setup.png)
+Create floor(s) first so leader/follower rounds can share schedule logic.
 
-Important settings:
-* Round priority settings is set to "Alternates" in prelims
-* Judging type "Yes+Alternates" in prelims
+![Floors](/assets/images/jack-n-jill/floors.png)
 
-<h3>Schedule</h3>
-When all classes have been created, arrange them in your schedule blocks. Then click "Assign round numbers" to have both leader and follower classes to have the same number (so they will be judged and dancing together)
+## 2. Create class triplet per category
 
-![Assign beat](../../assets/images/jack-n-jill/assign-beat.png)
+Create Jack'n'Jill classes as:
 
-<h3>Registrations</h3>
-Add leader and follower class to your registration periods and start collecting registrations
+1. Leader class
+2. Follower class
+3. Final couple class
 
-<h5>WSDC specific</h5> 
-Make sure you also add rules for external ID
-![External ID](../../assets/images/jack-n-jill/registration-external-id.png)
+Even final-only workflows should keep this structure.
 
-<h3>Judges</h3>
-* Add judges so you have one set of judges for leaders, followers and the final couple class
-* Chief Judge should be set to Chief-Out in prelims (if not part of ordinary judging panel)
+![Initial classes](/assets/images/jack-n-jill/class-initial.png)
 
-<h3>Enter results</h3>
-Start judging, collect results and send dancers through to next round or copy to final couple class
+## 3. Run Round guide
 
-<h3>Merge leaders and followers</h3>
-Use the Speaker app to rotate and/or merge dancers into couples
-![Merge teams](../../assets/images/jack-n-jill/merge-teams.png)
+For each class:
+
+- Set federation class correctly
+- Set floor mapping for leader/follower
+- Confirm prelims do not include final rounds
+
+![Round guide](/assets/images/jack-n-jill/round-guide.png)
+
+Example setup:
+
+![Class setup](/assets/images/jack-n-jill/class-setup.png)
+
+Recommended prelim settings:
+
+- Priority: `Alternates`
+- Judging type: `Yes + Alternates`
+
+## 4. Build schedule and assign round numbers
+
+After schedule placement, use `Assign round numbers` so leader and follower tracks align.
+
+![Assign beat](/assets/images/jack-n-jill/assign-beat.png)
+
+## 5. Configure registration
+
+Add both leader and follower classes in registration periods.
+
+For WSDC-style workflows, configure external ID support.
+
+![External ID](/assets/images/jack-n-jill/registration-external-id.png)
+
+## 6. Judges and run-time execution
+
+- Use one coherent judge panel across leader, follower, and final classes
+- If chief judge is not ranking in prelims, use `Chief-Out`
+- After prelims, merge/rotate to couples in Speaker
+
+![Merge teams](/assets/images/jack-n-jill/merge-teams.png)

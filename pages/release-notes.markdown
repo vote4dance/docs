@@ -2,6 +2,7 @@
 layout: page
 title: Release notes
 permalink: /release-notes/
+nav_order: 10
 ---
 
 <h1>Release notes</h1>

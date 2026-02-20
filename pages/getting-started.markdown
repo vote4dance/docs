@@ -1,21 +1,25 @@
 ---
 layout: page
-title: Getting started
+title: Getting Started
 permalink: /getting-started/
 nav_order: 2
+has_children: true
 ---
 
-<h1>Getting started</h1>
+# Getting Started
 
-If you want, you can create a practice competition (free of charge) and try the system yourself. Here are some good starting notes:
-* Create a practice competition
-* Create some classes (categories)
-* Add a few start numbers to test with
-* Run class "Guide" with default settings and set number of participant to your expected count
-* Add yourself as judge and set marks/placement
-* Send dancers through to next round or see final results
-* Try the screens to see how you can present
+Use this section to get your first event running quickly and safely.
 
-You can also try:
-* Add a registration period and register yourself as participant, then import registrations
-* Adjust the schedule and add bullet points
+## Recommended path
+
+1. [Quickstart](/quickstart/)
+2. [Technical requirements](/requirements/)
+3. [Vote4Dance building blocks](/building-blocks/)
+
+## What you should have after this section
+
+- A created event in Manager
+- At least one competition and class
+- A usable schedule with rounds
+- Judges and teams assigned
+- A clear plan for live operations
