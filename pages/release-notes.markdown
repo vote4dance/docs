@@ -15,6 +15,13 @@ nav_order: 10
 {:toc}
 
 ---
+## 2026-02-24
+ 🛠️ **Improvements**
+* Updated documentation
+* Competition creation guide
+* Fixed crashing sliders
+* Judge PIN code keyboard
+
 ## 2026-02-18
  🛠️ **Improvements**
 * Judging with partial components can now be expanded
