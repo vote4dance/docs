@@ -15,6 +15,17 @@ nav_order: 10
 {:toc}
 
 ---
+## 2026-03-03
+ 🛠️ **Improvements**
+* Can show team on screen with portrait
+* Speaker and supervisor schedule navigate to round fixed
+* Screens fade between all screens
+* Screens moved federation logo to bottom
+* Screens schedule text tries to fit
+* Screens for match/battle now supports images
+* Manager result footer show correct judges when summarizing marks preview
+* Judging partial with sliders performance fix
+
 ## 2026-02-24
  🛠️ **Improvements**
 * Updated documentation
