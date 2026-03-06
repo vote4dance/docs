@@ -15,6 +15,15 @@ nav_order: 10
 {:toc}
 
 ---
+## 2026-03-05
+ 🛠️ **Improvements**
+* New public page
+* App support for favorites and premium subscription
+* Team images can be set on registrations and from manager
+* Registration team import will now show what changes will be made
+* Added documentation for team image upload in manager and check-in flows: [Registration and check-in guide](/manager-guide/registration-checkin/#team-image-upload)
+* Added recommended "photo booth" workflow for functionaries (green screen and transparent PNG background)
+
 ## 2026-03-03
  🛠️ **Improvements**
 * Can show team on screen with portrait

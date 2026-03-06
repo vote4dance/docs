@@ -42,6 +42,38 @@ In `Registrations`, managers can:
 - Import approved registrations into competition teams
 - Inspect logs and payment details per entry
 
+## Team image upload
+
+Team images can be uploaded from both manager and functionary workflows.
+
+Where to upload:
+
+- `Manager -> Competition -> Registration -> Edit registration -> Image`
+- `Manager -> Competition -> Teams -> Edit team -> Image`
+- `Name registration (functionary app) -> Edit registration -> Image`
+
+Accepted files and limits:
+
+- Formats: `JPG`, `JPEG`, `PNG`, `HEIC`, `HEIF`
+- Max size: `25 MB`
+- One image per team (replace or remove as needed)
+
+## Functionary photo booth workflow
+
+Recommended event-day flow for a registration desk "photo booth":
+
+1. Prepare a small booth area with stable lighting, fixed camera distance, and a clean background.
+2. Use a green screen if you want easy background removal after capture.
+3. Open the registration app from event overview (`Name registration`) and edit the team registration.
+4. In the `Image` field, press `Upload` and select a photo (on mobile/tablet, camera capture may be available in the file picker).
+5. Save the registration update.
+
+Recommended image style for screens and match presentations:
+
+- Best result: upload a `PNG` with transparent background.
+- If you use green screen photos, remove the background before upload and export transparent PNG.
+- Keep the subject centered with head and upper body clearly visible.
+
 ## Check-in workflows
 
 Use `Checkin` for event-day signoff and cancellation control.
