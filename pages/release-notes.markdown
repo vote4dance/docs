@@ -15,6 +15,14 @@ nav_order: 10
 {:toc}
 
 ---
+## 2026-03-07
+ 🛠️ **Improvements**
+* Schedule heats are now available without subscription
+* Judge pin code timout changed from 5 to 10 minutes
+* Supervisor fix for marks not being visible during round
+* Manager round result footer show mark summary below correct judge
+* Public schedule show team org
+
 ## 2026-03-05
  🛠️ **Improvements**
 * New public page
