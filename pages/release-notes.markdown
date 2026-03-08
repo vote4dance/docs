@@ -15,6 +15,14 @@ nav_order: 10
 {:toc}
 
 ---
+## 2026-03-08
+ 🛠️ **Improvements**
+* Live results are now available without subscription
+* Notifications for premium favorites and results
+* Screens with flags fix for invalid country codes
+* Judges now see all trainee judge scores
+* Public web users can help bug report from menu
+
 ## 2026-03-07
  🛠️ **Improvements**
 * Schedule heats are now available without subscription
