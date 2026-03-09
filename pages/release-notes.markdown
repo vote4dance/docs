@@ -15,6 +15,11 @@ nav_order: 10
 {:toc}
 
 ---
+## 2026-03-09
+ 🛠️ **Improvements**
+* Event pages fixed problem where some judges could not see button
+* Fix for judge PIN sometimes not being accepted
+
 ## 2026-03-08
  🛠️ **Improvements**
 * Live results are now available without subscription
