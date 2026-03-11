@@ -15,6 +15,13 @@ nav_order: 10
 {:toc}
 
 ---
+## 2026-03-11
+ 🛠️ **Improvements**
+* Manager display judges and screens connectivity
+* Connectivity update (core)
+* Upgrade frontend library
+* API remove unused code from legacy apps
+
 ## 2026-03-09
  🛠️ **Improvements**
 * Event pages fixed problem where some judges could not see button
