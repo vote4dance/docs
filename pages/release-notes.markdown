@@ -5,16 +5,22 @@ permalink: /release-notes/
 nav_order: 10
 ---
 
-<h1>Release notes</h1>
-{: .no_toc }
+# Release notes
 
-## Table of Contents
-{: .no_toc .text-delta }
+## 2026-03-16
+ 🛠️ **Improvements**
+* Session timeout is now 30 days
+* Support Paper redance
+* App/web display target round in schedule
+* App/web can search teams by org or city
+* App/web collect stars results hidden
+* App/web display judging panels
+* Manager can see battery status of judges (when supported)
+* Manager support judging panels in redance and sub rounds
+* Manager fix for accidentally sending teams to wrong class
+* Judging partial (TCI) performance improvment
+* Jack'n'Jill support multiple child rounds
 
-1. TOC
-{:toc}
-
----
 ## 2026-03-11
  🛠️ **Improvements**
 * Manager display judges and screens connectivity
