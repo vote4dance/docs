@@ -7,6 +7,13 @@ nav_order: 10
 
 # Release notes
 
+## 2026-03-19
+ 🛠️ **Improvements**
+* Public results fix for cancelled teams not being strike through
+* Public redirect for older links restored
+* Public detailed schedule times restored toggle
+* Judging DEMO did not update placements for TCI correctly
+
 ## 2026-03-16
  🛠️ **Improvements**
 * Session timeout is now 30 days
