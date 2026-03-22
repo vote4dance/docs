@@ -80,7 +80,7 @@ Event-level audience controls:
 - `Screens`: manage display endpoints and media
 - `Voting`: enable/disable audience voting
 - `Live`: control public live/result visibility behavior
-- `Sponsors`: sponsor setup if enabled for your environment
+- `Sponsors`: sponsor setup and sales if enabled for your environment. See [Sponsors guide](/manager-guide/sponsors/).
 
 ## Event setup done checklist
 

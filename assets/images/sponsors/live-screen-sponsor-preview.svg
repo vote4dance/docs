@@ -1,0 +1,59 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="frameBg" x1="40" y1="24" x2="1160" y2="696" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5B21B6"/>
+      <stop offset="0.42" stop-color="#3B0764"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="screenBg" x1="44" y1="44" x2="1156" y2="676" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A1131"/>
+      <stop offset="0.58" stop-color="#26163D"/>
+      <stop offset="1" stop-color="#3D2358"/>
+    </linearGradient>
+    <linearGradient id="sponsorBar" x1="92" y1="548" x2="1108" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#46466A"/>
+      <stop offset="1" stop-color="#3B3B5E"/>
+    </linearGradient>
+    <filter id="shadow" x="14" y="14" width="1172" height="692" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#0F172A" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="720" rx="36" fill="#E2E8F0"/>
+  <g filter="url(#shadow)">
+    <rect x="24" y="24" width="1152" height="672" rx="34" fill="url(#frameBg)"/>
+    <rect x="44" y="44" width="1112" height="632" rx="18" fill="url(#screenBg)"/>
+    <rect x="46" y="46" width="1108" height="628" rx="16" fill="none" stroke="white" stroke-opacity="0.14" stroke-width="2"/>
+
+    <circle cx="242" cy="112" r="82" fill="#A855F7" fill-opacity="0.14"/>
+    <circle cx="1066" cy="88" r="72" fill="#F472B6" fill-opacity="0.16"/>
+    <circle cx="738" cy="168" r="44" fill="#F9A8D4" fill-opacity="0.18"/>
+    <circle cx="954" cy="242" r="34" fill="#FDE68A" fill-opacity="0.14"/>
+    <circle cx="520" cy="336" r="52" fill="#C084FC" fill-opacity="0.14"/>
+    <circle cx="894" cy="430" r="40" fill="#A855F7" fill-opacity="0.12"/>
+
+    <rect x="74" y="72" width="812" height="56" rx="10" fill="white" fill-opacity="0.07" stroke="white" stroke-opacity="0.16" stroke-width="2"/>
+    <rect x="96" y="88" width="620" height="22" rx="11" fill="white" fill-opacity="0.82"/>
+    <rect x="1000" y="86" width="110" height="40" rx="6" fill="#F472B6"/>
+    <rect x="1018" y="98" width="74" height="16" rx="8" fill="white" fill-opacity="0.92"/>
+
+    <rect x="74" y="154" width="1032" height="94" rx="10" fill="white" fill-opacity="0.04" stroke="white" stroke-opacity="0.14" stroke-width="2"/>
+    <rect x="74" y="248" width="1032" height="94" rx="10" fill="white" fill-opacity="0.04" stroke="white" stroke-opacity="0.14" stroke-width="2"/>
+    <rect x="74" y="342" width="1032" height="94" rx="10" fill="white" fill-opacity="0.04" stroke="white" stroke-opacity="0.14" stroke-width="2"/>
+    <rect x="96" y="194" width="44" height="26" rx="13" fill="white" fill-opacity="0.84"/>
+    <rect x="164" y="194" width="312" height="26" rx="13" fill="white" fill-opacity="0.84"/>
+    <rect x="96" y="288" width="44" height="26" rx="13" fill="white" fill-opacity="0.84"/>
+    <rect x="164" y="288" width="276" height="26" rx="13" fill="white" fill-opacity="0.84"/>
+    <rect x="96" y="382" width="44" height="26" rx="13" fill="white" fill-opacity="0.84"/>
+    <rect x="164" y="382" width="298" height="26" rx="13" fill="white" fill-opacity="0.84"/>
+
+    <rect x="96" y="548" width="1008" height="118" rx="22" fill="url(#sponsorBar)"/>
+    <rect x="96.75" y="548.75" width="1006.5" height="116.5" rx="21.25" stroke="#818CF8" stroke-opacity="0.24" stroke-width="1.5"/>
+    <rect x="126" y="572" width="74" height="74" rx="10" fill="white" fill-opacity="0.08"/>
+    <rect x="138" y="584" width="50" height="50" rx="8" fill="white" fill-opacity="0.12"/>
+    <text x="163" y="603" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="700" text-anchor="middle">LOGO</text>
+    <text x="163" y="620" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="700" text-anchor="middle">SAMPLE</text>
+    <text x="226" y="598" fill="white" fill-opacity="0.72" font-family="Arial, sans-serif" font-size="15" font-weight="600">Class / Featured sponsor</text>
+    <text x="226" y="636" fill="white" font-family="Arial, sans-serif" font-size="26" font-weight="700">Sponsor Name</text>
+  </g>
+</svg>
