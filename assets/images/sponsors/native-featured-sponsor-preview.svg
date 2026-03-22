@@ -1,0 +1,92 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="78" y1="42" x2="1128" y2="678" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8F7FF"/>
+      <stop offset="0.56" stop-color="#EEE8FF"/>
+      <stop offset="1" stop-color="#FFE9D8"/>
+    </linearGradient>
+    <linearGradient id="shell" x1="438" y1="52" x2="762" y2="668" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="468" y1="104" x2="732" y2="616" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12192F"/>
+      <stop offset="0.58" stop-color="#232B49"/>
+      <stop offset="1" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="482" y1="132" x2="718" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#123047"/>
+      <stop offset="1" stop-color="#4F6D8B"/>
+    </linearGradient>
+    <linearGradient id="leftCard" x1="482" y1="300" x2="594" y2="432" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6A2B61"/>
+      <stop offset="1" stop-color="#47386C"/>
+    </linearGradient>
+    <linearGradient id="rightCard" x1="606" y1="300" x2="718" y2="432" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#324C76"/>
+      <stop offset="1" stop-color="#4A3A66"/>
+    </linearGradient>
+    <filter id="shadow" x="398" y="28" width="404" height="692" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="26" stdDeviation="20" flood-color="#0F172A" flood-opacity="0.26"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" rx="36" fill="url(#bg)"/>
+  <circle cx="136" cy="118" r="88" fill="white" fill-opacity="0.54"/>
+  <circle cx="1086" cy="114" r="106" fill="white" fill-opacity="0.34"/>
+  <circle cx="1048" cy="600" r="134" fill="white" fill-opacity="0.22"/>
+
+  <rect x="78" y="74" width="286" height="58" rx="29" fill="white" fill-opacity="0.82"/>
+  <text x="110" y="111" fill="#1E3A8A" font-family="Arial, sans-serif" font-size="28" font-weight="700">Native App Preview</text>
+  <text x="78" y="180" fill="#475569" font-family="Arial, sans-serif" font-size="26" font-weight="700">Featured sponsor placement</text>
+  <text fill="#64748B" font-family="Arial, sans-serif" font-size="19">
+    <tspan x="78" y="214">Same canvas, now with a narrower</tspan>
+    <tspan x="78" y="238">phone body.</tspan>
+  </text>
+
+  <text x="850" y="180" fill="#475569" font-family="Arial, sans-serif" font-size="24" font-weight="700">Dual mobile spotlight</text>
+  <text fill="#64748B" font-family="Arial, sans-serif" font-size="19">
+    <tspan x="850" y="214">Two featured packages highlighted</tspan>
+    <tspan x="850" y="238">inside the app.</tspan>
+  </text>
+
+  <g filter="url(#shadow)">
+    <rect x="438" y="52" width="324" height="616" rx="56" fill="url(#shell)"/>
+    <rect x="456" y="70" width="288" height="580" rx="42" fill="#020617"/>
+    <rect x="546" y="84" width="108" height="18" rx="9" fill="#0F172A"/>
+    <rect x="468" y="104" width="264" height="512" rx="32" fill="url(#screen)"/>
+
+    <rect x="482" y="132" width="236" height="96" rx="24" fill="url(#hero)"/>
+    <rect x="504" y="166" width="112" height="16" rx="8" fill="white" fill-opacity="0.9"/>
+    <rect x="504" y="192" width="92" height="10" rx="5" fill="white" fill-opacity="0.64"/>
+    <circle cx="674" cy="168" r="34" fill="white" fill-opacity="0.14"/>
+    <rect x="644" y="186" width="58" height="20" rx="10" fill="white" fill-opacity="0.22"/>
+
+    <rect x="482" y="246" width="236" height="22" rx="11" fill="white" fill-opacity="0.1"/>
+    <rect x="500" y="252" width="48" height="10" rx="5" fill="white" fill-opacity="0.62"/>
+    <rect x="564" y="252" width="76" height="10" rx="5" fill="#F472B6" fill-opacity="0.72"/>
+
+    <rect x="482" y="286" width="110" height="150" rx="24" fill="url(#leftCard)"/>
+    <rect x="482.75" y="286.75" width="108.5" height="148.5" rx="23.25" stroke="#C084FC" stroke-opacity="0.34" stroke-width="1.5"/>
+    <rect x="498" y="304" width="56" height="38" rx="12" fill="white" fill-opacity="0.96"/>
+    <rect x="508" y="316" width="36" height="12" rx="6" fill="#FDE68A"/>
+    <text x="526" y="325" fill="#7C2D12" font-family="Arial, sans-serif" font-size="7" font-weight="700" text-anchor="middle">LOGO</text>
+    <text x="498" y="370" fill="white" fill-opacity="0.66" font-family="Arial, sans-serif" font-size="10" font-weight="700">FEATURED</text>
+    <text x="498" y="396" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="700">Sponsor</text>
+    <text x="498" y="418" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="700">Name</text>
+
+    <rect x="608" y="286" width="110" height="150" rx="24" fill="url(#rightCard)"/>
+    <rect x="608.75" y="286.75" width="108.5" height="148.5" rx="23.25" stroke="#93C5FD" stroke-opacity="0.34" stroke-width="1.5"/>
+    <rect x="624" y="304" width="56" height="38" rx="12" fill="white" fill-opacity="0.96"/>
+    <rect x="634" y="316" width="36" height="12" rx="6" fill="#BFDBFE"/>
+    <text x="652" y="325" fill="#1E3A8A" font-family="Arial, sans-serif" font-size="7" font-weight="700" text-anchor="middle">LOGO</text>
+    <text x="624" y="370" fill="white" fill-opacity="0.66" font-family="Arial, sans-serif" font-size="10" font-weight="700">FEATURED</text>
+    <text x="624" y="396" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="700">Sponsor</text>
+    <text x="624" y="418" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="700">Name</text>
+
+    <rect x="482" y="456" width="236" height="72" rx="20" fill="white" fill-opacity="0.08"/>
+    <rect x="500" y="478" width="70" height="10" rx="5" fill="white" fill-opacity="0.62"/>
+    <rect x="500" y="504" width="156" height="12" rx="6" fill="white" fill-opacity="0.82"/>
+
+    <rect x="552" y="632" width="96" height="6" rx="3" fill="#E2E8F0" fill-opacity="0.62"/>
+  </g>
+</svg>

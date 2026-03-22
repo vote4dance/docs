@@ -88,6 +88,8 @@ Current usage:
 
 ![Main sponsor on public event page](/assets/images/sponsors/main-sponsor-preview.svg)
 
+![Main sponsor in native app](/assets/images/sponsors/native-main-sponsor-preview.svg)
+
 ![Main sponsor on result screen](/assets/images/sponsors/result-screen-main-sponsor-preview.svg)
 
 ![Main sponsor on schedule screen](/assets/images/sponsors/schedule-screen-main-sponsor-preview.svg)
@@ -108,6 +110,8 @@ Current usage:
 
 ![Featured sponsor on public event page](/assets/images/sponsors/featured-sponsor-preview.svg)
 
+![Featured sponsor in native app](/assets/images/sponsors/native-featured-sponsor-preview.svg)
+
 ![Featured sponsor on live screen](/assets/images/sponsors/live-screen-sponsor-preview.svg)
 
 ![Featured sponsor on sponsor screen](/assets/images/sponsors/sponsor-screen-featured-sponsor-preview.svg)
@@ -126,6 +130,8 @@ Current usage:
 
 ![Class sponsor in public sponsor list](/assets/images/sponsors/public-sponsor-list-preview.svg)
 
+![Class sponsor in native app](/assets/images/sponsors/native-public-sponsor-list-preview.svg)
+
 ![Class sponsor in sponsor list](/assets/images/sponsors/sponsor-list-preview.svg)
 
 ![Class sponsor on live screen](/assets/images/sponsors/live-screen-sponsor-preview.svg)
@@ -143,6 +149,8 @@ Current usage:
 
 ![Competition sponsor in public sponsor list](/assets/images/sponsors/public-sponsor-list-preview.svg)
 
+![Competition sponsor in native app](/assets/images/sponsors/native-public-sponsor-list-preview.svg)
+
 ![Competition sponsor in sponsor list](/assets/images/sponsors/sponsor-list-preview.svg)
 
 ### Bonus Sponsor
@@ -156,6 +164,8 @@ Current usage:
 - Public sponsor list placement
 
 ![Bonus sponsor in public sponsor list](/assets/images/sponsors/public-sponsor-list-preview.svg)
+
+![Bonus sponsor in native app](/assets/images/sponsors/native-public-sponsor-list-preview.svg)
 
 ## Pricing guidance
 
