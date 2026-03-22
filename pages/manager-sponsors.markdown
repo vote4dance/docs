@@ -130,7 +130,11 @@ Current usage:
 
 ![Class sponsor in public sponsor list](/assets/images/sponsors/public-sponsor-list-preview.svg)
 
+![Class sponsor on web result page](/assets/images/sponsors/class-sponsor-results-preview.svg)
+
 ![Class sponsor in native app](/assets/images/sponsors/native-public-sponsor-list-preview.svg)
+
+![Class sponsor on native result page](/assets/images/sponsors/native-class-sponsor-results-preview.svg)
 
 ![Class sponsor in sponsor list](/assets/images/sponsors/sponsor-list-preview.svg)
 

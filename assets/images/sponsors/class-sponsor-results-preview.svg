@@ -1,0 +1,110 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pageBg" x1="64" y1="24" x2="1136" y2="696" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#19192B"/>
+      <stop offset="0.58" stop-color="#23233E"/>
+      <stop offset="1" stop-color="#30224A"/>
+    </linearGradient>
+    <linearGradient id="heroLeft" x1="60" y1="118" x2="596" y2="304" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B2136"/>
+      <stop offset="1" stop-color="#475569"/>
+    </linearGradient>
+    <linearGradient id="heroRight" x1="596" y1="118" x2="1140" y2="304" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#293246"/>
+      <stop offset="0.56" stop-color="#5C6B84"/>
+      <stop offset="1" stop-color="#D8E1EC"/>
+    </linearGradient>
+    <linearGradient id="sponsorCard" x1="44" y1="386" x2="1156" y2="386" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B3558"/>
+      <stop offset="1" stop-color="#31314E"/>
+    </linearGradient>
+    <linearGradient id="resultsCard" x1="44" y1="566" x2="1156" y2="566" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#37334F"/>
+      <stop offset="1" stop-color="#2F324A"/>
+    </linearGradient>
+    <linearGradient id="sponsorItemLeft" x1="78" y1="430" x2="590" y2="466" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5B2D58"/>
+      <stop offset="1" stop-color="#3D4C6D"/>
+    </linearGradient>
+    <linearGradient id="sponsorItemRight" x1="610" y1="430" x2="1122" y2="466" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#384B73"/>
+      <stop offset="1" stop-color="#54406D"/>
+    </linearGradient>
+    <linearGradient id="resultRow" x1="78" y1="552" x2="1122" y2="606" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4B455F"/>
+      <stop offset="1" stop-color="#45536B"/>
+    </linearGradient>
+    <filter id="drop" x="14" y="78" width="1172" height="254" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#020617" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="720" rx="36" fill="#E2E8F0"/>
+  <rect x="24" y="24" width="1152" height="672" rx="32" fill="url(#pageBg)"/>
+
+  <rect x="62" y="50" width="192" height="22" rx="11" fill="white" fill-opacity="0.18"/>
+  <rect x="312" y="52" width="86" height="16" rx="8" fill="white" fill-opacity="0.22"/>
+  <rect x="430" y="52" width="128" height="16" rx="8" fill="white" fill-opacity="0.22"/>
+  <rect x="1030" y="52" width="86" height="16" rx="8" fill="white" fill-opacity="0.22"/>
+  <rect x="40" y="88" width="1120" height="2" rx="1" fill="white" fill-opacity="0.14"/>
+
+  <g filter="url(#drop)">
+    <rect x="40" y="114" width="1120" height="208" rx="32" fill="#1B1632"/>
+    <path d="M40 146C40 128.327 54.3269 114 72 114H596V322H72C54.3269 322 40 307.673 40 290V146Z" fill="url(#heroLeft)"/>
+    <path d="M596 114H1128C1145.67 114 1160 128.327 1160 146V290C1160 307.673 1145.67 322 1128 322H596V114Z" fill="url(#heroRight)"/>
+    <rect x="58" y="132" width="1084" height="172" rx="24" fill="none" stroke="white" stroke-opacity="0.08" stroke-width="2"/>
+
+    <circle cx="212" cy="176" r="50" fill="#94A3B8" fill-opacity="0.1"/>
+    <circle cx="336" cy="234" r="36" fill="#CBD5E1" fill-opacity="0.12"/>
+    <rect x="84" y="172" width="244" height="20" rx="10" fill="white" fill-opacity="0.9"/>
+    <rect x="84" y="202" width="216" height="12" rx="6" fill="white" fill-opacity="0.7"/>
+    <rect x="84" y="228" width="158" height="10" rx="5" fill="white" fill-opacity="0.5"/>
+
+    <circle cx="960" cy="170" r="88" fill="white" fill-opacity="0.16"/>
+    <circle cx="874" cy="214" r="62" fill="white" fill-opacity="0.12"/>
+    <rect x="760" y="150" width="254" height="28" rx="14" fill="white" fill-opacity="0.24"/>
+    <rect x="744" y="194" width="286" height="60" rx="20" fill="white" fill-opacity="0.34"/>
+  </g>
+
+  <rect x="44" y="350" width="112" height="14" rx="7" fill="white" fill-opacity="0.7"/>
+  <rect x="176" y="350" width="84" height="14" rx="7" fill="#F472B6"/>
+  <rect x="286" y="350" width="96" height="14" rx="7" fill="white" fill-opacity="0.7"/>
+  <rect x="176" y="374" width="84" height="3" rx="1.5" fill="#F472B6"/>
+
+  <rect x="44" y="390" width="1112" height="92" rx="18" fill="url(#sponsorCard)"/>
+  <rect x="44.75" y="390.75" width="1110.5" height="90.5" rx="17.25" stroke="white" stroke-opacity="0.12" stroke-width="1.5"/>
+  <text x="78" y="420" fill="white" fill-opacity="0.66" font-family="Arial, sans-serif" font-size="13" font-weight="700">CLASS SPONSORS</text>
+
+  <rect x="78" y="430" width="512" height="36" rx="16" fill="url(#sponsorItemLeft)"/>
+  <rect x="78.75" y="430.75" width="510.5" height="34.5" rx="15.25" stroke="#F472B6" stroke-opacity="0.4" stroke-width="1.5"/>
+  <rect x="94" y="436" width="52" height="24" rx="8" fill="white" fill-opacity="0.94"/>
+  <rect x="106" y="441" width="28" height="14" rx="7" fill="#FDE68A"/>
+  <text x="120" y="451" fill="#7C2D12" font-family="Arial, sans-serif" font-size="6" font-weight="700" text-anchor="middle">LOGO</text>
+  <text x="166" y="452" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="700">Sponsor Name</text>
+
+  <rect x="610" y="430" width="512" height="36" rx="16" fill="url(#sponsorItemRight)"/>
+  <rect x="610.75" y="430.75" width="510.5" height="34.5" rx="15.25" stroke="#93C5FD" stroke-opacity="0.4" stroke-width="1.5"/>
+  <rect x="626" y="436" width="52" height="24" rx="8" fill="white" fill-opacity="0.94"/>
+  <rect x="638" y="441" width="28" height="14" rx="7" fill="#BFDBFE"/>
+  <text x="652" y="451" fill="#1E3A8A" font-family="Arial, sans-serif" font-size="6" font-weight="700" text-anchor="middle">LOGO</text>
+  <text x="698" y="452" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="700">Sponsor Name</text>
+
+  <rect x="44" y="506" width="1112" height="152" rx="18" fill="url(#resultsCard)"/>
+  <rect x="44.75" y="506.75" width="1110.5" height="150.5" rx="17.25" stroke="white" stroke-opacity="0.12" stroke-width="1.5"/>
+  <text x="78" y="538" fill="white" font-family="Arial, sans-serif" font-size="22" font-weight="700">Class Results</text>
+
+  <rect x="78" y="554" width="1044" height="24" rx="12" fill="url(#resultRow)"/>
+  <rect x="94" y="560" width="92" height="12" rx="6" fill="white" fill-opacity="0.9"/>
+  <rect x="248" y="558" width="132" height="16" rx="8" fill="white" fill-opacity="0.86"/>
+  <rect x="898" y="560" width="82" height="12" rx="6" fill="white" fill-opacity="0.7"/>
+
+  <rect x="78" y="590" width="1044" height="24" rx="12" fill="url(#resultRow)"/>
+  <rect x="94" y="596" width="84" height="12" rx="6" fill="white" fill-opacity="0.9"/>
+  <rect x="248" y="594" width="168" height="16" rx="8" fill="#FDE68A"/>
+  <rect x="898" y="596" width="96" height="12" rx="6" fill="#BFDBFE"/>
+
+  <rect x="78" y="626" width="1044" height="24" rx="12" fill="url(#resultRow)"/>
+  <rect x="94" y="632" width="72" height="12" rx="6" fill="white" fill-opacity="0.9"/>
+  <rect x="248" y="630" width="146" height="16" rx="8" fill="#DDD6FE"/>
+  <rect x="898" y="632" width="88" height="12" rx="6" fill="white" fill-opacity="0.68"/>
+</svg>
