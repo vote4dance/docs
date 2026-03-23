@@ -7,6 +7,10 @@ nav_order: 10
 
 # Release notes
 
+## 2026-03-23
+ 🛠️ **Improvements**
+* Sponsor support now released
+
 ## 2026-03-19
  🛠️ **Improvements**
 * Public results fix for cancelled teams not being strike through
