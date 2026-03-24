@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-03-24
+ 🛠️ **Improvements**
+* Should show marks exception for ND in results
 
 ## 2026-03-23
  🛠️ **Improvements**
