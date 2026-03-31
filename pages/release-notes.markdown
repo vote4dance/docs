@@ -6,6 +6,18 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-03-31
+ 🛠️ **Improvements**
+* Judging: DSF - Show acro level name when they differ
+* Judging: Partial judging summary take multiplier factor into account
+* Judging: Fixed so judges can order cafe products
+* Home: Show icon for unpublished in my competition
+* Home: Result sort teams by number or plac take hide marks into account
+* Screens: Pop when fading between screens fixed
+* Manager: Improved battery indicator
+* Manager: Print schedule remove duplicated round name
+* Cockie consent banner
+
 ## 2026-03-24
  🛠️ **Improvements**
 * Should show marks exception for ND in results
