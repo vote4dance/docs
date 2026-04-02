@@ -6,6 +6,14 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-04-02
+ 🛠️ **Improvements**
+* App: Font size scaling for accessibility
+* App: Show team show name for participants
+* App: Fixed problem with team favorite list being cut off
+* Manager: Block class switch when there are results
+* Sponsors: Corrected problem with payment for functionary
+
 ## 2026-03-31
  🛠️ **Improvements**
 * Judging: DSF - Show acro level name when they differ
