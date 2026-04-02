@@ -1,0 +1,84 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="78" y1="42" x2="1128" y2="678" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E7F3FF"/>
+      <stop offset="0.56" stop-color="#F4E8FF"/>
+      <stop offset="1" stop-color="#FFECD8"/>
+    </linearGradient>
+    <linearGradient id="shell" x1="438" y1="52" x2="762" y2="668" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="468" y1="104" x2="732" y2="616" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151B31"/>
+      <stop offset="0.58" stop-color="#252B47"/>
+      <stop offset="1" stop-color="#394153"/>
+    </linearGradient>
+    <linearGradient id="sponsorRow" x1="486" y1="220" x2="714" y2="324" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#533059"/>
+      <stop offset="1" stop-color="#38516F"/>
+    </linearGradient>
+    <filter id="shadow" x="398" y="28" width="404" height="692" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="26" stdDeviation="20" flood-color="#0F172A" flood-opacity="0.26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="720" rx="36" fill="url(#bg)"/>
+  <circle cx="126" cy="118" r="88" fill="white" fill-opacity="0.54"/>
+  <circle cx="1086" cy="116" r="106" fill="white" fill-opacity="0.34"/>
+  <circle cx="1056" cy="600" r="138" fill="white" fill-opacity="0.22"/>
+
+  <rect x="78" y="74" width="286" height="58" rx="29" fill="white" fill-opacity="0.82"/>
+  <text x="110" y="111" fill="#1E3A8A" font-family="Arial, sans-serif" font-size="28" font-weight="700">Native App Preview</text>
+  <text x="78" y="180" fill="#475569" font-family="Arial, sans-serif" font-size="26" font-weight="700">Class sponsor result page</text>
+  <text fill="#64748B" font-family="Arial, sans-serif" font-size="19">
+    <tspan x="78" y="214">Compact sponsor rows shown above</tspan>
+    <tspan x="78" y="238">class results in the native app.</tspan>
+  </text>
+
+  <text x="850" y="180" fill="#475569" font-family="Arial, sans-serif" font-size="24" font-weight="700">Result screen sponsor list</text>
+  <text fill="#64748B" font-family="Arial, sans-serif" font-size="19">
+    <tspan x="850" y="214">Up to two class sponsors appear first,</tspan>
+    <tspan x="850" y="238">followed by the mobile result view.</tspan>
+  </text>
+
+  <g filter="url(#shadow)">
+    <rect x="438" y="52" width="324" height="616" rx="56" fill="url(#shell)"/>
+    <rect x="456" y="70" width="288" height="580" rx="42" fill="#020617"/>
+    <rect x="546" y="84" width="108" height="18" rx="9" fill="#0F172A"/>
+    <rect x="468" y="104" width="264" height="512" rx="32" fill="url(#screen)"/>
+
+    <rect x="486" y="136" width="228" height="34" rx="14" fill="white" fill-opacity="0.08"/>
+    <text x="504" y="158" fill="white" fill-opacity="0.62" font-family="Arial, sans-serif" font-size="10" font-weight="700">CLASS SPONSORS</text>
+
+    <rect x="486" y="184" width="228" height="30" rx="14" fill="url(#sponsorRow)"/>
+    <rect x="486.75" y="184.75" width="226.5" height="28.5" rx="13.25" stroke="#F472B6" stroke-opacity="0.45" stroke-width="1.5"/>
+    <rect x="500" y="190" width="22" height="18" rx="8" fill="white" fill-opacity="0.94"/>
+    <rect x="505" y="196" width="12" height="6" rx="3" fill="#FDE68A"/>
+    <text x="511" y="201" fill="#7C2D12" font-family="Arial, sans-serif" font-size="3.5" font-weight="700" text-anchor="middle">LOGO</text>
+    <text x="536" y="202" fill="white" font-family="Arial, sans-serif" font-size="11" font-weight="700">Sponsor Name</text>
+
+    <rect x="486" y="226" width="228" height="30" rx="14" fill="url(#sponsorRow)"/>
+    <rect x="486.75" y="226.75" width="226.5" height="28.5" rx="13.25" stroke="#93C5FD" stroke-opacity="0.45" stroke-width="1.5"/>
+    <rect x="500" y="232" width="22" height="18" rx="8" fill="white" fill-opacity="0.94"/>
+    <rect x="505" y="238" width="12" height="6" rx="3" fill="#BFDBFE"/>
+    <text x="511" y="243" fill="#1E3A8A" font-family="Arial, sans-serif" font-size="3.5" font-weight="700" text-anchor="middle">LOGO</text>
+    <text x="536" y="244" fill="white" font-family="Arial, sans-serif" font-size="11" font-weight="700">Sponsor Name</text>
+
+    <text x="496" y="314" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="700">Class Results</text>
+    <rect x="496" y="328" width="88" height="8" rx="4" fill="white" fill-opacity="0.5"/>
+
+    <rect x="486" y="364" width="228" height="34" rx="14" fill="white" fill-opacity="0.08"/>
+    <rect x="504" y="377" width="72" height="8" rx="4" fill="white" fill-opacity="0.68"/>
+    <rect x="614" y="377" width="54" height="8" rx="4" fill="white" fill-opacity="0.68"/>
+
+    <rect x="486" y="410" width="228" height="40" rx="14" fill="white" fill-opacity="0.1"/>
+    <rect x="504" y="426" width="84" height="10" rx="5" fill="#FDE68A"/>
+    <rect x="624" y="426" width="48" height="10" rx="5" fill="#BFDBFE"/>
+
+    <rect x="486" y="468" width="228" height="24" rx="12" fill="white" fill-opacity="0.06"/>
+    <rect x="486" y="506" width="228" height="24" rx="12" fill="white" fill-opacity="0.06"/>
+
+    <rect x="552" y="632" width="96" height="6" rx="3" fill="#E2E8F0" fill-opacity="0.62"/>
+  </g>
+</svg>

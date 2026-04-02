@@ -6,6 +6,14 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-04-02
+ 🛠️ **Improvements**
+* App: Font size scaling for accessibility
+* App: Show team show name for participants
+* App: Fixed problem with team favorite list being cut off
+* Manager: Block class switch when there are results
+* Sponsors: Corrected problem with payment for functionary
+
 ## 2026-03-31
  🛠️ **Improvements**
 * Federation license workflows documented and aligned with the current product behavior: [Federation Licenses](/federation-licenses/)
@@ -22,6 +30,23 @@ nav_order: 10
   * federation-level `State` is now `Representation`
   * issuer role is managed from `Organizations`
 * Public ranking docs now include included-class and ranking-policy validation guidance
+* Judging: DSF - Show acro level name when they differ
+* Judging: Partial judging summary take multiplier factor into account
+* Judging: Fixed so judges can order cafe products
+* Home: Show icon for unpublished in my competition
+* Home: Result sort teams by number or plac take hide marks into account
+* Screens: Pop when fading between screens fixed
+* Manager: Improved battery indicator
+* Manager: Print schedule remove duplicated round name
+* Cockie consent banner
+
+## 2026-03-24
+ 🛠️ **Improvements**
+* Should show marks exception for ND in results
+
+## 2026-03-23
+ 🛠️ **Improvements**
+* Sponsor support now released
 
 ## 2026-03-19
  🛠️ **Improvements**
