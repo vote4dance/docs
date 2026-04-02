@@ -37,6 +37,7 @@ A federation ranking combines:
 - one `division`
 - one ranking profile
 - one or more included federation classes
+- the resolved federation ranking license policy
 - published standings
 - optional manual corrections
 
@@ -47,9 +48,10 @@ Follow this order when working with federation rankings:
 1. Confirm the division structure is correct
 2. Create the ranking inside the correct division
 3. Add the federation classes that should feed the ranking
-4. Review the published standings
-5. Apply manual corrections if needed
-6. Verify the public ranking page in the same division
+4. Confirm the resolved ranking license policy matches what the federation expects
+5. Review the published standings
+6. Apply manual corrections if needed
+7. Verify the public ranking page in the same division
 
 ## Common mistakes
 
@@ -57,5 +59,6 @@ Most ranking problems come from one of these:
 
 - the ranking was created in the wrong division
 - the needed federation classes were not added to the ranking
+- the ranking license policy was assumed instead of checked
 - someone expected the ranking to be federation-wide instead of division-specific
 - a manual correction was applied to the wrong division ranking

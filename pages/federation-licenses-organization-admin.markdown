@@ -25,8 +25,22 @@ Make sure all of this is true before you try to apply:
 3. The person is already a member of the organization in Vote4Dance
 4. If the selected license item requires an issuer organization, the organization is already an approved issuer
 5. The federation has already connected its Stripe account if organization-paid Stripe checkout will be used
+6. The organization federation connection was already created from `Organization -> Federation`
 
 If any of these are missing, stop and ask federation admin to fix them first.
+
+## How the organization gets here
+
+The latest workflow starts on a different page:
+
+1. Open `Organization`
+2. Open `Federation`
+3. Apply the organization to the federation
+4. Wait for federation approval
+5. Wait for separate issuer approval if the federation requires the organization to issue licenses
+6. Only then continue on `Licenses`
+
+If the federation connection is missing or still pending, the organization license flow is not ready yet.
 
 ## 1. Submit a license application
 
@@ -48,6 +62,7 @@ What success looks like:
 - the row normally starts as `pending` or `draft`
 - the row shows the correct `payer type`
 - the row shows the correct `payment status`
+- the row may still require federation-side approval after payment
 
 What to do next:
 
@@ -170,6 +185,7 @@ Do not delete a paid application. Ask federation admin to correct it instead.
 - the page supports Stripe payment for organization-paid rows
 - invoice-style or fallback-liability handling still needs admin process outside this page
 - the organization does not choose which Stripe account receives funds; payout always goes to the federation connected account
+- if a hybrid workflow produces a self-paid row, that payment must be completed from the dancer side instead
 
 ## If the workflow is unclear
 
@@ -180,3 +196,4 @@ What still requires federation guidance:
 - which license item to choose for each branch
 - when a dancer should use self-service instead
 - how unpaid-but-approved exceptions should be handled outside the direct Stripe path
+- when the organization is allowed to issue licenses directly versus only submit them for federation review

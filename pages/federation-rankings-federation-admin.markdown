@@ -36,6 +36,7 @@ Use the division ranking page when you need to:
 - rename a ranking
 - change ranking settings
 - change ranking order
+- import or refresh ranking data for that ranking profile
 
 ### 3. Add the right federation classes
 
@@ -59,6 +60,7 @@ Use it to:
 - select a ranking profile
 - inspect included classes
 - inspect published standings
+- inspect the resolved ranking license policy
 - inspect existing corrections
 
 The page now requires a division selection before a ranking profile can be opened.
@@ -81,6 +83,7 @@ After changes, open the public ranking page for the same division and verify:
 
 - the ranking appears in the correct division list
 - the standings look correct
+- the ranking license policy tag is correct
 - any correction is reflected as expected
 
 ## What success looks like

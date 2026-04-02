@@ -25,11 +25,12 @@ This page is the control center for:
 - payment and approval review
 - federation Stripe payout setup
 
-The full federation admin license workflow now spans three places:
+The full federation admin license workflow now spans four places:
 
 1. `Licenses` for issued licenses and license items
 2. `Organizations` for issuer role on organizations
 3. `Division -> Discipline -> Class -> License rules` for accepted class products
+4. `Division -> State` for class memberships and progress, while `Organizations -> [organization]` holds representation rows
 
 You will normally use the admin license workflow for these jobs:
 
@@ -37,7 +38,8 @@ You will normally use the admin license workflow for these jobs:
 2. Define the federation's license products
 3. Decide which organizations may act as issuers when needed
 4. Decide which classes accept which products
-5. Review, approve, activate, suspend, or correct individual licenses
+5. Review representation and progression setup if it affects the workflow
+6. Review, approve, activate, suspend, or correct individual licenses
 
 ## Before you do anything
 
@@ -78,6 +80,7 @@ What success looks like:
 - license payments go to the federation connected Stripe account
 - Vote4Dance keeps a `5%` fee
 - if the federation is not connected, org-paid and self-paid license checkout cannot start
+- hybrid payer setups still settle into the federation Stripe account
 
 ## 2. Manage issued licenses
 
@@ -101,6 +104,7 @@ The list now shows:
 - season
 - payment status
 - payer type
+- application source when present
 - item, division, organization, validity, competition, payment references, and approval timestamps when present
 
 Use this list when you need to:
@@ -110,6 +114,7 @@ Use this list when you need to:
 - manually activate a license
 - suspend or cancel an existing license
 - inspect whether a paid license still needs approval
+- inspect whether the row came from self-service, organization flow, or federation admin
 
 ### Add a license manually
 
@@ -156,6 +161,7 @@ When **not** to use manual creation:
 - `Status`: current operational state
 - `Payment status`: `unpaid`, `paid`, `invoiced`, `waived`, or `refunded`
 - `Payer type`: `self` or `organization`
+- `Application source`: where the row started, such as `self`, `organization`, or `federation_admin`
 - `Division` / `Discipline`: scope when the license is branch-specific
 - `Organization`: the organization attached to the license when organization context is needed
 - `Payer organization`: the organization carrying payment liability when used
@@ -170,6 +176,7 @@ When **not** to use manual creation:
 
 - `Payment status` tracks Vote4Dance's recorded payment state for the license
 - `Payer type` says whether the checkout should be started by the person or the organization
+- `Application source` says where the workflow started
 - Stripe checkout is only available when the federation has connected Stripe
 - a successful checkout pays into the federation Stripe account and keeps `5%` as the Vote4Dance fee
 
@@ -260,6 +267,8 @@ Use `Division -> [division] -> [discipline] -> class -> License rules` when a cl
 - different divisions or classes need different accepted products
 - you want progression checks to use the same class-specific product logic
 
+The current class rule editor only offers active license items that match the same division and discipline as the class.
+
 ### Add a class mapping
 
 1. Open `Admin -> Federation -> Division`
@@ -293,7 +302,23 @@ What success looks like:
 - the wrong class does not accept it
 - registration and progression behave as expected in testing
 
-## 5. Manage issuer role on organizations
+## 5. Manage organization approval and representation
+
+Use `Organizations` when you need to manage federation-side organization status.
+
+Current organization detail responsibilities:
+
+- approve the organization itself inside the federation
+- approve or remove `license issuer` access
+- review organization-linked licenses
+- review organization users
+- manage representation rows for the organization
+
+Representation is no longer handled as a generic federation-wide state page. It now lives with the organization that owns the representation workflow.
+
+If the federation uses transfer windows or deadlines, those rules are enforced from federation rules and shown together with the representation workflow.
+
+## 6. Manage issuer role on organizations
 
 Use `Organizations` for federations where only approved organizations may issue or approve licenses.
 
@@ -320,7 +345,19 @@ Use `Organizations` for federations where only approved organizations may issue 
 - `suspended`
 - `revoked`
 
-## 6. What federation admin should check during rollout
+## 7. Manage class memberships and progress
+
+Use `Division -> State` for division-scoped class memberships and progression rows.
+
+Use this page when you need to:
+
+- review current team memberships in federation classes
+- add or remove class membership rows
+- review or edit progress rows for a team inside that division
+
+This page is division-scoped. Representation stays on the organization detail page instead.
+
+## 8. What federation admin should check during rollout
 
 For a new federation setup, verify this sequence:
 

@@ -14,7 +14,7 @@ Location:
 
 This page is for dancers who apply for their own federation license.
 
-Use it only when the federation allows direct self-service.
+Use it only when the federation allows direct self-service or a hybrid flow where the dancer is still the payer.
 
 ## Before you start
 
@@ -25,6 +25,7 @@ Make sure this is the correct flow for you:
 3. You know the correct season year
 4. If it is a one-time or competition-scoped license, you know the competition id
 5. If the item needs organization context, you already belong to the correct organization
+6. The federation has connected Stripe if you expect a direct `Pay` button after application
 
 ## 1. Submit your own application
 
@@ -46,6 +47,7 @@ What success looks like:
 - the row shows the expected season
 - the row shows the correct item
 - the row shows `payer type = self` if you are the payer
+- the row may still stay `pending` until required approval is complete
 
 What to do next:
 
@@ -119,6 +121,8 @@ What happens after payment:
 
 If the federation has not connected Stripe yet, self-payment checkout cannot complete.
 
+If the row shows `payer type = organization`, do not expect a self-payment button on this page. The organization must continue the workflow from its own license page.
+
 If you paid but the license is still not active:
 
 - do not create a second application
@@ -145,6 +149,8 @@ If the selected item requires an approved issuer and your organization is not ap
 
 Use this only when the federation specifically allows self-service together with organization context.
 
+In a hybrid federation, this is one of the most common reasons a dancer can see a product but still not complete the full workflow alone.
+
 ## Common problems
 
 - the expected license item is missing
@@ -163,3 +169,4 @@ That means federation setup quality still matters:
 - item names must be clear
 - competition-scoped items must be labeled clearly
 - classes must be mapped correctly to accepted items
+- the federation must decide clearly whether the dancer or the organization is the payer for that item

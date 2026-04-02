@@ -59,6 +59,7 @@ The page then shows:
 - published standings
 - included federation classes
 - ranking license policy if available
+- the last calculated timestamp for the snapshot
 
 The ranking link always uses the division together with the ranking id.
 
@@ -73,6 +74,7 @@ The public view is correct when:
 - the ranking is listed under the right division
 - the standings match the intended ranking
 - only the correct division shows that ranking
+- the policy tag and included classes match the federation admin setup
 
 ## Common problems
 
@@ -97,3 +99,4 @@ Check the ranking setup in federation admin:
 - included classes
 - manual corrections
 - ranking state and privacy
+- ranking license policy
