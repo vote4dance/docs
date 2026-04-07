@@ -16,6 +16,8 @@ This page is for dancers who apply for their own federation license.
 
 Use it only when the federation allows direct self-service or a hybrid flow where the dancer is still the payer.
 
+Use [Dancer](/dancer/) first if you still need to decide whether the dancer or the school/club should start the license process.
+
 ## Before you start
 
 Make sure this is the correct flow for you:
@@ -158,15 +160,12 @@ In a hybrid federation, this is one of the most common reasons a dancer can see 
 - payment succeeded but the row is still pending
 - the organization selector does not contain the expected organization
 
-## If the workflow is unclear
+## What this page does not decide
 
-This page supports the self-service flow, but it does not tell you which product your federation expects you to choose.
+This page does not decide:
 
-But an inexperienced dancer can still choose the wrong license item if the federation has configured too many similar items without clear naming.
+- which license item the federation expects you to buy
+- whether the school or club should manage the application instead
+- whether a federation approval is still required after payment
 
-That means federation setup quality still matters:
-
-- item names must be clear
-- competition-scoped items must be labeled clearly
-- classes must be mapped correctly to accepted items
-- the federation must decide clearly whether the dancer or the organization is the payer for that item
+Use the dancer and school/club role guides for that decision-making. Use this page only to execute the self-service application and payment steps.

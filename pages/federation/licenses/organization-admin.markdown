@@ -16,6 +16,8 @@ This page is for a club, school, or organization manager who applies for license
 
 Use it when the federation expects the organization to start the license process.
 
+Use [School/Club](/school-club/) if you first need to decide whether the club is ready for this workflow.
+
 ## Before you start
 
 Make sure all of this is true before you try to apply:
@@ -31,7 +33,9 @@ If any of these are missing, stop and ask federation admin to fix them first.
 
 ## How the organization gets here
 
-The latest workflow starts on a different page:
+This page should not be the first page you open in the overall process.
+
+The organization should already have completed the federation-join step before using this page:
 
 1. Open `Organization`
 2. Open `Federation`
@@ -187,13 +191,12 @@ Do not delete a paid application. Ask federation admin to correct it instead.
 - the organization does not choose which Stripe account receives funds; payout always goes to the federation connected account
 - if a hybrid workflow produces a self-paid row, that payment must be completed from the dancer side instead
 
-## If the workflow is unclear
+## What this page does not decide
 
-A careful but inexperienced organization admin can follow this page successfully.
+This page does not tell the organization:
 
-What still requires federation guidance:
+- which license item policy the federation wants
+- whether self-service should be used instead
+- whether a federation exception should bypass the normal payment path
 
-- which license item to choose for each branch
-- when a dancer should use self-service instead
-- how unpaid-but-approved exceptions should be handled outside the direct Stripe path
-- when the organization is allowed to issue licenses directly versus only submit them for federation review
+Use the federation or school/club role guides for those decisions. Use this page only to execute the organization-managed application flow.

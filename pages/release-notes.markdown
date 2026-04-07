@@ -6,6 +6,7 @@ nav_order: 10
 ---
 
 # Release notes
+
 ## 2026-04-02
  🛠️ **Improvements**
 * App: Font size scaling for accessibility
@@ -16,20 +17,6 @@ nav_order: 10
 
 ## 2026-03-31
  🛠️ **Improvements**
-* Federation license workflows documented and aligned with the current product behavior: [Federation Licenses](/federation-licenses/)
-* Federation license docs now describe federation admin, organization admin, and dancer self-service using the current Stripe, payer, issuer, class-rule, and representation model
-* Federation organization docs now reflect current approval and representation handling
-* Federation rankings are now strictly division-scoped
-* Federation admin ranking review now requires selecting a division before opening a ranking profile
-* Public federation rankings are now loaded and published by division only
-* Added federation ranking documentation: [Federation Rankings](/federation-rankings/)
-* Federation admin navigation is now more division-centric:
-  * class license rules are managed from `Division -> Discipline -> Class -> License rules`
-  * class history is managed inside each division
-  * class state and progress are managed inside each division
-  * federation-level `State` is now `Representation`
-  * issuer role is managed from `Organizations`
-* Public ranking docs now include included-class and ranking-policy validation guidance
 * Judging: DSF - Show acro level name when they differ
 * Judging: Partial judging summary take multiplier factor into account
 * Judging: Fixed so judges can order cafe products

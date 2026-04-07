@@ -2,6 +2,7 @@
 layout: page
 title: Special formats
 permalink: /special-formats/
+parent: Scrutineer
 nav_order: 4
 has_children: true
 ---

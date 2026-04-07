@@ -3,12 +3,14 @@ layout: page
 title: Public Rankings
 permalink: /federation-rankings/public/
 parent: Federation Rankings
-nav_order: 2
+nav_order: 3
 ---
 
 # Public Rankings
 
 Use this page to understand how federation rankings are shown on the public website.
+
+Use this page after federation staff have already completed the ranking setup or manual workflow. This page is for verification, not for configuring the ranking itself.
 
 Location:
 
@@ -67,6 +69,18 @@ The ranking link always uses the division together with the ranking id.
 
 If something looks wrong in public view, the usual cause is not the public page itself. The usual cause is that the ranking setup inside that division is wrong.
 
+### 5. Check whether a manual decision also applies
+
+Some final federation outputs are published from the base ranking together with a manual decision.
+
+Typical examples:
+
+- a championship selection list with federation exceptions
+- an approved team identity exception
+- a manually resolved tie
+
+When that happens, public viewers should be able to understand that the final published outcome includes an administrative decision and is not only the raw automated ranking output.
+
 ## What success looks like
 
 The public view is correct when:
@@ -75,6 +89,16 @@ The public view is correct when:
 - the standings match the intended ranking
 - only the correct division shows that ranking
 - the policy tag and included classes match the federation admin setup
+- any manual exception note is published where federation staff expect it
+
+## What this page does not fix
+
+If the public page is wrong, the usual fix is not on the public page itself.
+
+Go back to:
+
+- [Federation Admin](/federation-rankings/federation-admin/) for setup or correction issues
+- [Manual Workflows](/federation-rankings/manual-workflows/) for approved exceptions
 
 ## Common problems
 
@@ -100,3 +124,9 @@ Check the ranking setup in federation admin:
 - manual corrections
 - ranking state and privacy
 - ranking license policy
+
+Also check whether federation staff published a manual exception outcome separately from the raw ranking:
+
+- selection exception
+- identity exception
+- manual tie resolution
