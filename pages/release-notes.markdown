@@ -6,6 +6,20 @@ nav_order: 10
 ---
 
 # Release notes
+
+## 2026-04-14
+ 🛠️ **Improvements**
+* Judging: Show component multiplier
+* Supervisor: Show partial results regardless of hide setting
+* Screens: Price ceremony with spotlight overlay
+* Screens: Setting for winner country only
+* Manager: Print results should ignore any hide settings
+* Manager: Clear beats now refresh better
+* Manager: Moving round with children should keep order
+* Manager: Upcoming list should always update round beat
+* Manager: Multi edit changes should deselect after operation
+* Manager: Fixed problem with judging panels name not updating
+
 ## 2026-04-02
  🛠️ **Improvements**
 * App: Font size scaling for accessibility
