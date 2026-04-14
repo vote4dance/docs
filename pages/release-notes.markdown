@@ -7,7 +7,6 @@ nav_order: 10
 
 # Release notes
 
-
 ## 2026-04-14
  🛠️ **Improvements**
 * Judging: Show component multiplier
