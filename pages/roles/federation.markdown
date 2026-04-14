@@ -39,6 +39,7 @@ This role hub covers:
 
 1. [Federation Licenses](/federation-licenses/)
 2. [Federation Rankings](/federation-rankings/)
+3. [Federation Staff Roles](/federation/staff-roles/)
 
 ## How to use this hub
 

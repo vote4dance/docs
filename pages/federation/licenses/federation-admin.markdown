@@ -16,6 +16,20 @@ Location:
 
 Use this page when you are responsible for setting up, reviewing, approving, and correcting federation licenses.
 
+## Required permission level
+
+Different parts of the license workflow require different [staff roles](/federation/staff-roles/):
+
+| Task | Minimum role |
+|---|---|
+| View licenses, items, organizations | Viewer |
+| Issue, approve, suspend, or revoke a license | Manager |
+| Approve or reject an organization | Manager |
+| Grant or remove license issuer access | Manager |
+| Add or edit license items (catalog) | Administrator |
+| Map license items to classes | Administrator |
+| Connect Stripe | Owner |
+
 ## Your goals on this page
 
 This page is the control center for:
