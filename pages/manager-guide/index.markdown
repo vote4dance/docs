@@ -2,7 +2,8 @@
 layout: page
 title: Manager Guide
 permalink: /manager-guide/
-nav_order: 3
+parent: Organizer
+nav_order: 1
 has_children: true
 ---
 

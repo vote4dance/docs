@@ -13,7 +13,15 @@ Run your event end-to-end with Vote4Dance, from setup to live operations to fina
 1. New to Vote4Dance: read [Quickstart](/quickstart/)
 2. Confirm your setup: read [Technical requirements](/requirements/)
 3. Learn the platform: read [Vote4Dance building blocks](/building-blocks/)
-4. Run operations in detail: open [Manager guide](/manager-guide/)
+4. Open your role from the top navigation.
+
+## Roles
+
+1. [Federation](/federation/)
+2. [Scrutineer](/scrutineer/)
+3. [Organizer](/organizer/)
+4. [Dancer](/dancer/)
+5. [School/Club](/school-club/)
 
 ## Organizers
 
