@@ -10,6 +10,7 @@ nav_order: 10
 ## 2026-04-20
  🛠️ **Improvements**
 * Manager: Print start number toggle child competition name
+* Screens: Spotlight duration can be set for both podium and others
 * Public: Filter competition teams by organization
 * Public: Download organization teams as csv-file
 * Federation platform update
