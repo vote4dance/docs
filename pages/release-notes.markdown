@@ -7,6 +7,13 @@ nav_order: 10
 
 # Release notes
 
+## 2026-04-20
+ 🛠️ **Improvements**
+* Manager: Print start number toggle child competition name
+* Public: Filter competition teams by organization
+* Public: Download organization teams as csv-file
+* Federation platform update
+
 ## 2026-04-14
  🛠️ **Improvements**
 * Judging: Show component multiplier

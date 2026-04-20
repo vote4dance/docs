@@ -58,8 +58,10 @@ Minimum record:
 Use this when:
 
 - a partner or roster change creates a dispute about ranking carryover
-- a club or representation transfer needs special handling
+- a club change needs special handling for ranking carryover purposes
 - federation staff decide that the normal identity policy should not apply in one case
+
+Note: representation (which organization a team belongs to) is now derived from active dancer licenses. Changing a team's organization means canceling the existing active license and issuing a new one with the correct organization. That license change then flows through to the representation automatically. A manual workflow is only needed when the ranking carryover decision on top of the organization change requires a separate federation approval.
 
 Manual steps:
 

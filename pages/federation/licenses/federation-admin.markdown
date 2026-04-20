@@ -328,9 +328,44 @@ Current organization detail responsibilities:
 - review organization users
 - manage representation rows for the organization
 
-Representation is no longer handled as a generic federation-wide state page. It now lives with the organization that owns the representation workflow.
+### How representation works
 
-If the federation uses transfer windows or deadlines, those rules are enforced from federation rules and shown together with the representation workflow.
+Representation is now **license-derived**. The system determines which organization a dance team represents by looking at the active dancer licenses held by the team's members. The organization that holds the most active dancer licenses for those members is used as the effective representation.
+
+The representation history table still records explicit assignments and overrides, but the primary source of truth is the license data.
+
+### Assign organization
+
+Use the `Assign organization` button on the organization detail page when a dance team needs to be linked to an organization and no active license already establishes that link.
+
+Steps:
+
+1. Open `Admin -> Federation -> Organizations`
+2. Open the organization
+3. Press `Assign organization` in the representations section
+4. Select the dance team
+5. Select the organization
+6. Optionally add a reason
+7. Press `OK`
+
+Use this when:
+
+- a team has no active dancer licenses yet and needs an explicit organization assignment
+- a ranking import created a team without a license and you want to fix the representation
+- the license-derived organization is incorrect and an explicit assignment is needed
+
+### Rename team
+
+Use the `Rename team` button on any representation row to change the team name without changing its organization or license state.
+
+### Changing the organization on an active license
+
+You cannot change the organization field on an active license directly. If the organization on an active license is wrong:
+
+1. Cancel or revoke the existing license
+2. Issue a new license with the correct organization
+
+This applies to individual license rows. It does not affect explicit representation assignments made through the `Assign organization` workflow.
 
 ## 6. Manage issuer role on organizations
 
