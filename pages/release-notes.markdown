@@ -7,6 +7,11 @@ nav_order: 10
 
 # Release notes
 
+## 2026-04-22
+ 🛠️ **Improvements**
+* Public: Favorites by organization
+* Screens: Heat with 1 only can show dancer picture
+
 ## 2026-04-20
  🛠️ **Improvements**
 * Manager: Print start number toggle child competition name
