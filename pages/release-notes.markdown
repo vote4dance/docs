@@ -7,6 +7,10 @@ nav_order: 10
 
 # Release notes
 
+## 2026-04-23
+ 🛠️ **Improvements**
+* Manager: Fix problem with schedule drag and drop
+
 ## 2026-04-22
  🛠️ **Improvements**
 * Public: Favorites by organization
