@@ -7,6 +7,16 @@ nav_order: 10
 
 # Release notes
 
+## 2026-04-26
+ 🛠️ **Improvements**
+* Lineup and Speaker: Can move dancers between heats
+* Supervisor: Fixed so trainee judge scores are shown
+* Supervisor: Warn partial values outside median
+* Speaker: Clarify dancer info to fit on screen
+* Manager: Allow city and choregrapher in team edit
+* Manager: Judging demo available for managers
+* Manager: Keep Upcoming menu items text when collapsed
+
 ## 2026-04-23
  🛠️ **Improvements**
 * Manager: Fix problem with schedule drag and drop
