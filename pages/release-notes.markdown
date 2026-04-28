@@ -7,6 +7,19 @@ nav_order: 10
 
 # Release notes
 
+## 2026-04-28
+ 🛠️ **Improvements**
+* Public: Show event date on competition hub overview
+* Public: Open competitions on overview tab from results and recently viewed
+* Public: Show city, country and choreographer on class teams list
+* Public: Strike through cancelled teams on class teams list
+* Public: Team share modal shows organization, city, country, show name and choreographer
+* Screens: Strike through cancelled teams on result and announcer screens
+* Manager: CSV import supports team city and choreographer columns (max 128 chars)
+* Manager: Detect scheduling conflicts across sibling competitions in the same event
+* Federation: Show overlapping season years (e.g. 2026/2027) for seasons not starting Jan 1
+* Federation: Always allow current and upcoming season license purchases
+
 ## 2026-04-26
  🛠️ **Improvements**
 * Lineup and Speaker: Can move dancers between heats
