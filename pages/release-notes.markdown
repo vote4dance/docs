@@ -7,6 +7,18 @@ nav_order: 10
 
 # Release notes
 
+## 2026-04-30
+ 🛠️ **Improvements**
+* Judging: Cross-heat ranked view
+* Judging: Highlight qualifying sliders green in non-final rounds
+* Judging: Round submit always uses the quick-confirm dialog
+* Federation: Group licenses by required action
+* Federation: Organization approval step before payment
+* Public: Group organization licenses by required action
+* Public: Show favorite/total count and placement in favorites class table
+* Manager: Schedule conflict detection handles breaks at start of day
+* Manager: Estimated round times follow scheduled day
+
 ## 2026-04-28
  🛠️ **Improvements**
 * Public: Show event date on competition hub overview
