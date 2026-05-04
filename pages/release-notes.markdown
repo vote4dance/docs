@@ -7,6 +7,15 @@ nav_order: 10
 
 # Release notes
 
+## 2026-05-04
+ 🛠️ **Improvements**
+* Judging: New smiley and dancer-style pickers
+* Judging: Reworked partial rating, full rating step controls and placement extras
+* Speaker: New "Show all" toggle on lineup round
+* Manager: Safer round-status flow with unsaved-changes guard and heat count validation
+* Public: CSV result downloads opened to org-filtered exports and child events
+* Registrations: Initial support for organization payment
+
 ## 2026-04-30
  🛠️ **Improvements**
 * Judging: Cross-heat ranked view
