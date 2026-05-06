@@ -7,6 +7,16 @@ nav_order: 10
 
 # Release notes
 
+## 2026-05-06
+ 🛠️ **Improvements**
+* Login: Forgot password no longer fails with captcha error
+* Manager: Block delete-teams on non-private competitions
+* Manager: Orientation control for round result printing
+* Manager: Heat position estimates for undrawn rounds in conflict report
+* Public: Date order for upcoming and results event lists
+* Screens: Floating-hearts indicator on live voting heat screen
+* Judging: New slider mode in placement
+
 ## 2026-05-04
  🛠️ **Improvements**
 * Judging: New smiley and dancer-style pickers
