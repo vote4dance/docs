@@ -7,6 +7,10 @@ nav_order: 10
 
 # Release notes
 
+## 2026-05-10
+ 🛠️ **Improvements**
+* Sponsor adjustments for both screens and app/web
+
 ## 2026-05-06
  🛠️ **Improvements**
 * Login: Forgot password no longer fails with captcha error
