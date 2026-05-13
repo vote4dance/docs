@@ -7,6 +7,13 @@ nav_order: 10
 
 # Release notes
 
+## 2026-05-13
+ 🛠️ **Improvements**
+* Manager: Adding teams to round now forces team start number as order
+* Public: Favorites fixed when using child competitions
+* Public: Schedule fix for closing heats modal on updates
+* Judging: Corrected TCI input problem with ties
+
 ## 2026-05-10
  🛠️ **Improvements**
 * Sponsor adjustments for both screens and app/web
