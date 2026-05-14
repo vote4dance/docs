@@ -7,6 +7,12 @@ nav_order: 10
 
 # Release notes
 
+## 2026-05-14
+ 🛠️ **Improvements**
+* Public: Favorites fix for multi event competitions
+* Public: New registrations are now redirected to landing page
+* Manager: Display hint when user tries to unlock judge with wrong button
+ 
 ## 2026-05-13
  🛠️ **Improvements**
 * Manager: Adding teams to round now forces team start number as order
