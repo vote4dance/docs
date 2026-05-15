@@ -7,6 +7,23 @@ nav_order: 10
 
 # Release notes
 
+## 2026-05-15
+ 🛠️ **Improvements**
+* Manager: Display round comment as icon
+* Manager: Make sure "Add teams" buttons is visible if teams are missing in any child round
+* Manager: Dont store submitted time on close round unless some judges have submitted results
+* Manager: Show round comment as icon
+* Manager: Allow editing of sponsor quantity on available slots
+* Manager: Allow delete of sponsors
+* Manager: Round table info wrap tweaks
+* Manager: Teams table removed federation status
+* Public and App: Favorites with dancers from different clubs show up in both lists
+* App: Fix for results list being clipped when out of screen height
+* Judging: Partial rating display names in final rounds
+* Judging: Fix for android devices showing native menu on slider hold
+* Screens: Voting screen fix for hearts not being displayed
+* Speaker: Add Show on Screen buttons to all teams list in lineup
+
 ## 2026-05-14
  🛠️ **Improvements**
 * Public: Favorites fix for multi event competitions
