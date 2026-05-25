@@ -7,6 +7,19 @@ nav_order: 10
 
 # Release notes
 
+## 2026-05-23
+ 🛠️ **Improvements**
+* Cafe: Keep customer name in "Deliver to" after order is claimed
+
+## 2026-05-22
+ 🛠️ **Improvements**
+* Judging: Allow same placements in preliminary rounds without conflict warning
+
+## 2026-05-16
+ 🛠️ **Improvements**
+* App: Fix class labels on favorites tab for sibling events
+* App: Show update-available prompt regardless of subscription mode
+
 ## 2026-05-15
  🛠️ **Improvements**
 * Manager: Display round comment as icon
