@@ -7,6 +7,10 @@ nav_order: 10
 
 # Release notes
 
+## 2026-05-25
+ 🛠️ **Improvements**
+* Public: Registration fix for periods bound to a different scope in multi event competitions
+
 ## 2026-05-23
  🛠️ **Improvements**
 * Cafe: Keep customer name in "Deliver to" after order is claimed
