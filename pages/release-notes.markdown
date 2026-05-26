@@ -6,6 +6,18 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-05-26
+ 🛠️ **Improvements**
+* Screens: Sort through-round results by team start number
+* Manager: Hide floor label on round/class hierarchy when all rounds share one floor
+* Manager: Separating positions in paper redance defaults the override round to hide partial results
+* Manager: Registration list sorted newest-first; registration timestamps render in browser-local time
+* Manager: Registration period start/end round-trip correctly in browser-local timezone
+* Public: Partial-result expand chevron now visible on team rows for non-coach viewers
+* Public: Distinguish "results not published for this competition" from "shown after the competition is closed" in the judge-marks notice
+* Registrations: Stripe payment webhook finalizes registrations whose line items live on child events
+* App: Restore missing acrobatics in results
+* Speaker: Animate up when all heats are done to minimize scroll pop
 
 ## 2026-05-25
  🛠️ **Improvements**
