@@ -6,6 +6,24 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-05-29
+ 🛠️ **Improvements**
+* Federation: Extended license setup
+* Manager: Photo column on the Judges list — upload, preview and delete a judge picture per competition
+* Manager: Send-invitation flow for judges with a 3-state activation badge (Active / Not invited / Invited – pending) and a Resend action
+* Manager: New Hide flags in Live Results — Teams, Judges and Schedule times can be hidden from public viewers per competition
+* Manager: Age-group eligibility basis — choose whether each member, oldest, youngest or the average age decides team eligibility
+* Manager: Dance role is only shown/required on teams with more than one dancer
+* Manager: WSDC export file updated
+* Screens: New big-screen Judges view — cycle through panel judges, or pin one
+* Speaker: "Show on Screen" per judge in the Judges overview; header button to cycle all judges
+* Public: Hidden Teams tab now renders an empty-state message instead of disappearing
+* Public: Org and federation flows surface approval status; create-from-federation entry point added
+* Registrations: Per-person registration periods now credit individual dancers' payment status
+* Registrations: Each registration gets a short code surfaced in the confirmation email and the manager registrations list
+* App: Birthdate validation no longer false-positives on registration when birthdate is already on file
+* Judges: Show comments in none rating
+
 ## 2026-05-26
  🛠️ **Improvements**
 * Screens: Sort through-round results by team start number
