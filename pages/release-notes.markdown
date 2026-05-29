@@ -23,6 +23,15 @@ nav_order: 10
 * Registrations: Each registration gets a short code surfaced in the confirmation email and the manager registrations list
 * App: Birthdate validation no longer false-positives on registration when birthdate is already on file
 * Judges: Show comments in none rating
+* Manager: "Add registration" now opens the streamlined check-in registration flow
+* Check-in: Register dancers by email — missing accounts are created on the spot with nationality and language prefilled, birthdate optional, and a failed welcome email no longer blocks creation
+* Check-in: Partner role defaults to follower; an existing dance team with the same dancers is reused instead of erroring
+* Check-in: Selected classes are kept when switching registration period, and one flow can register into any of an event's competitions
+* Check-in: Free registration periods no longer show a payment warning
+* Check-in: Quick "Add start number" on a participant, with an option to apply the same number to all their registrations
+* Check-in & Public: Consistent competition tabs to switch between an event's competitions across the team, results, organization and registration views
+* Public: Team and results lists no longer show favorites/organization filters unless favorites are enabled
+* App: Fixed registration and check-in pages sometimes loading empty on first visit
 
 ## 2026-05-26
  🛠️ **Improvements**
