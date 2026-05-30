@@ -6,6 +6,12 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-05-30
+ 🛠️ **Improvements**
+* App: Fix blank screen on launch when a font fails to load
+* App: More reliable reconnection after the app briefly loses its connection
+* Manager: Adding a competition user no longer errors when the search matches no one
+
 ## 2026-05-29
  🛠️ **Improvements**
 * Federation: Extended license setup
