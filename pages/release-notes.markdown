@@ -6,6 +6,17 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-06-03
+ 🛠️ **Improvements**
+* Federation: Configurable age-composition rules — set per category/class how members' ages decide team eligibility
+* Sponsors: Offer emails are now sent from the server, with a shared preview before sending
+* Registrations: Per-person pricing fixes — single price tier, adding classes after payment, and coupons no longer zero out the tier difference
+* Registrations: Already-paid items are credited and cancelled rows ignored when calculating per-person cost
+* Public: Coach tab now shows only your own organizations
+* Judging: Faster round submit — score recompute no longer blocks while saving
+* Manager: Large team imports are faster and more reliable
+* App: Older `/<app>/#…` deep links now open the correct modern page
+
 ## 2026-05-30
  🛠️ **Improvements**
 * App: Fix blank screen on launch when a font fails to load
