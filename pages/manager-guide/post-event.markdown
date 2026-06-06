@@ -24,7 +24,7 @@ From Manager print routes and round tools, produce:
 - Heat sheets
 - Judging sheets
 - Result reports
-- Diplomas
+- Diplomas — see [Customizing diplomas](/manager-guide/diploma-customization/)
 - Schedule printout
 - Registration QR output if needed
 
