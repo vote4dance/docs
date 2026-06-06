@@ -6,6 +6,15 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-06-06
+ 🛠️ **Improvements**
+* Public: Schedule now opens on today's day instead of always showing the first day
+* Manager: Customizable diploma printing — edit live CSS with a diploma-scoped preview, semantic field classes, all print settings are now remembered
+* Registration: Show a visible error when reCAPTCHA is blocked (Firefox Strict ETP, ad blockers) instead of the Create-account button silently doing nothing
+* Screens: New "Schedule (no heats)" venue screen — one card per schedule block with the block's rounds and their live estimated start times, honoring the public schedule-times setting
+* Manager: Reorder schedule page tabs by drag-and-drop
+* Cafe: New orders show product name, customer and timestamps immediately, and the order form resets after submit to avoid accidental duplicates
+
 ## 2026-06-03
  🛠️ **Improvements**
 * Federation: Configurable age-composition rules — set per category/class how members' ages decide team eligibility
