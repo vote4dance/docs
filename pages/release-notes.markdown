@@ -6,7 +6,7 @@ nav_order: 10
 ---
 
 # Release notes
-## 2026-06-06
+## 2026-06-08
  🛠️ **Improvements**
 * Public: Schedule now opens on today's day instead of always showing the first day
 * Manager: Customizable diploma printing — edit live CSS with a diploma-scoped preview, semantic field classes, all print settings are now remembered
