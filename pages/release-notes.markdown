@@ -6,6 +6,22 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-06-15
+ 🛠️ **Improvements**
+* Judging: New audience judge type — audience hearts-votes are aggregated into a single equal-weight panel judge, live during voting and finalized when all judges have submitted; also supported on match rounds
+* Public and App: Audience hearts-voting now works in the public schedule on the web, not just the app
+* Manager: Audience voting is now a per-competition toggle in the live section, instead of a single event-level setting
+* Manager: A round can no longer be started until it has a judging panel — the Start button is disabled with a warning explaining why
+* Registration: Each team's federation eligibility is now shown in the class list, instead of only failing at checkout
+* Registration: A federation license is only required when the class actually includes a registration license item — fixes federation events that blocked registration against an unseeded license list
+* Registration: Any user can set the dance team name when editing a team; the team name is only imported when the registration form asks for it
+* Judging: Correct handling of partial participation in multi-dance rounds, and removing a competitor now cascades cleanly across the whole round
+* App: Restoring an Apple or Google subscription now moves it to the account performing the restore instead of failing to load
+* Manager: Judging-panel lock state stays live when the round status changes
+* Public: The vote control is hidden for logged-out viewers
+* Public: Override-round participants stay hidden in the schedule heats modal when marks are hidden
+* Screens: Federation logo is hidden on green-screen and blank displays
+
 ## 2026-06-08
  🛠️ **Improvements**
 * Public: Schedule now opens on today's day instead of always showing the first day
