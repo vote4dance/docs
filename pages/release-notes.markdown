@@ -20,7 +20,7 @@ nav_order: 10
 * App: Restoring an Apple or Google subscription now moves it to the account performing the restore instead of failing to load
 * Manager: Judging-panel lock state stays live when the round status changes
 * Public: The vote control is hidden for logged-out viewers
-* Public: Override-round participants stay hidden in the schedule heats modal when marks are hidden
+* Public and App: Override-round participants stay hidden in the schedule heats view when marks are hidden
 * Screens: Federation logo is hidden on green-screen and blank displays
 
 ## 2026-06-08
