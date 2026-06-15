@@ -11,6 +11,7 @@ nav_order: 10
 * Judging: New audience judge type — audience hearts-votes are aggregated into a single equal-weight panel judge, live during voting and finalized when all judges have submitted; also supported on match rounds
 * Public and App: Audience hearts-voting now works in the public schedule on the web, not just the app
 * Manager: Audience voting is now a per-competition toggle in the live section, instead of a single event-level setting
+* App: Audience voting is a premium feature in the app — non-subscribers see an upgrade prompt in place of the voting control
 * Manager: A round can no longer be started until it has a judging panel — the Start button is disabled with a warning explaining why
 * Registration: Each team's federation eligibility is now shown in the class list, instead of only failing at checkout
 * Registration: A federation license is only required when the class actually includes a registration license item — fixes federation events that blocked registration against an unseeded license list
