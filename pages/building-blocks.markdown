@@ -48,6 +48,8 @@ Used by participants and audience for:
 
 Push event updates to followers from Manager.
 
+Recipients control which push notifications they receive in their personal settings — **Settings → Notifications** in the app, or **Account → Notification preferences** on the web. Two streams can be muted independently: results for teams you've favorited, and updates for competitions you follow. Both are on by default; email (such as registration confirmations) is always sent.
+
 ### Voting
 
 Optional audience voting that can be enabled per event.

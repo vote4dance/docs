@@ -6,6 +6,11 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-06-20
+ 🛠️ **Improvements**
+* App and Public: Per-user push notification settings — independently mute results for teams you've favorited or updates for competitions you follow, from Settings → Notifications (app) or Account → Notification preferences (web). Both are on by default; registration and other emails are always sent.
+* School/Club: Embeddable website widgets — show your club's upcoming registrations and results on your own website via a read-only iframe; generate, rotate, or disable the embed key from your organization profile (see [Embed widgets](/school-club/embed-widgets/))
+
 ## 2026-06-15
  🛠️ **Improvements**
 * Judging: New audience judge type — audience hearts-votes are aggregated into a single equal-weight panel judge, live during voting and finalized when all judges have submitted; also supported on match rounds
