@@ -17,6 +17,7 @@ This role hub covers:
 - Applying for licenses on behalf of members
 - Supporting members' event registrations
 - Managing team rankings and transfers
+- Embedding results and registrations on your club's website
 
 **Not sure if you're a school/club admin?** Start with [Finding Your Role](/understanding-vote4dance/finding-your-role/).
 
@@ -34,6 +35,7 @@ This role hub covers:
 8. [Class transfer support](/school-club/class-transfer/)
 9. [Renew license cycles](/school-club/renew-license/)
 10. [Retiring members or teams](/school-club/retiring/)
+11. [Embed widgets](/school-club/embed-widgets/)
 
 ## Dedicated feature sections
 
