@@ -71,7 +71,7 @@ Tips:
 - Use stable codes for exports/integrations
 - Prefer federation naming if federation-governed
 
-If your system has **Round guide**, use it after classes are finalized.
+If your system has **Round guide**, use it after classes are finalized. For battle disciplines, the Round Guide generates the complete skeleton (placing round, bracket layers, B‑final) automatically — see [Battle bracket setup](/battle-bracket/) for the seeding steps that follow.
 
 ## Step 2: Build rounds from classes
 
