@@ -34,3 +34,6 @@ for any class under **Federation → Rules → Class rule profile** before going
 
 - [Age category rules](/federation-rules/age-category-rules/) — how the age
   category is decided for solos, duos, and groups, and where to set the rules.
+- [Battle class rules](/federation-rules/battle-class-rules/) — how to configure
+  class rules so the Round Guide auto-generates the correct skeleton for each
+  competitor count in a 1v1 battle discipline.
