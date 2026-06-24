@@ -10,7 +10,7 @@ nav_order: 3
 
 This guide walks competition organisers through running **battle rounds** (1‑vs‑1 elimination matches and trios) where competitors are seeded based on the results of a prior qualifying round. It assumes you have **administrator** role or higher on the competition.
 
-When a federation has configured battle class rules, the **Round Guide** generates the entire skeleton (placing round, all battle layers, B‑final) automatically for any count. When class rules are not configured, you build the skeleton by hand. Either way, the seeding steps below are the same.
+When a federation has configured battle class rules, the **Round Guide** generates the entire skeleton (placing round, all battle layers, B‑final) automatically for any count. Classes using **brackets mode** require only 4–5 rules total; the skeleton adapts to whatever count arrives on the day. When class rules are not configured, you build the skeleton by hand. Either way, the seeding steps below are the same.
 
 > **Federation admins:** see [Battle class rules](/federation-rules/battle-class-rules/) for how to configure class rules so the skeleton is generated automatically.
 
