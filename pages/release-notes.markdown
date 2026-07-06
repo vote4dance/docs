@@ -6,8 +6,16 @@ nav_order: 10
 ---
 
 # Release notes
-## 2026-06-20
+## 2026-07-06
  🛠️ **Improvements**
+* Manager: Per-app access for functionaries — instead of one access level, each competition user is now given access to exactly the apps they need (Cafe, Check-in, Lineup, Screens, Speaker, Supervisor, Manager), with an optional custom role title shown in user lists
+* Manager: Stations — shared devices such as check-in desks, cafe tills, venue screens and speaker booths now sign in as named device stations instead of a personal account: activate by QR or link, revoke at any time, and follow each device's presence and battery from Manager, which also suggests stations on the event users page
+* Check-in: Walk-up registration — register new dancers on site directly from a check-in station, including taking payment, so late entries no longer need a separate manager step
+* Registration: Age and eligibility overhaul — team age rules use the championship year when a federation's season doesn't start on January 1, classes a team can't enter show a clear age-composition explanation already at class selection, and "older member" allowances are applied correctly
+* Registration: Roster control for organizers — team rosters can be locked automatically once a registration is paid (opt-in per event), roster changes can be allowed per class, and every roster change is re-validated against age and team-size rules
+* Check-in: Find participants by full name with accent-insensitive search, and see a dancer's partners directly on their event check-in page
+* Public: The account page shows your competitors in a clearer card layout, and the licenses page lists your existing licenses above the application form
+* Platform: Refreshed UI component library across all apps, plus many smaller fixes in Manager, Speaker and round results
 * App and Public: Per-user push notification settings — independently mute results for teams you've favorited or updates for competitions you follow, from Settings → Notifications (app) or Account → Notification preferences (web). Both are on by default; registration and other emails are always sent.
 * School/Club: Embeddable website widgets — show your club's upcoming registrations and results on your own website via a read-only iframe; generate, rotate, or disable the embed key from your organization profile (see [Embed widgets](/school-club/embed-widgets/))
 
