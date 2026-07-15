@@ -6,6 +6,15 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-07-15
+ 🛠️ **Improvements**
+* Registration: A coach can now register several teams that share dancers into the same class — the second team was previously blocked by mistake; a new optional federation rule can still restrict each dancer to one team per class (e.g. small-group and formation categories)
+* Registration: Per-entry tier pricing ("2 or more = 400") is billed as a cumulative total instead of tier price × entry count, so a team with two entries is charged the tier once rather than double
+* Registration: Deleting a competitor is correctly blocked when it still has a registration after the team was edited (which clones it to a new version)
+* Public: Managers can approve all pending organization members at once from the requires-action alert
+* Judging: Battle groups of three or more are now seeded by placement so top-placed competitors meet weaker opposition
+* App: Fixed an Android startup crash carried over from a previous update, and updated the app to the latest framework (Expo SDK 57)
+
 ## 2026-07-06
  🛠️ **Improvements**
 * Manager: Per-app access for functionaries — instead of one access level, each competition user is now given access to exactly the apps they need (Cafe, Check-in, Lineup, Screens, Speaker, Supervisor, Manager), with an optional custom role title shown in user lists
