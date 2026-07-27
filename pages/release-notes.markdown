@@ -6,6 +6,14 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-07-27
+ 🛠️ **Improvements**
+* Manager: Jack'n'Jill partner rounds now preview the qualified leaders and followers before you draw, and the final-class round hierarchy shows separate leader and follower trees
+* Judging: Jack'n'Jill finals now produce a correct fast/slow summary — final couples are created on the main round so the summary has the data it needs
+* Manager: Creating a competition shows the country field with a populated dropdown, and surfaces validation errors instead of failing silently
+* App: Subscription validation modernized to the latest Apple (StoreKit 2) and Google (Play subscriptions v2) APIs for more reliable purchase and restore
+* Public: Country names and flags now localize correctly in the production build — some previously appeared blank
+
 ## 2026-07-15
  🛠️ **Improvements**
 * Registration: A coach can now register several teams that share dancers into the same class — the second team was previously blocked by mistake; a new optional federation rule can still restrict each dancer to one team per class (e.g. small-group and formation categories)
