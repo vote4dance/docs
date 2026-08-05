@@ -6,6 +6,12 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-08-05
+ 🛠️ **Improvements**
+* Federation: New Progression tab per division — the class ladder (advance by, target class, threshold, points source) is shown in one place with the scope each value was resolved from, and settings that silently do nothing are reported as warnings
+* Federation: Promotion points can be derived from competition results — a team's placements are scored into progress points counted against the class threshold; expand a class in the Progression tab to inspect its points table and test a placement against it
+* Judging: Practice mode builds demo heats from the real round — team and heat counts now follow the round instead of always showing 20 teams per heat
+
 ## 2026-07-27
  🛠️ **Improvements**
 * Manager: Jack'n'Jill partner rounds now preview the qualified leaders and followers before you draw, and the final-class round hierarchy shows separate leader and follower trees
