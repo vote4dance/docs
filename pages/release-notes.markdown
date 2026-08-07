@@ -11,6 +11,15 @@ nav_order: 10
 * Federation: New Progression tab per division — the class ladder (advance by, target class, threshold, points source) is shown in one place with the scope each value was resolved from, and settings that silently do nothing are reported as warnings
 * Federation: Promotion points can be derived from competition results — a team's placements are scored into progress points counted against the class threshold; expand a class in the Progression tab to inspect its points table and test a placement against it
 * Judging: Practice mode builds demo heats from the real round — team and heat counts now follow the round instead of always showing 20 teams per heat
+* Registration: New optional dance-role rule — require that every member of a registering team has a role, or that the roster carries both a leader and a follower; set it from the same rules editor as the other class and registration-period requirements
+* Registration: A class a team can't enter only because a dance role is missing now stays in the list, locked with the reason and an edit button that opens the team's roles, instead of silently disappearing from the class list
+* Registration: Correcting a dance role is treated as team information rather than a roster change — it saves in place, so a registered team keeps its id and its registrations instead of being copied to a new version, and a locked roster no longer blocks it
+* Public: The leader/follower selector now appears for any couple, including in club, coach and organization flows — a solo team that gained a partner there previously saved with no roles at all — and trios can record roles too
+* Public: Roles are optional to save everywhere; a federation's role requirement is still checked at registration
+* Public: Club, coach and organization team flows start with the same use-participant-names / custom-name choice as the personal flows, instead of going straight to a name box, and the new-version warning on a registered team is shown only when the edit actually versions it
+* Federation: Promotion points can be awarded from a placement-to-points table banded by the number who started (DSF 7.3, SLT T7.3) — points reach every placed dancer rather than only finalists, and disqualified entries count toward the field size without claiming points
+* Federation: Competition level rules are editable, so a federation can withhold promotion points at a championship
+* Federation: Rule panels holding a structured value, such as a promotion-points table, now save correctly — the save previously failed and took every other rule edited in the same panel with it
 
 ## 2026-07-27
  🛠️ **Improvements**
