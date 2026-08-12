@@ -6,18 +6,6 @@ nav_order: 10
 ---
 
 # Release notes
-## 2026-08-12
- ⭐ **New**
-* Federation: Promotion points now live on the competition entry — every entry carries the U-points earned at that competition, whether computed from judged results at final confirmation, imported with a result file's "UP" column, or entered by an official; the new "Points on the competition entry" source sums them per class membership
-* Federation: Closing a competition runs progression automatically — couples are created from person numbers, class memberships are registered for everyone who received points (and only them), balances update, and promotions at the class threshold are applied with the reason recorded; re-close a competition to reprocess it after imports or corrections
-* Federation: Opening balances need no manual step — a couple's first processed entry seeds their balance (imported first entries may carry their current total), and a carryover action on the Status tab covers corrections
-* Federation: Competitor profile page — click any couple in the division history to see their classes with current points, membership details and full class history
-* Speaker: The prize ceremony placement list shows a "moving up" badge for couples whose result earns a promotion, switching to past tense ("Moved up to …") once the promotion is applied
-* Manager: The teams table shows a points column wherever entries carry promotion points, and a rise icon with the target class for couples moving up; the team editor has a U-points field for corrections
- 🛠️ **Improvements**
-* Federation: Machine-written membership reasons ("Automatic promotion — point threshold reached", auto-enrollment, age transitions) are now localized; free-text reasons render exactly as written
-* Federation: Name search on the division Status tab works without selecting a class first
-* Federation: The control log no longer records the steady state — being below a promotion threshold is not an event; only promotions applied, promotions blocked by a disabled rule, and other consequential decisions are logged
 ## 2026-08-05
  🛠️ **Improvements**
 * Federation: New Progression tab per division — the class ladder (advance by, target class, threshold, points source) is shown in one place with the scope each value was resolved from, and settings that silently do nothing are reported as warnings
