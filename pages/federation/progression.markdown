@@ -22,7 +22,7 @@ A competition entry's promotion points ("U-points") can be written three ways, a
 
 Closing a competition is the moment progression runs. For every entry in a federation-linked class, the system:
 
-1. **Resolves the couple** from the entry's person numbers — creating the dance team on first sight, reusing it forever after. Person-number accuracy in result files is critical: a typo creates a phantom second couple with a split balance.
+1. **Resolves the couple** from the entry's person numbers — creating the dance team on first sight, reusing it forever after. The entry's club tag is resolved the same way: an unknown club is created (with placeholder details for the office to complete) and approved into the federation, and the couple's members receive bootstrap licenses and a representation record. Accuracy in result files is critical: a typo in a person number creates a phantom second couple with a split balance, and a typo in a club tag creates a duplicate club.
 2. **Registers a class membership** — but only for couples that received points (earned or carried-in). Couples with nothing to record are not registered and do not appear in the division history; they are registered by whichever later competition first awards them points.
 3. **Computes earned points** for judged classes (imported classes keep their entered values).
 4. **Updates balances and applies promotions.** A couple reaching the class threshold is moved to the target class immediately, with the reason recorded in their history.
