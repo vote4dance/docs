@@ -16,11 +16,11 @@ This step defines how class progression, manual overrides, and transition decisi
 
 ## How it works
 
-1. Define progression policy.
-2. Define when manual exceptions are allowed.
-3. Review transfer-related cases consistently.
-4. Record reasons for overrides.
-5. Communicate final decisions clearly to clubs and organizers.
+1. Define progression policy: points source, points table, thresholds and target classes per division — see [Promotion points](/federation/progression/).
+2. Let the automation run: promotions apply when a competition is closed and a couple's balance reaches the class threshold, with the reason recorded in their history.
+3. Define when manual exceptions are allowed.
+4. Apply exceptions through the division Status tab — membership edits for manual promotion or demotion, and the carryover action for corrected opening balances. Every change records a reason.
+5. Verify outcomes in the control log and the couple's profile page; communicate final decisions clearly to clubs and organizers.
 
 ## Common blockers
 
