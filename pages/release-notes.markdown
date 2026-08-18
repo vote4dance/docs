@@ -6,7 +6,7 @@ nav_order: 10
 ---
 
 # Release notes
-## 2026-08-12
+## 2026-08-18
  ⭐ **New**
 * Federation: Promotion points now live on the competition entry — every entry carries the U-points earned at that competition, whether computed from judged results at final confirmation, imported with a result file's "UP" column, or entered by an official; the new "Points on the competition entry" source sums them per class membership
 * Federation: Closing a competition runs progression automatically — couples are created from person numbers, class memberships are registered for everyone who received points (and only them), balances update, and promotions at the class threshold are applied with the reason recorded; re-close a competition to reprocess it after imports or corrections
