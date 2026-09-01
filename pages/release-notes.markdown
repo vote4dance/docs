@@ -6,6 +6,33 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-09-01
+ ⭐ **New**
+* Federation: The console has been rebuilt — Overview shows what needs the federation today (work counters, season timeline, recent enforcement), Licences is a triage queue beside the pane that decides it, Members gathers roster, dancers, clubs, class history and the enforcement log into one page, and Structure replaces eleven tabs with a division and discipline tree beside a detail pane. Existing links into a tab still resolve
+* Federation: New Rulebook — every rule states the value that applies, the scope that set it and the value it displaced, with the scopes the rule can actually be set at; rules nobody has set are marked as the platform's default. A scope's Rules section in Structure now edits that scope's own overrides only
+* Federation: New Competitions destination — every competition run under the federation's rules, including ones still being prepared and excluding practice events, with entry, club, class and judge counts, Running / Upcoming / Completed / All tabs, search, a needs-attention filter, expandable sanctioning detail and CSV export
+* Federation: Statistics rebuilt around what a federation can act on — entries per season, competitions finished with results still not visible, classes that did not fill, and competitor growth (new, lapsed and returning competitors, how often people compete, and clubs losing competitors)
+* Manager: New Statistics page per competition — an overview (dancers, entries, teams, clubs, classes, days), dressing rooms counting unique dancers per club with a per-day split, charts, CSV and a print view, schedule load per day, and a medals table of placements 1–6 per club. Counts follow the imported lineup where there is one and cover the whole event, not a single day; medals are shown to organizers before the competition closes, marked provisional, and entries with no club are reported under a "No club" row instead of disappearing
+* Manager: New Finance tab on the registration page — expected, marked paid and outstanding totals per currency, a per-period breakdown, and a debtor list per payer sorted by what is owed, priced from the periods' ladders
+* School/Club: Club-owned competitors — groups and formations created in the club admin belong to the club: they stay out of the public competitor list and search, are hidden from other clubs, and their lineups are only visible to club staff, while a registered team still works normally in carts, manager, check-in and results. Ownership moves only through a recorded transfer the federation approves. Competitors created anywhere else stay independent and are capped at two members
+* Judging: New optional judging setting for the IDO 2-D system — the highest and the lowest score in each dimension are dropped before the point total is summed
+ 🛠️ **Improvements**
+* Speaker: The result badge now lights when an extrachans is confirmed, and the lineup and result badges follow the same floor and round rules as the pages they point at
+* Speaker and Check-in: A station device can publish a round and confirm check-ins again — a station has no personal user, and both writes were silently rejected
+* Screens: The podium spotlight no longer stays stuck on screen when the "other placements" duration is set to zero, and pointing a screen at another result round no longer re-spotlights a result the audience has already been shown
+* Manager: A manager can now edit their own capabilities — a competition creator started with the Manager bit alone and nobody able to grant the rest, so every operator app said Access Denied; removing the last manager is still blocked
+* School/Club: A club administrator can delete their own club when it is empty — no other members, no federation attachments and no licences — instead of being told permission denied
+* Registration: A club can line up two teams in the same class where the rules allow it; the cart previously blocked every other team for that class once one was added
+* Registration: Cancelling follows the registration's own period, so a registration made in a period that has closed is no longer cancellable just because another period is still open
+* Registration: A competitor whose only registration was cancelled can be deleted again
+* Registration: The coach team picker offers only competitors whose size fits a class open for registration, derived from the federation's team-size rules instead of a fixed size split
+* Registration: New optional federation rule for who may register a competitor — anyone (default), a member of the team, or the club — enforced by the registrant's actual relationship to the competitor and shown per class
+* Registration: New optional federation rule to disallow custom competitor names — the registration flow hides the custom-name option and the participant import names such competitors from their participants, so start lists and the speaker read real names at that federation's events; the same team keeps its stage name elsewhere
+* Registration: New optional federation rule to ask each dancer which of their clubs they represent — dancers with a single approved membership are attributed automatically, and organizers can require the selection per registration period
+* Registration: Imported teams show a readable club, and a custom name is cleared on re-import when the class does not allow one
+* Manager and Federation: The cancelled tag in the Organizations view names the entries behind it — class, the team name where one was given, the dancers, and whether the entry had been paid — and a registration paid before it was cancelled is no longer dropped from the view
+* Federation: A licence is not offered for approval when the club it names is not an approved organization of the federation — those rows say why, and bulk approve leaves them alone and reports how many it passed over
+* Federation: The age-up batch cannot be applied until a preview has run, and the preview is discarded whenever the set it was reviewed against changes
 ## 2026-08-18
  ⭐ **New**
 * Federation: Promotion points now live on the competition entry — every entry carries the U-points earned at that competition, whether computed from judged results at final confirmation, imported with a result file's "UP" column, or entered by an official; the new "Points on the competition entry" source sums them per class membership
