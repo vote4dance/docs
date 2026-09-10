@@ -120,20 +120,22 @@ You'll see several sections on your Event page:
 - Address, parking info, etc.
 - Dancers will see this if event is public
 
-### Step 4: Upload event branding (optional)
+### Step 4: Upload the event image
 
-You can add a logo or banner image:
+Your event needs one picture. It is used on the public event page, on the event
+cards, in the mobile app and in the emails sent to judges and sponsors — and an
+event cannot be made public without it.
 
-1. Look for **Event Image** or **Logo Upload** section
-2. Click **Upload Image** or **+ Add Image**
-3. Select image from your computer (JPG or PNG)
-4. Click **Save**
-5. The image will appear on public event pages
+1. Go to the event **Overview** section
+2. Click the image box and choose **Upload**
+3. Select the image from your computer
 
-**What image to use:**
-- Event logo or competition branding (300x300 pixels works well)
-- Tournament logo
-- Hosting organization logo
+**What image to use:** a landscape **1600 × 900 JPG or PNG** with the important
+part in the middle. Do not upload HEIC photos straight from an iPhone — they
+cannot be processed.
+
+See [Event image](/manager-guide/event-image/) for the full guidance, including
+what gets cropped on each screen and how to convert an iPhone photo.
 
 ## Common sections in Event Setup
 
