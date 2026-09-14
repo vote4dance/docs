@@ -12,6 +12,8 @@ This page explains how to configure federation class rules so that the **Round G
 
 > **Competition operators:** see [Battle bracket setup](/battle-bracket/) for how to seed and run battles once the skeleton exists.
 
+> **Battles danced in several rounds** (two rounds plus a tie-break, or a bronze and gold battle under the final): see [Battle sub-rounds](/federation-rules/battle-sub-rounds/).
+
 ---
 
 ## Two approaches
