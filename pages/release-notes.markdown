@@ -6,6 +6,11 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-09-14
+ ⭐ **New**
+* Federation: Battles can be split into rounds — a dance can carry dances of its own, so a battle generates its rounds and a tie-break underneath it, and a final can hold a bronze battle and a gold battle each danced in several rounds; `[N]` in a battle dance name expands to the number of battles (see [Battle sub-rounds](/federation-rules/battle-sub-rounds/))
+ 🛠️ **Improvements**
+* Manager: Rounds created from the Round Guide now attach every sub-round to the right parent — a B-final or bronze battle with dances placed after rounds that already had sub-rounds was previously imported under the wrong round
 ## 2026-09-01
  ⭐ **New**
 * Federation: The console has been rebuilt — Overview shows what needs the federation today (work counters, season timeline, recent enforcement), Licences is a triage queue beside the pane that decides it, Members gathers roster, dancers, clubs, class history and the enforcement log into one page, and Structure replaces eleven tabs with a division and discipline tree beside a detail pane. Existing links into a tab still resolve
