@@ -67,6 +67,10 @@ Resolve within a defined SLA (for example, 24 hours) before deadlines.
 
 Escalate unresolved cases to organizer/federation early.
 
+## Cancelling a registration
+
+A registration can be cancelled from the club's registration list or the dancer's own account while its registration period is open, as long as it is Preliminary, Signed or Approved. For a **club-owned** team (a group or formation created in the club admin) only the club's coach, manager or administrator can cancel; the dancers themselves cannot. After the period closes, ask the organizer. Cancelling does not refund a payment by itself; the organizer refunds from the Manager app.
+
 ## Best practical checklist
 
 For each dancer/team confirm:

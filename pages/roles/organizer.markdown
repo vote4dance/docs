@@ -37,6 +37,9 @@ This role hub covers two types of organizer responsibilities:
 
 1. [Manager Guide](/manager-guide/) — The app where you configure and run events
 2. [Registration and check-in](/manager-guide/registration-checkin/) — Event participant registration and check-in workflows
+3. [Emails and the check-in QR code](/manager-guide/emails/) — What dancers are emailed, and the QR code they bring to the desk
+4. [Users, apps and stations](/manager-guide/users-and-stations/) — Which app each functionary gets, and shared devices
+5. [Statistics](/manager-guide/statistics/) — Event size, dressing rooms, schedule load and medals
 
 ## How to use this hub
 

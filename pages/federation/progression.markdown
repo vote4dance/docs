@@ -41,13 +41,28 @@ A couple's first processed entry opens their balance:
 
 ## Setting it up
 
-Per division (or any narrower rule scope):
+Promotion points are a **federation rule**, so they are edited in the rule editor of the scope they should apply to. The usual place is the class level, because the points normally differ per level (a lower class awards fewer points than a higher one):
 
-- **Points source** — set *Promotion points source* to "Points on the competition entry" (`team_up`). The other sources remain available: summary score, and placement re-derived at sync time.
-- **Points table** — the placement-to-points table, banded by number of starters.
-- **Ladder** — each class that promotes needs *Advance by: points*, a *target class*, and a *promotion threshold* on its class level or class rules.
+`Federation → Structure → (division) → Class Levels → Rules → (select the class level)`
 
-The division's Progression tab shows the resolved setup per class, with warnings for configurations that would silently do nothing.
+The same rules can be set on the federation, a division, a discipline or a single federation class. A narrower scope replaces the wider one; the table is replaced as a whole, not merged row by row.
+
+The rules involved:
+
+- **Promotion points source** — "Points on the competition entry" (`team_up`) for the model described on this page. The other sources remain available: summary score, and placement re-derived at sync time.
+- **Promotion points table** — the placement-to-points table. Each row has:
+  - **Final kind** — *Either final*, *Qualified for the final* (there was at least one earlier round) or *Direct final* (everyone in the class danced the final). Use it when the rulebook pays less for a direct final. The kind is derived from the class's rounds; it is not entered per competition.
+  - **From place / To place** — leave "to place" empty for no upper bound.
+  - **Min entrants / Max entrants** — the field-size band; leave both empty for any field size.
+  - **Points**.
+  Rows are tried from the top and the first matching row wins, so put the specific rows (a direct-final variant, a small-field variant) above the general ones.
+- **Promotion points reach** — *Finalists only* (default) or *All placed, including earlier rounds*. Choose the second when dancers eliminated in a semi-final also earn points; give them a row for the places below the final (for example places 7 and up).
+- **Awards promotion points** — turn it off on a **competition level** (`Structure → (division) → Competition levels → Rules`) to make a whole tier of competitions, such as a championship, award nothing.
+- **Ladder** — each class that promotes needs *Advance by: points*, a *target class*, and a *promotion threshold* on its class level or class rules. Leave the threshold unset if promotion is decided by hand.
+
+Check the result on `Structure → (division) → Progression`: every class with where it promotes to, the threshold, where its points come from, and, per class, the resolved table with the scope it was inherited from and a small calculator ("place 1 of 8 starters → points"). The tab warns about configurations that would silently do nothing, such as a table without the matching source.
+
+Note that the promotion threshold compares the **sum of everything the couple has earned since joining the class**. A rulebook that promotes on the best N results of a season cannot be expressed as an automatic threshold yet; leave the threshold unset and promote manually from the roster. Ranking standings, by contrast, can use best-N windows, see [Federation admin rankings](/federation-rankings/federation-admin/).
 
 ## Where to see points
 

@@ -70,6 +70,18 @@ Use this checklist:
 4. Check whether your partner, team, or organization information is complete.
 5. Ask the organizer whether the event has additional manual approval rules.
 
+## Cancelling a registration
+
+You can cancel your own registration from your account page (the list of your registrations) with the **Cancel** button on the row. The rules:
+
+- The registration period the registration was made in must still be open. After it closes, ask the organizer.
+- The registration must be Preliminary, Signed or Approved. A rejected or already cancelled entry cannot be cancelled again.
+- If the team belongs to a club (a club-owned group or formation), only the club's coach, manager or administrator can cancel it. Members see the button greyed out with that explanation.
+
+Cancelling sets the registration to **Cancelled**; the entry stays visible in your list. Nothing is refunded automatically: if you have paid, contact the organizer, who can refund from the Manager app.
+
+A dance team (couple, group) can be deleted from your account only once it has no active registrations. Cancel the registrations first, then delete the team.
+
 ## Next step
 
 Continue to [Creating and getting a ranking](/dancer/creating-and-getting-a-ranking/) to understand how event participation can affect rankings.

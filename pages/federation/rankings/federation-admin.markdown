@@ -60,6 +60,26 @@ Check that:
 
 If the class list is wrong, the standings will be wrong even if the ranking itself exists.
 
+### 3b. Set the scoring and the time window
+
+The ranking editor decides how standings are calculated. The settings that matter most:
+
+- **Purpose** — Public, Selection, Progression or Championship invitation. Everything except Public is limited to the **current season** automatically.
+- **Season start (MM-DD)** — the first day of the federation's season. The season ends the day before the next start. Set it whenever the purpose is not Public, or when the window mode accumulates the season.
+- **Window mode** — which results are looked at:
+  - *Use ranking time type* — a calendar date or a number of days back.
+  - *Best of latest results* — the N most recent events, counting the best M of them.
+  - *Best results overall* — the best M results in the window.
+  - *Accumulate full season* — every result since the season start. Best-N does **not** apply in this mode.
+  - *Snapshot selection*.
+- **Take best count** — the M above. Shown only for the two "best" modes.
+- **Ranking by** — *Placement*, *Summary* (the judges' score), *Points* or *Head-to-head*. With *Points*, a **Ranking Points** table appears: from place, to place, points. This table belongs to the ranking, not to the class, so if two class levels award different points they need two rankings.
+- **Update daily** — recalculated every night at 03:00. The **Import** button on the ranking row recalculates it immediately (the button is also how you refresh after a correction).
+
+Example: a season ranking on the best three results, with points per placement, is *Purpose: Selection ranking*, *Window mode: Best results overall*, *Take best count: 3*, *Season start* set, *Ranking by: Points* with the points table filled in.
+
+Ranking points are separate from [promotion points](/federation/progression/). Promotion points are earned per competition entry, follow the class level's table and move dancers up a class. Ranking points are recomputed from placements each time the ranking runs and only produce the standings. A federation whose rulebook uses one points scale for both configures both: the promotion points table on the class levels, and the same scale in each ranking's Ranking Points table.
+
 ### 4. Review the federation ranking summary page
 
 The federation ranking admin page is a review page.
