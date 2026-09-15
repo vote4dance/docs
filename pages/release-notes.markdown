@@ -6,11 +6,17 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-09-15
+ ⭐ **New**
+* Federation: Battles can be split into rounds — a dance can carry dances of its own, so a battle generates its rounds and a tie-break underneath it, and a final can hold a bronze battle and a gold battle each danced in several rounds; `[N]` in a battle dance name expands to the number of battles (see [Battle sub-rounds](/federation-rules/battle-sub-rounds/))
+ 🛠️ **Improvements**
+* Manager: Rounds created from the Round Guide attach every sub-round to the right parent — a B-final or bronze battle with dances placed after rounds that already had sub-rounds was previously imported under the wrong round
+* Check-in: The QR code in the registration approval email opens the check-in page again — the check-in app now lives at `/checkin/`, and old `/checkin-react/` links and station home screens redirect there
+* Registration and Federation: Registration, sponsor and licence payments are only accepted from the Stripe account connected to that competition or federation, and connecting a Stripe account to a competition requires the Manager role
 ## 2026-09-14
  ⭐ **New**
 * Dancer app: New Profile tab — Settings moves inside it; tapping any dancer's name opens a public dancer page with their results across every team they have danced in and their progression standing, and dancers can claim historical results that exist only as text names. A claim joins the team the couple already has, so standings and class memberships follow the claim
 * Federation: WSDC Jack & Jill points — a couple final's placement is split onto the leader and follower entries in their own role classes, each scored against its own field size, on the same close-time pipeline as other progression points
-* Federation: Battles can be split into rounds — a dance can carry dances of its own, so a battle generates its rounds and a tie-break underneath it, and a final can hold a bronze battle and a gold battle each danced in several rounds; `[N]` in a battle dance name expands to the number of battles (see [Battle sub-rounds](/federation-rules/battle-sub-rounds/))
 * Registration: A club paying for registrations receives a Stripe invoice made out to the club, in addition to the receipt; the receipt now goes to the person who paid. A club with no stored email or an unresolvable Stripe customer is still invoiced instead of falling back to a personal card receipt
 * Manager: "Create classes from federation" has select-all checkboxes per division and per block, and creates the classes in the order shown
 * Dancer app: Native birth-date and country pickers in registration and account settings, with the country suggested from locale and time zone
@@ -18,7 +24,6 @@ nav_order: 10
 * Judging: Judge PINs are stored hashed; a judge can only read and save their own per-heat marks, per-team marks are limited to members of the competition, and the active registrations shown for a dancer no longer list reserved rows or private competitions
 * Registration: Only someone with a claim on the team — a member, or the club for a club-owned team — or a competition functionary may cancel or change a registration's status; any team member could previously withdraw a whole club team, and any signed-in user could cancel a stranger's entry
 * Registration: A club can edit the roster of a team it owns before the team has entered a competition — the editor came back empty and locked for club-owned teams
-* Manager: Rounds created from the Round Guide attach every sub-round to the right parent — a B-final or bronze battle with dances placed after rounds that already had sub-rounds was previously imported under the wrong round
 * Federation: A second-chance percentage in class rules is a share of the next round's places, so the split no longer drifts with class size
 * Federation: A licence applied for by a club is auto-activated and waived on the same rules as the dancer's own application — it previously stayed pending and unpaid with nothing owed
 * Federation: A licence checkout can be retried after the amount or details change; the previous checkout session is reused or expired so a licence is never paid twice
