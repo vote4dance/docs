@@ -6,6 +6,26 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-09-21
+ ⭐ **New**
+* Organizer: New Organizer app with a Shop — sell passes, tickets, meals and merchandise for an event: products from templates with stock, per-order caps, sales windows and a VAT rate; a Tickets tab on the public event page; and an Orders tab with search, status and channel filters, resend, receipt link and per-ticket void after a partial refund. Payments run on the organizer's connected Stripe account with the 5 % platform fee. A new Organizer role is granted from the Users page; managers have it already
+* Public: Buy tickets — a signed-in buyer builds a cart on the event's Tickets tab and pays in Stripe Checkout; the order page under the event and "My tickets" on the account hold one QR per ticket, the ticket email arrives in the buyer's language, and a refund made in Stripe is mirrored onto the order
+* Check-in: Vote4Dance ID — every account has a QR card with photo, name, birth date, nationality and club, opened from the account page on the website and from the Profile tab in the app; the desk scans it to open the person's screen
+* Check-in: Person screen — one screen per scanned person with their registrations, their tickets (use / undo) and an Arrived button recorded per person and day, separately from tickets used and from the club check-in; the lookup box takes a scanned ID, a ticket code, or a name or email, and a Scan button opens the camera inside the app
+* Check-in: Sell — cash sales at the desk with a receipt (lines, VAT per rate); a buyer who wants to pay by card is sent to the event's Tickets page on their own phone by QR; the desk may pause a product, adjust stock with a reason, keep a staff note and add a merchandise size
+* Check-in: Redeem tickets — the QR on a ticket opens its page with buyer, code, order and refund notice; use and undo, and a ticket bound to a day is refused on another day unless the desk overrides
+* Manager: Dancer admission — choose per event what a registration admits a dancer to: every day (default), only the days one of their classes dances (a ticket on other days), or a ticket for everyone; the desk is told whether to ask for a ticket, and arrival is recorded under every policy
+* Dancer app: My tickets screen with one QR per ticket, a Today card on event days, the Vote4Dance ID card and a profile photo taken with the camera or picked from the library — requires the app update from the store
+* Cafe: Menus and orders now live on the shop — the kitchen board works as before, a paid cafe item bought online lands on it as a pickup, and a judge can delete their own order while it is still waiting
+ 🛠️ **Improvements**
+* Judging: Confirming a partially marked skating round with shared positions no longer hangs result calculation — the tie-break re-compared groups it had already separated; a guard now stops a runaway recompute instead of letting it spin
+* Manager: Confirming a second-chance round keeps a team's placement when the team has no row in the source round, instead of failing with an error
+* Public: Result sums, group sums, majority counts and point-summary totals below the results cutoff stay hidden from a signed-in panel judge on the public results page; the judge's own marks are still shown
+* Judging: The popover on a judge's score cell opens only when it has partial scores, acrobatics, remarks or comments to show
+* Lineup: The landing page's button opens the lineup with the floor in the path — two taps previously landed on an empty "Waiting for participants"
+* Federation: Ranking corrections can be added again — the effective-date column was missing in production, so every new correction failed
+* Registration: A check-in station can approve a registration but no longer cancel, reject or delete one; the log and email name the participant
+* Admin: The Stripe audit links an active Stripe subscription even when a lapsed Google Play or App Store purchase started after it
 ## 2026-09-15
  ⭐ **New**
 * Federation: Battles can be split into rounds — a dance can carry dances of its own, so a battle generates its rounds and a tie-break underneath it, and a final can hold a bronze battle and a gold battle each danced in several rounds; `[N]` in a battle dance name expands to the number of battles (see [Battle sub-rounds](/federation-rules/battle-sub-rounds/))
