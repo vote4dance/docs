@@ -1,0 +1,241 @@
+// Vote4Dance documentation  -  the brochure's feel, applied to just-the-docs.
+//
+// Three ideas carry the look: a magenta rule under every page title, cards
+// with a hairline border and soft shadow (tables, screenshots, callouts), and
+// generous space around headings so a long page reads as sections rather than
+// a wall. Everything here is presentation only; no layout is moved.
+
+$v4d-ink: #17141f;
+$v4d-body: #3d3949;
+$v4d-muted: #6b6679;
+$v4d-brand: #d6216f;
+$v4d-deep: #1b1830;
+$v4d-line: #e5e1ea;
+$v4d-tint: #faf7fb;
+
+// ---------------------------------------------------------------- typography
+
+.main-content {
+  h1,
+  h2,
+  h3,
+  h4 {
+    letter-spacing: -0.01em;
+    font-weight: 700;
+  }
+
+  h1:first-of-type {
+    margin-bottom: 0.4rem;
+    font-size: 2rem !important;
+    line-height: 1.15;
+
+    // the brochure's kicker rule
+    &::after {
+      content: "";
+      display: block;
+      width: 3rem;
+      height: 3px;
+      margin-top: 0.9rem;
+      background: $v4d-brand;
+      border-radius: 2px;
+    }
+  }
+
+  h2 {
+    margin-top: 2.4rem;
+    padding-top: 0.2rem;
+    font-size: 1.3rem !important;
+  }
+
+  h3 {
+    margin-top: 1.7rem;
+    font-size: 1.05rem !important;
+  }
+
+  // The sentence under a page title carries the page, so give it room.
+  h1:first-of-type + p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: $v4d-body;
+  }
+
+  a {
+    text-decoration: none;
+    border-bottom: 1px solid rgba(214, 33, 111, 0.35);
+    transition: border-color 120ms ease, color 120ms ease;
+
+    &:hover {
+      border-bottom-color: $v4d-brand;
+    }
+  }
+
+  // The theme's per-heading anchor link is an empty <a>; it must not carry
+  // the underline, or every heading gets a small stub beside it.
+  a.anchor-heading {
+    border-bottom: 0;
+  }
+
+  strong {
+    color: $v4d-ink;
+  }
+}
+
+// ---------------------------------------------------------------- tables
+
+.main-content .table-wrapper {
+  border: 1px solid $v4d-line;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(23, 20, 31, 0.07);
+  margin: 1.4rem 0;
+}
+
+.main-content table {
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+
+  thead th {
+    background: $v4d-tint;
+    color: $v4d-ink;
+    font-weight: 700;
+    border-bottom: 1px solid $v4d-line;
+    white-space: nowrap;
+  }
+
+  td,
+  th {
+    border: 0;
+    border-left: 0;
+    border-bottom: 1px solid lighten($v4d-line, 3%);
+    padding: 0.65rem 0.85rem;
+    vertical-align: top;
+  }
+
+  tbody tr:last-child td {
+    border-bottom: 0;
+  }
+
+  // First column of a two-column table is almost always the label.
+  tbody td:first-child strong {
+    white-space: nowrap;
+  }
+}
+
+// ---------------------------------------------------------------- screenshots
+
+.main-content img {
+  border-radius: 10px;
+  border: 1px solid $v4d-line;
+  box-shadow: 0 10px 30px rgba(23, 20, 31, 0.13);
+  margin: 0.4rem 0 0.2rem;
+}
+
+// A line in italics straight after a picture is its caption.
+.main-content img + em,
+.main-content p > img + br + em {
+  display: block;
+  margin-top: 0.5rem;
+  color: $v4d-muted;
+  font-size: 0.8rem;
+  font-style: normal;
+}
+
+// ---------------------------------------------------------------- lists
+
+.main-content {
+  ul li::marker {
+    color: $v4d-brand;
+  }
+
+  ol li::marker {
+    color: $v4d-brand;
+    font-weight: 700;
+  }
+
+  li {
+    margin-bottom: 0.3rem;
+  }
+}
+
+// ---------------------------------------------------------------- blockquote
+
+.main-content blockquote {
+  margin: 1.4rem 0;
+  padding: 0.9rem 1.2rem;
+  background: $v4d-tint;
+  border-left: 3px solid $v4d-brand;
+  border-radius: 0 8px 8px 0;
+  color: $v4d-ink;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+// ---------------------------------------------------------------- code
+
+.main-content code {
+  background: $v4d-tint;
+  border: 1px solid $v4d-line;
+  border-radius: 5px;
+  padding: 0.1rem 0.32rem;
+  font-size: 0.82em;
+  color: #8e1449;
+}
+
+.main-content div.highlighter-rouge,
+.main-content pre.highlight {
+  border-radius: 10px;
+  border: 1px solid $v4d-line;
+
+  code {
+    border: 0;
+    background: transparent;
+    color: inherit;
+  }
+}
+
+// ---------------------------------------------------------------- navigation
+
+.side-bar {
+  border-right: 1px solid $v4d-line;
+}
+
+.nav-list .nav-list-item .nav-list-link {
+  border-radius: 7px;
+
+  &:hover {
+    background: rgba(214, 33, 111, 0.06);
+  }
+
+  &.active {
+    background: rgba(214, 33, 111, 0.1);
+    color: #a11450;
+    font-weight: 600;
+  }
+}
+
+.site-title {
+  letter-spacing: 0.02em;
+  font-weight: 700;
+}
+
+// ---------------------------------------------------------------- page footer
+
+.main-content hr {
+  border: 0;
+  border-top: 1px solid $v4d-line;
+  margin: 2rem 0;
+}
+
+// ---------------------------------------------------------------- dark mode
+//
+// The site ships a light scheme; this only softens the shadows for viewers
+// whose OS is dark, so a white page full of dark screenshots is not harsh.
+
+@media (prefers-color-scheme: dark) {
+  .main-content img {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.32);
+  }
+}

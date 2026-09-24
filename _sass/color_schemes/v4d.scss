@@ -1,0 +1,32 @@
+// Vote4Dance colour scheme for the documentation site.
+//
+// The palette is the one the organizer brochure uses: near-black indigo for
+// type, magenta for anything interactive, and a warm off-white page so the
+// dark product screenshots sit on it as objects rather than blending in.
+
+$body-background-color: #ffffff;
+$sidebar-color: #faf8fb;
+$search-background-color: #ffffff;
+$table-background-color: #ffffff;
+$code-background-color: #f7f4f9;
+$feedback-color: darken($sidebar-color, 3%);
+
+$body-text-color: #3d3949;
+$body-heading-color: #17141f;
+$nav-child-link-color: #6b6679;
+$search-result-preview-color: #6b6679;
+
+$link-color: #c01a63;
+$btn-primary-color: #d6216f;
+$base-button-color: #ffffff;
+
+$border-color: #e5e1ea;
+
+// Type: the brochure's tight, dark headings against calm body copy.
+$body-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+  Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+$mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace;
+$root-font-size: 16px;
+$body-line-height: 1.6;
+$content-line-height: 1.65;
+$body-heading-line-height: 1.25;

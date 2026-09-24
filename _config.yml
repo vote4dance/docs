@@ -42,6 +42,10 @@ gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into t
 
 remote_theme: pmarsceill/just-the-docs
 
+# Vote4Dance look: palette in _sass/color_schemes/v4d.scss, the rest of the
+# brochure's styling in _sass/custom/custom.scss.
+color_scheme: v4d
+
 # Build settings
 plugins:
   - jekyll-remote-theme
