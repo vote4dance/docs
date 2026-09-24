@@ -22,11 +22,11 @@ Use this to configure and control the event:
 - Check-in window and organization signoff
 - Result control, publishing, printing, exports
 
-### Judging (`judging3`)
+### Judging
 
 Use this for adjudicator input during active rounds.
 
-### Speaker (`speaker-react`)
+### Speaker
 
 Use this for floor operation tasks such as live lineup flow, merge/rotation support, and presenting active items.
 
@@ -81,6 +81,12 @@ Dedicated lineup-focused workflow for operations that need it.
 ### Sponsors
 
 Sponsor offers and purchases are available as a managed flow and may be enabled in testing contexts.
+
+### Shop (the Organizer app)
+
+Spectator tickets, meals, table seats, merchandise and passes: products with prices, capacity
+and stock, a public tickets page for buyers, and ticket QR codes the desk redeems in Check-in.
+Opened from the event overview page. Not yet covered by its own page here.
 
 ## Recommended usage model
 

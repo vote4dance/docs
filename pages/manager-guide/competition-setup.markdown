@@ -26,15 +26,18 @@ If not, complete [Event setup](/manager-guide/event-setup/) first.
 1. Sign in to Vote4Dance
 2. Open **Manager**
 3. Select your event
-4. Open **Competitions** section
 
-You will usually see tabs or menu items for:
+Manager's sidebar is grouped the way the work is:
 
-- Classes
-- Rounds
-- Teams
-- Judges
-- Data
+| Group | Contains |
+|---|---|
+| **Event overview** | The event's start page |
+| **Event** | Competitions, Floor, Users, Stations, Café, Schedule |
+| **Competition** | Registration, Classes, Participants, Judges, Checkin, Statistics |
+| **Audience** | Notifications, Screens, Sponsors, Live results, Shop |
+| **Problems** | The automatic tests over your setup |
+
+This page works in the **Competition** group. Rounds live inside a class.
 
 ## Recommended build order
 
@@ -42,11 +45,11 @@ Use this order to avoid broken links between sections:
 
 1. Create classes
 2. Create round trees
-3. Add/import teams
+3. Add participants
 4. Assign start numbers and class entries
 5. Add judges and build panels
 6. Rehearse one full round
-7. Move rounds from Open to Ready
+7. Take rounds from Not started to In progress
 
 ## Step 1: Create classes
 
@@ -54,22 +57,24 @@ Go to **Competitions -> Classes**.
 
 Create every class participants can enter.
 
-Common fields:
+A class has these fields:
 
-| Field | What it means | Example |
-|---|---|---|
-| Class Name | Public display name | Junior Solo - Contemporary |
-| Class Code | Short internal ID | JS-CONT |
-| Discipline | Category style | Contemporary |
-| Age Group | Allowed age range | U13-U15 |
-| Team Size | Number of dancers | Solo |
-| Status | Active or hidden | Active |
+| Field | What it means |
+|---|---|
+| **Division** | The federation's division the class belongs to. |
+| **Discipline** | The dance discipline within that division. |
+| **Federation Class** | The federation's class this maps to — this is what carries the age and level rules, so you do not enter ages on the class yourself. |
+| **Class title** | The name people read: on the public page, in registration and on printouts. |
+| **Class short letter** | The short form used where space is tight, such as on screens and lists. |
+| **Class role** | Only for leader/follower classes: `Leader` or `Follower`. Each such class needs exactly one partner class, and **Problems** checks that. |
+
+Group classes and merged classes add their own fields (class group, merge target).
 
 Tips:
 
-- Keep names human-readable for registrations and printouts
-- Use stable codes for exports/integrations
-- Prefer federation naming if federation-governed
+- Keep the class title human-readable for registrations and printouts
+- Prefer federation naming if the competition is federation-governed
+- Pick the Federation Class carefully; the rules follow from it
 
 If your system has **Round guide**, use it after classes are finalized. For battle disciplines, the Round Guide generates the complete skeleton (placing round, bracket layers, B‑final) automatically — see [Battle bracket setup](/battle-bracket/) for the seeding steps that follow.
 
@@ -95,71 +100,54 @@ Class: Junior Solo - Contemporary
 	Round 3: Final (6 through)
 ```
 
-## Step 3: Add or import teams
+## Step 3: Add participants
 
-Go to **Competitions -> Teams**.
+Go to **Competition → Participants**. (The page is called Participants in Manager; "teams" is
+the older internal word, and one participant row can be a single dancer, a couple or a group.)
 
-You can:
+Participants get there three ways:
 
-- Add teams manually
-- Import via CSV
-- Create random test teams for rehearsals
+- **Imported from approved registrations** — the normal route. See [Registration and check-in](/manager-guide/registration-checkin/).
+- **Added by hand**, for entries that never went through registration.
+- **Generate random competitors** — a practice-event-only action that fills a round with test
+  entries, for rehearsals. See [Test run and venue rehearsal](/manager-guide/test-run/).
 
-Typical team fields:
+CSV import lives on `Competition → Registration → Data transfer`, together with the reset and
+delete tools.
 
-| Field | Example |
-|---|---|
-| Team Name | Aurora Dance Team |
-| Club/School | Lincoln High School |
-| Participants | 8 |
-| License status | Active |
-| Contact | coach@lincolndance.org |
-
-If importing CSV:
-
-1. Click **Import CSV**
-2. Map columns carefully
-3. Run preview validation
-4. Apply import
-
-Do not bulk delete teams once judging is underway.
+Do not bulk delete participants once judging is underway.
 
 ## Step 4: Assign start numbers and class entries
 
-Still in **Teams**:
+Still in **Participants**:
 
-1. Use **Assign Start Numbers** (manual or auto)
-2. Register each team into the correct class
-3. Verify no team is missing a class assignment
+1. Assign start numbers (manually or automatically)
+2. Check every participant is entered in the right class
+3. Verify nobody is missing a class assignment
 
-Quick validation:
-
-- Every active team has at least one class
-- No duplicate start numbers in same competition scope
-- Team size and class eligibility align with class rules
+Then open **Problems**, which checks exactly this for you: start-number conflicts, invalid
+start numbers, conflicting license numbers, the same person ID used with two different names,
+and participants without a placement who have a class set to start in.
 
 ## Step 5: Add judges and build panels
 
-Go to **Competitions -> Judges**.
+Go to **Competition → Judges**.
 
 Process:
 
-1. Add judge profiles
-2. Assign judge letters (A, B, C...)
-3. Create panels (Panel 1, Panel 2)
-4. Add judges to panels with role/type
-5. Assign default panel to each class
+1. Invite each judge by email, or link an existing account. **Invite new judge** checks for
+   existing accounts first, so you do not create a duplicate person.
+2. Assign judge letters (A, B, C…)
+3. Create judge panels
+4. Add judges to the panels
+5. Assign a panel to each class — a round can override it with its own panel
 
-Example panel:
+Each judge's row shows `Not invited`, `Invited` or `Active`, and lets you resend the invitation
+in English, Swedish or Spanish, or **Reset PIN** if a judge has forgotten theirs. Judges set
+their own PIN on their own device; there is no event-wide code.
 
-```
-Panel 1
-- Judge A: Technique
-- Judge B: Artistry
-- Judge C: Execution
-```
-
-Once results exist, panel/class changes may be locked.
+Panels lock down once results exist: "Cannot change panel with results", and a panel with
+classes assigned cannot be deleted.
 
 ## Step 6: Run one rehearsal round
 
@@ -169,7 +157,7 @@ at the venue with projector and tablets, see
 
 1. Pick a test class
 2. Open the first round
-3. Move round to **Ready**
+3. Press **Start judging** (the round goes to **In progress**)
 4. Simulate judging input
 5. Close, confirm, and publish test results
 6. Verify printouts (heat list, judging sheet, results)
@@ -180,34 +168,37 @@ If anything fails, fix before opening real rounds.
 
 Use this exact sequence:
 
-1. **Open**: Setup stage, editable
-2. **Ready**: Locked enough to run
-3. **Closed**: Input ended
-4. **Confirmed**: Results validated
-5. **Published**: Results visible externally
+1. **Not started**: setup stage, round settings editable
+2. **In progress**: judges can mark (button: **Start judging**)
+3. **Closed**: judge input ended (button: **Close round**)
+4. **Confirmed**: results reviewed, approved for presentation (button: **Confirm round**)
+5. **Published**: results visible externally (button: **Publish results online**)
+
+**Previous status** steps a round back.
 
 Do not skip statuses unless your federation explicitly allows it.
 
-## Data tools
+## Data transfer
 
-Go to **Competitions -> Data** only when needed.
+`Competition → Registration → Data transfer`, only when needed.
 
 Use cases:
 
-- Import/update class/team data by CSV
-- Export archived result data
-- Reset test-only competitions
+- CSV import of participants
+- Result downloads
+- Reset and delete tools for test data
 
 High risk actions:
 
 - Reset and delete are destructive
-- Never reset active competition data without backup
+- Never reset active competition data without a backup
 
 ## Troubleshooting
 
-### "Rounds cannot be set to Ready"
+### "Start judging is refused"
 
-Usually caused by missing judges, missing schedule block, or unassigned teams.
+Usually caused by missing judges, a missing schedule item, or unassigned participants. With no
+panel, Manager says "Assign a judging panel to this class or round before starting judging."
 
 Fix:
 
@@ -215,11 +206,11 @@ Fix:
 2. Resolve all blocking errors
 3. Retry status change
 
-### "Teams are not appearing in a class"
+### "Participants are not appearing in a class"
 
-1. Check team is active
-2. Confirm class registration was saved
-3. Confirm eligibility filters (age, size, federation)
+1. Confirm the registration is **Approved** and was imported
+2. Confirm the class entry was saved
+3. Confirm eligibility (the Federation Class's age and level rules, licenses)
 
 ### "Judge assignment is locked"
 
@@ -238,12 +229,12 @@ This often happens after results started.
 
 ## Competition setup done checklist
 
-- All classes exist with validated names/codes
-- All rounds exist with timing and status plan
-- Teams are loaded, numbered, and assigned
-- Judges and panels are assigned for every active class
+- All classes exist with a title, short letter and the right Federation Class
+- All rounds exist with a schedule item, floor and advancement plan
+- Participants are loaded, numbered and entered in classes
+- Judges are `Active`, and every active class has a panel
 - One full rehearsal round completed successfully
-- Blocking validation issues resolved
+- **Problems** shows no failed tests
 
 ## Next step
 

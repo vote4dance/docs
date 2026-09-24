@@ -75,40 +75,38 @@ event's details page.
 day with **Doors open** and **Competition start** blocks. Classes, rounds, judges and teams
 are yours to add — see [Competition setup](/manager-guide/competition-setup/).
 
-### Step 2: Event status and visibility
+### Step 2: Event status
 
-After creating the event, you'll see a **Status** section:
+An event has four statuses, and **Change status** moves it between them:
 
-| Status | What It Means | When to Use |
+| Status | What it means | Action that gets you there |
 |---|---|---|
-| **Draft** | Event exists but not public | Use this while you're setting up |
-| **Accepting Registrations** | Dancers and teams can register | Use when registration opens |
-| **Judging** | Registrations closed, competition is running | Use when judging starts |
-| **Completed** | Competition is over | Use after closing |
+| **Hidden** | The event exists but nobody outside your team can see it. This is where it starts and where you build it. | **Revert to hidden** |
+| **Published** | The event is public: it can be found, and registration can open. | **Publish competition** |
+| **Closed** | The competition is over. For a federation event, closing is what triggers promotion-point processing — see [Post-event and exports](/manager-guide/post-event/). | **End competition** |
+| **Archived** | Put away for good. | **Archive competition** |
 
-**How to change status:**
+Two guards stop you publishing too early, and both are worth knowing before you promise a
+date:
 
-1. In Manager, go to your Event
-2. Look for **Status** dropdown (usually top of the page)
-3. Select the next status
-4. Click **Save** or **Update**
+- "Competition needs an image before it can be published." — upload the event image, see
+  [Event image](/manager-guide/event-image/).
+- "Competition needs billing information before it can be published." — only for live
+  competitions; practice events are never billed.
+
+Registration is **not** a status. Whether people can register is decided by the registration
+periods you set up, independently of the event being published — see
+[Registration and check-in](/manager-guide/registration-checkin/).
 
 **Timeline example:**
+
 ```
-Today (March 1):        Status = Draft (you're building)
-March 5 (Registration):  Status = Accepting Registrations
-March 14 (Judging day): Status = Judging
-March 16 (Done):        Status = Completed
+Today:              Hidden (you are building)
+8 weeks before:     Published, registration period opens
+Competition day:    Published (rounds run, results publish per round)
+After the event:    Closed (ends the competition, triggers promotion points)
+Much later:         Archived
 ```
-
-**Visibility settings:**
-
-When you create an event, decide:
-- **Public** = Dancers can find it and register themselves (you publish a link)
-- **Private** = Only people you explicitly invite can see it
-- **Federation Only** = Only members of your federation can see it
-
-(Location of visibility settings varies; look for "Visibility" or "Public/Private" toggle.)
 
 ### Step 3: Event details page
 
@@ -119,22 +117,15 @@ You'll see several sections on your Event page:
 - Status and visibility
 - Edit button to change any of these
 
-**Classes** (or Divisions)
-- Where you'll define solo, duet, group, etc.
-- More details below in Competition Setup
+**Competitions**
+- An event holds one or more competitions. Classes, participants, judges and rounds all belong
+  to a competition, not to the event.
 
-**Rounds**
-- Where you schedule which classes judge in which time slots
-- More details below in Rounds section
+**Public info**
+- The short description (max 150 characters) shown on the public event page
 
-**Public Info**
-- Short description visible to dance participants
-- Example: "Join us for the 8th annual Northeast Regional Championship. Ages 10-18 welcome."
-- Edit this to make dancers interested in your event
-
-**Venue Details**
-- Address, parking info, etc.
-- Dancers will see this if event is public
+**Location**
+- The venue, with a **Verify on Google Maps** link — use it, this is what people navigate by
 
 ### Step 4: Upload the event image
 
@@ -153,92 +144,57 @@ cannot be processed.
 See [Event image](/manager-guide/event-image/) for the full guidance, including
 what gets cropped on each screen and how to convert an iPhone photo.
 
-## Common sections in Event Setup
+## Common sections in event setup
 
 ### Overview
 
-**What you set here:**
-- Event name and code
-- Start/end dates
-- Location and venue details
-- Brief description
-- Public/private visibility
+The event's own details: name, organizer, dates, country, contact email, short description,
+event mode, location, timezone and — for live competitions — billing information. This is also
+where the event image and the status live.
 
-**Example Overview:**
-```
-Event Name: Northeast Regional Championship 2026
-Event Code: NRC2026
-Start: March 15, 2026
-End: March 15, 2026
-Location: Boston Convention Center, Boston, MA
-Description: Regional championship for U10-U18 dancers.
-Visibility: Public
-```
+### Classes
 
-### Classes (or Divisions or Categories)
+Classes belong to a competition, not to the event, and each one maps to a **Federation Class**
+that carries its age and level rules.
 
-Different competition categories. Examples:
-- Solo (individual dancers)
-- Duet (2 dancers)
-- Trio (3 dancers)
-- Group (4+ dancers)
+**You'll set up classes in [Competition setup](/manager-guide/competition-setup/).**
 
-**You'll set up classes in [Competition Setup](/manager-guide/competition-setup/).**
+### Rounds and judging panels
 
-### Rounds and Judging Panels
-
-On what days/times do specific classes judge?
-
-Example:
-```
-Round 1: Saturday 9:00 AM - Group classes (Jazz, Contemporary)
-Round 2: Saturday 2:00 PM - Solo classes (Jazz, Contemporary, Ballet)
-Round 3: Sunday 9:00 AM - Finalistas
-```
+Rounds live inside a class, and each round is placed on a **schedule item** and a **floor**.
+That is what gives the public schedule, the speaker and the screens their times.
 
 **You'll set up rounds in [Competition setup](/manager-guide/competition-setup/).**
 
 ### Registration & Payment Settings
 
-If you want competitors to pay registration fees:
+Fees are not set on the event. They belong to the **registration period**, which also decides
+the payment mode (free, invoice, or online through Stripe), the currency and the price ladder.
+See [Registration and check-in](/manager-guide/registration-checkin/).
 
-1. Look for **Payment Settings** or **Registration Fees**
-2. Set the fee per dancer/team
-3. Choose payment method (on-site, Stripe, etc.)
-4. Dancers will see this during registration
+## What you can print
 
-## What each button does
+Manager prints from the round and participant pages:
 
-| Button | What It Does | When to Use |
-|---|---|---|
-| **Save** | Saves all changes on current page | After any edit |
-| **Publish** | Makes event publicly visible | When ready for dancers to register |
-| **Close Registration** | Stops new registrations | When you have enough entries |
-| **Start Judging** | Locks event, begins rounds | When first round is ready |
-| **Print/Export** | Downloads participant list | For judges or staff |
+- Start numbers
+- Heat lists
+- Judging sheets
+- Results
+- Diplomas — see [Customizing diplomas](/manager-guide/diploma-customization/)
+- The schedule
+- Dressing-room lists — see [Statistics](/manager-guide/statistics/)
+- The registration QR poster ("Scan to register")
 
 ## Verifying your event is set up correctly
 
 After creating the event:
 
-1. **Event name visible**
-   - Go to Manager → Events
-   - You should see your event listed
-   - Click it to see the full details page
-
-2. **Dates are correct**
-   - Go to event details
-   - Confirm start date = March 15, end date = March 15 (or your dates)
-
-3. **Location shows up**
-   - Confirmed on event details page
-   - Public attendees will see this
-
-4. **Status is Draft (if still building) or Accepting Registrations (if open)**
-   - See Status dropdown at top of event page
-
-5. **No error messages**
-   - If you see red errors, fix the offending fields before continuing
+1. **The event is listed** in Manager, and opens to its details page
+2. **Dates, location and timezone are correct** — the timezone drives every time shown to
+   everyone, so check it even for a local event
+3. **The event image is uploaded** — without it the event cannot be published
+4. **Status is Hidden** while you build, and **Published** when it should be public
+5. **Problems shows no failed tests**
 
 ## Next steps
 
@@ -302,7 +258,7 @@ The event page has further sections you may want to configure:
 2. Event image is uploaded and the status/visibility is what you intend
 3. Competitions, floors and users are complete
 4. Schedule pages are built and the published state is intentional
-5. Validator has no blocking errors
+5. **Problems** shows no failed tests
 6. Public-facing modules are configured as intended
 7. No error messages on the event page
 

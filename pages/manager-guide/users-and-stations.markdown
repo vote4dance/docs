@@ -21,8 +21,11 @@ Everyone who works at a competition uses one of the Vote4Dance apps. Access is g
 | **Lineup** | "Insläpp" in Swedish | The person at the floor entrance | Calls the next heat, marks who is on the floor, keeps the running order. |
 | **Check-in** | "Registration" tile / "Anmälan" | The check-in desk | Finds dancers (by name or by scanning their QR code), assigns and prints start numbers, takes walk-in registrations and payment on site. |
 | **Cafe** | | The cafe counter | Products and the live order queue. |
+| **Organizer** | | Whoever sells tickets and meals | The **Shop**: products (spectator tickets, meals, table seats, merch, passes), prices, capacity and what has sold or is held, plus the public tickets page. Opened from the event overview page. |
 
 The event overview page shows one tile per app the signed-in person has access to. The dancer-facing pages and public results need no access at all.
+
+The Shop has no page of its own in this documentation yet. If you sell tickets or meals, work from the app and ask support; the product list, prices and capacity are self-explanatory, and the desk redeems ticket QR codes in the Check-in app.
 
 Two naming traps:
 

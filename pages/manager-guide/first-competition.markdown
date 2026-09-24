@@ -61,14 +61,17 @@ This is the minimum. Everything else is optional polish.
 | 5 | Competition and classes | `Manager → Competition → Classes` | What dancers register into. See [Competition setup](/manager-guide/competition-setup/). |
 | 6 | Rounds per class | `Manager → Competition → Rounds` | What you actually run on the day. Use the Round Guide to generate them. |
 | 7 | Schedule blocks | `Manager → Event → Schedule` | Gives rounds a time and an order, and feeds the public schedule, the speaker and the screens. |
-| 8 | Judges and panels | `Manager → Competition → Judges` | A round cannot go to `Ready` without judges. |
+| 8 | Judges and panels | `Manager → Competition → Judges` | Without a panel, **Start judging** is refused: "Assign a judging panel to this class or round before starting judging." |
 | 9 | Judge invitations | `Manager → Competition → Judges` | Judges are invited by email and show as `Not invited`, `Invited` or `Active`. Each judge sets their own PIN on their own device the first time they open the Judging app — there is no event-wide code for you to hand out, and you can reset a forgotten PIN from the judge's row. |
 | 10 | Registration period | `Manager → Competition → Registration → Registration period` | Without an open period nobody can register. See [Registration and check-in](/manager-guide/registration-checkin/). |
 | 11 | Users and stations | `Manager → Event → Users` and `→ Stations` | Each functionary gets exactly the apps they need; shared devices join as stations. See [Users, apps and stations](/manager-guide/users-and-stations/). |
 | 12 | Screens | `Manager → Event → Screens` | One screen per projector or TV, each with a label, a floor and what it shows. One device drives one screen, so count your displays. See [Screens, projectors and venue technology](/manager-guide/screens/). |
 | 13 | Event status and visibility | `Manager → Event → Overview` | Nothing is public until you set it. |
 
-Before the day, run the **Validator** in Manager and resolve everything it flags as blocking.
+Before the day, open **Problems** in Manager and resolve everything it flags. Problems runs a
+set of automatic tests over your setup — start-number and license conflicts, rounds without
+judges, participants scheduled in two overlapping rounds, advancement that does not add up —
+and re-runs them whenever you change something.
 
 ## Timeline
 
@@ -81,7 +84,7 @@ Before the day, run the **Validator** in Manager and resolve everything it flags
 | **1–2 weeks before** | Book the venue rehearsal: projector, Wi-Fi and the real devices. Registration closes. |
 | **Registration closed** | Approve registrations, import participants, assign start numbers, check licenses. |
 | **2–3 days before** | Final schedule. Print heat lists and judging sheets as backup. Charge every tablet. Create the stations and print their QR codes. |
-| **Day before / morning** | Set up screens and devices, run one live round with test data if you still can, run the Validator, then set the event to its live status. |
+| **Day before / morning** | Set up screens and devices, run one live round with test data if you still can, clear **Problems**, then set the event to its live status. |
 | **On the day** | Follow [Live operations](/manager-guide/live-operations/). |
 | **After** | Confirm and publish all rounds, then [Post-event and exports](/manager-guide/post-event/). |
 

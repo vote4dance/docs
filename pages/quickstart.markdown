@@ -60,7 +60,7 @@ In the [Manager Guide](/manager-guide/):
 
 Run a full test with your team:
 
-1. Set one round to `Ready`
+1. Take one round to **In progress** with **Start judging**
 2. Have someone test the [Judging app](/building-blocks/) and enter sample scores — each judge sets their own PIN on their own device the first time
 3. Close, confirm, and publish results in Manager
 4. Verify that [Screens](/building-blocks/), [Speaker](/building-blocks/), and check-in work as expected
@@ -72,11 +72,17 @@ rehearsal](/manager-guide/test-run/).
 
 For each round during the actual event, follow this lifecycle:
 
-1. `Open` — Ready for dancers to enter and judges to prepare
-2. `Ready` — Locked in, judges can start scoring
-3. `Closed` — No more judge input accepted
-4. `Confirmed` — Results reviewed and correct
-5. `Published` — Results are live (on screens, public results, rankings)
+| Round status | What it means | Button that moves it on |
+|---|---|---|
+| **Not started** | Setup stage. Round settings are editable. | **Start judging** |
+| **In progress** | Judges can mark. | **Close round** |
+| **Closed** | No more judge input. You see results and placements. | **Confirm round** |
+| **Confirmed** | Results reviewed and approved for presentation. | **Publish results online** |
+| **Published** | Results are live: screens, public results, rankings. | — |
+
+**Previous status** takes a round back a step. Note that the first two statuses read *Not
+started* and *In progress* in Manager — older material (and some of this documentation's
+history) called them "Open" and "Ready".
 
 Repeat for each round.
 

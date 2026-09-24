@@ -140,26 +140,55 @@ Recommended image style for screens and match presentations:
 
 ## Check-in
 
-There are two check-in mechanisms, and they are independent:
+Three separate things are called check-in, and they do different jobs:
 
-- **Club check-in** (`Manager → Competition → Checkin`): each club confirms its whole roster for the day and signs. The manager opens a check-in window, follows the cancellation report, and applies the check-in to the competition. This is what decides who dances.
-- **Dancer QR code**: every dancer receives a personal QR code in the approval email. Check-in desk staff scan it in the Check-in app to find the dancer, hand out the start number and see payment status. See [Emails and the check-in QR code](/manager-guide/emails/).
+| | What it is | What it decides |
+|---|---|---|
+| **Club check-in** | `Manager → Competition → Checkin`. Each club confirms its whole roster for the day and signs. | **Who dances.** This is the one that changes the competition. |
+| **Arrived** | The desk scans a dancer's **Vote4Dance ID** in the Check-in app and presses **Arrived**, recorded per person and per day. | Nothing about the competition — it is a record of who is in the building. Manager says it plainly: "Arrived is not the club check-in." |
+| **Admission** | Whether the person may come in at all: by approved registration, or by ticket. | Entry to the venue, not entry to a round. |
 
-### Club check-in controls
+### Club check-in
 
-- Configure the check-in open/close window
-- Track organization-level check-in status
-- Mark team attendance/cancellation reasons
-- Capture signed check-in submissions
-- Apply/unapply check-in to competition state
+Controls:
 
-### Recommended check-in sequence
+- The check-in open/close window
+- Club-level check-in status
+- Team attendance and cancellation reasons
+- Signed check-in submissions
+- Apply/unapply check-in to the competition
 
-1. Open the check-in window in settings
-2. Let organizations mark teams and sign
-3. Monitor the cancellation report
-4. Apply check-in once submissions are complete
-5. Unapply only if corrections are required
+Sequence:
+
+1. Open the check-in window
+2. Let the clubs confirm their teams and sign
+3. Watch the cancellation report
+4. **Apply** check-in once submissions are complete
+5. Unapply only if corrections are needed
+
+**What applying does, and why the timing matters:** teams that the club has *not* confirmed
+are **cancelled** when check-ins are applied. Do not apply while clubs are still working, and
+chase the clubs that have not signed before you do — otherwise you cancel dancers who are
+standing in the hall.
+
+### Admission: who may enter
+
+Under the Shop's **Dancer admission** setting the event chooses what a registration is worth
+at the door:
+
+| Setting | Meaning |
+|---|---|
+| **Every day of the event** | An approved registration admits the dancer on every day. |
+| **Only on the days they dance** | Admitted on the days one of their classes has a round on the schedule; other days need a ticket. |
+| **Only with a ticket** | Registered dancers buy a ticket like everybody else. |
+
+The setting does nothing until the schedule has dated days — until then every dancer is
+admitted every day, and Manager warns you which classes have no day yet.
+
+When the desk scans a Vote4Dance ID, it sees which classes the person dances today, whether
+they are admitted, whether a ticket is needed (and can sell one on the spot), whether the
+registration is paid, and whether their club has checked in. It also flags a dancer with no
+photo on their ID, since the photo is what the desk compares with the face.
 
 ## Registration and check-in done checklist
 

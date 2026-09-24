@@ -20,7 +20,7 @@ what "it works" looks like.
 | Test | At your desk | At the venue |
 |---|---|---|
 | Event, classes and rounds are set up correctly | ✓ | |
-| A full round: `Ready` → judging → `Closed` → `Confirmed` → `Published` | ✓ | ✓ |
+| A full round: **Start judging** → marking → **Close round** → **Confirm round** → **Publish results online** | ✓ | ✓ |
 | The judges' view, and each judge setting their PIN | ✓ | ✓ |
 | Screens content and view order | ✓ | ✓ |
 | Speaker flow and **Show on Screen** | ✓ | ✓ |
@@ -72,7 +72,7 @@ reset and delete are destructive.
 With just your own computer, and a phone or tablet beside it:
 
 1. Open Manager and take one round through the whole lifecycle:
-   `Open` → `Ready` → `Closed` → `Confirmed` → `Published`.
+   **Not started** → **In progress** → **Closed** → **Confirmed** → **Published**.
 2. Open the **Judging app's demo** to see exactly what the judges see, and mark a round
    yourself. The demo builds heats from the real round, so the heat and team counts match
    what you have set up. The same demo link goes out in the judges' invitation email, so your
@@ -82,7 +82,7 @@ With just your own computer, and a phone or tablet beside it:
    device shows.
 4. Open **Speaker** on your phone and use **Show on Screen** to drive the screen window.
 5. Print a heat list, a judging sheet and a diploma to PDF.
-6. Run the **Validator** and read every warning.
+6. Open **Problems** in Manager and read every failed test.
 
 If this hour goes well, the rest is logistics.
 
@@ -165,11 +165,11 @@ If the network fails here, stop and solve it with the venue. Nothing downstream 
 
 Use the bootstrap practice classes and random teams, and run it as if the hall were full:
 
-1. Set the round to `Ready`.
+1. Press **Start judging**.
 2. Lineup calls the heat; watch the lineup and heat displays on the projector.
 3. The judges mark on their tablets. Watch the judges' completion status in Manager.
 4. The speaker uses **Show on Screen** to drive the hall.
-5. Move the round to `Closed`, then `Confirmed`, then `Published`.
+5. **Close round**, then **Confirm round**, then **Publish results online**.
 6. Watch the result appear on the projector, then run the **prize ceremony view** with the
    spotlight — this is the moment worth rehearsing, because it is the one the audience
    remembers.
@@ -199,7 +199,7 @@ network each used, and how long the setup took. That note is your event-morning 
 
 1. Keep the practice event. It stays useful for training new functionaries, and the judges'
    demo link keeps working for judges who want another go.
-2. Clear any test teams you created in the **real** event, and re-run the Validator there.
+2. Clear any test participants you created in the **real** event, and check **Problems** there.
 3. Turn your notes into a one-page run sheet for the morning: order of setup, who does what,
    and the venue contact's phone number.
 4. Fix anything the rehearsal exposed while you still have weeks, not hours.
@@ -208,7 +208,7 @@ network each used, and how long the setup took. That note is your event-morning 
 
 If the rehearsal went well, the morning is short. This sequence takes about 45 minutes:
 
-1. Power and network for the desk computer; open Manager and check the Validator (5 min).
+1. Power and network for the desk computer; open Manager and check **Problems** (5 min).
 2. Display computer to the projector; Screens station, the right screen card, fullscreen,
    browser zoom as noted (10 min).
 3. Judges' tablets out, each judge enters their own PIN (5 min).
@@ -230,7 +230,7 @@ Then follow [Live operations](/manager-guide/live-operations/).
   panel for a class.
 - Functionaries who were given Manager access but not the app they actually need — a very
   common one, see [Users, apps and stations](/manager-guide/users-and-stations/).
-- A round that will not go to `Ready` because of a missing schedule block or panel.
+- A round where **Start judging** is refused because of a missing schedule item or panel.
 - Too few power outlets at the desk.
 
 ## Related pages

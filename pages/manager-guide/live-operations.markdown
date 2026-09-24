@@ -16,7 +16,7 @@ rehearsal](/manager-guide/test-run/).
 
 ## Pre-open checks (30-60 minutes before)
 
-1. Open Manager and confirm no critical Validator issues
+1. Open Manager and confirm **Problems** has no failed tests
 2. Confirm judges can access the judging app and enter their own PIN
 3. Confirm Speaker and Screens are loading event data, and that the projector picture fills
    the display (see [Screens, projectors and venue technology](/manager-guide/screens/))
@@ -29,15 +29,16 @@ rehearsal](/manager-guide/test-run/).
 For each round:
 
 1. Verify teams are loaded and heat distribution is correct
-2. Move round to `Ready`
+2. Press **Start judging** — the round goes to **In progress**
 3. Monitor judge completion
-4. Move to `Closed` when judging is complete
-5. Confirm/send teams through
-6. Publish when ready for public visibility
+4. Press **Close round** when judging is complete
+5. **Confirm round**, then set the advancement targets — Manager warns you if you confirm
+   without any ("No targets have been set from the round result") and if placements conflict
+6. **Publish results online** when it should be public
 
 ## Live controls you will use most
 
-- Round status controls (`Open` -> `Ready` -> `Closed` -> `Confirmed` -> `Published`)
+- Round status controls: **Not started** → **In progress** (`Start judging`) → **Closed** (`Close round`) → **Confirmed** (`Confirm round`) → **Published** (`Publish results online`), plus **Previous status** to step back
 - Send-through and not-through targets
 - Priority assignment for alternates/group logic
 - Round toolbar utilities (sort/randomize/reverse/heat count)
@@ -56,8 +57,9 @@ During live execution:
 
 ### Judges not finishing
 
-- Confirm round is `Ready`
-- Check judge assignments and panel settings
+- Confirm the round is **In progress**
+- Check judge assignments and panel settings. If **Start judging** refuses, Manager says
+  "Assign a judging panel to this class or round before starting judging."
 - Confirm network and device state
 
 ### Wrong teams in round

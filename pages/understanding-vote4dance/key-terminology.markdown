@@ -58,7 +58,7 @@ A list of dancers or teams arranged by score, typically within a division and cl
 A grouping within rankings, usually by age group or skill level (e.g., "U10", "U12", "Open").
 
 ### **Class**
-A category of performance within a division (e.g., "Solo", "Duet", "Team").
+A category of performance within a division. In a competition each class maps to a **Federation Class**, which is what carries its age and level rules.
 
 ### **Manual Workflow** / **Manual Exception**
 When the automatically-calculated ranking result needs to be changed due to a dispute, tie-breaking decision, or administrative override.
@@ -70,20 +70,20 @@ When the automatically-calculated ranking result needs to be changed due to a di
 ### **Manager**
 The central control panel where event organizers configure events, assign judges, manage registration, and run live competition rounds. (Not to be confused with event managers as people—"Manager" is the app name.)
 
-### **Judging App (judging3)**
-The app where judges enter their scores during live rounds.
+### **Judging App**
+The app where judges enter their marks during live rounds. Each judge sets their own PIN on their own device; the invitation email also carries a demo link to practise on.
 
 ### **Speaker App**
 The app for floor operations and live announcements during an event.
 
 ### **Screens**
-Display panels that show current judging status, results, or other event information to the audience.
+The projectors and TVs in the hall, and the app that drives them: lineups, heats, results, the prize ceremony, the schedule, judges and sponsors. Each screen is configured in `Manager → Event → Screens`; see [Screens, projectors and venue technology](/manager-guide/screens/).
 
 ### **Check-in**
-The process where dancers/teams confirm their presence at the event before competition begins.
+The process where dancers and clubs confirm their presence at the event before the competition begins, and the app the desk does it in. The desk can scan a dancer's **Vote4Dance ID** (their personal QR card, which they open from their own account) or a ticket code, or search by name or email.
 
 ### **Round**
-A distinct judging session within a competition. For example, "Round 1" might be solos, "Round 2" duets, "Round 3" teams. Each round goes through states: Open → Ready → Closed → Confirmed → Published.
+A distinct judging session within a class: a qualification, a semifinal, a final. Each round sits on a schedule item and a floor, and moves through five statuses — **Not started** → **In progress** → **Closed** → **Confirmed** → **Published** — driven by the buttons `Start judging`, `Close round`, `Confirm round` and `Publish results online`.
 
 ---
 
@@ -112,7 +112,10 @@ Rules set by a federation. Examples: "All dancers must be licensed", "Classes ma
 The defaults Manager creates with a new event so you don't start from an empty page: a **Main floor**, one screen, default cafe products and a starting schedule with **Doors open** and **Competition start**. Classes, rounds, judges and teams you add yourself.
 
 ### **Stripe**
-The payment processor used by Vote4Dance. If payments are required and Stripe is connected, dancers/admins can pay online.
+The payment processor used by Vote4Dance. If payments are required and Stripe is connected, dancers and admins can pay online — for registrations, and in the **Shop** for tickets and meals.
+
+### **Problems**
+Manager's automatic tests over your setup: start-number and license conflicts, rounds without judges, dancers scheduled in two overlapping rounds, advancement that does not add up, and more. They re-run as you change the competition. Clear them before the event.
 
 ---
 
