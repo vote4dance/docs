@@ -122,6 +122,14 @@ All of these map onto the preset and younger/older allowances described above.
 
 ---
 
+## Related
+
+- [Age moves](/federation/age-moves/) — the season batch that moves competitors
+  up an age group. It checks the target class against the same band and
+  composition rule, so a preset set here decides who the batch may move.
+
+---
+
 ## What dancers see
 
 If a team does not meet the rule, registration is blocked with a message such as

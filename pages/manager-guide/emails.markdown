@@ -39,23 +39,22 @@ The **Email participants** button on the same tab sends a free-text message to t
 
 ## The check-in QR code
 
-Every dancer with a user account has one personal QR code. It is the same for every competition and never expires, so a dancer who has kept an older approval email can still use it.
+Every dancer with a user account has one personal QR code: their **[Vote4Dance ID](/dancer/vote4dance-id/)**. It is the same for every competition and never expires, so a dancer who has kept an older approval email can still use it.
 
 How it reaches the dancer:
 
 - It is embedded in the **Approved** status email, with the caption "Scan the code for faster checkin". A couple receives two emails, each with that dancer's own code.
-- The dancer can also open it themselves, as their **Vote4Dance ID**: on the website under `Account → Vote4Dance ID`, and in the app on the **Profile** tab. The card shows their photo, birth date, nationality and club around the same check-in QR code, with the hint "Show your Vote4Dance ID at the desk to identify yourself and check in." A dancer who has lost the email does not need anything from you — point them at their own account.
-- The photo on the card is what the desk compares with the face in front of them, so it is worth asking dancers to add one. Manager can tell you how many registered dancers have no photo yet.
+- The dancer also has it without the email: in the app under **Profile → Vote4Dance ID**, and on the website on their account page. Tell dancers to use that rather than digging out an old email.
 
 What happens when it is scanned:
 
 - The code is meant to be scanned by **check-in desk staff**, using the phone camera on a device that is signed in to the Check-in app (as a user with the Check-in app, or as a Check-in station, see [Users, apps and stations](/manager-guide/users-and-stations/)).
-- The desk sees the dancer's registrations for the event, their status and payment, and can assign and print the start number from there.
-- A dancer scanning their own code lands on a login page. The code identifies a person to the desk; it is not an admission ticket.
+- The desk sees the dancer's photo and name, whether their registration admits them today, their club check-in, any tickets on their account, and their registrations for the event with status and payment; start numbers are assigned and printed from there, and the person is marked **Arrived**. See [At the door](/manager-guide/the-door/).
+- A dancer scanning their own code lands on a login page. The code identifies the dancer to the desk; it is not a ticket.
 
 The QR code does not replace [club check-in](/manager-guide/registration-checkin/#check-in). The club still confirms its roster; the QR code speeds up the desk.
 
-Do not confuse it with the other QR codes in the product: the **registration poster** QR on the Registration page ("Scan to register", it opens the public registration form), the **station** QR that connects a shared device, and **ticket** QR codes, which are per ticket and are redeemed rather than identifying a person.
+Do not confuse it with the two other QR codes in the product: the **registration poster** QR on the Registration page ("Scan to register", it opens the public registration form), and the **station** QR that connects a shared device.
 
 ## How to test the emails
 
@@ -64,7 +63,6 @@ The test environment sends real emails the same way as the live site, so you can
 1. Create a test dancer with an email address you can read, and register them for a competition on the test site.
 2. Open `Manager → Competition → Registration → Registrations`, change the filter to show the registration, and make sure **Send email on status change** is ticked.
 3. Set the status to **Approved**. The email with the QR code arrives within a minute.
-4. To test the desk side, open the Check-in app on the test site and scan the code with the phone camera, or open the link the code contains. The same lookup box also takes a ticket code, or a name or email typed by hand.
-5. To check the dancer's own route, sign in as the test dancer and open `Account → Vote4Dance ID`.
+4. To test the desk side, open the Check-in app on the test site and scan the code — with the **Scan** button in the app, the phone camera, or by opening the link the code contains.
 
 If no email arrives, check the dancer's account has an email address, and look in spam. Emails come from `noreply@vote4dance.com`.

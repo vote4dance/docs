@@ -19,18 +19,16 @@ Everyone who works at a competition uses one of the Vote4Dance apps. Access is g
 | **Speaker** | | The MC or floor manager | The floor console: current round, lineup and heats, live status of the judges, result reveal for the prize ceremony, the schedule, and what the screens show. |
 | **Screens** | | Whoever runs the TVs and projectors | The fullscreen displays for the audience and the floor: lineups, heats, results, schedule, sponsors and so on. Display only. |
 | **Lineup** | "Insläpp" in Swedish | The person at the floor entrance | Calls the next heat, marks who is on the floor, keeps the running order. |
-| **Check-in** | "Registration" tile / "Anmälan" | The check-in desk | Finds dancers (by name or by scanning their QR code), assigns and prints start numbers, takes walk-in registrations and payment on site. |
+| **Check-in** | "Registration" tile / "Anmälan" | The check-in desk | Finds dancers (by name, or by scanning a [Vote4Dance ID](/dancer/vote4dance-id/) or a ticket), assigns and prints start numbers, marks arrivals, uses tickets, takes walk-in registrations and sells for cash. See [At the door](/manager-guide/the-door/). |
 | **Cafe** | | The cafe counter | Products and the live order queue. |
-| **Organizer** | | Whoever sells tickets and meals | The **Shop**: products (spectator tickets, meals, table seats, merch, passes), prices, capacity and what has sold or is held, plus the public tickets page. Opened from the event overview page. |
+| **Organizer** | | The person who sells to the audience | The event Shop: products, orders, dancer admission and the door checklist. See [Shop](/manager-guide/shop/). |
 
 The event overview page shows one tile per app the signed-in person has access to. The dancer-facing pages and public results need no access at all.
-
-The Shop has no page of its own in this documentation yet. If you sell tickets or meals, work from the app and ask support; the product list, prices and capacity are self-explanatory, and the desk redeems ticket QR codes in the Check-in app.
 
 Two naming traps:
 
 - **"Scrutineer" on the event page is the Manager app.** It is the same access as Manager under Users. The federation-level [Scrutineer](/scrutineer/) role in this documentation is a description of a job, not a tick box in the competition.
-- **Manager does not automatically open the other apps.** A person with only Manager can do everything from the Manager app, but the Speaker, Screens, Lineup, Check-in and Cafe apps each check for their own tick. Give the head of scrutineering Manager plus the apps they will actually open. The last Manager on a competition cannot be removed.
+- **Manager does not automatically open the other apps.** A person with only Manager can do everything from the Manager app, but the Speaker, Screens, Lineup, Check-in, Cafe and Organizer apps each check for their own tick. Give the head of scrutineering Manager plus the apps they will actually open. The last Manager on a competition cannot be removed.
 
 Each user can also be given a free-text **role title** (for example "Chairperson" or "Floor manager"). It is only a label shown in the list; access follows the ticked apps.
 

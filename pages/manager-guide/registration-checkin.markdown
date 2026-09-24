@@ -10,7 +10,7 @@ nav_order: 3
 
 This page covers the whole path from an online registration to a participant on the floor: the registration tabs, what each status means, how approved registrations become participants, and what to do next.
 
-Emails, the check-in QR code and how to test them are on [Emails and the check-in QR code](/manager-guide/emails/).
+Emails, the check-in QR code and how to test them are on [Emails and the check-in QR code](/manager-guide/emails/). Scanning at the entrance, arrivals and tickets are on [At the door](/manager-guide/the-door/).
 
 ## The Registration page
 
@@ -140,55 +140,43 @@ Recommended image style for screens and match presentations:
 
 ## Check-in
 
-Three separate things are called check-in, and they do different jobs:
+There are three check-in mechanisms, and they are independent:
 
-| | What it is | What it decides |
-|---|---|---|
-| **Club check-in** | `Manager → Competition → Checkin`. Each club confirms its whole roster for the day and signs. | **Who dances.** This is the one that changes the competition. |
-| **Arrived** | The desk scans a dancer's **Vote4Dance ID** in the Check-in app and presses **Arrived**, recorded per person and per day. | Nothing about the competition — it is a record of who is in the building. Manager says it plainly: "Arrived is not the club check-in." |
-| **Admission** | Whether the person may come in at all: by approved registration, or by ticket. | Entry to the venue, not entry to a round. |
+- **Club check-in** (`Manager → Competition → Checkin`): each club confirms its whole roster for the day and signs. The manager opens a check-in window, follows the cancellation report, and applies the check-in to the competition. This is what decides who dances.
+- **The Vote4Dance ID**: every dancer has a personal QR code, in the app, on their account page and in the approval email. Check-in desk staff scan it in the Check-in app to find the dancer, hand out the start number, see payment status and mark them **Arrived**. See [At the door](/manager-guide/the-door/).
+- **Tickets**: what the audience shows. Sold from the event's Tickets page or at the desk — see [Shop](/manager-guide/shop/). Dancers do not need one unless the organizer says so.
 
-### Club check-in
+### The Arrived column
 
-Controls:
+Once anybody has been marked arrived at the desk, the registrations list gains an **Arrived** column: `n/m` of the registration's members arrived today, with a filter for everyone, some or nobody. It is a live view of the entrance, not a check-in — an unconfirmed club is still cancelled when check-ins are applied, however many of its dancers walked through the door.
 
-- The check-in open/close window
-- Club-level check-in status
-- Team attendance and cancellation reasons
-- Signed check-in submissions
-- Apply/unapply check-in to the competition
+### Club check-in controls
 
-Sequence:
+- Configure the check-in open/close window
+- Track organization-level check-in status
+- Mark team attendance/cancellation reasons
+- Capture signed check-in submissions
+- Apply/unapply check-in to competition state
 
-1. Open the check-in window
-2. Let the clubs confirm their teams and sign
-3. Watch the cancellation report
-4. **Apply** check-in once submissions are complete
-5. Unapply only if corrections are needed
+### Recommended check-in sequence
 
-**What applying does, and why the timing matters:** teams that the club has *not* confirmed
-are **cancelled** when check-ins are applied. Do not apply while clubs are still working, and
-chase the clubs that have not signed before you do — otherwise you cancel dancers who are
-standing in the hall.
+1. Open the check-in window in settings
+2. Let organizations mark teams and sign
+3. Monitor the cancellation report
+4. Apply check-in once submissions are complete
+5. Unapply only if corrections are required
 
-### Admission: who may enter
+**What applying does, and why the timing matters:** teams the club has **not** confirmed are
+**cancelled** when check-ins are applied. Do not apply while clubs are still working, and chase
+the clubs that have not signed before you do — otherwise you cancel dancers who are standing in
+the hall. Dancers marked **Arrived** at the desk are not protected by it either; arrival and
+club check-in are different things.
 
-Under the Shop's **Dancer admission** setting the event chooses what a registration is worth
-at the door:
+### Dancer admission
 
-| Setting | Meaning |
-|---|---|
-| **Every day of the event** | An approved registration admits the dancer on every day. |
-| **Only on the days they dance** | Admitted on the days one of their classes has a round on the schedule; other days need a ticket. |
-| **Only with a ticket** | Registered dancers buy a ticket like everybody else. |
-
-The setting does nothing until the schedule has dated days — until then every dancer is
-admitted every day, and Manager warns you which classes have no day yet.
-
-When the desk scans a Vote4Dance ID, it sees which classes the person dances today, whether
-they are admitted, whether a ticket is needed (and can sell one on the spot), whether the
-registration is paid, and whether their club has checked in. It also flags a dancer with no
-photo on their ID, since the photo is what the desk compares with the face.
+Whether a registration also lets a dancer *through the door* is a separate setting — every day
+of the event, only on the days they dance, or only with a ticket. It lives on the Shop page and
+is explained on [At the door](/manager-guide/the-door/).
 
 ## Registration and check-in done checklist
 

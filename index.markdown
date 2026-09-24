@@ -19,7 +19,10 @@ the prize ceremony and the final exports.
 | Work out **which app each functionary needs** | [Users, apps and stations](/manager-guide/users-and-stations/) |
 | Set up **registration and check-in** | [Registration and check-in](/manager-guide/registration-checkin/) |
 | Have a **runbook for the competition day** | [Live operations](/manager-guide/live-operations/) |
+| Sell **tickets, meals or merch** | [Shop](/manager-guide/shop/) |
+| Run **the door**: scanning, admission, arrivals | [At the door](/manager-guide/the-door/) |
 | **Register for a competition** as a dancer | [Dancer: registration for event](/dancer/registration-for-event/) |
+| **Buy a ticket** to watch | [Spectator: buying tickets](/spectator/buying-tickets/) |
 | Understand **licenses, classes and rankings** | [Federation](/federation/) |
 | See **what is new** in Vote4Dance | [Release notes](/release-notes/) |
 
@@ -37,13 +40,15 @@ The path most organizers follow, in order:
 
 1. [Planning your first competition](/manager-guide/first-competition/) — what is required, and when
 2. [Event setup](/manager-guide/event-setup/) — create the event
-3. [Competition setup](/manager-guide/competition-setup/) — classes, rounds, teams, judges
+3. [Competition setup](/manager-guide/competition-setup/) — classes, rounds, participants, judges
 4. [Users, apps and stations](/manager-guide/users-and-stations/) — functionaries and devices
 5. [Screens, projectors and venue technology](/manager-guide/screens/) — the hall
-6. [Registration and check-in](/manager-guide/registration-checkin/) — entries and the desk
-7. [Test run and venue rehearsal](/manager-guide/test-run/) — prove it before the day
-8. [Live operations](/manager-guide/live-operations/) — the competition day
-9. [Post-event and exports](/manager-guide/post-event/) — results, rankings, archives
+6. [Registration and check-in](/manager-guide/registration-checkin/) — entries and club check-in
+7. [Shop — tickets, meals and merch](/manager-guide/shop/) — everything that is not an entry fee
+8. [At the door](/manager-guide/the-door/) — scanning, admission and arrivals
+9. [Test run and venue rehearsal](/manager-guide/test-run/) — prove it before the day
+10. [Live operations](/manager-guide/live-operations/) — the competition day
+11. [Post-event and exports](/manager-guide/post-event/) — results, rankings, archives
 
 Full detail in the [Manager Guide](/manager-guide/).
 
@@ -56,6 +61,7 @@ Full detail in the [Manager Guide](/manager-guide/).
 | [School/Club](/school-club/) | You register dancers and manage a club's members. |
 | [Federation](/federation/) | You set the rules: licenses, classes, rankings. |
 | [Scrutineer](/scrutineer/) | You oversee judging and results quality. |
+| [Spectator](/spectator/) | You come to watch, and buy a ticket. |
 
 Not sure? [Finding your role](/understanding-vote4dance/finding-your-role/).
 
