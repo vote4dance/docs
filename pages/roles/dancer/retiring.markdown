@@ -22,11 +22,20 @@ It usually means stopping active competition use while keeping records understan
 
 ## How it works
 
-1. Finish or cancel remaining event plans.
-2. Inform your club or team if your membership context will change.
-3. Check whether any pending registrations or license actions should be closed first.
-4. Stop renewing competition-related status when you no longer need it.
-5. Keep historical rankings and event records intact for reference.
+There is no "retire" button on your account. Retiring is a change of **membership status** at the
+federation: a membership is `active`, `pending` or `retired`, and the federation sets it. What you
+do is tell your club and federation, and tidy up what is open:
+
+1. Finish or cancel remaining registrations — a withdrawn registration should be **Cancelled**
+   rather than left hanging.
+2. Tell your club, so they stop entering you and so the team composition is sorted out.
+3. Stop renewing your licence. It runs out on its own when its window closes, and becomes
+   **Expired**.
+4. Leave your results alone. Rankings, results and class memberships are history and stay.
+
+Your account stays yours. Keep it rather than starting a new one later: your results, rankings and
+class memberships hang off that identity, and a second account splits them in two — which someone
+then has to merge by hand.
 
 ## Good practice
 

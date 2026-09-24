@@ -10,6 +10,15 @@ nav_order: 8
 
 Class transfer support ensures dancers and teams enter the correct class as progression status changes.
 
+## The mechanism, in one paragraph
+
+Class changes are driven by **promotion points**: every competition entry carries the points
+earned at that competition, the federation side sums them per class membership when a competition
+is **closed**, and a competitor reaching the class threshold is moved to the target class
+immediately, with the reason recorded. Manual promotions, demotions and corrected opening balances
+are done by the federation on the division's Status tab, and each records a reason. See
+[Promotion points](/federation/progression/).
+
 ## What this step is for
 
 You keep class placement aligned with federation policy and prevent outdated class data from propagating into events.

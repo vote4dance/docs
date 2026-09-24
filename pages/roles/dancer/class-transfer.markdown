@@ -22,13 +22,25 @@ The school or club often notices the issue first.
 
 The dancer should not assume they can choose either the old or new class freely.
 
-## How it works
+## How it actually works
 
-1. Review your current class status.
-2. Check whether recent results trigger progression.
-3. Confirm whether a federation decision or manual override applies.
-4. Update registration plans to use the correct class.
-5. Ask for help before entering a class that may no longer be valid.
+Class changes are driven by **promotion points** (U-poäng), and they are automatic:
+
+1. Every competition entry carries the points earned at that competition.
+2. When a competition is **closed**, the federation side sums those points per class
+   membership.
+3. A competitor reaching their class's threshold is **moved to the target class immediately**,
+   with the reason recorded in their history.
+
+So a class change is usually not something anyone applies for — it happens when a competition
+closes. What you should do is check your class *before* you register for the next event, because
+registering in the class you have left is the common mistake.
+
+An official can also correct points by hand, and a federation can move a competitor manually.
+Both are recorded.
+
+The full mechanism, including where a points value comes from and what happens on re-processing:
+[Promotion points](/federation/progression/).
 
 ## Common reasons class transfer happens
 

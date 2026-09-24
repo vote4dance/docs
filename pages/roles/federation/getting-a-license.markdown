@@ -15,14 +15,16 @@ For the federation, this step is not about buying one personal license. It's abo
 You'll:
 - Decide whether licenses are required at all for your federation
 - Define what license items and categories you offer (if needed)
-- Choose your licensing model (self-service, organization-managed, or hybrid)
+- Decide, per item, who applies: the dancer, the club, or you
 - Set up payment (if required) via Stripe
 - Map licenses to competition classes
 - Test the complete workflow before going live with competitors
 
 ## Who does this step
 
-A **Federation Administrator** (or the person setting up the federation in Vote4Dance).
+Different parts need different [staff roles](/federation/staff-roles/): **Owner** to connect
+Stripe, **Administrator** to add licence items and map them to classes, **Manager** to approve
+clubs and to issue, approve, suspend or revoke a licence.
 
 ## Important: Do you actually need licenses?
 
@@ -42,297 +44,164 @@ A **Federation Administrator** (or the person setting up the federation in Vote4
 **If you answered YES to any:**
 - Continue with licensing setup below
 
-## Understanding license models
+## There is no federation-wide "model"
 
-### Model 1: Self-Service (Dancers apply directly)
+It is tempting to think of self-service versus organization-managed as a choice you make once.
+Vote4Dance does not work that way: **each licence item carries its own settings**, so one
+federation can offer a dancer licence the dancer buys herself, a coach licence only the club can
+apply for, and a judge licence only you issue — at the same time.
 
-**Used when:**
-- Dancers apply and pay for their own licenses
-- No organization involvement in licensing
-- Examples: Open/pro level competitions, independent dancers
+The settings that decide the route, per item:
 
-**Process:**
-```
-Dancer → "I need a license" → Applies directly in Vote4Dance
-→ Pays via Stripe → Automatically approved or manual approval
-```
+| Setting | Effect |
+|---|---|
+| **Organization mode** | `Not allowed` — no club on the licence. `Optional` — either route. `Required` — the item needs a club, and that club must be an approved issuer. |
+| Self-application | Whether a member, or a non-member, may apply for the item themselves. An item that forbids it tells the applicant "This license can't be applied for directly. Apply through your organization." |
+| **Competition scope** | `Full season`, or `Single competition` (the applicant then supplies a competition). |
+| **Kind** | `standard`, or `external` for licences verified against another federation's system — the applicant enters their MIN / WSCID / lidnummer, and external licences are lifetime, with your federation owning validity. |
+| **Maximum uses per season** | Caps how many times the item can be applied for. Once reached, applicants see "This license item is no longer available — it has reached its maximum number of applications." |
 
-**Federation admin's job:**
-- Define license items (e.g., "Open Division $50", "U18 Division $75")
-- Decide approval (automatic vs. manual)
-- Map which dancers can use which items
+Every licence records which route it came through as **Applied via: Self, Club or Federation
+admin**, so you can always see how it arrived.
 
-### Model 2: Organization-Managed (Schools/clubs apply on behalf of members)
+## Setting it up
 
-**Used when:**
-- Schools/clubs hold institutional licenses
-- Examples: School teams, studios, competitive groups
+### Step 1: Connect Stripe
 
-**Process:**
-```
-School admin → "25 dancers need licenses" → Applies for team license
-→ School pays → Automatically approved or manual approval
-→ Dancers see license in their account
-```
+Payments go to the federation's own Stripe account, and nothing priced can be paid until it is
+connected. Connecting Stripe requires the **Owner** role — see
+[staff roles](/federation/staff-roles/).
 
-**Federation admin's job:**
-- Define license items for organizations (e.g., "High School Team License")
-- Approve which schools/clubs are eligible to apply
-- Decide if payment is per-team or per-member
+Until it is connected, applicants are told "This federation hasn't set up online payments yet.
+Contact the federation to complete your license."
 
-### Model 3: Hybrid (Either dancers or organizations can apply)
+### Step 2: Define the licence items
 
-**Used when:**
-- Dancers have a choice
-- Examples: "Buy individual licenses OR join a school's team license"
+`Admin → Federation → Licenses → License items`, which is where you "define the license products
+the federation offers". Adding or editing items requires the **Administrator** role.
 
-**Process:**
-```
-Dancer → CHOICE → 
-  Option A: Apply directly (self-service)
-  Option B: Let their school apply (organization)
-```
+Each item has:
 
-**Federation admin's job:**
-- Define items for both self-service AND organization workflows
-- Explain to users when to choose which path
+| Field | What it decides |
+|---|---|
+| **Name** | What applicants see. |
+| **Code** | Your short identifier. |
+| **Category** | `Dancer`, `Judge`, `Coach`, `Organizer`, `Scrutineer`, `Supervisor`, `Music` or `Other`. |
+| **Kind** | `standard`, or `external` for licences verified against another federation's system. External items are lifetime: neither scope nor season applies, and the federation owns validity. |
+| **Division** and **Discipline** | Which part of your structure the item belongs to. |
+| **Competition scope** | `Full season` or `Single competition`. |
+| **Organization mode** | `Required`, `Optional` or `Not allowed` — see above. |
+| **Price** and **Currency** | Leave the price at zero for a free licence. |
+| **Maximum uses per season** | Optional cap. |
+| **Status** | Whether the item is available at all. |
+| **Note** | Internal. |
 
-## Step-by-step: Set up your licensing model
+### Step 3: Decide which classes accept which items
 
-### Step 1: Decide your model
+Defining items is not enough on its own. Open the relevant
+`Division → Discipline → Class → License rules` and map the products a class accepts. This is
+what makes a licence count at registration, and it needs the **Administrator** role.
 
-**Choose one:**
-- [ ] Self-Service only (dancers apply directly)
-- [ ] Organization-Managed only (schools apply for members)
-- [ ] Hybrid (both available)
+### Step 4: Decide which clubs may issue
 
-**Write this down** — you'll need it for configuration.
+For items with organization mode `Required`, the club must be an **approved issuer**. Grant that
+under `Admin → Federation → Organizations`, with the **Manager** role. A club that is itself
+still pending federation approval blocks every licence it holds.
 
-### Step 2: Define your license items
+### Step 5: Review the applications
 
-License items are the specific things you're offering. Examples:
+Applications arrive in **Needs your approval**, with a banner counting them. Each one shows four
+checks, and you can only approve when they pass:
 
-**Self-Service example items:**
-```
-• U10-U12 Season License — covers 2026 season, all comps — $50
-• U13-U15 Season License — covers 2026 season, all comps — $75
-• Open Division Season License — covers 2026 season, all comps — $100
-• Single Competition Pass — one event only — $15
-• Officials License — judges/scrutineers — $25
-```
+| Check | Fails when |
+|---|---|
+| **Club has approved this license** | The club has not approved it yet: "A manager or coach there has to approve it." |
+| **Club approved by the federation** | The club itself is still pending — the application is *Blocked*. |
+| **Payment received** | Payment is outstanding. |
+| **Within the license window** | The window has not opened, or has closed. |
 
-**Organization-managed example items:**
-```
-• High School Team License — unlimited members, season-wide — $500
-• Independent Studio License — unlimited members, season — $300
-• Affiliate Group License — for non-schools — $200
-```
+All four passing shows "All four checks pass · ready to approve". The queue tags each row
+**Ready**, **Waiting** or **Blocked**, and blocked applications are shown rather than hidden.
 
-**For your federation:**
+You can approve in bulk — "Approve all (*n*)", or a selection — and licences held by clubs the
+federation has not approved are skipped rather than forced through, with a count of what was
+left alone. Payment status can also be set in bulk.
 
-1. List the types of participants (Dancers, Schools, Studios, Officials, etc.)
-2. For each type, list what they need to compete:
-   - "U10 dancers need U10 Annual License"
-   - "Schools need High School Team License"
-   - "Officials need Official License"
-3. Decide the pricing for each
-4. Document this clearly
+Statuses a licence moves through: **Draft**, **Pending**, **Active**, **Expired**, **Suspended**,
+**Cancelled**, with payment status tracked separately. Issuing, approving, suspending and
+revoking need the **Manager** role.
 
-### Step 3: Configure in Vote4Dance
+Full detail, field by field: [Federation admin](/federation-licenses/federation-admin/).
 
-To set up these items in the system:
+### Step 6: Test the whole thing before you announce it
 
-1. Sign in to Vote4Dance federation admin
-2. Go to **Federation Settings**
-3. Look for **Licenses**, **License Model**, or **License Items**
-4. Click **+ Add License Item** or **Create Item**
-5. For each item, enter:
+Test with real accounts on the test site, in the routes you actually offer.
 
-| Field | What to Enter | Example |
-|---|---|---|
-| **Item Name** | Display name for dancers/schools | "U10-U12 Season License" |
-| **Code** | Short internal identifier | "U10_SEASON_2026" |
-| **Category** | Who this is for | "Dancer" or "Organization" or "Official" |
-| **Type** | Season-wide or single-event | "Season" or "Competition" |
-| **Cost** | Price (or 0 for free) | "50" = $50 |
-| **Expiration** | When this license expires | "12/31/2026" |
-| **Description** | What dancers see | "Valid for all competitions in 2026 season" |
-| **Approval Required** | Auto-approve or manual? | Auto, or Manual Review |
+**Self-application**
 
-6. Click **Save Item**
-7. Repeat for each license item you want to offer
+1. Sign in as a test dancer with a date of birth on the account
+2. `Account → Licenses`, select the federation, and check the item you expect is listed — if it
+   is not, the item's organization mode or self-application settings are keeping it out
+3. Apply, pay if priced, and check the licence appears with the status you expect
+4. Approve it from federation admin and confirm it turns **Active**
 
-### Step 4: Enable payment (if you're charging)
+**Club application**
 
-If any license items cost money:
+1. Sign in as a test club admin whose club is connected to your federation and approved by it
+2. `Organization → License Applications`, select a member, apply
+3. Confirm it lands in the club's **Needs your action** when club approval is required, and in
+   your **Needs your approval** afterwards
+4. Check the four checks show what you expect, then approve
 
-1. Go to Federation Settings → **Payment** or **Stripe**
-2. Click **Connect Stripe Account**
-3. Click **Connect to Stripe**
-4. You'll go to Stripe.com
-5. Sign in with your Stripe account (create one if needed)
-6. Authorize Vote4Dance to process payments
-7. Return to Vote4Dance
-8. Confirmation: "Stripe connected" should show
+**The blocked case, which is worth seeing once**
 
-### Step 5: Configure approval workflow
+Leave a test club *unapproved* and apply for one of its members. The application should appear in
+your queue tagged **Blocked**, with "Approve the club first" — and a bulk approve should skip it
+rather than issue it. Knowing what this looks like saves confusion in the first real season.
 
-Decide how licenses get approved:
+### Step 7: Tell your community
 
-**Option A: Automatic approval**
-- Applies immediately when payment (if any) completes
-- For: Low-friction competitions, open divisions
-- Configuration: Set each item to "Auto-Approve"
+Document for the people who have to use it:
 
-**Option B: Manual approval**
-- Federation admin reviews each application
-- For: Vetting required, verification needed
-- Configuration: Set each item to "Manual Review"
-- Task: You (federation admin) will review applications and click approve/reject
-
-**Option C: Mixed**
-- Some items auto-approve, others need review
-- Example: Self-service licenses auto-approve, but organization licenses need approval
-- Configuration: Set each item individually as needed
-
-### Step 6: Map licenses to competitions (if required)
-
-Some federations say "You need License Type X to compete in Competition Y."
-
-**To set this up:**
-
-1. Go to your competition
-2. Look for **Required Licenses** or **License Requirements**
-3. Check the box for licenses required
-4. Save
-
-**Example:**
-```
-Northeast Regional Championship 2026
-├─ U10 Division: Requires "U10-U12 License"
-├─ U13 Division: Requires "U13-U15 License"  
-└─ Open Division: Requires "Open License"
-```
-
-### Step 7: Test the full workflow
-
-**Before announcing to competitors, test everything yourself:**
-
-#### Test 1: Self-Service (if you offer it)
-
-1. Create a test account (or have someone create one)
-2. Pretend to be a dancer
-3. Sign in, go to Account → Licenses
-4. Click "Apply for License"
-5. Select your federation and a license item
-6. Apply and complete payment (Stripe test card: 4242 4242 4242 4242)
-7. Check: Does the license appear with correct status?
-8. If manual approval needed: Go back to federation admin, find the application, click approve
-9. Check: Does the license status change to Active?
-
-#### Test 2: Organization-Managed (if you offer it)
-
-1. Create a test organization (or have someone create one)
-2. Pretend to be a school admin
-3. Sign in, go to your org → Licenses
-4. Click "Apply for License"
-5. Select your federation and organization license item
-6. Apply and complete payment (test Stripe card)
-7. Check: Does the application appear?
-8. Approve it in federation admin
-9. Add a test dancer to the organization
-10. Have the dancer sign in
-11. Check: Does the dancer see the organization's license in their Account → Licenses?
-
-#### Test 3: Real-world scenario
-
-Pick a real teacher or dancer (someone from your community). Ask them:
-- "Can you apply for a [your license item]?"
-- "How long did it take?"
-- "Where did you get confused?"
-- "Does the status show as Active now?"
-
-Document their feedback. Fix any confusing steps.
-
-### Step 8: Publish your licensing model
-
-Document for your community:
-
-**Create a page or email explaining:**
-- What licenses your federation requires
-- Which license type each competitor should apply for (self-service or give to school)
-- How long approval takes (usually 1-3 days for manual)
-- Cost for each item
-- Link to the applying pages
-- FAQ: "What if I'm not sure which license I need?"
-
-## Real-world example: Northeast Dance Federation
-
-**Scenario:** Northeast Dance Federation runs spring and fall competitions. They want member schools to get team licenses but allow independent dancers.
-
-**Their setup:**
-
-| Item | Category | Cost | Approval | Notes |
-|---|---|---|---|---|
-| High School Team License | Organization | $500 | Manual | Approves schools that are existing members |
-| Independent Dancer - U10-U12 | Dancer | $50 | Auto | Self-service, auto-approved |
-| Independent Dancer - U13-U15 | Dancer | $75 | Auto | Self-service, auto-approved |
-| Official License | Official | $25 | Manual | Federation staff manually approves |
-
-**They communicate:**
-```
-"Spring 2026 Competition
-
-If you're part of a school team:
-→ Your school coach will apply for a High School Team License
-→ It covers all team members
-→ Cost: $500 for the whole team
-→ You don't pay individually
-
-If you're an independent dancer:
-→ Go to the Public app
-→ Account → Licenses
-→ Apply for your age level (U10-U12 or U13-U15)
-→ Pay $50 or $75
-→ Automatically approved
-→ Good for whole season
-
-If you're a judge:
-→ Contact federation directly
-→ We'll send you an Official License
-→ $25, good for whole season
-```
+- Which licences your federation requires, per category
+- For each one, who applies: the dancer, the club, or you
+- The price and currency
+- Links to the applying pages: [dancers](/dancer/getting-a-license/), [clubs](/school-club/getting-a-license/)
+- That approval is a person reviewing an application, not an automatic timer, and what holds an
+  application up — the four checks are worth stating plainly
 
 ## Troubleshooting
 
-### "I added license items but dancers don't see them"
+### "I added licence items but applicants do not see them"
 
-1. Verify the items are in the correct federation
-2. Verify the items have "Active" status (not Draft)
-3. Verify dancers are searching the right federation
-4. Sometimes there's a cache delay — try again in 5 minutes
+Work down the item's own settings: is its **Status** available, does its **Organization mode**
+allow the route the applicant is using, does it allow self-application, has it hit **Maximum uses
+per season**, and is the applicant looking at the right federation? The self-service page shows
+only what that person may apply for, and says "No licenses available for self-application" when
+that set is empty.
 
-### "I test-applied but payment wouldn't go through"
+Also check step 3: an item nobody has mapped to a class under `Division → Discipline → Class →
+License rules` will not count where it matters.
 
-1. Use Stripe test card: **4242 4242 4242 4242**
-2. Any future date (e.g., 12/25)
-3. Any 3-digit CVC (e.g., 123)
-4. If it still fails, check Stripe is connected (go to Payment settings)
+### "Payment will not go through"
 
-### "Dancers can apply but approval is stuck 'Pending'"
+Stripe must be connected to the federation (Owner role). Applicants are also blocked by an
+invalid price, an invalid currency or an invalid application fee on the item — each has its own
+message telling them to contact the federation, so if applicants report those, the item is
+misconfigured rather than the payment broken.
 
-1. If you chose Manual approval, you must manually review (federation admin)
-2. Go to Federation Settings → **Applications** or **Pending Licenses**
-3. Find the application
-4. Click **Approve** or **Reject**
-5. Status updates immediately
+### "An application is stuck Pending"
 
-### "I want to change an item after people already applied"
+Open it and read the four checks. In practice it is almost always the club: either the club has
+not approved the request, or the club itself is not approved by the federation. Both are named on
+the application.
 
-1. Generally OK: Change name, description
-2. **DO NOT** change the cost after applications (creates confusion)
-3. Create a new item instead for the new price/terms
-4. Migrate existing applications (contact Vote4Dance support if needed)
+### "I need to change an item after people have applied"
+
+Existing licences keep the terms they were issued under. Take care with anything that changes
+eligibility mid-season, and remember that an **active** licence's organization cannot be edited
+at all: cancel it and issue a new one, which is what the **Change organization** flow does — the
+new club represents the dancer from that day, valid through the same end date.
 
 ## When you're ready
 

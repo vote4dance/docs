@@ -22,13 +22,28 @@ The school or club usually helps the dancer prepare the correct category.
 
 The dancer should verify the outcome before registering.
 
-## How it works
+## How it actually works
 
-1. Check the federation age rules for the season.
-2. Confirm that your birth-year or date information is correct.
-3. Ask your club or federation if you are close to a category boundary.
-4. Register in the category confirmed by the federation rules.
-5. Review whether your future events and rankings now use the new age group.
+Age moves happen **at the start of a season**, in one pass: the federation runs an **age-up batch
+transition** that moves competitors who have outgrown their age group into the same class one age
+group up. It previews first, and only the competitors the federation ticks are moved.
+
+Two details decide whether you are in it:
+
+- **Age is counted by birth year**, as `season-end year − birth year` — not by your birthday.
+- Whether you have outgrown the group depends on the group's **band**. A group with a maximum
+  age (Juniors 13–15) is left behind when the oldest member passes that maximum. A group with no
+  maximum (Adults 21+, Senior 35+) is left when the oldest member reaches the minimum age of the
+  next group on the ladder.
+
+For a couple, it is the **oldest member** that decides, and a move is blocked if not everyone
+fits the target class's age band.
+
+What this means for you: you do not apply for an age move, and you should not assume one has
+happened. Check your class before registering for the first event of a season.
+
+The full rules, including what blocks a move:
+[Age moves](/federation/age-moves/).
 
 ## Why this matters
 

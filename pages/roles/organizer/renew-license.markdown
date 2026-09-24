@@ -16,9 +16,10 @@ You will renew organizer-related licensing and confirm uninterrupted access for 
 
 ## Best timing
 
-Start renewal 30-45 days before expiration.
-
-Minimum safe window: 14 days before expiration.
+Renew well before the licence's validity window closes — a licence outside its window cannot be
+approved at all ("The validity window closed on *date*"), and approval is a person at the
+federation reviewing it, not an automatic step. Start early enough that a missing club approval or
+an unsettled payment can still be chased before your first event of the season.
 
 ## Before you start
 

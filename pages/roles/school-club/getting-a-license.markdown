@@ -8,279 +8,156 @@ nav_order: 2
 
 # School or club getting a license
 
-If your federation requires organizations (schools, studios, teams) to hold licenses, you'll apply here. This is different from individual dancer licensing — you're applying as an organization, not as a person.
+Your club applies for licences **on behalf of its members, one member at a time**. There is no
+club-wide licence that covers everybody: every licence in Vote4Dance belongs to one person, and
+the club's part is applying for them, approving what they apply for themselves, and paying when
+the club is the payer.
 
 ## What this step is for
 
-You'll:
-- Understand what license items your federation offers for organizations
-- Submit an application on behalf of your school/club
-- Complete payment (if required)
-- Be approved by your federation
-- Distribute license access to your members
+You will:
 
-## Who does this step
+- See which licence items your federation offers for your members
+- Apply for a member, or approve an application a member started
+- Pay the ones your club is paying for
+- Follow them until the federation approves them
 
-An **organization administrator** does this. That's you if you set up the school/club organization in Vote4Dance.
+## Where it is done
 
-If you're not sure you're an admin, check:
-1. Sign in to Vote4Dance
-2. Go to your organization settings
-3. Look for your name in the **Members** or **Users** list
-4. You should see your role listed as "Admin" or "Administrator"
+`Organization → License Applications`. The page needs your club to be connected to a federation
+first — without that it just says "Connect this organization to a federation first."
 
-If it says "Member" or "Viewer", ask your admin to upgrade your role.
+The page is split by what it wants from you:
 
-## Important: Organization vs Organizational License
+| Section | What is in it |
+|---|---|
+| **Needs your action** | Applications waiting for your club to approve or pay. "Nothing requires your action right now" when you are clear. |
+| **No action needed** | Active, completed and cancelled licences, and the ones now waiting on the federation. |
 
-**You must have:**
-- ✓ An **organization** created in Vote4Dance (your school/club entity)
-- ✓ **Admin access** to that organization
-- ✓ **Approval from your federation** that your organization can participate
+Each row in the first section says which of the two it is: **Awaiting your approval** or
+**Payment due**.
 
-If your federation hasn't approved your organization yet, you may see a "Pending" status in your organization settings. Contact your federation to confirm you're approved before applying for licenses.
+## Before your club can hold licences at all
+
+- ✓ The club exists in Vote4Dance and you have admin access to it
+- ✓ The club is connected to the federation
+- ✓ **The federation has approved the club.** This one blocks everything: while the club is
+  pending, no licence it holds can be issued. The federation sees it as "*club* is still pending
+  federation approval, so no license it holds can be issued."
+- ✓ For items that need it, the club is an **approved issuer** for that federation
 
 ## Before you start
 
-Gather this information:
-
-| What You Need | Example |
+| What you need | Why |
 |---|---|
-| **Organization name** | "Lincoln High School Dance Team" |
-| **Which federation?** | "Northeast Dance Federation" |
-| **What license do you need?** | "High School Team License" or "Studio Competition Package" |
-| **Which season/year?** | "2026" |
-| **How many dancers will this cover?** | "25" (just estimate) |
-| **Will you need to pay?** | "Yes, $500" or "It's free" |
+| **Which federation** | Licence items belong to a federation; you pick it first on the page. |
+| **Which member** | You apply for one member at a time, chosen from your member list. |
+| **The member's date of birth** | On *their* account. Without it they show as "No birthdate" and you cannot apply for them. |
+| **Which licence item** | The federation's product. Which items appear depends on the federation and the item's rules. |
+| **The season year** | Unless the item is tied to a federation ID or a single competition instead. |
+| **Who pays** | The item decides whether the payer is the member or the club. |
 
-## Step-by-step: Apply for an organizational license
+## Applying for a member
 
-### Step 1: Go to your organization's licensing page
+1. Open `Organization → License Applications`
+2. Select the **federation**
+3. Select the **Member**. If they have no date of birth on their account you are warned here and
+   cannot continue — ask them to add it in their account settings.
+4. Select the **License item**
+5. Set the **Season year**. The field is replaced by a **Federation ID** field for items that
+   need an external federation ID, and a **Competition ID** field appears for items scoped to a
+   single competition.
+6. Add a **Note** if the situation needs explaining
+7. Press **Apply for license**
 
-1. Sign in to Vote4Dance
-2. Go to your **organization dashboard** (or click **Organizations** in the menu)
-3. Find and click your organization (example: "Lincoln High School Dance Team")
-4. Look for **Licenses** or **License Applications** in the navigation menu
-   - You might see it in: Management Menu → Licenses, or a Licenses tab at the top
-5. Click **View Licenses** or **Manage Licenses**
-6. Click **+ Apply for License** or **Request License**
+Repeat per member. A club with twenty dancers submits twenty applications — there is no bulk
+apply on the club side.
 
-### Step 2: Select your license item
+## Approving what members applied for themselves
 
-You'll see a list of available license items your federation offers.
+When a member applies for an item that requires club approval, it lands in **Needs your action**
+marked *Awaiting your approval*, with **Approve** and **Decline** on the row. Declining asks you
+to confirm: "Decline license application for *name*?"
 
-**Example items you might see:**
-```
-• High School Team License — covers whole school team, season-wide
-• Studio Competition Package — covers studio members, 5 competitions included
-• Affiliate School License — non-member school, per-year
-• Workshop Participant Pass — single-event, $50
-```
+Your approval is one of four checks the federation sees before it can issue the licence, so an
+application nobody approves at the club simply sits there. The federation's own view says it
+plainly: "*club* hasn't approved this request yet. A manager or coach there has to approve it."
 
-**Pick the right one for your organization:**
-- Choose the item that matches your organization type (School, Studio, etc.)
-- Choose the scope you need (season-wide vs. single-event)
-- Choose the cost level you can afford
+## Paying
 
-**Example decision:**
-- "I'm Lincoln High School, we want season-wide coverage, so I pick **High School Team License**"
+Rows the club owes money on show as *Payment due*. Payment goes through Stripe to the
+**federation's** account, not yours.
 
-### Step 3: Fill in the application form
+Two things to expect:
 
-You'll see a form like this:
+- **You cannot pay before approval.** The row says "Payment will be available once this license
+  has been approved."
+- **A member-paid item has no button for you.** Whether the payer is the member or the club is
+  set on the licence, not chosen at checkout.
 
-| Field | What to Enter | Example |
-|---|---|---|
-| **Organization** | Pre-filled — verify this is YOUR organization | "Lincoln High School Dance Team" |
-| **Federation** | Pre-filled — verify this is correct | "Northeast Dance Federation" |
-| **License Item** | Pre-filled with your choice from Step 2 | "High School Team License" |
-| **Season Year** | Select the year this license covers | "2026" |
-| **Number of Members** | Approximate count of dancers in your organization | "25" |
-| **Requested Expiration Date** | Optional; when should this license end? | "12/31/2026" |
-| **Special Notes** | Optional special requests or situation details | "We have a new coach; previous application was void" |
+## Following the licence to Active
 
-**Common fields explained:**
+After the club's part is done, the licence still needs the federation. It can be held up by any
+of four checks:
 
-- **Organization**: This is always your organization. If it's wrong, go back and select the correct organization first.
-- **License Item**: This is the specific thing you're applying for. The federation decides what items are available.
-- **Season Year**: Pick the calendar year or season (example: "2026 Spring Season" means the year 2026)
-- **Number of Members**: This helps your federation understand your organization size. Be honest but approximate is OK ("about 20" is fine).
-- **Notes**: Use this if your situation is unique ("Our school merged with another", "We're a new organization applying for the first time", etc.)
+| Check | Meaning |
+|---|---|
+| **Club has approved this license** | Your approval, above. |
+| **Club approved by the federation** | The club itself must be an approved organization. |
+| **Payment received** | "Approval opens once payment lands." |
+| **Within the license window** | The item's validity window must be open. |
 
-### Step 4: Review and submit
+When all four pass, the federation sees "All four checks pass · ready to approve" — and then a
+person at the federation approves it. There is no fixed turnaround.
 
-1. Re-read the form to ensure:
-   - Organization is correct
-   - License item is what you intended
-   - Year is correct (not next year by accident)
-   - Any special notes are clear
-2. Click **Submit Application** or **Apply** button
-3. You'll see a confirmation message:
-   ```
-   Application submitted successfully.
-   Your application ID: APP-12345
-   Status: Pending Review
-   ```
-4. Note the **Application ID** (you may need it for support)
+Statuses you will see: **Draft**, **Pending**, **Active**, **Expired**, **Suspended**,
+**Cancelled**. Payment status is separate, so a licence can be paid and still pending.
 
-### Step 5: Payment (if required)
+## What members see
 
-Some license items are free; others require payment.
+Nothing for them to do: an approved licence appears on their own `Account → Licenses` with its
+status. They do not "receive" or "link" anything, because the licence was issued to them
+personally from the start.
 
-**If you see a "Pay Now" button:**
-
-1. Click **Pay Now**
-2. Review the amount (example: $500)
-3. You'll go to Stripe checkout
-4. Enter payment details:
-   - Full Name (your name, as organization admin)
-   - Email address
-   - Card information (Visa, Mastercard, Amex, etc.)
-5. Review the amount
-6. Click **Pay** or **Complete Payment**
-7. You'll return to Vote4Dance with a success message
-8. Your application status changes to "Paid, Pending Approval" (or similar)
-
-**If there's no "Pay Now" button:**
-- The license is free; skip to Step 6
-
-### Step 6: Wait for federation approval
-
-Your federation admin will review your application.
-
-**Status timeline:**
-- **Immediate** → Application goes to "Pending Review"
-- **1-3 days** → Federation reviews it
-- **Result**: Either "Approved" or "Rejected" (with reason)
-
-**To check your application status:**
-
-1. Go back to your organization → **Licenses**
-2. Look for your active application
-3. See the **Status** column
-   - ⏳ "Pending Review" = waiting
-   - ⏳ "Pending Payment" = you haven't paid yet
-   - ✓ "Approved" = Ready to use (you can give to members now)
-   - ✗ "Rejected" = Application denied; ask your federation why
-
-**If approved:**
-- Proceed to Step 7
-
-**If rejected:**
-- Read the rejection reason carefully
-- Fix the issue (example: "We require member list first") and reapply
-- Or contact your federation if unclear
-
-### Step 7: Distribute license to your members
-
-Once approved, your members need to link it to their dancer accounts.
-
-**Provide this info to your members:**
-```
-"I've applied for your license. When it's approved (1-3 days),
-it will automatically show in your Vote4Dance account under
-Account -> Licenses. You should see [License Name] listed
-with status ACTIVE.
-
-If it doesn't show up after 3 days, tell me and I'll contact 
-the federation."
-```
-
-Your members don't need to do anything — the license shows automatically once approved.
-
-### Step 8: Verify before using
-
-Before your members register for events:
-
-1. Go to your organization → **Licenses**
-2. Find your active license
-3. Check each member can see it:
-   - Have a few members sign in
-   - Go to Account → **Licenses**
-   - Confirm they see your organization's license listed with status **ACTIVE**
-
-If any member doesn't see it after 1 hour, check that they're added to your organization.
-
-## Real-world example: High School Team
-
-**Scenario:** You're the coach of Lincoln High School dance team (25 dancers). Your federation requires organizations to have team licenses.
-
-**Your steps:**
-
-1. You already created the organization "Lincoln High School Dance Team" in Vote4Dance
-2. Sign in, go to organization, click **Licenses**
-3. Click **+ Apply for License**
-4. See available items; select **High School Team License (Season 2026)**
-5. Fill form:
-   - Organization: Lincoln High School Dance Team
-   - License Item: High School Team License
-   - Season Year: 2026
-   - Number of Members: 25
-   - Notes: (leave blank)
-6. Click **Submit**
-7. See "Pay Now" button; license costs $500
-8. Click **Pay Now** → Stripe → Enter card → Pay $500
-9. Return to Vote4Dance, see "Pending Approval"
-10. Next day: Federation approves it
-11. Status changes to **APPROVED** or **ACTIVE**
-12. You text the team: "Your licenses are live. Check your account."
-13. Each dancer signs in, goes to Account → Licenses, sees:
-    ```
-    Lincoln High School Dance Team - High School Team License
-    Season: 2026
-    Status: ACTIVE ✓
-    Expires: 12/31/2026
-    ```
-14. Now all 25 dancers can register for competitions
+If a member cannot see a licence you applied for, check that it is **Active** rather than
+Pending, and that you applied for the right member.
 
 ## Troubleshooting
 
-### "I clicked submit but nothing happened"
+### "Nothing happens when I submit"
 
-1. Wait 5 seconds
-2. Refresh the page
-3. Check if the application appears in your license list
-4. If you don't see it, try submitting again (may have timed out)
+The form blocks on a missing member date of birth, a missing season year, and a missing
+competition or federation ID where the item requires one. Check the field messages before
+retrying.
 
-### "It says 'Rejected' but I don't know why"
+### "It was declined and I do not know why"
 
-1. Click on the rejected application to see the reason
-2. Common reasons:
-   - "Federation hasn't approved your organization yet" → Ask federation to approve your organization first
-   - "License item not available for your org type" → Pick a different license item
-   - "Organization member list incomplete" → Complete your organization profile first
-3. After fixing, apply again
+Declines come from the federation or, for club-approval steps, from your own club. The federation
+records a note on the licence; ask them for the reason and fix it before reapplying rather than
+submitting the same application twice.
 
-### "I've been 'Pending Review' for 5+ days"
+### "It has been pending for a long time"
 
-1. Check federation office hours—maybe they're closed?
-2. Email your federation admin: "Application [ID] still pending since [date]"
-3. Sometimes approval is manual; waiting is normal
+Work the four checks in order — your club's approval, the club's own federation approval, the
+payment, the validity window. Whatever is outstanding is named on the licence. If all four pass,
+it is waiting on a person at the federation.
 
-### "I applied and paid but members don't see the license"
+### "A member's licence needs to move to our club"
 
-1. Confirm application status is **APPROVED** or **ACTIVE** (not "Pending")
-2. Tell members to:
-   - Sign out and back in
-   - Go to Account → Licenses
-   - Refresh the page
-3. If still not showing after 1 hour, check:
-   - Are those dancers listed in your organization? (Go to Org Members)
-   - Are they signed in with the right account?
-4. If organization membership is missing, add them, then wait 5 minutes for cache
+An active licence's organization cannot be edited. The federation changes it by reissuing:
+"Organization cannot be changed on an active license. Cancel this license and issue a new one."
+The federation can do this from its side, and the new club represents the dancer from that day.
 
-### "I need to add more dancers mid-season"
+### "We have new dancers mid-season"
 
-1. Add the new dancers to your organization (Organization → Members → Add Member)
-2. They automatically get access to your active license
-3. They should see it in Account → Licenses within 1 hour
+Apply for each of them the same way. Nothing about an existing member's licence changes, and
+there is no seat count to increase, because licences were never club-wide.
 
 ## When you're ready
 
-Once your license is **ACTIVE** and all members can see it:
-- They can register for events
-- They can compete
-- They can earn rankings
+Once a member's licence is **Active**, that member can register for events, compete and earn
+rankings. It is per person, so check them one by one before a competition rather than assuming
+the club is covered.
 
 ## Next step
 

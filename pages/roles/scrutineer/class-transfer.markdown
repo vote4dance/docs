@@ -10,6 +10,15 @@ nav_order: 8
 
 Class transfer disputes can affect who appears in results and which outcomes are valid.
 
+## The mechanism, in one paragraph
+
+Class changes are driven by **promotion points**: every competition entry carries the points
+earned at that competition, the federation side sums them per class membership when a competition
+is **closed**, and a competitor reaching the class threshold is moved to the target class
+immediately, with the reason recorded. Manual promotions, demotions and corrected opening balances
+are done by the federation on the division's Status tab, and each records a reason. See
+[Promotion points](/federation/progression/).
+
 ## What this step is for
 
 This step explains how scrutineers should react when a class-level question appears during event operations.
