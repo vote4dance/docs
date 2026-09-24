@@ -29,10 +29,29 @@ The dancer verifies that the result is in place before entering regulated workfl
 
 ## How it works
 
-1. Confirm the correct school or club is connected to the right federation.
-2. Confirm any required club or organization relationship.
-3. Confirm the correct license is active.
-4. Make sure the federation-specific requirements are satisfied before entering events.
+You do not apply to a federation yourself. Your federation standing comes from two places:
+
+1. **Your club's link.** Your club applies to the federation and is either **Pending** or
+   **Approved**. Until it is approved, no licence naming that club can be issued — so a club that
+   applied late blocks its dancers no matter how early they applied.
+2. **Your licence.** The licence is what actually makes you eligible, and it belongs to you
+   personally. See [Getting a license](/dancer/getting-a-license/).
+
+Some federations also want a **federation ID** of their own — a MIN, WSCID or licence number from
+their system. You enter it on your account and press **Verify**, and it ends up in one of these
+states:
+
+| State | Meaning |
+|---|---|
+| **Verified** | Good. This is what licence items requiring an external ID need. |
+| **Saved, not verified** | Stored but not checked yet — not good enough to apply with. |
+| **Not found** | The federation's system does not recognise the ID. |
+| **Birthdate does not match federation record** | The date of birth on your account differs from theirs. One of the two is wrong; fix it before applying. |
+| **Revoked** | The federation has withdrawn it; it cannot be used. |
+
+A few federations issue credentials per club rather than per person. There you pick your club
+first — the field says so: "Select your club above before verifying — this federation uses
+per-club credentials."
 
 ## What to remember
 
@@ -51,11 +70,15 @@ The dancer can move forward into event registration without federation eligibili
 
 ## If you are still blocked
 
-If you have a valid account and a valid club relationship but still cannot continue, the blocker is usually one of these:
+With a valid account and a club, the blocker is almost always one of these, in this order:
 
-- the club is not yet approved by the federation
-- the wrong federation was chosen for the license
-- the federation requires approval that the club has not completed yet
+1. **The club is not approved by the federation yet.** Ask the club; they can see it on their own
+   federation page.
+2. **The club is approved but cannot issue licences.** That is a separate permission the
+   federation grants, and licence items that require a club need it.
+3. **The wrong federation is on the licence.** Licences belong to one federation.
+4. **Your federation ID is not Verified**, where the item requires one.
+5. **Your licence is Pending rather than Active.** Pending does not count at registration.
 
 ## Next step
 

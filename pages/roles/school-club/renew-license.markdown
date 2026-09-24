@@ -10,15 +10,31 @@ nav_order: 9
 
 Renewal cycles are your season-transition control point. Done early, they prevent registration delays and eligibility gaps.
 
+## There is no renew button
+
+A licence is not renewed in place — **you apply again for the new season**. The old one stays in
+history and turns **Expired** when its validity window closes; the new one is a fresh application
+that goes through the same route and the same four checks as the first.
+
+The product says as much where it matters: a dancer blocked at registration is told "A required
+federation license has expired or is for a different season — renew it for this season."
+
+Two consequences worth planning around:
+
+- **Nothing carries over.** Approval from last season does not shorten this season's approval, and
+  a club approval or a payment is needed again.
+- **The season year is the thing to get right.** A licence for the wrong season is as useless as an
+  expired one, and it is the most common mistake in a rollover.
+
 ## What this step is for
 
 You renew organization and member licensing coverage so all active dancers/teams are eligible for next-season events.
 
 ## Recommended timing
 
-- Start planning: 45 days before season rollover
-- Submit renewals: 30 days before rollover
-- Final verification: at least 7 days before registrations open
+Work backwards from the first registration deadline of the new season, not from a fixed number of
+days: each application needs the club's approval, a payment, and then a person at the federation.
+Verify the ones you care about are **Active** — not merely submitted — before registration opens.
 
 ## Step-by-step
 
@@ -48,7 +64,7 @@ For each batch:
 2. confirm member scope
 3. submit application
 
-Track application IDs for follow-up.
+There are no application numbers to track — a licence is identified by the member, the item and the season. Keep your own list of who is still waiting.
 
 ### Step 4: Complete payment and approval tracking
 
@@ -85,7 +101,7 @@ Fix:
 Fix:
 
 1. verify manual approval requirement
-2. send application IDs to federation
+2. tell the federation which members are waiting, with the item and season
 3. avoid duplicate applications
 
 ### "Renewals started too late"
