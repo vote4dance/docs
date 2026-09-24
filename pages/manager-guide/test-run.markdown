@@ -101,8 +101,9 @@ in advance, so cables and network access exist when you arrive.
 
 1. In the practice event, create the **stations** you will use — one per shared device: screen,
    check-in, lineup, speaker, cafe. See [Users, apps and stations](/manager-guide/users-and-stations/).
-2. Print the station QR codes on paper, or save them as images on your phone. Joining a
-   device is then a matter of scanning.
+2. Nothing to print: you join a device by opening the station in Manager and letting the
+   device's camera scan the QR **straight off your screen**. (The join link and the
+   six-character code work too, if a camera will not cooperate.)
 3. Add the functionaries who are coming as **users** with the apps they need.
 4. Invite the judges who are coming, so their accounts are `Active` before you arrive.
    Each judge sets their own PIN on their own device the first time they open the Judging
@@ -119,7 +120,6 @@ in advance, so cables and network access exist when you arrive.
 - The tablets for judges, check-in, lineup and speaker
 - An Ethernet cable and a USB-Ethernet adapter, in case there is a wired port
 - A phone with a hotspot as a backup internet path
-- The printed station QR codes
 - Printed heat lists from the desk rehearsal, as the paper fallback
 
 ## Step 4: The venue rehearsal, step by step
@@ -141,8 +141,8 @@ If the network fails here, stop and solve it with the venue. Nothing downstream 
 
 1. Connect your display computer to the venue's input and get a picture.
 2. Set the output to a 16:9 resolution — 1920 × 1080 is a safe choice for a modern projector.
-3. Join the device to the **Screens** station (scan the QR code) and press **Show** on the
-   card for this screen. The floor and what it shows come from `Manager → Event → Screens`.
+3. Join the device to the **Screens** station — open the station in Manager on your laptop and
+   scan its QR from the screen — then press **Show** on the card for this screen. The floor and what it shows come from `Manager → Event → Screens`.
 4. Go fullscreen, and use the **browser zoom hotkey (Ctrl +/-)** to fit the picture — nothing
    cut off at the edges.
 5. **Walk to the back row and read it.** Start numbers and names must be legible from the
