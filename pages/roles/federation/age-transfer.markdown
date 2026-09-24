@@ -22,6 +22,14 @@ This step defines how the federation sets and explains age transitions between s
 4. Support organizers and schools when disputes arise.
 5. Keep the federation interpretation stable during the season.
 
+## Where the platform applies it
+
+The federation's bands and composition rules are set under
+[Age category rules](/federation-rules/age-category-rules/), and the season
+change itself is run from the age-up batch — which competitors it offers, and
+what a move does to points and rankings, is described in
+[Age moves](/federation/age-moves/).
+
 ## Common blockers
 
 - Rules are published too vaguely.
