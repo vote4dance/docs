@@ -10,7 +10,7 @@ nav_order: 3
 
 This page covers the whole path from an online registration to a participant on the floor: the registration tabs, what each status means, how approved registrations become participants, and what to do next.
 
-Emails, the check-in QR code and how to test them are on [Emails and the check-in QR code](/manager-guide/emails/).
+Emails, the check-in QR code and how to test them are on [Emails and the check-in QR code](/manager-guide/emails/). Scanning at the entrance, arrivals and tickets are on [At the door](/manager-guide/the-door/).
 
 ## The Registration page
 
@@ -140,10 +140,15 @@ Recommended image style for screens and match presentations:
 
 ## Check-in
 
-There are two check-in mechanisms, and they are independent:
+There are three check-in mechanisms, and they are independent:
 
 - **Club check-in** (`Manager → Competition → Checkin`): each club confirms its whole roster for the day and signs. The manager opens a check-in window, follows the cancellation report, and applies the check-in to the competition. This is what decides who dances.
-- **Dancer QR code**: every dancer receives a personal QR code in the approval email. Check-in desk staff scan it in the Check-in app to find the dancer, hand out the start number and see payment status. See [Emails and the check-in QR code](/manager-guide/emails/).
+- **The Vote4Dance ID**: every dancer has a personal QR code, in the app, on their account page and in the approval email. Check-in desk staff scan it in the Check-in app to find the dancer, hand out the start number, see payment status and mark them **Arrived**. See [At the door](/manager-guide/the-door/).
+- **Tickets**: what the audience shows. Sold from the event's Tickets page or at the desk — see [Shop](/manager-guide/shop/). Dancers do not need one unless the organizer says so.
+
+### The Arrived column
+
+Once anybody has been marked arrived at the desk, the registrations list gains an **Arrived** column: `n/m` of the registration's members arrived today, with a filter for everyone, some or nobody. It is a live view of the entrance, not a check-in — an unconfirmed club is still cancelled when check-ins are applied, however many of its dancers walked through the door.
 
 ### Club check-in controls
 

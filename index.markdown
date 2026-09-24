@@ -22,6 +22,7 @@ Run your event end-to-end with Vote4Dance, from setup to live operations to fina
 3. [Organizer](/organizer/)
 4. [Dancer](/dancer/)
 5. [School/Club](/school-club/)
+6. [Spectator](/spectator/)
 
 ## Organizers
 
@@ -30,8 +31,10 @@ If your goal is to organize and run an event with the Manager app:
 1. [Event setup](/manager-guide/event-setup/)
 2. [Competition setup](/manager-guide/competition-setup/)
 3. [Registration and check-in](/manager-guide/registration-checkin/)
-4. [Live operations](/manager-guide/live-operations/)
-5. [Post-event and exports](/manager-guide/post-event/)
+4. [Shop — tickets, meals and merch](/manager-guide/shop/)
+5. [At the door](/manager-guide/the-door/)
+6. [Live operations](/manager-guide/live-operations/)
+7. [Post-event and exports](/manager-guide/post-event/)
 
 ## Advanced Formats
 

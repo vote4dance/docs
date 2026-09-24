@@ -66,7 +66,11 @@ Operational oversight during live execution.
 
 ### Cafe
 
-Optional order/product flow with manager-side overview and a dedicated cafe app.
+Optional order/product flow with manager-side overview and a dedicated cafe app. The menu itself is now part of the event's [Shop](/manager-guide/shop/), as internal products the counter orders for a person.
+
+### Shop
+
+Tickets, passes, meals and merch sold to the audience, online and at the desk, on the organizer's own Stripe account. See [Shop](/manager-guide/shop/) and [At the door](/manager-guide/the-door/).
 
 ### Lineup
 

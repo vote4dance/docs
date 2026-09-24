@@ -34,8 +34,9 @@ This role hub covers:
 
 ## Dedicated feature sections
 
-1. [Dancer self-service](/federation-licenses/dancer-self-service/)
-2. [Public Rankings](/federation-rankings/public/)
+1. [Your Vote4Dance ID](/dancer/vote4dance-id/)
+2. [Dancer self-service](/federation-licenses/dancer-self-service/)
+3. [Public Rankings](/federation-rankings/public/)
 
 ## How to use this hub
 

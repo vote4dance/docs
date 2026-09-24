@@ -38,6 +38,8 @@ This role hub covers two types of organizer responsibilities:
 1. [Manager Guide](/manager-guide/) — The app where you configure and run events
 2. [Registration and check-in](/manager-guide/registration-checkin/) — Event participant registration and check-in workflows
 3. [Emails and the check-in QR code](/manager-guide/emails/) — What dancers are emailed, and the QR code they bring to the desk
+4. [Shop — tickets, meals and merch](/manager-guide/shop/) — Selling to the audience, with the money on your own Stripe account
+5. [At the door](/manager-guide/the-door/) — Scanning Vote4Dance IDs and tickets, and recording arrivals
 4. [Users, apps and stations](/manager-guide/users-and-stations/) — Which app each functionary gets, and shared devices
 5. [Statistics](/manager-guide/statistics/) — Event size, dressing rooms, schedule load and medals
 
