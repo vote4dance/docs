@@ -87,20 +87,32 @@ disappearing, and is never counted as moved.
 | No active membership to move                              | The competitor's membership in the source class is no longer active.                                               |
 | Already moved to another class                            | Something moved the competitor since the preview.                                                                  |
 | Transitions are locked for this competitor                | The membership is held in place; clear the lock first.                                                              |
-| **Not everyone in the couple fits the target class's age band** | See below.                                                                                                    |
+| **Not everyone has reached the target class's minimum age** | See below.                                                                                                       |
+| **Someone is older than the target class's age band**     | The class above is already behind them — the ladder has no class that fits. Check the age groups and their classes. |
+| **The target class's age composition rule does not allow this competitor** | The class's own age composition rule refuses the team, for example on its maximum age span.       |
 | Converted from a manual ranking correction                | The move is already recorded among the manual corrections listed below the table.                                  |
 
-### "Not everyone in the couple fits the target class's age band"
+### "Not everyone has reached the target class's minimum age"
 
 A candidate is found from its **oldest** member, but an age band applies to
-**every** member unless the federation says otherwise — so a 65+ class needs
-both partners at 65 by default, and a couple whose younger partner is 62 is not
-moved into a class registration would then refuse them for.
+**every** member unless the federation says otherwise. A 65+ class therefore
+needs both partners at 65 by default, and a couple whose younger partner is 62
+is not moved into a class registration would then refuse them for.
 
-If the federation reads the band off one dancer, say so once in the rules: set
-**Application preset → Oldest member decides** on the target category or class
-(see [Age category rules](/federation-rules/age-category-rules/)). Those
-competitors become movable in the next preview, with no change to the batch.
+**A move the competitor cannot avoid is never held back by this.** When the age
+group they are leaving has a maximum age, they cannot stay in it — Juniors
+16–20 is over for a couple the moment the older partner turns 21 — so the class
+above takes them even while the younger partner is below its minimum. The floor
+only blocks an **optional** move: out of an age group with no maximum, which
+they were free to remain in.
+
+That difference is the federation's rule to state, not the batch's to guess. If
+the band is read off one dancer — as it usually is where a couple moves up
+together — set **Application preset → Oldest member decides** on the target
+class or category (see
+[Age category rules](/federation-rules/age-category-rules/)). Those competitors
+become movable in the next preview, and registration then accepts the same
+couples the batch moves.
 
 ---
 

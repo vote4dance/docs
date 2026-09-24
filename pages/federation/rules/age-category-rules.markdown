@@ -40,17 +40,26 @@ actually applies**, and let everything else inherit it.
 | If the rule…                                                                       | Set it on…           | Where in admin                                                                 |
 | ---------------------------------------------------------------------------------- | -------------------- | ------------------------------------------------------------------------------ |
 | is the same for a whole category across all its age groups (e.g. all small groups) | **Category**         | Division → **Category** tab → **Rules** sub-tab → pick the category            |
+| differs per age band, the same way for every category (e.g. the older partner decides up to Adults, but both must reach Senior) | **Age group** | Division → **Age groups** → pick the group → **Rules** |
 | applies to one concrete class only (discipline + category + age group + level)     | **Federation class** | Division → **Discipline** → **Federation classes** list → the row's rules icon |
 | changes on a specific date (e.g. a new season)                                     | **Timed profile**    | Federation → **Rules** → **Add rule profile** (set Effective from / to)        |
 
 **Rule of thumb:** set the baseline on the **Category**, override the exceptions
 on the **Federation class**.
 
-**Avoid the Age group → Rules tab for this.** An age group is shared by every
-category that uses it (a duo *and* a small group can both be "Juniors 2"), and it
-is *more* specific than the category in the merge — so a composition rule placed
-there both hits every category and blocks the category-level setting. Keep the
-age group to just its band.
+**Know what the Age group scope does before you use it.** An age group is shared
+by every category that uses it (a duo *and* a small group can both be "Juniors
+2"), and it is *more* specific than the category in the merge — so a composition
+rule placed there hits every one of those categories and overrides the
+category-level setting.
+
+That is wrong when the rule really belongs to a category, and right when it
+really belongs to the band. The clearest case is a federation whose couples move
+up together: the older partner decides the class through Juniors and Adults, but
+the Senior bands require *both* partners to have reached the age. That
+distinction is per age group, not per category — so it goes on the **Adults**
+group (oldest member decides) with the Senior groups left alone. Setting it on
+the category instead would loosen Senior too.
 
 ### Precedence reminder
 
