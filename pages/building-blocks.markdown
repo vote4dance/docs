@@ -32,7 +32,11 @@ Use this for floor operation tasks such as live lineup flow, merge/rotation supp
 
 ### Screens
 
-Use this for public display endpoints and visual presentation during the event.
+Use this for public display endpoints and visual presentation during the event: lineups,
+heats, live placements, results, the prize ceremony, the schedule and sponsors.
+
+Connecting a projector or TV, the available displays and who controls them:
+[Screens, projectors and venue technology](/manager-guide/screens/).
 
 ## Public and participant-facing blocks
 

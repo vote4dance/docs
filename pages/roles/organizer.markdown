@@ -33,6 +33,13 @@ This role hub covers two types of organizer responsibilities:
 
 **Note:** If you're running an independent event not affiliated with a federation or school, several of these steps (2-4, 6-10) may not apply to you. Focus on Account creation and Registration for event, then use the Manager Guide for the rest.
 
+## Running a competition
+
+1. [Planning your first competition](/manager-guide/first-competition/) — What is required of you, what must be entered in Vote4Dance, and when
+2. [Test run and venue rehearsal](/manager-guide/test-run/) — Simulate a whole competition beforehand, at the venue, with the real devices
+3. [Screens, projectors and venue technology](/manager-guide/screens/) — The projector, the TVs and what to ask the venue
+4. [Live operations](/manager-guide/live-operations/) — The event-day runbook
+
 ## Dedicated feature sections
 
 1. [Manager Guide](/manager-guide/) — The app where you configure and run events

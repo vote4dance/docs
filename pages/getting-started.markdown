@@ -17,6 +17,11 @@ Use this section to get your first event running quickly and safely.
 3. [Technical requirements](/requirements/) — Devices, internet, and browser setup
 4. [Vote4Dance building blocks](/building-blocks/) — Overview of all apps
 
+**Organizing a competition for the first time?** Two pages are written for you:
+[Planning your first competition](/manager-guide/first-competition/) (what is required, and
+when) and [Test run and venue rehearsal](/manager-guide/test-run/) (how to prove it all works
+before the day).
+
 ## What you should have after this section
 
 - A created event in Manager

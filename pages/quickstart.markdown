@@ -12,6 +12,8 @@ This flow gets a new event organizer from zero to a runnable event.
 
 **Before you start:** If you haven't already, read [Understanding Vote4Dance](/understanding-vote4dance/) to understand the system and confirm you're an event organizer.
 
+**Organizing your first competition?** [Planning your first competition](/manager-guide/first-competition/) lays out what is required of you as organizer, what must be entered in Vote4Dance, and when.
+
 ## 1. Create an event in Manager
 
 [Manager](/understanding-vote4dance/manager-intro/) is the control panel for event organizers. Go there and create a new event, completing these 4 setup steps:
@@ -67,6 +69,9 @@ Run a full test with your team:
 3. Close, confirm, and publish results in Manager
 4. Verify that [Screens](/building-blocks/), [Speaker](/building-blocks/), and check-in work as expected
 
+Then do it at the venue, with the projector and the real tablets: [Test run and venue
+rehearsal](/manager-guide/test-run/).
+
 ## 5. Live operations sequence
 
 For each round during the actual event, follow this lifecycle:
@@ -95,3 +100,5 @@ From the [Post-event and exports](/manager-guide/post-event/) section, run:
 - **What's a Federation?** → [System Model](/understanding-vote4dance/system-model/)
 - **Detailed event configuration** → [Manager Guide](/manager-guide/)
 - **Technical setup** → [Technical requirements](/requirements/)
+- **Projector and venue technology** → [Screens, projectors and venue technology](/manager-guide/screens/)
+- **Testing before the event** → [Test run and venue rehearsal](/manager-guide/test-run/)

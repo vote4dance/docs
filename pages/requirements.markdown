@@ -12,13 +12,29 @@ nav_order: 2
 
 Minimum recommended setup:
 
-- Tablets or phones for judges and floor functions on stable Wi-Fi
-- One scrutineer computer running Google Chrome for Manager
-- Arena display computer(s) for screen output
+- One computer running Google Chrome for Manager, at the scrutineering desk
+- One tablet per judge, on stable Wi-Fi
+- One computer per projector/TV for screen output (a computer is easier to keep awake and
+  fullscreen than a tablet)
+- One tablet or phone each for check-in, lineup (*insläpp*) and speaker
 
 Optional but recommended:
 
 - Printer for physical reports, diplomas, or start numbers
+- Cafe device, if you run the Cafe app
+- Chargers for every tablet, and a power strip for the desk
+
+Which app each device runs, and how shared devices join without a personal login:
+[Users, apps and stations](/manager-guide/users-and-stations/).
+
+## Projectors and TVs
+
+The Screens app runs in a browser in fullscreen on a device plugged into the display — there
+is no separate box and nothing to install. Plan for 16:9 at 1920 × 1080, disable sleep and
+screensaver on that device, and check the picture is readable from the back row.
+
+Cables, resolutions, screen displays and the questions to ask the venue's technician:
+[Screens, projectors and venue technology](/manager-guide/screens/).
 
 ## Network and internet
 
@@ -42,6 +58,11 @@ For Manager and admin workflows, use current Google Chrome.
 Before doors open:
 
 1. Test login and permissions for organizer roles
-2. Verify judging devices can reach the judging app
+2. Verify judging devices can reach the judging app and unlock with the judge PIN
 3. Verify Speaker and Screens can load event data
-4. Run one full test round (ready -> closed -> confirmed -> published)
+4. Verify the projector picture fills the screen and is readable from the back row
+5. Run one full test round (ready -> closed -> confirmed -> published)
+
+Do this properly, once, well before the event: [Test run and venue
+rehearsal](/manager-guide/test-run/) is the full rehearsal script, including what to test at
+the venue and what you can test at your desk.

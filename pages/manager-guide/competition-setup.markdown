@@ -163,7 +163,9 @@ Once results exist, panel/class changes may be locked.
 
 ## Step 6: Run one rehearsal round
 
-Before event day, execute one full dry run:
+Before event day, execute one full dry run. This is the desk version; for the full rehearsal
+at the venue with projector and tablets, see
+[Test run and venue rehearsal](/manager-guide/test-run/).
 
 1. Pick a test class
 2. Open the first round
@@ -245,4 +247,6 @@ This often happens after results started.
 
 ## Next step
 
-Continue to [Rounds](/manager-guide/rounds/) for live execution and operations.
+Continue to [Test run and venue rehearsal](/manager-guide/test-run/) to prove the setup with
+real devices, then to [Live operations](/manager-guide/live-operations/) for the event-day
+runbook.

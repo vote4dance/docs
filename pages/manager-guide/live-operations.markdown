@@ -10,13 +10,19 @@ nav_order: 4
 
 This is the recommended event-day runbook for managers and scrutineers.
 
+This page assumes the setup is done and tested. If you have not yet rehearsed with the real
+devices in the real hall, do that first: [Test run and venue
+rehearsal](/manager-guide/test-run/).
+
 ## Pre-open checks (30-60 minutes before)
 
 1. Open Manager and confirm no critical Validator issues
-2. Confirm judges can access the judging app
-3. Confirm Speaker and Screens are loading event data
-4. Confirm check-in status has been applied
-5. Confirm first rounds have schedule/floor/beat assignments
+2. Confirm judges can access the judging app and unlock it with the judge PIN
+3. Confirm Speaker and Screens are loading event data, and that the projector picture fills
+   the display (see [Screens, projectors and venue technology](/manager-guide/screens/))
+4. Confirm every station device is connected, and check their battery level
+5. Confirm check-in status has been applied
+6. Confirm first rounds have schedule/floor/beat assignments
 
 ## Running rounds
 

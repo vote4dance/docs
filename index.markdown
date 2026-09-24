@@ -6,38 +6,65 @@ nav_order: 1
 
 # Vote4Dance Documentation
 
-Run your event end-to-end with Vote4Dance, from setup to live operations to final publishing.
+Everything you need to run a dance competition with Vote4Dance — from creating the event to
+the prize ceremony and the final exports.
 
-## Start Here
+## What do you want to do?
 
-1. New to Vote4Dance: read [Quickstart](/quickstart/)
-2. Confirm your setup: read [Technical requirements](/requirements/)
-3. Learn the platform: read [Vote4Dance building blocks](/building-blocks/)
-4. Open your role from the top navigation.
+| I want to… | Go to |
+|---|---|
+| **Organize my first competition** and know what is required of me | [Planning your first competition](/manager-guide/first-competition/) |
+| **Test everything before the event**, at the venue, with projector and tablets | [Test run and venue rehearsal](/manager-guide/test-run/) |
+| Connect a **projector or TV**, and know what to ask the venue | [Screens, projectors and venue technology](/manager-guide/screens/) |
+| Work out **which app each functionary needs** | [Users, apps and stations](/manager-guide/users-and-stations/) |
+| Set up **registration and check-in** | [Registration and check-in](/manager-guide/registration-checkin/) |
+| Have a **runbook for the competition day** | [Live operations](/manager-guide/live-operations/) |
+| **Register for a competition** as a dancer | [Dancer: registration for event](/dancer/registration-for-event/) |
+| Understand **licenses, classes and rankings** | [Federation](/federation/) |
+| See **what is new** in Vote4Dance | [Release notes](/release-notes/) |
 
-## Roles
+## New here?
 
-1. [Federation](/federation/)
-2. [Scrutineer](/scrutineer/)
-3. [Organizer](/organizer/)
-4. [Dancer](/dancer/)
-5. [School/Club](/school-club/)
+1. [Understanding Vote4Dance](/understanding-vote4dance/) — how the system fits together, and
+   which role you have
+2. [Quickstart](/quickstart/) — from nothing to a runnable event
+3. [Technical requirements](/requirements/) — devices, network, browser
+4. [Vote4Dance building blocks](/building-blocks/) — the apps and what each one is for
 
-## Organizers
+## Organizing a competition
 
-If your goal is to organize and run an event with the Manager app:
+The path most organizers follow, in order:
 
-1. [Event setup](/manager-guide/event-setup/)
-2. [Competition setup](/manager-guide/competition-setup/)
-3. [Registration and check-in](/manager-guide/registration-checkin/)
-4. [Live operations](/manager-guide/live-operations/)
-5. [Post-event and exports](/manager-guide/post-event/)
+1. [Planning your first competition](/manager-guide/first-competition/) — what is required, and when
+2. [Event setup](/manager-guide/event-setup/) — create the event
+3. [Competition setup](/manager-guide/competition-setup/) — classes, rounds, teams, judges
+4. [Users, apps and stations](/manager-guide/users-and-stations/) — functionaries and devices
+5. [Screens, projectors and venue technology](/manager-guide/screens/) — the hall
+6. [Registration and check-in](/manager-guide/registration-checkin/) — entries and the desk
+7. [Test run and venue rehearsal](/manager-guide/test-run/) — prove it before the day
+8. [Live operations](/manager-guide/live-operations/) — the competition day
+9. [Post-event and exports](/manager-guide/post-event/) — results, rankings, archives
 
-## Advanced Formats
+Full detail in the [Manager Guide](/manager-guide/).
 
-- [Jack'n'Jill setup](/jack-n-jill/)
-- [Point summary setup](/point-summary/)
+## Find your role
 
-## Product Updates
+| Role | You are this if |
+|---|---|
+| [Organizer](/organizer/) | You set up and run a competition. |
+| [Dancer](/dancer/) | You compete. |
+| [School/Club](/school-club/) | You register dancers and manage a club's members. |
+| [Federation](/federation/) | You set the rules: licenses, classes, rankings. |
+| [Scrutineer](/scrutineer/) | You oversee judging and results quality. |
+
+Not sure? [Finding your role](/understanding-vote4dance/finding-your-role/).
+
+## Special formats
+
+- [Jack'n'Jill](/jack-n-jill/)
+- [Point summary](/point-summary/)
+- [Battle bracket](/battle-bracket/)
+
+## Product updates
 
 - [Release notes](/release-notes/)

@@ -47,3 +47,9 @@ A station is a **device**, not a person. Use it for tablets and screens that sta
 - The Stations page shows which devices are connected, and their battery level.
 
 Rule of thumb: people get users, devices get stations.
+
+## Related pages
+
+- [Screens, projectors and venue technology](/manager-guide/screens/) — what the screen devices plug into, and what each display shows
+- [Test run and venue rehearsal](/manager-guide/test-run/) — join every device once, before the day
+- [Planning your first competition](/manager-guide/first-competition/) — which positions to staff

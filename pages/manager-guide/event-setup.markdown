@@ -180,7 +180,7 @@ Round 2: Saturday 2:00 PM - Solo classes (Jazz, Contemporary, Ballet)
 Round 3: Sunday 9:00 AM - Finalistas
 ```
 
-**You'll set up rounds in [Manager Guide - Rounds](/manager-guide/rounds/) or Competition Setup.**
+**You'll set up rounds in [Competition setup](/manager-guide/competition-setup/).**
 
 ### Registration & Payment Settings
 
@@ -228,10 +228,11 @@ After creating the event:
 
 After event setup:
 
-1. **[Competition Setup](/manager-guide/competition-setup/)** — Define classes/divisions and scoring rules
-2. **[Rounds](/manager-guide/rounds/)** — Schedule judging times and assign judges
-3. **[Registration](/manager-guide/registration/)** — Open registration for dancers
-4. **[Live Judging](/manager-guide/live-judging/)** — Run the competition
+1. **[Competition setup](/manager-guide/competition-setup/)** — Define classes, rounds, teams, judges and panels
+2. **[Users, apps and stations](/manager-guide/users-and-stations/)** — Give each functionary the app they need
+3. **[Registration and check-in](/manager-guide/registration-checkin/)** — Open registration for dancers
+4. **[Test run and venue rehearsal](/manager-guide/test-run/)** — Prove the setup before the day
+5. **[Live operations](/manager-guide/live-operations/)** — Run the competition
 
 ## Troubleshooting
 
@@ -269,23 +270,26 @@ It depends on your federation's rules:
 - If no dancers have registered: Usually yes, click **Delete** (if shown)
 - If dancers have registered: Usually no — the event is locked. Contact federation admin if you really need to delete it.
 
-## When you're ready
+## Other event modules
 
-Your event is ready to move to Competition Setup when:
-- ✓ Event name and dates are correct
-- ✓ Location is set
-- ✓ Status is Draft (if still building) or public visibility is confirmed
-- ✓ No error messages
+The event page has further sections you may want to configure:
 
-Next: [Competition Setup](/manager-guide/competition-setup/) — Define classes and divisions
-- `Voting`: enable/disable audience voting
-- `Live`: control public live/result visibility behavior
+- `Users` and `Stations`: who works the competition and which app each of them gets, plus the shared devices. See [Users, apps and stations](/manager-guide/users-and-stations/).
+- `Screens`: which displays the projectors and TVs show, and in which order. See [Screens, projectors and venue technology](/manager-guide/screens/).
+- `Voting`: enable/disable audience voting.
+- `Live`: control public live/result visibility behaviour.
 - `Sponsors`: sponsor setup and sales if enabled for your environment. See [Sponsors guide](/manager-guide/sponsors/).
 
 ## Event setup done checklist
 
-1. Event image and status are correct
-2. Competitions/floors/users are complete
-3. Schedule pages are built and published state is intentional
-4. Validator has no blocking errors
-5. Public-facing modules are configured as intended
+1. Event name, dates and location are correct
+2. Event image is uploaded and the status/visibility is what you intend
+3. Competitions, floors and users are complete
+4. Schedule pages are built and the published state is intentional
+5. Validator has no blocking errors
+6. Public-facing modules are configured as intended
+7. No error messages on the event page
+
+## When you're ready
+
+Next: [Competition setup](/manager-guide/competition-setup/) — define classes, rounds and judges.
