@@ -14,7 +14,7 @@ Selling the tickets is on [Shop](/manager-guide/shop/). The club check-in, which
 
 ## What the desk needs
 
-- A **check-in station** for the event, or a user with the Checkin capability. Create stations under [Users, apps and stations](/manager-guide/users-and-stations/) and print the station QR before the day — a station signs in by opening its QR, with no password.
+- A **check-in station** for the event, or a user with the Checkin capability. Create stations under [Users, apps and stations](/manager-guide/users-and-stations/) before the day — a station signs in by opening its QR, with no password, and the device can scan that QR straight off the screen you opened it on.
 - A phone, tablet or laptop with a camera, or a USB barcode scanner (which behaves as a keyboard).
 - A dated schedule, if you sell day tickets or admit dancers only on the days they dance.
 

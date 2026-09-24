@@ -83,7 +83,7 @@ and re-runs them whenever you change something.
 | **2–3 weeks before** | Add judges and panels. Do a desk rehearsal on your own computer with a practice event. See [Test run and venue rehearsal](/manager-guide/test-run/). |
 | **1–2 weeks before** | Book the venue rehearsal: projector, Wi-Fi and the real devices. Registration closes. |
 | **Registration closed** | Approve registrations, import participants, assign start numbers, check licenses. |
-| **2–3 days before** | Final schedule. Print heat lists and judging sheets as backup. Charge every tablet. Create the stations and print their QR codes. |
+| **2–3 days before** | Final schedule. Print heat lists and judging sheets as backup. Charge every tablet. Create the stations — the devices scan their QR codes off your screen on the day, so there is nothing to print. |
 | **Day before / morning** | Set up screens and devices, run one live round with test data if you still can, clear **Problems**, then set the event to its live status. |
 | **On the day** | Follow [Live operations](/manager-guide/live-operations/). |
 | **After** | Confirm and publish all rounds, then [Post-event and exports](/manager-guide/post-event/). |
