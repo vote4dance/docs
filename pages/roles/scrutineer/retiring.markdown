@@ -16,10 +16,18 @@ This step helps scrutineers end active work without leaving events or organizati
 
 ## How it works
 
-1. Stop accepting new assignments.
-2. Resolve any current event commitments.
-3. Hand over useful process knowledge where needed.
-4. Confirm there is no lingering operational dependency.
+1. Stop accepting new assignments
+2. Finish the events you have committed to
+3. **Ask organizers to remove your access** to events you no longer work. Access is per event and
+   does not lapse on its own, so an old Supervisor tick quietly keeps giving you unpublished marks
+   for competitions that are no longer yours.
+4. If your licence is a season licence, simply do not apply for the next season — it becomes
+   **Expired** by itself. A lifetime officials' licence does not expire; ask the federation to
+   cancel or suspend it if that matters to them.
+5. Hand over what is not in the system: who to call, what your federation expects, the judgements
+   that were never written down
+
+Keep the account. Your history as an official hangs off it, and a second account later splits it.
 
 ## What success looks like
 

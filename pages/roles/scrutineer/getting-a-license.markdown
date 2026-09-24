@@ -16,11 +16,27 @@ This step explains how the scrutineer becomes officially eligible for assignment
 
 ## How it works
 
-1. Confirm whether the federation requires a scrutineer license.
-2. Apply through the correct organization or federation path.
-3. Complete payment if required.
-4. Wait for approval if required.
-5. Confirm active status before accepting assignments.
+Officials' licences are licence items like any other, with one difference that matters: the
+category. A federation's items each carry a **Category** — Dancer, Judge, Coach, Organizer,
+**Scrutineer**, Supervisor, Music or Other — so the item you need is one in the Scrutineer
+category (your federation may also put you under Judge or Supervisor; ask rather than guess).
+
+1. Confirm the federation requires one at all
+2. Find the item in `Account → Licenses` under that federation. If nothing appears, the item
+   probably expects your club or the federation itself to apply — officials' licences are
+   frequently issued by the federation directly, which shows on the licence as
+   **Applied via: Federation admin**
+3. Pay if it is priced
+4. Wait for approval — the same four checks apply as for any licence
+5. Confirm it reads **Active**, not Pending, before you accept an assignment
+
+**Officials' licences are often lifetime.** Where a licence has no season, it does not expire and
+does not need renewing each year: the federation's guidance on the field says as much — "Leave
+blank for a lifetime license (officials, music, DJ, etc.)". Check which kind yours is, because it
+decides whether [Renew license](/scrutineer/renew-license/) applies to you at all.
+
+The mechanics, including what holds an application up:
+[Getting a license](/dancer/getting-a-license/) covers the same flow from the applicant's side.
 
 ## What success looks like
 

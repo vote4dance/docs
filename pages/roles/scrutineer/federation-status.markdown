@@ -16,10 +16,18 @@ This step makes sure the scrutineer is recognized correctly inside the federatio
 
 ## How it works
 
-1. Confirm the right federation applies.
-2. Confirm the organization relationship is valid if needed.
-3. Confirm the required license is active.
-4. Resolve any approval gaps before event work begins.
+Your standing has two independent parts, and they fail differently:
+
+| Part | How to check it | What it blocks if missing |
+|---|---|---|
+| **Your official licence**, if the federation requires one | `Account → Licenses` — it must read **Active**, not Pending | Your eligibility to officiate under federation rules |
+| **Your access to the event** | You can open the event and see a Supervisor tile | Everything you do on the day |
+
+They have nothing to do with each other: an organizer can give you Supervisor on an event while
+your licence is still pending, and a valid licence gives you no access to anything until somebody
+adds you.
+
+If a licence is stuck, the four checks say why — see [Getting a license](/scrutineer/getting-a-license/).
 
 ## What success looks like
 
