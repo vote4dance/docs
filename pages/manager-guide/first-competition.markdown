@@ -65,7 +65,7 @@ This is the minimum. Everything else is optional polish.
 | 9 | Judge PIN | Event settings | Judges unlock the Judging app with it. Decide it early and share it on the day, not before. |
 | 10 | Registration period | `Manager → Competition → Registration → Registration period` | Without an open period nobody can register. See [Registration and check-in](/manager-guide/registration-checkin/). |
 | 11 | Users and stations | `Manager → Event → Users` and `→ Stations` | Each functionary gets exactly the apps they need; shared devices join as stations. See [Users, apps and stations](/manager-guide/users-and-stations/). |
-| 12 | Screen configuration | `Manager → Event → Screens` | What the projector shows and in which order. See [Screens, projectors and venue technology](/manager-guide/screens/). |
+| 12 | Screen configuration | `Manager → Event → Screens` | Which views the projector shows and in which order. One device shows one view at a time, so count your projectors. See [Screens, projectors and venue technology](/manager-guide/screens/). |
 | 13 | Event status and visibility | `Manager → Event → Overview` | Nothing is public until you set it. |
 
 Before the day, run the **Validator** in Manager and resolve everything it flags as blocking.

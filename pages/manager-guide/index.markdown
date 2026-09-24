@@ -28,7 +28,7 @@ Follow the pages in order for a new event, or jump straight to the part you are 
 | [Event setup](/manager-guide/event-setup/) | Creating the event: details, status, visibility. |
 | [Event image](/manager-guide/event-image/) | The one picture every event needs. |
 | [Users, apps and stations](/manager-guide/users-and-stations/) | Which app each functionary gets, and shared devices. |
-| [Screens, projectors and venue technology](/manager-guide/screens/) | Projectors, TVs, screen displays and the venue's equipment. |
+| [Screens, projectors and venue technology](/manager-guide/screens/) | Projectors, TVs, screen views and the venue's equipment. |
 | [Sponsors](/manager-guide/sponsors/) | Sponsor offers and sales. |
 | [Competition setup](/manager-guide/competition-setup/) | Classes, rounds, teams, judges and panels. |
 

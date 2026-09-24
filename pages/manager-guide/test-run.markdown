@@ -22,7 +22,7 @@ what "it works" looks like.
 | Event, classes and rounds are set up correctly | ✓ | |
 | A full round: `Ready` → judging → `Closed` → `Confirmed` → `Published` | ✓ | ✓ |
 | The judges' view and the judge PIN | ✓ | ✓ |
-| Screens content and display order | ✓ | ✓ |
+| Screens content and view order | ✓ | ✓ |
 | Speaker flow and **Show on Screen** | ✓ | ✓ |
 | Check-in, QR scanning, start numbers | ✓ | ✓ |
 | Printing heat lists, judging sheets, diplomas | ✓ | ✓ (on the venue's printer) |
@@ -68,8 +68,9 @@ With just your own computer, and a phone or tablet beside it:
 2. Open the **judging demo** from Manager to see exactly what the judges see, and mark a
    round yourself. Practice mode builds demo heats from the real round, so the heat and team
    counts match what you have set up.
-3. Open **Screens** in a second browser window and watch lineup, heat, live placement,
-   result and prize ceremony as you run the round.
+3. Open **Screens** in a second browser window and step through lineup, heat, live placement,
+   result and prize ceremony as you run the round — one view at a time, which is all a screen
+   device shows.
 4. Open **Speaker** on your phone and use **Show on Screen** to drive the screen window.
 5. Print a heat list, a judging sheet and a diploma to PDF.
 6. Run the **Validator** and read every warning.
@@ -129,7 +130,7 @@ If the network fails here, stop and solve it with the venue. Nothing downstream 
 1. Connect your display computer to the venue's input and get a picture.
 2. Set the output to 1920 × 1080.
 3. Join the device to the **Screens** station (scan the QR code), choose the floor, and open a
-   display.
+   screen view.
 4. Go fullscreen and use the screen's zoom to fit the picture — nothing cut off at the edges.
 5. **Walk to the back row and read it.** Start numbers and names must be legible from the
    furthest seat the audience will use. Also check it from the judges' seats and from the desk.
@@ -154,7 +155,7 @@ Use the bootstrap practice classes and random teams, and run it as if the hall w
 3. The judges mark on their tablets. Watch the judges' completion status in Manager.
 4. The speaker uses **Show on Screen** to drive the hall.
 5. Move the round to `Closed`, then `Confirmed`, then `Published`.
-6. Watch the result appear on the projector, then run the **prize ceremony display** with the
+6. Watch the result appear on the projector, then run the **prize ceremony view** with the
    spotlight — this is the moment worth rehearsing, because it is the one the audience
    remembers.
 7. Print a heat list and a diploma, on the venue's printer if you are using it.

@@ -275,7 +275,7 @@ It depends on your federation's rules:
 The event page has further sections you may want to configure:
 
 - `Users` and `Stations`: who works the competition and which app each of them gets, plus the shared devices. See [Users, apps and stations](/manager-guide/users-and-stations/).
-- `Screens`: which displays the projectors and TVs show, and in which order. See [Screens, projectors and venue technology](/manager-guide/screens/).
+- `Screens`: which views the projectors and TVs show, and in which order. See [Screens, projectors and venue technology](/manager-guide/screens/).
 - `Voting`: enable/disable audience voting.
 - `Live`: control public live/result visibility behaviour.
 - `Sponsors`: sponsor setup and sales if enabled for your environment. See [Sponsors guide](/manager-guide/sponsors/).

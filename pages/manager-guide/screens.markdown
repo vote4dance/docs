@@ -20,7 +20,7 @@ venue's technician before the day.
 | Projector, LED wall, TVs | **Yes** — through a computer or tablet running the Screens app, connected like any other picture source. |
 | Sound system and microphones | No. Your DJ and the speaker use the venue's sound. Vote4Dance shows the running order; it does not play music or route audio. |
 | Stage lighting | No. |
-| Streaming / camera mixer | No, but a screen output can be fed into a mixer like any other HDMI source, and the blank/green-screen displays exist for exactly that. |
+| Streaming / camera mixer | No, but a screen output can be fed into a mixer like any other HDMI source, and the blank/green-screen views exist for exactly that. |
 
 So the only cable that matters for Vote4Dance is the one from your display computer to the
 venue's picture input.
@@ -39,22 +39,26 @@ that is plugged into the display**. There is no separate box and nothing to inst
    ticked, or let the device join a **Screens station** by scanning its QR code. A station is
    the better choice for a machine that stays in the hall all weekend: no personal login, and
    you can revoke it afterwards. See [Users, apps and stations](/manager-guide/users-and-stations/).
-4. Open the Screens app, pick the floor and the display, and put the browser in **fullscreen**.
+   Several devices can join the same station, which is how you get the same picture on several
+   TVs.
+4. Open the Screens app, pick the floor and the screen view, and put the browser in **fullscreen**.
 5. Use the screen's **zoom** setting to fit the picture to the projector so nothing important
    sits under the edge.
 
-One device drives one display. For two projectors showing different things, use two devices
-— or, on a computer with two outputs, two separate browser windows, one dragged onto each
-display and each put in fullscreen.
+**One screen device shows one screen view at a time, on one display.** For two projectors
+showing different things, use two devices — or, on a computer with two picture outputs, two
+separate browser windows, one dragged onto each display and each put in fullscreen. A single
+window cannot feed two projectors with different content.
 
 Manager shows the connectivity of the connected screens (and the judges), so the desk can
 see whether a screen is still alive.
 
-## The displays you can show
+## The screen views you can show
 
-The Screens app has a set of displays you switch between. The most used ones:
+The Screens app has a set of views you switch between, one at a time per device. The most
+used ones:
 
-| Display | Shows |
+| View | Shows |
 |---|---|
 | **Lineup** | Who is on the floor next, per heat, with start numbers. |
 | **Heat** | The running heat. Shows names when the field is small, and can show dancer pictures. |
@@ -68,16 +72,16 @@ The Screens app has a set of displays you switch between. The most used ones:
 | **Sponsors** | Sponsor material between rounds. |
 | **Blank / green screen** | For streaming overlays or when the hall should show nothing. |
 
-Screens fade between displays, and an animated video background can be used.
+Screens fade between views, and an animated video background can be used.
 
 ## Who controls what is shown
 
 | Who | What they can do |
 |---|---|
-| **Screens** (the display itself) | Nothing. It is display only; it shows what it is pointed at. |
+| **Screens** (the screen device itself) | Nothing. It is display only; it shows what it is pointed at. |
 | **Speaker** | The floor console. Has **Show on Screen** buttons — a team, a judge, a schedule item, the result reveal for the prize ceremony. This is the app your MC drives the hall from. |
 | **Supervisor** | Chooses the floor and controls the screens, without being able to change the setup. |
-| **Manager** | The screen configuration itself: which displays exist, their order, durations and settings. |
+| **Manager** | The screen configuration itself: which views exist, their order, durations and settings. |
 
 Agree before the day who has the screens: normally the speaker, with the desk as backup.
 
