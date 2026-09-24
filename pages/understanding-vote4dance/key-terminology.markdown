@@ -109,7 +109,7 @@ The process of checking, reviewing, and authorizing something (like a license or
 Rules set by a federation. Examples: "All dancers must be licensed", "Classes map to specific age divisions", "Rankings use this scoring formula".
 
 ### **Bootstrap**
-An automated setup option in Manager that pre-configures basic event elements (floors, schedules, judges, classes) so you don't start from scratch.
+The defaults Manager creates with a new event so you don't start from an empty page: a **Main floor**, one screen, default cafe products and a starting schedule with **Doors open** and **Competition start**. Classes, rounds, judges and teams you add yourself.
 
 ### **Stripe**
 The payment processor used by Vote4Dance. If payments are required and Stripe is connected, dancers/admins can pay online.

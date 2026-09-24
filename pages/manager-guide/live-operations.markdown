@@ -17,7 +17,7 @@ rehearsal](/manager-guide/test-run/).
 ## Pre-open checks (30-60 minutes before)
 
 1. Open Manager and confirm no critical Validator issues
-2. Confirm judges can access the judging app and unlock it with the judge PIN
+2. Confirm judges can access the judging app and enter their own PIN
 3. Confirm Speaker and Screens are loading event data, and that the projector picture fills
    the display (see [Screens, projectors and venue technology](/manager-guide/screens/))
 4. Confirm every station device is connected, and check their battery level

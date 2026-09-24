@@ -41,23 +41,39 @@ This is mostly one-time setup. After this, you'll configure competitions, rounds
 
 ### Step 1: Create a new event
 
-**If you're starting from scratch:**
+In Manager, create a new event. The form is a short wizard.
 
-1. In Manager, look for **+ Create Event** button or **New Event**
-2. Click it
-3. You'll see a form:
+**First question: How do you want to start?**
 
-| Field | Explanation | Example |
-|---|---|---|
-| **Event Name** | The competition name that appears to audiences | "Northeast Regional Championship 2026" |
-| **Event Code** | Short identifier (auto-generated, can edit) | "NRC2026" |
-| **Organization** | Which school/federation runs this (pre-filled) | "Northeast Dance Federation" |
-| **Start Date** | First day of competition | "03/15/2026" |
-| **End Date** | Last day of competition | "03/15/2026" |
-| **Location** | City/venue | "Boston Convention Center, Boston MA" |
-| **Event Type** | Solo, duet, team, group, etc. | "Solo, Duet, Trio, Group" |
+| Choice | When to pick it |
+|---|---|
+| **Training competition with default settings** | "Best for your first event." Skips the questions you do not need yet and sets the event up with defaults. This is the right choice for a first-time organizer and for anything you are only testing. |
+| **Competition for a specific federation** | "Use this if you already know which federation setup and classes you need." You then pick the federation, and its rules, classes and license checks apply. |
 
-Fill in each field with your event details.
+**Then the event details:**
+
+| Field | What it is |
+|---|---|
+| **What is the name of your event** | The name the audience sees. Note that *an event can contain several competitions*. |
+| **Competition organizer** | The organizing club or company, as it should be shown. |
+| **Event duration** | `Single day` or `Multiple days`, then the date or date range. |
+| **Country** | Used for formats and public presentation. |
+| **Contact email** | Optional, shown publicly. |
+| **Short description** | Maximum 150 characters. |
+| **Event mode** | `Practice event` or `Live competition`. Practice mode keeps the lightweight setup; live competition enables reusable competition profiles and billing. |
+| **Competition level** | Optional, and only for a federation event that is not a practice event: a reusable level from that federation. |
+| **Location** | The venue. There is a **Verify on Google Maps** link next to it — use it, because this is what people navigate by. |
+| **Timezone** | Drives every time shown in schedules, on screens and in the app. |
+| **Billing information** | Only for live competitions; not asked for practice events. |
+
+The quick "training competition" path hides the organizer, duration, description, mode and
+billing questions and fills them in for you. You can change all of them afterwards on the
+event's details page.
+
+**What gets created with it.** A new event does not arrive empty. You get a floor called
+**Main floor**, one screen, a set of default cafe products, and a starting schedule for the
+day with **Doors open** and **Competition start** blocks. Classes, rounds, judges and teams
+are yours to add — see [Competition setup](/manager-guide/competition-setup/).
 
 ### Step 2: Event status and visibility
 

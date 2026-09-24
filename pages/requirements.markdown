@@ -30,8 +30,10 @@ Which app each device runs, and how shared devices join without a personal login
 ## Projectors and TVs
 
 The Screens app runs in a browser in fullscreen on a device plugged into the display — there
-is no separate box and nothing to install. Plan for 16:9 at 1920 × 1080, disable sleep and
-screensaver on that device, and check the picture is readable from the back row.
+is no separate box and nothing to install. The layouts are built for 16:9 (reference
+resolution 1280 × 720) and scale up, text size is adjusted with the browser zoom hotkey
+(Ctrl +/-), and the app says as much on its own start page. Disable sleep and screensaver on
+that device, and check the picture is readable from the back row.
 
 Cables, resolutions, screen displays and the questions to ask the venue's technician:
 [Screens, projectors and venue technology](/manager-guide/screens/).
@@ -58,7 +60,7 @@ For Manager and admin workflows, use current Google Chrome.
 Before doors open:
 
 1. Test login and permissions for organizer roles
-2. Verify judging devices can reach the judging app and unlock with the judge PIN
+2. Verify judging devices can reach the judging app and that each judge can enter their own PIN
 3. Verify Speaker and Screens can load event data
 4. Verify the projector picture fills the screen and is readable from the back row
 5. Run one full test round (ready -> closed -> confirmed -> published)

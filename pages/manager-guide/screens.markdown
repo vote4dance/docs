@@ -27,61 +27,97 @@ venue's picture input.
 
 ## How a screen gets its picture
 
-A "screen" in Vote4Dance is **a browser showing the Screens app, in fullscreen, on a device
-that is plugged into the display**. There is no separate box and nothing to install.
+A "screen" in Vote4Dance is two things: a **screen record in Manager** (`Manager → Event →
+Screens`), and **a device showing the Screens app in fullscreen**, plugged into the projector
+or TV. There is no separate box and nothing to install.
+
+### In Manager: create the screen
+
+`Manager → Event → Screens` → **Create screen**. Each screen has:
+
+| Field | What it does |
+|---|---|
+| **Label** | The screen's name, for example "Main projector" or "Foyer TV". This is how the device and the speaker identify it, so name it after where it hangs. |
+| **Background** | `Normal background`, `Green screen (TV)`, `Custom background` or an animated background (`V4D` or `Blue`). Green screen is for streaming and camera mixers; on green screen and blank, the federation/branding image is hidden. |
+| **Floor** | `All floors`, or one specific floor. A screen in a hall with two floors should be set to its own floor. |
+| **Show** | What the screen starts on — see [the Show options](#what-a-screen-can-show) below. |
+| **Settings** | `Hide name before finals`, `Spotlight duration (podium)` (default 5s), `Spotlight duration (outside podium)` (default 3s), `Winner flag only`. |
+
+Each screen card also has a **connection dot**, so the desk can see at a glance whether that
+screen is still alive.
+
+### On the device: point it at the screen
 
 1. Decide which device drives each display. A laptop or a small computer with an HDMI output
    is the reliable choice for the main projector. A tablet can drive a TV, but a computer is
-   easier to keep awake and fullscreen.
+   easier to keep awake and in fullscreen.
 2. Connect the device to the venue's input (usually HDMI; bring a USB-C or Mini-DisplayPort
    adapter if your laptop has no HDMI port).
 3. Give the device access to the Screens app — either sign in as a user who has **Screens**
    ticked, or let the device join a **Screens station** by scanning its QR code. A station is
    the better choice for a machine that stays in the hall all weekend: no personal login, and
    you can revoke it afterwards. See [Users, apps and stations](/manager-guide/users-and-stations/).
-   Several devices can join the same station, which is how you get the same picture on several
-   TVs.
-4. Open the Screens app, pick the floor and the screen view, and put the browser in **fullscreen**.
-5. Use the screen's **zoom** setting to fit the picture to the projector so nothing important
-   sits under the edge.
+4. The Screens app shows **one card per screen you created in Manager**. Press **Show** on the
+   card for this display. That is the device's only choice — the floor, the background and
+   what is shown all come from Manager and from what the speaker pushes.
+5. Put the browser in **fullscreen**.
+6. If the text is too large or too small, use the **browser zoom hotkey, usually Ctrl +/-**.
+   The screen layouts are built for a resolution of **1280 × 720** and scale from there; the
+   app states all three of these hints on its own start page.
 
-**One screen device shows one screen view at a time, on one display.** For two projectors
-showing different things, use two devices — or, on a computer with two picture outputs, two
-separate browser windows, one dragged onto each display and each put in fullscreen. A single
-window cannot feed two projectors with different content.
+Several devices can join the same station and open the same screen — that is how you get the
+same picture on several TVs.
 
-Manager shows the connectivity of the connected screens (and the judges), so the desk can
-see whether a screen is still alive.
+**One screen device shows one thing at a time.** For two displays showing different content,
+create two screens in Manager and use two devices — or, on a computer with two picture
+outputs, two browser windows, each opened on its own screen card and dragged onto its own
+display. A single window cannot feed two projectors with different content.
 
-## The screen views you can show
+## What a screen can show
 
-The Screens app has a set of views you switch between, one at a time per device. The most
-used ones:
+### The Show setting in Manager
 
-| View | Shows |
+`Manager → Event → Screens → Show` has seven options. This is what the screen displays on its
+own, without anyone touching it:
+
+| Show | Shows |
 |---|---|
+| **Heat** | The running heat. Names appear when the field is small, and a single-couple heat can show a picture. |
 | **Lineup** | Who is on the floor next, per heat, with start numbers. |
-| **Heat** | The running heat. Shows names when the field is small, and can show dancer pictures. |
-| **Live placement** | Marks arriving during a round, as moving rows. |
-| **Results** | The result of a round, with podium and through-to-next-round marking. |
-| **Results (last)** | The most recently published results, for the hall between rounds. |
-| **Prize ceremony / podium** | Top-3 or full placements with a spotlight overlay, with a settable spotlight duration. |
-| **Schedule** | The schedule with estimated times. **Schedule (no heats)** gives one card per block with its rounds — good for a foyer TV. |
-| **Judges** | The panel, one judge at a time or pinned. |
-| **Voting** | Audience voting, if enabled for the event. |
-| **Sponsors** | Sponsor material between rounds. |
-| **Blank / green screen** | For streaming overlays or when the hall should show nothing. |
+| **Schedule (no heats)** | One card per schedule block with its rounds and their live estimated start times — good for a foyer TV. |
+| **Result** | The result of the round, with podium, advancement marking and the prize-ceremony spotlight. |
+| **Round number** | The round number only, large. |
+| **Results (last 6)** | The six most recently published rounds, for the hall between rounds. |
+| **Judge presentation** | The panel: judges one at a time, or one pinned. |
 
-Screens fade between views, and an animated video background can be used.
+There is no separate "prize ceremony" setting: **the podium and the spotlight are part of
+Result**, and the spotlight durations are the screen's own settings.
+
+### What the speaker pushes
+
+During the competition the **Speaker** app overrides what a screen shows, with **Show on
+screen** buttons. The speaker picks which screen to drive, then sends it:
+
+| From | What goes on the screen |
+|---|---|
+| Overview | `Show competition name`, `Show blank screen`, `Round number`, `Results (last 6)`, `Lineup`, `Schedule` |
+| Schedule | A specific schedule item |
+| Lineup | A round, its teams, a single team in a heat, a group's dancers, a redance/rotation draw |
+| Results | A round's result, or the open judging for one team |
+| Judges | One judge, or all judges in turn |
+| Sponsors | A sponsor, or the sponsor rotation |
+
+The screen fades over about a second when it changes. Audience voting and the live-placement
+view are variants of the heat screen and appear on their own when they apply.
 
 ## Who controls what is shown
 
 | Who | What they can do |
 |---|---|
-| **Screens** (the screen device itself) | Nothing. It is display only; it shows what it is pointed at. |
+| **Screens** (the screen device itself) | Nothing beyond choosing which screen it is. It is display only. |
 | **Speaker** | The floor console. Has **Show on Screen** buttons — a team, a judge, a schedule item, the result reveal for the prize ceremony. This is the app your MC drives the hall from. |
 | **Supervisor** | Chooses the floor and controls the screens, without being able to change the setup. |
-| **Manager** | The screen configuration itself: which views exist, their order, durations and settings. |
+| **Manager** | The screens themselves: label, background, floor, the `Show` setting and the spotlight/name settings. |
 
 Agree before the day who has the screens: normally the speaker, with the desk as backup.
 
@@ -89,12 +125,13 @@ Agree before the day who has the screens: normally the speaker, with the desk as
 
 These are the things that actually go wrong in a hall:
 
-- **Aspect ratio.** Screens are designed for 16:9. If the projector is 16:10 or 4:3, expect
-  black bars, and check that nothing is cut off at the edges.
-- **Overscan and edge cropping.** Some projectors cut a few percent of the picture. Use the
-  screen's zoom setting to pull the content in rather than fighting the projector.
-- **Resolution.** 1920 × 1080 is the safe choice. If the projector reports something odd,
-  set the computer's output to 1080p manually.
+- **Aspect ratio.** The screen layouts are built for 16:9, at a reference resolution of
+  1280 × 720, and scale up from there. A 1080p projector is fine. On a 16:10 or 4:3 projector
+  expect black bars, and check that nothing is cut off at the edges.
+- **Overscan and edge cropping.** Some projectors cut a few percent of the picture. Adjust
+  with the **browser zoom hotkey (Ctrl +/-)** rather than fighting the projector.
+- **Text size.** Browser zoom is also how you make names and start numbers bigger for a deep
+  hall, or smaller when a long start list is being cut off.
 - **Sleep, screensaver and updates.** Disable sleep, screensaver and automatic updates on
   the display computer, and keep it on mains power. A screen that goes dark mid-final is
   almost always a power-saving setting.
@@ -158,14 +195,16 @@ Send this list to the venue before your visit. It is written to be forwarded as 
 2. Check the computer is actually mirroring/extending to it (display settings).
 3. Swap the cable before you doubt the app.
 
-### The screen shows the wrong competition or floor
+### The screen shows the wrong floor or the wrong content
 
-The Screens app picks a floor. Select the right one; if the device is a station, check it is
-the station you intended.
+The floor and the `Show` setting belong to the screen record in Manager, not to the device.
+Open `Manager → Event → Screens`, check the screen's **Floor** and **Show**, and confirm the
+device opened the right screen card. If the speaker has pushed something onto it, the speaker
+decides what it shows until they send it something else.
 
 ### Edges are cut off, or content looks too small
 
-Use the screen's zoom setting to fit the picture, and confirm the output is 16:9 at 1080p.
+Use the browser zoom hotkey (Ctrl +/-) to fit the picture, and confirm the output is 16:9.
 
 ### The screen froze or went dark
 
@@ -176,6 +215,12 @@ connectivity in Manager to see whether the device dropped off the network.
 
 Results only reach the screens once the round is **Published**. Check the round status in
 Manager and the `Live` publish settings.
+
+### The screen shows a practice warning
+
+The event is a practice event. Every app, screens included, shows "Practice events have
+limitations! Only for practice and should not be used for live competitions." It disappears
+when you run a live competition — see [Test run and venue rehearsal](/manager-guide/test-run/).
 
 ## Related pages
 

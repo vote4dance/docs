@@ -16,44 +16,40 @@ This flow gets a new event organizer from zero to a runnable event.
 
 ## 1. Create an event in Manager
 
-[Manager](/understanding-vote4dance/manager-intro/) is the control panel for event organizers. Go there and create a new event, completing these 4 setup steps:
+[Manager](/understanding-vote4dance/manager-intro/) is the control panel for event organizers. Go there and create a new event.
 
-### Federation
-Select whether this event is part of a [federation](/understanding-vote4dance/system-model/):
-- **Has a federation** → Choose the federation that oversees this event (will apply federation policies like license requirements)
-- **Independent event** → Choose "standalone" or "test" based on your setup
+### How do you want to start?
 
-**Not sure?** Go to [Understanding Vote4Dance](/understanding-vote4dance/system-model/) to understand federations.
+The first question decides how much the wizard asks you:
+
+- **Training competition with default settings** — "Best for your first event." No federation rules, and the questions you do not need yet are filled in for you.
+- **Competition for a specific federation** — "Use this if you already know which federation setup and classes you need." You pick the [federation](/understanding-vote4dance/system-model/), and its licenses, classes and rules apply.
+
+**Not sure?** Take the training competition. Everything can be changed afterwards, and a practice event costs nothing and is excluded from federation reporting.
 
 ### Event details
-- Event name (e.g., "Spring Regional Championship")
-- Basic description
 
-### Location and timezone
-- Where the event is happening
-- Timezone for schedules and results
+- **Event name** — note that one event can contain several competitions
+- **Competition organizer**, **Event duration** (single or multiple days) and the date
+- **Country**, optional **contact email**, and a **short description** (max 150 characters)
+- **Event mode** — `Practice event` or `Live competition`. Live competition enables reusable competition profiles and billing
+- **Location** (with a *Verify on Google Maps* link) and **Timezone**
+- **Billing information** — live competitions only
 
-### Billing or practice setup
-- **Practice**: For testing and learning. Use bootstrap to auto-generate defaults
-- **Billing**: For real events (federation may require payment processing)
+## 2. What you get with a new event
 
-If you're learning or testing, choose the practice setup and enable bootstrap.
+A new event is not empty. It comes with:
 
-## 2. Understand bootstrap (for practice events)
+- A floor called **Main floor**
+- One screen
+- Default cafe products
+- A schedule for the day with **Doors open** and **Competition start**
 
-**Bootstrap** is an automated setup tool that creates baseline objects:
+Classes, rounds, judges and teams are yours to add. On a **practice event** you can fill a round quickly with **Generate random competitors** on the Teams page — an action that exists only in practice mode.
 
-- A main floor
-- A judging panel
-- Default schedule structure
-- Default screen configuration
-- Practice classes, generated rounds, and random teams
+## 3. Build your event structure
 
-Use bootstrap to learn workflows quickly. After your dry run, you can reset and configure a real event from scratch.
-
-## 3. Build your event structure (fine-tune after bootstrap)
-
-If you used bootstrap, you'll see pre-configured items. Otherwise, create:
+On top of what the new event already contains, create:
 
 In the [Manager Guide](/manager-guide/):
 1. **Event setup**: Verify competitions, floors, user access, schedule
@@ -65,7 +61,7 @@ In the [Manager Guide](/manager-guide/):
 Run a full test with your team:
 
 1. Set one round to `Ready`
-2. Have someone test the [Judging app](/building-blocks/) and enter sample scores
+2. Have someone test the [Judging app](/building-blocks/) and enter sample scores — each judge sets their own PIN on their own device the first time
 3. Close, confirm, and publish results in Manager
 4. Verify that [Screens](/building-blocks/), [Speaker](/building-blocks/), and check-in work as expected
 

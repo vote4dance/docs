@@ -33,7 +33,11 @@ Each user can also be given a free-text **role title** (for example "Chairperson
 
 ## Judges
 
-A judge is not a user in the Users list. Judges are created on `Manager → Competition → Judges`, linked to an account or invited by email, and assigned to panels per class. They open the Judging app from the event page and unlock it with the judge PIN set for the event. A manager can open the judging demo to see what judges see.
+A judge is not a user in the Users list. Judges are created on `Manager → Competition → Judges`, linked to an existing account or invited by email, and assigned to panels per class. The list shows each judge as `Not invited`, `Invited` or `Active`, and you can send, resend or re-notify the invitation in English, Swedish or Spanish.
+
+**The PIN belongs to the judge, not to the event.** There is no event-wide judge code to hand out. The first time a judge opens the Judging app they set their own PIN on their own device ("Keep this PIN private"), and enter it again whenever they come back to the app. If a judge forgets it, you reset it for them with **Reset PIN** on their row in `Manager → Competition → Judges`, and they set a new one.
+
+The invitation email also contains a **demo link** to the Judging app, so a judge can try the marking interface before the competition. Anyone with the link can open the demo, which is also how a manager sees what the judges see.
 
 ## Stations: shared devices
 
