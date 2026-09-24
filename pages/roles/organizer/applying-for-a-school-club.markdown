@@ -28,7 +28,7 @@ If you do not know your role, ask: "Do I need edit permissions in Manager?"
 
 1. Sign in to Vote4Dance
 2. Open your profile or dashboard
-3. Go to **Organizations** or **My Organizations**
+3. Open the organization from your account
 4. Use **Join organization** or request invite via admin
 
 ## Step-by-step
@@ -66,7 +66,7 @@ If you must run event operations, request at least **Manager**.
 
 1. Open invite email and accept
 2. Sign in again
-3. Open **My Organizations**
+3. Open the organization from your account
 4. Confirm target organization appears
 5. Open it and verify your role in **Users/Members**
 

@@ -20,217 +20,170 @@ You'll:
 - Complete the application and payment
 - Verify your license is active before registering for events
 
-## Who applies for the license
+## Who applies for the licence
 
-This depends on your federation's model:
+This is not a federation-wide setting — it is decided **per licence item**, by that item's
+organization mode and by whether it allows self-application:
 
-### "Self-Service" Model
-- **You apply directly** through the Public app
-- You pay yourself (if payment required)
-- Use: [Dancer self-service](/federation-licenses/dancer-self-service/)
-- Example: "Individual dancers buy their own annual license for $50"
+| Route | When it applies | Where it is done |
+|---|---|---|
+| **You apply yourself** | The item allows self-application. You are usually the payer too. | `Account → Licenses`, see [Dancer self-service](/federation-licenses/dancer-self-service/) |
+| **Your club applies for you** | The item requires an organization, or forbids self-application. The club is often the payer. | The club's **License Applications** page, see [Organization admin](/federation-licenses/organization-admin/) |
+| **The federation issues it** | The federation adds it directly, for example for officials. | Federation admin, see [Federation admin](/federation-licenses/federation-admin/) |
 
-### "Organization-Managed" Model
-- **Your school/club applies** on your behalf
-- Your school/club pays (if payment required)
-- Use: [Organization admin](/federation-licenses/organization-admin/)
-- Example: "Schools buy team licenses that cover all members"
+Every licence records which of these it came through, as **Applied via: Self, Club or Federation
+admin**.
 
-### "Hybrid" Model
-- **Either you OR your school/club can apply**
-- Payment might be by dancer OR school (determined by your federation)
-- Use: Self-service OR organization-managed workflow
-- Example: "Dancers can buy competition-specific licenses, or their school can apply for bundle licenses"
-
-**If you don't know which applies:** Ask your federation admin or school coach before doing anything.
+**If you don't know which applies to you:** open `Account → Licenses`, pick the federation, and
+see what the list offers. What you can apply for yourself is exactly what is shown.
 
 ## Before you start
 
-Gather this information:
+Answer these first. If you cannot, ask your federation or your coach before touching anything.
 
-| Question | Example Answer |
+| Question | Why it matters |
 |---|---|
-| **Which federation?** | "Northeast Dance Federation" |
-| **What license do I need?** | "U12 Annual Dancer License" |
-| **Which year/season?** | "2026 Season" |
-| **Is it annual or one-event?** | "Annual (covers whole season)" |
-| **Who applies — me or my school?** | "Organization-managed (my school applies)" |
-| **How much does it cost?** | "$65" or "Free" |
-| **Does my school need approval first?** | "Yes, federation approved our school" or "No" |
-
-If you can't answer any of these, contact your federation or coach first.
+| **Which federation?** | Licences belong to a federation, and you pick it first. |
+| **Which licence item?** | The federation defines the products ("licence items"); you apply for one of them. |
+| **Which season year?** | Most licences are per season. Officials' and music licences can be lifetime instead. |
+| **Season or single competition?** | A licence item covers either a **full season** or a **single competition**. |
+| **Do I apply, or my club?** | Each licence item is set to require an organization, allow one, or forbid one. That decides who can apply. |
+| **Is my date of birth on my account?** | Applying is blocked without it: "A date of birth is required before applying for a license." |
+| **Does the item need a federation ID?** | Some items require your external federation ID, verified beforehand. |
 
 ## Step-by-step: Get your license
 
-### Step 1: Identify the correct license item
+### Step 1: Find the licence item
 
-**If you're applying directly (self-service):**
+**If you apply yourself:**
 
-1. Sign in to Vote4Dance
-2. Click **Account** (or your name top-right) → **Licenses**
-3. You'll see a **+ Apply for License** button
-4. Click it
-5. Select your **Federation** from the dropdown
-   - Example: "Northeast Dance Federation"
-6. The page shows license items your federation offers
-   - Example items you might see:
-     - "U10-U12 Season License" — covers ages 10-12, whole year
-     - "U13-U15 Season License" — covers ages 13-15, whole year
-     - "Open Division Competition Fee" — one-event only, $25
-7. Pick the item that matches YOUR age/division
-   - Use your birth year to determine your age
-   - Example: "I'm 11 years old, so I pick U10-U12 Season License"
+1. Sign in and open `Account → Licenses`
+2. Under **Apply for a license**, select your **federation**
+3. The page lists the items you can apply for *yourself*. It shows only those: an item is left
+   out when the federation wants your club to apply, or when it needs a membership or an
+   approved issuer you do not have. If the list is empty you get "No licenses available for
+   self-application" — which is the answer, not an error.
+4. Pick the item that matches you
 
-**If your school applies (organization-managed):**
+**If your club applies for you:**
 
-1. Tell your school admin you need a license
-2. They'll sign in and go to their organization → **Licenses**
-3. They'll find and apply for your license
-4. The application might require your age/name for them to select the right item
-5. Skip to Step 3 (Payment) because they handle applying
+1. Tell your club they should apply
+2. They do it from the organization's **License Applications** page, picking you under **Member**
+3. Your date of birth must be on your account first, or you are shown as "No birthdate" and
+   they cannot apply for you
+4. Skip to *Waiting for approval* below — they handle applying and, usually, paying
 
-### Step 2: Set the details
+### Step 2: Fill in the application
 
-After picking the license item, you'll see a form with:
+| Field | What to do |
+|---|---|
+| **Federation** | The federation you are applying in. |
+| **License item** | The item you picked. |
+| **Season year** | The season. Left blank only for lifetime licences, which are for officials, music and DJs — not dancers. |
+| **Competition ID** | Only for an item scoped to a single competition. Leave blank for a season licence. |
+| **Organization** | Only when the item requires or allows it. Required items say so, and need an approved issuer membership. A club still awaiting approval shows "awaiting approval" and cannot be used yet. |
+| **Federation ID** | Only when the item requires your external federation ID. It must already be verified, and the date of birth on the federation's record must match your account. |
+| **Note** | Optional. |
 
-| Field | What to Do | Example |
-|---|---|---|
-| **Federation** | Pre-filled — verify it's correct | "Northeast Dance Federation" |
-| **License Item** | Pre-filled from your choice | "U12 Season License" |
-| **Season Year** | Select the year | "2026" |
-| **Competition ID** | Only fill IF the license is competition-specific; leave blank for season-wide | Leave blank for annual license |
-| **Organization** | Only if you belong to a school; select yours | "Lincoln High School Dance Team" |
-| **Notes** | Optional — add any special requests | "I transfer to this school mid-season" |
+Then press **Apply for license**.
 
-Click **Apply for License**.
+Full field-by-field detail, including what the page hides and why:
+[Dancer self-service](/federation-licenses/dancer-self-service/).
 
-### Step 3: Payment (if required)
+### Step 3: Pay, if you are the payer
 
-**If the license costs money:**
+Each licence has a **payer type**. If it is *self* and the payment status is *unpaid*, your row
+shows a **Pay** button, which takes you through Stripe checkout to the federation's own Stripe
+account. If the payer is your organization, there is no button for you — the club pays from its
+own page.
 
-1. After applying, you'll see a **Pay Now** button (if payment needed)
-2. Click it
-3. You'll go to Stripe checkout
-   - Enter your name and payment method (credit/debit card)
-   - Review the amount (example: $50)
-4. Click **Pay** in Stripe
-5. You'll return to Vote4Dance
-   - Payment success message should appear
-   - Your license status changes to "Paid" (but might still be Pending approval)
+Two things stop payment before it starts: a federation that has not connected Stripe ("This
+federation hasn't set up online payments yet"), and a licence that is not approved yet
+("Payment will be available once this license has been approved").
 
-**If the license is free:**
-- No payment step
-- Your license status changes immediately
+If your season fee already covers the item, the row says "Covered by your season fee for this
+license group" instead of asking for money.
 
-### Step 4: Wait for approval (if required)
+### Step 4: Wait for approval
 
-Your federation might require manual approval even after payment.
+A licence can sit waiting on any of **four checks**, and this is the part worth understanding,
+because it explains nearly every "why is my licence still not active":
 
-**Your license status could be:**
-- ✓ **Active** — You can register for events NOW
-- ⏳ **Pending** — Awaiting federation approval (takes 1-3 days typically)
-- ⏳ **Pending Approval** — Federation hasn't reviewed it yet
+| Check | What it means |
+|---|---|
+| **Club has approved this license** | A club-held application needs a manager or coach at the club to approve it. |
+| **Club approved by the federation** | If your club is itself still pending federation approval, no licence it holds can be issued. |
+| **Payment received** | Approval opens once payment lands. |
+| **Within the license window** | The licence's validity window must be open. |
 
-**To check status:**
+When all four pass, the federation sees "All four checks pass · ready to approve". The federation
+still has to approve it — that is a person, not a timer, so there is no fixed waiting time.
 
-1. Sign in to Vote4Dance
-2. Go to **Account** → **Licenses**
-3. Find your license in the list
-4. See the Status column
+### Step 5: Check the status
 
-If it stays Pending longer than expected, contact your federation.
+`Account → Licenses` lists your licences with their status and payment status. A licence is one
+of:
 
-### Step 5: Verify your license is active
+| Status | Meaning |
+|---|---|
+| **Draft** | Created but not submitted for approval. |
+| **Pending** | Submitted, waiting on one of the four checks or on the federation. |
+| **Active** | Valid. This is what lets you register and earn rankings. |
+| **Expired** | The validity window has passed — see [Renew license](/dancer/renew-license/). |
+| **Suspended** | Held by the federation. Contact them. |
+| **Cancelled** | Withdrawn or replaced. |
 
-Before registering for an event:
+Payment status is separate: a licence can be **paid** and still **pending**.
 
-1. Go to **Account** → **Licenses**
-2. Look for your license in the list, example row:
-   ```
-   Federation: Northeast Dance Federation
-   Item: U12 Season License
-   Season: 2026
-   Status: ACTIVE ✓
-   Expires: 12/31/2026
-   ```
-3. Status should say **ACTIVE**
-4. No "Pending" or "Expired" messages
+Do not apply twice because a licence is slow. If the application is wrong and unpaid, a pending
+one can be deleted ("Delete this license? You can apply again with the corrected ID") — only
+pending applications can be deleted.
 
-If still Pending after 3 days:
-- Contact your federation
-- OR try registering anyway (some events let you register if approved)
+## Who applies, in practice
 
-## Real-world examples
+The licence item decides this, through its **organization mode**:
 
-### Example 1: Self-service dancer license
-
-You're 12, dancing independently (not part of a school), your federation offers self-service licensing.
-
-**Your steps:**
-1. Sign in, go to Account → Licenses
-2. Click Apply for License
-3. Select Federation: "Northeast Dance Federation"
-4. Select Item: "U10-U15 Regional License"
-5. Set Season Year: "2026"
-6. Click Apply
-7. Click Pay Now → $60 → Stripe payment
-8. License shows "Paid, Pending Review"
-9. Next morning: Status changes to "Active"
-10. Now you can register for events
-
-### Example 2: Organization-managed school license
-
-You're part of Lincoln High School Dance Team. Your school already has a team license that covers members.
-
-**Your steps:**
-1. Tell your coach: "I need my license updated"
-2. Coach signs in, goes to organization, adds you if not already there
-3. Coach applies for team license ("High School Team License 2026")
-4. Your coach pays the full team fee ($500 for whole team)
-5. Your license automatically becomes "Active" once approved
-6. Ready to register (check your Licenses tab to confirm "Active")
-
-### Example 3: Mixed workflow
-
-Your federation allows dancers to buy individual competition fees ($25 each) OR join a school team license ($500 for unlimited members).
-
-**If you go solo self-service:**
-- You pay $25 per competition you enter
-- Each license is specific to one competition
-
-**If you join the school team:**
-- School pays once for unlimited members
-- All members get access to everything the school licensed
+| Organization mode | What it means for you |
+|---|---|
+| **Not allowed** | You apply yourself, with no club attached. |
+| **Optional** | Either route works; the federation's own rules say which it prefers. |
+| **Required** | The item needs a club, and an approved issuer membership. If the item also forbids self-application you are told "This license can't be applied for directly. Apply through your organization." |
 
 ## What to do if things go wrong
 
-### "I applied but the license is still Pending after 3 days"
+### "My licence is still Pending"
 
-1. Check your email — did federation send an approval/rejection?
-2. If approved but status doesn't update, refresh the page
-3. If nothing happened, contact your federation admin
+Work through the four checks above, in that order: is the club's own approval in, is the club
+approved by the federation, is the payment settled, is the validity window open. Whatever is
+outstanding is named on the licence itself. If all four pass, it is waiting on a person at the
+federation.
 
-### "I got a payment error but I'm not sure if it went through"
+### "I paid but it is still not active"
 
-1. Check your credit card statement (look for a charge from Vote4Dance / Stripe)
-2. Go to Account → Licenses — see if your license shows "Paid"?
-3. If charged but showing Unpaid, contact Vote4Dance support
-4. If not charged, try paying again
+Payment and approval are separate. A paid licence stays **Pending** until the federation
+approves it. Do not apply again; refresh, and if it stays paid-but-pending, contact the
+federation.
 
-### "I applied for the wrong license item"
+### "I applied for the wrong item"
 
-1. If status is "Pending": Contact your federation — ask them to cancel it
-2. Apply for the correct item
-3. If already "Active": Contact your federation to discuss options (might need to keep it, or might be correctable)
+If it is still **Pending** and unpaid, delete it and apply again. If it is **Active**, contact
+the federation — an active licence's organization can only be changed by cancelling and
+reissuing it.
 
-**Do NOT create multiple licenses for the same season** — this creates headaches later.
+### "The item I need is not in the list"
 
-### "The license item I need isn't showing up"
+The list only shows what you may apply for yourself. Check the federation is the right one,
+then whether the item expects your club to apply, and whether it needs a membership or an
+approved issuer you do not have. If in doubt, ask the club or the federation.
 
-1. Verify your federation is correct
-2. Verify your age/division — maybe you're in the wrong age group?
-3. You might not belong to an organization yet (if organization-managed licenses)
-4. Contact your federation — the item might be inactive
+### "It says my date of birth is missing"
+
+Add it in your account settings, then apply. A club applying on your behalf hits the same block.
+
+### "My federation ID will not verify"
+
+The ID must be verified before you apply, the date of birth on the federation's record must
+match your account, and a revoked membership cannot be used.
 
 ## When you're ready
 

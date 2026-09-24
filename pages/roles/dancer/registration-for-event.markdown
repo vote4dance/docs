@@ -33,12 +33,27 @@ Confirm these first:
 
 ## How it works
 
-1. Find the correct event and registration period.
-2. Choose the correct class or team context.
-3. Fill the required participant details.
-4. Confirm any required organization or license information.
-5. Submit the registration.
-6. Review the resulting status.
+1. Find the event and open its registration
+2. Pick the class you are entering, and your partner or team where the class needs one
+3. Fill in the required details
+4. Pay, if the period takes payment
+5. Check the status your registration lands on
+
+**The status you land on is the part worth understanding**, because it decides whether you are in:
+
+| Status | What it means |
+|---|---|
+| **Preliminary** | Registered, **not yet counted as a participant**. This is where you land when the organizer accepts manually, when payment is by invoice, or when a functionary entered you. |
+| **Approved** | Accepted. This is the only status the organizer's import uses — it is what makes you a participant. It is automatic when an online payment completes, or when the period accepts directly. |
+| **Cancelled** | Withdrawn by you, your club, or the organizer. |
+| **Rejected** | Declined by the organizer. |
+
+You are emailed when the registration is created and whenever the organizer changes the status, as
+long as they have the email option ticked. The **Approved** email carries your personal check-in QR
+code. See [Emails and the check-in QR code](/manager-guide/emails/).
+
+If you pay online and abandon the checkout, the registration is removed automatically, so nothing
+is left half-done.
 
 ## What the system may check
 
@@ -51,10 +66,15 @@ Confirm these first:
 
 ## Common blockers
 
-- Registration is already closed.
-- The dancer selected the wrong class.
-- A required license is missing or not active.
-- Team or partner information is incomplete.
+- **Registration is closed.** The period has its own dates, separate from the event being public.
+- **Your licence is not Active.** Pending and expired do not count; see [Getting a license](/dancer/getting-a-license/).
+- **You are in the wrong class.** Check your class after a season starts, because age moves and
+  promotions happen without you applying for them — see [Class transfer](/dancer/class-transfer/)
+  and [Age transfer](/dancer/age-transfer/).
+- **Your partner or team is incomplete.**
+- **Your club has not confirmed you.** On the day, a club that does not confirm its roster has its
+  teams **cancelled** when the organizer applies check-in, however far you travelled. Make sure
+  your club knows you are coming.
 
 ## What success looks like
 

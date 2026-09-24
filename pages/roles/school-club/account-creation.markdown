@@ -26,91 +26,86 @@ A school or club administrator (often a coach, director, or designated staff mem
 
 ## Where to go
 
-The school or club organization is created through Vote4Dance platform settings. Depending on your setup:
-
-- **If you're setting up as an independent school/studio**: You'll access organization settings after signing in
-- **If your federation has created your organization**: You'll look for it in your dashboard
+You need a personal Vote4Dance account first — the club is something your account owns, not a
+separate login. Then create the organization from your account, or, if your federation has
+already created it, ask to be added to it.
 
 ## Before you start
 
-Gather these details:
+- The club's official name, and a short tag in capitals (like `V4D` or `DSF`) used where space is tight
+- A contact email, phone and website for the club
+- Its address, city and country
+- A short **About** text
+- Who else should administer it — decide this now, not later
 
-- Official school or club name (example: "Lincoln High School Dance Team" or "Studio 2B")
-- What the organization represents (school team, independent studio, competition group, etc.)
-- Names of 2-3 people who should be administrators
-- Contact email for the organization (or use your personal email initially)
+## Step-by-step: Create the organization
 
-## Step-by-step: Create your organization
+### Step 1: Personal account first
 
-### Step 1: Personal account first (if you don't have one)
-
-1. Go to https://vote4dance.com
-2. You should already have a personal Vote4Dance account (or create one)
-   - This is separate from the organizational account
-   - Use your personal email
-   - See [Organizer account creation](/organizer/account-creation/) for details
-3. Sign in with that account
+Create or sign in to your own account — see
+[Dancer account creation](/dancer/account-creation/) for the form; it is the same one for
+everybody.
 
 ### Step 2: Create the organization
 
-**If you're part of a federation:**
+Fill in the organization's details:
 
-1. After signing in, look for a **Dashboard** or **My Organizations** page
-2. You might see your school/club already created by your federation admin
-   - If so, skip to Step 3
-   - If not, click **Request Organization** or contact your federation
+| Field | Notes |
+|---|---|
+| **Organization name** | The full name of the club. |
+| **Short letters** | A short capital tag, such as `V4D` or `DSF`. It shows in start lists and results where the full name will not fit. |
+| **About** | A short description. |
+| **Email**, **Phone**, **Website** | Contact details. |
+| **Address**, **City**, **Country** | Where the club is. |
+| **Member approval** | When on, "New users need to be approved before becoming members" — a manager approves each application instead of people joining freely. Leave it on unless you have a reason not to. |
+| **State** | `Draft` while you set it up, `Active` when it is real. `Retired` is for a club that has wound up. |
 
-**If you're running an independent group:**
+If your federation created the club for you, these fields are already filled in; ask a federation
+admin to add you to it rather than creating a second club with the same name.
 
-1. After signing in, click your name in top-right → **Settings** or **Dashboard**
-2. Look for **Create Organization** or **New School/Club**
-3. Enter:
-   - **Organization Name**: Example: "Lincoln High School Dance Team"
-   - **Type**: Choose "School" or "Independent Studio" etc.
-   - **Contact Email**: Organization email (or your email initially)
-4. Click **Create Organization**
+### Step 3: Give other people the right role
 
-### Step 3: Add other administrators
+**Do not be the only administrator.** Club access is a four-level ladder, and each level includes
+the one below it:
 
-**This is critical** — Do NOT be the only admin.
+| Role | What they can do |
+|---|---|
+| **Member** | Belongs to the club, with no administrative permissions. Represents the club and can be entered by its coaches; cannot register on the club's behalf or manage members. |
+| **Coach** | The day-to-day work: create and update the club's competitors, register them and pay for the club's registrations, see the member list, and move a competitor to another club for federation approval. |
+| **Manager** | Everything a coach can do, plus approving and rejecting membership applications, buying and managing the club's federation licences, and approving members' licence applications before the federation activates them. |
+| **Administrator** | Everything a manager can do, plus inviting members and setting the role of everyone below administrator, applying to federations and detaching from them, editing the club's details and embed key, and deleting the club. |
 
-1. Go to **Settings** for your organization
-2. Look for **Members** or **Users**
-3. Click **Add Admin** or **Invite Team Member**
-4. Enter email of another trusted person (coach, co-director, etc.)
-5. Set their role to **Administrator**
-6. They'll receive an email inviting them to join
-7. They should click the link and confirm
+Pick deliberately: a coach who registers dancers does not need Administrator, and the person who
+approves licences needs at least **Manager**. Give a second person Administrator so the club is
+never one forgotten password away from being stuck.
+
+Members waiting for approval show under **Members** as "Requires your action", with **Approve
+all** when a batch arrives at once.
 
 ### Step 4: Verify the setup
 
-Before moving forward:
+1. Have the second administrator sign in with their own account
+2. They should see the club, its **Members** list, and be able to edit its details
+3. Check the club's **State** is `Active` when you are done building it
 
-1. Sign out of your account
-2. Have the other admin sign in with their email
-3. They should be able to see the organization 
-4. They should be able to view members (should see you)
-5. They should be able to edit organization details
+If they see nothing, their role has not been set — go back to step 3.
 
-If the second admin can't see anything, they don't have permissions yet — go back to Step 3.
+## What to check on the club
 
-## Organization settings: What to check
+**Details**
+- ✓ Name and short letters are right; the tag is what appears in results
+- ✓ Contact details are current
+- ✓ State is `Active`
+- ✓ Member approval is set the way you want it
 
-After creating the organization, visit **Settings** and verify:
+**People**
+- ✓ At least two Administrators
+- ✓ Nobody who has left still holds a role
+- ✓ The person who handles licences is at least a Manager
 
-**Organization Profile:**
-- ✓ Official name is correct
-- ✓ Type is set correctly (School, Studio, Group, etc.)
-- ✓ Contact info is current
-
-**Administrators:**
-- ✓ At least 2 people have admin role
-- ✓ No former staff still listed as admins
-- ✓ Everyone has confirmed their access (they signed in and saw the org)
-
-**If connected to a federation:**
-- ✓ Federation name shows in organization details
-- ✓ Approval status is visible (Pending, Approved, etc.)
+**Federation, if you have one**
+- ✓ The federation shows on the club
+- ✓ The club's own approval status is visible — until the federation approves the club, no licence it holds can be issued. See [Joining a federation](/school-club/joining-a-federation/).
 
 ## Important: Organization vs Organizer accounts
 
@@ -126,52 +121,34 @@ After creating the organization, visit **Settings** and verify:
 
 If you're running a competition as well as managing a school team, you might have both accounts.
 
-## If your organization was created by your federation
+## If your club was created by your federation
 
-Your federation admin may have already created your organization.
+Federations often create their clubs themselves. In that case do not create a second one with the
+same name — duplicates split the club's dancers, results and licences.
 
-**You should:**
-
-1. Go to your dashboard after signing in
-2. Look for your organization listed under "My Organizations"
-3. Click on it
-4. Go to **Settings**
-5. Add a second administrator (you)
-6. Confirm you have access to change things
-
-If you don't see your organization, contact your federation — they should have sent an invitation email.
+1. Sign in and look for the club on your account
+2. If it is not there, ask a federation admin to add you to it, with the **Administrator** role
+3. Once you are in, add a second administrator
 
 ## Common issues
 
-### "I created a personal account, but I don't see an organization option"
+### "I do not see the club"
 
-Your federation may handle organization creation automatically. Check your email for an invitation to join an organization.
+Either nobody has added you to it yet, or it was never created. Ask your federation which of the
+two it is before creating one, so you do not end up with a duplicate.
 
-If nothing arrived:
-- Ask your federation admin to create your organization
-- Or create a personal organization if you're running independently
+### "The person I gave a role to cannot do what they need"
 
-### "I'm trying to add an admin but they don't receive the email"
+Check the ladder above: registering dancers needs **Coach**, approving members and licences needs
+**Manager**, changing the club or its federations needs **Administrator**. An Administrator can
+set the role of everyone below Administrator.
 
-1. Check their spam/junk folder
-2. Verify their email address was spelled correctly
-3. Ask them to wait 5-10 minutes
-4. If still nothing, try re-sending the invitation from the Members page
+### "Someone applied to join and nothing happened"
 
-### "I can see the organization but can't edit it"
+With **Member approval** on, applications wait for a Manager. They appear under **Members** as
+"Requires your action", and **Approve all** handles a batch.
 
-You probably have View-only access.
+## Next step
 
-**Ask the organization owner to:**
-1. Go to **Settings** → **Members**
-2. Find your name
-3. Change your role from "Viewer" to "Administrator" or "Manager"
-
-## What success looks like
-
-- ✓ Your organization appears in your dashboard
-- ✓ At least 2 people can sign in and manage it
-- ✓ Organization name and type are correct
-- ✓ If connected to a federation, that shows in settings
-- ✓ Both admins can see each other in the Members list
-- ✓ Both admins can edit organization details
+Continue to [Joining a federation](/school-club/joining-a-federation/), then
+[Getting a license](/school-club/getting-a-license/) for your members.
