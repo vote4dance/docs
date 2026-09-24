@@ -57,16 +57,16 @@ This is the minimum. Everything else is optional polish.
 | 1 | Event (name, dates, location, description) | `Manager → Events → Create event` | Holds everything else. See [Event setup](/manager-guide/event-setup/). |
 | 2 | How you start, and the event mode | Event creation | The first question is **How do you want to start?** — `Training competition with default settings` ("Best for your first event") or `Competition for a specific federation`. Further in, **Event mode** is `Practice event` or `Live competition`; live competitions enable reusable competition profiles and billing. Both shape everything after them. |
 | 3 | Event image | `Manager → Event → Overview` | The event **cannot be made public without it**. 1600 × 900 JPG/PNG, not HEIC. See [Event image](/manager-guide/event-image/). |
-| 4 | Floors | `Manager → Event → Floors` | Every round runs on a floor. One floor is enough for most competitions. |
-| 5 | Competition and classes | `Manager → Competition → Classes` | What dancers register into. See [Competition setup](/manager-guide/competition-setup/). |
-| 6 | Rounds per class | `Manager → Competition → Rounds` | What you actually run on the day. Use the Round Guide to generate them. |
-| 7 | Schedule blocks | `Manager → Event → Schedule` | Gives rounds a time and an order, and feeds the public schedule, the speaker and the screens. |
+| 4 | Floor | `Manager → Event → Floor` | Every round runs on a floor. A new event already has a **Main floor**, which is enough for most competitions. |
+| 5 | Competition and classes | `Manager → Event → Competitions`, then `Competition → Classes` | What dancers register into. Each class maps to a Federation Class, which carries its age and level rules. See [Competition setup](/manager-guide/competition-setup/). |
+| 6 | Rounds per class | Inside each class, under `Manager → Competition → Classes` | What you actually run on the day. Use the **Round guide** to generate them rather than building each one by hand. |
+| 7 | Schedule | `Manager → Event → Schedule` | Each round sits on a schedule item, which gives it a time and an order and feeds the public schedule, the speaker and the screens. A dated day header is also what the dressing-room and admission-per-day features need. |
 | 8 | Judges and panels | `Manager → Competition → Judges` | Without a panel, **Start judging** is refused: "Assign a judging panel to this class or round before starting judging." |
 | 9 | Judge invitations | `Manager → Competition → Judges` | Judges are invited by email and show as `Not invited`, `Invited` or `Active`. Each judge sets their own PIN on their own device the first time they open the Judging app — there is no event-wide code for you to hand out, and you can reset a forgotten PIN from the judge's row. |
 | 10 | Registration period | `Manager → Competition → Registration → Registration period` | Without an open period nobody can register. See [Registration and check-in](/manager-guide/registration-checkin/). |
 | 11 | Users and stations | `Manager → Event → Users` and `→ Stations` | Each functionary gets exactly the apps they need; shared devices join as stations. See [Users, apps and stations](/manager-guide/users-and-stations/). |
 | 12 | Screens | `Manager → Event → Screens` | One screen per projector or TV, each with a label, a floor and what it shows. One device drives one screen, so count your displays. See [Screens, projectors and venue technology](/manager-guide/screens/). |
-| 13 | Event status and visibility | `Manager → Event → Overview` | Nothing is public until you set it. |
+| 13 | Event status | `Manager → Event → Overview` | An event starts **Hidden**. **Publish competition** makes it public — which needs the event image, and billing information for a live competition. See [Event setup](/manager-guide/event-setup/). |
 
 Before the day, open **Problems** in Manager and resolve everything it flags. Problems runs a
 set of automatic tests over your setup — start-number and license conflicts, rounds without

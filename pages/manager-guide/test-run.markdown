@@ -50,7 +50,7 @@ The new event already contains a **Main floor**, one screen, default cafe produc
 schedule for the day with **Doors open** and **Competition start**. Classes, rounds and
 judges you add yourself — which is part of what you are rehearsing.
 
-**For test dancers, use Generate random competitors.** On `Manager → Competition → Teams`
+**For test dancers, use Generate random competitors.** On `Manager → Competition → Participants`
 there is a **Generate random competitors** action that exists only for practice events. That
 is how you fill a round with enough entries to see real heats, lineups and results.
 
@@ -64,7 +64,7 @@ the venue's technician in advance so nobody thinks something is broken.
 
 **Alternative:** you can also rehearse one round inside your real event with random test
 teams, then clear them. That proves your real classes, panels and printouts. Do it only
-before real registrations are imported, and use `Manager → Competition → Data` carefully —
+before real registrations are imported, and use `Competition → Registration → Data transfer` carefully —
 reset and delete are destructive.
 
 ## Step 2: Desk rehearsal (45–60 minutes, at home)
@@ -140,7 +140,7 @@ If the network fails here, stop and solve it with the venue. Nothing downstream 
 ### B. Projector (20–30 min)
 
 1. Connect your display computer to the venue's input and get a picture.
-2. Set the output to 1920 × 1080.
+2. Set the output to a 16:9 resolution — 1920 × 1080 is a safe choice for a modern projector.
 3. Join the device to the **Screens** station (scan the QR code) and press **Show** on the
    card for this screen. The floor and what it shows come from `Manager → Event → Screens`.
 4. Go fullscreen, and use the **browser zoom hotkey (Ctrl +/-)** to fit the picture — nothing
