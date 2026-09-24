@@ -51,6 +51,18 @@ A station is a **device**, not a person. Use it for tablets and screens that sta
 - **Revoke** disconnects the device; it can no longer be used until it joins a station again. Stations can also be given an expiry.
 - The Stations page shows which devices are connected, and their battery level.
 
+### Turning a signed-in device into a station
+
+Often the screen laptop or check-in tablet is already signed in as a Manager, because that is how you set things up. You don't need to sign out first:
+
+1. Create the station under `Manager → Event → Stations` if you haven't already.
+2. On that device, open the event page and tap the **Stations** tile. Only Managers see it.
+3. Choose **Activate** next to the station.
+
+The device signs out of your personal account and opens the station's app, straight into the event. Your Manager login is not left behind on the shared device.
+
+The device stays a station through restarts and new tabs. It stops being one when someone chooses **Leave station** in the app's menu, or when you revoke the station. On a revoked station the device goes back to the join screen within about 20 seconds.
+
 Rule of thumb: people get users, devices get stations.
 
 ## Related pages
