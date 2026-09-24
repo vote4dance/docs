@@ -24,13 +24,13 @@ You create this personal Vote4Dance account yourself, then:
 
 Navigate to **https://vote4dance.com**
 
-Sign up at the homepage, then go to your account settings to access Manager.
+Create an account at the homepage. Manager access is then given to you per event, by whoever owns that event.
 
 ## Before you start
 
 Gather these details:
 
-- Your full name (as it should appear in audit logs)
+- Your first and last name
 - Your email address
 - The name/details of your organization (if creating one) OR the name of the existing organization you're part of
 - Names of 1-2 other trusted people who should share admin access
@@ -39,49 +39,55 @@ Gather these details:
 
 ### Part 1: Create your personal Vote4Dance account
 
-1. Go to https://vote4dance.com
-2. Click **Sign Up** button (top-right)
-3. Enter:
-   - **Email**: Your permanent email (example: `organizer@example.com`)
-   - **Password**: At least 8 characters with letters and numbers
-   - **Full Name**: Your name as you want it logged (example: `Jamie Smith`)
-4. Click **Create Account**
-5. Verify your email (click link in inbox)
+1. Go to https://vote4dance.com and choose **Create account**
+2. Fill in the form:
 
-### Part 2: Access Manager
+| Field | Notes |
+|---|---|
+| **First name** | Letters, spaces, hyphens and apostrophes only. |
+| **Last name** | Same. Use the name your federation and organizers know you by, not a nickname — this is how you are found in entry lists. |
+| **Email** | Your own permanent address. This is your sign-in name, and where registration confirmations and the check-in QR code go. |
+| **Country** | Required. |
+| **Password** and **Confirm password** | The two must match. |
+| **I accept the Terms of Service and Privacy Policy** | Required. |
 
-After signing in, you'll see a dashboard.
+3. Complete the captcha if you are asked for one
+4. Submit
 
-**If you're the FIRST organizer:**
+You are **signed in immediately** — there is no confirmation email to wait for and no link to
+click. If the email is already taken, Vote4Dance says "Email already exists"; use
+**Forgot your password?** on the sign-in page rather than creating a second account.
 
-1. Click your name in top-right → **Settings**
-2. Look for **Organizations** or **My Events** section
-3. Click **Create Organization** or **Create Event**
-4. You'll see a form:
-   - Organization Name (example: `Northeast Dance Championship`)
-   - Your role will automatically be **Admin** (you're the creator)
-5. Now go to **Manager** (you should see it in the menu)
+There is no birth year, club or licence on this form. Those come later, on your profile and
+through your federation.
 
-**If organizers ALREADY EXIST:**
+### Part 2: Get access to an event
 
-1. Ask an existing administrator to:
-   - Go to Manager → **Settings** → **Users**
-   - Click **Add Organizer**
-   - Enter your email address
-   - Set your role to **Manager** or **Administrator**
-2. You'll receive an email inviting you to the organization
-3. Click the link in that email
-4. Now you can access Manager
+Manager access is not a global role you apply for once. **It is given per event**, by someone
+who already has Manager on that event.
 
-### Part 3: Verify you have Manager access
+**If you are creating the event yourself:** create it from Manager and you are its first
+Manager. The last Manager on a competition cannot be removed, so an event always has an owner.
+
+**If someone else owns the event:** ask them to add you. They go to `Manager → Event → Users`,
+use **Search user by name or email** to find your account, and tick the apps you need — for an
+organizer that is **Manager**. They can also give you a free-text role title such as
+"Chairperson"; the title is only a label, access follows the ticked apps.
+
+Two things worth knowing:
+
+- Access is **per app**, not one level: Manager, Supervisor, Speaker, Screens, Lineup,
+  Check-in, Cafe and Organizer (the Shop) are ticked individually. Having Manager does not open
+  the others. See [Users, apps and stations](/manager-guide/users-and-stations/).
+- For a shared device that nobody signs into personally — a check-in tablet, the cafe till, a
+  hall screen — the answer is a **station**, not a user account. Manager says so on the Users
+  page itself.
+
+### Part 3: Verify you have access
 
 1. Sign in with your email and password
-2. Look for a **Manager** button or link (typically top navigation or sidebar)
-3. Click it
-4. You should see:
-   - A list of events (may be empty if new)
-   - An **Overview** page with event configuration options
-   - NOT read-only warnings or error messages
+2. Open the event; you should see one tile per app you have been given
+3. Open **Manager** and confirm you can reach the event's setup pages
 
 If you don't see Manager or get "Permission Denied":
 - You might not have been added to the organization yet (ask your admin)
@@ -93,31 +99,30 @@ If you don't see Manager or get "Permission Denied":
 
 **Best practice:**
 
-1. Choose one other trusted person (co-organizer, event director, etc.)
-2. Go to Manager → **Settings** → **Users**
-3. Add them as **Administrator**
-4. Confirm they can sign in and see Manager
+1. Choose one other trusted person (co-organizer, event director, chief scrutineer)
+2. Go to `Manager → Event → Users` and search for their account
+3. Tick **Manager** for them
+4. Confirm they can sign in and open the event
+
+The last Manager on a competition cannot be removed, so you cannot accidentally lock everyone
+out — but one person who is ill on the day is still a single point of failure.
 
 ## Troubleshooting
 
 ### "I created an account but don't see Manager"
 
-**Most common cause:** You haven't been added to an organization, or the organization hasn't given you organizer permissions.
+**Most common cause:** nobody has given your account access to an event yet. Access is per
+event and per app.
 
 **Fix:**
-1. Confirm an organization exists (ask your event host)
-2. Ask the organization admin to add you
-3. Check your email for an invitation
-4. Or contact Vote4Dance support if you should have access
+1. Ask whoever owns the event to open `Manager → Event → Users`
+2. They search for you by name or email and tick **Manager**
+3. Sign out and back in, then open the event
 
-### "I can see Manager but only in read-only mode"
+### "I can see the event but not the app I need"
 
-**Cause:** You have View permissions instead of Edit permissions.
-
-**Fix:**
-1. Ask your admin to go to Manager → **Settings** → **Users**
-2. Find your name
-3. Change your role from "Support" or "Viewer" to "Manager" or "Administrator"
+Apps are ticked one by one. Somebody with Manager does not automatically have Speaker, Screens,
+Lineup, Check-in, Cafe or Organizer. Ask for the app you actually need to be ticked as well.
 
 ### "I forgot my password"
 

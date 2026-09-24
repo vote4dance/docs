@@ -166,6 +166,18 @@ Once anybody has been marked arrived at the desk, the registrations list gains a
 4. Apply check-in once submissions are complete
 5. Unapply only if corrections are required
 
+**What applying does, and why the timing matters:** teams the club has **not** confirmed are
+**cancelled** when check-ins are applied. Do not apply while clubs are still working, and chase
+the clubs that have not signed before you do — otherwise you cancel dancers who are standing in
+the hall. Dancers marked **Arrived** at the desk are not protected by it either; arrival and
+club check-in are different things.
+
+### Dancer admission
+
+Whether a registration also lets a dancer *through the door* is a separate setting — every day
+of the event, only on the days they dance, or only with a ticket. It lives on the Shop page and
+is explained on [At the door](/manager-guide/the-door/).
+
 ## Registration and check-in done checklist
 
 1. Registration periods and rules are published correctly
