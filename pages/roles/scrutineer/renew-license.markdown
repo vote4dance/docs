@@ -10,14 +10,18 @@ nav_order: 9
 
 Renewal keeps the scrutineer eligible for future event assignments.
 
-## There is no renew button
+## First: does this apply to you at all?
+
+Officials' licences are often **lifetime** — issued with no season, so they never expire and there
+is nothing to renew. The federation's own guidance on the field says it: "Leave blank for a
+lifetime license (officials, music, DJ, etc.)". Check yours in `Account → Licenses` before you
+plan a rollover you may not need.
+
+## If yours is a season licence: there is no renew button
 
 A licence is not renewed in place — **you apply again for the new season**. The old one stays in
 history and turns **Expired** when its validity window closes; the new one is a fresh application
 that goes through the same route and the same four checks as the first.
-
-The product says as much where it matters: a dancer blocked at registration is told "A required
-federation license has expired or is for a different season — renew it for this season."
 
 Two consequences worth planning around:
 
@@ -32,10 +36,14 @@ This step explains how scrutineers avoid gaps in official status when a season c
 
 ## How it works
 
-1. Check the expiration of your current status.
-2. Apply through the correct path.
-3. Complete payment or approval if required.
-4. Confirm that the renewed status is active before accepting new assignments.
+1. Check what you hold now, and whether it has a season at all
+2. Apply for the new season's item, by whichever route your federation uses — yourself, your club,
+   or the federation issuing it directly
+3. Pay if it is priced
+4. Confirm it reads **Active** before you accept assignments for the new season
+
+Your *event access* is separate and does not renew: an organizer ticks **Supervisor** for you per
+event, every time. See [Event assignment](/scrutineer/registration-for-event/).
 
 ## What success looks like
 

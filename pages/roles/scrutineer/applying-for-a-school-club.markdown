@@ -16,10 +16,17 @@ This step connects the scrutineer to the organization context used for support, 
 
 ## How it works
 
-1. Request access to the correct organization.
-2. Wait for approval where needed.
-3. Confirm that the organization relationship appears in the account.
-4. Use the right context in later workflows.
+1. Apply to the club. If it has **Member approval** switched on, a manager or coach there approves
+   you; otherwise you are in immediately.
+2. You will be a **Member** unless somebody gives you more. That is usually right: Member is what
+   you need to be represented and to hold a club-linked licence, and nothing about scrutineering
+   requires club admin rights.
+3. Check the club shows on your account before anyone relies on it for a licence
+
+**A club is not how you get event access.** Those are separate: club membership is about
+representation and licences, while working an event means being added under
+`Manager → Event → Users` with **Supervisor** ticked. Plenty of scrutineers belong to no club at
+all.
 
 ## What success looks like
 
