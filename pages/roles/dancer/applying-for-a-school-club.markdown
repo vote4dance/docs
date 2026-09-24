@@ -30,11 +30,19 @@ Make sure you know:
 
 ## How it works
 
-1. Find the correct school or club.
-2. Request membership or accept an invitation.
-3. Wait for approval if the organization uses approval.
-4. Confirm the organization appears in your account context.
-5. Use that organization in later licensing or registration flows when needed.
+1. Find the club and apply to join it
+2. If the club has **Member approval** switched on, a manager or coach there has to approve you.
+   Your application shows on their members list as "Requires your action"; they can approve people
+   one at a time or use **Approve all**. With the setting off, you are a member straight away.
+3. You join as a **Member** — the bottom of the club's four-level ladder. That is the right level
+   for a dancer: you represent the club and its coaches can enter you, but you cannot register on
+   the club's behalf or manage its members. Only ask for **Coach** or above if you actually do
+   that work.
+4. Check the club appears on your account before anyone tries to use it for a licence or an entry
+
+Your club also matters *inside* a class: the club that represents you there is recorded separately,
+and moving it is a transfer the receiving club starts and the federation approves — not something
+that happens automatically when you change club membership.
 
 ## Why it matters
 
@@ -47,9 +55,13 @@ Some federations require organization context for:
 
 ## Common blockers
 
-- The dancer joins the wrong club.
-- The request stays pending because no admin reviewed it.
-- The dancer expects club access to replace federation approval automatically.
+- **Nobody approved the application.** It sits on the club's members list until a manager or coach
+  looks. Nudge them; there is no reminder.
+- **Wrong club.** Fix it before anyone creates a licence or a registration naming it — an active
+  licence's club cannot be edited afterwards, only cancelled and reissued.
+- **The club is not approved by its federation**, so licences naming it cannot be issued. Club
+  membership does not substitute for that. See [Federation status](/dancer/federation-status/).
+- **No date of birth on your account.** The club cannot apply for a licence for you without it.
 
 ## What success looks like
 

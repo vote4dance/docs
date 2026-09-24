@@ -19,103 +19,75 @@ You are obtaining and verifying federation recognition for your school/club.
 - federation application and prerequisites: [Organization admin](/federation-licenses/organization-admin/)
 - federation licensing model reference: [Federation Licenses](/federation-licenses/)
 
-## Before you start
+## What the flow actually is
 
-Collect:
+It is three clicks and a wait, not a paperwork exchange. Any documents or fees your federation
+wants are arranged outside Vote4Dance; the product only carries the link and its approval state.
 
-- organization legal/official name
-- admin contact details
-- requested participation scope (which events/divisions)
-- any federation-required documentation
+1. Open the club's **federation** page and **browse federations**
+2. Select yours and press **Apply**
+3. The federation shows as **Pending** until a federation manager approves it, then **Approved**
 
-## Step-by-step
+**A club belongs to one federation at a time.** Applying to a second is refused — "The club
+already belongs to a federation" — so detach from the first if you are genuinely moving. A club
+attached to a federation also cannot be deleted until it is detached.
 
-### Step 1: Submit federation application
+You can cancel your own application, or detach later, from the same page.
 
-Apply using federation's required path and include full organization details.
+## Why the approval matters so much
 
-Ensure application states:
+Until the federation approves the club, **no licence naming that club can be issued**. The
+federation sees the block on its own side too: "*club* is still pending federation approval, so no
+license it holds can be issued." So a club that applies late blocks every one of its dancers,
+however early those dancers applied for their licences.
 
-- organization identity
-- season/year
-- admin contacts
-- intended participation
+## Issuing is a separate permission
 
-### Step 2: Complete federation verification requirements
+Approval and licence issuing are two different things. A federation can approve your club and
+still leave it unable to issue: "This organization is linked to the federation but cannot issue
+licenses." **Allow license issuing** is a separate switch on the federation's side, and it is what
+licence items with organization mode `Required` need.
 
-Provide requested documents quickly (if required):
+If your club is approved but licence applications still will not go through, this is usually why —
+ask the federation for the issuer role rather than re-applying.
 
-- organization verification
-- responsible admin identity
-- policy acknowledgements
+## After approval, check
 
-Delays here are the most common reason approvals slip.
+1. The federation shows on the club with an **Approved** tag
+2. `Organization → License Applications` offers that federation
+3. If you need to apply for members on items that require a club, that the federation has also
+   given you **licence issuing**
 
-### Step 3: Track approval status
+## Verify it with one real application
 
-Monitor status until one of:
-
-- Approved
-- Needs more information
-- Rejected with reason
-
-If stalled, follow up with federation and include application ID.
-
-### Step 4: Confirm post-approval permissions
-
-After approval, verify in system:
-
-1. federation appears in organization context
-2. organization-managed license actions are available
-3. members can be processed under federation rules
-
-### Step 5: Run one operational verification
-
-Test one real federation-dependent operation:
-
-- submit one license application for a member
-- confirm status can move through approval workflow
-
-If test fails, resolve before opening broader member operations.
+Before you open the floodgates, apply for **one** member's licence and watch it move. That proves
+the club link, the issuer role and the item settings in one go. See
+[Getting a license](/school-club/getting-a-license/).
 
 ## Common blockers and fixes
 
-### "Application remains pending too long"
+### "We have been Pending for a long time"
 
-Fix:
+There is nothing to upload and no application ID — the federation simply has not pressed approve
+yet. Contact them directly. Meanwhile nobody's licences can be issued, so it is worth chasing.
 
-1. send federation a status follow-up with application ID
-2. confirm no missing documents
-3. assign one admin owner for follow-up
+### "We are Approved but licence applications still will not go through"
 
-### "Approved but workflows still blocked"
+Almost always the **issuer role**: approval and "Allow license issuing" are separate. Ask the
+federation to enable issuing. Failing that, check the licence item's **organization mode** — an
+item set to `Not allowed` cannot carry a club at all.
 
-Fix:
+### "A member cannot be selected when we apply for them"
 
-1. re-check organization-federation link in settings
-2. verify correct season context
-3. ask federation to confirm permissions were provisioned
-
-### "Members still cannot use federation-dependent workflows"
-
-Fix:
-
-1. verify members are linked to your organization
-2. verify required license model path
-3. run one known-good test case and compare
+They are either not a member of the club yet, or they have no **date of birth** on their account —
+the form blocks on that and shows "No birthdate". They have to add it themselves in account
+settings.
 
 ## What success looks like
 
-Your school/club is fully recognized by the federation, and federation-managed licensing and eligibility workflows work without manual workaround.
-
-## What changes after approval
-
-After approval, these become reliable:
-
-- organization-managed licenses
-- federation eligibility checks
-- member workflows tied to club federation status
+The club shows **Approved** on its federation, licence applications for members reach the
+federation's queue, and nothing is blocked on the club itself.
 
 ## Next step
 
-Continue to [Registration for event](/school-club/registration-for-event/).
+Continue to [Getting a license](/school-club/getting-a-license/) for your members.

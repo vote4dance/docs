@@ -10,6 +10,24 @@ nav_order: 3
 
 At organization level, this step means making your school/club profile clear, searchable, and ready for members to join without confusion.
 
+## The mechanics on your side
+
+**Member approval** is a switch on the club: "New users need to be approved before becoming
+members". With it on, applications queue on the members list as **Requires your action**, and you
+approve them one by one or with **Approve all**. With it off, anybody who applies is in.
+
+Approving takes at least the **Manager** role. What you give people afterwards matters more than
+the approval itself:
+
+| Role | Give it to |
+|---|---|
+| **Member** | Dancers. They represent the club and coaches can enter them; they cannot register on the club's behalf or manage members. |
+| **Coach** | Whoever creates competitors, registers them and pays for the club's registrations. |
+| **Manager** | Whoever approves memberships and handles the club's federation licences. |
+| **Administrator** | Whoever runs the club: invites people, sets roles below administrator, applies to federations, edits or deletes the club. |
+
+A dancer left on **Member** is correct, not a mistake to fix.
+
 ## What this step is for
 
 You are preparing your organization identity so dancers, coaches, and admins can join the correct school/club and use it in licensing and event workflows.

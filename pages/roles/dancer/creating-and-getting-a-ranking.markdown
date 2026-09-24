@@ -26,11 +26,19 @@ The dancer's practical job is to make sure the right event, class, license, and 
 
 ## How it works
 
-1. Register for eligible events.
-2. Compete in the correct class and federation context.
-3. Make sure the result is recorded correctly.
-4. Wait for the federation ranking workflow to process the event.
-5. Review the public ranking when published.
+1. Register and compete in the right class, under the right federation
+2. The organizer publishes the round's results
+3. **The organizer closes the competition** — this is the moment the federation side runs:
+   couples are resolved from person numbers, class memberships are registered for everyone who
+   earned points, points are computed and promotions applied
+4. The ranking shows it once the federation's ranking workflow has processed the event
+
+So the gap between "I danced" and "I am in the ranking" is usually step 3 or 4, not a mistake on
+your part. Points are recorded against the couple resolved from the **person numbers** on the
+entry, which is why a typo there can leave your result attached to a phantom second couple.
+
+See [Promotion points](/federation/progression/) for the mechanism, and
+[Public rankings](/federation-rankings/public/) for what is visible.
 
 ## What affects ranking inclusion
 

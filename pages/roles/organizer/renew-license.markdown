@@ -10,6 +10,22 @@ nav_order: 9
 
 Renewal is the season transition control point. Do this early so next-season event setup is never blocked by expired organizer permissions.
 
+## There is no renew button
+
+A licence is not renewed in place — **you apply again for the new season**. The old one stays in
+history and turns **Expired** when its validity window closes; the new one is a fresh application
+that goes through the same route and the same four checks as the first.
+
+The product says as much where it matters: a dancer blocked at registration is told "A required
+federation license has expired or is for a different season — renew it for this season."
+
+Two consequences worth planning around:
+
+- **Nothing carries over.** Approval from last season does not shorten this season's approval, and
+  a club approval or a payment is needed again.
+- **The season year is the thing to get right.** A licence for the wrong season is as useless as an
+  expired one, and it is the most common mistake in a rollover.
+
 ## What this step is for
 
 You will renew organizer-related licensing and confirm uninterrupted access for the upcoming season.
@@ -102,7 +118,7 @@ Fix:
 Fix:
 
 1. confirm if manual approval is required
-2. send application ID to federation admin
+2. tell the federation which licence it is — the dancer, the item and the season identify it
 3. avoid duplicate renewal applications
 
 ### "Last season settings did not carry over"

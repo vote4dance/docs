@@ -43,13 +43,12 @@ Coordinate with federation admins if ranking sync/export is required.
 
 ### Step 1: Verify classes that are ranking-eligible
 
-Create a final list of classes that should feed ranking.
+Create a final list of classes that should feed ranking. For each class, confirm:
 
-For each class, confirm:
-
-- class code is correct
-- federation mapping is correct
-- class status is active
+- The **Federation Class** it maps to is the right one — that mapping is what carries the age and
+  level rules, and what the federation counts by
+- The class title and short letter are right
+- **Problems** has nothing to say about it
 
 ### Step 2: Validate round outcomes before publish
 
@@ -80,22 +79,29 @@ When integrity checks pass:
 
 If your federation requires a review hold, submit for review instead of direct publish.
 
-### Step 5: Handoff to federation ranking workflow
+### Step 5: Close the competition
 
-Provide federation with:
+**Closing is what runs the federation side.** For a federation-linked competition, ending the
+competition resolves couples from their person numbers, registers class memberships for everyone
+who earned points, computes the points and applies promotions at the class threshold. Nothing
+reaches rankings and progression until you do it.
 
-- event ID and season
-- published class list
-- known exceptions/corrections
-- contact for follow-up questions
+Two data-quality points follow from that, and they are worth checking *before* you close:
 
-### Step 6: Post-publish support window
+- **Person numbers.** A typo creates a phantom second couple with a split points balance.
+- **Club tags.** A typo creates a duplicate club, which is then approved into the federation with
+  placeholder details for somebody to clean up.
 
-For 24-72 hours after publish:
+If results are imported or corrected after the close, set the competition to **Closed** again —
+processing is safe to repeat.
 
-1. monitor federation questions
-2. respond quickly with evidence (audit trail, screenshots, IDs)
-3. apply only approved corrections
+See [Promotion points](/federation/progression/) for exactly what happens at close.
+
+### Step 6: Corrections after the fact
+
+Manual point corrections are edited on the entry in Manager **after** the competition is closed;
+a re-confirmed result overwrites a manual value, so the order matters. Anything that changes class
+membership or a couple's balance belongs to the federation.
 
 ## Pre-close checklist
 

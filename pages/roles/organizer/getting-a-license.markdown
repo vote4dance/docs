@@ -112,7 +112,7 @@ Cause: manual federation approval required.
 Fix:
 
 1. Check expected SLA with federation
-2. Send application ID to federation admin
+2. Tell the federation which licence it is — the dancer, the item and the season identify it; there is no application number
 3. Do not create duplicate applications
 
 ### "I cannot find organizer license item"

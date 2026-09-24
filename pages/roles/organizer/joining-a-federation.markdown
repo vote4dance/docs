@@ -24,13 +24,16 @@ Confirm these prerequisites:
 
 ## Where to go
 
-1. Open **Manager**
-2. Open your event
-3. Go to **Overview** or **Federation settings** in event setup
+The federation is chosen **when the event is created**, as the first question in the wizard:
+`Training competition with default settings` (no federation) or `Competition for a specific
+federation`, and then which one. See [Event setup](/manager-guide/event-setup/).
 
-You may also need to check with federation admin tools:
+It is not a per-event switch you flip later on a whim — it decides which classes, licence checks
+and rules apply to everything you build afterwards, so get it right at creation. You can see and
+change it on the event's details page, but changing it after classes and registrations exist is
+not a small act.
 
-- [Federation admin](/federation-licenses/federation-admin/)
+Related: [Federation admin](/federation-licenses/federation-admin/) for the federation's own side.
 
 ## Step-by-step
 
