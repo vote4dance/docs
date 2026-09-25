@@ -10,9 +10,7 @@ nav_order: 2
 
 This page explains how to configure federation class rules so that the **Round Guide** automatically generates the correct round skeleton — placing round, battle layers, B‑final — for each competitor count in a 1v1 battle discipline.
 
-New to class rules? Read [How class rules work](/federation-rules/reference/) first — this page builds on its ladder, stage and exception thinking.
-
-> **Rule syntax:** conditions, actions and every setting used below are listed in the [How class rules work](/federation-rules/reference/).
+New to class rules? Read [How class rules work](/federation-rules/reference/) first — this page builds on its ladder, stage and exception thinking, and its reference lists every condition, action and setting used below.
 
 > **Competition operators:** see [Battle bracket setup](/battle-bracket/) for how to seed and run battles once the skeleton exists.
 
@@ -92,7 +90,7 @@ By default the Placing round uses select judging and the Final uses placement ju
 
 ### B‑final
 
-Not every federation decides third place by battle, so the B‑final is a decision, not a default: it is **not** auto-generated. Add an explicit `add` rule on the semifinal position:
+Whether third place is decided by battle is a rulebook choice, so the B‑final is a decision, not a default: it is **not** auto-generated. Add an explicit `add` rule on the semifinal position:
 
 | Condition | Action | Changes |
 |---|---|---|
@@ -102,7 +100,7 @@ This keeps B‑final optional and lets you control which classes have one.
 
 ### Crosses / trio mode for count 6
 
-Six doesn't make a bracket. Two trios do: each heat's winner advances, which gives exactly the two finalists. Whether six dance pairs or trios is a rulebook choice, so it is a count rule — the one place a count condition is the right tool.
+Six doesn't split evenly into a bracket of pairs. Two trios do: each heat's winner advances, which gives exactly the two finalists. Whether six dance pairs or trios is a rulebook choice, so it is a count rule — the one place a count condition is the right tool.
 
 By default, count 6 produces a semi with 3 pairs of 2. To use trios (crosses) instead — two heats of 3, winner of each advancing — add a modify rule:
 

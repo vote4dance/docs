@@ -88,7 +88,7 @@ Every time the Round Guide builds a class, the same four steps run:
 
 ```
   1. Count        How many competitors are in the class?          → 10
-  2. Ladder       Pick the round sizes from `round_sizes`.        → 16, 8, 4, 2
+  2. Ladder       Pick the round sizes from round_sizes.          → 16, 8, 4, 2
   3. Rounds       One round per size, largest first.              → 4 rounds, ending in the final
   4. Rules        Each rule looks for rounds it matches           → labels, judging,
                   and changes, adds or removes them.                 an extra B-final …
@@ -117,6 +117,8 @@ The discipline has three rules:
 | 1 | *(none)* — the base rule | *(none)* | `round_sizes: [2, 4, 8, 16, 200]`, `round_label: ["Final", "Semifinal", "Quarterfinal", "Placing round"]` |
 | 2 | `round == 1, from start` | modify | `judging: 10-0` |
 | 3 | `round == 2, from end` | add | `round_label: B-final`, `round_num_through: 0`, `round_position: 3` |
+
+**Step 1 — the count** is 10.
 
 **Step 2 — the ladder.** The generator takes the first size in `round_sizes`
 that is *larger than* the count. For 10 competitors that is 16, and the ladder
