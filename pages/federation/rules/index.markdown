@@ -40,8 +40,9 @@ platform default.
 
 ## Start here
 
-- [Class rule reference](/federation-rules/reference/) — how a class rule is
-  built: conditions, actions, and every round setting the battle guides use.
+- [How class rules work](/federation-rules/reference/) — **read this first.**
+  The thinking behind class rules, a worked example, a step-by-step method, and
+  a reference of every condition, action and setting.
 - [Age category rules](/federation-rules/age-category-rules/) — how the age
   category is decided for solos, duos, and groups, and where to set the rules.
 - [Battle class rules](/federation-rules/battle-class-rules/) — how to configure

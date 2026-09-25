@@ -10,7 +10,7 @@ nav_order: 2
 
 This page explains how to configure federation class rules so that the **Round Guide** automatically generates the correct round skeleton — placing round, battle layers, B‑final — for each competitor count in a 1v1 battle discipline.
 
-> **Rule syntax:** conditions, actions and every setting used below are listed in the [Class rule reference](/federation-rules/reference/).
+> **Rule syntax:** conditions, actions and every setting used below are listed in the [How class rules work](/federation-rules/reference/).
 
 > **Competition operators:** see [Battle bracket setup](/battle-bracket/) for how to seed and run battles once the skeleton exists.
 
