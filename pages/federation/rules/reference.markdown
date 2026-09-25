@@ -26,7 +26,7 @@ Discipline**, in the **Class rules** tab. Each rule has:
 |---|---|
 | **Filter** | The discipline it belongs to, optionally narrowed by category, class level and age group (the filter at the top of the rule). |
 | **Conditions** | When the rule fires: competitor count and round position. No conditions means every round. |
-| **Action** | What the rule does to a round that matches: *(none)*, **modify** or **add**. |
+| **Action** | What the rule does to a round that matches: *(none)*, **modify**, **add** or **remove**. |
 | **Changes** | The settings the rule writes, such as `round_sizes` or `judging`. |
 
 When a competition creates rounds for a class from the **Round Guide**, the
@@ -64,6 +64,7 @@ condition, a small class's placing round would be round 3 from end too.
 | *(none)* | The rule's changes are the class defaults. Used with no conditions as the **base rule**. | `round_sizes`, `round_label`, `round_type: brackets` |
 | **modify** | Changes the matching round. | Set judging, labels or music on one round |
 | **add** | Creates an extra round next to the matching round. | A B‑final or bronze battle beside the semifinal |
+| **remove** | Removes the matching round from the generated list. | Drop a round the ladder would otherwise create for a given count |
 
 ---
 
