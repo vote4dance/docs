@@ -10,13 +10,13 @@ nav_order: 3
 
 This page explains how to configure dances and class rules so that the **Round Guide** generates battles that are themselves split into rounds — a semifinal whose battles run in two rounds plus a tie-break, and a final made up of a bronze battle and a gold battle, each danced in three rounds.
 
-> **Prerequisite:** read [Battle class rules](/federation-rules/battle-class-rules/) first for how the round skeleton (placing, quarter, semi, final) is produced. This page only covers what hangs *under* a battle.
+> **Prerequisite:** read [Battle class rules](/federation-rules/battle-class-rules/) first for how the round skeleton (placing, quarter, semi, final) is produced. This page only covers what hangs *under* a battle. Rule syntax is listed in the [Class rule reference](/federation-rules/reference/).
 
 ---
 
 ## How the generator builds depth
 
-Class rules and dances live per discipline under **Federation → Division → Discipline**, in the **Dances** and **Class rules** tabs. When a competition creates rounds for a class from the Round Guide, the tree is built like this:
+Class rules and dances live per discipline under **Federation → Structure → (division) → Discipline**, in the **Dances** and **Class rules** tabs. When a competition creates rounds for a class from the Round Guide, the tree is built like this:
 
 - **Round sizes** and **Round labels** on the base rule (no conditions) give the ladder: sizes `2, 4, 8, 200` with labels `Final, Semifinal, Kvartsfinal, Uttagning`. Labels count from the end — the first label is the last round.
 - A rule with condition **round == 2, from end** hits the semifinal regardless of how many rounds the class gets. **Modify** changes that round; **Add** creates an extra round after it.

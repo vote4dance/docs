@@ -10,6 +10,8 @@ nav_order: 2
 
 This page explains how to configure federation class rules so that the **Round Guide** automatically generates the correct round skeleton — placing round, battle layers, B‑final — for each competitor count in a 1v1 battle discipline.
 
+> **Rule syntax:** conditions, actions and every setting used below are listed in the [Class rule reference](/federation-rules/reference/).
+
 > **Competition operators:** see [Battle bracket setup](/battle-bracket/) for how to seed and run battles once the skeleton exists.
 
 > **Battles danced in several rounds** (two rounds plus a tie-break, or a bronze and gold battle under the final): see [Battle sub-rounds](/federation-rules/battle-sub-rounds/).
@@ -31,7 +33,7 @@ Brackets mode replaces the per-count `round_sizes` + `round_type: battle` approa
 
 ### Trigger rule
 
-Create one class rule with **no conditions** and **no action** containing:
+Create one base rule — **no conditions** and **no action** — whose changes are:
 
 ```json
 [
@@ -62,7 +64,7 @@ The generator selects the bracket structure based on competitor count and max br
 | > max, max=8 | Placing (top 8) → Quarter → Semi → Final | 4 + 2 + 1 |
 | ≥ 16, max=16 | Placing → R16 (8 pairs) → Quarter → Semi → Final | 8 + 4 + 2 + 1 |
 
-The Placing round always uses select judging; the Final always uses placement judging. Both are set from the federation's judging configuration; no per-round judging rule is needed unless you want to override them.
+By default the Placing round uses select judging and the Final uses placement judging, both taken from the federation's judging configuration. A per-round modify rule overrides the default — the examples below set `judging: 10-0` on the placing round this way.
 
 ### B‑final
 
@@ -111,7 +113,7 @@ Configure the placing round with a condition that excludes very small brackets w
 
 | # | Conditions | Action | Changes |
 |---|---|---|---|
-| 1 | *(none)* | modify | `round_type: brackets`, `round_sizes: [2,4,8,16,200]`, `round_label: ["Final","Semifinal","Kvartsfinal","Åttondelsfinal","Uttagning"]` |
+| 1 | *(none)* | *(none)* | `round_type: brackets`, `round_sizes: [2,4,8,16,200]`, `round_label: ["Final","Semifinal","Kvartsfinal","Åttondelsfinal","Uttagning"]` |
 | 2 | `round == 1, from start`, `count >= 4` | modify | `judging: 10-0`, `round_label: ["Uttagning"]`, `max_floor: 4`, dances |
 | 3 | `round == 2, from end` | **add** | `round_label: B-Final`, `round_num_through: 0`, `round_position: 3`, `judging: match` |
 | 4 | `round == 1, from end` | modify | `music_length: 240`, `extra_time: 40` |
@@ -122,7 +124,7 @@ Result: counts 2–15 get the standard Quarter→Semi→Final bracket; counts �
 
 | # | Conditions | Action | Changes |
 |---|---|---|---|
-| 1 | *(none)* | modify | `round_type: brackets`, `round_sizes: [2,4,8,200]`, `round_label: ["Final","Semifinal","Kvartsfinal","Uttagning"]` |
+| 1 | *(none)* | *(none)* | `round_type: brackets`, `round_sizes: [2,4,8,200]`, `round_label: ["Final","Semifinal","Kvartsfinal","Uttagning"]` |
 | 2 | `round == 1, from start`, `count >= 4` | modify | `judging: 10-0`, `round_label: ["Uttagning"]`, `max_floor: 6` |
 | 3 | `count == 6`, `round == 2, from end` | modify | `judging: select`, `max_floor: 3` |
 | 4 | `round == 2, from end` | **add** | `round_label: B-Final`, `round_num_through: 0`, `round_position: 3`, `judging: match` |
@@ -144,7 +146,9 @@ The `round_sizes` rule sets the bracket ladder for the size loop:
 [2, 4, 8, 16, 200]
 ```
 
-Given 10 competitors and this ladder, the generator finds the first size at or above 10 (16) and builds downward: Placing(16) → Quarter(8) → Semi(4) → Final(2).
+Given 10 competitors and this ladder, the generator finds the first size larger than 10 (16) and builds downward: Placing(16) → Quarter(8) → Semi(4) → Final(2). A ladder size is the round's capacity, not its headcount — all 10 competitors dance the placing round. When no size is larger than the count, the generator uses the largest size.
+
+In the per-count sections below, the number in brackets after a round is how many competitors dance it.
 
 Round sizes can be overridden per count — set `round_sizes` on a rule with a `count` condition to use a different ladder for a specific bracket size.
 
@@ -227,7 +231,7 @@ Generates: Placing(6, all advancing) → Semi(6, 2 advancing) → Final(2).
 
 `round_sizes: [2, 4, 7, 9]`
 
-Generates: Placing(9, all advancing) → Quarter(7) → Semi(4) → Final(2).
+Generates: Placing(7, all advancing) → Quarter(7, one bye) → Semi(4) → Final(2). The ladder's 9 is the placing round's capacity — the first size larger than 7 — and is what gives the class a quarter layer; the quarter's size 7 is where Seed 1 gets the bye.
 
 | Condition | Action | Changes |
 |---|---|---|

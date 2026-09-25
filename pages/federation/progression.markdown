@@ -45,7 +45,7 @@ Promotion points are a **federation rule**, so they are edited in the rule edito
 
 `Federation → Structure → (division) → Class Levels → Rules → (select the class level)`
 
-The same rules can be set on the federation, a division, a discipline or a single federation class. A narrower scope replaces the wider one; the table is replaced as a whole, not merged row by row.
+The same rules can be set on the federation, a division, a discipline or a single federation class; the **Rulebook** lists the layers each rule accepts. A narrower scope replaces the wider one; the table is replaced as a whole, not merged row by row.
 
 The rules involved:
 
