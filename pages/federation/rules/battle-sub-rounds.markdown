@@ -14,6 +14,48 @@ This page explains how to configure dances and class rules so that the **Round G
 
 ---
 
+## The thinking behind sub-rounds
+
+### Why a battle needs rounds of its own
+
+In many rulebooks a battle is not decided by one exchange. The two dancers go
+back and forth over two rounds, with a tie-break if the judges are split; a
+final may settle bronze and gold in separate battles, each over three rounds.
+Those rounds have to exist in the competition so judges can score each one and
+the screens and speaker can follow them.
+
+### Three levels, built from two tools
+
+Think of a battle class as three levels:
+
+```
+Semifinal                 ← the stage       made by class rules
+└─ Battle 1/2             ← who faces whom  made by the battle dance
+   ├─ Runda 1/2           ← what is danced  made by the dances inside it
+   ├─ Runda 2/2
+   └─ (Tie-Break)
+```
+
+- **Class rules** make the top level, the same way as everywhere else: the
+  ladder gives the stages, and a position rule such as *round 2 from end* picks
+  one out.
+- **Dances** make everything below it. A dance on its own is one thing that is
+  danced. Give a dance **dances of its own** and it becomes a container — a
+  battle made of rounds.
+
+### Build from the bottom up
+
+Because a container points at its contents, the contents must exist first. So
+the order is always the same:
+
+1. Create the smallest pieces — the rounds inside a battle.
+2. Create the battle dance that lists them.
+3. Put the battle dance on a stage with a class rule.
+
+Both setups below follow those three steps.
+
+---
+
 ## How the generator builds depth
 
 Class rules and dances live per discipline under **Federation → Structure → (division) → Discipline**, in the **Dances** and **Class rules** tabs. When a competition creates rounds for a class from the Round Guide, the tree is built like this:
@@ -28,6 +70,9 @@ The preview in the Class rules tab shows sub-rounds as tags; a dance with sub-ro
 ---
 
 ## Setup 1 — Semifinal battles in two rounds with a tie-break
+
+**The rulebook says:** a semifinal battle is danced twice, and a third round
+breaks a tie.
 
 Every battle in the semifinal is danced in two rounds, with a tie-break in reserve:
 
@@ -67,7 +112,14 @@ To do the same in the quarterfinal, copy the rule with condition `round == 3, fr
 
 ## Setup 2 — Final with a bronze battle and a gold battle
 
-The final gathers the four remaining competitors; two battles for gold and bronze respectively, both danced in three rounds:
+**The rulebook says:** the final four dance two battles — 3rd and 4th for
+bronze, 1st and 2nd for gold — each over three rounds.
+
+The difference from Setup 1 is that the final is now one stage holding *two*
+different battles, so the final must hold four dancers, and the two battles
+are named dances rather than one numbered battle dance.
+
+The tree the Round Guide should produce:
 
 ```
 Final                      4
@@ -91,11 +143,13 @@ Final                      4
 | `Bronsbattle` | **`dances: Runda 1/3, Runda 2/3, Runda 3/3`**, `round_position: 3` |
 | `Guldbattle` | **`dances: Runda 1/3, Runda 2/3, Runda 3/3`** |
 
+The bronze battle sets `round_position: 3` so it awards places 3–4; the gold battle awards 1–2.
+
 Do not set `max_floor` on the bronze and gold battles — they inherit the final's count (4) and would otherwise be split into two heats.
 
 ### Step 2 — Base rule
 
-The final has to hold four competitors, so the last round size is 4 instead of 2:
+The ladder decides how many reach each stage. Here the final has to hold four competitors, so the last round size is 4 instead of 2:
 
 | Condition | Action | Changes |
 |---|---|---|
