@@ -25,7 +25,7 @@ tolerance such as "up to 50% may be younger" for a group.
 ## The two pieces
 
 1. **Age band** — the min/max age, set on the age group
-   (`Federation → Division → Age groups`).
+   (`Federation → Structure → (division) → Age groups`).
 2. **Age composition rule** — how the band is applied to a team. Configured in
    the rule editor as the **Age composition rules** field. It supersedes the age
    group's basic basis for whatever scope you set it on.
@@ -39,9 +39,9 @@ actually applies**, and let everything else inherit it.
 
 | If the rule…                                                                       | Set it on…           | Where in admin                                                                 |
 | ---------------------------------------------------------------------------------- | -------------------- | ------------------------------------------------------------------------------ |
-| is the same for a whole category across all its age groups (e.g. all small groups) | **Category**         | Division → **Category** tab → **Rules** sub-tab → pick the category            |
-| differs per age band, the same way for every category (e.g. the older partner decides up to Adults, but both must reach Senior) | **Age group** | Division → **Age groups** → pick the group → **Rules** |
-| applies to one concrete class only (discipline + category + age group + level)     | **Federation class** | Division → **Discipline** → **Federation classes** list → the row's rules icon |
+| is the same for a whole category across all its age groups (e.g. all small groups) | **Category**         | Structure → (division) → **Category** → pick the category → **Rules**          |
+| differs per age band, the same way for every category (e.g. the older partner decides up to Adults, but both must reach Senior) | **Age group** | Structure → (division) → **Age groups** → pick the group → **Rules** |
+| applies to one concrete class only (discipline + category + age group + level)     | **Federation class** | Structure → (division) → **Discipline** → **Federation classes** list → the row's rules icon |
 | changes on a specific date (e.g. a new season)                                     | **Timed profile**    | Federation → **Rules** → **Add rule profile** (set Effective from / to)        |
 
 **Rule of thumb:** set the baseline on the **Category**, override the exceptions
@@ -64,8 +64,9 @@ the category instead would loosen Senior too.
 ### Precedence reminder
 
 Most specific wins: Federation → Division → Discipline → **Category** → Age group
-→ Class level → **Federation class**. Verify the merged result under
-**Federation → Rules → Class rule profile**.
+→ Class level → **Federation class**. Verify the merged result in
+**Federation → Rulebook**, which shows the value that applies and the layer
+that set it.
 
 ---
 
