@@ -6,6 +6,10 @@ parent: Manager Guide
 nav_order: 3.9
 help:
   manager.event.validator: checks
+  manager.event.validator.dsf: dsf-checks                          # dsf.* checks
+  manager.event.validator.license-conflicts: dsf-checks             # a DSF check without the dsf. prefix
+  manager.event.validator.wdsf: wdsf-checks                         # wdsf.* checks
+  manager.event.validator.scheduling-conflicts: schedule-conflicts
 ---
 
 # Problems (setup checks)

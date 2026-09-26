@@ -6,6 +6,9 @@ parent: Manager Guide
 nav_order: 4
 help:
   manager.comp.live: ""
+  manager.comp.live.judges-not-finishing: judges-not-finishing   # the round page's "Stuck?" links
+  manager.comp.live.wrong-teams-in-round: wrong-teams-in-round
+  manager.comp.live.schedule-drift: schedule-drift
 ---
 
 # Live operations

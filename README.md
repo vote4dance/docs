@@ -65,6 +65,10 @@ help:
   `organizer`, `federation`, `public`, `checkin` and so on. Manager screens use
   `manager.event.<screen>` and `manager.comp.<screen>`. A tab key ends in the value of the
   tab's URL parameter or hash, e.g. `federation.state.history` for `?tab=history`.
+- **Keys for a part of a screen** add a segment below the screen's key: one failed check on
+  Problems is `manager.event.validator.<check>` (the check's name after `validator.tests.`, so
+  `manager.event.validator.dsf` answers every `dsf.*` check), and the round page's **Stuck?**
+  links are `manager.comp.live.<topic>`.
 - **Fallback** (the contract the app implements): try the full key, then drop the last segment, then open the
   docs home. Only give a tab its own key when a section is written for that tab.
 - **Values** are heading anchors. Renaming a heading changes its anchor, so when you rename
