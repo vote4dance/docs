@@ -66,6 +66,9 @@ belongs to the 2026/27 season and counts the age each dancer turns during 2027
    all* skips rows that cannot move. Tick only competitors that have started in
    the new age class — under most federation rules a competitor may stay in the
    old one.
+   The table is grouped by current class, and the class column filters, so you
+   can take one class at a time; *Select all* then covers exactly what the
+   filter leaves.
 4. Optionally set a **carryover**: a batch default, overridden per row. Without
    one, the competitor's progression points carry into the new class unchanged.
 5. **Run age-up.** The confirmation names how many ticked competitors will move.
@@ -76,8 +79,11 @@ belongs to the 2026/27 season and counts the age each dancer turns during 2027
 
 ## Why a row cannot move
 
-A row that cannot move stays in the preview with its reason instead of
-disappearing, and is never counted as moved.
+A row that cannot move keeps its reason instead of disappearing, and is never
+counted as moved. Those rows are **hidden to begin with** — they cannot be
+ticked, and on a federation-wide preview they bury the competitors you came to
+find. The line above the table says how many there are and puts them back on
+screen.
 
 | Reason shown                                              | What it means                                                                                                    |
 | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
