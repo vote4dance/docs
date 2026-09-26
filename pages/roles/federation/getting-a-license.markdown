@@ -201,7 +201,8 @@ the application.
 Existing licences keep the terms they were issued under. Take care with anything that changes
 eligibility mid-season, and remember that an **active** licence's organization cannot be edited
 at all: cancel it and issue a new one, which is what the **Change organization** flow does — the
-new club represents the dancer from that day, valid through the same end date.
+new club represents the dancer from that day, valid through the same end date. See
+[Club transfers](/federation/club-transfers/#moving-a-dancers-licence-to-a-new-club).
 
 ## When you're ready
 

@@ -52,7 +52,7 @@ Use this role for:
 What a Manager can do:
 - Everything a Viewer can do, plus:
 - Issue, approve, suspend, and revoke licenses
-- Create and edit class memberships and representation records
+- Create and edit class memberships
 - Sync federation progress
 - Approve and manage organizations (approve, mark pending, grant or remove license issuer access)
 - Act on the enforcement log
@@ -81,7 +81,8 @@ What an Administrator can do:
 - Create and edit the license catalog (license items) and class license mappings
 - Create and edit rule profiles
 - Create and edit rankings, leagues, and ranking corrections
-- Create and edit representation records
+- Create and edit representation records, move club-owned teams, and approve or reject club transfer requests (see [Club transfers](/federation/club-transfers/))
+- Change the organization on an active licence (reissue)
 - Invite staff and promote them up to Manager level
 
 What an Administrator cannot do:
