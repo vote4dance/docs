@@ -330,6 +330,8 @@ Current organization detail responsibilities:
 
 ### How representation works
 
+For moving a dancer or a team to another club end to end, including club-owned teams and transfer requests, see [Club transfers](/federation/club-transfers/).
+
 Representation is now **license-derived**. The system determines which organization a dance team represents by looking at the active dancer licenses held by the team's members. The organization that holds the most active dancer licenses for those members is used as the effective representation.
 
 The representation history table still records explicit assignments and overrides, but the primary source of truth is the license data.
@@ -360,10 +362,7 @@ Use the `Rename team` button on any representation row to change the team name w
 
 ### Changing the organization on an active license
 
-You cannot change the organization field on an active license directly. If the organization on an active license is wrong:
-
-1. Cancel or revoke the existing license
-2. Issue a new license with the correct organization
+You cannot change the organization field on an active license directly. Pick the new organization in the licence's `Edit` dialog and confirm `Change organization`: the licence is reissued under the new organization from today, and the old one is cancelled and kept for history. This needs the Administrator or Owner role. See [Moving a dancer's licence to a new club](/federation/club-transfers/#moving-a-dancers-licence-to-a-new-club).
 
 This applies to individual license rows. It does not affect explicit representation assignments made through the `Assign organization` workflow.
 

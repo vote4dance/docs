@@ -16,7 +16,7 @@ This role hub covers:
 - Creating license pricing and approval workflows
 - Managing schools/clubs and their eligibility
 - Creating and managing rankings
-- Setting policy for transfers and eligibility
+- Setting policy for transfers and eligibility, and handling [club transfers](/federation/club-transfers/)
 
 **Not sure if you're a federation admin?** Start with [Finding Your Role](/understanding-vote4dance/finding-your-role/).
 
@@ -40,6 +40,7 @@ This role hub covers:
 1. [Federation Licenses](/federation-licenses/)
 2. [Federation Rankings](/federation-rankings/)
 3. [Federation Staff Roles](/federation/staff-roles/)
+4. [Club transfers](/federation/club-transfers/)
 
 ## How to use this hub
 

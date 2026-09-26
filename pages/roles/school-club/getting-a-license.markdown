@@ -147,6 +147,8 @@ it is waiting on a person at the federation.
 An active licence's organization cannot be edited. The federation changes it by reissuing:
 "Organization cannot be changed on an active license. Cancel this license and issue a new one."
 The federation can do this from its side, and the new club represents the dancer from that day.
+What the federation does, and what else a club change involves, is on
+[Club transfers](/federation/club-transfers/).
 
 ### "We have new dancers mid-season"
 

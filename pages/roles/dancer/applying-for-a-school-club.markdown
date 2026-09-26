@@ -40,9 +40,11 @@ Make sure you know:
    that work.
 4. Check the club appears on your account before anyone tries to use it for a licence or an entry
 
-Your club also matters *inside* a class: the club that represents you there is recorded separately,
-and moving it is a transfer the receiving club starts and the federation approves — not something
-that happens automatically when you change club membership.
+Your club also matters *inside* a class, and that is recorded separately: mostly through the club on
+your licence, and for groups and formations through the club that owns the team. Changing club
+membership moves neither. The federation reissues your licence to the new club, and a club-owned
+team moves when the federation moves it or approves the owning club's request. See
+[Club transfers](/federation/club-transfers/).
 
 ## Why it matters
 
