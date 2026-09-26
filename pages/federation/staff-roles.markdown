@@ -19,9 +19,13 @@ Use `Admin → Federation → [federation] → Administration` to invite staff a
 | Role | Label in UI | What they can do |
 |---|---|---|
 | `normal` | Viewer | Read-only access to all federation data |
-| `manager` | Manager | Day-to-day operations: licenses, memberships, organizations |
-| `administrator` | Administrator | Structural configuration: divisions, classes, rules, rankings |
+| `manager` | Manager | Day-to-day work: licenses, organizations, class memberships |
+| `administrator` | Administrator | Everything a Manager does, plus structure and decisions that move competitors |
 | `owner` | Owner | Governance: federation settings, Stripe, user promotion |
+
+**Seeing your own role.** Your role is shown at the right end of the federation's menu bar. Click it to see
+what each role can do, with your own marked. When a page has an action your role can't use, it says which
+role is needed instead of just hiding it.
 
 ---
 
@@ -51,16 +55,18 @@ Use this role for:
 
 What a Manager can do:
 - Everything a Viewer can do, plus:
-- Issue, approve, suspend, and revoke licenses
-- Create and edit class memberships
-- Sync federation progress
-- Approve and manage organizations (approve, mark pending, grant or remove license issuer access)
-- Act on the enforcement log
+- Issue, approve, decline, edit, suspend and remove licenses, one at a time or in bulk
+- Approve organizations, mark them pending, and grant or remove their license issuer access
+- Create, edit and remove class memberships
+- Follow club transfers and representation changes (an Administrator decides them)
 
 What a Manager cannot do:
-- Edit divisions, disciplines, classes, age groups, or categories
+- Move a license the federation has approved to another organization (for an active license, a reissue). Managers can still correct the organization on an application the federation hasn't approved yet
+- Assign organizations on the Transfers tab, move club-owned teams, or approve or reject transfer requests
+- Sync federation progress, run age-ups, or apply promotions
+- Remove an organization from the federation, or set up its NORRIQ credentials
+- Edit divisions, disciplines, classes, age groups, categories, class rules or rankings
 - Edit the license catalog (license items)
-- Edit rule profiles or rankings
 - Connect Stripe or change federation settings
 - Promote other users
 
@@ -77,12 +83,14 @@ Use this role for:
 What an Administrator can do:
 - Everything a Manager can do, plus:
 - Create and edit divisions, disciplines, categories, age groups, class levels, dances
-- Create and edit federation classes and competition levels
+- Create and edit federation classes, competition levels and class rules
 - Create and edit the license catalog (license items) and class license mappings
 - Create and edit rule profiles
 - Create and edit rankings, leagues, and ranking corrections
 - Create and edit representation records, move club-owned teams, and approve or reject club transfer requests (see [Club transfers](/federation/club-transfers/))
 - Change the organization on an active licence (reissue)
+- Sync federation progress, run age-ups and apply promotions
+- Remove an organization from the federation and set up its NORRIQ credentials
 - Invite staff and promote them up to Manager level
 
 What an Administrator cannot do:

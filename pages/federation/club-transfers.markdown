@@ -160,10 +160,11 @@ open the same pages and read the history, but cannot change anything.
 | See the Action Center counter | **Overview** | Manager, Administrator, Owner |
 | **Assign organization**, **Change organization** (representation row), **Rename competitor** | Organization → **Transfers** | Administrator, Owner |
 | **Move**, **Release to independent**, **Approve** / **Reject** a pending transfer | Organization → **Teams & integration** | Administrator, Owner |
-| **Edit** a licence, including **Change organization** (reissue) | **Licenses** | Administrator, Owner |
+| **Change organization** on an active licence (reissue) | **Licenses** → **Edit** | Administrator, Owner |
 
-Managers don't see these buttons. If a Manager on your staff handles transfers, give them
-Administrator, or route the change to someone who has it. See
+Managers see a note in place of these buttons saying they need an Administrator. Managers can edit
+a licence, but its organization field is locked once the federation has approved the licence. If a Manager on your
+staff handles transfers, give them Administrator, or route the change to someone who has it. See
 [Federation Staff Roles](/federation/staff-roles/).
 
 ---
@@ -567,8 +568,8 @@ The counter opens the club list. Pending transfers are listed on the **owning cl
 
 ### "I can't find Assign organization"
 
-You are probably a **Manager**. These actions need **Administrator** or **Owner**, and Managers
-don't see the buttons.
+You are probably a **Manager**. These actions need **Administrator** or **Owner**. The Transfers
+tab says so where the button would be.
 
 ### "This row can't be changed here"
 
