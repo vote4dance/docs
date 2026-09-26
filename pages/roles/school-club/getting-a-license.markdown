@@ -81,7 +81,7 @@ to confirm: "Decline license application for *name*?"
 
 Your approval is one of four checks the federation sees before it can issue the licence, so an
 application nobody approves at the club simply sits there. The federation's own view says it
-plainly: "*club* hasn't approved this request yet. A manager or coach there has to approve it."
+plainly: "*club* hasn't approved this request yet. A manager or administrator there has to approve it."
 
 ## Paying
 
