@@ -71,9 +71,14 @@ the one below it:
 | Role | What they can do |
 |---|---|
 | **Member** | Belongs to the club, with no administrative permissions. Represents the club and can be entered by its coaches; cannot register on the club's behalf or manage members. |
-| **Coach** | The day-to-day work: create and update the club's competitors, register them and pay for the club's registrations, see the member list, and move a competitor to another club for federation approval. |
+| **Coach** | The day-to-day work: create and update the club's competitors, register them and pay for the club's registrations, and see the member list. |
 | **Manager** | Everything a coach can do, plus approving and rejecting membership applications, buying and managing the club's federation licences, and approving members' licence applications before the federation activates them. |
 | **Administrator** | Everything a manager can do, plus inviting members and setting the role of everyone below administrator, applying to federations and detaching from them, editing the club's details and embed key, and deleting the club. |
+
+A role only counts once the membership is approved. Where a page has an action your role can't use,
+it says which role is needed. Administrators can't remove or change another Administrator; if one
+leaves, they leave the club themselves, or Vote4Dance support removes them. Only Vote4Dance support can
+make someone an Administrator of an existing club.
 
 Pick deliberately: a coach who registers dancers does not need Administrator, and the person who
 approves licences needs at least **Manager**. Give a second person Administrator so the club is

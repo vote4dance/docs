@@ -234,8 +234,7 @@ owns to another club in your federation. The request names the destination club 
 **effective date**, and optionally a reason.
 
 > Clubs cannot file this request from the club screens yet. Today it is filed through the API or
-> by Vote4Dance support. The club-side permission guide already lists it as "Move a competitor
-> owned by the organization to another organization, for federation approval". Tell your clubs
+> by Vote4Dance support, and the club-side permission guide doesn't mention it. Tell your clubs
 > how to reach you until the screen exists.
 
 **What arrives:**
