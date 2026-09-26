@@ -160,12 +160,11 @@ open the same pages and read the history, but cannot change anything.
 | See the Action Center counter | **Overview** | Manager, Administrator, Owner |
 | **Assign organization**, **Change organization** (representation row), **Rename competitor** | Organization → **Transfers** | Administrator, Owner |
 | **Move**, **Release to independent**, **Approve** / **Reject** a pending transfer | Organization → **Teams & integration** | Administrator, Owner |
-| **Change organization** on a licence (reissue) | **Licenses** → **Edit** | Administrator, Owner |
+| **Edit** a licence, including **Change organization** (reissue) | **Licenses** | Administrator, Owner |
 
-> **Managers see buttons they cannot use.** On the Transfers tab and in the licence editor, a
-> Manager is shown **Assign organization**, **Change organization** and **Rename competitor**. The
-> server refuses the save. If a Manager on your staff handles transfers, give them Administrator,
-> or route the change to someone who has it. See [Federation Staff Roles](/federation/staff-roles/).
+Managers don't see these buttons. If a Manager on your staff handles transfers, give them
+Administrator, or route the change to someone who has it. See
+[Federation Staff Roles](/federation/staff-roles/).
 
 ---
 
@@ -184,9 +183,9 @@ Everything about one club is on that club's page:
 
 > **There is no federation-wide transfer list.** Pending transfer requests are listed per club, on
 > the *owning* club's **Teams & integration** tab. The Action Center counter on **Overview**
-> ("Representation changes awaiting confirmation") tells you how many are waiting. Its link
-> opens **Members → Competitors**, where they are *not* listed. To find them, open each club that
-> owns groups or formations.
+> ("Representation changes awaiting confirmation") tells you how many are waiting, and opens the
+> club list (**Members → Organizations**). From there, open each club that owns groups or
+> formations.
 
 ---
 
@@ -272,11 +271,6 @@ page.
 
 Neither the club nor anyone else can **withdraw** a request. A request the club no longer wants
 has to be **rejected**.
-
-> **A pending row with an empty source club is not a transfer.** The **Pending transfers** list can
-> also show a team member's *pending dancer licence* at this club. Such a row has no source club
-> ("→ Destination"). Do not press **Approve** or **Reject** on it. Decide the licence in
-> **Licenses → Needs your approval** instead.
 
 ### When a dated transfer takes effect
 
@@ -374,9 +368,11 @@ federations that do not license dancers.
 
 The row is **active from today**. You cannot enter a future or past date, or save it as pending.
 
+A club that is not linked to your federation is refused: "The chosen organization does not belong
+to this federation".
+
 Check before saving:
 
-- The **Organization** is a club in your federation. The dialog does not check this.
 - A club-owned team that has never entered a competition is not in the **Competitor** list. Use
   **Teams owned by the organization** for owned teams instead.
 
@@ -397,10 +393,6 @@ status.
 - **Delete** a row
 - Set a row's **status** or **effective date**
 - Leave a row **pending** until approval
-
-> **The help text on this tab describes controls that do not exist yet.** The alerts "How
-> competitor transfer works" and "Manual organization workflow" tell you to set effective dates,
-> keep rows pending and end the old row. None of that can be done today. Follow this page instead.
 
 ---
 
@@ -570,15 +562,19 @@ For couples created by the result import, see
 
 ### "The Action Center says a representation change is waiting, but I can't find it"
 
-The counter links to **Members → Competitors**, but pending transfers are listed on the **owning
-club's** page, under **Teams & integration → Pending transfers**. Open the clubs that own groups
-and formations.
+The counter opens the club list. Pending transfers are listed on the **owning club's** page, under
+**Teams & integration → Pending transfers**. Open the clubs that own groups and formations.
 
-### "I pressed Assign organization and got an error, or nothing saved"
+### "I can't find Assign organization"
 
-You are probably a **Manager**. These actions need **Administrator** or **Owner**. Errors on the
-Transfers tab can also show as a raw code, such as `federation.representation.not_found`. That code
-means the row you acted on is not a representation row, for example an ownership transfer.
+You are probably a **Manager**. These actions need **Administrator** or **Owner**, and Managers
+don't see the buttons.
+
+### "This row can't be changed here"
+
+You acted on a row that isn't a **Temporary** representation row, or tried to decide something
+that isn't a club's transfer request. Reload the page: the row may have changed since you opened
+it.
 
 ### "We moved the team but the results still show the old club"
 
