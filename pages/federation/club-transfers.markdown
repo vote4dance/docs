@@ -31,6 +31,10 @@ There is a fifth, narrower record. When the rule **Ask which organization each d
 is on, the registrant picks a club per dancer on each registration. That choice lives on the
 registration only. See [Registration](#registration-which-club-a-dancer-represents).
 
+Couples created by the **result import** also carry their club as a **tag in their name**, for
+example `Anna Berg & Erik Holm (DKV)`. The public ranking shows that name, and no club change
+updates it. See [Couples created by the result import](#couples-created-by-the-result-import).
+
 ### How they fit together
 
 - **Licences decide representation.** A competitor represents the club that holds the **most
@@ -50,12 +54,106 @@ registration only. See [Registration](#registration-which-club-a-dancer-represen
 | The situation | What you do |
 |---|---|
 | A dancer with a club licence moves to a new club | [Change the licence's organization](#moving-a-dancers-licence-to-a-new-club). If the dancer dances in a couple, do it for both partners, or the couple's club may not change. See [How they fit together](#how-they-fit-together). |
+| A couple **created by the result import** (DSF) changes club | [Couples created by the result import](#couples-created-by-the-result-import): two steps, the club and the club tag in the name |
 | A couple or solo with **no active licences** needs a club | [Assign organization](#assign-organization) on the organization's Transfers tab |
 | A club-owned group or formation moves to another club, and you decide it now | [Move](#move-a-team-now) in **Teams owned by the organization** |
 | The owning club has asked to move one of its teams | [Approve or reject](#approving-a-clubs-transfer-request) under **Pending transfers** |
 | A club-owned couple leaves its club and competes on its own | [Release to independent](#release-to-independent). This only works for teams of two or fewer. |
 | A dancer only changed which club they train at | Nothing on your side. Membership is between the dancer and the clubs. If the licence should follow, see the first row. |
 | A club is leaving your federation | See [When a club leaves the federation](#when-a-club-leaves-the-federation) |
+
+---
+
+## Couples created by the result import
+
+This is the usual case in federations that import results, such as DSF: the couple already exists
+because a result file created it, and now one or both dancers change club.
+
+**A club change for these couples is two things,** and you have to do both:
+
+1. **The club affiliation**: which club the federation screens show the couple under. You set it on
+   the club's **Transfers** tab.
+2. **The club tag in the couple's name**: what the public sees in the **ranking**. When the import
+   created the couple, it named it after the result file, for example `Anna Berg & Erik Holm (DKV)`.
+   That name is plain text. It does **not** follow the club affiliation, and later imports never
+   change it. You change it by renaming the couple, on the same page.
+
+> In Swedish: *"Klubbyte är två saker. Själva klubbtillhörigheten sätter ni på klubbens sida under
+> Övergångar. Men klubbtaggen som syns i rankingen sitter i parets namn — den sattes när
+> resultatimporten skapade paret och följer inte med när dansaren byter klubb. Den byter ni på
+> samma sida, Byt namn på tävlande, och skriver Namn & Namn (NYKLUBB)."*
+
+### Step by step
+
+The labels are in English and Swedish, English first.
+
+1. Open the **new** club: `Federation → Members → Organizations → [new club]`
+   (`Medlemmar → Organisationer`)
+2. Tab **Transfers** (**Övergångar**)
+3. **Assign organization** (**Tilldela organisation**)
+   - **Competitor** (**Tävlande**): the couple
+   - **Organization** (**Organisation**): the new club
+   - **Reason (optional)** (**Anledning (valfritt)**): the date and your decision reference
+4. **OK**. The couple now appears on this tab with the tag **Temporary** (**Tillfällig**).
+5. On that row, **Rename competitor** (**Byt namn på tävlande**)
+6. In **Competitor name** (**Tävlandes namn**), write the names with the **new club's tag**:
+   `Anna Berg & Erik Holm (NEWCLUB)`. Keep the existing spelling and order of the names, and
+   change only the tag.
+7. Save. The next time the ranking is opened, it shows the new name, on every line the couple
+   has, including results danced for the old club.
+8. Check the result: the couple is on the new club's **Transfers** tab, and the public ranking
+   shows the new tag.
+
+Use the club's **tag**, the short code the result files use, not its full name. It is the same
+format the import writes: the names joined with `&`, then the tag in brackets.
+
+### Before you start: check whether the couple has licences
+
+The import tries to give the couple's dancers a free dancer licence at the result file's club. The
+licence note is `ranking_import_team_bootstrap`. This only works for dancers who are linked to the
+couple with an account, for example after claiming their results, so many imported couples have
+no licences at all.
+
+Open the **old** club's **Transfers** tab and look at the couple's rows:
+
+| The old club lists the couple as… | What it means | What to do |
+|---|---|---|
+| Not at all, or **Temporary** only | No active licences. The club affiliation comes from Transfers rows. | Follow the steps above. |
+| **Licensed** (**Licensierad**) | At least one dancer has an active dancer licence at the old club. Licences always win over Transfers rows, so **Assign organization alone changes nothing**. | Move the licences as well. See below. |
+
+**Moving the licences** of a couple that is listed as **Licensed**:
+
+- **The new club is an approved licence issuer:** use **Change organization** on each dancer's
+  licence. See [Moving a dancer's licence to a new club](#moving-a-dancers-licence-to-a-new-club).
+- **It is not an approved issuer:** clubs created by the import are approved into the federation
+  but are not issuers, so the reissue is refused with "This organization isn't an approved issuer
+  for this federation." Two ways forward:
+  - approve the club as an issuer first, then reissue; or
+  - if the licence is only the import's free placeholder, **Edit** it, set its status to
+    **Cancelled**, and save. Once no dancer holds an active licence, the Transfers row from
+    **Assign organization** decides the club.
+
+Move or cancel **both** dancers' licences: the club with the most active licences wins.
+
+### What stays with the old club
+
+- **Results and entries already danced** keep the old club's tag in the results. The ranking
+  shows the couple's current name instead, which is why renaming updates every ranking line.
+- **The old club's Transfers tab** still lists the couple's old **Temporary** row, marked active.
+  It no longer counts, because the newest active row wins. It cannot be ended or deleted. If you
+  would rather not have it there, use **Change organization** on the *old* row instead of
+  **Assign organization** on the new club. That moves the row to the new club, but you lose the
+  record of where the couple came from.
+- **The result files** keep saying whatever the organizer's system says. If a later file still
+  tags the couple with the old club, nothing changes on your side: the import only names a couple
+  when it creates it. Ask the organizer to update the dancers' club in their system.
+
+### Only one dancer changes club
+
+The couple has one club affiliation and one tag. Decide which club the couple represents and
+follow the steps for that club. If your rules allow a couple to represent two clubs, write both
+tags the way your result files do, for example `(DKV/SDK)`. Only the name carries both; the
+affiliation is always a single club.
 
 ---
 
@@ -450,6 +548,9 @@ deleted.
 
 ### A couple moves to a new club
 
+For couples created by the result import, see
+[Couples created by the result import](#couples-created-by-the-result-import). For other couples:
+
 1. Reissue **both** partners' dancer licences to the new club (**Change organization** on each)
 2. If the couple is club-owned: **Move** it to the new club. For a couple going independent,
    **Release to independent**.
@@ -491,6 +592,12 @@ means the row you acted on is not a representation row, for example an ownership
 
 Entries keep the club they were registered under. Only entries made after the move show the new
 club.
+
+### "The couple has moved club, but the ranking still shows the old club"
+
+The ranking shows the couple's **name**, and the club tag in brackets is part of it. Rename the
+couple: **Rename competitor** on the club's **Transfers** tab. See
+[Couples created by the result import](#couples-created-by-the-result-import).
 
 ### "The club changed, but the couple still represents the old club"
 
