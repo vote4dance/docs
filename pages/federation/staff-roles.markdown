@@ -61,7 +61,7 @@ What a Manager can do:
 - Follow club transfers and representation changes (an Administrator decides them)
 
 What a Manager cannot do:
-- Move an active license to another organization (a reissue)
+- Move a license the federation has approved to another organization (for an active license, a reissue). Managers can still correct the organization on an application the federation hasn't approved yet
 - Assign organizations on the Transfers tab, move club-owned teams, or approve or reject transfer requests
 - Sync federation progress, run age-ups, or apply promotions
 - Remove an organization from the federation, or set up its NORRIQ credentials

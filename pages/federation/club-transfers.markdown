@@ -163,7 +163,7 @@ open the same pages and read the history, but cannot change anything.
 | **Change organization** on an active licence (reissue) | **Licenses** → **Edit** | Administrator, Owner |
 
 Managers see a note in place of these buttons saying they need an Administrator. Managers can edit
-a licence, but its organization field is locked while the licence is active. If a Manager on your
+a licence, but its organization field is locked once the federation has approved the licence. If a Manager on your
 staff handles transfers, give them Administrator, or route the change to someone who has it. See
 [Federation Staff Roles](/federation/staff-roles/).
 
