@@ -78,25 +78,17 @@ because a result file created it, and now one or both dancers change club.
    That name is plain text. It does **not** follow the club affiliation, and later imports never
    change it. You change it by renaming the couple, on the same page.
 
-> In Swedish: *"Klubbyte är två saker. Själva klubbtillhörigheten sätter ni på klubbens sida under
-> Övergångar. Men klubbtaggen som syns i rankingen sitter i parets namn — den sattes när
-> resultatimporten skapade paret och följer inte med när dansaren byter klubb. Den byter ni på
-> samma sida, Byt namn på tävlande, och skriver Namn & Namn (NYKLUBB)."*
-
 ### Step by step
 
-The labels are in English and Swedish, English first.
-
 1. Open the **new** club: `Federation → Members → Organizations → [new club]`
-   (`Medlemmar → Organisationer`)
-2. Tab **Transfers** (**Övergångar**)
-3. **Assign organization** (**Tilldela organisation**)
-   - **Competitor** (**Tävlande**): the couple
-   - **Organization** (**Organisation**): the new club
-   - **Reason (optional)** (**Anledning (valfritt)**): the date and your decision reference
-4. **OK**. The couple now appears on this tab with the tag **Temporary** (**Tillfällig**).
-5. On that row, **Rename competitor** (**Byt namn på tävlande**)
-6. In **Competitor name** (**Tävlandes namn**), write the names with the **new club's tag**:
+2. Tab **Transfers**
+3. **Assign organization**
+   - **Competitor**: the couple
+   - **Organization**: the new club
+   - **Reason (optional)**: the date and your decision reference
+4. **OK**. The couple now appears on this tab with the tag **Temporary**.
+5. On that row, **Rename competitor**
+6. In **Competitor name**, write the names with the **new club's tag**:
    `Anna Berg & Erik Holm (NEWCLUB)`. Keep the existing spelling and order of the names, and
    change only the tag.
 7. Save. The next time the ranking is opened, it shows the new name, on every line the couple
@@ -119,7 +111,7 @@ Open the **old** club's **Transfers** tab and look at the couple's rows:
 | The old club lists the couple as… | What it means | What to do |
 |---|---|---|
 | Not at all, or **Temporary** only | No active licences. The club affiliation comes from Transfers rows. | Follow the steps above. |
-| **Licensed** (**Licensierad**) | At least one dancer has an active dancer licence at the old club. Licences always win over Transfers rows, so **Assign organization alone changes nothing**. | Move the licences as well. See below. |
+| **Licensed** | At least one dancer has an active dancer licence at the old club. Licences always win over Transfers rows, so **Assign organization alone changes nothing**. | Move the licences as well. See below. |
 
 **Moving the licences** of a couple that is listed as **Licensed**:
 
