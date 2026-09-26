@@ -4,6 +4,8 @@ title: Sponsors
 permalink: /manager-guide/sponsors/
 parent: Manager Guide
 nav_order: 1.5
+help:
+  manager.event.sponsors: ""
 ---
 
 # Sponsors

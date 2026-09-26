@@ -4,6 +4,8 @@ title: Club transfers
 permalink: /federation/club-transfers/
 parent: Federation
 nav_order: 12
+help:
+  federation.organization.transfers: ""
 ---
 
 # Club transfers

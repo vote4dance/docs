@@ -4,6 +4,12 @@ title: Shop — tickets, meals and merch
 permalink: /manager-guide/shop/
 parent: Manager Guide
 nav_order: 3.6
+help:
+  organizer.shop: ""
+  organizer.shop.products: products
+  organizer.shop.orders: orders
+  manager.event.cafe: the-café
+  cafe.event: the-café
 ---
 
 # Shop — tickets, meals and merch

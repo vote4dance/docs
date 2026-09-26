@@ -47,4 +47,38 @@ That writes `.bundle/config`, which is local to your checkout and not committed.
 - The look is set in `_sass/color_schemes/v4d.scss` (palette) and
   `_sass/custom/custom.scss` (everything else). No theme file is forked.
 
+## In-app help map
+
+The app's help links go through **https://docs.vote4dance.com/help.json**, which maps a
+help key for each app screen to the docs page and section that answers it. The page
+that answers a screen declares it in its own front matter:
+
+```yaml
+help:
+  organizer.shop: ""               # top of the page
+  organizer.shop.orders: orders    # the "## Orders" section, #orders
+```
+
+`help.json` (a Liquid template in the repo root) collects these on every build.
+
+- **Keys** are `<app>.<screen>[.<tab>]`. `<app>` is the app's mount path: `manager`,
+  `organizer`, `federation`, `public`, `checkin` and so on. Manager screens use
+  `manager.event.<screen>` and `manager.comp.<screen>`. A tab key ends in the value of the
+  tab's URL parameter or hash, e.g. `federation.state.history` for `?tab=history`.
+- **Fallback** (the contract the app implements): try the full key, then drop the last segment, then open the
+  docs home. Only give a tab its own key when a section is written for that tab.
+- **Values** are heading anchors. Renaming a heading changes its anchor, so when you rename
+  one that a key points at, update the key in the same commit.
+- Each key is declared on exactly one page.
+
+Check the map after building:
+
+```
+bundle exec jekyll build
+ruby scripts/check-help.rb
+```
+
+It fails on a malformed or duplicate key, and on a key whose page or section is not in
+the built site.
+
 [just-the-docs]: https://just-the-docs.com

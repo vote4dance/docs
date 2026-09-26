@@ -4,6 +4,9 @@ title: Statistics
 permalink: /manager-guide/statistics/
 parent: Manager Guide
 nav_order: 4.5
+help:
+  manager.comp.statistics: ""
+  manager.comp.statistics.dressing-rooms: dressing-rooms
 ---
 
 # Statistics
@@ -49,11 +52,11 @@ The report answers one question: **how many different dancers does each club bri
 
 ### What the report needs
 
-The day columns come from the **schedule**. Each schedule day starts with a break row that carries a date; every round placed after it belongs to that day. If the day columns are missing and everything sits under "Not scheduled":
+The day columns come from the [**schedule**](/manager-guide/schedule/). Each schedule day starts with a break row that carries a date; every round placed after it belongs to that day. If the day columns are missing and everything sits under "Not scheduled":
 
 1. Check that the rounds are placed in the schedule under a dated day (`Event → Schedule`).
-2. Check that the schedule is **published** (`Schedule visibility` on the competition) and that the schedule blocks are **visible for everyone**. The report reads the published schedule, so a hidden schedule gives no day split.
-3. Run **Update/import participants** if the registrations have not been imported yet, so the lineup is complete.
+   The report reads every schedule item, whether or not the schedule is published.
+2. Run **Update/import participants** if the registrations have not been imported yet, so the lineup is complete.
 
 A yellow warning above the table tells you how many entries are in classes that are not scheduled yet.
 

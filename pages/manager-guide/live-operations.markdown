@@ -4,6 +4,8 @@ title: Live operations
 permalink: /manager-guide/live-operations/
 parent: Manager Guide
 nav_order: 4
+help:
+  manager.comp.live: ""
 ---
 
 # Live operations
@@ -16,7 +18,7 @@ rehearsal](/manager-guide/test-run/).
 
 ## Pre-open checks (30-60 minutes before)
 
-1. Open Manager and confirm **Problems** has no failed tests
+1. Open Manager and confirm [**Problems**](/manager-guide/validator/) has no failed tests
 2. Confirm judges can access the judging app and enter their own PIN
 3. Confirm Speaker and Screens are loading event data, and that the projector picture fills
    the display (see [Screens, projectors and venue technology](/manager-guide/screens/))
@@ -48,7 +50,7 @@ For each round:
 
 During live execution:
 
-- Use `Notifications` for official updates
+- Use `Notifications` for official updates (see [Notifications](/manager-guide/notifications/))
 - Use `Screens` for display output
 - Use `Speaker` for floor-facing presentation flow
 - Validate what is public via `Live` publish settings
@@ -69,7 +71,7 @@ During live execution:
 
 ### Schedule drift
 
-- Update beat/time planning in schedule and round settings
+- Update beat/time planning in schedule and round settings (see [Schedule and conflicts](/manager-guide/schedule/))
 - Re-check screen/speaker timeline alignment
 
 ## End-of-day stabilization

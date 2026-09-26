@@ -4,6 +4,8 @@ title: Customizing diplomas
 permalink: /manager-guide/diploma-customization/
 parent: Manager Guide
 nav_order: 6
+help:
+  manager.print.diploma: ""
 ---
 
 # Customizing diplomas

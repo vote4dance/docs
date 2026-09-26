@@ -4,6 +4,11 @@ title: At the door
 permalink: /manager-guide/the-door/
 parent: Manager Guide
 nav_order: 3.7
+help:
+  checkin.event: ""
+  checkin.redeem: tickets
+  checkin.sell: selling-at-the-desk
+  checkin.user: the-person-screen
 ---
 
 # At the door

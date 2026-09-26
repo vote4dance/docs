@@ -4,6 +4,8 @@ title: Public Rankings
 permalink: /federation-rankings/public/
 parent: Federation Rankings
 nav_order: 3
+help:
+  public.federation.ranking: ""
 ---
 
 # Public Rankings

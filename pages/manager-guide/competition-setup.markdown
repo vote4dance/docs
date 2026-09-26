@@ -4,6 +4,12 @@ title: Competition setup
 permalink: /manager-guide/competition-setup/
 parent: Manager Guide
 nav_order: 2
+help:
+  manager.event.competitions: ""
+  manager.comp.classes: step-1-create-classes
+  manager.comp.classes.round: step-2-build-rounds-from-classes
+  manager.comp.teams: step-3-add-participants
+  manager.comp.data: data-transfer
 ---
 
 # Competition setup
@@ -31,11 +37,10 @@ Manager's sidebar is grouped the way the work is:
 
 | Group | Contains |
 |---|---|
-| **Event overview** | The event's start page |
+| **Event overview** | The event's start page, and **Problems** (the automatic tests over your setup) while any test fails. See [Problems](/manager-guide/validator/). |
 | **Event** | Competitions, Floor, Users, Stations, Café, Schedule |
 | **Competition** | Registration, Classes, Participants, Judges, Checkin, Statistics |
 | **Audience** | Notifications, Screens, Sponsors, Live results, Shop |
-| **Problems** | The automatic tests over your setup |
 
 This page works in the **Competition** group. Rounds live inside a class.
 
@@ -97,7 +102,7 @@ Typical round tree:
 Class: Junior Solo - Contemporary
 	Round 1: Quarterfinal (24 through)
 	Round 2: Semifinal (12 through)
-	Round 3: Final (6 through)
+	Round 3: Final (0 through)
 ```
 
 ## Step 3: Add participants
@@ -125,13 +130,14 @@ Still in **Participants**:
 2. Check every participant is entered in the right class
 3. Verify nobody is missing a class assignment
 
-Then open **Problems**, which checks exactly this for you: start-number conflicts, invalid
-start numbers, conflicting license numbers, the same person ID used with two different names,
-and participants without a placement who have a class set to start in.
+Then open [**Problems**](/manager-guide/validator/), which checks exactly this for you: start-number conflicts, invalid
+start numbers, the same person ID used with two different names, and participants without a
+placement who have a class set to start in. For DSF competitions it also checks conflicting
+license numbers.
 
 ## Step 5: Add judges and build panels
 
-Go to **Competition → Judges**.
+Go to **Competition → Judges**. The full reference is [Judges](/manager-guide/judges/).
 
 Process:
 
@@ -143,11 +149,13 @@ Process:
 5. Assign a panel to each class — a round can override it with its own panel
 
 Each judge's row shows `Not invited`, `Invited` or `Active`, and lets you resend the invitation
-in English, Swedish or Spanish, or **Reset PIN** if a judge has forgotten theirs. Judges set
-their own PIN on their own device; there is no event-wide code.
+in any of the app's languages, or **Reset PIN** if a judge has forgotten theirs. Judges set
+their own PIN on their own device; there is no event-wide code. A judge's PIN is shared by all
+competitions in the event, so **Reset PIN** clears it event-wide. **Reset PIN** is disabled
+until the judge has set a PIN.
 
-Panels lock down once results exist: "Cannot change panel with results", and a panel with
-classes assigned cannot be deleted.
+A panel locks once a round that uses it has started, and a panel with classes assigned cannot
+be deleted. A judge who already has marks cannot be removed.
 
 ## Step 6: Run one rehearsal round
 

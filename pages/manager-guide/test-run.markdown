@@ -82,7 +82,7 @@ With just your own computer, and a phone or tablet beside it:
    device shows.
 4. Open **Speaker** on your phone and use **Show on Screen** to drive the screen window.
 5. Print a heat list, a judging sheet and a diploma to PDF.
-6. Open **Problems** in Manager and read every failed test.
+6. Open [**Problems**](/manager-guide/validator/) in Manager and read every failed test.
 
 If this hour goes well, the rest is logistics.
 

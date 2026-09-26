@@ -42,6 +42,21 @@ This role hub covers:
 3. [Federation Staff Roles](/federation/staff-roles/)
 4. [Club transfers](/federation/club-transfers/)
 
+## Federation screens
+
+One page per item in the Federation app's menu:
+
+| Screen | Page |
+|---|---|
+| Members | [Members](/federation/members/) — competitors, dancers, clubs, history and the enforcement log |
+| Structure | [Divisions and disciplines](/federation/divisions/) — divisions, disciplines, categories, age groups and levels |
+| Rulebook | [Federation rules](/federation-rules/) |
+| Licenses | [Federation admin](/federation-licenses/federation-admin/) |
+| Competitions | [Competitions](/federation/competitions/) |
+| Statistics | [Federation statistics](/federation/statistics/) |
+| Structure → Judging | [Judging](/federation/judging/) — the judging setups rounds can use |
+| Settings | [Federation settings](/federation/settings/) — details, roles and access, public page, integrations |
+
 ## How to use this hub
 
 1. Start on a federation-owned step if you are deciding policy or governance.
