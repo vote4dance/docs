@@ -37,6 +37,10 @@ This role hub covers:
 10. [Retiring members or teams](/school-club/retiring/)
 11. [Embed widgets](/school-club/embed-widgets/)
 
+## Club admin screens
+
+[Club admin screens](/school-club/club-admin/) is a screen-by-screen reference: Permissions, Members, Competitors, Registration, Federation and Licenses, and which club role can do what on each.
+
 ## Dedicated feature sections
 
 1. [Organization admin](/federation-licenses/organization-admin/)
