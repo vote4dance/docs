@@ -47,11 +47,10 @@ Prepare:
 
 In organization settings, fill:
 
-- name (exact official form)
-- type (school, studio, club)
-- location
-- contact email
-- short description
+- **Organization name** (exact official form) and **Short letters**
+- **Country**, **City** and **Address**
+- **Email**
+- **About**
 
 Use the name members already recognize to avoid duplicate requests.
 
@@ -59,17 +58,15 @@ Use the name members already recognize to avoid duplicate requests.
 
 Ensure at least two trusted admins are active:
 
-1. open **Members/Users**
+1. open **Permissions**
 2. add backup admin
 3. verify both can edit organization settings
 
 ### Step 3: Make membership path clear
 
-Decide how members join:
-
-- invite-only
-- request-to-join
-- federation-linked auto path (if supported)
+Decide how members join. The only setting is **Member approval**: with it on, you approve
+each application; with it off, anybody who applies is in (see
+[The mechanics on your side](#the-mechanics-on-your-side)).
 
 Publish one clear instruction for members (where to click and who approves).
 
@@ -107,8 +104,7 @@ Fix:
 Fix:
 
 1. add backup admin immediately
-2. verify notifications are enabled
-3. set response SLA for membership approvals
+2. set response SLA for membership approvals
 
 ### "Duplicate school profiles exist"
 
@@ -116,7 +112,6 @@ Fix:
 
 1. choose one canonical profile
 2. migrate active members to canonical profile
-3. archive or hide duplicate profile
 
 ## What success looks like
 

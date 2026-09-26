@@ -24,11 +24,11 @@ You are obtaining and verifying federation recognition for your school/club.
 It is three clicks and a wait, not a paperwork exchange. Any documents or fees your federation
 wants are arranged outside Vote4Dance; the product only carries the link and its approval state.
 
-1. Open the club's **federation** page and **browse federations**
-2. Select yours and press **Apply**
+1. Open the club's **Federation** page
+2. Select yours in the selector and press **Apply**
 3. The federation shows as **Pending** until a federation manager approves it, then **Approved**
 
-**A club belongs to one federation at a time.** Applying to a second is refused — "The club
+**A club belongs to one federation at a time.** Applying to a second is refused — "The organization
 already belongs to a federation" — so detach from the first if you are genuinely moving. A club
 attached to a federation also cannot be deleted until it is detached.
 
@@ -54,7 +54,7 @@ ask the federation for the issuer role rather than re-applying.
 ## After approval, check
 
 1. The federation shows on the club with an **Approved** tag
-2. `Organization → License Applications` offers that federation
+2. `Organization → Licenses` offers that federation
 3. If you need to apply for members on items that require a club, that the federation has also
    given you **licence issuing**
 

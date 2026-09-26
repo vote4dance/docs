@@ -4,6 +4,8 @@ title: Promotion points
 permalink: /federation/progression/
 parent: Federation
 nav_order: 9
+help:
+  federation.division.progression: ""
 ---
 
 # Promotion points (U-poäng)
@@ -66,8 +68,8 @@ Note that the promotion threshold compares the **sum of everything the couple ha
 
 ## Where to see points
 
-- **Division → Status tab** — the roster: filter by class for every member with status and current points, or type a couple's name in the search field to find them across all classes.
-- **Competitor profile** — click any couple in the division Historik view to open their page: classes with current points, membership details, and their full class history.
+- **Members → Competitors** ([Competitors tab](/federation/members/#competitors)) — the roster: filter by class for every member with status and current points, or type a couple's name in the search field to find them across all classes.
+- **Competitor profile** — click any couple in **Members → History** ([History tab](/federation/members/#history)) to open their page: classes with current points, membership details, and their full class history.
 - **Manager teams table** — a points column appears automatically in any class where entries carry points, and a green rise icon marks couples whose result takes them past the threshold (with the target class in the tooltip).
 - **Speaker (prize ceremony)** — the placement reveal shows a "moving up" badge for couples whose result earns the promotion, switching to past tense once the promotion is applied.
 

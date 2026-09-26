@@ -5,6 +5,8 @@ permalink: /federation-rules/
 parent: Federation
 nav_order: 4
 has_children: true
+help:
+  federation.rules: ""
 ---
 
 # Federation Rules

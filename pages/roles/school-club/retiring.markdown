@@ -36,7 +36,7 @@ Before retirement, verify no unresolved dependencies:
 
 For each member/team:
 
-1. set status to inactive/retired
+1. for a member: club members have no inactive or retired state, so the only step is removing them from the club with the delete button on their row on **Permissions**
 2. remove from active roster views
 3. keep historical references intact
 
