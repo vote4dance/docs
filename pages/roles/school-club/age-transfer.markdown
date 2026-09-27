@@ -30,8 +30,7 @@ side, including what blocks a move: [Age moves](/federation/age-moves/).
 **Before the season:**
 
 1. Make sure every dancer has a **birth date** on their account. Dancers add it themselves in
-   their account settings; you cannot add it for them. Without it, you also cannot apply for
-   their licence.
+   their account settings. Without it, you also cannot apply for their licence.
 2. Tell couples close to an age limit which age group they will be in, and to ask the federation
    if they are unsure.
 

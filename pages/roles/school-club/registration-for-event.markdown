@@ -27,7 +27,8 @@ Dancers can also register themselves; those entries show up in the club's list t
 A competitor is what you register: a couple, a group or a formation.
 
 - **Couples** can be created by the dancers themselves, or by you on the **Competitors** screen.
-  A couple is independent: it is not owned by the club, and has at most two dancers.
+  A couple is normally independent, not owned by the club. If you give it a custom name when
+  creating it, you can choose to make the club its owner.
 - **Groups and formations** are created on the **Competitors** screen. Keep **Owned by
   organization** ticked: a group must be owned by the club. Only the club's coaches, managers and
   administrators can then change or cancel it.
