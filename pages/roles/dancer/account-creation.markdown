@@ -59,63 +59,22 @@ through your federation.
 - You can sign in anytime at vote4dance.com with your email and password
 - Your name appears in the top-right corner after signing in
 - Your **Account** page holds your details, your **Vote4Dance ID** card (the QR code the check-in desk scans) and your profile photo
-- **You cannot yet register for events** — you'll need a license (if required by your federation)
+- If your federation requires a licence, you need one before you can register for its events. Add your birth date first: licences and age groups need it.
 
-## Troubleshooting
+## If something goes wrong
 
-### "The email is already in use"
+| What you see | What to do |
+|---|---|
+| **"Email already exists"** | You already have an account. Use **Forgot your password?** on the sign-in page to get back in. Do not create a second account with another email: your results, licences and registrations would be split across two accounts. |
+| **Your name is misspelled** | Sign in, open your **Account** page, correct the name and save. Do this before you join a club or apply for a licence. |
+| **An error says the captcha is blocked** | A browser privacy setting or ad blocker is blocking it. Allow it for vote4dance.com, or try another browser. |
+| **Your school, club or organizer cannot find you later** | You are probably signed in with a different account than the one they know. |
 
-This means a Vote4Dance account already exists with that email.
+## Check before you go on
 
-**Option 1:** Use a different email
-- Create an account with a different email address
-
-**Option 2:** Recover the existing account
-- Go to the sign-in page and use **Forgot your password?**
-- A reset link is sent if an account exists for that address
-- Recovering the old account is always better than creating a second one
-
-### "My name is misspelled"
-
-1. Sign in
-2. Open your **Account** page
-3. Correct the name and save
-
-**Do this BEFORE** joining a school/club or applying for licenses (fixing it later is painful).
-
-## What to check immediately after creation
-
-- ✓ You can sign in again (try signing out, then signing back in)
-- ✓ Your name is spelled correctly in your profile
-- ✓ You only have ONE Vote4Dance account
-- ✓ Your email address is active (you can sign in with it)
-
-## Why accuracy matters
-
-Your account may later be linked to:
-
-- licenses
-- school or club membership
-- event registrations
-- rankings and federation state
-
-If the account data is inconsistent, support work becomes slower and more manual.
-
-## Common blockers
-
-- The dancer created multiple accounts.
-- The name format does not match federation records.
-- The account is created too late, after registration already opened.
-
-## What success looks like
-
-The dancer has one clear account that can be used for membership, licensing, registration, and ranking visibility.
-
-## If something is wrong
-
-- If you already have another Vote4Dance account, stop and decide which one should be kept.
-- If your name or identity details are wrong, fix that before asking a school, club, or federation to connect anything.
-- If the organizer or school cannot find you later, the most common cause is that the wrong account was used.
+- You can sign out and sign back in.
+- Your name is spelled the way your federation knows it.
+- You have only **one** Vote4Dance account.
 
 ## Next step
 
