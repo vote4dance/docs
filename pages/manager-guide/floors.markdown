@@ -109,7 +109,7 @@ Give each floor's MC their own Speaker set to that floor. Your chief scrutineer 
 
 ## Several floors at once
 
-Floors let you run rounds side by side. Three things take account of this:
+Floors let you run rounds side by side. Four things take account of this:
 
 **Estimated start times.** Rounds are timed within each schedule item:
 
@@ -119,6 +119,8 @@ Floors let you run rounds side by side. Three things take account of this:
 So to run two floors in parallel, give the parallel rounds the same **Round number** and put them on different floors or sections. The letter codes then tell dancers and the audience which round is where: `3A` and `3B`.
 
 **Schedule conflicts.** A dancer in two rounds that overlap in time is a conflict, unless both rounds are on the same floor. Rounds on the same floor cannot actually happen at the same time. Two rounds of the same class never count as a conflict. Open the report with **Open conflicts page** at the top of `Manager → Event → Schedule`. Overlapping rounds are also reported on [Problems](/manager-guide/validator/#schedule-conflicts).
+
+**Judges.** A judge can only be at one floor. [Problems](/manager-guide/validator/#judges-on-two-floors) lists judges who are on the panels of two rounds that run at the same time on different floors.
 
 **People and devices.** Each floor needs its own Lineup, Speaker and screens. Set each Speaker and screen to its own floor. See [Users, apps and stations](/manager-guide/users-and-stations/).
 

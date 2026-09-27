@@ -10,6 +10,8 @@ help:
   manager.event.validator.license-conflicts: dsf-checks             # a DSF check without the dsf. prefix
   manager.event.validator.wdsf: wdsf-checks                         # wdsf.* checks
   manager.event.validator.scheduling-conflicts: schedule-conflicts
+  manager.event.validator.even-majority-panel: even-judge-panels
+  manager.event.validator.judge-floor-conflicts: judges-on-two-floors
 ---
 
 # Problems (setup checks)
@@ -38,6 +40,8 @@ The rows are what caused the check to fail:
 | Round | **Round name**, class, **Schedule** | The round's settings |
 | Schedule conflict | **Dancer**, **Time** (overlap in minutes), **Round A**, **Round B** | Either round |
 
+For [judges on two floors](#judges-on-two-floors) the conflict table's first column is **Judge** instead of **Dancer**.
+
 ## Checks
 
 These checks run for every competition. The name is the text shown after **Validating that**.
@@ -60,6 +64,8 @@ These checks run for every competition. The name is the text shown after **Valid
 | each leader/follower class has exactly one partner class | A class with a **Class role** (`Leader` or `Follower`) is in a group that has no other role class, or has more than one. | Put exactly one leader class and one follower class under the same **Group under**. See [Create classes](/manager-guide/competition-setup/#step-1-create-classes). |
 | leader and follower partner rounds have matching sub-round counts | A leader class and its follower class both have a main round with the same name, but the two rounds have a different number of sub-rounds. | Add or remove sub-rounds so both sides match. See [Build rounds](/manager-guide/competition-setup/#step-2-build-rounds-from-classes). |
 | no dancer is scheduled in two overlapping rounds at the same time | A dancer is in two rounds whose estimated times overlap. See [Schedule conflicts](#schedule-conflicts). | Move one of the rounds in the schedule, or put both on the same floor. See [Several floors at once](/manager-guide/floors/#several-floors-at-once). |
+| rounds decided by majority have an odd number of judges | A round placed by a majority of the judges has an even number of judges on its panel. Often a judge who should be a **Trainee judge** is on the panel as **Judge**. See [Even judge panels](#even-judge-panels). | On the panel, change the extra judge to **Trainee judge**, or add or remove a judge. See [Judge types](/manager-guide/judges/#judge-types). |
+| no judge is on two floors at the same time | A judge is on the panels of two rounds that run at the same time on different floors. See [Judges on two floors](#judges-on-two-floors). | Put a different judge on one of the panels, or run the rounds one after the other. See [Panels](/manager-guide/judges/#panels). |
 
 ## DSF checks
 
@@ -96,6 +102,44 @@ A round's estimated time comes from its **Schedule item**, its place in the sche
 The check is skipped entirely when no participant has a **Person ID** or a linked **Competitor**. Without them, dancers cannot be recognised across classes.
 
 For the full report, open **Open conflicts page** at the top of `Manager → Event → Schedule`. It also lists **Tight** transitions, where a dancer has only a few minutes between two rounds.
+
+## Even judge panels
+
+Some rounds are placed by a majority of the judges: a participant gets a place when more than half of the judges have placed them there or better (skating). With five judges the majority is three. With four it is also three, so a tie is much more likely. The tie is then broken further down the skating rules instead of by the judges' majority.
+
+The check looks at rounds judged with:
+
+- placement judging, where the judges place the participants
+- full or partial judging, where the judges' scores are turned into places and skated, unless the judging type has skating turned off (`disableSkating` in the federation's judging settings)
+- partial-input judging in a final (a round with **Number to advance** `0`)
+
+Rounds that add up marks, points or scores instead are not checked, whatever the number of judges.
+
+**Who counts.** Only judges whose marks decide the result: **Judge**, **Chief judge (in)** and **Audience**. **Trainee judge**, **Chief judge (out)** and observers are left out, as they are when the result is calculated. A panel of four judges and one trainee judge therefore has four, and fails.
+
+**Which panel.** The round's own panel if it has one (see [Round override](/manager-guide/judges/#round-override)), otherwise the class's panel. A round without a panel, or whose panel has no judge that counts, is not listed by this check.
+
+**Rounds with dances.** When the dances of a round (its sub-rounds) fail, the round they belong to is listed once, not each dance.
+
+An audience judge counts from the start, but its marks only take part once audience votes have come in. Until then the panel that marks has one judge fewer than the check counts.
+
+## Judges on two floors
+
+A judge can only watch one floor. The check fails when the same judge is on the panels of two rounds that:
+
+- are on the same **Schedule item**
+- are on different floors or floor sections
+- run at the same time: their estimated times overlap, or they start together
+
+This happens when you [run floors in parallel](/manager-guide/floors/#several-floors-at-once) and the classes on the two floors share a panel, or share a judge between their panels.
+
+**Who counts.** Everyone on the panel has to be at the floor, so every judge type counts, **Trainee judge** included. **Audience** is not a person at the floor and is left out.
+
+**The same person in several competitions.** In an event with several competitions, a judge added to each of them is recognised as one person by their account. A clash between rounds in two competitions is listed in the section of each competition that has one of the rounds.
+
+**Times.** Rounds are timed the same way as for [schedule conflicts](#schedule-conflicts). A schedule item without a start time is still checked: its rounds are compared with each other only, and the **Round A** and **Round B** columns show no times for it. Rounds on different schedule items are never compared, and rounds that are not on a schedule item or a floor are not checked.
+
+Two floor sections of the same floor count as two floors. If one panel judges both sections of a floor at the same time, the check fails for those rounds.
 
 ## Severity
 

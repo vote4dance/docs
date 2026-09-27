@@ -149,6 +149,8 @@ The legend lists the roles a judge can have on a panel. **Not judging** is only 
 
 The type is set per panel, so the same person can be a **Judge** on one panel and a **Trainee judge** on another.
 
+Rounds placed by a majority of the judges need an odd number of judges. [Problems](/manager-guide/validator/#even-judge-panels) lists the rounds whose panel has an even number, counting only the types that mark the result.
+
 ## Panels
 
 A panel is a named group of judges. Classes and rounds are judged by a panel, not by individual judges. A round cannot be started until its class or the round has a panel. **Start judging** is refused with "Assign a judging panel to this class or round before starting judging."
