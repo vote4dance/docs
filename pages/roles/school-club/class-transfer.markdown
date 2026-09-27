@@ -24,8 +24,8 @@ How it works, in more detail: [Class transfer](/dancer/class-transfer/) and
   `Organization → Administration → Registration`. An entry in the wrong class: cancel it and
   register again while the period is open. After that, ask the organizer.
 - **Remember points belong to the couple or team.** A new partnership, or a group with a new
-  lineup, can be a new competitor with no points. A new competitor can register for entry-level
-  classes and is placed there when it registers. For a higher class, the federation has to place
+  lineup, can be a new competitor with no points. Where the federation requires class membership, a
+  new competitor can register for entry-level classes and is placed there when it registers. For a higher class, the federation has to place
   it there first.
 
 ## If the federation has a couple in the wrong class

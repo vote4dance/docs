@@ -32,7 +32,8 @@ The full mechanism is on [Promotion points](/federation/progression/).
 Promotion points and class belong to the **couple or team**, not to each dancer. If you start
 dancing with a new partner, you are a new couple, with no points yet.
 
-A new couple can register for the federation's **entry-level** classes, and is placed in the
+In a federation that requires class membership, a new couple can register for the **entry-level**
+classes, and is placed in the
 class when it registers. Higher classes stay closed to it until the federation places the couple
 there, or its points in the class below allow it to move up. If you think your new couple should
 start higher, for example because you both danced in a higher class before, ask your federation
