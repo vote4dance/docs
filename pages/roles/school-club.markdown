@@ -26,14 +26,14 @@ This role hub covers:
 ## School or club steps
 
 1. [Account creation](/school-club/account-creation/)
-2. [Getting a license](/school-club/getting-a-license/)
-3. [Applying for a school/club](/school-club/applying-for-a-school-club/)
-4. [Joining a federation](/school-club/joining-a-federation/)
+2. [Applying for a school/club](/school-club/applying-for-a-school-club/): how members join
+3. [Joining a federation](/school-club/joining-a-federation/)
+4. [Getting a license](/school-club/getting-a-license/) for your members
 5. [Registration for event](/school-club/registration-for-event/)
-6. [Creating and getting a ranking](/school-club/creating-and-getting-a-ranking/)
-7. [Age transfer support](/school-club/age-transfer/)
-8. [Class transfer support](/school-club/class-transfer/)
-9. [Renew license cycles](/school-club/renew-license/)
+6. [Results, points and rankings](/school-club/creating-and-getting-a-ranking/)
+7. [Age transfer](/school-club/age-transfer/)
+8. [Class transfer](/school-club/class-transfer/)
+9. [Renew license](/school-club/renew-license/)
 10. [Retiring members or teams](/school-club/retiring/)
 11. [Embed widgets](/school-club/embed-widgets/)
 

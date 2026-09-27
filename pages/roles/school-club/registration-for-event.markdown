@@ -6,111 +6,99 @@ parent: School/Club
 nav_order: 5
 ---
 
-# School or club registration for event
+# Registering your club's dancers for an event
 
-This step is your operational support workflow to ensure members register correctly and avoid check-in failures.
+A club can register its own competitors, pay for them, and follow every entry from one list.
+Dancers can also register themselves; those entries show up in the club's list too.
 
-## What this step is for
+**You need the club's Coach role or higher.** Members cannot register on the club's behalf.
 
-You help dancers and teams enter events with correct class, license, age, and roster data before organizer deadlines.
+## How it fits together
 
-## Where this shows up operationally
+| What | Where | Who |
+|---|---|---|
+| **Competitors** (couples, groups, formations) | `Organization → Administration → Competitors` | Coach and up |
+| **New registrations** | The event's own registration page | Coach and up, or the dancers themselves |
+| **Your club's entries, payment and cancelling** | `Organization → Administration → Registration` | Coach and up |
+| **Confirming who dances on the day** | Club check-in, when the organizer opens it | The club |
 
-Organizer execution happens in [Registration and check-in](/manager-guide/registration-checkin/), but school/club data quality determines whether registrations succeed.
+## Step 1: Set up the competitors
 
-## Step-by-step
+A competitor is what you register: a couple, a group or a formation.
 
-### Step 1: Publish internal registration instructions
+- **Couples** can be created by the dancers themselves, or by you on the **Competitors** screen.
+  A couple is independent: it is not owned by the club, and has at most two dancers.
+- **Groups and formations** are created on the **Competitors** screen. Keep **Owned by
+  organization** ticked: a group must be owned by the club. Only the club's coaches, managers and
+  administrators can then change or cancel it.
+- A dancer who has no account yet can be added by typing their email address and creating an
+  account for them.
+- Set **Dance role** (leader or follower) for couples and trios. Some federations require it at
+  registration.
 
-Send members a clear message including:
+See [Competitors](/school-club/club-admin/#competitors) for every field.
 
-- event name and deadline
-- class selection guidance
-- required license/eligibility conditions
-- who to contact for help
+## Step 2: Check each dancer is ready
 
-### Step 2: Validate member readiness
+Before registration closes, for every dancer you enter:
 
-Before registration closes, check each member/team has:
+- their licence is **Active**, if the federation requires one. See
+  [Getting a license](/school-club/getting-a-license/).
+- their birth date is on their account.
+- the class is right for this season. Age groups and classes can change between seasons. See
+  [Age transfer](/school-club/age-transfer/) and [Class transfer](/school-club/class-transfer/).
+- if the event asks which club the dancer represents, they have an approved membership in your
+  club.
 
-- active or valid-in-progress license
-- correct class eligibility
-- correct age/category data
-- correct organization linkage
+## Step 3: Register
 
-### Step 3: Validate team and roster data
+Open the event's registration page and pick the competitor and the class. The class list shows
+whether each competitor may enter, and the reason if it may not.
 
-For team entries, verify:
+Some federations only let the club register a competitor, or only a member of the team. The class
+list says so.
 
-- roster is current
-- partner/team composition is correct
-- no duplicate or stale members
+The dancers' own guide is [Registering for an event](/dancer/registration-for-event/). Send it
+to members who register themselves.
 
-### Step 4: Support blocked registrations quickly
+## Step 4: Follow up and pay
 
-Common blocks:
+`Organization → Administration → Registration` lists your club's entries per event, with status
+and payment.
 
-- license pending
-- class mismatch
-- missing profile fields
+- **Only Approved entries dance.** Preliminary means the organizer has not accepted it yet.
+- **Get cost** shows the price. **Pay now** pays online, when the event takes online payment.
+  With manual payment you see the amount and the organizer's payment details instead.
+- If the organizer invoices the club, the invoice appears under **Pay your registrations**.
+- **Edit lineup** changes the dancers while the period is open. Some events lock the lineup once
+  paid.
 
-Resolve within a defined SLA (for example, 24 hours) before deadlines.
+See [Registration](/school-club/club-admin/#registration) for every column and button.
 
-### Step 5: Run pre-deadline audit
+## Step 5: Confirm your roster on the day
 
-48 hours before close, run a full checklist:
+The organizer opens a **club check-in** window, and the club confirms which of its teams dance and
+signs. **Teams the club has not confirmed are cancelled** when the organizer applies the check-in,
+even if the dancers are in the hall. Agree beforehand who in the club does it.
 
-1. unregistered expected members
-2. pending license cases
-3. unresolved class/age issues
-4. incomplete roster entries
+## Cancelling
 
-Escalate unresolved cases to organizer/federation early.
+Cancel from the **Registration** list while the entry's registration period is open, and the entry
+is Preliminary, Signed or Approved. A club-owned competitor can only be cancelled by the club's
+coaches, managers and administrators. After the period closes, ask the organizer.
 
-## Cancelling a registration
+Cancelling does not refund anything. The organizer refunds from Manager.
 
-A registration can be cancelled from the club's registration list or the dancer's own account while its registration period is open, as long as it is Preliminary, Signed or Approved. For a **club-owned** team (a group or formation created in the club admin) only the club's coach, manager or administrator can cancel; the dancers themselves cannot. After the period closes, ask the organizer. Cancelling does not refund a payment by itself; the organizer refunds from the Manager app.
+## Common problems
 
-## Best practical checklist
-
-For each dancer/team confirm:
-
-1. correct license
-2. correct class
-3. correct age category
-4. correct club context
-5. correct partner or roster context
-
-## Common blockers and fixes
-
-### "Member says class option is missing"
-
-Fix:
-
-1. verify age/class eligibility
-2. verify license requirement for that class
-3. confirm event class visibility with organizer
-
-### "Registration blocked due to pending license"
-
-Fix:
-
-1. identify payer/approval path
-2. complete payment or federation follow-up
-3. retry registration after status update
-
-### "Team roster is wrong after submission"
-
-Fix:
-
-1. update roster in source organization data
-2. notify organizer if entry already locked
-3. log correction and confirmation
-
-## What success looks like
-
-Members register on time with minimal errors, and check-in day does not require emergency data corrections.
+| Problem | Fix |
+|---|---|
+| A class is missing or locked for a competitor | Read the reason in the class list: licence, age, dance role or team size. |
+| A dancer's licence is Pending | Pending does not count. See [Getting a license](/school-club/getting-a-license/). |
+| "Independent competitors can have at most 2 members" | Create the group on the **Competitors** screen with **Owned by organization** ticked. |
+| The lineup must change after registering | **Edit lineup** while the period is open. After that, ask the organizer. |
+| An entry was cancelled on the day | The club did not confirm it at check-in. Talk to the organizer. |
 
 ## Next step
 
-Continue to [Creating and getting a ranking](/school-club/creating-and-getting-a-ranking/).
+Continue to [Results, points and rankings](/school-club/creating-and-getting-a-ranking/).

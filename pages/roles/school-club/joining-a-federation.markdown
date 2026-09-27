@@ -3,7 +3,7 @@ layout: page
 title: Joining a federation
 permalink: /school-club/joining-a-federation/
 parent: School/Club
-nav_order: 4
+nav_order: 3
 ---
 
 # School or club joining a federation
@@ -24,7 +24,8 @@ You are obtaining and verifying federation recognition for your school/club.
 It is three clicks and a wait, not a paperwork exchange. Any documents or fees your federation
 wants are arranged outside Vote4Dance; the product only carries the link and its approval state.
 
-1. Open the club's **Federation** page
+1. Open `Organization → Administration → Federation`. Applying needs the club's
+   **Administrator** role.
 2. Select yours in the selector and press **Apply**
 3. The federation shows as **Pending** until a federation manager approves it, then **Approved**
 
@@ -54,7 +55,7 @@ ask the federation for the issuer role rather than re-applying.
 ## After approval, check
 
 1. The federation shows on the club with an **Approved** tag
-2. `Organization → Licenses` offers that federation
+2. `Organization → Administration → Licenses` offers that federation
 3. If you need to apply for members on items that require a club, that the federation has also
    given you **licence issuing**
 

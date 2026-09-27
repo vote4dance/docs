@@ -73,7 +73,7 @@ the one below it (see [Club admin screens](/school-club/club-admin/) for the scr
 | **Member** | Belongs to the club, with no administrative permissions. Represents the club and can be entered by its coaches; cannot register on the club's behalf or manage members. |
 | **Coach** | The day-to-day work: create and update the club's competitors, register them and pay for the club's registrations, and see the member list. The permission guide also mentions moving a competitor to another club, but no club screen offers that. |
 | **Manager** | Everything a coach can do, plus approving and rejecting membership applications, buying and managing the club's federation licences, and approving members' licence applications before the federation activates them. |
-| **Administrator** | Everything a manager can do, plus inviting members and setting the role of everyone below administrator, applying to federations and detaching from them, editing the club's details and embed key, and deleting the club. |
+| **Administrator** | Everything a manager can do, plus adding members directly and setting the role of everyone below administrator, applying to federations and detaching from them, editing the club's details and embed key, and deleting the club. |
 
 Pick deliberately: a coach who registers dancers does not need Administrator, and the person who
 approves licences needs at least **Manager**. Give a second person Administrator so the club is
@@ -107,19 +107,17 @@ If they see nothing, their role has not been set — go back to step 3.
 - ✓ The federation shows on the club
 - ✓ The club's own approval status is visible — until the federation approves the club, no licence it holds can be issued. See [Joining a federation](/school-club/joining-a-federation/).
 
-## Important: Organization vs Organizer accounts
+## A club is not an event organizer
 
-**This is the difference:**
+Running a club and running an event are separate in Vote4Dance, but you use **one personal
+account** for both.
 
-| | Organization (School/Club) | Organizer (Event Runner) |
-|---|---|---|
-| **What it is** | A group entity representing your school or studio | A person who configures and runs a specific event |
-| **Who creates it** | A school admin | An event organizer/host |
-| **Used for** | Managing members, teams, federation status | Creating events, assigning judges, running rounds |
-| **Access** | Multiple admins for a school | Multiple admins for an event |
-| **Can an organizer be an organization admin?** | Yes! One person often has both roles |
+- **Club work** (members, competitors, licences) is done in the club, with a club role.
+- **Event work** (classes, judges, rounds) is done in Manager, with **Manager** ticked for you on
+  that event.
 
-If you're running a competition as well as managing a school team, you might have both accounts.
+A club role gives you nothing in Manager, and Manager on an event gives you nothing in the club.
+See [Organizer](/organizer/).
 
 ## If your club was created by your federation
 
@@ -150,5 +148,5 @@ With **Member approval** on, applications wait for a Manager. They appear under 
 
 ## Next step
 
-Continue to [Joining a federation](/school-club/joining-a-federation/), then
-[Getting a license](/school-club/getting-a-license/) for your members.
+Continue to [Applying for a school/club](/school-club/applying-for-a-school-club/) to let members
+join, then [Joining a federation](/school-club/joining-a-federation/).
