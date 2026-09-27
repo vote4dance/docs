@@ -19,8 +19,8 @@ competitor once, check it can enter the class, then pay and wait for **Approved*
 ## Who can register you
 
 - **You**, from your own account.
-- **Your school or club**, on your behalf. Groups and formations that belong to a club are always
-  registered by the club.
+- **Your school or club**, on your behalf. Groups and formations that belong to a club are
+  normally registered by the club.
 - **The organizer**, on site, in exceptional cases.
 
 Some federations limit who may register a competitor: anyone, only a member of the team, or only
@@ -34,7 +34,7 @@ Tick these off first. Most failed registrations come from one of them.
 |---|---|
 | **Registration is open** | The registration period has its own dates, separate from the event being visible. The event's Registration tab says when registration opens. |
 | **Your licence is Active** (if the federation requires one) | Pending and expired licences do not count. See [Getting a license](/dancer/getting-a-license/). |
-| **Your partner's licence is Active too** | Every dancer on the team is checked, not only the one registering. |
+| **Your partner's licence is Active too** | If the federation requires licences, your partner needs one as well, not only the dancer who registers. |
 | **Your birth date is on your account** | Age decides which classes a team may enter. Some age groups require a birth date for every team member. |
 | **You know which class to enter** | Age moves and promotions happen without you applying — see [Class transfer](/dancer/class-transfer/) and [Age transfer](/dancer/age-transfer/). |
 | **Your club membership is right** | If the event asks which club you represent, you pick from your approved memberships. |
