@@ -31,8 +31,8 @@ Whether a licence goes through a club is set on each **licence item**, not per c
 | `Optional` | Either route. |
 | `Required` | The licence must name a club, and the club must be an approved issuer. |
 
-You also decide whether members may apply for an item themselves, and whether a club must approve
-an application before you see it. See
+You also decide whether members may apply for an item themselves. Whether clubs must approve
+their members' applications first is your choice as well. See
 [Getting a license model in place](/federation/getting-a-license/).
 
 ## What a club does
