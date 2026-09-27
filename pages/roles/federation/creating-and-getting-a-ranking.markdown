@@ -6,38 +6,68 @@ parent: Federation
 nav_order: 6
 ---
 
-# Federation creating and getting a ranking
+# Setting up rankings
 
-This step covers how the federation defines, reviews, and publishes rankings.
+A ranking is a list your federation publishes, for example "Season ranking, Adults Standard". It
+is built from competition results, using a formula you set per ranking. Rankings need the
+**Administrator** role.
 
-## What this step is for
+## Rankings and promotion points are separate
 
-The federation owns the ranking policy, the ranking artifacts, and the manual exception workflow that supports published outcomes.
+| | Promotion points | Ranking points |
+|---|---|---|
+| **What they do** | Move couples up a class. | Order the ranking list. |
+| **Set on** | The class levels. See [Promotion points](/federation/progression/). | Each ranking's **Ranking Points** table. |
+| **Updated** | When a competition is closed. | When the ranking is recalculated. |
 
-## Where to do it
+If your rulebook uses one points scale for both, set it in both places.
 
-- [Federation Admin](/federation-rankings/federation-admin/)
-- [Manual Workflows](/federation-rankings/manual-workflows/)
-- [Public Rankings](/federation-rankings/public/)
+## Step 1: Create the ranking in its division
 
-## How it works
+A ranking belongs to **one division**. Open the division in `Federation → Structure` and use its
+**Ranking** section. A ranking cannot span several divisions: create one per division.
 
-1. Create rankings in the correct division context.
-2. Add the correct classes.
-3. Confirm license policy and ranking formula.
-4. Review the calculated standings.
-5. Apply documented manual workflows when needed.
-6. Publish the final ranking output.
+## Step 2: Add the classes
 
-## Common blockers
+A ranking only counts results from the federation classes you add to it. Add every class that
+should count, and none from other purposes.
 
-- The ranking is created in the wrong division.
-- The wrong classes are included.
-- A manual exception is needed but not documented clearly.
+## Step 3: Set the formula
 
-## What success looks like
+| Setting | Decides |
+|---|---|
+| **Purpose** | Public, Selection, Progression or Championship invitation. Everything except Public only counts the current season. |
+| **Season start (MM-DD)** | Where the season begins. |
+| **Window mode** | Which results count: a date or number of days back, the best of the latest N events, the best M overall, or the whole season. |
+| **Ranking by** | Placement, the judges' score, points per placement, or head-to-head. |
+| **Update daily** | Recalculate every night. The **Import** button recalculates at once. |
 
-The published ranking matches federation intent and is understandable to public users.
+Full detail and an example: [Federation admin rankings](/federation-rankings/federation-admin/).
+
+## Step 4: Check it, then make it public
+
+1. Open the ranking and check the standings against a competition you know.
+2. Make it public, and turn on **Rankings** under `Federation → Settings → Public page`. A new
+   federation has every public section off.
+3. Open the public page and check what dancers will see. See
+   [Public Rankings](/federation-rankings/public/).
+
+## Corrections and exceptions
+
+- **Corrections** (adding or removing points, removing a team) are made on the ranking itself.
+  Press **Import** afterwards.
+- **Exceptions** where the published outcome must differ from the formula, such as a selection
+  decision or a tie resolved by the committee, follow
+  [Manual workflows](/federation-rankings/manual-workflows/). Do not build a hidden second formula
+  into the ranking.
+
+## Common problems
+
+| Problem | Fix |
+|---|---|
+| A competition is missing from the ranking | It is not closed yet, or its classes are not on this ranking, or the ranking has not recalculated. Press **Import**. |
+| A dancer is left out | Check the **Enforcement log** for a `ranking` entry. A missing ranking licence is a common reason. |
+| The ranking is not on the public page | The ranking is not public, or **Rankings** is off under **Public page**. |
 
 ## Next step
 
