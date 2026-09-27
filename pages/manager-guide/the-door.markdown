@@ -56,6 +56,16 @@ A scan box sits at the top of the screen and takes focus back after **Arrived**,
 
 *An audience member with no registration: the verdict asks for a ticket, and the three tickets on their own order are right underneath.*
 
+## Registrations paid at the door
+
+When a registration period is paid manually — at the door, by Swish or in cash — the person screen tells the desk what to collect:
+
+- Each registration carries a **Payment** tag: red while unpaid, green once paid. Registrations in a free period have no tag.
+- Above the registrations, **To pay at the door** shows the amount still owed, priced the same way as online checkout (per person or per entry, with any price ladder and what has already been paid taken into account), with the payment note from the registration period underneath.
+- **Payment collected** asks the desk to confirm the amount, then marks all of the person's unpaid registrations paid. The amount disappears and the tags turn green.
+
+The amount covers the whole entry, so for a couple or a group it includes the partners' share, and scanning either dancer shows it; one payment settles it. Rejected registrations are not charged. Marking payment needs a staff login on the event, as setting a start number does.
+
 ## Arrivals
 
 **Arrived** is recorded per person and per day, so a two-day event is marked each morning; earlier days are shown as history. Each arrival records who marked it — the staff member by name, or the station.
