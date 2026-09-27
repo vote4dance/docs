@@ -43,8 +43,9 @@ The federation's side of this, including what can block a move, is on
 
 - **Your class level** stays the same: you move to the same class, one age group up.
 - **Your promotion points** usually carry over. The federation can set a different amount.
-- **Rankings** follow the federation's rules. Some rankings carry part of your results over,
-  others start fresh.
+- **Rankings** follow the federation's rules. A federation can carry all or part of your
+  counted results into the new age group's ranking. Without such a rule, the rankings are not
+  changed by the move.
 
 ## If something looks wrong
 
