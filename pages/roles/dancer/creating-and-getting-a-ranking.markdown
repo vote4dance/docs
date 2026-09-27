@@ -1,72 +1,80 @@
 ---
 layout: page
-title: Creating and getting a ranking
+title: Results, points and rankings
 permalink: /dancer/creating-and-getting-a-ranking/
 parent: Dancer
 nav_order: 6
 ---
 
-# Dancer creating and getting a ranking
+# Results, points and rankings
 
-A dancer does not directly create federation rankings, but their event participation and results can feed into ranking calculations.
+After you compete, three different things can happen with your result. They are updated at
+different times and by different people, which is why one can be visible while another is not.
 
-## What this step is for
+| | What it is | When it updates | Where you see it |
+|---|---|---|---|
+| **Result** | Your placement in the class at that competition. | When the organizer publishes the round. | The competition's results on vote4dance.com and in the app. |
+| **Promotion points** | Points that count towards moving up a class. | When the organizer **closes** the competition. | Your dancer page in the app, under your progression standing. |
+| **Ranking** | Your position in a federation ranking list, built from several competitions. | When the federation recalculates the ranking: often every night, or when staff refresh it. | `Federation → Ranking` on vote4dance.com. |
 
-This step explains how a dancer contributes to ranking outcomes and how to understand what happens after results are published.
+You do not create a ranking or apply for one. The federation sets rankings up. Your part is to
+compete in the right class, with the right licence, as the right couple or team.
 
-## Where to check the result
+## 1. Your result
 
-Use [Public Rankings](/federation-rankings/public/) after the federation has published the updated output.
+The organizer publishes results round by round. Once the final is published, your placement is
+on the competition's results page. If the competition is over and you see nothing, the results
+are not published yet.
 
-## What the dancer actually does
+## 2. Promotion points and your class
 
-The dancer does not configure the ranking.
+Promotion points are added when the organizer **closes** the competition, not when the results
+are published. Closing can happen days after the event.
 
-The dancer's practical job is to make sure the right event, class, license, and team context were used before expecting the result to appear in a ranking.
+- Points belong to the **couple or team**, not to each dancer on their own.
+- When the couple reaches the class's points limit, it moves up a class automatically.
+  See [Class transfer](/dancer/class-transfer/).
+- The couple is identified by the **person numbers** on the entry. A wrong person number can put
+  your points on a second, duplicate couple. If your points look split, tell your federation.
 
-## How it works
+The full mechanism is on [Promotion points](/federation/progression/).
 
-1. Register and compete in the right class, under the right federation
-2. The organizer publishes the round's results
-3. **The organizer closes the competition** — this is the moment the federation side runs:
-   couples are resolved from person numbers, class memberships are registered for everyone who
-   earned points, points are computed and promotions applied
-4. The ranking shows it once the federation's ranking workflow has processed the event
+## 3. Rankings
 
-So the gap between "I danced" and "I am in the ranking" is usually step 3 or 4, not a mistake on
-your part. Points are recorded against the couple resolved from the **person numbers** on the
-entry, which is why a typo there can leave your result attached to a phantom second couple.
+A ranking is a list the federation publishes, for example "Season ranking, Adults Standard". It
+is calculated from the results of several competitions.
 
-See [Promotion points](/federation/progression/) for the mechanism, and
-[Public rankings](/federation-rankings/public/) for what is visible.
+**How to find it:** on vote4dance.com, open `Federation`, pick the federation, open `Ranking`,
+then pick the division and the ranking. See [Public Rankings](/federation-rankings/public/).
 
-## What affects ranking inclusion
+Each ranking has its own rules, set by the federation:
 
-- whether the event counts for the ranking
-- whether the class counts for the ranking
-- whether the dancer or team was eligible
-- whether federation license policy was satisfied
-- whether a manual federation decision changed the published outcome
+- **Which classes count.** A ranking only includes the classes the federation has linked to it.
+- **Which competitions count.** For example the current season only, or your best three
+  results.
+- **How it scores.** By placement, by points per placement, or by the judges' scores.
+- **Licence rules.** Some rankings only include dancers with an active licence.
 
-## Common blockers
+Many rankings are recalculated every night, so a result can take a day to appear even after
+the competition is closed.
 
-- The dancer expects all events to count equally.
-- The published result was correct locally but not eligible for the ranking.
-- A federation correction or exception changed the final published ranking.
+## If something is missing or looks wrong
 
-## What success looks like
+Work down this list:
 
-The dancer understands why a result does or does not appear in public ranking output.
+| What you see | Most likely reason |
+|---|---|
+| No result at all | The organizer has not published it yet. |
+| Result is there, but no promotion points | The competition is not closed yet. |
+| Points are shared with a couple you do not recognise | A wrong person number on an entry created a duplicate couple. Tell your federation. |
+| Result is there, but not in the ranking | The ranking has not been recalculated yet (wait a day), or that competition or class does not count for this ranking. |
+| Your ranking position changed with no new competition | An older result left the time window, or federation staff made a correction. |
+| You are not in the ranking at all | Your licence was not active, or you are looking in the wrong division. |
+| An old result shows your name as text only, not linked to you | Claim it in the app, from the dancer page that opens when you tap the name. The claim joins the couple that already has the result, so its points and ranking follow. |
 
-## If the ranking looks wrong
-
-Check these before reporting a problem:
-
-1. Was the event supposed to count for this ranking?
-2. Was the correct class used?
-3. Was the relevant license rule satisfied?
-4. Did the federation publish a manual exception or correction?
+If none of these explains it, contact your federation. Include the competition, the class and
+the name of the ranking.
 
 ## Next step
 
-Continue to [Age transfer](/dancer/age-transfer/) if your season path involves moving to a new age group.
+Continue to [Age transfer](/dancer/age-transfer/) if you are about to move into a new age group.

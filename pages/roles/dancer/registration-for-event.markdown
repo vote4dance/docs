@@ -160,5 +160,5 @@ registrations. Cancel those first.
 
 ## Next step
 
-Continue to [Creating and getting a ranking](/dancer/creating-and-getting-a-ranking/) to see how
+Continue to [Results, points and rankings](/dancer/creating-and-getting-a-ranking/) to see how
 competing affects your rankings.
