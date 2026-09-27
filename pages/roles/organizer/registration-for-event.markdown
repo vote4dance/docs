@@ -6,155 +6,98 @@ parent: Organizer
 nav_order: 5
 ---
 
-# Organizer registration for event
+# Setting up registration for your event
 
-Registration is where all your setup becomes real for dancers, schools, and teams. Clear registration rules prevent most support escalations later.
+Dancers and clubs register themselves on your event's public page. Your job is to open a
+**registration period**, approve what comes in, and import the approved registrations as
+participants.
 
-## What this step is for
+This page is the overview. Every screen is described in detail on
+[Registration and check-in](/manager-guide/registration-checkin/).
 
-You will configure:
+## Where it is
 
-- who can register
-- which classes they can enter
-- when registration opens/closes
-- what data is required
-- how payment and eligibility checks are enforced
+`Manager → Competition → Registration`. The tab you set it up on is **Registration period**.
 
-## Where to go
-
-Use these pages together:
-
-- [Registration and check-in](/manager-guide/registration-checkin/)
-- [Event setup](/manager-guide/event-setup/)
-- [Competition setup](/manager-guide/competition-setup/)
-
-In Manager, open your event and navigate to **Registration**.
+Registration is **not** the same as publishing the event. A published event can be seen, but
+nobody can register until a registration period is open.
 
 ## Before you open registration
 
-Do not publish registration until all are true:
+1. Your classes are final, and each maps to the right **Federation Class** (for a federation
+   event). See [Competition setup](/manager-guide/competition-setup/).
+2. Prices are decided.
+3. If you take online payment, Stripe is connected to the competition. Connecting it needs the
+   Manager role.
+4. [Problems](/manager-guide/validator/) in Manager shows nothing you have not dealt with.
 
-1. classes/divisions are final
-2. license requirements are configured
-3. registration fields are configured
-4. payment model is tested (if charging)
-5. check-in workflow is assigned to staff
+## Step 1: Create a registration period
 
-## Step-by-step
+A period is one registration window. You can have several, for example an early and a late
+period at different prices. For each period, set:
 
-### Step 1: Configure registration windows
-
-In **Registration settings**, set:
-
-| Field | Example |
+| Setting | Choices |
 |---|---|
-| Opens at | 2026-05-01 09:00 |
-| Closes at | 2026-06-01 23:59 |
-| Late registration | Enabled until 2026-06-05 |
+| **Name and dates** | When it opens and closes. |
+| **Payment mode** | Free, manual (invoice), or online with Stripe. |
+| **Acceptance mode** | **Manual**: you approve each registration. **Direct**: registrations are approved automatically (with online payment, once paid). |
+| **Currency and prices** | The price ladder. |
+| **Rules and form** | What the registration asks for, and which rules apply. |
+| **Allowed classes** | Which classes can be entered in this period. |
 
-Publish these dates externally before opening.
+## Step 2: Test it yourself
 
-### Step 2: Define who can register
+Register once as a dancer, the way your dancers will. Check:
 
-Choose eligibility mode:
+- your class shows up and can be entered
+- the price is right
+- payment works, if you take it
+- the registration appears on the **Registrations** tab with the status you expect
+- the email arrives. See [Emails and the check-in QR code](/manager-guide/emails/).
 
-- Public open registration
-- Federation-only participants
-- Invite-only participants
+Then cancel the test registration.
 
-If federation licenses are required, ensure blocked users receive a clear message.
+## Step 3: Open it and tell people
 
-### Step 3: Configure required fields
+Registration opens once the event is **published** and the period's start date has passed. Tell dancers and clubs, and link to
+the guide for dancers: [Registering for an event](/dancer/registration-for-event/). It explains
+registering with a partner and what each status means.
 
-Typical required data:
+## Step 4: Approve registrations
 
-- dancer/team name
-- birth year or age group
-- organization
-- license ID/status
-- contact email
+On the **Registrations** tab:
 
-Avoid collecting optional data as mandatory unless legally required.
+| Status | What it means |
+|---|---|
+| **Preliminary** | Registered, not yet accepted. With manual acceptance or invoice payment, every registration starts here. |
+| **Signed** | An optional step for your own bookkeeping. Never set automatically. |
+| **Approved** | Accepted. **Only Approved registrations become participants.** |
+| **Rejected** | Declined by you. |
+| **Cancelled** | Withdrawn by the dancer, their club, or you. |
 
-### Step 4: Configure class availability
+The list opens filtered on **Preliminary**. Change the filter to see the rest.
 
-For each class, verify:
+## Step 5: Import participants
 
-- class is visible in registration form
-- age/team-size constraints are correct
-- required license mapping is correct
+When the period closes, press **Update/import participants**. It turns every Approved
+registration into a participant, and lists anything that changed or should be removed. Run it
+again after late approvals or cancellations.
 
-If class is hidden or misconfigured, participants will register into wrong alternatives.
+Then assign start numbers and add participants to the first rounds. See
+[From registrations to participants](/manager-guide/registration-checkin/#from-registrations-to-participants).
 
-### Step 5: Configure payment behavior
+## Common problems
 
-If charging:
-
-1. Verify Stripe/payment setup is active
-2. Set fees by class or entry type
-3. Decide payment timing (immediate vs later)
-4. Test one full payment flow
-
-If not charging, explicitly show **No payment required**.
-
-### Step 6: Test one real registration
-
-Run a realistic end-to-end test:
-
-1. Create test participant
-2. Complete registration form
-3. Submit and pay (if needed)
-4. Verify entry appears in Manager
-5. Verify class assignment and eligibility flags
-
-Do not open publicly until this passes.
-
-### Step 7: Open registration and monitor daily
-
-After opening:
-
-1. Monitor blocked/pending entries daily
-2. Resolve missing data quickly
-3. Communicate deadlines 7 days and 2 days before close
-
-## Common blockers and fixes
-
-### "Participants cannot see expected class"
-
-Fix:
-
-1. Check class visibility in registration settings
-2. Check eligibility filters (age/team size/license)
-3. Re-test with known participant profile
-
-### "Registrations are pending due to license"
-
-Fix:
-
-1. Verify federation license mapping
-2. Share exact resolution link/path with participant
-3. Recheck entry after license activation
-
-### "Payment succeeds but entry not visible"
-
-Fix:
-
-1. Refresh registration list with status filters
-2. Check payment webhook delay
-3. Reconcile payment ID against registration ID
-
-### "Late entries create manual chaos"
-
-Fix:
-
-1. Define clear late-entry policy before close
-2. Assign one operator for late-entry decisions
-3. Track every manual change in audit notes
-
-## What success looks like
-
-Participants register without guesswork, support tickets are low, and entries are clean for check-in and round execution.
+| Problem | Fix |
+|---|---|
+| Nobody can register | Check that the event is published **and** that a registration period is open today. You need both. |
+| A dancer cannot see or enter a class | Check the period's **allowed classes**. Then check the class's Federation Class: the dancer's age, licence or dance role may not fit. The class list shows the dancer the reason. |
+| A registration is stuck on Preliminary | With manual acceptance you approve it yourself. With invoice payment, approve it once paid. |
+| An online payment was abandoned | The registration is removed automatically. The dancer starts again. |
+| An approved registration is not in the lineup | Run **Update/import participants** again. The **Imported** check shows which registrations are in. |
+| A dancer wants a refund after cancelling | Cancelling does not refund. You refund from Manager. |
 
 ## Next step
 
-Continue to [Creating and getting a ranking](/organizer/creating-and-getting-a-ranking/) if your event feeds federation ranking outcomes.
+Continue to [Results, points and rankings](/organizer/creating-and-getting-a-ranking/) if your
+event runs under a federation.

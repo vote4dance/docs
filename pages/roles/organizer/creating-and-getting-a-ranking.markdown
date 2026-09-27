@@ -1,146 +1,79 @@
 ---
 layout: page
-title: Creating and getting a ranking
+title: Results, points and rankings
 permalink: /organizer/creating-and-getting-a-ranking/
 parent: Organizer
 nav_order: 6
 ---
 
-# Organizer creating and getting a ranking
+# Results, points and rankings
 
-Most organizers do not define ranking formulas, but your data quality determines whether federation rankings can be created without manual cleanup.
+You do not create rankings. The federation does. What you control is whether your results reach
+the federation correctly, and **when**.
 
-## What this step is for
+| What | Who does it | When |
+|---|---|---|
+| **Results** | You publish them. | Round by round, on the day. |
+| **Promotion points and class moves** | Vote4Dance, automatically. | When you **close** the competition (**End competition**). |
+| **Rankings** | The federation's rankings recalculate. | After the competition is closed, often overnight. |
 
-You are preparing a ranking-ready result package by ensuring class structure, statuses, and published results are correct and traceable.
+**Nothing reaches promotion points or rankings until you close the competition.** Close it once
+all results are final.
 
-## What you own vs what federation owns
+## Before the day: map your classes
 
-You own:
+Each class maps to a **Federation Class**. That mapping is what the federation counts your
+results by. A class mapped to the wrong Federation Class sends its results to the wrong place.
+See [Competition setup](/manager-guide/competition-setup/#step-1-create-classes).
 
-- class and round correctness
-- accurate participant placement
-- dispute/correction handling before final publish
-- complete result publication
+## On the day: publish every result
 
-Federation owns:
+Confirm and publish every round that should count. A class with unpublished results has nothing
+for the federation to use.
 
-- ranking policy and scoring weights
-- cross-event exceptions
-- final ranking publication rules
+## Before you close: check the data
 
-## Where to do it
+Promotion points are matched to couples by the **person numbers** on each entry. If you import
+results from a file, clubs are also matched by the club tag in the file. Check both before
+closing:
 
-In Manager, work across:
+- **A wrong person number** creates a duplicate couple, with the points split between the two.
+- **A wrong club tag** in an imported file creates a duplicate club.
 
-- Competition setup
-- Rounds
-- Results publishing
+[Problems](/manager-guide/validator/) in Manager flags the same person ID used with two different
+names.
 
-Coordinate with federation admins if ranking sync/export is required.
+## Close the competition
 
-## Step-by-step ranking readiness flow
+On the event overview, **Change status → End competition** sets the event to **Closed**. For a
+federation event, closing:
 
-### Step 1: Verify classes that are ranking-eligible
+1. identifies each couple from its person numbers
+2. registers class memberships for everyone who earned points
+3. adds the points, and moves couples that reach the class's limit up a class
 
-Create a final list of classes that should feed ranking. For each class, confirm:
+If you import or correct results after closing, set the event to **Closed** again. It is safe to
+repeat.
 
-- The **Federation Class** it maps to is the right one — that mapping is what carries the age and
-  level rules, and what the federation counts by
-- The class title and short letter are right
-- **Problems** has nothing to say about it
+See [Post-event and exports](/manager-guide/post-event/) and
+[Promotion points](/federation/progression/).
 
-### Step 2: Validate round outcomes before publish
+## Corrections after closing
 
-For every ranking-eligible class:
+- **Promotion points on an entry:** edit the U-points field in the team editor in Manager,
+  after the competition is closed.
+- **A couple's class or points balance:** the federation handles it, not you.
+- **Rankings:** the federation corrects rankings. Tell them what changed.
 
-1. ensure round statuses reached required state (Closed/Confirmed)
-2. ensure qualifiers/finals are correct
-3. ensure ties and disqualifications are resolved per policy
+## Common problems
 
-### Step 3: Resolve data integrity issues
-
-Before publication, check for:
-
-- wrong class assignments
-- duplicate participant rows
-- missing placements
-- unresolved withdrawals/exclusions
-
-Do not publish ranking-relevant classes until these are fixed.
-
-### Step 4: Publish final results
-
-When integrity checks pass:
-
-1. publish results for all ranking-eligible classes
-2. record publication timestamp
-3. record operator identity
-
-If your federation requires a review hold, submit for review instead of direct publish.
-
-### Step 5: Close the competition
-
-**Closing is what runs the federation side.** For a federation-linked competition, ending the
-competition resolves couples from their person numbers, registers class memberships for everyone
-who earned points, computes the points and applies promotions at the class threshold. Nothing
-reaches rankings and progression until you do it.
-
-Two data-quality points follow from that, and they are worth checking *before* you close:
-
-- **Person numbers.** A typo creates a phantom second couple with a split points balance.
-- **Club tags.** A typo creates a duplicate club, which is then approved into the federation with
-  placeholder details for somebody to clean up.
-
-If results are imported or corrected after the close, set the competition to **Closed** again —
-processing is safe to repeat.
-
-See [Promotion points](/federation/progression/) for exactly what happens at close.
-
-### Step 6: Corrections after the fact
-
-Manual point corrections are edited on the entry in Manager **after** the competition is closed;
-a re-confirmed result overwrites a manual value, so the order matters. Anything that changes class
-membership or a couple's balance belongs to the federation.
-
-## Pre-close checklist
-
-- All ranking-eligible classes published
-- No unresolved disputes impacting placement
-- Withdrawals/disqualifications reflected correctly
-- Event notes include any special exceptions
-- Federation handoff completed
-
-## Common blockers and fixes
-
-### "Ranking class has missing placements"
-
-Fix:
-
-1. reopen correction workflow if policy allows
-2. complete placements
-3. republish with revision note
-
-### "Published too early before dispute resolution"
-
-Fix:
-
-1. log incident
-2. follow federation correction procedure
-3. avoid ad hoc edits without audit trace
-
-### "Federation says class mapping is wrong"
-
-Fix:
-
-1. compare class code against federation template
-2. correct mapping
-3. resend ranking package
-
-## What success looks like
-
-Federation can process rankings from your event immediately, with minimal manual intervention.
+| Problem | Fix |
+|---|---|
+| The federation sees no points from your event | Check that the competition is **Closed**. |
+| A couple's points appear on a second couple | A person number is wrong on an entry. Correct it, and tell the federation: it has to sort out the duplicate couple. |
+| A class was mapped to the wrong Federation Class | Ask the federation before you change it. Its points have already been processed. |
+| Dancers say the ranking is missing your event | Rankings recalculate on the federation's schedule, and only include the classes the federation links to each ranking. Ask the federation. |
 
 ## Next step
 
-Continue to [Age transfer coordination](/organizer/age-transfer/) if participants are moving between age groups.
+Continue to [Age and class transfers](/organizer/age-transfer/).
