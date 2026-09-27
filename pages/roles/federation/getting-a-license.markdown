@@ -122,7 +122,7 @@ checks, and you can only approve when they pass:
 
 | Check | Fails when |
 |---|---|
-| **Club has approved this license** | The club has not approved it yet: "A manager or coach there has to approve it." |
+| **Club has approved this license** | The club has not approved it yet: "A manager or administrator there has to approve it." |
 | **Club approved by the federation** | The club itself is still pending — the application is *Blocked*. |
 | **Payment received** | Payment is outstanding. |
 | **Within the license window** | The window has not opened, or has closed. |

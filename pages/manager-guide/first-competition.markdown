@@ -18,7 +18,7 @@ Read it once from top to bottom. Every step links to the page with the details.
 | Question | Answer |
 |---|---|
 | **Do we create the competition ourselves in Vote4Dance?** | Yes. You create the event and the competition in [Manager](/understanding-vote4dance/manager-intro/) yourself, and you keep control of it the whole way. Nobody does it for you. |
-| **Do we need permission first?** | Only if the competition runs under a federation. Then the federation must have approved your club and confirmed the competition before you open registration. An independent competition needs no approval. |
+| **Do we need permission first?** | Not in Vote4Dance. Choosing the federation when you create the event is what puts the competition under it; there is no approval step. Your federation may still have its own requirements, such as sanctioning the date, so ask them. Its dancers need active licences, and a club the federation has not approved cannot hold licences for them. |
 | **Who enters the dancers?** | The dancers and their clubs, through registration on the public event page. You approve the registrations and import them. You can also enter and add walk-ins yourself at the desk. |
 | **What does Vote4Dance handle on the day?** | Start numbers, check-in, heats and lineup, judge marks, results, screens, speaker, diplomas and exports. |
 | **What does Vote4Dance *not* handle?** | Music, microphones and lighting. Those stay with your DJ and the venue's technician. See [Screens, projectors and venue technology](/manager-guide/screens/). |
@@ -29,7 +29,7 @@ Read it once from top to bottom. Every step links to the page with the details.
 | Who | Responsibility |
 |---|---|
 | **You (organizer)** | Creates the event and the competition, sets classes, rounds, schedule, judges, registration and prices, staffs the functionary positions, runs the day. |
-| **Federation** (if any) | Approves the club and the competition, owns the rules: licenses, age and class rules, ranking points. See [Federation](/federation/). |
+| **Federation** (if any) | Approves clubs and licences, and owns the rules: licenses, age and class rules, ranking points. See [Federation](/federation/). |
 | **Clubs and dancers** | Register themselves, pay, hold valid licenses, confirm their roster at check-in. |
 | **Judges** | Open the Judging app on their own device and mark. They need an invitation from you, a device and Wi-Fi; the PIN they set themselves. |
 | **Venue** | Projector, sound, light, power and internet. Your Vote4Dance display computer plugs into their projector — nothing more. |
@@ -77,7 +77,7 @@ conflicts — and re-runs them whenever you change something.
 
 | When | Do this |
 |---|---|
-| **8–10 weeks before** | Create the event. Confirm federation approval if applicable. Upload the event image. Decide classes. |
+| **8–10 weeks before** | Create the event, under your federation if it has one. Ask the federation whether it needs anything from you. Upload the event image. Decide classes. |
 | **6–8 weeks before** | Build classes, rounds and the schedule. Set prices and the registration period. Make the event public and announce it. |
 | **4 weeks before** | Book functionaries and judges. Count the devices you need and borrow what is missing. Send the [venue questions](/manager-guide/screens/#what-to-ask-the-venue-technician) to the venue's technician. |
 | **2–3 weeks before** | Add judges and panels. Do a desk rehearsal on your own computer with a practice event. See [Test run and venue rehearsal](/manager-guide/test-run/). |
