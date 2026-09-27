@@ -42,7 +42,8 @@ Tick these off first. Most failed registrations come from one of them.
 ## Registering on your own (solo)
 
 1. Open the event and go to its **Registration** tab.
-2. Choose yourself as the competitor.
+2. Open the **As myself** tab and pick yourself as the competitor, or press **Create competitor**
+   the first time.
 3. Pick the class. Each class shows whether you are eligible, and why not if you are not.
 4. Fill in the details the organizer asks for.
 5. Pay, if the registration period takes payment.
@@ -60,7 +61,17 @@ receive the confirmation and status emails, each with your own check-in QR code.
 
 ### Step 2: Create the couple
 
-Start the registration and add your partner to your competitor. Along the way you are asked:
+1. On the event's **Registration** tab, open **With partner**.
+2. If your couple is in the list, pick it and go to Step 3. Otherwise press **Create competitors**.
+3. Under **Search for partner with email**, type your partner's email address and press
+   **Search**.
+4. **Your partner has no Vote4Dance account yet?** When the search finds nobody, a
+   **Create account for partner** section appears. Fill in their first and last name, country and
+   language, and their birth date if you know it, and press **Create account for partner**. They are added to the couple
+   straight away. Use their real email address: it is where their emails and check-in QR code go.
+5. Save the couple.
+
+Along the way you are asked:
 
 - **Name:** use your two names (the usual choice), or a **custom name** such as a stage name.
   Some federations do not allow custom names; the option is then hidden and your real names are

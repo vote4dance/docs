@@ -70,7 +70,7 @@ Work down this list:
 | Result is there, but not in the ranking | The ranking has not been recalculated yet (wait a day), or that competition or class does not count for this ranking. |
 | Your ranking position changed with no new competition | An older result left the time window, or federation staff made a correction. |
 | You are not in the ranking at all | Your licence was not active, or you are looking in the wrong division. |
-| An old result shows your name as text only, not linked to you | Claim it in the app, from the dancer page that opens when you tap the name. The claim joins the couple that already has the result, so its points and ranking follow. |
+| An old result shows your name as text only, not linked to you | Claim it in the app, from the dancer page that opens when you tap the name. A result can only be claimed once the competition has closed. The claim joins the couple that already has the result, so its points and ranking follow. |
 
 If none of these explains it, contact your federation. Include the competition, the class and
 the name of the ranking.
