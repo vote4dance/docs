@@ -26,27 +26,34 @@ Two consequences worth planning around:
 - **The season year is the thing to get right.** A licence for the wrong season is as useless as an
   expired one, and it is the most common mistake in a rollover.
 
-## What this step is for
+## Before the new season
 
-This step covers how the federation rolls licensing into a new season without confusion or downtime.
+1. **Licence items.** Check each item for the new season: price, status, maximum uses per season.
+   Items no longer offered should be switched off, so applicants do not pick them. See
+   [Getting a license model in place](/federation/getting-a-license/).
+2. **Class mappings.** Check each class's **License rules** still require the right items.
+3. **Club approvals.** Approve new clubs early. A pending club blocks every licence its dancers
+   apply for.
+4. **Stripe** is still connected.
+5. **Age groups and promotion rules** are final. Then run the age-up batch. See
+   [Age transfer governance](/federation/age-transfer/).
 
-## How it works
+## Tell clubs and dancers
 
-1. Publish new season items and dates.
-2. Review whether class mappings still make sense.
-3. Confirm payment and approval flows are ready.
-4. Communicate renewal expectations clearly.
-5. Monitor early renewals for workflow problems.
+- That licences are applied for again each season. Nothing carries over.
+- Which items they need, and who applies: the dancer or the club.
+- When applications open, and how long approval takes you.
 
-## Common blockers
+Point them to [Renew license](/dancer/renew-license/) for dancers and
+[Renew license](/school-club/renew-license/) for clubs.
 
-- New season items are published too late.
-- Old items remain visible and cause confusion.
-- Clubs start applications before federation setup is complete.
+## During the rush
 
-## What success looks like
-
-The new season begins with a clear, stable renewal path for every user group.
+- Work the **Needs your approval** queue. Rows tagged **Blocked** are waiting on a club you have
+  not approved.
+- Use bulk approval for the ready rows. It skips licences held by unapproved clubs.
+- Watch for applications on the wrong season year. A pending application can be deleted and made
+  again.
 
 ## Next step
 
