@@ -10,9 +10,10 @@ has_children: true
 
 **You are an event organizer if** you are the person (or team) responsible for setting up and running a dance competition or event using the Manager app.
 
-This role hub covers two types of organizer responsibilities:
-- **Event-specific work** (the left column in Organizer-owned steps) — Configuring and running your specific event
-- **Organizational work** (if applicable) — Managing your affiliation with a federation or school/club, if that applies to you
+This hub covers:
+- **Getting set up:** your account, your club, and running under a federation
+- **Registration, results and rankings:** what you set up, and what the federation does with your results
+- **Between seasons:** a new season, and handing your events over
 
 **Not sure if you're an organizer?** Start with [Finding Your Role](/understanding-vote4dance/finding-your-role/).
 
@@ -21,17 +22,18 @@ This role hub covers two types of organizer responsibilities:
 ## Organizer-owned steps
 
 1. [Account creation](/organizer/account-creation/)
-2. [Getting a license](/organizer/getting-a-license/)
+2. [Licences](/organizer/getting-a-license/)
 3. [Applying for a school/club](/organizer/applying-for-a-school-club/)
 4. [Joining a federation](/organizer/joining-a-federation/)
 5. [Registration for event](/organizer/registration-for-event/)
-6. [Creating and getting a ranking](/organizer/creating-and-getting-a-ranking/)
-7. [Age transfer coordination](/organizer/age-transfer/)
-8. [Class transfer coordination](/organizer/class-transfer/)
-9. [Renew license](/organizer/renew-license/)
+6. [Results, points and rankings](/organizer/creating-and-getting-a-ranking/)
+7. [Age and class transfers](/organizer/age-transfer/)
+8. [Class transfer](/organizer/class-transfer/)
+9. [New season](/organizer/renew-license/)
 10. [Retiring and handover](/organizer/retiring/)
 
-**Note:** If you're running an independent event not affiliated with a federation or school, several of these steps (2-4, 6-10) may not apply to you. Focus on Account creation and Registration for event, then use the Manager Guide for the rest.
+**Running an event with no federation or club?** You only need Account creation and Registration
+for event. Use the Manager Guide for the rest.
 
 ## Running a competition
 
@@ -47,8 +49,8 @@ This role hub covers two types of organizer responsibilities:
 3. [Emails and the check-in QR code](/manager-guide/emails/) — What dancers are emailed, and the QR code they bring to the desk
 4. [Shop — tickets, meals and merch](/manager-guide/shop/) — Selling to the audience, with the money on your own Stripe account
 5. [At the door](/manager-guide/the-door/) — Scanning Vote4Dance IDs and tickets, and recording arrivals
-4. [Users, apps and stations](/manager-guide/users-and-stations/) — Which app each functionary gets, and shared devices
-5. [Statistics](/manager-guide/statistics/) — Event size, dressing rooms, schedule load and medals
+6. [Users, apps and stations](/manager-guide/users-and-stations/) — Which app each functionary gets, and shared devices
+7. [Statistics](/manager-guide/statistics/) — Event size, dressing rooms, schedule load and medals
 
 ## How to use this hub
 

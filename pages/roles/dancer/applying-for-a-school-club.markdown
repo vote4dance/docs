@@ -31,7 +31,7 @@ Make sure you know:
 ## How it works
 
 1. Find the club and apply to join it
-2. If the club has **Member approval** switched on, a manager or coach there has to approve you.
+2. If the club has **Member approval** switched on, a manager or administrator there has to approve you.
    Your application shows on their members list as "Requires your action"; they can approve people
    one at a time or use **Approve all**. With the setting off, you are a member straight away.
 3. You join as a **Member** — the bottom of the club's four-level ladder. That is the right level
@@ -57,8 +57,8 @@ Some federations require organization context for:
 
 ## Common blockers
 
-- **Nobody approved the application.** It sits on the club's members list until a manager or coach
-  looks. Nudge them; there is no reminder.
+- **Nobody approved the application.** It sits on the club's members list until a manager or
+  administrator looks. Nudge them; there is no reminder.
 - **Wrong club.** Fix it before anyone creates a licence or a registration naming it — an active
   licence's club cannot be edited afterwards, only cancelled and reissued.
 - **The club is not approved by its federation**, so licences naming it cannot be issued. Club

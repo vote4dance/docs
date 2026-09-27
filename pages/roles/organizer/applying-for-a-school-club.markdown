@@ -6,106 +6,55 @@ parent: Organizer
 nav_order: 3
 ---
 
-# Organizer applying for a school or club
+# Organizing through a school or club
 
-Many organizers operate through a school, club, or other organization. In Vote4Dance this is handled through organization membership and role permissions.
+Many events are organized by a club. In Vote4Dance, **being in the club and running the event are
+two separate things**:
 
-## What this step is for
+| | Where it is set | What it gives you |
+|---|---|---|
+| **Your role in the club** | The club's **Administration → Permissions** | Club work: members, competitors, registrations, licences. |
+| **Your access to the event** | `Manager → Event → Users` | Manager and the other event apps. |
 
-This step links your organizer account to the correct school/club so you can manage registrations, licensing workflows, and event operations in the correct context.
+A club role does **not** give you Manager on the club's events, and Manager on an event does not
+give you a role in the club. If you need both, you need both.
 
-## Before you start
+## Joining the club
 
-Prepare:
+1. Open the club and apply to join. If the club has **Member approval** switched on, a manager or
+   administrator there approves you. Otherwise you are a member straight away.
+2. Or ask an administrator to add you directly: they search for you under **Permissions** and
+   press **Add**. There is no invitation email.
 
-- Exact organization name
-- Organization admin contact
-- Your required role (Member, Manager, or Administrator)
+The full joining flow is on [Applying for a school/club](/dancer/applying-for-a-school-club/).
 
-If you do not know your role, ask: "Do I need edit permissions in Manager?"
+## Which club role you need
 
-## Where to go
-
-1. Sign in to Vote4Dance
-2. Open your profile or dashboard
-3. Open the organization from your account
-4. Use **Join organization** or request invite via admin
-
-## Step-by-step
-
-### Step 1: Identify the correct organization
-
-Confirm with your team:
-
-- Official org name
-- Federation alignment
-- Which events this org controls
-
-Do not guess. Similar names are common.
-
-### Step 2: Request access
-
-Use one of these methods:
-
-- Self-request in app: **Organizations -> Join organization**
-- Direct invite from admin: admin opens org users and invites your email
-
-### Step 3: Get the correct role
-
-Roles matter:
-
-| Role | Typical access |
+| Role | Can do |
 |---|---|
-| Member | Basic visibility |
-| Manager | Operational edit access |
-| Administrator | Full org control |
+| **Member** | Belongs to the club, no admin access. |
+| **Coach** | Competitors, registrations and payment. |
+| **Manager** | Everything a coach does, plus approving members and the club's licences. |
+| **Administrator** | Everything a manager does, plus roles, federations and the club's own details. |
 
-If you must run event operations, request at least **Manager**.
+For running an event you usually need no club role beyond Member. You need **Coach** or higher
+only if you also register the club's own dancers, and **Administrator** if you handle the club's
+federation membership. See [Club admin](/school-club/club-admin/).
 
-### Step 4: Accept invite and verify context
+## Getting Manager on the club's event
 
-1. Open invite email and accept
-2. Sign in again
-3. Open the organization from your account
-4. Confirm target organization appears
-5. Open it and verify your role in **Users/Members**
+Whoever created the event, or anyone with Manager on it, adds you under `Manager → Event → Users`
+and ticks **Manager**. See [Users, apps and stations](/manager-guide/users-and-stations/).
 
-### Step 5: Verify operational permissions
+## If something is wrong
 
-1. Open Manager
-2. Switch to this organization context
-3. Confirm you can open and edit event data
-
-If read-only, your role is likely too low.
-
-## Common blockers and fixes
-
-### "I joined, but I cannot edit anything"
-
-Cause: Member role only.
-
-Fix: ask admin to upgrade you to Manager or Administrator.
-
-### "I don't see the organization after invite"
-
-Fix:
-
-1. Confirm invite was sent to your active login email
-2. Sign out/in
-3. Ask admin to resend invite
-
-### "I was added to the wrong organization"
-
-Fix:
-
-1. Leave incorrect org or ask admin to remove you
-2. Join correct org
-3. Re-check event context before edits
-
-## What success looks like
-
-You can act under the correct school/club context and perform required organizer tasks without permission errors.
+| What you see | What to do |
+|---|---|
+| You are in the club but cannot open the event in Manager | Ask someone with Manager on the event to tick **Manager** for you under Users. |
+| You do not see **Administration** in the club | You are a plain Member. Ask a club administrator for the role you need. |
+| Your application to join is not approved | It waits on the club's **Members** screen until a manager or administrator approves it. There is no reminder, so ask them. |
 
 ## Next step
 
-Continue to [Joining a federation](/organizer/joining-a-federation/) to align the organization and event with federation requirements.
+Continue to [Joining a federation](/organizer/joining-a-federation/) if your event runs under a
+federation.
