@@ -64,10 +64,12 @@ In Manager, create a new event. The form is a short wizard.
 | **Contact email** | Optional, shown publicly. |
 | **Short description** | Maximum 150 characters. |
 | **Event mode** | `Practice event` or `Live competition`. Practice mode keeps the lightweight setup; live competition enables reusable competition profiles and billing. |
-| **Competition level** | Optional, and only for a federation event that is not a practice event: a reusable level from that federation. |
+| **Competition level** | Optional, and only for a federation event that is not a practice event: a reusable level from that federation. Retired levels are not offered, unless the competition already uses one. |
 | **Location** | The venue. There is a **Verify on Google Maps** link next to it — use it, because this is what people navigate by. |
 | **Timezone** | Drives every time shown in schedules, on screens and in the app. |
-| **Billing information** | Only for live competitions; not asked for practice events. |
+| **Billing information** | Only for live competitions; not asked for practice events. Who Vote4Dance invoices for the competition; see below. |
+
+**Billing information.** The step is filled in on the page itself. Your own recent customers are shown as cards, with the competition each was last used for; pick one. For anybody else's customer, search by name (type at least 4 letters; if more customers match, type more of the name). If the customer does not exist yet, choose **New customer**: pick **Club or company** or **Private person**, and fill in name, email and country. The form starts from the organizer, contact email and country you entered above, and an address can be added. **Create** saves the new customer and the competition in one press. A live competition cannot be created without a customer, and cannot be published without billing information.
 
 The quick "training competition" path hides the organizer, duration, description, mode and
 billing questions and fills them in for you. You can change all of them afterwards on the
@@ -152,7 +154,7 @@ what gets cropped on each screen and how to convert an iPhone photo.
 ### Overview
 
 The event's own details: name, organizer, dates, country, contact email, short description,
-event mode, location, timezone and — for live competitions — billing information. This is also
+event mode, location, timezone and — for live competitions — billing information, chosen on the page the same way as when the event was created. This is also
 where the event image and the status live.
 
 ### Classes

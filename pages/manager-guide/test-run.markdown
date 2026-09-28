@@ -213,7 +213,7 @@ If the rehearsal went well, the morning is short. This sequence takes about 45 m
    browser zoom as noted (10 min).
 3. Judges' tablets out, each judge enters their own PIN (5 min).
 4. Lineup, speaker, check-in and cafe devices join their stations (5 min).
-5. Check-in opens; confirm club check-in status is being applied (10 min).
+5. Check-in opens; confirm organization check-in status is being applied (10 min).
 6. First rounds: confirm schedule, floor and teams are in place (5 min).
 7. One dry heat on the floor before doors open, if you can (5 min).
 

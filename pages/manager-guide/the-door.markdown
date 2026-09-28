@@ -15,11 +15,11 @@ help:
 
 Everybody who comes to your event shows one of two QR codes: a dancer shows their **Vote4Dance ID**, an audience member shows a **ticket**. The check-in station resolves both, tells the desk in one line whether to let the person in, and records that they arrived.
 
-Selling the tickets is on [Shop](/manager-guide/shop/). The club check-in, which is a different thing entirely, is on [Registration and check-in](/manager-guide/registration-checkin/).
+Selling the tickets is on [Shop](/manager-guide/shop/). The organization check-in, which is a different thing entirely, is on [Registration and check-in](/manager-guide/registration-checkin/).
 
 ## What the desk needs
 
-- A **check-in station** for the event, or a user with the Checkin capability. Create stations under [Users, apps and stations](/manager-guide/users-and-stations/) before the day — a station signs in by opening its QR, with no password, and the device can scan that QR straight off the screen you opened it on.
+- A **check-in station** for the event, or a user with the **Check-in** app ticked. Create stations under [Users, apps and stations](/manager-guide/users-and-stations/) before the day — a station signs in by opening its QR, with no password, and the device can scan that QR straight off the screen you opened it on.
 - A phone, tablet or laptop with a camera, or a USB barcode scanner (which behaves as a keyboard).
 - A dated schedule, if you sell day tickets or admit dancers only on the days they dance.
 
@@ -45,10 +45,10 @@ The event page in the check-in app has a single box: **scan a Vote4Dance ID or t
 
 The screen reads top-down as a verdict, then the detail:
 
-1. **The band**: green *Admitted* or amber *Ticket needed*, with the reasons on one line under it — which classes they dance today, whether a ticket is needed and why (not dancing today, no approved registration, or the event admits dancers by ticket only), how many unused tickets are on their own orders, and whether the club check-in is still pending. The **Arrived** button sits in the band, and turns into the arrival time with **Undo** once pressed.
+1. **The band**: green *Admitted* or amber *Ticket needed*, with the reasons on one line under it — which classes they dance today, whether a ticket is needed and why (not dancing today, no approved registration, or the event admits dancers by ticket only), how many unused tickets are on their own orders, and whether the organization check-in is still pending. The **Arrived** button sits in the band, and turns into the arrival time with **Undo** once pressed.
 2. **Photo, name and birth date**, so the desk can see it is the right person. Somebody with no photo shows "No photo on file" — ask them to add one in the app.
 3. **Tickets**, when the person has bought anything: one row per ticket with its state and an **Admit** button.
-4. **Registrations and partners** for the event, with start numbers and the club check-in.
+4. **Registrations and partners** for the event, with start numbers and the organization check-in.
 
 A scan box sits at the top of the screen and takes focus back after **Arrived**, so a desk with a scanner never has to touch the screen: the next ID or ticket opens the next person.
 
@@ -62,9 +62,19 @@ When a registration period is paid manually — at the door, by Swish or in cash
 
 - Each registration carries a **Payment** tag: red while unpaid, green once paid. Registrations in a free period have no tag.
 - Above the registrations, **To pay at the door** shows the amount still owed, priced the same way as online checkout (per person or per entry, with any price ladder and what has already been paid taken into account), with the payment note from the registration period underneath.
+- Entries whose online checkout is in progress are left out: the dancer is paying for them by card right now, and collecting cash as well would charge them twice.
 - **Payment collected** asks the desk to confirm the amount, then marks all of the person's unpaid registrations paid. The amount disappears and the tags turn green.
 
-The amount covers the whole entry, so for a couple or a group it includes the partners' share, and scanning either dancer shows it; one payment settles it. Rejected registrations are not charged. Marking payment needs a staff login on the event, as setting a start number does.
+The amount covers the whole entry, so for a couple or a group it includes the partners' share, and scanning either dancer shows it; one payment settles it. Rejected registrations are not charged. A check-in station can mark payment as well as a staff login on the event. A station can only mark entries paid, never unmark them, and it cannot mark entries that are being paid online, rejected or cancelled; undoing a payment is for staff.
+
+## Adding classes at the door
+
+A dancer who wants to dance one more class can be entered at the desk. **Add classes** on the person screen (above the registrations, shown when the event has a registration period) opens the desk's registration with the dancer already filled in; the desk picks the team and the classes.
+
+- **The class list warns but does not block.** A class whose round has started, or whose heats are drawn, says so under its name: *Already started* or *Heats are drawn*, with the note that the organizer adds late entries to the start list by hand. The desk can still register the dancer; tell the organizer so they can place the entry.
+- **The review collects everything still owed.** The new classes are priced together with the dancer's entries that are still unpaid from before, and the review says how much of the amount is earlier: "Includes … still unpaid from earlier entries". **Payment collected** marks both paid; **Register without payment** registers the new classes and leaves them owed.
+- If the earlier entries cannot be marked paid, the new classes are still registered and paid, and the desk goes back to the dancer with a warning; what is still owed shows on the person screen as before.
+- The desk's registration does not reach the start lists by itself. On the person screen an approved entry is tagged **Not imported** once that competition's participants have been imported but this entry has not; the organizer runs **Update/import participants** again (see [Registration and check-in](/manager-guide/registration-checkin/#updateimport-participants)).
 
 ## Arrivals
 
@@ -94,7 +104,7 @@ One ticket admits one person, once per day it is valid for. Tickets are bearer o
 
 ## Selling at the desk
 
-The desk sells the same catalog for cash — `Check-in → Sell` — and can hand the ticket over immediately, e-mail a receipt, or put it straight onto a scanned person's account. A customer who wants to pay by card scans the QR on the page and buys on their own phone. See [Shop](/manager-guide/shop/).
+The desk sells the same catalog for cash — `Check-in → Sell` — and can hand the ticket over immediately, e-mail a receipt, or put it straight onto a scanned person's account. The receipt e-mail has a language picker that starts on the language of the event's country, so a visitor from abroad can get theirs in English or another app language. A customer who wants to pay by card scans the QR on the page and buys on their own phone. See [Shop](/manager-guide/shop/).
 
 ![The desk sell page](/assets/images/shop/desk-sell.png)
 

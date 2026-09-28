@@ -83,7 +83,7 @@ What the import does:
 
 You can run it as often as you like. The normal rhythm is once when the period closes, and once more after late approvals or cancellations.
 
-The **Imported** check in the registrations list means "the registration and the lineup agree": an approved registration has its participant, or a cancelled one has none. An approved registration without the check, or a cancelled one with a participant still in place, is the signal to run the import again. Once a registration is imported, dancers can no longer edit it themselves; a manager edits it instead.
+The **Imported** check in the registrations list means "the registration and the lineup agree": an approved registration has its participant, or a cancelled one has none. An approved registration without the check, or a cancelled one with a participant still in place, is the signal to run the import again. Above the list, a banner counts the approved registrations that are not imported yet (for example "3 approved registrations are not imported yet"), whether they came from the dancer, the club or the check-in desk on the day, with the **Update/import participants** button beside it. Once a registration is imported, dancers can no longer edit it themselves; a manager edits it instead.
 
 Things to know:
 
@@ -96,7 +96,14 @@ Things to know:
 The next steps, in the order the system expects them:
 
 1. `Competition → Participants` — check the lineup per class. Add or correct participants by hand if needed.
-2. **Assign start numbers** (button on the Participants page, or per class in the class footer). Choose the first number, whether a dancer keeps the same number across classes, and whether the order is randomised. This has to happen **before** participants are added to rounds; afterwards the button refuses.
+2. **Assign start numbers** (button on the Participants page, or per class in the class footer). This has to happen **before** participants are added to rounds; afterwards the button refuses. The dialog asks:
+   - **Start with number** (10 by default). It can be as low as 1; below 10 the dialog warns that single-digit numbers can be mistaken for placements at the prize ceremony.
+   - **Start each class on an even ten** (on by default): every class after the first jumps up to the next ten.
+   - **Free numbers between classes** (3 by default): numbers left unused before the next class starts.
+   - **Reuse numbers**: a dancer keeps the same number across classes.
+   - **Randomize order**.
+
+   To number the whole competition in one unbroken series, turn **Start each class on an even ten** off and set **Free numbers between classes** to 0. With **Reuse numbers** still on, competitors who already have a number keep it, so the series will not be continuous; the dialog warns about this. Delete the start numbers first, or set **Reuse numbers** to disabled.
 3. **Print start numbers** from the same page.
 4. `Classes` → open the class and its rounds → **Add participants** puts the class's participants into the first round. The button only appears when the class has participants that are not yet in the round.
 5. `Event → Schedule` plans the rounds on days, floors and times (see [Schedule and conflicts](/manager-guide/schedule/)). The schedule structure can be built before the import, but participant counts, heat counts and estimated end times only fill in once the participants exist and are in rounds.
@@ -147,7 +154,7 @@ Recommended image style for screens and match presentations:
 
 There are three check-in mechanisms, and they are independent:
 
-- **Club check-in** (`Manager → Competition → Checkin`): each club confirms its whole roster for the day and signs. The manager opens a check-in window, follows the cancellation report, and applies the check-in to the competition. This is what decides who dances.
+- **Organization check-in** (`Manager → Competition → Check-in`): each club confirms its whole roster for the day and signs. The manager opens a check-in window, follows the cancellation report, and applies the check-in to the competition. This is what decides who dances.
 - **The Vote4Dance ID**: every dancer has a personal QR code, in the app, on their account page and in the approval email. Check-in desk staff scan it in the Check-in app to find the dancer, hand out the start number, see payment status and mark them **Arrived**. See [At the door](/manager-guide/the-door/).
 - **Tickets**: what the audience shows. Sold from the event's Tickets page or at the desk — see [Shop](/manager-guide/shop/). Dancers do not need one unless the organizer says so.
 
@@ -155,7 +162,7 @@ There are three check-in mechanisms, and they are independent:
 
 Once anybody has been marked arrived at the desk, the registrations list gains an **Arrived** column: `n/m` of the registration's members arrived today, with a filter for everyone, some or nobody. It is a live view of the entrance, not a check-in — an unconfirmed club is still cancelled when check-ins are applied, however many of its dancers walked through the door.
 
-### Club check-in controls
+### Organization check-in controls
 
 - Configure the check-in open/close window
 - Track organization-level check-in status
@@ -175,7 +182,7 @@ Once anybody has been marked arrived at the desk, the registrations list gains a
 **cancelled** when check-ins are applied. Do not apply while clubs are still working, and chase
 the clubs that have not signed before you do — otherwise you cancel dancers who are standing in
 the hall. Dancers marked **Arrived** at the desk are not protected by it either; arrival and
-club check-in are different things.
+organization check-in are different things.
 
 ### Dancer admission
 
