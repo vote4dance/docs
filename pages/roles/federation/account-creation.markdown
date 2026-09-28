@@ -29,12 +29,13 @@ Adding staff needs the **Administrator** or **Owner** role. See
 | Role | Give it to | Can do |
 |---|---|---|
 | **Viewer** | Board members, auditors | Read everything, change nothing. |
-| **Manager** | The licence secretary | Issue, approve, suspend and revoke licences. Open Competitions and Statistics. |
-| **Administrator** | Whoever runs the federation's structure | Everything a Manager does, plus divisions, classes, rules, rankings, class memberships, approving clubs, Stripe, settings. Can add staff up to Manager. |
+| **Manager** | The licence secretary, and whoever handles clubs | Licences (issue, approve, edit, suspend, remove), approving clubs and licence issuers, class memberships. Open Competitions and Statistics. |
+| **Administrator** | Whoever runs the federation's structure | Everything a Manager does, plus divisions, classes, rules, rankings, Stripe and settings; age moves and recalculating progress; club transfers, moving an approved licence to another club, and removing a club. Can add staff up to Manager. |
 | **Owner** | The person ultimately responsible | Everything, including making others Administrator or Owner. |
 
-**Approving clubs needs Administrator**, not Manager. A licence secretary who also approves
-clubs needs Administrator. See [Federation staff roles](/federation/staff-roles/).
+A Manager covers the day-to-day licence and club work. Club transfers, age moves and moving an
+approved licence to another club need an Administrator. See
+[Federation staff roles](/federation/staff-roles/).
 
 ## Step 4: Make sure you are not the only one
 

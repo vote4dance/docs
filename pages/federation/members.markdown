@@ -36,16 +36,17 @@ Old links still work: `/dancer?user=…` opens the Dancers tab, `/organization` 
 
 **Members** appears in the navigation for Managers, Administrators and Owners. A Viewer does not see it in the menu, but can open a link to it and read every tab. See [Federation staff roles](/federation/staff-roles/).
 
-Every change on this page is checked by the server, which needs **Administrator** or higher. A Manager sees the buttons for several of these actions, but the server refuses the save.
+Every change on this page is checked by the server. Class memberships and club approval are Manager work; recalculating, age moves, removing a club and transfers need **Administrator** or higher. Where a Manager can't use an action, the page says an Administrator is needed.
 
 | Action | Where | Role needed |
 |---|---|---|
 | Read any tab | All tabs | Viewer |
-| Add, edit or remove a class membership | Competitors | Administrator |
+| Add, edit or remove a class membership | Competitors | Manager |
 | **Sync federation progress** | Competitors | Administrator |
 | Preview and run the **Age-up batch transition** | Competitors | Administrator |
 | Search for a dancer | Dancers | Administrator |
-| Approve an organization, allow or revoke license issuing, remove it from the federation | Organization page | Administrator |
+| Approve an organization or mark it pending, allow or revoke license issuing | Organization page | Manager |
+| Remove an organization from the federation | Organization page | Administrator |
 | Assign or change a competitor's organization, rename a competitor | Organization page, **Transfers** tab | Administrator |
 
 The History and Enforcement log tabs are read-only for everyone.
@@ -173,12 +174,12 @@ This tab only reads. To act on a license, use the license pages; see [Federation
 
 The **Organizations** tab (`?tab=clubs`) lists the clubs linked to the federation, sorted by tag and then name. Each row shows the club's tag, its name, **approved** or **pending**, and **issuer** when the club may issue licenses. **Search by tag, name, city, email, or license role** filters the list.
 
-Click a club to open its page. There, an Administrator can:
+Click a club to open its page. There:
 
-- **Approve organization** or **Mark pending**.
-- **Allow license issuing** or **Revoke license issuing**.
-- **Remove from federation**.
-- On the **Transfers** tab: **Assign organization**, **Change organization** and **Rename competitor**.
+- a Manager can **Approve organization** or **Mark pending**, and **Allow license issuing** or
+  **Revoke license issuing**
+- an Administrator can also **Remove from federation**, and on the **Transfers** tab use
+  **Assign organization**, **Change organization** and **Rename competitor**
 
 What each of these does to licences, teams and representation is covered in [Club transfers](/federation/club-transfers/) and [Federation admin licenses](/federation-licenses/federation-admin/).
 
@@ -245,7 +246,7 @@ The same log, limited to one competitor, is shown when you expand a row on the [
 | **The lineup is missing a required dance role for this class** | The category requires a role, such as leader or follower, that no member has. |
 | **Does not meet the minimum age requirement for this class** / **Exceeds the maximum age for this class** | A member's age does not fit the class's age group on the **Effective from** date. See [Age category rules](/federation-rules/age-category-rules/). |
 | **A birthdate is required for every team member in this age group.** | A member has no birthdate on their account. |
-| A save fails with a permission error | Your role is below Administrator. See [Who can do what](#who-can-do-what). |
+| A save fails with a permission error | Your role is too low for that action. See [Who can do what](#who-can-do-what). |
 
 ---
 

@@ -27,8 +27,9 @@ everywhere you have access**, before you remove yourself.
 
 - **On each event:** `Manager → Event → Users`, search for their account and tick **Manager**,
   plus any other apps they will use. They need a personal Vote4Dance account first.
-- **In each club:** give them the role you have, under **Administration → Permissions**. A club's
-  last administrator cannot leave, so promote someone else to Administrator first.
+- **In each club:** give them the role they need under **Administration → Permissions**, up to
+  **Manager**. If they must become **Administrator**, ask Vote4Dance support: club administrators
+  cannot give that role. A club's last administrator cannot leave, so do this first.
 - **Stripe:** make sure the new person can reach the Stripe account the competition is
   connected to, or connect the new account in Manager. Connecting Stripe needs the Manager role.
 - **Contact email:** update it on the event's details page.

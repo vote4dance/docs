@@ -18,7 +18,7 @@ page explains what a club can do in your federation, and what you decide for eac
 | **Approved** or **pending** | The club's page, `Federation → Members → Organizations` | Until you approve a club, no licence naming that club can be issued. |
 | **Licence issuer** or not | The same page, **Allow license issuing** | Whether the club can hold licences for items whose organization mode is `Required`. |
 
-Both need the **Administrator** role. How a club applies and how you approve it:
+Both need the **Manager** role or higher. How a club applies and how you approve it:
 [Joining a federation](/federation/joining-a-federation/).
 
 ## What you decide per licence item
