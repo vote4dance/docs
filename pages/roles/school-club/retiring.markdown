@@ -37,10 +37,11 @@ the federation is set by the federation. See [Retiring](/dancer/retiring/).
 
 ## An administrator leaves
 
-1. Give another member the **Administrator** role on **Permissions** first. The last
-   administrator cannot leave the club.
+1. Make sure another Administrator is in place first. Only Vote4Dance support can make someone
+   an Administrator, and the last administrator cannot leave the club.
 2. Check the licence approvals and payments they handled have a new owner (**Manager** or higher).
-3. They leave with **Leave organization**, or another administrator removes them.
+3. They leave with **Leave organization**. Another administrator cannot remove them; if they
+   cannot do it themselves, Vote4Dance support can.
 
 ## The club itself stops
 

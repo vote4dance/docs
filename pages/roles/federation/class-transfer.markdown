@@ -40,7 +40,8 @@ When an organizer **closes** a competition in your federation:
 
 ## Manual moves and corrections
 
-On `Federation → Members → Competitors`, with the **Administrator** role:
+On `Federation → Members → Competitors`. Editing memberships needs the **Manager** role;
+**Sync federation progress** needs **Administrator**:
 
 | Task | How |
 |---|---|

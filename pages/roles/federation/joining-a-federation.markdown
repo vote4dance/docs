@@ -21,7 +21,8 @@ Clubs apply to you from their own side (`Organization → Administration → Fed
 | **Allow license issuing** | A separate switch. Approved but without it, "This organization is linked to the federation but cannot issue licenses"; with it, the club "can issue or manage federation licenses where an organization is required". |
 
 Both are buttons on the club's page (**Approve organization**, **Allow license issuing**), and
-both need the **Administrator** role. A Manager sees the buttons, but the save is refused. See
+both need the **Manager** role or higher. Removing a club from the federation needs an
+Administrator. See
 [staff roles](/federation/staff-roles/).
 
 A club belongs to one federation at a time, so a club moving to you has to detach from its
@@ -53,7 +54,7 @@ and results, and fixing that later needs [Club transfers](/federation/club-trans
 | A club's dancers cannot get licences | The club is still **pending**. Approve it, then the licences can be approved. |
 | The club is approved but cannot apply for licences that need a club | **Allow license issuing** is not on. |
 | A club says it cannot apply to you | A club belongs to one federation at a time. It must detach from its current one first. |
-| Approving fails with a permission error | Your role is Manager. Approving needs Administrator. |
+| Approving fails with a permission error | Your role is Viewer. Approving needs Manager or higher. |
 
 ## Where to read more
 

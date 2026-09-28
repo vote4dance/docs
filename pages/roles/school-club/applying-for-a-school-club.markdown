@@ -47,7 +47,8 @@ person, **Add**. They must already have a Vote4Dance account. There is no invita
 
 ## Before you tell members to join
 
-- At least two people have the **Administrator** role.
+- At least two people have the **Administrator** role. Only Vote4Dance support can add the
+  second one, so ask early.
 - Someone with **Manager** or higher will approve applications, if **Member approval** is on.
 - The club's details are complete.
 

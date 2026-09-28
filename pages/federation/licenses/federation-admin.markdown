@@ -26,9 +26,10 @@ Different parts of the license workflow require different [staff roles](/federat
 | Task | Minimum role |
 |---|---|
 | View licenses, items, organizations | Viewer |
-| Issue, approve, suspend, or revoke a license | Manager |
-| Approve or reject an organization | Administrator |
-| Grant or remove license issuer access | Administrator |
+| Issue, approve, decline, edit, suspend or remove a license, one at a time or in bulk | Manager |
+| Approve an organization or mark it pending | Manager |
+| Grant or remove license issuer access | Manager |
+| Move an approved license to another organization (reissue) | Administrator |
 | Add or edit license items (catalog) | Administrator |
 | Map license items to classes | Administrator |
 | Connect Stripe | Administrator |

@@ -28,7 +28,7 @@ Different parts need different [staff roles](/federation/staff-roles/):
 |---|---|
 | Connect Stripe | Administrator or Owner |
 | Add licence items and map them to classes | Administrator or Owner |
-| Approve clubs, and allow them to issue licences | Administrator or Owner |
+| Approve clubs, and allow them to issue licences | Manager and up |
 | Issue, approve, suspend or revoke a licence | Manager and up |
 
 ## Important: Do you actually need licenses?
@@ -112,7 +112,7 @@ what makes a licence count at registration, and it needs the **Administrator** r
 
 For items with organization mode `Required`, the club must be an **approved issuer**. Grant that
 on the club's page under `Federation → Members → Organizations` with **Allow license issuing**,
-which needs the **Administrator** role. A club that is itself
+which needs the **Manager** role or higher. A club that is itself
 still pending federation approval blocks every licence it holds.
 
 ### Step 5: Review the applications

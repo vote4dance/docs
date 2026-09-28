@@ -14,7 +14,7 @@ happened.
 ## A dancer or couple stops competing
 
 - **Class membership:** set its **Status** to **retired** on `Federation → Members → Competitors`,
-  with a **Reason**. Needs the **Administrator** role. The change is kept in **History**.
+  with a **Reason**. Needs the **Manager** role or higher. The change is kept in **History**.
 - **Licence:** nothing to do. It turns **Expired** when its window closes. Suspend or revoke it
   only if the dancer must be stopped before then.
 

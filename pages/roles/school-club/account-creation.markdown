@@ -81,16 +81,18 @@ leaves, they leave the club themselves, or Vote4Dance support removes them. Only
 make someone an Administrator of an existing club.
 
 Pick deliberately: a coach who registers dancers does not need Administrator, and the person who
-approves licences needs at least **Manager**. Give a second person Administrator so the club is
-never one forgotten password away from being stuck.
+approves licences needs at least **Manager**. The person who creates the club becomes its first
+Administrator. **A second Administrator can only be added by Vote4Dance support**, so ask for one
+early: then the club is never one forgotten password away from being stuck.
 
 Members waiting for approval show under **Members** as "Requires your action", with **Approve
 all** when a batch arrives at once.
 
 ### Step 4: Verify the setup
 
-1. Have the second administrator sign in with their own account
-2. They should see the club, its **Members** list, and be able to edit its details
+1. Have the other people with a role sign in with their own accounts
+2. They should see the club and the screens their role allows (see
+   [Club admin screens](/school-club/club-admin/))
 3. Check the club's **State** is `Active` when you are done building it
 
 If they see nothing, their role has not been set — go back to step 3.
@@ -104,7 +106,7 @@ If they see nothing, their role has not been set — go back to step 3.
 - ✓ Member approval is set the way you want it
 
 **People**
-- ✓ At least two Administrators
+- ✓ At least two Administrators (ask Vote4Dance support for the second)
 - ✓ Nobody who has left still holds a role
 - ✓ The person who handles licences is at least a Manager
 
@@ -130,8 +132,9 @@ Federations often create their clubs themselves. In that case do not create a se
 same name — duplicates split the club's dancers, results and licences.
 
 1. Sign in and look for the club on your account
-2. If it is not there, ask a federation admin to add you to it, with the **Administrator** role
-3. Once you are in, add a second administrator
+2. If it is not there, ask Vote4Dance support to make you its **Administrator**. Only support can
+   make someone an Administrator of an existing club
+3. Ask for a second Administrator at the same time
 
 ## Common issues
 

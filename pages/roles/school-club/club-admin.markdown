@@ -59,8 +59,8 @@ This screen lists the club's approved members, each with name, email and a role 
 
 Rules the screen follows:
 
-- You cannot change your own role or remove yourself. To leave, use **Leave organization** on **Home**. The last administrator cannot leave ("You are the only administrator. Promote another member to administrator before leaving.").
-- An administrator can change and remove anyone below **Administrator**, and can promote someone to **Administrator**. Another administrator's role cannot be changed or removed here.
+- You cannot change your own role or remove yourself. To leave, use **Leave organization** on **Home**. The last administrator cannot leave ("You are the only administrator. Promote another member to administrator before leaving."). Despite the wording, an administrator cannot make someone else Administrator: ask Vote4Dance support to add a second Administrator first.
+- An administrator can change and remove anyone below **Administrator**, up to **Manager**. The **Administrator** role is not offered. Only Vote4Dance support can make someone an Administrator of an existing club, or change or remove another administrator.
 - Making someone a **Coach**, **Manager** or **Administrator** also approves their membership.
 - A manager sees this screen, but the selectors and delete buttons are disabled. **Add** is shown to managers too, but the server refuses it.
 
