@@ -26,7 +26,7 @@ This role hub covers:
 3. [Applying for a school/club](/dancer/applying-for-a-school-club/)
 4. [Federation status through school/club](/dancer/federation-status/)
 5. [Registration for event](/dancer/registration-for-event/)
-6. [Creating and getting a ranking](/dancer/creating-and-getting-a-ranking/)
+6. [Results, points and rankings](/dancer/creating-and-getting-a-ranking/)
 7. [Age transfer](/dancer/age-transfer/)
 8. [Class transfer](/dancer/class-transfer/)
 9. [Renew license](/dancer/renew-license/)

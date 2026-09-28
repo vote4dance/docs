@@ -4,6 +4,9 @@ title: Federation admin
 permalink: /federation-licenses/federation-admin/
 parent: Federation Licenses
 nav_order: 1
+help:
+  federation.license: ""
+  federation.license.items: 3-manage-license-items
 ---
 
 # Federation admin
@@ -24,11 +27,11 @@ Different parts of the license workflow require different [staff roles](/federat
 |---|---|
 | View licenses, items, organizations | Viewer |
 | Issue, approve, suspend, or revoke a license | Manager |
-| Approve or reject an organization | Manager |
-| Grant or remove license issuer access | Manager |
+| Approve or reject an organization | Administrator |
+| Grant or remove license issuer access | Administrator |
 | Add or edit license items (catalog) | Administrator |
 | Map license items to classes | Administrator |
-| Connect Stripe | Owner |
+| Connect Stripe | Administrator |
 
 ## Your goals on this page
 
@@ -44,7 +47,7 @@ The full federation admin license workflow now spans four places:
 1. `Licenses` for issued licenses and license items
 2. `Organizations` for issuer role on organizations
 3. `Division -> Discipline -> Class -> License rules` for accepted class products
-4. `Division -> State` for class memberships and progress, while `Organizations -> [organization]` holds representation rows
+4. `Federation → Members` (Competitors tab) for class memberships and progress, while `Organizations -> [organization]` holds representation rows
 
 You will normally use the admin license workflow for these jobs:
 
@@ -395,7 +398,7 @@ Use `Organizations` for federations where only approved organizations may issue 
 
 ## 7. Manage class memberships and progress
 
-Use `Division -> State` for division-scoped class memberships and progression rows.
+Use `Federation → Members`, on the [Competitors tab](/federation/members/#competitors), for class memberships and progression rows. A division only filters this roster.
 
 Use this page when you need to:
 
@@ -403,7 +406,7 @@ Use this page when you need to:
 - add or remove class membership rows
 - review or edit progress rows for a team inside that division
 
-This page is division-scoped. Representation stays on the organization detail page instead.
+Representation stays on the organization detail page instead.
 
 ## 8. What federation admin should check during rollout
 

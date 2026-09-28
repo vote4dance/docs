@@ -6,65 +6,54 @@ parent: Dancer
 nav_order: 8
 ---
 
-# Dancer class transfer
+# Moving up a class
 
-Class transfer means moving from one competitive class to another because of progression or federation decision.
+> **Does this apply to you?** Only if your federation uses class levels with promotion points. Many events have no class levels at all. Ask your federation or club how it works for you.
 
-## What this step is for
+A class transfer is when your couple or team moves to a higher class level, for example from
+class C to class B. It is usually **automatic**, driven by promotion points. You do not apply
+for it.
 
-This step helps dancers understand when class changes happen and who confirms them.
+**What you need to do:** check your class before you register for your next competition.
+Registering in the class you have already left is the most common mistake.
 
-## Who owns the decision
+## How it works
 
-The federation owns the class decision.
+1. Every competition entry earns promotion points, based on your placement.
+2. When the organizer **closes** the competition, the points are added to your couple's total in
+   that class.
+3. When the total reaches the class's points limit, your couple moves to the next class
+   **straight away**. The move is recorded in your history.
 
-The school or club often notices the issue first.
+Closing can happen days after the competition. Until then, your points and class do not change.
 
-The dancer should not assume they can choose either the old or new class freely.
+The full mechanism is on [Promotion points](/federation/progression/).
 
-## How it actually works
+## Points belong to the couple
 
-Class changes are driven by **promotion points** (U-poäng), and they are automatic:
+Promotion points and class belong to the **couple or team**, not to each dancer. If you start
+dancing with a new partner, you are a new couple, with no points yet.
 
-1. Every competition entry carries the points earned at that competition.
-2. When a competition is **closed**, the federation side sums those points per class
-   membership.
-3. A competitor reaching their class's threshold is **moved to the target class immediately**,
-   with the reason recorded in their history.
+In a federation that requires class membership, a new couple can register for the **entry-level**
+classes, and is placed in the
+class when it registers. Higher classes stay closed to it until the federation places the couple
+there, or its points in the class below allow it to move up. If you think your new couple should
+start higher, for example because you both danced in a higher class before, ask your federation
+before you register.
 
-So a class change is usually not something anyone applies for — it happens when a competition
-closes. What you should do is check your class *before* you register for the next event, because
-registering in the class you have left is the common mistake.
+## Manual changes
 
-An official can also correct points by hand, and a federation can move a competitor manually.
-Both are recorded.
+A federation official can correct points, and the federation can move a couple by hand, for
+example as an approved exception. Both are recorded in your history.
 
-The full mechanism, including where a points value comes from and what happens on re-processing:
-[Promotion points](/federation/progression/).
+## If something looks wrong
 
-## Common reasons class transfer happens
-
-- points or ranking progression
-- partner or team identity changes
-- federation-approved exception handling
-- corrected history from a previous event
-
-## Common blockers
-
-- The dancer registers using an old class level.
-- The club and federation have different assumptions about status.
-- A manual exception exists but was not communicated clearly.
-
-## What success looks like
-
-The dancer competes in the class the federation expects, and the change is reflected consistently in later events.
-
-## What to do in practice
-
-- Check your current class before registering for a new event.
-- If you changed partner, team, or competitive level, ask whether that affects class state.
-- If the club and federation seem to disagree, stop and get a confirmed answer before competing.
+| What you see | What to do |
+|---|---|
+| You expected to move up, but have not | Check that the competition is closed. If it is, ask your federation to check your points. |
+| Your points are split over two couples | A wrong person number on an entry created a duplicate couple. Tell your federation. |
+| Your club and federation disagree about your class | Get a confirmed answer from the federation before you register. |
 
 ## Next step
 
-Continue to [Renew license](/dancer/renew-license/) when preparing for the next season.
+Continue to [Renew license](/dancer/renew-license/) when you prepare for the next season.

@@ -23,12 +23,12 @@ Widgets are read-only and require no login from your visitors.
 
 ## Step 1: Generate your embed key
 
-1. Open **Vote4Dance → your club → Settings**.
-2. Find the **Embed widget** section.
-3. Click **Generate key**.
-4. Copy the key — it starts with `pk_embed_`.
+1. Open your club in Vote4Dance and stay on its **Home** page.
+2. Find the **Website embeds** card. It is only shown to the club's administrators.
+3. Click **Enable website embeds**.
+4. Copy the key with **Copy key** — it starts with `pk_embed_`. **Copy embed code** copies a ready-made snippet instead.
 
-You can rotate or disable the key at any time. Rotating immediately stops the old key from working.
+You can rotate the key (**Rotate key**) or turn embeds off (**Disable**) at any time. Rotating immediately stops the old key from working.
 
 ---
 

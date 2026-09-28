@@ -6,32 +6,28 @@ parent: Scrutineer
 nav_order: 7
 ---
 
-# Scrutineer age transfer impacts
+# Age questions at an event
 
-Age transfer issues can surface in live event data even when the scrutineer does not approve the underlying policy.
+You do not decide age groups. The federation does, with its age rules, and registration checks
+them: a dancer or couple that does not fit a class's age group cannot register for it. So an age
+problem you see at an event is usually a data problem, not a rule problem.
 
-## The mechanism, in one paragraph
+## How ages are decided
 
-Age moves are a once-per-season batch, not a continuous rule: the federation runs an **age-up batch
-transition** that previews every candidate in the federation and moves only the ticked ones, into
-the same class one age group up. Age is counted by birth year (`season-end year − birth year`), the
-**oldest** member of a couple decides, and a move is blocked when not everyone fits the target
-class's age band. See [Age moves](/federation/age-moves/).
+- Age is counted by **birth year**, for the year the season ends, not by birthday.
+- For a couple or group, the **federation's rules** decide whose age counts: for example the
+  oldest member, or every member. See [Age category rules](/federation-rules/age-category-rules/).
+- At the start of each season the federation moves competitors up an age group in one batch. See
+  [Age moves](/federation/age-moves/).
 
-## What this step is for
+## If a participant looks wrong for their age group
 
-This step explains how scrutineers should recognize and escalate age-category inconsistencies.
-
-## How it works
-
-1. Notice unusual category assignments.
-2. Flag the issue early.
-3. Escalate to organizer or federation staff.
-4. Avoid inventing a local policy on the fly.
-
-## What success looks like
-
-Age-related problems are escalated quickly before they distort results or later disputes.
+1. **Before the event:** tell the organizer. They can correct the registration, or the dancer can
+   cancel and register again while the period is open.
+2. **On the day:** decide with the organizer, and the federation's representative if there is
+   one, before the class starts. Do not change results to fix an entry problem afterwards.
+3. **After the event:** age groups and class memberships belong to the federation. Report it to
+   them, with the participant, the class and the dancers' birth years.
 
 ## Next step
 

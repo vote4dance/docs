@@ -6,38 +6,53 @@ parent: Federation
 nav_order: 5
 ---
 
-# Federation event registration policy
+# What your rules do at event registration
 
-Federations do not usually enter every registration themselves, but they define the rules that determine whether registrations are allowed.
+You do not enter registrations. But when an event runs under your federation, **your rules decide
+who may register for which class**, and Vote4Dance checks them automatically when a dancer, club or
+organizer registers.
 
-## What this step is for
+## How an event comes under your federation
 
-This step defines the registration policies that organizers and dancers experience during event entry.
+The organizer chooses your federation when creating the event, or later on the event's details
+page. There is no approval step on your side. The event then appears on
+`Federation → Competitions`. See [Competitions](/federation/competitions/).
 
-## How it works
+The organizer maps each of their classes to one of your **Federation Classes**. That mapping is
+what brings your rules into their event.
 
-1. Decide whether licenses are required for registration.
-2. Define age and class eligibility rules.
-3. Define any special federation restrictions.
-4. Make sure those rules are clear before events open.
-5. Use enforcement and support workflows when registrations are blocked.
+## What is checked at registration
 
-## What this affects
+| Check | Where you set it |
+|---|---|
+| **Licences:** which licence items a class requires | The class's **License rules**. See [Divisions](/federation/divisions/#licenses). |
+| **Age:** whether the competitor fits the class's age group | Age groups and [age category rules](/federation-rules/age-category-rules/) |
+| **Team size and dance roles** | Category rules. See [How class rules work](/federation-rules/reference/). |
+| **Who may register a competitor:** anyone, a member of the team, or the club | The rules editor, in the layer's **Rules** section under `Federation → Structure` |
+| **Custom team names** allowed or not | The rules editor, in the layer's **Rules** section under `Federation → Structure` |
+| **Which club a dancer represents**, if dancers must choose | The rules editor, in the layer's **Rules** section under `Federation → Structure` |
 
-- organizer setup
-- dancer registration success
-- eligibility enforcement
-- support volume during registration periods
+A class a competitor cannot enter is shown to them as locked, with the reason, before checkout.
+Check the combined result of all your rules in `Federation → Rulebook`.
 
-## Common blockers
+## When a dancer says they are blocked
 
-- Federation policy is changed too late.
-- Organizers assume policy instead of checking it.
-- Dancers only discover the rules when registration already blocks them.
+1. Open `Federation → Members → Dancers` and search for the dancer (searching needs the
+   **Administrator** role). You see their licences, competitors and class memberships, and the
+   latest rule decisions.
+2. Check the **Enforcement log** for `registration` entries. Each one says why the registration
+   was allowed or blocked.
+3. Most blocks are a licence that is not **Active**, a missing birth date, or a class the
+   competitor has moved out of.
 
-## What success looks like
+See [Members](/federation/members/#dancers).
 
-Registration rules are consistent, understandable, and enforced without surprise.
+## Before the season's first registrations open
+
+- Every class that should require a licence has its **License rules** set.
+- Your age groups and rules are final. Changes during a registration period affect people halfway
+  through registering.
+- You have told clubs and organizers which licences are needed.
 
 ## Next step
 

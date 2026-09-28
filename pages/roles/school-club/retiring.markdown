@@ -6,87 +6,51 @@ parent: School/Club
 nav_order: 10
 ---
 
-# School or club retiring members or teams
+# When members, teams or the club stop
 
-Organizations need a controlled retirement process for inactive members and teams so active operations stay clean while historical context remains intact.
+Removing a member from the club does not delete their results, rankings or class history.
 
-## What this step is for
+## A member leaves or stops competing
 
-You offboard inactive members/teams safely, close open dependencies, and preserve audit/history quality.
+Club members have **no retired or inactive state**. A member is either in the club or not.
 
-## Step-by-step
+1. **Cancel their open registrations** on `Organization → Administration → Registration`, while
+   the registration period is open. After that, ask the organizer.
+2. **Stop applying for their licence.** It turns **Expired** by itself when its validity window
+   closes.
+3. **If they had a role** (Coach, Manager, Administrator), give that work to someone else first.
+4. **Remove them from the club**, if they are leaving: the delete button on their row on
+   **Permissions**. Only an administrator can do it. A member can also leave on their own with
+   **Leave organization** on the club's **Home**.
 
-### Step 1: Identify retirement candidates
+A dancer who retires from competing does not need to leave the club. Their dancer's status at
+the federation is set by the federation. See [Retiring](/dancer/retiring/).
 
-Review members/teams with:
+## A team stops
 
-- no planned participation
-- expired or non-renewed status
-- confirmed departure from organization
+- **A couple or group with no active registrations** can be deleted: **Delete** in its edit window on
+  **Competitors**. The button is disabled while the competitor has active registrations;
+  cancel those first.
+- **A club-owned couple** that leaves the club to compete on its own is released by the federation.
+  See [Club transfers](/federation/club-transfers/).
+- **A group or formation moving to another club** is moved by the federation. The club cannot do it.
 
-### Step 2: Check open dependencies
+## An administrator leaves
 
-Before retirement, verify no unresolved dependencies:
+1. Give another member the **Administrator** role on **Permissions** first. The last
+   administrator cannot leave the club.
+2. Check the licence approvals and payments they handled have a new owner (**Manager** or higher).
+3. They leave with **Leave organization**, or another administrator removes them.
 
-- pending registrations
-- unresolved licenses/approvals
-- active event assignments
+## The club itself stops
 
-### Step 3: Execute retirement state change
+Set the club's **State** to `Retired` in **Edit organization** on the club's **Home**. Before you
+do:
 
-For each member/team:
-
-1. set status to inactive/retired
-2. remove from active roster views
-3. keep historical references intact
-
-### Step 4: Transfer responsibilities when needed
-
-If departing member was an admin/coach:
-
-1. reassign responsibilities
-2. verify replacement access
-3. remove elevated permissions from departing user
-
-### Step 5: Archive and document
-
-Store clear notes:
-
-- retirement date
-- reason category
-- replacement owner (if any)
-- related event/federation impact
-
-## Common blockers and fixes
-
-### "Retired member still appears in active workflow"
-
-Fix:
-
-1. check status sync across member/team views
-2. remove stale active assignments
-3. refresh any cached exports/reports
-
-### "Team was retired but still linked to future event"
-
-Fix:
-
-1. remove future event links
-2. notify organizer of lineup change
-3. verify no orphan schedule references remain
-
-### "Historical data was accidentally removed"
-
-Fix:
-
-1. restore from audit/backups if available
-2. use retire/inactive state, not destructive delete
-3. reinforce offboarding checklist
-
-## What success looks like
-
-Active rosters stay accurate, historical records remain understandable, and retiring members/teams do not create hidden operational issues.
+- cancel open registrations
+- tell the federation, and detach from it on **Federation**
+- tell members, so they join another club, and ask the federation to move their licences
 
 ## Next step
 
-Return to [School/Club](/school-club/) to review the full role map.
+Return to [School/Club](/school-club/) to see all the steps.

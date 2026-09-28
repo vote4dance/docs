@@ -16,8 +16,8 @@ This step connects the scrutineer to the organization context used for support, 
 
 ## How it works
 
-1. Apply to the club. If it has **Member approval** switched on, a manager or coach there approves
-   you; otherwise you are in immediately.
+1. Apply to the club. If it has **Member approval** switched on, a manager or administrator there
+   approves you; otherwise you are in immediately.
 2. You will be a **Member** unless somebody gives you more. That is usually right: Member is what
    you need to be represented and to hold a club-linked licence, and nothing about scrutineering
    requires club admin rights.

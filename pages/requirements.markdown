@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Technical requirements
-permalink: /requirements
+permalink: /requirements/
 parent: Getting Started
 nav_order: 2
 ---

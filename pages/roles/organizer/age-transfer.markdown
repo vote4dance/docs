@@ -1,131 +1,52 @@
 ---
 layout: page
-title: Age transfer coordination
+title: Age and class transfers
 permalink: /organizer/age-transfer/
 parent: Organizer
 nav_order: 7
 ---
 
-# Organizer age transfer coordination
+# Age and class transfers at your event
 
-Age transfer means a dancer or team belongs in a different age category due to federation rules for the season.
+Age moves and class moves are decided by the **federation**, not by you. You do not approve them
+and you do not run them. What matters for you is that registration checks them for you, and
+what to do when a dancer says they are in the wrong class.
 
-## The mechanism, in one paragraph
+| Move | Who does it | When |
+|---|---|---|
+| **Age move** (same class, next age group) | The federation, in one batch. | At the start of each season. See [Age moves](/federation/age-moves/). |
+| **Class move** (next class level) | Vote4Dance, automatically, from promotion points. | When a competition the couple danced in is closed. See [Promotion points](/federation/progression/). |
 
-Age moves are a once-per-season batch, not a continuous rule: the federation runs an **age-up batch
-transition** that previews every candidate in the federation and moves only the ticked ones, into
-the same class one age group up. Age is counted by birth year (`season-end year − birth year`), the
-**oldest** member of a couple decides, and a move is blocked when not everyone fits the target
-class's age band. See [Age moves](/federation/age-moves/).
+## What registration checks for you
 
-## What this step is for
+Each of your classes maps to a **Federation Class**, which carries its age and level rules. When
+a dancer or couple registers, Vote4Dance checks them against those rules:
 
-You coordinate age-category correctness before event day. You usually do not approve policy, but you must detect edge cases early and escalate for decisions.
+- Age is counted by **birth year**, for the season the competition belongs to.
+- For a couple or team, the federation's rules decide whose age counts.
+- A class the couple cannot enter is shown to them as locked, with the reason.
 
-## Where to do it
+So you do not need to check ages or classes by hand. If the Federation Class on each of your
+classes is right, registration enforces the rest.
 
-Use:
+## Things to check yourself
 
-- registration data review in Manager
-- class eligibility rules in competition setup
-- federation support channel for edge-case approval
+1. **Early in a season**, dancers may not have been moved yet, or may register in the class they
+   have just left. Look over the entries in each class before you import participants.
+2. **Birth dates.** A dancer with no birth date on their account can be blocked from classes that
+   need one. They add it themselves in their account settings.
+3. **Classes you run** for each age group and level. If a couple has moved up and your event has no
+   class for their new age group or level, they have nowhere to register.
 
-## Before you start
+## When a dancer says they are in the wrong class
 
-Prepare:
-
-- federation age policy for current season
-- registration fields that capture birth year/date
-- cutoff-date rule (if federation uses one)
-
-## Step-by-step
-
-### Step 1: Confirm the exact federation age rule
-
-Document:
-
-- age bands (example: U10-U12, U13-U15)
-- cutoff rule (example: age at Jan 1)
-- exceptions process
-
-Do not rely on last season's memory.
-
-### Step 2: Ensure required age data is mandatory
-
-In registration form settings, require:
-
-- birth year (minimum)
-- birth date (if federation requires exact date)
-
-If data is optional, you will get event-day disputes.
-
-### Step 3: Run an age validation pass before close
-
-Before registration closes:
-
-1. export or filter entries by age fields
-2. flag borderline entries
-3. flag missing or inconsistent birth data
-4. contact affected participants for correction
-
-### Step 4: Escalate edge cases to federation
-
-For unclear cases, send federation:
-
-- participant ID
-- declared birth data
-- intended class
-- why case is ambiguous
-
-Wait for written decision before locking class assignment.
-
-### Step 5: Apply confirmed category consistently
-
-Once decided:
-
-1. update participant class assignment
-2. update any related round assignment
-3. add note in audit log with decision reference
-
-### Step 6: Freeze age-related changes at cutoff
-
-Define final cutoff (example: 48 hours before event start).
-
-After cutoff:
-
-- only federation-approved exceptions
-- all changes logged with reason
-
-## Common blockers and fixes
-
-### "Birth data is missing"
-
-Fix:
-
-1. hold registration approval
-2. request missing data
-3. release only after validation
-
-### "Participant was entered in wrong age class"
-
-Fix:
-
-1. move participant to correct class
-2. recalculate affected rounds if needed
-3. notify participant/team and staff
-
-### "Edge case unresolved near event day"
-
-Fix:
-
-1. escalate to federation immediately
-2. mark participant as pending
-3. avoid manual local override without federation sign-off
-
-## What success looks like
-
-All participants are in correct age categories before event start, and event-day age disputes are rare and quickly resolved.
+| Situation | What to do |
+|---|---|
+| The dancer registered in the wrong class by mistake | They cancel and register again while the period is open, or you correct the registration in Manager. |
+| The dancer thinks the federation has them in the wrong class or age group | Send them to their federation. You cannot change a couple's class or age group. |
+| It is found after you imported participants | Correct the participant in Manager, check the rounds it is in, and run **Update/import participants** again if you changed the registration. |
+| It is found on the day | Decide with the federation's representative or chief scrutineer before you move anyone. |
 
 ## Next step
 
-Continue to [Class transfer coordination](/organizer/class-transfer/) if progression or class eligibility also needs review.
+Continue to [New season](/organizer/renew-license/).

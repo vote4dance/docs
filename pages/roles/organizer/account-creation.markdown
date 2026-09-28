@@ -12,13 +12,15 @@ This is the first step in the organizer workflow. The goal is to make sure the r
 
 ## What this step is for
 
-An organizer account gives a person access to the Manager app — the control center for event planning and live operations. You must create a personal account and receive organizer permissions before any event can be configured.
+An organizer uses the Manager app to set up and run events. There is no separate organizer
+account type: you create an ordinary personal Vote4Dance account, and then either create an event
+yourself or are added to someone else's event.
 
 ## Who does this step
 
-You create this personal Vote4Dance account yourself, then:
-- **If you're the first organizer**: Activate your own organizer role (directly)
-- **If organizers already exist**: Ask an existing administrator to grant you access
+You create your personal account yourself. Then:
+- **You create the event:** you are its first Manager automatically.
+- **Someone else owns the event:** they add you to it and tick **Manager**.
 
 ## Where to go
 
@@ -32,8 +34,7 @@ Gather these details:
 
 - Your first and last name
 - Your email address
-- The name/details of your organization (if creating one) OR the name of the existing organization you're part of
-- Names of 1-2 other trusted people who should share admin access
+- The names of one or two other people who should also have Manager on your events
 
 ## Step-by-step: Create account and get Manager access
 
@@ -89,13 +90,13 @@ Two things worth knowing:
 2. Open the event; you should see one tile per app you have been given
 3. Open **Manager** and confirm you can reach the event's setup pages
 
-If you don't see Manager or get "Permission Denied":
-- You might not have been added to the organization yet (ask your admin)
-- Your role might not include organizer permissions (ask your admin to update it to Manager or Administrator)
+If you don't see the Manager tile, nobody has ticked **Manager** for you on that event yet. A role
+in a club or federation does not give you Manager on an event; only the event's own Users list
+does.
 
-## Critical: Backup Administrator
+## Add a second Manager
 
-**Do NOT be the only administrator.** If you leave or your account gets locked, the event becomes inaccessible.
+**Do not be the only Manager.** If you are ill on the day or leave, somebody else must be able to run the event.
 
 **Best practice:**
 
@@ -137,10 +138,12 @@ Lineup, Check-in, Cafe or Organizer. Ask for the app you actually need to be tic
 
 - You can sign in with your email and password
 - You can click **Manager** and see event configuration options
-- You can create a new event or access an existing one
-- You can edit event details (not read-only)
-- At least one other person has also been added as Administrator
+- You can create a new event or open an existing one
+- You can edit the event's details
+- At least one other person has also been given **Manager** on the event
 
 ## Next step
 
-Continue to [Getting a license](/organizer/getting-a-license/) if the federation requires organizer licensing.
+Continue to [Planning your first competition](/manager-guide/first-competition/) to see what you
+need to set up, or to [Licences](/organizer/getting-a-license/) if your event runs under a
+federation.

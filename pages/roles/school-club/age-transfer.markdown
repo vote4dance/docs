@@ -1,101 +1,50 @@
 ---
 layout: page
-title: Age transfer support
+title: Age transfer
 permalink: /school-club/age-transfer/
 parent: School/Club
 nav_order: 7
 ---
 
-# School or club age transfer support
+# Age moves for your club's competitors
 
-Schools and clubs often detect age-category changes before organizers do. Early correction prevents event-day disputes.
+At the start of each season, the **federation** moves competitors that have outgrown their age
+group into the same class one age group up. The club does not run or approve this. What the club
+can do is make sure the data is right, and register its competitors in the right age group.
 
-## The mechanism, in one paragraph
+How the move works, from a dancer's side: [Age transfer](/dancer/age-transfer/). The federation's
+side, including what blocks a move: [Age moves](/federation/age-moves/).
 
-Age moves are a once-per-season batch, not a continuous rule: the federation runs an **age-up batch
-transition** that previews every candidate in the federation and moves only the ticked ones, into
-the same class one age group up. Age is counted by birth year (`season-end year − birth year`), the
-**oldest** member of a couple decides, and a move is blocked when not everyone fits the target
-class's age band. See [Age moves](/federation/age-moves/).
+## What the club should know
 
-## What this step is for
+- Age is counted by **birth year**, for the year the season ends, not by birthday.
+- For a couple or team, the **federation's rules** decide whose age counts. Often the older
+  partner decides, but some age groups need every dancer to have reached the age.
+- An age group with an upper limit must be left. From an age group with no upper limit, a couple
+  can usually stay until it starts competing in the next one.
+- Registration checks all of this. A class a competitor does not fit is shown as locked, with the
+  reason.
 
-You ensure members are registered in the correct age category according to federation rules before entries are finalized.
+## What the club can do
 
-## Step-by-step
+**Before the season:**
 
-### Step 1: Maintain accurate age data
+1. Make sure every dancer has a **birth date** on their account. Dancers add it themselves in
+   their account settings. Without it, you also cannot apply for their licence.
+2. Tell couples close to an age limit which age group they will be in, and to ask the federation
+   if they are unsure.
 
-For all active members, verify:
+**Before each registration closes:**
 
-- birth year (required)
-- birth date (if federation requires)
+1. Look over your club's entries on `Organization → Administration → Registration`.
+2. An entry in the wrong age group: cancel it and register again in the right class, while the
+   period is open. After that, ask the organizer.
 
-Missing age fields should block internal approval for event entry.
+## If the federation has a couple in the wrong age group
 
-### Step 2: Pre-season age transition review
-
-Before the season starts:
-
-1. list members near category boundaries
-2. map each member to expected season category
-3. flag ambiguous cases
-
-### Step 3: Validate before event registration closes
-
-48 hours before close, review entries for:
-
-- wrong age class
-- missing age data
-- inconsistent profile vs entry data
-
-### Step 4: Escalate edge cases
-
-If policy is unclear, escalate to federation with:
-
-- member ID
-- birth data
-- current and requested category
-- event context
-
-### Step 5: Apply confirmed category and notify
-
-After decision:
-
-1. update class/entry data
-2. notify member/coach
-3. notify organizer if schedule impact exists
-
-## Common blockers and fixes
-
-### "Member entered wrong age category"
-
-Fix:
-
-1. correct class assignment immediately
-2. verify no duplicate entry remains
-3. confirm correction with organizer
-
-### "Age data missing before deadline"
-
-Fix:
-
-1. hold internal approval
-2. collect required data
-3. submit corrected entry
-
-### "Borderline case unresolved"
-
-Fix:
-
-1. escalate early to federation
-2. mark case pending
-3. avoid local override without decision
-
-## What success looks like
-
-Age-category errors are resolved before event day and organizers receive clean, federation-aligned entries.
+The club cannot change a competitor's age group. Ask the federation, and include the couple, the
+dancers' birth years, the age group they are in and the one you expect.
 
 ## Next step
 
-Continue to [Class transfer support](/school-club/class-transfer/).
+Continue to [Class transfer](/school-club/class-transfer/).
