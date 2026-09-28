@@ -8,6 +8,8 @@ nav_order: 8
 
 # Moving up a class
 
+> **Does this apply to you?** Only if your federation uses class levels with promotion points. Many events have no class levels at all. Ask your federation or club how it works for you.
+
 A class transfer is when your couple or team moves to a higher class level, for example from
 class C to class B. It is usually **automatic**, driven by promotion points. You do not apply
 for it.

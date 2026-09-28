@@ -8,6 +8,8 @@ nav_order: 6
 
 # Results, points and rankings
 
+> **Does this apply to you?** Results apply to every event. Promotion points and rankings only apply if the event runs under a federation that uses them.
+
 After you compete, three different things can happen with your result. They are updated at
 different times and by different people, which is why one can be visible while another is not.
 
