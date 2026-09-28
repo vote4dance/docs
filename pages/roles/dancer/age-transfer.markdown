@@ -8,6 +8,8 @@ nav_order: 7
 
 # Moving to a new age group
 
+> **Does this apply to you?** Only if your federation uses age groups and moves competitors between them. How ages are counted, and whose age counts in a couple, is the federation's rule. The examples below are common, not universal. Ask your federation or club how it works for you.
+
 An age transfer (age move) is when your couple or team moves to the same class one age group up,
 for example from Juniors to Youth. You do not apply for it. The federation moves competitors at
 the **start of each season**.

@@ -8,6 +8,8 @@ nav_order: 9
 
 # Renewing your licence
 
+> **Does this apply to you?** Only if your federation requires licences. Many events do not.
+
 Renewing keeps you able to register from one season to the next.
 
 ## There is no renew button

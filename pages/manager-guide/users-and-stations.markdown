@@ -19,7 +19,7 @@ Everyone who works at a competition uses one of the Vote4Dance apps. Access is g
 | App (name in Users) | Also shown as | Who uses it | What it does |
 |---|---|---|---|
 | **Manager** | "Scrutineer" tile in English, "Sekretariat" in Swedish | The organizer and the scrutineering desk | Everything: event and competition setup, registration, participants, judges, running rounds, results, publishing. A Manager can also open every other app's data on the server, but see the note below. |
-| **Supervisor** | "Kontrollant" in Swedish | Chief scrutineer, chairperson of adjudicators, federation observer | Results oversight: judge marks and result analysis per round, publish and unpublish results, choose the floor, control the screens. Cannot change the setup. |
+| **Supervisor** | "Kontrollant" in Swedish | Chief scrutineer, chairperson of adjudicators, federation observer | Results oversight: judge marks and result analysis per round, including results that are not yet published, choose the floor, control the screens. Cannot publish results or change the setup. |
 | **Speaker** | | The MC or floor manager | The floor console: current round, lineup and heats, live status of the judges, result reveal for the prize ceremony, the schedule, and what the screens show. |
 | **Screens** | | Whoever runs the TVs and projectors | The fullscreen displays for the audience and the floor: lineups, heats, results, schedule, sponsors and so on. Display only. |
 | **Lineup** | "Insläpp" in Swedish | The person at the floor entrance | Calls the next heat, marks who is on the floor, keeps the running order. |

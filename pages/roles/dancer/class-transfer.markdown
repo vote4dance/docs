@@ -8,6 +8,8 @@ nav_order: 8
 
 # Moving up a class
 
+> **Does this apply to you?** Only if your federation uses class levels with promotion points. Many events have no class levels at all. Ask your federation or club how it works for you.
+
 A class transfer is when your couple or team moves to a higher class level, for example from
 class C to class B. It is usually **automatic**, driven by promotion points. You do not apply
 for it.
@@ -30,8 +32,14 @@ The full mechanism is on [Promotion points](/federation/progression/).
 ## Points belong to the couple
 
 Promotion points and class belong to the **couple or team**, not to each dancer. If you start
-dancing with a new partner, you are a new couple. Ask your federation which class the new couple
-starts in.
+dancing with a new partner, you are a new couple, with no points yet.
+
+In a federation that requires class membership, a new couple can register for the **entry-level**
+classes, and is placed in the
+class when it registers. Higher classes stay closed to it until the federation places the couple
+there, or its points in the class below allow it to move up. If you think your new couple should
+start higher, for example because you both danced in a higher class before, ask your federation
+before you register.
 
 ## Manual changes
 
