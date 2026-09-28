@@ -79,7 +79,7 @@ are listed on your account page.
 
 ### Step 3: Pick the class
 
-Pick the couple under **Select competitor**, open the competition and press **Add** next to the
+Pick the couple under **Select competitors**, open the competition and press **Add** next to the
 class. If a class is locked or **Add** is disabled, read the reason next to it, and see
 [If you cannot register](#if-you-cannot-register).
 
