@@ -35,7 +35,7 @@ The photo is what lets the desk recognise you when they scan your ID, and it mak
 When you show your ID, the staff member sees your name and photo, your birth date and club, and:
 
 - whether your registration admits you today, and which classes you dance
-- whether your club leader has confirmed the club check-in
+- whether your team leader has confirmed your club under **Organization check-in**
 - the tickets on your own orders, if you bought any
 
 They then mark you **Arrived**. That is all it does — it is a record that you showed up, not a check-in of your club.

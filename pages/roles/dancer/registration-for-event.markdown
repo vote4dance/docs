@@ -19,7 +19,8 @@ partner, or a group. Set up the competitor once, pick the class, pay if needed, 
 federation also follow that federation's rules. The steps below work everywhere. Things that only
 apply to some events are collected under
 [Depends on your event](#depends-on-your-event). The event's registration page always shows what
-applies to you: a class you cannot enter is shown as locked, with the reason.
+applies to you: a class you cannot enter is shown as locked, with the reason. A federation can also
+put its own registration help at the top of the **Registration** tab, above the Vote4Dance guide.
 
 ## Before you start
 
@@ -38,6 +39,9 @@ applies to you: a class you cannot enter is shown as locked, with the reason.
 4. Fill in the details the organizer asks for.
 5. Press **Pay now** to pay for everything in the cart at once, if the event takes payment. A
    class added by mistake can be removed from the cart with **×** before you pay.
+   The cart stays on screen when you switch between **As myself**, **With partner** and
+   **As coach**, and it is kept in the same browser for a day after your last change. Entries whose
+   registration period has closed, or that are already registered, are dropped from it.
 6. Check your [status](#what-your-status-means).
 
 **Entering several things?** Add them all before you pay, including a couple or duo class (see
@@ -139,9 +143,10 @@ you.
 | **…a class requires dance roles** | Set **Leader** and **Follower** on your couple. The locked class has a button that opens the couple's roles. |
 | **…only certain people may register** | Some events let only a member of the team, or only the club, register a competitor. If you are not allowed, ask your club to register you. |
 | **…the event asks which club you represent** | Pick the club from your approved club memberships. |
+| **…a group or formation class only accepts club teams** | Only a team owned by a club can enter. Ask your club to register the team. |
 | **…custom team names are not allowed** | The custom name option is hidden, and your own names are used. |
 | **…the event uses classes you move up through** | You can only enter the class you are in. Classes and age groups can change between seasons without you applying. See [Class transfer](/dancer/class-transfer/) and [Age transfer](/dancer/age-transfer/). |
-| **…your club confirms its dancers on the day** | If the organizer uses club check-in, teams their club has not confirmed are cancelled, even if you are in the hall. Make sure your club knows you are coming. |
+| **…your club confirms its dancers on the day** | If the organizer uses **Organization check-in**, teams their club has not confirmed are cancelled, even if you are in the hall. Make sure your club knows you are coming. |
 
 ## If you cannot register
 
@@ -152,6 +157,8 @@ you.
 | A class you expected is missing | The organizer may not offer it in this registration period. Ask the organizer. |
 | Your partner blocks the registration | Something is missing on your partner's account, such as a birth date or a licence. They fix it on their own account. |
 | You are not allowed to register this competitor | Ask your club to register you. |
+| "This team does not belong to a club, and only club teams can enter this class." | The class only takes teams owned by a club, and this team is independent even if its dancers are club members. A coach registers it under **As coach**: choose the club, create the team there and register that team. See [Registering your club's dancers](/school-club/registration-for-event/#step-1-set-up-the-competitors). |
+| A class says "Edit the lineup in the cart before registering", or the cart refuses a team entry | The rules are checked on the lineup that dances, with skipped and replacement dancers applied. Use **Edit lineup** in the cart to skip or replace the dancer who does not fit, for example one who is too old. Your club usually does this. |
 | None of the above | Ask the organizer. |
 
 ## Cancelling a registration

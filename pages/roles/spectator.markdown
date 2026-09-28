@@ -25,4 +25,6 @@ has_children: true
 
 You need a Vote4Dance account to buy: it is where the tickets live, on every device you sign in to. It is the same free account dancers and clubs use, and the same one you follow competitions with.
 
+Results in the app stay on screen when the venue wifi drops. The app also opens without a network and shows the results already saved on the phone; while it reconnects it says "Showing results as of" and the time they were last updated.
+
 Not every event sells tickets through Vote4Dance. When an event does, its page has a **Tickets** tab.

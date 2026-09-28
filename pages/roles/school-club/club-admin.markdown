@@ -129,7 +129,7 @@ This screen lists your club's event registrations, grouped per event. Open an ev
 
 | Action | How | Who |
 |---|---|---|
-| Change the lineup | **Edit lineup** on the row. You can use it while the entry's registration period is open and the entry is **Preliminary**, **Signed** or **Approved**. | Coach, Manager, Administrator |
+| Change the lineup | **Edit lineup** on the row. You can use it while the entry's registration period is open and the entry is **Preliminary**, **Signed** or **Approved**. The new lineup is checked against the class rules, and a replacement dancer takes over the replaced dancer's dance role. | Coach, Manager, Administrator |
 | Cancel an entry | The cancel button on the row, under the same conditions. For a club-owned competitor, only the club's coaches, managers and administrators can cancel. | Coach, Manager, Administrator |
 | See the price | **Get cost**, for approved entries not yet paid | Coach, Manager, Administrator |
 | Pay online | **Pay now** with the amount, when the event takes online payment. With manual payment you see the amount and the organizer's payment information instead. | Coach, Manager, Administrator |
