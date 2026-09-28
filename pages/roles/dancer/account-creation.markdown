@@ -28,6 +28,14 @@ Gather these details:
 - Your email address
 - Ideally, the name of the school/club you'll join (optional — you can add this later)
 
+## One account per dancer
+
+**Every dancer needs their own account**, in their own name and with their own birth date. A
+parent does not register children from the parent's account: create one account for each child.
+
+Each account needs its own email address, because the email is the sign-in name. Two children need
+two different addresses. They can belong to a parent; they just cannot be shared between accounts.
+
 ## Step-by-step: Create your account
 
 ### Step 1: Start the signup
@@ -51,8 +59,19 @@ You are **signed in immediately** — there is no confirmation email to wait for
 click. If the email is already taken, Vote4Dance says "Email already exists"; use
 **Forgot your password?** on the sign-in page rather than creating a second account.
 
-There is no birth year, club or licence on this form. Those come later, on your profile and
-through your federation.
+There is no birth date, club or licence on this form. Those come next.
+
+### Step 2: Complete your profile
+
+Open your name at the top right → **My account** → **Settings**, and fill in:
+
+- **Birth date**: classes depend on age, and licences cannot be applied for without it
+- **Gender**
+- **Nationality**
+
+Save. **Join organization** is refused with "Missing profile information" until all three are
+filled in, so do this before you look for your club. Dancers who already had an account should
+check these too.
 
 ## What your account looks like after creation
 

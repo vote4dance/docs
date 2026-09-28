@@ -29,13 +29,20 @@ applies to you: a class you cannot enter is shown as locked, with the reason.
 
 ## Registering on your own (solo)
 
-1. Open the event and go to its **Registration** tab.
-2. Open the **As myself** tab and pick yourself as the competitor, or press **Create competitor**
-   the first time.
-3. Pick the class.
+1. Sign in on vote4dance.com, open the event and go to its **Registration** tab.
+2. Open the **As myself** tab. The first time, press **Create competitor**: your name is already
+   filled in, so just press **Save changes**. Next time, pick yourself under **Select competitor**
+   instead of creating a new one.
+3. Open the competition and press **Add** next to each class you want to enter. You can add
+   several. They collect in the cart.
 4. Fill in the details the organizer asks for.
-5. Pay, if the event takes payment.
+5. Press **Pay now** to pay for everything in the cart at once, if the event takes payment. A
+   class added by mistake can be removed from the cart with **×** before you pay.
 6. Check your [status](#what-your-status-means).
+
+**Entering several things?** Add them all before you pay, including a couple or duo class (see
+below). Where the event charges per dancer, a part that has already been paid is taken into
+account, so nobody pays twice.
 
 ## Registering with a partner
 
@@ -51,8 +58,8 @@ receive the confirmation and status emails.
 
 1. On the event's **Registration** tab, open **With partner**.
 2. If your couple is in the list, pick it and go to Step 3. Otherwise press **Create competitors**.
-3. Under **Search for partner with email**, type your partner's email address and press
-   **Search**.
+3. Press **Add a partner**. Under **Search for partner with email**, type the email address of
+   your partner's Vote4Dance account and press **Search**. Your partner appears in the list.
 4. **Your partner has no Vote4Dance account yet?** When the search finds nobody, a
    **Create account for partner** section appears. Fill in their first and last name, country and
    language, and their birth date if you know it, and press **Create account for partner**. They
@@ -72,8 +79,12 @@ are listed on your account page.
 
 ### Step 3: Pick the class
 
-Each class shows whether your couple can enter it. If a class is locked, read the reason next to
-it, and see [If you cannot register](#if-you-cannot-register).
+Pick the couple under **Select competitor**, open the competition and press **Add** next to the
+class. If a class is locked or **Add** is disabled, read the reason next to it, and see
+[If you cannot register](#if-you-cannot-register).
+
+**Whoever registers the couple pays for both of you.** If you are also entering classes on your
+own, add those to the same cart before you press **Pay now**.
 
 ### Step 4: Fill in details, pay, and check the status
 
@@ -108,6 +119,14 @@ code; you also have it in the app under **Profile → Vote4Dance ID** and on you
 
 If you pay online and leave the checkout before paying, the registration is removed
 automatically. Nothing is left half-done; just start again.
+
+## Checking your registrations
+
+Open your name at the top right → **My account** → **Registration**, and open the event. You see
+every class you are entered in, and the payments.
+
+Teams your club entered you in, such as a group or formation, are listed here too. Point at the
+team name to see who else is in it.
 
 ## Depends on your event
 

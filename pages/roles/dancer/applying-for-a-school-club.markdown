@@ -30,10 +30,14 @@ Make sure you know:
 
 ## How it works
 
-1. Find the club and apply to join it
+1. Find the club and press **Join organization**. You can find it from your federation's page on
+   vote4dance.com, under **Organizations**. If you are told "Missing profile information", add
+   your birth date, gender and nationality in your account settings first.
 2. If the club has **Member approval** switched on, a manager or administrator there has to approve you.
    Your application shows on their members list as "Requires your action"; they can approve people
    one at a time or use **Approve all**. With the setting off, you are a member straight away.
+   Open the club's page again to check: once approved, it says "You are a member of this
+   organization".
 3. You join as a **Member** — the bottom of the club's four-level ladder. That is the right level
    for a dancer: you represent the club and its coaches can enter you, but you cannot register on
    the club's behalf or manage its members. Only ask for **Coach** or above if you actually do
@@ -72,6 +76,8 @@ The dancer is linked to the correct school or club and can use that context in l
 ## Practical advice
 
 - Join the school or club before event registration week.
+- You can join more than one club. If you do, registration asks which club you dance for in that
+  event.
 - If you dance in more than one context, confirm which club should be used for the next license or event.
 - If the wrong club was selected, fix that before asking anyone to create a license or submit a registration.
 
