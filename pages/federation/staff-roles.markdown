@@ -10,7 +10,7 @@ nav_order: 11
 
 Federation staff access is granted per-federation. Each person you invite to a federation receives one of four roles. The role controls what they can see and do inside the federation admin.
 
-Use `Admin → Federation → [federation] → Administration` to invite staff and change their roles.
+Use `Federation → Settings → Roles & access` to invite staff and change their roles. See [Federation settings](/federation/settings/#roles--access).
 
 ---
 
@@ -19,15 +19,15 @@ Use `Admin → Federation → [federation] → Administration` to invite staff a
 | Role | Label in UI | What they can do |
 |---|---|---|
 | `normal` | Viewer | Read-only access to all federation data |
-| `manager` | Manager | Day-to-day operations: licenses, memberships, organizations |
-| `administrator` | Administrator | Structural configuration: divisions, classes, rules, rankings |
-| `owner` | Owner | Governance: federation settings, Stripe, user promotion |
+| `manager` | Manager | Day-to-day operations: licenses |
+| `administrator` | Administrator | Structural configuration: divisions, classes, rules, rankings, memberships, organizations, federation settings, Stripe |
+| `owner` | Owner | Governance: promoting users to Administrator and Owner |
 
 ---
 
 ## Viewer
 
-Read-only access. Viewers can open all federation pages and see current data but cannot make any changes.
+Read-only access. Viewers can see current federation data but cannot make any changes.
 
 Use this role for:
 - Board members who need visibility without write access
@@ -35,7 +35,8 @@ Use this role for:
 - Organization liaisons who need to look up federation state
 
 What a Viewer can do:
-- View all federation pages: home, divisions, classes, rankings, licenses, organizations, state, history, enforcement log, rules
+- View federation data: divisions, classes, rankings, licenses, organizations, members, history, enforcement log, rules. The federation bar shows no destinations to a Viewer, so these pages are opened by link.
+- **Competitions** and **Statistics** need Manager or higher
 - Cannot edit, approve, issue, or delete anything
 
 ---
@@ -46,23 +47,24 @@ Day-to-day operational work. A Manager handles the running of the federation wit
 
 Use this role for:
 - Secretaries processing license applications
-- Registrars managing class memberships
-- Staff handling organization approvals
 
 What a Manager can do:
 - Everything a Viewer can do, plus:
 - Issue, approve, suspend, and revoke licenses
-- Create and edit class memberships
-- Sync federation progress
-- Approve and manage organizations (approve, mark pending, grant or remove license issuer access)
-- Act on the enforcement log
+- Open **Competitions** and **Statistics**
 
 What a Manager cannot do:
+- Create, edit or remove class memberships, or run **Sync federation progress**
+- Approve or manage organizations (approve, mark pending, grant or remove license issuer access)
 - Edit divisions, disciplines, classes, age groups, or categories
 - Edit the license catalog (license items)
 - Edit rule profiles or rankings
 - Connect Stripe or change federation settings
 - Promote other users
+
+The UI shows some of these buttons to Managers, for example on [Members](/federation/members/), but the server refuses the change: it needs Administrator or higher.
+
+The enforcement log is read-only for every role.
 
 ---
 
@@ -83,29 +85,27 @@ What an Administrator can do:
 - Create and edit rankings, leagues, and ranking corrections
 - Create and edit representation records, move club-owned teams, and approve or reject club transfer requests (see [Club transfers](/federation/club-transfers/))
 - Change the organization on an active licence (reissue)
+- Create, edit and remove class memberships, and run **Sync federation progress** (see [Members](/federation/members/))
+- Approve and manage organizations (approve, mark pending, grant or remove license issuer access)
+- Edit federation name, tag, description, icon, and branding
+- Set the federation as restricted or published
+- Connect and manage the Stripe account
 - Invite staff and promote them up to Manager level
 
 What an Administrator cannot do:
-- Edit federation settings, name, or branding
-- Connect or manage Stripe
-- Set the federation as restricted or published
 - Promote users to Administrator or Owner
 
 ---
 
 ## Owner
 
-Full governance. An Owner controls the federation's settings, billing, and who has access at the highest levels.
+Full governance. An Owner controls who has access at the highest levels.
 
 Use this role for:
 - Board chairs or the primary account holder for the federation
-- The person responsible for the Stripe payout account
 
 What an Owner can do:
 - Everything an Administrator can do, plus:
-- Edit federation name, tag, description, icon, and branding
-- Set the federation as restricted or published
-- Connect and manage the Stripe account
 - Promote users to any role including Administrator and Owner
 - Demote and remove any federation user
 
@@ -126,7 +126,7 @@ An Administrator cannot promote a peer to their own level. Only an Owner or a sy
 
 ## Invitation flow
 
-1. Open `Admin → Federation → [federation] → Administration`
+1. Open `Federation → Settings → Roles & access`
 2. Search for the user by name or email
 3. Press `Add`
 4. The user is added with the default `Viewer` role

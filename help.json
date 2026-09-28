@@ -1,0 +1,35 @@
+---
+permalink: /help.json
+layout: null
+---
+{%- comment -%}
+In-app help map: help key -> docs page and section.
+
+Each page declares the app screens it answers in its front matter:
+
+  help:
+    organizer.shop: ""              # top of the page
+    organizer.shop.orders: orders   # the "## Orders" section, #orders
+
+The app looks its current screen's key up here and opens `url`.
+Key naming and the check script are described in README.md.
+{%- endcomment -%}
+{%- assign pages = site.pages | sort: "url" -%}
+{
+  "version": 1,
+  "base": {{ site.url | jsonify }},
+  "keys": {
+{%- assign first = true -%}
+{%- for p in pages -%}
+{%- if p.help -%}
+{%- for pair in p.help -%}
+{%- assign url = p.url -%}
+{%- if pair[1] and pair[1] != "" -%}{%- assign url = p.url | append: "#" | append: pair[1] -%}{%- endif -%}
+{%- unless first %},{% endunless %}
+    {{ pair[0] | jsonify }}: { "url": {{ url | jsonify }}, "title": {{ p.title | jsonify }} }
+{%- assign first = false -%}
+{%- endfor -%}
+{%- endif -%}
+{%- endfor %}
+  }
+}

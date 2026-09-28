@@ -3,7 +3,7 @@ layout: page
 title: Getting a license
 permalink: /school-club/getting-a-license/
 parent: School/Club
-nav_order: 2
+nav_order: 4
 ---
 
 # School or club getting a license
@@ -24,7 +24,8 @@ You will:
 
 ## Where it is done
 
-`Organization → License Applications`. The page needs your club to be connected to a federation
+`Organization → Administration → Licenses`, headed **License Applications**. You need the club's
+**Manager** or **Administrator** role. The page needs your club to be connected to a federation
 first — without that it just says "Connect this organization to a federation first."
 
 The page is split by what it wants from you:
@@ -59,7 +60,7 @@ Each row in the first section says which of the two it is: **Awaiting your appro
 
 ## Applying for a member
 
-1. Open `Organization → License Applications`
+1. Open `Organization → Administration → Licenses`
 2. Select the **federation**
 3. Select the **Member**. If they have no date of birth on their account you are warned here and
    cannot continue — ask them to add it in their account settings.
@@ -81,7 +82,8 @@ to confirm: "Decline license application for *name*?"
 
 Your approval is one of four checks the federation sees before it can issue the licence, so an
 application nobody approves at the club simply sits there. The federation's own view says it
-plainly: "*club* hasn't approved this request yet. A manager or administrator there has to approve it."
+plainly: "*club* hasn't approved this request yet. A manager or administrator there has to
+approve it." Coaches cannot approve licences.
 
 ## Paying
 
@@ -163,4 +165,4 @@ the club is covered.
 
 ## Next step
 
-Continue to [Applying for a school/club](/school-club/applying-for-a-school-club/).
+Continue to [Registration for event](/school-club/registration-for-event/).

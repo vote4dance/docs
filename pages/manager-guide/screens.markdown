@@ -4,6 +4,9 @@ title: Screens, projectors and venue technology
 permalink: /manager-guide/screens/
 parent: Manager Guide
 nav_order: 1.4
+help:
+  manager.event.screens: ""
+  screens.event: ""
 ---
 
 # Screens, projectors and venue technology
@@ -39,7 +42,7 @@ or TV. There is no separate box and nothing to install.
 |---|---|
 | **Label** | The screen's name, for example "Main projector" or "Foyer TV". This is how the device and the speaker identify it, so name it after where it hangs. |
 | **Background** | `Normal background`, `Green screen (TV)`, `Custom background` or an animated background (`V4D` or `Blue`). Green screen is for streaming and camera mixers; on green screen and blank, the federation/branding image is hidden. |
-| **Floor** | `All floors`, or one specific floor. A screen in a hall with two floors should be set to its own floor. |
+| **Floor** | `All floors`, or one specific floor. A screen in a hall with two floors should be set to its own floor. See [Floors](/manager-guide/floors/). |
 | **Show** | What the screen starts on — see [the Show options](#what-a-screen-can-show) below. |
 | **Settings** | `Hide name before finals`, `Spotlight duration (podium)` (default 5s), `Spotlight duration (outside podium)` (default 3s), `Winner flag only`. |
 

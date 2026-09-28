@@ -27,9 +27,9 @@ What it gives you, and what it deliberately does not:
 | Follow judging live: *Judging in progress*, *Judges are done* per heat | |
 | Filter to one floor, follow the schedule, and push things to the screens with **Show on screen** | |
 
-Publishing is a permission you hold, not a button in Supervisor: the Supervisor capability
-authorizes publish and unpublish, and the button itself sits in the speaker console and in
-Manager. Agree before the event who actually presses it.
+**Supervisor cannot publish results.** Publishing is done from the Speaker console or from
+Manager. If you are the one who publishes, you also need **Speaker** or **Manager** ticked.
+Agree before the event who presses it, and what you want to have checked first.
 
 ## Judge types, which is your vocabulary
 

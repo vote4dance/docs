@@ -10,11 +10,11 @@ nav_order: 10
 
 At the start of a season, competitors whose members have outgrown their age
 group move to the same class one age group up. The **Age-up batch transition**
-does this in one pass, from `Federation → Competitors`. It previews first and
+does this in one pass, from `Federation → Members`, on the [Competitors tab](/federation/members/#competitors). It previews first and
 moves only the competitors you tick.
 
-> The batch always covers the **whole federation**, including when you open the
-> Competitors tab inside one division. The preview lists every candidate the
+> The batch always covers the **whole federation**, including when the Members
+> roster is filtered to one division. The preview lists every candidate the
 > federation has, not only that division's.
 
 ---

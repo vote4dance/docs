@@ -22,9 +22,14 @@ You'll:
 
 ## Who does this step
 
-Different parts need different [staff roles](/federation/staff-roles/): **Owner** to connect
-Stripe, **Administrator** to add licence items and map them to classes, **Manager** to approve
-clubs and to issue, approve, suspend or revoke a licence.
+Different parts need different [staff roles](/federation/staff-roles/):
+
+| Task | Role |
+|---|---|
+| Connect Stripe | Administrator or Owner |
+| Add licence items and map them to classes | Administrator or Owner |
+| Approve clubs, and allow them to issue licences | Administrator or Owner |
+| Issue, approve, suspend or revoke a licence | Manager and up |
 
 ## Important: Do you actually need licenses?
 
@@ -48,7 +53,7 @@ clubs and to issue, approve, suspend or revoke a licence.
 
 It is tempting to think of self-service versus organization-managed as a choice you make once.
 Vote4Dance does not work that way: **each licence item carries its own settings**, so one
-federation can offer a dancer licence the dancer buys herself, a coach licence only the club can
+federation can offer a dancer licence dancers buy themselves, a coach licence only the club can
 apply for, and a judge licence only you issue — at the same time.
 
 The settings that decide the route, per item:
@@ -69,8 +74,9 @@ admin**, so you can always see how it arrived.
 ### Step 1: Connect Stripe
 
 Payments go to the federation's own Stripe account, and nothing priced can be paid until it is
-connected. Connecting Stripe requires the **Owner** role — see
-[staff roles](/federation/staff-roles/).
+connected. Connect it under `Federation → Settings → Federation` with **Connect Stripe**, which
+needs the **Administrator** or **Owner** role. Vote4Dance keeps a 5% application fee. See
+[Federation settings](/federation/settings/#stripe-payout-account).
 
 Until it is connected, applicants are told "This federation hasn't set up online payments yet.
 Contact the federation to complete your license."
@@ -105,7 +111,8 @@ what makes a licence count at registration, and it needs the **Administrator** r
 ### Step 4: Decide which clubs may issue
 
 For items with organization mode `Required`, the club must be an **approved issuer**. Grant that
-under `Admin → Federation → Organizations`, with the **Manager** role. A club that is itself
+on the club's page under `Federation → Members → Organizations` with **Allow license issuing**,
+which needs the **Administrator** role. A club that is itself
 still pending federation approval blocks every licence it holds.
 
 ### Step 5: Review the applications
@@ -115,7 +122,7 @@ checks, and you can only approve when they pass:
 
 | Check | Fails when |
 |---|---|
-| **Club has approved this license** | The club has not approved it yet: "A manager or coach there has to approve it." |
+| **Club has approved this license** | The club has not approved it yet: "A manager or administrator there has to approve it." |
 | **Club approved by the federation** | The club itself is still pending — the application is *Blocked*. |
 | **Payment received** | Payment is outstanding. |
 | **Within the license window** | The window has not opened, or has closed. |
@@ -135,7 +142,7 @@ Full detail, field by field: [Federation admin](/federation-licenses/federation-
 
 ### Step 6: Test the whole thing before you announce it
 
-Test with real accounts on the test site, in the routes you actually offer.
+Test with test accounts, in the routes you actually offer.
 
 **Self-application**
 
@@ -148,7 +155,7 @@ Test with real accounts on the test site, in the routes you actually offer.
 **Club application**
 
 1. Sign in as a test club admin whose club is connected to your federation and approved by it
-2. `Organization → License Applications`, select a member, apply
+2. `Organization → Administration → Licenses`, select a member, apply
 3. Confirm it lands in the club's **Needs your action** when club approval is required, and in
    your **Needs your approval** afterwards
 4. Check the four checks show what you expect, then approve
@@ -209,9 +216,10 @@ new club represents the dancer from that day, valid through the same end date. S
 Your licensing model is ready to go live when:
 - ✓ All license items are configured
 - ✓ Payment (Stripe) is connected (if charging)
-- ✓ Approval workflow is set (auto or manual)
 - ✓ End-to-end test completed successfully
 - ✓ Dancers/schools know which license item to apply for
 - ✓ You've communicated the process to your community
 
-**Next:** Promote the license info to your competitors and open registration
+## Next step
+
+Continue to [School/club application model](/federation/applying-for-a-school-club/).

@@ -187,12 +187,13 @@ match your account, and a revoked membership cannot be used.
 
 ## When you're ready
 
-Once your license is **Active**, you can:
-- Register for events (next step)
-- Compete in competitions
-- Earn rankings
-- Transfer to teams (if applicable)
+Once your licence is **Active**, you can register for that federation's events, and your
+results can count towards its rankings.
 
 ## Next step
 
-Continue to [Applying for a school/club](/dancer/applying-for-a-school-club/) if your federation pathway depends on organization membership.
+- **Your club applies for your licence?** Join the club first: see
+  [Applying for a school/club](/dancer/applying-for-a-school-club/). The club can only apply for
+  members.
+- **You applied yourself?** Continue to
+  [Registration for event](/dancer/registration-for-event/).

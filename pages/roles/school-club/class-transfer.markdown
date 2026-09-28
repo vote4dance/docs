@@ -1,105 +1,44 @@
 ---
 layout: page
-title: Class transfer support
+title: Class transfer
 permalink: /school-club/class-transfer/
 parent: School/Club
 nav_order: 8
 ---
 
-# School or club class transfer support
+# Class moves for your club's competitors
 
-Class transfer support ensures dancers and teams enter the correct class as progression status changes.
+Class moves are **automatic**. Every competition entry earns promotion points. When the organizer
+closes a competition, the points are added up, and a couple that reaches its class's limit moves
+to the next class at once. The federation can also move a couple by hand. The club does not run
+or approve class moves.
 
-## The mechanism, in one paragraph
-
-Class changes are driven by **promotion points**: every competition entry carries the points
-earned at that competition, the federation side sums them per class membership when a competition
-is **closed**, and a competitor reaching the class threshold is moved to the target class
-immediately, with the reason recorded. Manual promotions, demotions and corrected opening balances
-are done by the federation on the division's Status tab, and each records a reason. See
+How it works, in more detail: [Class transfer](/dancer/class-transfer/) and
 [Promotion points](/federation/progression/).
 
-## What this step is for
+## What the club can do
 
-You keep class placement aligned with federation policy and prevent outdated class data from propagating into events.
+- **Check classes before registering.** After a competition closes, a couple may have moved up.
+  Registering in the class it has just left is the most common mistake.
+- **Look over entries before registration closes**, on
+  `Organization → Administration → Registration`. An entry in the wrong class: cancel it and
+  register again while the period is open. After that, ask the organizer.
+- **Remember points belong to the couple or team.** A new partnership, or a group with a new
+  lineup, can be a new competitor with no points. Where the federation requires class membership, a
+  new competitor can register for entry-level classes and is placed there when it registers. For a higher class, the federation has to place
+  it there first.
 
-## Important boundary
+## If the federation has a couple in the wrong class
 
-Your organization prepares and escalates cases, but federation rules govern final decisions when policy is centralized.
+The club cannot change a competitor's class or points. Ask the federation, and include the couple,
+the competitions it danced, and the class you expect.
 
-## Step-by-step
-
-### Step 1: Detect potential class changes
-
-Flag members/teams when:
-
-- recent performance indicates promotion/relegation
-- federation issued progression notice
-- roster changes affect class eligibility
-
-### Step 2: Verify rule basis
-
-Check:
-
-- federation class progression rules
-- effective date of change
-- any transitional exceptions
-
-### Step 3: Escalate uncertain cases
-
-Send federation:
-
-- participant/team ID
-- current and proposed class
-- reason and evidence
-- event timeline impact
-
-### Step 4: Apply approved class change
-
-In your org/event workflow:
-
-1. update class assignment
-2. remove stale class placement
-3. verify registration reflects new class
-
-### Step 5: Communicate to stakeholders
-
-Notify:
-
-- member/team
-- coach/admin
-- organizer (if rounds/schedule impacted)
-
-## Common blockers and fixes
-
-### "Old class remains active alongside new class"
-
-Fix:
-
-1. remove obsolete entry
-2. check for duplicate registration records
-3. revalidate schedule impact
-
-### "Transfer requested too close to event"
-
-Fix:
-
-1. escalate immediately
-2. apply only approved emergency changes
-3. document operational impact
-
-### "Local decision conflicts with federation"
-
-Fix:
-
-1. align to federation ruling
-2. correct affected entries
-3. publish internal correction note
-
-## What success looks like
-
-Members compete in the correct class, and class disputes are resolved before live operations.
+| What you see | Most likely reason |
+|---|---|
+| A couple should have moved up, but has not | The last competition is not closed yet. |
+| A couple's points are split over two couples | A wrong person number on an entry created a duplicate couple. |
+| The club and the federation disagree about a class | Go by the federation's answer before registering. |
 
 ## Next step
 
-Continue to [Renew license cycles](/school-club/renew-license/).
+Continue to [Renew license](/school-club/renew-license/).

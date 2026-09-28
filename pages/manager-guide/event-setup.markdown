@@ -4,6 +4,10 @@ title: Event setup
 permalink: /manager-guide/event-setup/
 parent: Manager Guide
 nav_order: 1
+help:
+  manager.new: step-1-create-a-new-event
+  manager.event: ""
+  manager.event.edit: step-3-event-details-page
 ---
 
 # Event setup
@@ -16,7 +20,6 @@ Before starting event setup, confirm:
 - ✓ You have an Organizer account signed in to Vote4Dance
 - ✓ You have Manager access (you can see the Manager link in the menu)
 - ✓ Your organization is already created and approved (if required by your federation)
-- ✓ Your federation has confirmed your event is permitted
 
 If any of these is missing, see [Organizer account creation](/organizer/account-creation/) first.
 
@@ -48,7 +51,7 @@ In Manager, create a new event. The form is a short wizard.
 | Choice | When to pick it |
 |---|---|
 | **Training competition with default settings** | "Best for your first event." Skips the questions you do not need yet and sets the event up with defaults. This is the right choice for a first-time organizer and for anything you are only testing. |
-| **Competition for a specific federation** | "Use this if you already know which federation setup and classes you need." You then pick the federation, and its rules, classes and license checks apply. |
+| **Competition for a specific federation** | "Use this if you already know which federation setup and classes you need." You then pick the federation, and its rules, classes and license checks apply. There is no approval step: picking the federation is what puts the event on the federation's [Competitions](/federation/competitions/) list. |
 
 **Then the event details:**
 
@@ -71,7 +74,7 @@ billing questions and fills them in for you. You can change all of them afterwar
 event's details page.
 
 **What gets created with it.** A new event does not arrive empty. You get a floor called
-**Main floor**, one screen, a set of default cafe products, and a starting schedule for the
+**Main floor** (see [Floors](/manager-guide/floors/)), one screen, a set of default cafe products, and a starting schedule for the
 day with **Doors open** and **Competition start** blocks. Classes, rounds, judges and teams
 are yours to add — see [Competition setup](/manager-guide/competition-setup/).
 
@@ -161,8 +164,9 @@ that carries its age and level rules.
 
 ### Rounds and judging panels
 
-Rounds live inside a class, and each round is placed on a **schedule item** and a **floor**.
-That is what gives the public schedule, the speaker and the screens their times.
+Rounds live inside a class, and each round is placed on a **schedule item** and, if you use them, a [**floor**](/manager-guide/floors/).
+That is what gives the public schedule, the speaker and the screens their times. See
+[Schedule and conflicts](/manager-guide/schedule/) and [Floors](/manager-guide/floors/).
 
 **You'll set up rounds in [Competition setup](/manager-guide/competition-setup/).**
 

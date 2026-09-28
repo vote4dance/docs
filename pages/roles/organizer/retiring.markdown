@@ -6,123 +6,50 @@ parent: Organizer
 nav_order: 10
 ---
 
-# Organizer retiring and handover
+# Handing over your events
 
-Retiring means transferring operational ownership safely, not deleting history. The goal is continuity without lockout or knowledge loss.
+When you stop organizing, the goal is that someone else can run your events without you. Nothing
+is deleted: events, results and history stay.
 
-## What this step is for
+Access is given per event and per app, so a handover is mostly about **adding the new person
+everywhere you have access**, before you remove yourself.
 
-This handover protects active events, next-season planning, and federation relationships when an organizer exits.
+## Step 1: List what you have access to
 
-## Before you start
+- **Events** where you have Manager, and any other apps (Supervisor, Speaker, Check-in and so on).
+  Open each event and look at `Manager → Event → Users`.
+- **Clubs** where you have a role, especially **Administrator**.
+- **Stripe accounts** connected to your competitions, if you take online payment.
+- **Contacts** that are yours: the event's contact email, the federation's contact person,
+  judges and functionaries who only know you.
 
-Confirm:
+## Step 2: Add the new person
 
-- replacement admin is identified
-- replacement admin already has active account
-- at least one backup admin exists
+- **On each event:** `Manager → Event → Users`, search for their account and tick **Manager**,
+  plus any other apps they will use. They need a personal Vote4Dance account first.
+- **In each club:** give them the role you have, under **Administration → Permissions**. A club's
+  last administrator cannot leave, so promote someone else to Administrator first.
+- **Stripe:** make sure the new person can reach the Stripe account the competition is
+  connected to, or connect the new account in Manager. Connecting Stripe needs the Manager role.
+- **Contact email:** update it on the event's details page.
 
-## Step-by-step handover
+## Step 3: Let them try it
 
-### Step 1: Build ownership inventory
+Before you remove yourself, the new person should:
 
-List all items still owned by departing organizer:
+1. open the event in Manager and edit something harmless
+2. open the **Registration** page of a competition
+3. open the other apps they have been given
 
-- active events
-- event templates
-- billing/payment contacts
-- federation contact responsibilities
-- operational docs/checklists
+## Step 4: Remove yourself
 
-### Step 2: Grant replacement permissions
+Once the new person has Manager, they remove your access under `Manager → Event → Users`. The
+last Manager on a competition cannot be removed, so an event is never left with no Manager.
 
-In organization and event users:
+In a club, use **Leave organization** on the club's **Home**.
 
-1. add replacement as admin/manager
-2. verify they can access Manager
-3. verify they can edit event settings
-
-Do this before removing departing organizer permissions.
-
-### Step 3: Transfer operational responsibilities
-
-Transfer clearly:
-
-- event setup ownership
-- registration approvals
-- live operations ownership
-- post-event exports and follow-up
-
-Document owner and backup owner for each area.
-
-### Step 4: Transfer compliance and billing links
-
-Confirm replacement can handle:
-
-- license renewals
-- federation escalations
-- payment/billing operations
-
-Update contact emails where applicable.
-
-### Step 5: Run a handover verification drill
-
-Replacement admin should perform:
-
-1. open Manager and edit a non-critical setting
-2. access registration management
-3. access rounds/results pages
-4. confirm federation contact path
-
-If any step fails, do not complete offboarding yet.
-
-### Step 6: Remove unnecessary permissions
-
-After verification:
-
-1. downgrade or remove departing organizer access
-2. keep audit trail of who changed what and when
-3. store handover notes in shared docs
-
-## Handover checklist
-
-- Replacement admin has confirmed full access
-- Backup admin is active
-- Ownership map is documented
-- Billing and federation contacts updated
-- Critical workflows tested by replacement
-- Departing organizer access reduced appropriately
-
-## Common blockers and fixes
-
-### "Only one person had admin rights"
-
-Fix:
-
-1. add at least two admins immediately
-2. verify both can access event operations
-3. postpone retirement completion until verified
-
-### "Knowledge is in private chats"
-
-Fix:
-
-1. convert private notes to shared checklist
-2. store links and recurring procedures centrally
-3. assign owner for maintenance
-
-### "Licenses tied to departing organizer"
-
-Fix:
-
-1. identify affected licenses/approvals
-2. reassign where possible
-3. notify federation if ownership update is needed
-
-## What success looks like
-
-The departing organizer can leave with zero operational lockouts and a clean, documented ownership transfer.
+Your personal account stays yours. Keep it: your own results and history are attached to it.
 
 ## Next step
 
-Return to [Organizer](/organizer/) to review the full role map.
+Return to [Organizer](/organizer/) to see all the steps.

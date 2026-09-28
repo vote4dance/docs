@@ -6,6 +6,13 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-09-27
+ ⭐ **New**
+* Check-in: The person screen shows what a dancer owes for registrations paid at the door — a red or green payment tag on each registration, the amount to pay with the organizer's payment note, and a Payment collected button that marks the dancer's unpaid registrations paid once the desk confirms the amount. Rejected registrations and free periods are left out, and for a couple or group the amount covers the whole entry, so either dancer's scan settles it (see [At the door](/manager-guide/the-door/))
+* Public: The registration cart shows the total to pay and the organizer's payment note when registration is paid manually, for example at the door or by Swish
+* Public: The Registration tab points first-timers and couples to the [registration guide](/dancer/registration-for-event/), and a class that cannot be picked links to [If you cannot register](/dancer/registration-for-event/#if-you-cannot-register)
+ 🛠️ **Improvements**
+* Registration: The confirmation email is sent for every registration when it is made — registrations paid at the door, invoiced, awaiting the organizer's approval or entered by staff on a dancer's behalf previously got no email until their status changed. Registrations paid online still get theirs once the payment goes through
 ## 2026-09-21
  ⭐ **New**
 * Organizer: New Organizer app with a Shop — sell passes, tickets, meals and merchandise for an event: products from templates with stock, per-order caps, sales windows and a VAT rate; a Tickets tab on the public event page; and an Orders tab with search, status and channel filters, resend, receipt link and per-ticket void after a partial refund. Payments run on the organizer's connected Stripe account with the 5 % platform fee. A new Organizer role is granted from the Users page; managers have it already (see [Shop](/manager-guide/shop/))

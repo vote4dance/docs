@@ -4,6 +4,10 @@ title: Users, apps and stations
 permalink: /manager-guide/users-and-stations/
 parent: Manager Guide
 nav_order: 1.3
+help:
+  manager.event.users: the-apps
+  manager.event.stations: stations-shared-devices
+  public.station.activate: stations-shared-devices
 ---
 
 # Users, apps and stations
@@ -15,7 +19,7 @@ Everyone who works at a competition uses one of the Vote4Dance apps. Access is g
 | App (name in Users) | Also shown as | Who uses it | What it does |
 |---|---|---|---|
 | **Manager** | "Scrutineer" tile in English, "Sekretariat" in Swedish | The organizer and the scrutineering desk | Everything: event and competition setup, registration, participants, judges, running rounds, results, publishing. A Manager can also open every other app's data on the server, but see the note below. |
-| **Supervisor** | "Kontrollant" in Swedish | Chief scrutineer, chairperson of adjudicators, federation observer | Results oversight: judge marks and result analysis per round, publish and unpublish results, choose the floor, control the screens. Cannot change the setup. |
+| **Supervisor** | "Kontrollant" in Swedish | Chief scrutineer, chairperson of adjudicators, federation observer | Results oversight: judge marks and result analysis per round, including results that are not yet published, choose the floor, control the screens. Cannot publish results or change the setup. |
 | **Speaker** | | The MC or floor manager | The floor console: current round, lineup and heats, live status of the judges, result reveal for the prize ceremony, the schedule, and what the screens show. |
 | **Screens** | | Whoever runs the TVs and projectors | The fullscreen displays for the audience and the floor: lineups, heats, results, schedule, sponsors and so on. Display only. |
 | **Lineup** | "Insläpp" in Swedish | The person at the floor entrance | Calls the next heat, marks who is on the floor, keeps the running order. |
@@ -34,11 +38,11 @@ Each user can also be given a free-text **role title** (for example "Chairperson
 
 ## Judges
 
-A judge is not a user in the Users list. Judges are created on `Manager → Competition → Judges`, linked to an existing account or invited by email, and assigned to panels per class. The list shows each judge as `Not invited`, `Invited` or `Active`, and you can send, resend or re-notify the invitation in English, Swedish or Spanish.
+A judge is not a user in the Users list. Judges are created on `Manager → Competition → Judges`, linked to an existing account or invited by email, and assigned to panels per class. The list shows each judge as `Not invited`, `Invited` or `Active`, and you can send, resend or re-notify the invitation in any of the app's languages (English, Swedish, Spanish, Finnish, Norwegian, Dutch, German or French). See [Judges](/manager-guide/judges/) for the full judge setup.
 
-**The PIN belongs to the judge, not to the event.** There is no event-wide judge code to hand out. The first time a judge opens the Judging app they set their own PIN on their own device ("Keep this PIN private"), and enter it again whenever they come back to the app. If a judge forgets it, you reset it for them with **Reset PIN** on their row in `Manager → Competition → Judges`, and they set a new one.
+**The PIN belongs to the judge, not to the event.** There is no event-wide judge code to hand out. The first time a judge opens the Judging app they set their own PIN on their own device ("Keep this PIN private"), and enter it again whenever they come back to the app. A judge has one PIN for the whole event: the same PIN works in every competition of the event they judge. If a judge forgets it, you reset it for them with **Reset PIN** on their row in `Manager → Competition → Judges`, and they set a new one. The reset clears the PIN in every competition of the event. **Reset PIN** is disabled until the judge has set a PIN.
 
-The invitation email also contains a **demo link** to the Judging app, so a judge can try the marking interface before the competition. Anyone with the link can open the demo, which is also how a manager sees what the judges see.
+The invitation email also contains a **demo link** to the Judging app, so a judge can try the marking interface before the competition. The demo needs a signed-in Vote4Dance account; any signed-in account can open it, which is also how a manager sees what the judges see.
 
 ## Stations: shared devices
 

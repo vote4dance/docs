@@ -28,9 +28,12 @@ Follow the pages in order for a new event, or jump straight to the part you are 
 | [Event setup](/manager-guide/event-setup/) | Creating the event: details, status, visibility. |
 | [Event image](/manager-guide/event-image/) | The one picture every event needs. |
 | [Users, apps and stations](/manager-guide/users-and-stations/) | Which app each functionary gets, and shared devices. |
+| [Floors](/manager-guide/floors/) | The places rounds are danced, and running several at once. |
 | [Screens, projectors and venue technology](/manager-guide/screens/) | Projectors, TVs, screen views and the venue's equipment. |
 | [Sponsors](/manager-guide/sponsors/) | Sponsor offers and sales. |
 | [Competition setup](/manager-guide/competition-setup/) | Classes, rounds, teams, judges and panels. |
+| [Judges](/manager-guide/judges/) | Adding and inviting judges, PINs, panels and when assignment locks. |
+| [Schedule and conflicts](/manager-guide/schedule/) | The running order, times, publishing, printing and dancer conflicts. |
 
 ## Before and during the event
 
@@ -38,6 +41,10 @@ Follow the pages in order for a new event, or jump straight to the part you are 
 |---|---|
 | [Registration and check-in](/manager-guide/registration-checkin/) | Registrations, statuses, participants and the desk. |
 | [Emails and the check-in QR code](/manager-guide/emails/) | What participants are emailed, and the QR code they bring. |
+| [Notifications](/manager-guide/notifications/) | Event updates and push notifications to followers. |
+| [Shop](/manager-guide/shop/) | Tickets, meals and merch, sold by card. |
+| [At the door](/manager-guide/the-door/) | Scanning IDs and tickets, arrivals, selling at the desk. |
+| [Problems (setup checks)](/manager-guide/validator/) | The automatic checks on your setup, and how to fix what they find. |
 | [Live operations](/manager-guide/live-operations/) | The event-day runbook. |
 | [Statistics](/manager-guide/statistics/) | Event size, dressing rooms, schedule load, medals. |
 
