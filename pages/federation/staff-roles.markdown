@@ -12,6 +12,10 @@ Federation staff access is granted per-federation. Each person you invite to a f
 
 Use `Federation → Settings → Roles & access` to invite staff and change their roles. See [Federation settings](/federation/settings/#roles--access).
 
+To see what your own role allows, click your role name in the federation bar. It
+opens the **Guide to permissions**, a short list of what each role can do, with your role marked
+**Your role**.
+
 ---
 
 ## Roles at a glance
@@ -19,8 +23,8 @@ Use `Federation → Settings → Roles & access` to invite staff and change thei
 | Role | Label in UI | What they can do |
 |---|---|---|
 | `normal` | Viewer | Read-only access to all federation data |
-| `manager` | Manager | Day-to-day operations: licenses |
-| `administrator` | Administrator | Structural configuration: divisions, classes, rules, rankings, memberships, organizations, federation settings, Stripe |
+| `manager` | Manager | Day-to-day work: licenses, organizations, class memberships |
+| `administrator` | Administrator | Everything a Manager does, plus structure (divisions, classes, rules, rankings), decisions that move competitors, federation settings, Stripe |
 | `owner` | Owner | Governance: promoting users to Administrator and Owner |
 
 ---
@@ -46,23 +50,33 @@ What a Viewer can do:
 Day-to-day operational work. A Manager handles the running of the federation without being able to change its structure.
 
 Use this role for:
-- Secretaries processing license applications
+- Secretaries processing license applications and club approvals
 
 What a Manager can do:
 - Everything a Viewer can do, plus:
-- Issue, approve, suspend, and revoke licenses
+- Issue, approve, edit and remove licenses, one by one or in bulk
+- Approve organizations and their right to issue licenses
+- Add, edit and remove class memberships (see [Members](/federation/members/))
+- Follow club transfers and representation changes (an Administrator decides them)
 - Open **Competitions** and **Statistics**
 
-What a Manager cannot do:
-- Create, edit or remove class memberships, or run **Sync federation progress**
-- Approve or manage organizations (approve, mark pending, grant or remove license issuer access)
+What a Manager cannot do (these need an Administrator):
+- Edit class rules or rule profiles
+- Assign organizations, change Temporary rows, rename competitors, move club-owned teams, or
+  decide club transfer requests (see [Club transfers](/federation/club-transfers/))
+- Move a license to another organization, or remove its organization, once the federation has
+  approved it. A Manager can still correct the organization on an application that was never
+  approved, or add one to a license that names none.
+- Remove an organization from the federation, or set up its NORRIQ credentials
+- Run **Sync federation progress**, age-ups or promotions
 - Edit divisions, disciplines, classes, age groups, or categories
-- Edit the license catalog (license items)
-- Edit rule profiles or rankings
+- Edit the license catalog (license items) or rankings
 - Connect Stripe or change federation settings
 - Promote other users
 
-The UI shows some of these buttons to Managers, for example on [Members](/federation/members/), but the server refuses the change: it needs Administrator or higher.
+Managers do not see the buttons for these. Where one would be, for example on a club's
+**Transfers** tab, or on Members in place of **Sync federation progress**, the page says that it needs a
+federation Administrator.
 
 The enforcement log is read-only for every role.
 
@@ -83,10 +97,11 @@ What an Administrator can do:
 - Create and edit the license catalog (license items) and class license mappings
 - Create and edit rule profiles
 - Create and edit rankings, leagues, and ranking corrections
+- Edit class rules
 - Create and edit representation records, move club-owned teams, and approve or reject club transfer requests (see [Club transfers](/federation/club-transfers/))
-- Change the organization on an active licence (reissue)
-- Create, edit and remove class memberships, and run **Sync federation progress** (see [Members](/federation/members/))
-- Approve and manage organizations (approve, mark pending, grant or remove license issuer access)
+- Move a license the federation has approved to another organization (reissue), or remove its organization
+- Remove an organization from the federation, and set up its NORRIQ credentials
+- Run **Sync federation progress**, age-ups and promotions (see [Members](/federation/members/))
 - Edit federation name, tag, description, icon, and branding
 - Set the federation as restricted or published
 - Connect and manage the Stripe account

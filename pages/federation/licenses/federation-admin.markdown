@@ -366,7 +366,9 @@ Use the `Rename team` button on any representation row to change the team name w
 
 ### Changing the organization on an active license
 
-You cannot change the organization field on an active license directly. Pick the new organization in the licence's `Edit` dialog and confirm `Change organization`: the licence is reissued under the new organization from today, and the old one is cancelled and kept for history. This needs the Administrator or Owner role. See [Moving a dancer's licence to a new club](/federation/club-transfers/#moving-a-dancers-licence-to-a-new-club).
+You cannot change the organization field on an active license directly. Pick the new organization in the licence's `Edit` dialog and confirm `Change organization`: the licence is reissued under the new organization from today, and the old one is cancelled and kept for history.
+
+Once the federation has approved a licence, whether it is still active or not, only an Administrator or Owner can move it to another organization or remove its organization. For a Manager the field is locked, with the note "Moving a license the federation has approved to another organization needs a federation Administrator." A Manager can still correct the organization on an application that was never approved, and add an organization to a licence that names none. See [Moving a dancer's licence to a new club](/federation/club-transfers/#moving-a-dancers-licence-to-a-new-club).
 
 This applies to individual license rows. It does not affect explicit representation assignments made through the `Assign organization` workflow.
 

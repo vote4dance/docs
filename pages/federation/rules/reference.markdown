@@ -298,6 +298,7 @@ guide.
 | Age composition rules (application preset, younger/older allowances, maximum age span) | [Age category rules](/federation-rules/age-category-rules/) |
 | Promotion points source, points table, reach, awards promotion points, advance by, target class, promotion threshold | [Promotion points](/federation/progression/) |
 | License items required for registration or progression | [Federation admin licenses](/federation-licenses/federation-admin/) (section 4) |
+| Ranking carry on age move up (%), Ranking carry on age move down (%): how much of a competitor's ranking results follow an age move. Federation or division only. | [Age moves](/federation/age-moves/) |
 
 ### How layers combine
 

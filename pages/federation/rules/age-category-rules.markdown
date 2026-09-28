@@ -72,7 +72,7 @@ that set it.
 
 ## Filling in the Age composition rules field
 
-In the rule editor (on a Category or Federation class) the **Age composition
+In the rule editor (on a Category, Age group or Federation class) the **Age composition
 rules** field has:
 
 - **Application preset** — a shortcut for the common cases:
