@@ -85,6 +85,8 @@ Two actions per order:
 
 Refunds are always made in Stripe, on your own account. Vote4Dance mirrors the refunded amount back onto the order so the shop does not keep reading as fully paid.
 
+When a buyer deletes their Vote4Dance account, their orders stay but lose the buyer's name, e-mail and note, so the order shows no buyer and there is no address to resend tickets to. The status, amounts, refunds and tickets are kept, and the tickets still work at the door.
+
 ## The door
 
 ![The door card](/assets/images/shop/door-readiness.png)
@@ -114,7 +116,7 @@ The check-in station sells too: `Check-in → Sell`. It is the same catalog, wit
 ![The desk sell page](/assets/images/shop/desk-sell.png)
 
 - Tickets sold at the desk are handed over on the spot (**Use now**) or given as a code the buyer photographs.
-- A receipt can be e-mailed from the sale.
+- A receipt can be e-mailed from the sale, in the language picked next to the address. It starts on the language of the event's country, so a visitor from abroad can get theirs in English.
 - Selling to a scanned account puts the tickets straight on that person's screen.
 
 The desk can also adjust the catalog under pressure, without opening the Manager: **pause sales**, **adjust stock** with a reason (recount, damaged, delivery), and **add a size** to an existing merch group. Every desk edit shows up on the product in the Products tab, with what changed, when and by whom.

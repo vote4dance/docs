@@ -34,7 +34,7 @@ The first question decides how much the wizard asks you:
 - **Country**, optional **contact email**, and a **short description** (max 150 characters)
 - **Event mode** — `Practice event` or `Live competition`. Live competition enables reusable competition profiles and billing
 - **Location** (with a *Verify on Google Maps* link) and **Timezone**
-- **Billing information** — live competitions only
+- **Billing information** — live competitions only. Pick one of your recent customers, search for another by name, or fill in a **New customer** (club or company, or private person; name, email and country are prefilled from what you entered). **Create** saves both, and a live competition cannot be published without billing information. See [Event setup](/manager-guide/event-setup/)
 
 ## 2. What you get with a new event
 

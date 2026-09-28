@@ -111,7 +111,7 @@ because it explains nearly every "why is my licence still not active":
 
 | Check | What it means |
 |---|---|
-| **Club has approved this license** | A club-held application needs a manager or coach at the club to approve it. |
+| **Club has approved this license** | A club-held application needs a manager or administrator at the club to approve it. |
 | **Club approved by the federation** | If your club is itself still pending federation approval, no licence it holds can be issued. |
 | **Payment received** | Approval opens once payment lands. |
 | **Within the license window** | The licence's validity window must be open. |

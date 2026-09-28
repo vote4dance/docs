@@ -53,7 +53,7 @@ role should see. Viewers see no menu items; they open federation pages by link.
 | Problem | Fix |
 |---|---|
 | **Add** fails | The person has no Vote4Dance account with that email, or is already on the list. |
-| Someone can see a button but the save fails | Their role is too low. Managers see some Administrator buttons. |
+| Someone cannot find a button, or the page says an action needs a federation Administrator | Their role is too low. Managers do not see Administrator-only buttons. To check what a role allows, click the role name in the federation bar. |
 | You cannot change someone's role | An Administrator can only change Viewers and Managers. Ask an Owner. |
 
 ## Next step

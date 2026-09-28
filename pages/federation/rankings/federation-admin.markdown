@@ -107,6 +107,19 @@ Use corrections for cases such as:
 
 Always confirm you are editing the correct division ranking before saving a correction.
 
+A **Value** correction is dated, and it counts only while its date is inside the ranking's time
+window, like a result danced on that date. Once the date falls outside the window, the correction
+drops out of the ranking on the next run. A **Remove** correction has no such limit.
+
+Do not use corrections to move a competitor's results after an age move. When a competitor moves
+up or down an age group, through the age-up batch or by editing a class membership into another
+age group, the ranking job drops the results danced in the old class from the old ranking and
+carries them into the new age group's ranking. The share carried is set by the rules **Ranking
+carry on age move up (%)** and **Ranking carry on age move down (%)**. Carried results keep their
+dates, so they leave the window like any other result. With neither rule set, the rankings ignore
+the move.
+See [Age moves](/federation/age-moves/).
+
 ### 6. Run a manual exception workflow when needed
 
 Use a manual workflow instead of hidden federation rule overrides when:

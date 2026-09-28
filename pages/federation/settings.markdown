@@ -27,6 +27,7 @@ The **Settings** button is only in the bar for Administrators, Owners and Vote4D
 | Edit the federation details, images and **Visible in public federation list** | Administrator, Owner |
 | Connect, manage or clear the Stripe payout account | Administrator, Owner |
 | Turn public page sections on and off | Administrator, Owner |
+| Write the **Registration help** | Administrator, Owner |
 | Save the NORRIQ MemberSport hosts (**Integrations**) | Administrator, Owner |
 | Add staff and remove or change Viewers and Managers | Administrator, Owner |
 | Change or remove Administrators and Owners, or make someone Administrator or Owner | Owner |
@@ -71,7 +72,7 @@ See [Federation licenses](/federation-licenses/federation-admin/) for how paymen
 
 ## Roles & access
 
-This tab lists every person with a role in the federation, with their name, email and role. The number next to the tab name is how many people are on the list. The **Guide to permissions** box beside the list summarises what each role can do.
+This tab lists every person with a role in the federation, with their name, email and role. The number next to the tab name is how many people are on the list. The **Guide to permissions** box beside the list summarises what each role can do. It is the same guide that opens when you click your role name in the federation bar, and it marks your own role **Your role**.
 
 For what each role can do, see [Federation staff roles](/federation/staff-roles/).
 
@@ -112,6 +113,22 @@ A disabled section is hidden for all visitors. Signed-in federation staff still 
 If saving fails, the switch goes back to where it was and an error is shown.
 
 See [Public rankings](/federation-rankings/public/) for what the public rankings show.
+
+### Registration help
+
+The **Registration help** card below the switches holds your federation's own text for people
+registering. It is shown at the top of the **Registration** card on the registration page of every
+competition in your federation, above the Vote4Dance registration guide. Use it to point dancers
+and clubs to your own rules and documentation.
+
+- Write it in Markdown, for example `[our rules](https://example.org/rules)` for a link. Raw HTML
+  is not shown.
+- Links open in a new tab.
+- Press **Save changes**. You get "Registration help saved".
+- To remove it, clear the text and press **Save changes**. The registration page then shows only
+  the Vote4Dance guide.
+
+Only Administrators and Owners can save it.
 
 ## Integrations
 

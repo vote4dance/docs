@@ -41,7 +41,7 @@ Structure is in the navigation for Administrators and Owners. Every create, edit
 
 Categories, age groups, class levels and competition levels are shared by every discipline in the division. A class picks one of each.
 
-Each block has a **State**: **Draft**, **Active** or **Retired**. The public federation pages only show active divisions and active disciplines. The age-up batch skips retired age groups when it looks for the next age group (see [Age moves](/federation/age-moves/)).
+Each block has a **State**: **Draft**, **Active** or **Retired**. A new block starts as **Active**; choose **Draft** when you create it if it is not ready yet. The lists under Structure show the state as a tag next to each name, the class table shows it in its **State** column, and the division and discipline pages show it in their header. In the menu column, only blocks that are not active are tagged. The public federation pages only show active divisions and active disciplines. The age-up batch skips retired age groups when it looks for the next age group (see [Age moves](/federation/age-moves/)).
 
 ---
 
@@ -128,7 +128,7 @@ Open **Disciplines** in a division. Click a discipline's name to open it.
 | **Name** | Yes | |
 | **Code** | Yes | Used in class names and codes created with **Add many** |
 | **Description** | No | |
-| **State** | Yes | **Draft**, **Active** or **Retired** |
+| **State** | Yes | **Draft**, **Active** or **Retired**. New ones start as **Active**. |
 
 **Delete** is in the edit dialog. A discipline that has classes, or that competition classes use, cannot be deleted.
 
@@ -146,7 +146,7 @@ Open **Categories** in a division. **Add category** is under the list; **Edit ca
 | **Code** | Yes | Used in class names and codes created with **Add many** |
 | **Description** | No | |
 | **Image** | No | |
-| **State** | Yes | **Draft**, **Active** or **Retired** |
+| **State** | Yes | **Draft**, **Active** or **Retired**. New ones start as **Active**. |
 
 The roster limits (minimum and maximum members, required dance roles) are set on the category's **Rules** tab (**Category rules**). Registration and class memberships are checked against them. The maximum cannot be below the minimum, and a category cannot require more distinct roles than its maximum number of members.
 
@@ -168,7 +168,7 @@ Open **Age Groups** in a division. **Add age group** is under the list; **Edit a
 | **Maximum Age** | No | Leave empty for an open-topped group such as Adults 21+ |
 | **Description** | No | |
 | **Use Birthday** | Yes | **Enable** to use the participant's birthday instead of the calendar year they were born |
-| **State** | Yes | **Draft**, **Active** or **Retired** |
+| **State** | Yes | **Draft**, **Active** or **Retired**. New ones start as **Active**. |
 
 How the age of a couple or group is decided, and how to change it, is set on the age group's **Rules** tab. See [Age category rules](/federation-rules/age-category-rules/).
 
@@ -178,7 +178,9 @@ An age group that has classes cannot be deleted.
 
 ## Class levels and competition levels
 
-**Class Levels** and **Competition Levels** work the same way: **Add class level** or **Add competition level** under the list, **Edit class level** or **Edit competition level** on each row, drag to reorder, and a **Rules** tab for each level's overrides. Each has a **Name**, a **Code** and a **State**.
+**Class Levels** and **Competition Levels** work the same way: **Add class level** or **Add competition level** under the list, **Edit class level** or **Edit competition level** on each row, drag to reorder, and a **Rules** tab for each level's overrides. Each has a **Name**, a **Code** and a **State**. New ones start as **Active**.
+
+A competition level's **Code** must be unique in the whole federation, not only in its division. Saving a code that another competition level already uses is refused with "Another competition level in this federation already uses this code. Choose a different code."
 
 Class levels are the steps a class ladder promotes through. Competition levels are tiers of competitions; a competition level's rules can, for example, stop a tier from awarding promotion points (see [Promotion points](/federation/progression/)).
 
@@ -188,7 +190,7 @@ Class levels are the steps a class ladder promotes through. Competition levels a
 
 The discipline's **Classes** section is a table of its classes: **Name**, **Code**, **Category**, **Class Level**, **Age Group**, **Advance By**, **Licenses**, **Rules**, **Target Class** and **State**.
 
-- **Add class**: create one class. Pick its **Category**, **Class Level** and **Age Group**, give it a **Name** and **Code**, and set **Advance By**, **Target Class** and **State**.
+- **Add class**: create one class. Pick its **Category**, **Class Level** and **Age Group**, give it a **Name** and **Code**, and set **Advance By**, **Target Class** and **State**. A new class starts as **Active**.
 - **Add many**: a grid of categories against class levels. Click the age group codes to select the combinations you want and press **Save changes**. Each class is created active, named from the discipline, category, class level and age group, and coded from their codes.
 - **Link Class Levels**: select classes and confirm. Within each category and age group, the selected classes are put in class level order, and each one gets the next one as its **Target Class**.
 - Select classes and use the delete button to delete them.

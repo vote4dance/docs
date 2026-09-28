@@ -80,6 +80,18 @@ check these too.
 - Your **Account** page holds your details, your **Vote4Dance ID** card (the QR code the check-in desk scans) and your profile photo
 - If your federation requires a licence, you need one before you can register for its events. Add your birth date first: licences and age groups need it.
 
+## Choosing your language
+
+Vote4Dance is in English, Swedish, Spanish, Finnish, Norwegian (Bokmål), Dutch, German and French.
+The Dancer app has all of them except Spanish.
+
+- **On the web**, until you pick a language your browser's language list decides. To pick one,
+  use the globe at the top of the page, next to your language's code (for example **EN**). When you are signed in, your choice is
+  saved to your account, so it follows you to other devices. You can also change it under
+  **My account** → **Settings** → **Language**.
+- **In the Dancer app**, the first language in your phone's language list that Vote4Dance has is
+  used. You can pick another on the **Login** screen, or under **Settings** → **Language**.
+
 ## If something goes wrong
 
 | What you see | What to do |

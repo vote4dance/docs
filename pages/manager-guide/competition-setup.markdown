@@ -39,7 +39,7 @@ Manager's sidebar is grouped the way the work is:
 |---|---|
 | **Event overview** | The event's start page, and **Problems** (the automatic tests over your setup) while any test fails. See [Problems](/manager-guide/validator/). |
 | **Event** | Competitions, Floor, Users, Stations, Café, Schedule |
-| **Competition** | Registration, Classes, Participants, Judges, Checkin, Statistics |
+| **Competition** | Registration, Classes, Participants, Judges, Check-in, Statistics |
 | **Audience** | Notifications, Screens, Sponsors, Live results, Shop |
 
 This page works in the **Competition** group. Rounds live inside a class.

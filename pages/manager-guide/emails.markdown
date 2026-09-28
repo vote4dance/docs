@@ -8,7 +8,7 @@ nav_order: 3.5
 
 # Emails and the check-in QR code
 
-Vote4Dance sends a small, fixed set of emails around registration. There is no email template editor and no per-competition sender: every email goes out from `noreply@vote4dance.com`, in the dancer's language (Swedish or English), with the competition name as the heading.
+Vote4Dance sends a small, fixed set of emails around registration. There is no email template editor and no per-competition sender: every email goes out from `noreply@vote4dance.com`, in the language the reader has chosen in the app, with the competition name as the heading. That can be any of the app's eight languages (English, Swedish, Spanish, Finnish, Norwegian, Dutch, German or French), and the same goes for push notifications. A payment invitation to a club, which has no account language, goes out in the language of the club's country, or in English when the app has no language for that country.
 
 ## Emails a dancer receives automatically
 
@@ -43,16 +43,16 @@ Every dancer with a user account has one personal QR code: their **[Vote4Dance I
 
 How it reaches the dancer:
 
-- It is embedded in the **Approved** status email, with the caption "Scan the code for faster checkin". A couple receives two emails, each with that dancer's own code.
+- It is embedded in the **Approved** status email, with the caption "Scan the code for a faster check-in". A couple receives two emails, each with that dancer's own code.
 - The dancer also has it without the email: in the app under **Profile → Vote4Dance ID**, and on the website on their account page. Tell dancers to use that rather than digging out an old email.
 
 What happens when it is scanned:
 
 - The code is meant to be scanned by **check-in desk staff**, using the phone camera on a device that is signed in to the Check-in app (as a user with the Check-in app, or as a Check-in station, see [Users, apps and stations](/manager-guide/users-and-stations/)).
-- The desk sees the dancer's photo and name, whether their registration admits them today, their club check-in, any tickets on their account, and their registrations for the event with status and payment; start numbers are assigned and printed from there, and the person is marked **Arrived**. See [At the door](/manager-guide/the-door/).
+- The desk sees the dancer's photo and name, whether their registration admits them today, their organization check-in, any tickets on their account, and their registrations for the event with status and payment; start numbers are assigned and printed from there, and the person is marked **Arrived**. See [At the door](/manager-guide/the-door/).
 - A dancer scanning their own code lands on a login page. The code identifies the dancer to the desk; it is not a ticket.
 
-The QR code does not replace [club check-in](/manager-guide/registration-checkin/#check-in). The club still confirms its roster; the QR code speeds up the desk.
+The QR code does not replace [organization check-in](/manager-guide/registration-checkin/#check-in). The club still confirms its roster; the QR code speeds up the desk.
 
 Do not confuse it with the two other QR codes in the product: the **registration poster** QR on the Registration page ("Scan to register", it opens the public registration form), and the **station** QR that connects a shared device.
 

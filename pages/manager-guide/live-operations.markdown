@@ -60,11 +60,14 @@ During live execution:
 
 ## Handling common issues
 
+While a round is **In progress**, the round page shows a **Stuck?** link next to the status buttons. It opens *Common problems during a round*, with a link to each of the three sections below: *Judges not finishing*, *Wrong participants in the round* and *Schedule running late*.
+
 ### Judges not finishing
 
 - Confirm the round is **In progress**
 - Check judge assignments and panel settings. If **Start judging** refuses, Manager says
-  "Assign a judging panel to this class or round before starting judging."
+  "Assign a judging panel to this class or round before starting judging." The warning links
+  to **Judges**.
 - Confirm network and device state
 
 ### Wrong teams in round

@@ -32,6 +32,8 @@ If the event has several competitions, the page has one section per competition,
 
 Each failed check is a table headed **Validating that** *what should be true* **- failed!**, for example "Validating that there are no start number conflicts - failed!". Checks that pass are not shown.
 
+Under the heading, each failed check says in one line what is wrong and what to do, for example "These participants have no start number yet. Assign start numbers on the Participants page." Where one page fixes every row, a link to it follows: **Participants**, **Judges**, **Classes** or **Schedule conflicts**. **More in the guide** opens the check's section on this page.
+
 The rows are what caused the check to fail:
 
 | Row type | Columns | Click to open |

@@ -16,23 +16,23 @@ Everyone who works at a competition uses one of the Vote4Dance apps. Access is g
 
 ## The apps
 
-| App (name in Users) | Also shown as | Who uses it | What it does |
+| App | Also shown as | Who uses it | What it does |
 |---|---|---|---|
-| **Manager** | "Scrutineer" tile in English, "Sekretariat" in Swedish | The organizer and the scrutineering desk | Everything: event and competition setup, registration, participants, judges, running rounds, results, publishing. A Manager can also open every other app's data on the server, but see the note below. |
+| **Manager** | "Scrutineer" in Users and on the tile in English, "Sekretariat" in Swedish | The organizer and the scrutineering desk | Everything: event and competition setup, registration, participants, judges, running rounds, results, publishing. A Manager can also open every other app's data on the server, but see the note below. |
 | **Supervisor** | "Kontrollant" in Swedish | Chief scrutineer, chairperson of adjudicators, federation observer | Results oversight: judge marks and result analysis per round, including results that are not yet published, choose the floor, control the screens. Cannot publish results or change the setup. |
 | **Speaker** | | The MC or floor manager | The floor console: current round, lineup and heats, live status of the judges, result reveal for the prize ceremony, the schedule, and what the screens show. |
 | **Screens** | | Whoever runs the TVs and projectors | The fullscreen displays for the audience and the floor: lineups, heats, results, schedule, sponsors and so on. Display only. |
-| **Lineup** | "Insläpp" in Swedish | The person at the floor entrance | Calls the next heat, marks who is on the floor, keeps the running order. |
-| **Check-in** | "Registration" tile / "Anmälan" | The check-in desk | Finds dancers (by name, or by scanning a [Vote4Dance ID](/dancer/vote4dance-id/) or a ticket), assigns and prints start numbers, marks arrivals, uses tickets, takes walk-in registrations and sells for cash. See [At the door](/manager-guide/the-door/). |
+| **Lineup** | "Uppställning" in Swedish | The person at the floor entrance | Calls the next heat, marks who is on the floor, keeps the running order. |
+| **Check-in** | "Avprickning" in Swedish; the tile reads "Registration" and the event name ("Anmälan" in Swedish) | The check-in desk | Finds dancers (by name, or by scanning a [Vote4Dance ID](/dancer/vote4dance-id/) or a ticket), assigns and prints start numbers, marks arrivals, uses tickets, takes walk-in registrations and sells for cash. See [At the door](/manager-guide/the-door/). |
 | **Cafe** | | The cafe counter | Products and the live order queue. |
-| **Organizer** | | The person who sells to the audience | The event Shop: products, orders, dancer admission and the door checklist. See [Shop](/manager-guide/shop/). |
+| **Organizer** | "Arrangör" in Swedish | The person who sells to the audience | The event Shop: products, orders, dancer admission and the door checklist. See [Shop](/manager-guide/shop/). |
 
 The event overview page shows one tile per app the signed-in person has access to. The dancer-facing pages and public results need no access at all.
 
 Two naming traps:
 
-- **"Scrutineer" on the event page is the Manager app.** It is the same access as Manager under Users. The federation-level [Scrutineer](/scrutineer/) role in this documentation is a description of a job, not a tick box in the competition.
-- **Manager does not automatically open the other apps.** A person with only Manager can do everything from the Manager app, but the Speaker, Screens, Lineup, Check-in, Cafe and Organizer apps each check for their own tick. Give the head of scrutineering Manager plus the apps they will actually open. The last Manager on a competition cannot be removed.
+- **"Scrutineer" is the Manager app.** The tick box under Users and the tile on the event page are both labelled Scrutineer in English; this page calls it Manager. The federation-level [Scrutineer](/scrutineer/) role in this documentation is a description of a job, not a tick box in the competition.
+- **Manager does not automatically open the other apps.** A person with only Manager can do everything from the Manager app, but the Speaker, Screens, Lineup, Check-in, Cafe and Organizer apps each check for their own tick. Give the head of scrutineering Manager plus the apps they will actually open. The last Scrutineer (Manager) on a competition cannot be removed.
 
 Each user can also be given a free-text **role title** (for example "Chairperson" or "Floor manager"). It is only a label shown in the list; access follows the ticked apps.
 
