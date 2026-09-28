@@ -46,8 +46,8 @@ by one. If you can open the event but not the app you expect, that is why.
 3. **Check Problems** in Manager with the organizer, or ask them to. Rounds without judges, group
    classes without judges, overlapping scheduling and start-number conflicts are all things you
    would otherwise find during the competition.
-4. **Agree who publishes.** You hold the permission; so does the speaker. Decide which of you
-   presses it, and what you want to have checked before it happens.
+4. **Agree who publishes.** Supervisor cannot publish; publishing is done from Speaker or
+   Manager. Decide who presses it, and what you want to have checked before it happens.
 5. **Agree the escalation path** for a correction after a result is published.
 
 ## What success looks like

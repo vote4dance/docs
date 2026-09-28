@@ -1,88 +1,57 @@
 ---
 layout: page
-title: Creating and getting a ranking
+title: Results, points and rankings
 permalink: /school-club/creating-and-getting-a-ranking/
 parent: School/Club
 nav_order: 6
 ---
 
-# School or club creating and getting a ranking
+# Your club's results, points and rankings
 
-Schools and clubs do not define federation ranking formulas, but your member and team data heavily affects ranking correctness.
+The club does not create rankings; the federation does. What the club controls is whether its
+dancers' results end up in the right place, under the right club.
 
-## What this step is for
+| What | When it updates |
+|---|---|
+| **Results** | When the organizer publishes each round. |
+| **Promotion points and class moves** | When the organizer **closes** the competition. |
+| **Rankings** | When the federation recalculates them, often overnight after the competition is closed. |
 
-You support accurate ranking outcomes by ensuring member identity, team context, and event participation records are correct before and after publication.
+How each of these works for a dancer is explained on
+[Results, points and rankings](/dancer/creating-and-getting-a-ranking/). Send it to members who
+ask.
 
-## Step-by-step
+## Which club a result counts for
 
-### Step 1: Validate member identity and organization linkage
+- **Licences decide it.** A competitor represents the club that holds the most active dancer
+  licences among its dancers. A tie goes to the older licence.
+- Only when none of the dancers has an active licence does the federation assign the club by
+  hand.
+- **Club membership alone does not decide it.** A dancer who joins your club but still has a
+  licence naming their old club is counted for the old club.
 
-Before event close, verify:
+So when a dancer moves to your club, the federation has to reissue the licence to your club. See
+[Club transfers](/federation/club-transfers/).
 
-- members are linked to correct school/club
-- no duplicate member accounts
-- team affiliations are current
+## What the club can check
 
-### Step 2: Validate class and participation context
+- **One account per dancer.** A dancer with two accounts has their results split.
+- **Licences are Active and name your club**, before the competition.
+- **The right club tag** (your **Short letters**) in results. For federations that import result
+  files, a wrong club tag creates a duplicate club.
 
-For each ranking-relevant member/team:
+## If something looks wrong
 
-- class assignment is correct
-- age category is correct
-- partner/roster context is correct
+| What you see | Most likely reason |
+|---|---|
+| A result is not in the ranking yet | The competition is not closed, or the ranking has not been recalculated. Wait a day. |
+| A result counts for the wrong club | The dancer's licence names another club. Ask the federation to reissue it. |
+| A couple's points are split over two couples | A wrong person number on an entry. Tell the federation. |
+| A class or competition does not count | Each ranking only includes the classes the federation links to it. |
 
-### Step 3: Review event result publication status
-
-After event, confirm ranking-relevant classes are published and final (no unresolved disputes).
-
-### Step 4: Review published rankings quickly
-
-When rankings update:
-
-1. check top members/teams from your club
-2. compare against expected results
-3. flag obvious mismatches immediately
-
-### Step 5: Raise correction requests with evidence
-
-When reporting issues, include:
-
-- member/team ID
-- event/class reference
-- expected vs actual ranking outcome
-- supporting evidence (published result references)
-
-## Common blockers and fixes
-
-### "Member missing from rankings"
-
-Fix:
-
-1. verify member used correct account
-2. verify class/result was ranking-eligible
-3. escalate with event and participant IDs
-
-### "Ranking appears under wrong club"
-
-Fix:
-
-1. verify organization linkage history
-2. confirm transfer timing and effective date
-3. request federation correction if mapping is wrong
-
-### "Team ranking does not match published result"
-
-Fix:
-
-1. verify final published class result
-2. check for post-event correction notes
-3. escalate discrepancy with evidence
-
-## What success looks like
-
-Your members appear in rankings correctly with minimal correction cycles, and any issues are resolved quickly with clear evidence.
+When you contact the federation, include the dancer or team, the competition, the class, and the
+ranking you expected them in.
 
 ## Next step
 
-Continue to [Age transfer support](/school-club/age-transfer/).
+Continue to [Age transfer](/school-club/age-transfer/).

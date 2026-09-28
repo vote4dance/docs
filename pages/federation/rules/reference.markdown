@@ -4,6 +4,8 @@ title: How class rules work
 permalink: /federation-rules/reference/
 parent: Federation Rules
 nav_order: 0
+help:
+  federation.discipline.rules: ""
 ---
 
 # How class rules work

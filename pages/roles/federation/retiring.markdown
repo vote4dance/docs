@@ -6,32 +6,37 @@ parent: Federation
 nav_order: 10
 ---
 
-# Federation retirement and exit handling
+# When dancers, clubs or staff leave
 
-Retirement at federation level is about handling inactive people, teams, and organizations without losing traceability.
+Nothing here deletes results, rankings or class history. Retiring changes what is active, not what
+happened.
 
-## What this step is for
+## A dancer or couple stops competing
 
-This step explains how the federation should handle inactive records, expired workflows, and the end of active participation.
+- **Class membership:** set its **Status** to **retired** on `Federation → Members → Competitors`,
+  with a **Reason**. Needs the **Administrator** role. The change is kept in **History**.
+- **Licence:** nothing to do. It turns **Expired** when its window closes. Suspend or revoke it
+  only if the dancer must be stopped before then.
 
-## How it works
+See [Retiring](/dancer/retiring/) for the dancer's side.
 
-1. Decide what should remain visible historically.
-2. Decide how inactive licenses and memberships are handled.
-3. Preserve auditability for past seasons.
-4. Remove only the access that should no longer remain active.
-5. Keep old rankings and decisions understandable.
+## A club leaves or closes
 
-## Common blockers
+1. Its dancers' licences name the club. If they move to another club, reissue each licence to the
+   new club with **Change organization**. See [Club transfers](/federation/club-transfers/).
+2. Club-owned groups and formations can be moved to another club, or a couple released to compete
+   independently, from the club's **Teams & integration** tab.
+3. Then **Remove from federation** on the club's page under `Federation → Members → Organizations`.
 
-- Old records are hidden too aggressively.
-- Access is removed before handover is complete.
-- Historical decisions become impossible to explain later.
+The club can also detach itself, or set itself to `Retired`.
 
-## What success looks like
+## A staff member leaves
 
-The federation can end activity cleanly without damaging audit history or future support.
+1. Give their work to someone else. Check the licence queue and any open corrections.
+2. Remove them under `Federation → Settings → Roles & access`. Administrators can remove Viewers
+   and Managers; only an Owner can remove an Administrator or Owner.
+3. If they were an Owner, make sure at least one other Owner remains.
 
 ## Next step
 
-Return to [Federation](/federation/) to review the full role map.
+Return to [Federation](/federation/) to see all the steps.

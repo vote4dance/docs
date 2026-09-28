@@ -4,6 +4,11 @@ title: Registration and check-in
 permalink: /manager-guide/registration-checkin/
 parent: Manager Guide
 nav_order: 3
+help:
+  manager.comp.registration: the-registration-page
+  manager.comp.registration.periods: registration-periods
+  manager.comp.registration.data: data-transfer
+  manager.comp.checkin: check-in
 ---
 
 # Registration and check-in
@@ -94,7 +99,7 @@ The next steps, in the order the system expects them:
 2. **Assign start numbers** (button on the Participants page, or per class in the class footer). Choose the first number, whether a dancer keeps the same number across classes, and whether the order is randomised. This has to happen **before** participants are added to rounds; afterwards the button refuses.
 3. **Print start numbers** from the same page.
 4. `Classes` → open the class and its rounds → **Add participants** puts the class's participants into the first round. The button only appears when the class has participants that are not yet in the round.
-5. `Event → Schedule` plans the rounds on days, floors and times. The schedule structure can be built before the import, but participant counts, heat counts and estimated end times only fill in once the participants exist and are in rounds.
+5. `Event → Schedule` plans the rounds on days, floors and times (see [Schedule and conflicts](/manager-guide/schedule/)). The schedule structure can be built before the import, but participant counts, heat counts and estimated end times only fill in once the participants exist and are in rounds.
 6. Check-in, then live rounds. See [Live operations](/manager-guide/live-operations/).
 
 ## Data transfer
