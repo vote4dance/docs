@@ -8,21 +8,31 @@ nav_order: 3.5
 
 # Emails and the check-in QR code
 
-Vote4Dance sends a small, fixed set of emails around registration. There is no email template editor and no per-competition sender: every email goes out from `noreply@vote4dance.com`, in the language the reader has chosen in the app, with the competition name as the heading. That can be any of the app's eight languages (English, Swedish, Spanish, Finnish, Norwegian, Dutch, German or French), and the same goes for push notifications. A payment invitation to a club, which has no account language, goes out in the language of the club's country, or in English when the app has no language for that country.
+Vote4Dance sends a small, fixed set of emails around registration. There is no email template editor: every email goes out from `noreply@vote4dance.com`, with the sender name "‹event› via Vote4Dance" on registration emails, in the language the reader has chosen in the app, with the competition name as the heading. That can be any of the app's eight languages (English, Swedish, Spanish, Finnish, Norwegian, Dutch, German or French), and the same goes for push notifications. A payment invitation to a club, which has no account language, goes out in the language of the club's country, or in English when the app has no language for that country.
 
 ## Emails a dancer receives automatically
 
-| When | Who gets it | What it contains |
+A dancer gets **one registration email per event**, not one per class. Every email lists the dancer's whole registration for the event as it stands — each class with the role or partners and the status — so the latest email is always the complete picture. An update highlights what changed and shows the previous status; a class that was cancelled or deleted stays in the list, crossed out.
+
+| When | Who gets it | What it says |
 |---|---|---|
-| A registration is created and lands on **Preliminary** or **Approved** | Every dancer on the registered team | Confirmation with the registration code and the status. If the status is Approved, the dancer's **personal check-in QR code** is included. |
-| An online payment is completed | Every dancer on the team | The same confirmation, now as Approved, **with the QR code**. |
-| A manager changes the status to Approved, Rejected or Cancelled | Every dancer on the team | The new status. Approved includes the QR code. Sent only if **Send email on status change** is ticked. |
+| A registration is created and lands on **Preliminary** or **Approved** | Every dancer on the registered team | The registration summary, sent at once. |
+| An online payment is completed | Every dancer on the team | The summary, now as Approved. The person who paid also gets the card **receipt** link, and when a club paid, a link to the **invoice** made out to the club. |
+| A manager changes the status to Approved, Rejected or Cancelled | Every dancer on the team | The summary with the change highlighted. Sent only if **Send email on status change** is ticked. Changes are gathered for about a minute, so approving several classes for the same dancer sends one email. |
+| A dancer or club coach cancels a class from their registrations | Every dancer on the team | The summary with the class crossed out. If the class was paid, an **About your payment** note says that cancelling does not refund the payment and how to reach the organizer. |
 | A manager sends payment invitations | The club, or the dancers, that pay later | Link to pay the outstanding registrations. |
-| A dancer or club cancels their own registration | Nobody | No email is sent for a self-cancellation. |
 
-Not sent: nothing goes out for **Signed**, nothing is sent when you run **Update/import participants**, and there is no reminder before the event. A team with no linked user accounts (a name-only entry) gets no email at all.
+Every registration email also contains:
 
-Stripe sends its own payment receipt, and an invoice to the club when a club pays.
+- the dancer's **personal check-in QR code**, as long as at least one class is still active;
+- when and where the event is, with calendar and map links;
+- **How to pay**, from the registration period's payment note, while a manually paid registration is unpaid;
+- a button that opens the dancer's registrations for this event on their account page;
+- a **Questions?** box: replies go to the competition's **contact email** when one is set, a link to the event info when the event has a description, and a link to the [registration guide](/dancer/registration-for-event/). Use the event description for an FAQ; it is what the email links to.
+
+Not sent: nothing goes out for **Signed**, nothing is sent when you run **Update/import participants**, and there is no reminder before the event. A team with no linked user accounts (a name-only entry) gets no email at all. The registration code is not shown in the emails.
+
+Stripe no longer sends its own receipt for a registration paid by card, since the receipt link is in the registration email. Your connected Stripe account's own setting for emailing customers about successful payments can still send one.
 
 ## Send email on status change
 
@@ -43,7 +53,7 @@ Every dancer with a user account has one personal QR code: their **[Vote4Dance I
 
 How it reaches the dancer:
 
-- It is embedded in the **Approved** status email, with the caption "Scan the code for a faster check-in". A couple receives two emails, each with that dancer's own code.
+- It is embedded in every registration email while the dancer has an active class. A couple receives two emails, each with that dancer's own code.
 - The dancer also has it without the email: in the app under **Profile → Vote4Dance ID**, and on the website on their account page. Tell dancers to use that rather than digging out an old email.
 
 What happens when it is scanned:
@@ -62,7 +72,7 @@ The test environment sends real emails the same way as the live site, so you can
 
 1. Create a test dancer with an email address you can read, and register them for a competition on the test site.
 2. Open `Manager → Competition → Registration → Registrations`, change the filter to show the registration, and make sure **Send email on status change** is ticked.
-3. Set the status to **Approved**. The email with the QR code arrives within a minute.
+3. Set the status to **Approved**. The email with the QR code arrives a minute or two later.
 4. To test the desk side, open the Check-in app on the test site and scan the code — with the **Scan** button in the app, the phone camera, or by opening the link the code contains.
 
-If no email arrives, check the dancer's account has an email address, and look in spam. Emails come from `noreply@vote4dance.com`.
+If no email arrives, check the dancer's account has an email address, and look in spam. Emails come from `noreply@vote4dance.com`. A status change is sent about a minute after the last change to that dancer.

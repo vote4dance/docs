@@ -6,6 +6,20 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-09-29
+ ⭐ **New**
+* Registration: One email per dancer and event instead of one per class — every email lists the whole registration as it stands, with what changed highlighted and a cancelled class crossed out. Changes a manager makes are gathered for a minute and sent together; the email comes from "‹event› via Vote4Dance", a reply goes to the organizer's contact email, and it links the dancer's registrations for the event, the event info and the registration guide (see [Emails](/manager-guide/emails/))
+* Registration: A dancer paying by card gets the receipt link in their registration email instead of a separate receipt from Stripe; a club paying for its registrations also gets a link to the invoice made out to the club
+* School/Club: The club's registrations page lists the invoices the club paid for each event, with a View invoice link, for coaches, managers and administrators
+ 🛠️ **Improvements**
+* Registration: Cancelling a class from your own account now sends an email, and when the class was paid it says that cancelling does not refund the payment and how to reach the organizer
+* Registration: The registration code is no longer shown in registration emails
+* Registration: Only the competition's managers can read a registration's log, which includes the emails sent to its dancers
+* Public: The registration guide sits above the competitor picker as links instead of a button, a dancer with a single solo competitor sees the classes on As myself straight away, and the cart stays on screen, telling you to choose who is dancing, when you switch tabs
+* Public: Going back to As myself after picking a club as coach shows the classes for your own competitor again — every class stayed disabled
+* Manager: A Manager can connect a Stripe account that is already connected to another event they manage, and connecting explains why it was refused instead of Permission denied
+* Judging: The event page has one Judges tile for judges and Managers — a judge goes to their rounds, a Manager to the judge demo; the demo is also in the Judging app's menu and in the invitation email
+* Dancer app: This release requires the latest version from the App Store or Google Play
 ## 2026-09-28
  ⭐ **New**
 * Check-in: Add classes at the door — an Add classes button on the person screen opens the desk's registration with the dancer filled in; the total includes what the dancer still owes from earlier entries, and Payment collected settles both. The class list warns, but does not block, when a class has started or its heats are drawn, and entries the organizer has not imported yet are tagged Not imported (see [At the door](/manager-guide/the-door/))

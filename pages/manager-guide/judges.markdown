@@ -130,7 +130,7 @@ The judge demo is at `/judging3/event/<event id>/demo`. It lets a judge practise
 
 - It shows one practice round for each judging system used in the competition's rounds, filled with made-up couples. **Reset** starts a round again and **Next** moves to the next one. Nothing is saved.
 - It needs a signed-in Vote4Dance account, but not a PIN.
-- On the event page, judges and Managers see a **Judge demo** tile. It is also linked from every invitation email.
+- On the event page, a Manager who is not judging opens it with the **Judges** tile. It is also linked from every invitation email and from the **Demo** item in the Judging app's menu.
 
 Open it yourself to see what your judges will see for the systems you have set up. It shows nothing until the competition has rounds.
 
