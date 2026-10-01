@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-01
+ 🛠️ **Improvements**
+* Manager: The registrations list can be sorted by **Participant name** — by the team name, or by the dancers' names for a registration without one (see [Registration and check-in](/manager-guide/registration-checkin/#the-registration-page))
 ## 2026-09-29
  ⭐ **New**
 * Registration: One email per dancer and event instead of one per class — every email lists the whole registration as it stands, with what changed highlighted and a cancelled class crossed out. Changes a manager makes are gathered for a minute and sent together; the email comes from "‹event› via Vote4Dance", a reply goes to the organizer's contact email, and it links the dancer's registrations for the event, the event info and the registration guide (see [Emails](/manager-guide/emails/))

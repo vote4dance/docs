@@ -23,7 +23,7 @@ Emails, the check-in QR code and how to test them are on [Emails and the check-i
 
 | Tab | What it is for |
 |---|---|
-| `Registrations` | Every registration in the competition, with status, payment and the **Imported** check. This is where you approve, reject, email and import. |
+| `Registrations` | Every registration in the competition, with status, payment and the **Imported** check. This is where you approve, reject, email and import. Click a column header such as **Participant name** to sort. |
 | `Participants` | The approved registrations grouped by class. A read-only view of what will be imported. It is **not** the participant list itself — that lives under `Competition → Participants`. |
 | `Organizations` | Registrations grouped per club, with the club's payment invitations. |
 | `Finances` | Expected, paid and outstanding totals per currency and period, and who still owes what. |
