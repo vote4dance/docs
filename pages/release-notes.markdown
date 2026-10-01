@@ -8,6 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-10-01
  🛠️ **Improvements**
+* Dancer app: An event whose organizer takes entries outside Vote4Dance shows a **Registration** card saying **Handled by the organizer** before the event, and Profile → **Registrations** says that it only lists registrations made in Vote4Dance, so a dancer whose start was added by the organizer knows where to look (see [Registration for event](/dancer/registration-for-event/#when-the-organizer-handles-entries))
 * Dancer app: An event's **Overview** shows a **Registration** card when the event has registration periods — when registration opens and closes, or until when it is open — with a link to register on the website; Profile → **Registrations** links to your registrations on the website (see [Registration for event](/dancer/registration-for-event/#before-you-start))
 * Manager: The registrations list can be sorted by **Participant name** — by the team name, or by the dancers' names for a registration without one (see [Registration and check-in](/manager-guide/registration-checkin/#the-registration-page))
 ## 2026-09-29

@@ -134,6 +134,17 @@ every class you are entered in, and the payments.
 Teams your club entered you in, such as a group or formation, are listed here too. Point at the
 team name to see who else is in it.
 
+In the Dancer app, the same registrations are under **Profile → Registrations**.
+
+### When the organizer handles entries
+
+Some organizers take entries their own way, for example through a league or federation list, and
+add the dancers to Vote4Dance themselves. Those starts are not registrations in Vote4Dance, so
+they are not listed under your registrations, on the website or in the app. In the Dancer app,
+such an event's **Overview** shows a **Registration** card that says **Handled by the
+organizer**. Look for yourself under the event's **Competitors** tab once the organizer has
+added the dancers, and ask the organizer about anything to do with your entry.
+
 ## Depends on your event
 
 These only apply to some events. If one applies, the registration page or the organizer tells
