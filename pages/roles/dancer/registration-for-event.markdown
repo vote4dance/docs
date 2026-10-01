@@ -24,7 +24,9 @@ put its own registration help at the top of the **Registration** tab, above the 
 
 ## Before you start
 
-- **Registration is open.** The event's **Registration** tab says when it opens and closes.
+- **Registration is open.** The event's **Registration** tab says when it opens and closes. In the
+  Dancer app, the event's **Overview** shows the same in a **Registration** card. Registering
+  happens on the website: tap the card to open the event's registration there.
 - **Your birth date is on your account.** Classes often depend on age.
 - **You know which class you want to enter.** If you are unsure, ask your club or the organizer.
 
