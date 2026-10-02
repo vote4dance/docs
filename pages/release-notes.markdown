@@ -10,7 +10,7 @@ nav_order: 10
  ⭐ **New**
 * Manager: Point summary rounds count round bonuses by what each round is — quarterfinal, semifinal, final or extra chance — instead of by its position, so formats with duels, lucky loser or hope rounds score right without retyping totals; the new **Bonus per round** table in the summary's priority settings shows and changes what each round counts as (see [Point summary](/point-summary/#bonus-per-round))
  🛠️ **Improvements**
-* Manager: A couple alone in a point summary class, with no competition held, gets a flat 100 points without bonus or multiplier (see [Point summary](/point-summary/#how-points-are-counted))
+* Results: A couple alone in a point summary class, with no competition held, gets a flat 100 points without bonus or multiplier (see [Point summary](/point-summary/#how-points-are-counted))
 ## 2026-10-01
  🛠️ **Improvements**
 * Dancer app: An event whose organizer takes entries outside Vote4Dance shows a **Registration** card saying **Handled by the organizer** before the event, and Profile → **Registrations** says that it only lists registrations made in Vote4Dance, so a dancer whose start was added by the organizer knows where to look (see [Registration for event](/dancer/registration-for-event/#when-the-organizer-handles-entries))

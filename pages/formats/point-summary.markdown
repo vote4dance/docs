@@ -62,10 +62,14 @@ decides the bonus for reaching that round, and **Bonus** shows what it pays.
 
 ![Bonus per round](/assets/images/point-summary/bonus-per-round.png)
 
+_In this example **Dueller** has been set to **Semifinal** by hand; a duel round starts as **No stage**._
+
 Each round starts from its name:
 
 - Kvartsfinal or Quarter-final → **Quarterfinal**; Semifinal → **Semifinal**; Final → **Final**
 - Lucky loser, Hope round, Extrachans and every extra chance round → **Extra chance**
+- A B-final that sends its winners on to the final → **Extra chance**; one that sends nobody on →
+  **No stage**
 - Duel rounds → **No stage**
 - Åttondelsfinal, Uttagning, Kval and Ranking rounds → **Preliminary round**
 - Any other name is placed by its order: the last round is the final, then the semifinal, the
@@ -77,7 +81,8 @@ round gets +1 for advancing from an extra chance; set **Lucky loser** to **No st
 
 **Summaries made before the Bonus per round table** keep counting bonuses by round order, the way
 they always have. The dialog says so, and saving the settings switches the summary to the table.
-A confirmed summary keeps its results.
+Recalculating an older summary never changes its bonuses; only a couple alone in the class gets
+the flat 100 points described above.
 
 ## 4. Validate and publish
 
