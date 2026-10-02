@@ -8,9 +8,9 @@ nav_order: 10
 # Release notes
 ## 2026-10-02
  ⭐ **New**
-* Manager: Point summary rounds count round bonuses by what each round is — quarterfinal, semifinal, final or extra chance — instead of by its position, read from the round's name. Formats with duels, lucky loser or hope rounds can be scored right by setting what each round counts as in the new **Bonus per round** table in the summary's priority settings, instead of retyping totals (see [Point summary](/point-summary/#bonus-per-round))
+* Manager: New and re-saved point summary rounds count round bonuses by what each round is — quarterfinal, semifinal, final or extra chance — read from the round's name, instead of by its position; finals danced as duel ladders pay every finalist its placement, and a seeding round before a final makes it a direct final. Formats with duels, lucky loser or hope rounds can be scored right by setting what each round counts as in the new **Bonus per round** table in the summary's priority settings, instead of retyping totals (see [Point summary](/point-summary/#bonus-per-round))
  🛠️ **Improvements**
-* Results: A couple alone in a point summary gets a flat 100 points without bonus or multiplier, as when no competition can be held (see [Point summary](/point-summary/#how-points-are-counted))
+* Manager: A couple alone in a point summary that never danced against another couple gets a flat 100 points without bonus or multiplier, as when no competition is held; recalculating an older summary applies this too (see [Point summary](/point-summary/#how-points-are-counted))
 ## 2026-10-01
  🛠️ **Improvements**
 * Dancer app: An event whose organizer takes entries outside Vote4Dance shows a **Registration** card saying **Handled by the organizer** before the event, and Profile → **Registrations** says that it only lists registrations made in Vote4Dance, so a dancer whose start was added by the organizer knows where to look (see [Registration for event](/dancer/registration-for-event/#when-the-organizer-handles-entries))
