@@ -38,6 +38,47 @@ Set priority mode to groups and configure group point distribution.
 
 ![Group points](/assets/images/point-summary/group-points.png)
 
+## How points are counted
+
+Each couple gets the **Points** of its group, plus bonuses for how far it got, and the total is
+multiplied by the group's **Multiplier**. The bonuses follow the DSF BRR rules:
+
+| Result                                     | Bonus                        |
+| ------------------------------------------ | ---------------------------- |
+| Reaching a quarterfinal                    | +2                           |
+| Reaching a semifinal                       | +5                           |
+| Reaching the final                         | +8                           |
+| Advancing from an extra chance round       | +1                           |
+| Final placement 1 / 2 / 3 / 4 / 5 / 6 / 7+ | 10 / 8 / 6 / 4 / 3 / 2 / 1   |
+
+Each stage pays once, the first time a couple reaches it. A couple alone in the class, with no
+competition held, gets a flat 100 points — no bonus and no multiplier.
+
+### Bonus per round
+
+Open the summary round, go to **Priority** and click **Edit** next to **Round priority setting**.
+Below the groups, the **Bonus per round** table lists every round in the class. **Counts as**
+decides the bonus for reaching that round, and **Bonus** shows what it pays.
+
+![Bonus per round](/assets/images/point-summary/bonus-per-round.png)
+
+Each round starts from its name:
+
+- Kvartsfinal or Quarter-final → **Quarterfinal**; Semifinal → **Semifinal**; Final → **Final**
+- Lucky loser, Hope round, Extrachans and every extra chance round → **Extra chance**
+- Duel rounds → **No stage**
+- Åttondelsfinal, Uttagning, Kval and Ranking rounds → **Preliminary round**
+- Any other name is placed by its order: the last round is the final, then the semifinal, the
+  quarterfinal and the preliminary rounds
+
+Change a row when your format pays differently. For example, a couple that wins the lucky loser
+round gets +1 for advancing from an extra chance; set **Lucky loser** to **No stage** and it gets
++8 for reaching the final instead. Renaming a round keeps what you set for it.
+
+**Summaries made before the Bonus per round table** keep counting bonuses by round order, the way
+they always have. The dialog says so, and saving the settings switches the summary to the table.
+A confirmed summary keeps its results.
+
 ## 4. Validate and publish
 
 Validate summarized outcomes, then publish the round.
