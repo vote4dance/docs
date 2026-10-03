@@ -7,10 +7,13 @@ nav_order: 10
 
 # Release notes
 ## 2026-10-03
+ ⭐ **New**
+* Manager: New and re-saved point summary rounds count round bonuses by what each round is — quarterfinal, semifinal, final or extra chance — read from the round's name, instead of by its position; finals danced as duel ladders pay every finalist its placement, and a seeding round before a final makes it a direct final. Formats with duels, lucky loser or hope rounds can be scored right by setting what each round counts as in the new **Bonus per round** table in the summary's priority settings, instead of retyping totals. Results show one column per bonus — quarterfinal, semifinal, final, extra chance and placement — and classes that name their rounds differently all get their bonuses (see [Point summary](/point-summary/#bonus-per-round))
  🛠️ **Improvements**
 * Manager: A new [Separating tied positions](/manager-guide/judges/#separating-tied-positions) section in the Judges guide explains **Redance**, **Side skating**, **Chief judge** and **Paper redance**, and which chief judge type fits which rules
 * Manager: **Chief judge** now breaks a tie in favour of the competitor the chief judge marked higher — Yes before Alt 1, Alt 2 and Alt 3 on a callback round with points, 1 before 5 on a one-to-five round, and 1st before 2nd on a placement round. It ranked the chief judge's lower mark first. Slider and raw scores were already ranked correctly. A tie separated before this release keeps its order; to redo it, remove that Chief judge round and separate the position again (see [Separating tied positions](/manager-guide/judges/#separating-tied-positions))
 * Manager: **Chief judge** and **Paper redance** take one tied position at a time. Picking several placed the new round at the lowest position you picked but filled it with the competitors tied at the first one, so their placements came back at the wrong position (see [Chief judge](/manager-guide/judges/#chief-judge))
+* Manager: A couple alone in a point summary that never danced against another couple gets a flat 100 points without bonus or multiplier, as when no competition is held; recalculating an older summary applies this too (see [Point summary](/point-summary/#how-points-are-counted))
 ## 2026-10-01
  🛠️ **Improvements**
 * Dancer app: An event whose organizer takes entries outside Vote4Dance shows a **Registration** card saying **Handled by the organizer** before the event, and Profile → **Registrations** says that it only lists registrations made in Vote4Dance, so a dancer whose start was added by the organizer knows where to look (see [Registration for event](/dancer/registration-for-event/#when-the-organizer-handles-entries))
