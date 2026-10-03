@@ -76,12 +76,13 @@ column.
 #### Bonus per round
 
 Open the summary round, go to **Priority** and click **Edit** next to **Round priority setting**.
-Below the groups, the **Bonus per round** table lists every round in the class. **Counts as**
-decides the bonus for reaching that round, and **Bonus** shows what reaching it pays: **No bonus**
-for the round couples start in, a round whose stage an earlier round already reaches, and a round
-every couple reaches from the round before. A final row still pays placement points to the couples
-who end in it. Each class is read on its own format, so when classes use the same round name for
-different parts of their format, the name gets a row per class, with the class names below it.
+Below the groups, the **Bonus per round** table lists every round in the summary's classes.
+**Counts as** decides the bonus for reaching that round, and **Bonus** shows what reaching it pays:
+**No bonus** for the round couples start in, a round whose stage an earlier round already reaches,
+and a round every couple reaches from the round before. A final row still pays placement points to
+the couples who end in it. Each class is read on its own format, so when classes use the same round
+name for different parts of their format, the name gets a row per class, with the class names below
+it. Those rows share one setting: changing one changes that round name in every class.
 
 ![Bonus per round](/assets/images/point-summary/bonus-per-round.png)
 
