@@ -167,7 +167,7 @@ When a closed round has competitors sharing a position, the round's toolbar offe
 ### Chief judge
 
 1. Open the closed round and click **Chief judge**.
-2. Choose the tied position under **Select positions to separate:** and click **OK**. Separate one position at a time.
+2. Choose the tied position under **Select the position to separate:** and click **OK**. To separate another tied position, click **Chief judge** again.
 3. A round named **Chief judge** appears under the round. It holds the tied competitors with the marks the chief judge already gave them in the round, and it is ranked straight away.
 
 The competitor the chief judge marked higher gets the better placement:
