@@ -59,6 +59,8 @@ multiplied by the group's **Multiplier**. The bonuses follow the DSF BRR rules:
 - Classes in the same summary may name their rounds differently, for example Semifinal Dueller
   in one class and Semifinal in another. Each couple gets the bonus of the stage its own round
   counts as.
+- A couple that danced in more than one level of the summary is scored in the level it danced
+  first, the one the qualification round placed it in.
 - Every finalist gets its final placement, also in a final danced as duels, where a couple's place
   is the one it ended on. That includes a couple knocked out in a lucky loser round after the
   final duels, when those duels count as the final.
