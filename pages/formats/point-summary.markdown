@@ -60,7 +60,8 @@ multiplied by the group's **Multiplier**. The bonuses follow the DSF BRR rules:
   in one class and Semifinal in another. Each couple gets the bonus of the stage its own round
   counts as.
 - Every finalist gets its final placement, also in a final danced as duels, where a couple's place
-  is the one it ended on.
+  is the one it ended on. That includes a couple knocked out in a lucky loser round after the
+  final duels, when those duels count as the final.
 - A couple alone in the summary that never danced against another couple gets a flat 100 points —
   no bonus and no multiplier — as the rules give when no competition is held. A lone couple that
   did dance against someone, for example after the other couple withdrew, is scored on its result.
