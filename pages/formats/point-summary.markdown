@@ -56,11 +56,19 @@ multiplied by the group's **Multiplier**. The bonuses follow the DSF BRR rules:
 - A round that sends every couple on selects nobody, so reaching the next round pays no bonus. A
   final after such a round, like a seeding round before a duel ladder, counts as a direct final:
   points and final placement only.
+- Classes in the same summary may name their rounds differently, for example Semifinal Dueller
+  in one class and Semifinal in another. Each couple gets the bonus of the stage its own round
+  counts as.
 - Every finalist gets its final placement, also in a final danced as duels, where a couple's place
   is the one it ended on.
 - A couple alone in the summary that never danced against another couple gets a flat 100 points —
   no bonus and no multiplier — as the rules give when no competition is held. A lone couple that
   did dance against someone, for example after the other couple withdrew, is scored on its result.
+
+The summary's results show one column per bonus in the table: **Base**, **Quarterfinal**,
+**Semifinal**, **Final**, **Extra chance**, **Placement** and **Multiplier**. A column no couple
+earned is left out, so when every couple starts in the quarterfinal there is no Quarterfinal
+column.
 
 #### Bonus per round
 
@@ -99,9 +107,9 @@ the name once more. Renaming a round keeps what you set for it. Click **Ok** in 
 **Save changes** on the round.
 
 **Summaries made before the Bonus per round table** keep counting bonuses by round order, the way
-they always have. The dialog says so, and saving the settings switches the summary to the table.
-Recalculating an older summary never changes its bonuses; only a lone couple's total follows the
-rule above.
+they always have, with one result column per round. The dialog says so, and saving the settings
+switches the summary to the table. Recalculating an older summary never changes its bonuses; only
+a lone couple's total follows the rule above.
 
 ## 4. Validate and publish
 

@@ -8,7 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-10-02
  ⭐ **New**
-* Manager: New and re-saved point summary rounds count round bonuses by what each round is — quarterfinal, semifinal, final or extra chance — read from the round's name, instead of by its position; finals danced as duel ladders pay every finalist its placement, and a seeding round before a final makes it a direct final. Formats with duels, lucky loser or hope rounds can be scored right by setting what each round counts as in the new **Bonus per round** table in the summary's priority settings, instead of retyping totals (see [Point summary](/point-summary/#bonus-per-round))
+* Manager: New and re-saved point summary rounds count round bonuses by what each round is — quarterfinal, semifinal, final or extra chance — read from the round's name, instead of by its position; finals danced as duel ladders pay every finalist its placement, and a seeding round before a final makes it a direct final. Formats with duels, lucky loser or hope rounds can be scored right by setting what each round counts as in the new **Bonus per round** table in the summary's priority settings, instead of retyping totals. Results show one column per bonus — quarterfinal, semifinal, final, extra chance and placement — and classes that name their rounds differently all get their bonuses (see [Point summary](/point-summary/#bonus-per-round))
  🛠️ **Improvements**
 * Manager: A couple alone in a point summary that never danced against another couple gets a flat 100 points without bonus or multiplier, as when no competition is held; recalculating an older summary applies this too (see [Point summary](/point-summary/#how-points-are-counted))
 ## 2026-10-01
