@@ -6,6 +6,10 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-03
+ 🛠️ **Improvements**
+* Manager: A new [Separating tied positions](/manager-guide/judges/#separating-tied-positions) section in the Judges guide explains **Redance**, **Side skating**, **Chief judge** and **Paper redance**, and which chief judge type fits which rules
+* Manager: **Chief judge** now breaks a tie in favour of the competitor the chief judge marked higher — Yes before Alt 1, Alt 2 and Alt 3 on a callback round with points, 1 before 5 on a one-to-five round, and 1st before 2nd on a placement round. It ranked the chief judge's lower mark first. Slider and raw scores were already ranked correctly. A tie separated before this release keeps its order; to redo it, remove that Chief judge round and separate the position again (see [Separating tied positions](/manager-guide/judges/#separating-tied-positions))
 ## 2026-10-01
  🛠️ **Improvements**
 * Dancer app: An event whose organizer takes entries outside Vote4Dance shows a **Registration** card saying **Handled by the organizer** before the event, and Profile → **Registrations** says that it only lists registrations made in Vote4Dance, so a dancer whose start was added by the organizer knows where to look (see [Registration for event](/dancer/registration-for-event/#when-the-organizer-handles-entries))

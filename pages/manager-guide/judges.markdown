@@ -151,6 +151,44 @@ The type is set per panel, so the same person can be a **Judge** on one panel an
 
 Rounds placed by a majority of the judges need an odd number of judges. [Problems](/manager-guide/validator/#even-judge-panels) lists the rounds whose panel has an even number, counting only the types that mark the result.
 
+## Separating tied positions
+
+When a closed round has competitors sharing a position, the round's toolbar offers ways to separate them. Each one adds a round under the main round, and the placements it decides come back to the main round with a letter showing how they were decided.
+
+| Button | When it is shown | What happens | Letter |
+|---|---|---|---|
+| **Redance** | On a closed main round | The tied competitors dance again in a new round, judged by placement. | **R** |
+| **Side skating** | On a closed round without sub-rounds, except partial-input rounds | Compares the judges' marks for the competitors that share a position, without anyone dancing again. | **S** |
+| **Chief judge** | On a closed round whose panel has a **Chief judge (in)** or **Chief judge (out)** | The chief judge's marks from the round decide the order. Nobody dances or judges again. | **CJ** |
+| **Paper redance** | On a closed partial-input round whose panel has no chief judge | All judges rank the tied competitors again on paper, without anyone dancing again. | **PR** |
+
+**Redance**, **Chief judge** and **Paper redance** are greyed out while no position is shared, and **Side skating** while no position can be side-skated. The letter appears as a badge next to the placement in the round's results; hover over it to see how the placement was decided, for example "Placement assigned through chief judge".
+
+### Chief judge
+
+1. Open the closed round and click **Chief judge**.
+2. Choose the tied position under **Select positions to separate:** and click **OK**. Separate one position at a time.
+3. A round named **Chief judge** appears under the round. It holds the tied competitors with the marks the chief judge already gave them in the round, and it is ranked straight away.
+
+The competitor the chief judge marked higher gets the better placement:
+
+| Round judged with | Ranked first |
+|---|---|
+| Callback marks (Yes / Alt 1 / Alt 2 / Alt 3) | Yes, then Alt 1, Alt 2 and Alt 3; a competitor without a mark comes last |
+| Scores (sliders) | The higher score |
+| One-to-five | 1 before 2, and so on to 5 |
+| Placement | 1st before 2nd, and so on |
+
+Competitors the chief judge marked the same stay tied. When the panel has more than one chief judge, their orders are combined by majority.
+
+Which chief judge type to use depends on the rules:
+
+- **Chief judge (in)** marks like the other judges and counts in the result. Use it when the head judge sits on the panel, as in DSF West Coast Swing, where the head judge breaks ties in prelims.
+- **Chief judge (out)** does not count in the result; only their marks break ties. Use it when the chief judge sits outside the panel, as in WSDC Jack & Jill, where the chief judge gives every competitor a raw score in prelims. See [Jack & Jill](/formats/jack-n-jill/#5-judges-and-run-time-execution).
+- Where the rules settle a tie by dancing again, as in Norwegian (ND) semifinals, use **Redance** instead.
+
+**To redo a chief judge decision**, open the **Chief judge** round. If it is **Closed**, use **Previous status** until it is **Not started**. Click **Remove participants**, then **Delete round**, and click **Chief judge** on the main round again. A tie separated before the fix in the [2026-10-03 release](/release-notes/#2026-10-03) keeps the order it got then, which could rank the chief judge's lower mark first, so redo those.
+
 ## Panels
 
 A panel is a named group of judges. Classes and rounds are judged by a panel, not by individual judges. A round cannot be started until its class or the round has a panel. **Start judging** is refused with "Assign a judging panel to this class or round before starting judging."
