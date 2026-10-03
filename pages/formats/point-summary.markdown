@@ -77,7 +77,8 @@ Below the groups, the **Bonus per round** table lists every round in the class. 
 decides the bonus for reaching that round, and **Bonus** shows what reaching it pays: **No bonus**
 for the round couples start in, a round whose stage an earlier round already reaches, and a round
 every couple reaches from the round before. A final row still pays placement points to the couples
-who end in it.
+who end in it. Each class is read on its own format, so when classes use the same round name for
+different parts of their format, the name gets a row per class, with the class names below it.
 
 ![Bonus per round](/assets/images/point-summary/bonus-per-round.png)
 
