@@ -83,6 +83,8 @@ Tips:
 
 If your system has **Round guide**, use it after classes are finalized. For battle disciplines, the Round Guide generates the complete skeleton (placing round, bracket layers, B‑final) automatically — see [Battle bracket setup](/battle-bracket/) for the seeding steps that follow.
 
+The Round guide also sets each round's **Round for those that qualify** and **Round for non-qualified participants** (the next round, a B-final or a second chance), so the class is ready to advance as soon as results are in; you can still change a link under **Qualified participants**. A point summary from the federation's rules is placed last, in the unscheduled block, and the preview marks it **Unscheduled · calculated after the final**. If the rounds are created but some links could not be set, the Round guide says so and you set those by hand.
+
 ## Step 2: Build rounds from classes
 
 Go to **Competitions -> Rounds** or open a class and click **Create Round**.

@@ -133,6 +133,27 @@ The placing round's job is to rank, so it is usually judged differently from the
 | `round == 1, from start`, `count >= 4` | modify | `judging: 10-0`, `round_label: ["Uttagning"]`, `max_floor: 4`, dances |
 | `round == 1, from end` | modify | `music_length: 240`, `extra_time: 40` |
 
+### Bracket settings
+
+Some rulebook choices are switches rather than round changes. Set them in a modify rule (they are
+in the **Bracket setting** group of the rule editor); a count condition on the rule decides which
+class sizes they apply to.
+
+| Setting | What it does |
+|---|---|
+| **Bracket: redance round** | When the class is a few competitors over the bracket it fills (11 is 8 + 3), the extra competitors don't drop out in the placing round. The last 2 × 3 places dance a **redance round** right after it, in battles of two, and its 3 winners take the last bracket places. The redance round is a normal round of its own, so the bracket after it is unchanged. Not used at or above the largest bracket, or when the class fills a bracket exactly. |
+| **Bracket: redance round name** | The redance round's name (default "Redance Battle"). |
+| **Bracket: redance round judging type** | Its judging type. Without one, it is judged like the other battles (match judging). |
+| **Bracket: redance round comment** / **dances** | Its comment, and the dances its battles are made from. A battle template dance (`Battle [X]/[N]`) makes one battle per pair. |
+| **Bracket: placing round name** | The placing round's name. |
+| **Bracket: top 4 from the placing round at 6 and 7** | At 6 and 7 competitors the placing round sends the top 4 to a semifinal, instead of trios or a round of 7 with a bye. |
+| **Bracket: final of 3 at 3 competitors** | At 3 competitors the placing round sends all three to a final of three, instead of a trio and a final of two. The three dance together in one heat. |
+| **Bracket: final with gold and bronze battle** | The semifinal sends all four on and the final holds two battles: gold for places 1–2 and bronze for places 3–4. |
+
+**Judging in brackets mode.** Battle rounds use match judging. A rule may pick another match
+judging type for a round, and that choice is kept; any other judging type is replaced by the
+federation's first match judging.
+
 ### Complete example — Solo Champion Vuxna (R16 enabled)
 
 | # | Conditions | Action | Changes |

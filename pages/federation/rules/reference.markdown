@@ -230,6 +230,8 @@ then the exceptions.
 Class rules live per discipline under **Federation → Structure → (division) →
 Discipline**, in the **Class rules** tab. The filter at the top of a rule can
 narrow it from the whole discipline to a category, class level or age group.
+Where a federation uses [round setups](/federation-rules/round-setups/), the
+rules a setup manages are listed under it and are read-only.
 
 ### Conditions
 
@@ -284,9 +286,23 @@ applies to every round.
 battle number and `[N]` the number of battles — `Battle [X]/[N]` gives
 `Battle 1/4 … 4/4`.
 
-**Linked rounds.** The Round Guide links a semifinal to its B-final when it
-creates the rounds (`round_others_id`), so **Assign teams** sends the semifinal
-losers there. You never set this in a rule.
+**Linked rounds.** When the Round Guide creates a class's rounds it also sets
+each round's **Round for those that qualify** and **Round for non-qualified
+participants**, so **Assign teams** sends the competitors on without anyone
+choosing the rounds by hand:
+
+- qualifiers go to the next round towards the final; the final sends nobody on;
+- non-qualifiers go to a round added next to theirs (a B-final or a second
+  chance), or else to the round's own second-chance round (Extrachans);
+- a second chance sends its qualifiers to the same next round.
+
+You never set this in a rule, and the Manager can still change a link under
+**Qualified participants**. Battle classes in brackets mode, and classes whose
+rounds were created before this, have no links.
+
+**Point summaries.** A rule that adds a point-summary round (round type
+`points`) always puts it after the final. When the rounds are created it goes
+last in the unscheduled block, totalling its own class.
 
 ### Other rules in the same editor
 
