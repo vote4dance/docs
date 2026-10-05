@@ -7,6 +7,8 @@ nav_order: 10
 
 # Release notes
 ## 2026-10-05
+ ⭐ **New**
+* Supervisor: New **Warnings** page lists every warning the judges give during the whole event — by round or by club, with which judges gave it — so a scrutineer can follow up with team leaders without opening each round; new warnings are counted on the menu and can be ticked off as seen (see [Warnings from the judges](/scrutineer/#warnings-from-the-judges))
  🛠️ **Improvements**
 * Manager: **Export CSV** on the Schedule conflicts page downloads the conflicts listed, with both rounds' estimated times and floors, to share with team leaders or work through in a spreadsheet (see [Schedule and conflicts](/manager-guide/schedule/#conflicts))
 * Manager: The Registration page's **Participants** tab shows, for each class, how many registrations are Approved, Signed and Preliminary, with the number of Leaders, Followers and dancers with no role in brackets where dancers chose a role, and a **Total** line for all classes; classes with only preliminary registrations are listed too, and opening a class lists its approved, signed and preliminary registrations (see [Registration and check-in](/manager-guide/registration-checkin/#the-registration-page))
