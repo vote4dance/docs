@@ -116,7 +116,8 @@ that use it.
 
 - **Option name** is what organizers tick in the Round guide.
 - **First round name** renames the first round when the option is used, for example "Uttagning".
-- Add a size range for each class size it applies to, with its **Dances** and **Settings**. When
+- Add a size range for each class size it applies to, with its **Dances** and **Settings**. If a
+  size range sets **Music Length** or **Extra Time**, set both. When
   several dances have the same name, the list shows what tells them apart, for example
   "Extrachans (Num To Advance: 3)".
 
@@ -193,6 +194,8 @@ Rounds that competitions already have are not changed.
 - **New class rules can't compete with it.** While a setup is active, a class rule that would set
   round names or sizes for its classes is refused.
 - **Deleting.** Delete a draft with **Delete draft**. An active setup has to be restored first.
+- **If Vote4Dance switches round setups off** for your federation, the setups stay listed on the
+  **Class rules** tab. You can still open, restore and delete them, but not change or activate them.
 
 ---
 
@@ -203,8 +206,9 @@ Rounds that competitions already have are not changed.
 | Another active setup already covers some of these classes | Change the classes so the two setups don't share any, or restore the other setup. |
 | A rule that stays on sets round names or sizes for some of these classes | Select that rule under **Rules this setup replaces**, or narrow it to other classes. |
 | Restore the old rules to change the rounds of an active setup | Click **Restore old rules**, then make your change. |
-| Sending 100% through moves classes up a round | Use a number of competitors instead of 100%. |
+| Sending 100% or more through moves classes up a round | Use a number of competitors instead of a percentage of 100 or more. |
 | The extra chance needs a round before the final … | Start the Extrachans size ranges where the round before the final begins. |
+| An extra chance size range that sets Music Length or Extra Time must set both | Set both in the size range's **Settings**, or neither. |
 | This setup covers too many classes and settings at once | Split it into smaller setups. |
 | These choices match no active class in this discipline | Check the **Categories**, **Class Levels** and **Age Groups**. A level may only exist for other categories — for example battle classes, which setups don't cover yet. |
 
