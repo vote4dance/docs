@@ -211,6 +211,7 @@ Rounds that competitions already have are not changed.
 | The extra chance needs a round before the final … | Start the Extrachans size ranges where the round before the final begins. |
 | An extra chance size range that sets Music Length or Extra Time must set both | Set both in the size range's **Settings**, or neither. |
 | This setup covers too many classes and settings at once | Split it into smaller setups. |
+| A setting starts above the largest class size | Raise **Largest class size** until the setting's column shows, then change or remove it. |
 | These choices match no active class in this discipline | Check the **Categories**, **Class Levels** and **Age Groups**. A level may only exist for other categories — for example battle classes, which setups don't cover yet. |
 
 ---
