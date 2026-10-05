@@ -116,6 +116,17 @@ For each class, define:
 | Schedule | Day, floor, time block | Day 1, Floor A, 10:00 |
 | Results | Qualifier and placement behavior | Top 12 to semifinal |
 
+A new round goes after the class's last round. To add an extra round in front instead, for example a
+preliminary when more entries came in than the first round can take:
+
+1. Open the class and click **Add round**.
+2. Under **Place in class**, choose **Before the first round**.
+3. Fill in the round and click **Save changes**.
+
+The new round becomes the class's first round, where entries without a starting round begin.
+
+![Place in class on the Add Round form](/assets/images/round-guide/add-round-place.png)
+
 Typical round tree:
 
 ```
