@@ -8,6 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-10-05
  🛠️ **Improvements**
+* Manager: **Export CSV** on the Schedule conflicts page downloads the conflicts listed, with both rounds' estimated times and floors, to share with team leaders or work through in a spreadsheet (see [Schedule and conflicts](/manager-guide/schedule/#conflicts))
 * Manager: The Registration page's **Participants** tab shows, for each class, how many registrations are Approved, Signed and Preliminary, with the number of Leaders, Followers and dancers with no role in brackets where dancers chose a role, and a **Total** line for all classes; classes with only preliminary registrations are listed too, and opening a class lists its approved, signed and preliminary registrations (see [Registration and check-in](/manager-guide/registration-checkin/#the-registration-page))
 * Manager: A **Filter by name** box above the registrations list finds a registration by its team name or any dancer's name, together with the class, status and payment filters (see [Registration and check-in](/manager-guide/registration-checkin/#the-registration-page))
 * All apps: The **Connection has been re-established.** message closes by itself after two seconds instead of staying at the top of the page, and no longer shows when a page first loads
