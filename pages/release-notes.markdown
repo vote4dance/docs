@@ -8,7 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-10-05
  🛠️ **Improvements**
-* Manager: The Registration page's **Participants** tab shows, for each class, how many registrations are Approved, Signed and Preliminary, with the number of Leaders and Followers in brackets — each dancer counts, so a couple adds one of each — and a **Total** line for all classes; classes with only preliminary registrations are listed too, and opening a class lists its approved, signed and preliminary registrations (see [Registration and check-in](/manager-guide/registration-checkin/#the-registration-page))
+* Manager: The Registration page's **Participants** tab shows, for each class, how many registrations are Approved, Signed and Preliminary, with the number of Leaders, Followers and dancers with no role in brackets where dancers chose a role, and a **Total** line for all classes; classes with only preliminary registrations are listed too, and opening a class lists its approved, signed and preliminary registrations (see [Registration and check-in](/manager-guide/registration-checkin/#the-registration-page))
 * Manager: A **Filter by name** box above the registrations list finds a registration by its team name or any dancer's name, together with the class, status and payment filters (see [Registration and check-in](/manager-guide/registration-checkin/#the-registration-page))
 ## 2026-10-03
  ⭐ **New**

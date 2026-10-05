@@ -30,7 +30,7 @@ Emails, the check-in QR code and how to test them are on [Emails and the check-i
 | `Registration period` | The registration windows: dates, payment mode, acceptance mode, prices, rules and form. |
 | `Data transfer` | CSV import of participants, result downloads, and the reset and delete tools. Not an export to another system. |
 
-On the `Participants` tab, each class shows its number of registrations per status and, in brackets, the number of **Leaders** and **Followers**. Leaders and followers count each dancer, so a couple adds one of each. A **Total** line at the top sums all listed classes. Use it to see the balance of leaders and followers in each class and how many are approved versus still preliminary (the waiting list). Classes whose registrations are all preliminary are listed too, and opening a class lists its approved, signed and preliminary registrations.
+On the `Participants` tab, each class shows its number of registrations per status. Where dancers chose a role, the brackets show the number of **Leaders**, **Followers** and dancers with **No role**; a couple adds one of each. In classes split into a lead class and a follow class, the class's own count is the number of leaders or followers. A **Total** line at the top sums the registrations of all listed classes. Counts are entries per class, so a dancer in several classes counts in each. Use it to see the balance of leaders and followers in each class and how many are approved versus still preliminary (the waiting list). Classes whose registrations are all preliminary are listed too, and opening a class lists its approved, signed and preliminary registrations.
 
 ### Registration periods
 
