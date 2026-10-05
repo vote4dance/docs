@@ -6,6 +6,20 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-05
+ ⭐ **New**
+* Manager: The **Judges** page has four tabs — **Judges**, **Panels**, **Classes** and **Tablets** — and Supervisor gets the same page as its **Judges** tab (see [Judges](/manager-guide/judges/))
+* Manager: Seat judges on panels in one grid, judges down the side and panels across the top; a seat is saved as soon as you pick it, with **Undo**, and panels can be shown in panel order or in running order by day (see [Panels](/manager-guide/judges/#panels))
+* Manager: Judge needs — times away, most rounds per day, longest stretch without a break, classes and dancers not to judge, seat and side preferences, and what a judge can or wants to judge; every seat is checked against them and marked when it breaks one (see [Judge needs](/manager-guide/judges/#judge-needs))
+* Manager: **Suggest** fills open seats, or re-plans every panel without scores, around the judges' needs and spreading the rounds evenly, as a preview to apply or discard (see [Letting Vote4Dance suggest seats](/manager-guide/judges/#letting-vote4dance-suggest-seats))
+* Manager: **Judge absent** saves a judge's time away and hands each of their seats from then on to the best free judge for the same seat, as a preview (see [A judge who can't come](/manager-guide/judges/#a-judge-who-cant-come))
+* Manager: The Judges page lists problems with the panels in the order they need attention — rounds within the next hour first, rounds that are over folded away — with **Show** to go straight to the panel, round or judge (see [Problems with the panels](/manager-guide/judges/#problems-with-the-panels))
+* Manager: On the **Classes** tab every round can be given its own panel in place, and is tagged **Class panel**, **Own panel** or **No panel** (see [Round override](/manager-guide/judges/#round-override))
+* Manager: A person judging in several competitions of one event is linked: their rounds in the other competitions count when checking their seats, and their needs are shared (see [Events with several competitions](/manager-guide/judges/#events-with-several-competitions))
+ 🛠️ **Improvements**
+* Manager: Problems checks every judged round for a panel with someone whose marks count, not only rounds of group classes, and warns about panels with fewer seats than they ask for; warnings are orange and not counted in the sidebar badge (see [Problems](/manager-guide/validator/#panels-short-of-seats))
+* Supervisor: In an event with several competitions, the Judges tab lets you choose the competition (see [Events with several competitions](/manager-guide/judges/#events-with-several-competitions))
+* Manager: The Judges page works on a tablet: classes and their rounds stack on smaller screens, and seats and buttons are bigger on a touch screen
 ## 2026-10-03
  ⭐ **New**
 * Manager: New and re-saved point summary rounds count round bonuses by what each round is — quarterfinal, semifinal, final or extra chance — read from the round's name, instead of by its position; finals danced as duel ladders pay every finalist its placement, and a seeding round before a final makes it a direct final. Formats with duels, lucky loser or hope rounds can be scored right by setting what each round counts as in the new **Bonus per round** table in the summary's priority settings, instead of retyping totals. Results show one column per bonus — quarterfinal, semifinal, final, extra chance and placement — and classes that name their rounds differently all get their bonuses (see [Point summary](/point-summary/#bonus-per-round))
