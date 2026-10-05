@@ -139,6 +139,14 @@ Some rulebook choices are switches rather than round changes. Set them in a modi
 in the **Bracket setting** group of the rule editor); a count condition on the rule decides which
 class sizes they apply to.
 
+1. On the discipline's **Class Rules** tab, click **Add class rule** (or **Edit class rule** on an
+   existing one).
+2. Choose the battle **Category** the rule is for.
+3. Click **Add round setting**, pick a setting that starts with **Bracket:**, and set its value.
+4. Click **Save changes**.
+
+![A class rule that turns on the redance round and names it](/assets/images/round-setups/bracket-settings.png)
+
 | Setting | What it does |
 |---|---|
 | **Bracket: redance round** | When the class is a few competitors over the bracket it fills (11 is 8 + 3), the extra competitors don't drop out in the placing round. The last 2 × 3 places dance a **redance round** right after it, in battles of two, and its 3 winners take the last bracket places. The redance round is a normal round of its own, so the bracket after it is unchanged. Not used at or above the largest bracket, or when the class fills a bracket exactly. |

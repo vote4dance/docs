@@ -83,7 +83,25 @@ Tips:
 
 If your system has **Round guide**, use it after classes are finalized. For battle disciplines, the Round Guide generates the complete skeleton (placing round, bracket layers, B‑final) automatically — see [Battle bracket setup](/battle-bracket/) for the seeding steps that follow.
 
-The Round guide also sets each round's **Round for those that qualify** and **Round for non-qualified participants** (the next round, a B-final or a second chance), so the class is ready to advance as soon as results are in; you can still change a link under **Qualified participants**. A point summary from the federation's rules is placed last, in the unscheduled block, and the preview marks it **Unscheduled · calculated after the final**. If the rounds are created but some links could not be set, the Round guide says so and you set those by hand.
+To create a class's rounds with the Round guide:
+
+1. Open the class under **Classes** and click **Round guide**.
+2. Check the **Federation Class**, pick the **Schedule item**, and enter the **Number of Participants**.
+3. Click **Preview** to see the rounds you will get. A point summary from the federation's rules is
+   marked **Unscheduled · calculated after the final**.
+
+   ![The Round guide preview with a semifinal, a final and a point summary](/assets/images/round-guide/round-guide-point-summary.png)
+
+4. Click **Create rounds**. The rounds are placed on the schedule item you picked; the point summary
+   is placed last in the class, in the unscheduled block, so it takes no floor time.
+
+   ![The created rounds, with the semifinal and final on the schedule](/assets/images/round-guide/round-guide-created.png)
+
+The Round guide also fills in each round's **Round for those that qualify** and **Round for
+non-qualified participants** (the next round, a B-final or a second chance), so the class is ready
+to advance as soon as results are in. You can still change a link under **Qualified participants**
+when the round is closed. If the rounds are created but some links could not be set, the Round guide
+says so and you set those by hand.
 
 ## Step 2: Build rounds from classes
 

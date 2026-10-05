@@ -33,6 +33,8 @@ add a point summary, the **Round guide** creates it for you: last in the class, 
 block, totalling the class with each round's stage read from its name. Check its group points in
 step 3 as usual.
 
+![The Round guide marks the point summary as unscheduled](/assets/images/round-guide/round-guide-point-summary.png)
+
 ![Create summary](/assets/images/point-summary/create-summary.png)
 
 ## 3. Configure group points

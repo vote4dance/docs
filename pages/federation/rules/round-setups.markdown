@@ -34,7 +34,9 @@ open **Class Rules**. Click **New setup** on the **Setups** card.
 ![The Setups card on the Class rules tab](/assets/images/round-setups/setups-card.png)
 
 **2. Name it and choose its classes.** Pick the **Categories**, **Class Levels** and **Age Groups**
-it covers. Leave a list empty to cover all of them — here, every age group.
+it covers. Leave a list empty to cover all of them — here, every age group. Below the lists you see
+how many active classes the setup covers. If your choices match no class, a warning says so before
+you save.
 
 ![Name and classes](/assets/images/round-setups/setup-name-and-classes.png)
 
@@ -114,7 +116,9 @@ that use it.
 
 - **Option name** is what organizers tick in the Round guide.
 - **First round name** renames the first round when the option is used, for example "Uttagning".
-- Add a size range for each class size it applies to, with its **Dances** and **Settings**.
+- Add a size range for each class size it applies to, with its **Dances** and **Settings**. When
+  several dances have the same name, the list shows what tells them apart, for example
+  "Extrachans (Num To Advance: 3)".
 
 The second chance needs a round before the final, so its size ranges start at or above the size
 where the round before the final begins (8 in the example).
@@ -202,6 +206,7 @@ Rounds that competitions already have are not changed.
 | Sending 100% through moves classes up a round | Use a number of competitors instead of 100%. |
 | The extra chance needs a round before the final … | Start the Extrachans size ranges where the round before the final begins. |
 | This setup covers too many classes and settings at once | Split it into smaller setups. |
+| These choices match no active class in this discipline | Check the **Categories**, **Class Levels** and **Age Groups**. A level may only exist for other categories — for example battle classes, which setups don't cover yet. |
 
 ---
 

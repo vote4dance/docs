@@ -10,13 +10,14 @@ nav_order: 10
  ⭐ **New**
 * Federation: **Round setups** — describe a discipline's rounds as a table instead of class rules: which rounds are danced from how many competitors, and what differs per round and class size. Preview the rounds a class gets, compare them with today's rules, and activate; you can always switch back. Switched on per federation by Vote4Dance (see [Round setups](/federation-rules/round-setups/))
 * Federation: A round setup can add a point summary after the final to every class it covers (see [Round setups](/federation-rules/round-setups/#point-summary))
-* Manager: The Round guide fills in **Round for those that qualify** and **Round for non-qualified participants**, so a new class is ready to advance as soon as results are in (see [How class rules work](/federation-rules/reference/#settings-by-what-they-control))
+* Manager: The Round guide fills in **Round for those that qualify** and **Round for non-qualified participants**, so a new class is ready to advance as soon as results are in (see [Competition setup](/manager-guide/competition-setup/))
  🛠️ **Improvements**
 * Manager: The Registration page's **Participants** tab shows, for each class, how many registrations are Approved, Signed and Preliminary, with the number of Leaders, Followers and dancers with no role in brackets where dancers chose a role, and a **Total** line for all classes; classes with only preliminary registrations are listed too, and opening a class lists its approved, signed and preliminary registrations (see [Registration and check-in](/manager-guide/registration-checkin/#the-registration-page))
 * Manager: A **Filter by name** box above the registrations list finds a registration by its team name or any dancer's name, together with the class, status and payment filters (see [Registration and check-in](/manager-guide/registration-checkin/#the-registration-page))
 * All apps: The **Connection has been re-established.** message closes by itself after two seconds instead of staying at the top of the page, and no longer shows when a page first loads
 * Manager: A point summary from the Round guide is placed last in the class, in the unscheduled block (see [Point summary](/point-summary/))
 * Federation: Brackets mode can add a redance round, take the top 4 at 6–7 competitors, dance a final of three at 3, and end with a gold and a bronze battle (see [Battle class rules](/federation-rules/battle-class-rules/#bracket-settings))
+* Federation: The round setup editor shows how many active classes a setup covers and warns when it covers none, and dances that share a name are shown with what tells them apart, such as "Extrachans (Num To Advance: 3)" (see [Round setups](/federation-rules/round-setups/))
 * Federation: In brackets mode a battle round keeps the match judging its class rule sets, and a redance round without its own judging is judged like the other battles
 ## 2026-10-03
  ⭐ **New**
