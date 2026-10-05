@@ -195,6 +195,8 @@ A dancer's window is narrowed to their own heat. Once heats are drawn, the real 
 
 Each row shows **Severity**, **Time**, **Dancer**, **Date**, **Round A** and **Round B**. The round cells show round number and floor code, class, round, estimated time window and floor, and link to the round. Hard conflicts come first, largest overlap at the top. With very many conflicts only the largest are listed, and the page says "Showing the most overlapping conflicts only."
 
+**Export CSV** downloads the rows the table shows, so the **Also flag tight transitions under** value decides which tight rows are included. Each row has the severity, the minutes of overlap or gap, the dancer and how they were matched, the date, and for both rounds the round, estimated start and end, and floor. The file opens in Excel with å, ä and ö intact.
+
 ### How dancers are recognised
 
 A conflict can only be found when the system knows two entries are the same person. The **Dancer** column says which identity matched:
