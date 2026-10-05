@@ -23,12 +23,14 @@ Emails, the check-in QR code and how to test them are on [Emails and the check-i
 
 | Tab | What it is for |
 |---|---|
-| `Registrations` | Every registration in the competition, with status, payment and the **Imported** check. This is where you approve, reject, email and import. Click a column header such as **Participant name** to sort. |
-| `Participants` | The approved registrations grouped by class. A read-only view of what will be imported. It is **not** the participant list itself — that lives under `Competition → Participants`. |
+| `Registrations` | Every registration in the competition, with status, payment and the **Imported** check. This is where you approve, reject, email and import. Click a column header such as **Participant name** to sort. Type in **Filter by name** above the table to find a registration by its team name or any dancer's name; it combines with the class, status and payment filters. |
+| `Participants` | The registrations grouped by class, with how many are Approved, Signed (only when the event uses it) and Preliminary. A read-only view of what will be imported. It is **not** the participant list itself — that lives under `Competition → Participants`. |
 | `Organizations` | Registrations grouped per club, with the club's payment invitations. |
 | `Finances` | Expected, paid and outstanding totals per currency and period, and who still owes what. |
 | `Registration period` | The registration windows: dates, payment mode, acceptance mode, prices, rules and form. |
 | `Data transfer` | CSV import of participants, result downloads, and the reset and delete tools. Not an export to another system. |
+
+On the `Participants` tab, each class shows its number of registrations per status. Where dancers chose a role, the brackets show the number of **Leaders**, **Followers** and dancers with **No role**; a couple adds one of each. In classes split into a lead class and a follow class, the class's own count is the number of leaders or followers. A **Total** line at the top sums the registrations of all listed classes. Counts are entries per class, so a dancer in several classes counts in each. Use it to see the balance of leaders and followers in each class and how many are approved versus still preliminary (the waiting list). Classes whose registrations are all preliminary are listed too, and opening a class lists its approved, signed and preliminary registrations.
 
 ### Registration periods
 
