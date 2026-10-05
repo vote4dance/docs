@@ -6,6 +6,14 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-05
+ ⭐ **New**
+* School/Club: **Members** shows coaches one row per dancer with this season's licence, competitors and entries, and how many entries are unpaid. Cards filter to members without a licence, with a licence pending or not entered; click a dancer to see everything they have this season (see [Club admin screens](/school-club/club-admin/#members))
+* School/Club: **Registration** opens on this season's events, each with its entries and unpaid count. Inside an event, filter by status, search a dancer or class, and see the entries per class or per dancer (see [Club admin screens](/school-club/club-admin/#registration))
+* School/Club: **Competitors**, **Members**, **Registration** and **Licenses** can be searched and exported to a spreadsheet (CSV), and are sorted by name
+ 🛠️ **Improvements**
+* School/Club: **Competitors** opens on this season's competitors. Duos from earlier seasons, such as the ones a dancer brings in by claiming old results, are under **Earlier seasons**, and each competitor shows whether it is entered and when it last competed. Only approved members' competitors are listed, and a competitor's own name leads the row instead of a green tag (see [Club admin screens](/school-club/club-admin/#competitors))
+* School/Club: **Licenses** has a season filter, summary cards, one list with status tabs, and approve or decline for several applications at once. **Approve** only shows where the federation asks clubs to approve licences; before, it showed on every pending application and gave an error (see [Getting a license](/school-club/getting-a-license/))
 ## 2026-10-03
  ⭐ **New**
 * Manager: New and re-saved point summary rounds count round bonuses by what each round is — quarterfinal, semifinal, final or extra chance — read from the round's name, instead of by its position; finals danced as duel ladders pay every finalist its placement, and a seeding round before a final makes it a direct final. Formats with duels, lucky loser or hope rounds can be scored right by setting what each round counts as in the new **Bonus per round** table in the summary's priority settings, instead of retyping totals. Results show one column per bonus — quarterfinal, semifinal, final, extra chance and placement — and classes that name their rounds differently all get their bonuses (see [Point summary](/point-summary/#bonus-per-round))
