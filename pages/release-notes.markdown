@@ -6,6 +6,10 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-05
+ 🛠️ **Improvements**
+* Manager: The Registration page's **Participants** tab shows, for each class, how many registrations are Approved, Signed and Preliminary, with the number of Leaders and Followers in brackets — each dancer counts, so a couple adds one of each — and a **Total** line for all classes; classes with only preliminary registrations are listed too, and opening a class lists its approved, signed and preliminary registrations (see [Registration and check-in](/manager-guide/registration-checkin/#the-registration-page))
+* Manager: A **Filter by name** box above the registrations list finds a registration by its team name or any dancer's name, together with the class, status and payment filters (see [Registration and check-in](/manager-guide/registration-checkin/#the-registration-page))
 ## 2026-10-03
  ⭐ **New**
 * Manager: New and re-saved point summary rounds count round bonuses by what each round is — quarterfinal, semifinal, final or extra chance — read from the round's name, instead of by its position; finals danced as duel ladders pay every finalist its placement, and a seeding round before a final makes it a direct final. Formats with duels, lucky loser or hope rounds can be scored right by setting what each round counts as in the new **Bonus per round** table in the summary's priority settings, instead of retyping totals. Results show one column per bonus — quarterfinal, semifinal, final, extra chance and placement — and classes that name their rounds differently all get their bonuses (see [Point summary](/point-summary/#bonus-per-round))
