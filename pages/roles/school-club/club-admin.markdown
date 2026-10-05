@@ -70,8 +70,6 @@ Rules the screen follows:
 
 Coaches, managers and administrators see one row per approved member, with what that dancer has this season. Managers and administrators also see a **Requires your action** box above it when people are waiting to join. The number waiting shows as a badge on **Members** in the sidebar.
 
-![The Members screen with the summary cards and one row per dancer](/assets/images/club-admin/members-overview.png)
-
 Four cards at the top count the club's members. Click a card to show only those members:
 
 | Card | Shows |
@@ -117,8 +115,6 @@ This screen lists the club's competitors:
 - **Independent competitors** (solos and couples) with at least one approved member of the club in them.
 
 A competitor also appears here when a dancer claims their results from earlier competitions. Vote4Dance creates a competitor for each partnership in those results, so the list can hold duos from earlier seasons. They take part in nothing unless someone registers them.
-
-![The Competitors screen opened on This season](/assets/images/club-admin/competitors.png)
 
 The list opens on **This season**. Switch with the buttons above it:
 
@@ -166,8 +162,6 @@ Moving a competitor to another club is done by the federation. See [Club transfe
 
 This screen shows your club's event registrations for the season. It includes registrations for competitors the club owns, and for independent competitors whose dancers' licences (or, without a licence, their club membership) point at your club.
 
-![The Registration screen with the season's events and entries folded per class](/assets/images/club-admin/registrations.png)
-
 At the top, a line counts the season's entries and how many are unpaid. Below it, each event this season has a card with its date, the number of entries and the number unpaid. The next event is selected. Click another card to switch. **Show earlier seasons** adds the events from before this season, and **Export CSV** downloads every entry of the events shown.
 
 The selected event opens below the cards. Filter its entries with the buttons above the list:
@@ -213,8 +207,6 @@ A club belongs to one federation at a time. Applying while any link exists, appr
 `Organization → Administration → Licenses`
 
 This screen is headed **License Applications**. It shows the licences your club has applied for or holds, for the federation chosen in **Select federation**. Without a federation link it only says "Connect this organization to a federation first." The **Licenses** item in the sidebar shows a badge with the number of applications that need you.
-
-![The Licenses screen with the summary cards, status tabs and selected applications](/assets/images/club-admin/licenses.png)
 
 The page has these parts:
 
