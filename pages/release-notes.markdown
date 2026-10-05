@@ -10,6 +10,7 @@ nav_order: 10
  🛠️ **Improvements**
 * Manager: The Registration page's **Participants** tab shows, for each class, how many registrations are Approved, Signed and Preliminary, with the number of Leaders, Followers and dancers with no role in brackets where dancers chose a role, and a **Total** line for all classes; classes with only preliminary registrations are listed too, and opening a class lists its approved, signed and preliminary registrations (see [Registration and check-in](/manager-guide/registration-checkin/#the-registration-page))
 * Manager: A **Filter by name** box above the registrations list finds a registration by its team name or any dancer's name, together with the class, status and payment filters (see [Registration and check-in](/manager-guide/registration-checkin/#the-registration-page))
+* Dancer app: A solo result you claim is shown under your own name, and follows it if you change your name, instead of keeping your name as it was when you claimed it; solo teams already named after their dancer are cleared the same way (see [Creating and getting a ranking](/dancer/creating-and-getting-a-ranking/))
 * All apps: The **Connection has been re-established.** message closes by itself after two seconds instead of staying at the top of the page, and no longer shows when a page first loads
 ## 2026-10-03
  ⭐ **New**
