@@ -117,7 +117,8 @@ that use it.
 - **Option name** is what organizers tick in the Round guide.
 - **First round name** renames the first round when the option is used, for example "Uttagning".
 - Add a size range for each class size it applies to, with its **Dances** and **Settings**. If a
-  size range sets **Music Length** or **Extra Time**, set both. When
+  size range sets **Music Length** or **Extra Time**, set both. A size range's **Settings** apply to
+  the whole first round the extra chance sits in, not only to the extra-chance dance. When
   several dances have the same name, the list shows what tells them apart, for example
   "Extrachans (Num To Advance: 3)".
 
