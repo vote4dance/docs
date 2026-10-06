@@ -7,7 +7,16 @@ nav_order: 2.2
 help:
   manager.comp.judges: ""
   manager.comp.judges.panels: panels
+  manager.comp.judges.judges: judge-list
   manager.comp.judges.classes: classes
+  manager.comp.judges.needs: judge-needs
+  manager.comp.judges.absent: a-judge-who-cant-come
+  manager.comp.judges.problems: problems-with-the-panels
+  manager.comp.judges.suggest: letting-vote4dance-suggest-seats
+  supervisor.judges: ""
+  supervisor.judges.judges: judge-list
+  supervisor.judges.panels: panels
+  supervisor.judges.classes: classes
 ---
 
 # Judges
