@@ -18,7 +18,7 @@ The page has four tabs:
 
 | Tab | What you do there |
 |---|---|
-| **Judges** | Add and invite judges, give them letters, reset PINs, and see each judge's needs and seats. |
+| **Judges** | Add and invite judges, give them letters, reset PINs, and see each judge's needs. |
 | **Panels** | Seat judges on panels in one grid, let Vote4Dance suggest seats, and handle a judge who can't come. See [Panels](#panels). |
 | **Classes** | Choose the panel for each class, and give single rounds a panel of their own. See [Classes](#classes). |
 | **Tablets** | Shared judging tablets, when they are switched on for your event. |
@@ -69,12 +69,10 @@ Each row has:
 | Column | What it shows |
 |---|---|
 | Dot | Green when the judge has the Judging app open and connected; hover for battery level. |
-| **Name** | |
+| **Name** | The judge's name. Hover over the info icon after it to see their email address, and click it to copy the address. |
 | **Photo** | A photo used for this competition only. Upload one to replace the judge's profile picture; delete it to fall back to the profile picture. |
-| **Email** | Hidden on narrow screens. |
 | **Status** | See [Statuses](#statuses). |
 | **Needs** | **None**, or **Set by supervisor** when the judge has [needs](#judge-needs). Click it to open them. |
-| **Seats** | How many panels and rounds the judge sits on, or **Not seated**. Click it to find the judge on the **Panels** tab. |
 | **Letter** | The judge's letter. Type it in; it saves when you leave the field or press Enter. |
 | **WDSF MIN** | Only in WDSF competitions. The judge's WDSF MIN, with a lookup button. |
 | Delete | Removes the judge. See [Removing a judge](#removing-a-judge). |
