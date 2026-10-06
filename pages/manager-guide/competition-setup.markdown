@@ -164,9 +164,9 @@ Process:
 1. Invite each judge by email, or link an existing account. **Invite new judge** checks for
    existing accounts first, so you do not create a duplicate person.
 2. Assign judge letters (A, B, C…)
-3. Create judge panels
-4. Add judges to the panels
-5. Assign a panel to each class — a round can override it with its own panel
+3. Enter each judge's needs: times away, limits, and classes or dancers they must not judge
+4. On the **Panels** tab, create panels and seat judges, or let **Suggest** seat them for you
+5. On the **Classes** tab, assign a panel to each class — a round can have its own panel
 
 Each judge's row shows `Not invited`, `Invited` or `Active`, and lets you resend the invitation
 in any of the app's languages, or **Reset PIN** if a judge has forgotten theirs. Judges set
@@ -174,8 +174,8 @@ their own PIN on their own device; there is no event-wide code. A judge's PIN is
 competitions in the event, so **Reset PIN** clears it event-wide. **Reset PIN** is disabled
 until the judge has set a PIN.
 
-A panel locks once a round that uses it has started, and a panel with classes assigned cannot
-be deleted. A judge who already has marks cannot be removed.
+Fix anything listed above the tabs before the event. A panel locks once a round that uses it
+has scores, and a panel that a round uses cannot be deleted. A judge who already has marks cannot be removed.
 
 ## Step 6: Run one rehearsal round
 
