@@ -210,6 +210,8 @@ A panel is a named group of judges. Classes and rounds are judged by a panel, no
 
 The **Panels** tab shows every judge as a row and every panel as a column. Each cell is that judge's seat on that panel.
 
+You can seat judges on a panel before it judges any class. A panel that isn't used yet has a grey column and says "Not used by any round". Set up all your panels first if you like, then give each class its panel on the [Classes](#classes) tab.
+
 ![The Panels tab: judges down the side, panels across the top](/assets/images/judges/panels-grid.png)
 
 ### Seating a judge
