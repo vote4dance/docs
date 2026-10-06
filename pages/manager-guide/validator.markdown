@@ -21,7 +21,7 @@ help:
 
 ## Where to find it
 
-**Problems** is at the top of the Manager sidebar, under **Event overview**, marked with a red warning icon. A badge shows how many checks are failing. Warnings are not counted in the badge.
+**Problems** is at the top of the Manager sidebar, under **Event overview**, marked with a red warning icon. A badge shows how many checks are failing. When only [warnings](#reading-the-page) are left, the link stays, without the red icon, and its badge is orange and counts the warnings.
 
 The link only appears while at least one check fails. When everything passes it disappears from the sidebar. You can still open the page directly at `/manager/event/<event id>/validator`, where each competition shows an empty result.
 

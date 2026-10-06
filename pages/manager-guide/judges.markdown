@@ -290,7 +290,7 @@ When a judge is ill, delayed or has to leave:
 
 ![Replacing a judge who can't come](/assets/images/judges/judge-absent.png)
 
-A panel that already has scores keeps the judge; the dialog lists those panels. To change who judges the rounds still to come, give those rounds a panel of their own on the [Classes](#classes) tab.
+A panel that already has scores keeps the judge; the dialog lists those panels. It also lists panels whose rounds have no time yet, since Vote4Dance can't tell whether they fall in the time away; check those yourself. To change who judges the rounds still to come, give those rounds a panel of their own on the [Classes](#classes) tab.
 
 ## Problems with the panels
 

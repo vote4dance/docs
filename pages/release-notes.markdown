@@ -20,7 +20,7 @@ nav_order: 10
 * Federation: A round setup can add a point summary after the final to every class it covers (see [Round setups](/federation-rules/round-setups/#point-summary))
 * Manager: The Round guide fills in **Round for those that qualify** and **Round for non-qualified participants**, so a new class is ready to advance as soon as results are in (see [Competition setup](/manager-guide/competition-setup/))
  🛠️ **Improvements**
-* Manager: Problems checks every judged round for a panel with someone whose marks count, not only rounds of group classes, and warns about panels with fewer seats than they ask for; warnings are orange and not counted in the sidebar badge (see [Problems](/manager-guide/validator/#panels-short-of-seats))
+* Manager: Problems checks every judged round for a panel with someone whose marks count, not only rounds of group classes, and warns about panels with fewer seats than they ask for; warnings are orange, and when only warnings are left the sidebar shows them with an orange count (see [Problems](/manager-guide/validator/#panels-short-of-seats))
 * Supervisor: In an event with several competitions, the Judges tab lets you choose the competition (see [Events with several competitions](/manager-guide/judges/#events-with-several-competitions))
 * Manager: The Judges page works on a tablet: classes and their rounds stack on smaller screens, and seats and buttons are bigger on a touch screen
 * Manager: **Export CSV** on the Schedule conflicts page downloads the conflicts listed, with both rounds' estimated times and floors, to share with team leaders or work through in a spreadsheet (see [Schedule and conflicts](/manager-guide/schedule/#conflicts))
