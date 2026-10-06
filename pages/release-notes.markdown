@@ -23,6 +23,7 @@ nav_order: 10
 * Federation: A round setup can add a point summary after the final to every class it covers (see [Round setups](/federation-rules/round-setups/#point-summary))
 * Manager: The Round guide fills in **Round for those that qualify** and **Round for non-qualified participants**, so a new class is ready to advance as soon as results are in (see [Competition setup](/manager-guide/competition-setup/))
 * Supervisor: New **Warnings** page lists every warning the judges give during the whole event — by round or by club, with which judges gave it — so a scrutineer can follow up with team leaders without opening each round; new warnings are counted on the menu and can be ticked off as seen (see [Warnings from the judges](/scrutineer/#warnings-from-the-judges))
+
  🛠️ **Improvements**
 * Manager: Problems checks every judged round for a panel with someone whose marks count, not only rounds of group classes, and warns about panels with fewer seats than they ask for; warnings are orange, and when only warnings are left the sidebar shows them with an orange count (see [Problems](/manager-guide/validator/#panels-short-of-seats))
 * Supervisor: In an event with several competitions, the Judges tab lets you choose the competition (see [Events with several competitions](/manager-guide/judges/#events-with-several-competitions))
@@ -32,6 +33,7 @@ nav_order: 10
 * Manager: A **Filter by name** box above the registrations list finds a registration by its team name or any dancer's name, together with the class, status and payment filters (see [Registration and check-in](/manager-guide/registration-checkin/#the-registration-page))
 * Dancer app: A solo result you claim is shown under your own name, and follows it if you change your name, instead of keeping your name as it was when you claimed it; solo teams already named after their dancer are cleared the same way (see [Creating and getting a ranking](/dancer/creating-and-getting-a-ranking/))
 * All apps: The **Connection has been re-established.** message closes by itself after two seconds instead of staying at the top of the page, and no longer shows when a page first loads
+* Manager: A new round can go before a class's first round — choose **Before the first round** under **Place in class** on the **Add Round** form, for example to add a preliminary when more entries came in than the first round can take; it starts with the first round's settings and sends its qualifiers on to that round (see [Competition setup](/manager-guide/competition-setup/#step-2-build-rounds-from-classes))
 * Manager: A point summary from the Round guide is placed last in the class, in the unscheduled block (see [Point summary](/point-summary/))
 * Federation: Brackets mode can add a redance round, take the top 4 at 6–7 competitors, dance a final of three at 3, and end with a gold and a bronze battle (see [Battle class rules](/federation-rules/battle-class-rules/#bracket-settings))
 * Federation: The round setup editor shows how many active classes a setup covers and warns when it covers none, and dances that share a name are shown with what tells them apart, such as "Extrachans (Num To Advance: 3)" (see [Round setups](/federation-rules/round-setups/))
@@ -39,6 +41,7 @@ nav_order: 10
 ## 2026-10-03
  ⭐ **New**
 * Manager: New and re-saved point summary rounds count round bonuses by what each round is — quarterfinal, semifinal, final or extra chance — read from the round's name, instead of by its position; finals danced as duel ladders pay every finalist its placement, and a seeding round before a final makes it a direct final. Formats with duels, lucky loser or hope rounds can be scored right by setting what each round counts as in the new **Bonus per round** table in the summary's priority settings, instead of retyping totals. Results show one column per bonus — quarterfinal, semifinal, final, extra chance and placement — and classes that name their rounds differently all get their bonuses (see [Point summary](/point-summary/#bonus-per-round))
+
  🛠️ **Improvements**
 * Manager: A new [Separating tied positions](/manager-guide/judges/#separating-tied-positions) section in the Judges guide explains **Redance**, **Side skating**, **Chief judge** and **Paper redance**, and which chief judge type fits which rules
 * Manager: **Chief judge** now breaks a tie in favour of the competitor the chief judge marked higher — Yes before Alt 1, Alt 2 and Alt 3 on a callback round with points, 1 before 5 on a one-to-five round, and 1st before 2nd on a placement round. It ranked the chief judge's lower mark first. Slider and raw scores were already ranked correctly. A tie separated before this release keeps its order; to redo it, remove that Chief judge round and separate the position again (see [Separating tied positions](/manager-guide/judges/#separating-tied-positions))
@@ -55,6 +58,7 @@ nav_order: 10
 * Registration: One email per dancer and event instead of one per class — every email lists the whole registration as it stands, with what changed highlighted and a cancelled class crossed out. Changes a manager makes are gathered for a minute and sent together; the email comes from "‹event› via Vote4Dance", a reply goes to the organizer's contact email, and it links the dancer's registrations for the event, the event info and the registration guide (see [Emails](/manager-guide/emails/))
 * Registration: A dancer paying by card gets the receipt link in their registration email instead of a separate receipt from Stripe; a club paying for its registrations also gets a link to the invoice made out to the club
 * School/Club: The club's registrations page lists the invoices the club paid for each event, with a View invoice link, for coaches, managers and administrators
+
  🛠️ **Improvements**
 * Registration: Cancelling a class from your own account now sends an email, and when the class was paid it says that cancelling does not refund the payment and how to reach the organizer
 * Registration: The registration code is no longer shown in registration emails
@@ -78,6 +82,7 @@ nav_order: 10
 * Manager, Federation and Organizer: The Docs link in the header opens the guide section for the screen you are on instead of the docs home
 * Manager: Start numbers can begin at 1 (with a warning that numbers below 10 can be mistaken for placements), the gap between classes is a new Free numbers between classes field, and turning off Start each class on an even ten numbers the whole competition in one unbroken series (see [Registration and check-in](/manager-guide/registration-checkin/))
 * All apps: A page left open across a new release shows "There is a newer version" with a Reload button; it never reloads by itself, so work in progress is kept
+
  🛠️ **Improvements**
 * Check-in: A check-in station can mark registrations paid at the door — Payment collected failed with Permission denied on a station, so cash was taken but the entries stayed unpaid. A station can only mark entries paid, not undo it, and entries being paid online are left out so they cannot be paid twice
 * Registration: Class rules are checked against the lineup that actually dances, with skipped and replacement dancers applied, and the organizer's own class and period rules are enforced by the server, not only the page. A class that a lineup change can fix, such as a dancer too old, is offered with a hint, and the cart offers Edit lineup on a refused entry; classes a team is too big for stay hidden. Staff and check-in stations can still register outside the rules
@@ -102,6 +107,7 @@ nav_order: 10
 * Check-in: The person screen shows what a dancer owes for registrations paid at the door — a red or green payment tag on each registration, the amount to pay with the organizer's payment note, and a Payment collected button that marks the dancer's unpaid registrations paid once the desk confirms the amount. Rejected registrations and free periods are left out, and for a couple or group the amount covers the whole entry, so either dancer's scan settles it (see [At the door](/manager-guide/the-door/))
 * Public: The registration cart shows the total to pay and the organizer's payment note when registration is paid manually, for example at the door or by Swish
 * Public: The Registration tab points first-timers and couples to the [registration guide](/dancer/registration-for-event/), and a class that cannot be picked links to [If you cannot register](/dancer/registration-for-event/#if-you-cannot-register)
+
  🛠️ **Improvements**
 * Registration: The confirmation email is sent for every registration when it is made — registrations paid at the door, invoiced, awaiting the organizer's approval or entered by staff on a dancer's behalf previously got no email until their status changed. Registrations paid online still get theirs once the payment goes through
 ## 2026-09-21
@@ -115,6 +121,7 @@ nav_order: 10
 * Manager: Dancer admission — choose per event what a registration admits a dancer to: every day (default), only the days one of their classes dances (a ticket on other days), or a ticket for everyone; the desk is told whether to ask for a ticket, and arrival is recorded under every policy
 * Dancer app: My tickets screen with one QR per ticket, a Today card on event days, the Vote4Dance ID card and a profile photo taken with the camera or picked from the library — requires the app update from the store
 * Cafe: Menus and orders now live on the shop — the kitchen board works as before, a paid cafe item bought online lands on it as a pickup, and a judge can delete their own order while it is still waiting
+
  🛠️ **Improvements**
 * Judging: Confirming a partially marked skating round with shared positions no longer hangs result calculation — the tie-break re-compared groups it had already separated; a guard now stops a runaway recompute instead of letting it spin
 * Manager: Confirming a second-chance round keeps a team's placement when the team has no row in the source round, instead of failing with an error
@@ -127,6 +134,7 @@ nav_order: 10
 ## 2026-09-15
  ⭐ **New**
 * Federation: Battles can be split into rounds — a dance can carry dances of its own, so a battle generates its rounds and a tie-break underneath it, and a final can hold a bronze battle and a gold battle each danced in several rounds; `[N]` in a battle dance name expands to the number of battles (see [Battle sub-rounds](/federation-rules/battle-sub-rounds/))
+
  🛠️ **Improvements**
 * Manager: Rounds created from the Round Guide attach every sub-round to the right parent — a B-final or bronze battle with dances placed after rounds that already had sub-rounds was previously imported under the wrong round
 * Check-in: The QR code in the registration approval email opens the check-in page again — the check-in app now lives at `/checkin/`, and old `/checkin-react/` links and station home screens redirect there
@@ -138,6 +146,7 @@ nav_order: 10
 * Registration: A club paying for registrations receives a Stripe invoice made out to the club, in addition to the receipt; the receipt now goes to the person who paid. A club with no stored email or an unresolvable Stripe customer is still invoiced instead of falling back to a personal card receipt
 * Manager: "Create classes from federation" has select-all checkboxes per division and per block, and creates the classes in the order shown
 * Dancer app: Native birth-date and country pickers in registration and account settings, with the country suggested from locale and time zone
+
  🛠️ **Improvements**
 * Judging: Judge PINs are stored hashed; a judge can only read and save their own per-heat marks, per-team marks are limited to members of the competition, and the active registrations shown for a dancer no longer list reserved rows or private competitions
 * Registration: Only someone with a claim on the team — a member, or the club for a club-owned team — or a competition functionary may cancel or change a registration's status; any team member could previously withdraw a whole club team, and any signed-in user could cancel a stranger's entry
@@ -160,6 +169,7 @@ nav_order: 10
 * Manager: New Finance tab on the registration page — expected, marked paid and outstanding totals per currency, a per-period breakdown, and a debtor list per payer sorted by what is owed, priced from the periods' ladders
 * School/Club: Club-owned competitors — groups and formations created in the club admin belong to the club: they stay out of the public competitor list and search, are hidden from other clubs, and their lineups are only visible to club staff, while a registered team still works normally in carts, manager, check-in and results. Ownership moves only through a recorded transfer the federation approves. Competitors created anywhere else stay independent and are capped at two members
 * Judging: New optional judging setting for the IDO 2-D system — the highest and the lowest score in each dimension are dropped before the point total is summed
+
  🛠️ **Improvements**
 * Speaker: The result badge now lights when an extrachans is confirmed, and the lineup and result badges follow the same floor and round rules as the pages they point at
 * Speaker and Check-in: A station device can publish a round and confirm check-ins again — a station has no personal user, and both writes were silently rejected
@@ -185,6 +195,7 @@ nav_order: 10
 * Federation: Competitor profile page — click any couple in the division history to see their classes with current points, membership details and full class history
 * Speaker: The prize ceremony placement list shows a "moving up" badge for couples whose result earns a promotion, switching to past tense ("Moved up to …") once the promotion is applied
 * Manager: The teams table shows a points column wherever entries carry promotion points, and a rise icon with the target class for couples moving up; the team editor has a U-points field for corrections
+
  🛠️ **Improvements**
 * Federation: Machine-written membership reasons ("Automatic promotion — point threshold reached", auto-enrollment, age transitions) are now localized; free-text reasons render exactly as written
 * Federation: Name search on the division Status tab works without selecting a class first
