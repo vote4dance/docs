@@ -28,6 +28,13 @@ When qualification is complete, assign groups by ranges.
 
 Create a dedicated round configured for summarized points.
 
+If your federation's [round setup](/federation-rules/round-setups/#point-summary) or class rules
+add a point summary, the **Round guide** creates it for you: last in the class, in the unscheduled
+block, totalling the class with each round's stage read from its name. Check its group points in
+step 3 as usual.
+
+![The Round guide marks the point summary as unscheduled](/assets/images/round-guide/round-guide-point-summary.png)
+
 ![Create summary](/assets/images/point-summary/create-summary.png)
 
 ## 3. Configure group points
