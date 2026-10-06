@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-06
+ 🛠️ **Improvements**
+* Federation: The licenses overview shows each dancer's **Federation ID** under their name, the **CSV** download has a **Federation ID** column, and the search box finds a license by federation ID (see [Federation admin licenses](/federation-licenses/federation-admin/#federation-id-on-the-list))
 ## 2026-10-05
  ⭐ **New**
 * Manager: The **Judges** page has four tabs — **Judges**, **Panels**, **Classes** and **Tablets** — and Supervisor gets the same page as its **Judges** tab (see [Judges](/manager-guide/judges/))
