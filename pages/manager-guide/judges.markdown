@@ -13,6 +13,7 @@ help:
   manager.comp.judges.absent: a-judge-who-cant-come
   manager.comp.judges.problems: problems-with-the-panels
   manager.comp.judges.suggest: letting-vote4dance-suggest-seats
+  manager.comp.judges.types: judge-types
   supervisor.judges: ""
   supervisor.judges.judges: judge-list
   supervisor.judges.panels: panels
@@ -156,11 +157,13 @@ The legend lists the roles a judge can have on a panel. **Not judging** is only 
 | Type | What it means |
 |---|---|
 | **Not judging** | No judging duties assigned. |
-| **Judge** | Scores participants in assigned classes; counts toward placements. |
-| **Trainee judge** | Practice role; enters scores that do not affect results. |
-| **Chief judge (in)** | Included in skating/placement; counts in the ranking math and can be used to break ties. |
-| **Chief judge (out)** | Excluded from skating/placement; does not affect ranking math but can be used to break ties. |
+| **Judge** | Marks the dancers; the marks count in the result. |
+| **Trainee judge** | Practises by marking; the marks don't count in the result. |
+| **Chief judge (in)** | Marks like the other judges and counts in the result; also breaks ties. |
+| **Chief judge (out)** | Doesn't count in the result; their marks only break ties. |
 | **Audience** | Scores come from public audience voting; counts toward final placements. Can be chosen on a panel, but is not shown in the legend. |
+
+When you seat a judge on the **Panels** tab, the seat menu says what each type does, and hovering over a type in the legend under the grid shows the same. **How it works** in the menu and the legend opens this section.
 
 The type is set per panel, so the same person can be a **Judge** on one panel and a **Trainee judge** on another.
 
@@ -210,17 +213,19 @@ A panel is a named group of judges. Classes and rounds are judged by a panel, no
 
 The **Panels** tab shows every judge as a row and every panel as a column. Each cell is that judge's seat on that panel.
 
+You can seat judges on a panel before it judges any class. A panel that isn't used yet has a grey column and says "Not used by any round". Set up all your panels first if you like, then give each class its panel on the [Classes](#classes) tab.
+
 ![The Panels tab: judges down the side, panels across the top](/assets/images/judges/panels-grid.png)
 
 ### Seating a judge
 
 1. Click the cell where the judge's row meets the panel's column.
-2. Choose the seat: **Judge**, **Chief judge (out)**, **Chief judge (in)**, **Trainee judge**, **Observer** or **Audience**. See [Judge types](#judge-types).
+2. Choose the seat: **Judge**, **Chief judge (out)**, **Chief judge (in)**, **Trainee judge** or **Audience**. See [Judge types](#judge-types).
 3. The seat is saved at once. A message at the top says, for example, "Seated Anna Berg on Panel A (Judge)", with **Undo** to take it back.
 
 To take a judge off a panel, click their seat and choose **Remove from panel**.
 
-The cell shows the seat's letter: **J** for judge, **C** for chief judge, **T** for trainee, **O** for observer and **A** for audience. Under the grid, a legend explains the colours:
+The cell shows the seat's letter: **J** for judge, **C** for chief judge, **T** for trainee and **A** for audience. Under the grid, a legend explains the colours:
 
 | Look | Meaning |
 |---|---|
@@ -244,7 +249,7 @@ Click a panel's name at the top of its column. The pop-up shows:
 - the panel's name, which you can change;
 - the panel's problems, if any, and what it still needs, for example "Still needed: 1 × Judge", with **Fill open seats**;
 - **Judges**: what the panel judges, either the whole class or single rounds, such as "Novice Jack&Jill – Leaders · Semi only";
-- **Seats wanted**: how many judges, which chief judge, and how many trainees and observers the panel should have;
+- **Seats wanted**: how many judges, which chief judge, and how many trainees the panel should have;
 - **Delete panel**, which is only possible while no round uses the panel.
 
 ![A panel's pop-up](/assets/images/judges/panel-popup.png)
@@ -264,7 +269,7 @@ Suggest never saves straight away. The suggested seats get a dashed outline and 
 
 ![Suggested seats waiting to be applied](/assets/images/judges/suggest-preview.png)
 
-Trainee and observer seats only go to judges whose **Seat** need asks for it. If a seat can't be filled without breaking someone's needs, the bar says so; fill it yourself or change a need.
+Trainee seats only go to judges whose **Seat** need asks for it. If a seat can't be filled without breaking someone's needs, the bar says so; fill it yourself or change a need.
 
 ## Judge needs
 
@@ -279,7 +284,7 @@ Each judge can have needs that Vote4Dance checks every seat against. Open them w
 | **Max minutes without a break** | Judging longer than this without at least 10 minutes off breaks the need. |
 | **Classes not to judge** | Classes this judge must never judge. |
 | **Dancers not to judge** | Students, a partner or family. Their entries are found by name. A judge who dances in a class themselves is found without being listed here. |
-| **Seat** | Which seat the judge wants: **Any seat**, **Judge**, **Chief judge**, **Trainee** or **Observer**. |
+| **Seat** | Which seat the judge wants: **Any seat**, **Judge**, **Chief judge** or **Trainee**. |
 | **Split leader/follower classes** | Whether the judge prefers to judge **Leaders**, **Followers** or **Either**. |
 | **What they judge** | **Can only judge** limits the judge to some divisions, disciplines, levels, categories or age groups; other classes show as **Can't sit here**. **Wants to judge** is a wish that Suggest follows when it can. Only the kinds where your classes differ are shown. |
 | **Note** | Anything else. |

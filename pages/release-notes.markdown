@@ -9,6 +9,9 @@ nav_order: 10
 ## 2026-10-06
  🛠️ **Improvements**
 * Federation: The licenses overview shows each dancer's **Federation ID** under their name, the **CSV** download has a **Federation ID** column, and the search box finds a license by federation ID (see [Federation admin licenses](/federation-licenses/federation-admin/#federation-id-on-the-list))
+* Manager: Judges can be seated on a panel before it judges any class, so you can set up every panel first and give the classes their panels afterwards (see [Panels](/manager-guide/judges/#panels))
+* Manager: When seating a judge, the seat menu says what each judge type does, with **How it works** linking to the guide (see [Judge types](/manager-guide/judges/#judge-types))
+* Manager: The Judges page has **How it works** links to the guide next to judge needs, **Judge absent**, the problem list and the **Suggest** preview, and the Supervisor **Judges** tab now has a **Docs** link (see [Judges](/manager-guide/judges/))
 ## 2026-10-05
  ⭐ **New**
 * Manager: The **Judges** page has four tabs — **Judges**, **Panels**, **Classes** and **Tablets** — and Supervisor gets the same page as its **Judges** tab (see [Judges](/manager-guide/judges/))
