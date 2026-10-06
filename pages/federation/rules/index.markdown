@@ -57,6 +57,9 @@ platform default.
 - [Battle sub-rounds](/federation-rules/battle-sub-rounds/) — battles danced in
   several rounds with a tie-break, and a final made of a bronze and a gold
   battle.
+- [Round setups](/federation-rules/round-setups/) — describe a ladder of rounds
+  as a table instead of class rules, preview it, compare it with today's rules
+  and switch over.
 
 ## Checking the whole setup
 
