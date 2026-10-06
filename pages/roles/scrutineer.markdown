@@ -26,10 +26,47 @@ What it gives you, and what it deliberately does not:
 | Show **trainee scores**, which are entered but do not affect the result | |
 | Follow judging live: *Judging in progress*, *Judges are done* per heat | |
 | Filter to one floor, follow the schedule, and push things to the screens with **Show on screen** | |
+| See every warning the judges give during the whole event in one list, **Warnings**, and keep track of which ones you have dealt with | |
 
 **Supervisor cannot publish results.** Publishing is done from the Speaker console or from
 Manager. If you are the one who publishes, you also need **Speaker** or **Manager** ticked.
 Agree before the event who presses it, and what you want to have checked first.
+
+## Warnings from the judges
+
+During the competition a judge can give a dancer or couple a warning, for example for clothing,
+a lift or the music. **Warnings** in the Supervisor app lists all of them, from every round and
+every day of the event, so you can follow up with the team leaders without opening round after
+round. The list updates by itself as the judges send new warnings.
+
+![The Warnings page, grouped by round](/assets/images/warnings/warnings-round.jpg)
+
+1. Open **Warnings** in the Supervisor menu. The number next to it is how many warnings you have
+   not seen yet.
+2. Each row shows the start number, the dancer or couple and their club, the warning and its
+   reason, and which judges gave it. When several judges give the same warning, it shows once with
+   all their names.
+3. Choose how to read the list:
+   - **New** shows only the warnings you have not seen yet; **All** shows every warning.
+   - **Round** groups the warnings by round, newest first, under the day and the block of the
+     schedule. The round's name opens its results.
+   - **Club** groups them by club, with the clubs that have new warnings first, which is handy
+     when you go and find a team leader.
+   - At an event over several days, pick a day. While the event is running, today is chosen
+     for you.
+4. When you have dealt with a warning, press the round tick on its row. The row turns grey and the
+   tick green. Press it again to mark the warning as new again.
+5. **Mark all seen** marks every warning in the list as seen. Press **Undo** if you did not mean
+   to.
+
+![Grouped by club on a phone](/assets/images/warnings/warnings-club-phone.jpg)
+
+A disqualification stands out from a warning: it has a filled label with a stop sign.
+
+![A disqualification among warnings](/assets/images/warnings/warnings-disqualify-phone.jpg)
+
+What you have seen is remembered on your phone or computer only. Another scrutineer, or you on
+another device, starts with all warnings as new.
 
 ## Judge types, which is your vocabulary
 
