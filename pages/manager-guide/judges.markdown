@@ -357,7 +357,7 @@ When the same person judges in more than one competition of the event (the same 
 
 - A link icon after their name lists the other competitions they judge in.
 - Their rounds in the other competitions count too: a seat at the same time is marked, rounds per day and breaks count every competition, and Suggest takes them into account. The load under their name says, for example, "(12 in other competitions)".
-- Their needs are shared. Saving them in one competition saves them in all of them, except **Classes not to judge**, which belong to one competition. **Judge absent** saves the time away everywhere and tells you how many of their rounds in the other competitions fall in that time; replace those seats on that competition's Judges page.
+- Their needs are shared. Saving them in one competition saves them in all of them, except **Classes not to judge** and **What they judge**, which name one competition's classes, levels and categories and so are set in each competition. **Judge absent** saves the time away everywhere and tells you how many of their rounds in the other competitions fall in that time; replace those seats on that competition's Judges page.
 
 ![Choosing the competition, and a judge who also judges in another competition](/assets/images/judges/several-competitions.png)
 
