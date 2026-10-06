@@ -122,7 +122,7 @@ preliminary when more entries came in than the first round can take:
 1. Open the class and click **Add round**.
 2. Under **Place in class**, choose **Before the first round**. The form then takes its values from the first round:
    **Number to advance** is twice what the first round sends on (at least 6), and the round goes in the first round's
-   schedule block.
+   schedule block, just before the first round.
 3. Check the values and click **Save changes**.
 
 The new round becomes the class's first round, where entries without a starting round begin. Its **Round for those
