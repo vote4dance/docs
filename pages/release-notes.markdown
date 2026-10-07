@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-07
+ 🛠️ **Improvements**
+* Supervisor: Supervisors can add judges who already have an account from the **Search users** box on the Judges page, not only managers; on events with several competitions, **Invite by email** also finds existing accounts again (see [Adding judges](/manager-guide/judges/#adding-judges))
 ## 2026-10-06
  🛠️ **Improvements**
 * Federation: The licenses overview shows each dancer's **Federation ID** under their name, the **CSV** download has a **Federation ID** column, and the search box finds a license by federation ID (see [Federation admin licenses](/federation-licenses/federation-admin/#federation-id-on-the-list))
