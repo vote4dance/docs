@@ -6,6 +6,12 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-08
+ 🛠️ **Improvements**
+* Public: A class that is locked because of the registration period's rules, for example a couples class when you have picked a solo competitor, now shows the reason next to the greyed-out **Add** button, and where to go to fix it (see [If you cannot register](/dancer/registration-for-event/#if-you-cannot-register))
+* Public: The **Registration** tab opens on **With partner** when the event's open classes are only for couples, and says why the class list is empty and that **Show more** reveals the locked classes (see [Registering with a partner](/dancer/registration-for-event/#registering-with-a-partner))
+* Public: When you search for a partner's email and nobody has it, the **Create account for partner** section explains that you can create their account for them, so they do not need to sign up first (see [Create the couple](/dancer/registration-for-event/#step-2-create-the-couple))
+* All apps: A failed sign-in says that the email or password is incorrect and suggests **Forgot your password?** or creating an account, and the sign-in page says "Sign in or create an account to continue." when you were sent there from another page (see [Account creation](/dancer/account-creation/))
 ## 2026-10-07
  🛠️ **Improvements**
 * Supervisor: Supervisors can add judges who already have an account from the **Search users** box on the Judges page, not only managers; on events with several competitions, **Invite by email** also finds existing accounts again (see [Adding judges](/manager-guide/judges/#adding-judges))
