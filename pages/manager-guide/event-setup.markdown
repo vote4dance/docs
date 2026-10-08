@@ -40,6 +40,10 @@ This is mostly one-time setup. After this, you'll configure competitions, rounds
 3. Click **Manager**
 4. You should see an **Events** page or a "Create Event" button
 
+If you have already organized or taken part in a competition, there is a shortcut on the Vote4Dance home page: open the **My competitions** tab and click **Create a competition** at the top right. It takes you straight to the new event form.
+
+![The Create a competition link on the My competitions tab](/assets/images/event-setup/my-competitions-create-link.png)
+
 ## Step-by-step: Create your event
 
 ### Step 1: Create a new event
