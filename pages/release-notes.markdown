@@ -16,6 +16,7 @@ nav_order: 10
 * School/Club: **Competitors**, **Members**, **Registration** and **Licenses** can be searched and exported to a spreadsheet (CSV), and are sorted by name
 
  🛠️ **Improvements**
+* Public: The **My competitions** tab on the home page has a **Create a competition** link that opens the new event form (see [Event setup](/manager-guide/event-setup/#where-to-go))
 * Manager: **Edit registration** shows under **Represents** which club each dancer competes for in that registration and where it comes from, and the expanded registration row shows that club instead of the club on the dancer's profile, so you can check a dancer who dances for different clubs in different classes (see [Which club a dancer represents](/manager-guide/registration-checkin/#which-club-a-dancer-represents))
 * Public: Your account lists your events under **Registration**: **Coming up**, tagged when something needs you, and **Past** by year, with **Find an event** (see [All your events](/dancer/my-registration/#all-your-events))
 * Public: **Pay now** works for classes in an event that runs over several days
