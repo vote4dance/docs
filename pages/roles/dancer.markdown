@@ -35,8 +35,9 @@ This role hub covers:
 ## Dedicated feature sections
 
 1. [Your Vote4Dance ID](/dancer/vote4dance-id/)
-2. [Dancer self-service](/federation-licenses/dancer-self-service/)
-3. [Public Rankings](/federation-rankings/public/)
+2. [My registration](/dancer/my-registration/): your own page for each event you are registered for
+3. [Dancer self-service](/federation-licenses/dancer-self-service/)
+4. [Public Rankings](/federation-rankings/public/)
 
 ## How to use this hub
 

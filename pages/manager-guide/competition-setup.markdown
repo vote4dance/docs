@@ -83,6 +83,26 @@ Tips:
 
 If your system has **Round guide**, use it after classes are finalized. For battle disciplines, the Round Guide generates the complete skeleton (placing round, bracket layers, B‑final) automatically — see [Battle bracket setup](/battle-bracket/) for the seeding steps that follow.
 
+To create a class's rounds with the Round guide:
+
+1. Open the class under **Classes** and click **Round guide**.
+2. Check the **Federation Class**, pick the **Schedule item**, and enter the **Number of Participants**.
+3. Click **Preview** to see the rounds you will get. A point summary from the federation's rules is
+   marked **Unscheduled · calculated after the final**.
+
+   ![The Round guide preview with a semifinal, a final and a point summary](/assets/images/round-guide/round-guide-point-summary.png)
+
+4. Click **Create rounds**. The rounds are placed on the schedule item you picked; the point summary
+   is placed last in the class, in the unscheduled block, so it takes no floor time.
+
+   ![The created rounds, with the semifinal and final on the schedule](/assets/images/round-guide/round-guide-created.png)
+
+The Round guide also fills in each round's **Round for those that qualify** and **Round for
+non-qualified participants** (the next round, a B-final or a second chance), so the class is ready
+to advance as soon as results are in. You can still change a link under **Qualified participants**
+when the round is closed. If the rounds are created but some links could not be set, the Round guide
+says so and you set those by hand.
+
 ## Step 2: Build rounds from classes
 
 Go to **Competitions -> Rounds** or open a class and click **Create Round**.
@@ -95,6 +115,23 @@ For each class, define:
 | Heat setup | Heat count and timing | 4 heats, 90 seconds each |
 | Schedule | Day, floor, time block | Day 1, Floor A, 10:00 |
 | Results | Qualifier and placement behavior | Top 12 to semifinal |
+
+A new round goes after the class's last round. To add an extra round in front instead, for example a
+preliminary when more entries came in than the first round can take:
+
+1. Open the class and click **Add round**.
+2. Under **Place in class**, choose **Before the first round**. The form then takes its values from the first round:
+   **Number to advance** is twice what the first round sends on (at least 6), and the round goes in the first round's
+   schedule block, just before the first round.
+3. Check the values and click **Save changes**.
+
+The new round becomes the class's first round, where entries without a starting round begin. Its **Round for those
+that qualify** is the round it was placed in front of.
+
+A round can't be added in front of a first round that has started. If the first round already has participants, set
+it back to **Not started** and use **Remove participants** on it first, so nobody ends up in both rounds.
+
+![Place in class on the Add Round form](/assets/images/round-guide/add-round-place.png)
 
 Typical round tree:
 
@@ -144,9 +181,9 @@ Process:
 1. Invite each judge by email, or link an existing account. **Invite new judge** checks for
    existing accounts first, so you do not create a duplicate person.
 2. Assign judge letters (A, B, C…)
-3. Create judge panels
-4. Add judges to the panels
-5. Assign a panel to each class — a round can override it with its own panel
+3. Enter each judge's needs: times away, limits, and classes or dancers they must not judge
+4. On the **Panels** tab, create panels and seat judges, or let **Suggest** seat them for you
+5. On the **Classes** tab, assign a panel to each class — a round can have its own panel
 
 Each judge's row shows `Not invited`, `Invited` or `Active`, and lets you resend the invitation
 in any of the app's languages, or **Reset PIN** if a judge has forgotten theirs. Judges set
@@ -154,8 +191,8 @@ their own PIN on their own device; there is no event-wide code. A judge's PIN is
 competitions in the event, so **Reset PIN** clears it event-wide. **Reset PIN** is disabled
 until the judge has set a PIN.
 
-A panel locks once a round that uses it has started, and a panel with classes assigned cannot
-be deleted. A judge who already has marks cannot be removed.
+Fix anything listed above the tabs before the event. A panel locks once a round that uses it
+has scores, and a panel that a round uses cannot be deleted. A judge who already has marks cannot be removed.
 
 ## Step 6: Run one rehearsal round
 

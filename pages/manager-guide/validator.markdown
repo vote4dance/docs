@@ -12,6 +12,7 @@ help:
   manager.event.validator.scheduling-conflicts: schedule-conflicts
   manager.event.validator.even-majority-panel: even-judge-panels
   manager.event.validator.judge-floor-conflicts: judges-on-two-floors
+  manager.event.validator.panel-seats-missing: panels-short-of-seats
 ---
 
 # Problems (setup checks)
@@ -20,7 +21,7 @@ help:
 
 ## Where to find it
 
-**Problems** is at the top of the Manager sidebar, under **Event overview**, marked with a red warning icon. A badge shows how many checks are failing.
+**Problems** is at the top of the Manager sidebar, under **Event overview**, marked with a red warning icon. A badge shows how many checks are failing. When only [warnings](#reading-the-page) are left, the link stays, without the red icon, and its badge is orange and counts the warnings.
 
 The link only appears while at least one check fails. When everything passes it disappears from the sidebar. You can still open the page directly at `/manager/event/<event id>/validator`, where each competition shows an empty result.
 
@@ -32,6 +33,8 @@ If the event has several competitions, the page has one section per competition,
 
 Each failed check is a table headed **Validating that** *what should be true* **- failed!**, for example "Validating that there are no start number conflicts - failed!". Checks that pass are not shown.
 
+A few checks are warnings: something worth a look that does not stop the competition. A warning has an orange icon and ends in **- warning** instead of **- failed!**.
+
 Under the heading, each failed check says in one line what is wrong and what to do, for example "These participants have no start number yet. Assign start numbers on the Participants page." Where one page fixes every row, a link to it follows: **Participants**, **Judges**, **Classes** or **Schedule conflicts**. **More in the guide** opens the check's section on this page.
 
 The rows are what caused the check to fail:
@@ -41,6 +44,7 @@ The rows are what caused the check to fail:
 | Participant | `#` (start number), **Participant name**, club | The participant |
 | Round | **Round name**, class, **Schedule** | The round's settings |
 | Schedule conflict | **Dancer**, **Time** (overlap in minutes), **Round A**, **Round B** | Either round |
+| Panel | **Panel**, **Open seats** | The panel on the Judges page |
 
 For [judges on two floors](#judges-on-two-floors) the conflict table's first column is **Judge** instead of **Dancer**.
 
@@ -57,7 +61,7 @@ These checks run for every competition. The name is the text shown after **Valid
 | finales have no participants through | The last round of a class has **Number to advance** above 0 and no **Round priority setting**. A sub-round of the final with **Number to advance** above 0 also fails. | Set **Number to advance** to `0` on the final and its sub-rounds. See [Build rounds](/manager-guide/competition-setup/#step-2-build-rounds-from-classes). |
 | rounds before the finale has participants through | A round before the final has **Number to advance** set to `0`, so nobody would move on. Rounds with **Best placement** set, rounds with no judging, and sub-rounds of the final are not checked. | Set **Number to advance** on the round. See [Build rounds](/manager-guide/competition-setup/#step-2-build-rounds-from-classes). |
 | main rounds should share the same schedule group as the last sub round | A main round with sub-rounds is on a different **Schedule item** from its last sub-round. The summary round would then appear in the schedule at the wrong time. Match-judged rounds are not checked. | Put the main round on the same **Schedule item** as its last sub-round. See [Build rounds](/manager-guide/competition-setup/#step-2-build-rounds-from-classes). |
-| classes with rounds have judges added | A child class of a **Group** has a round with no judging panel, or its panel has no judge of the type **Judge**. The panel is the round's own panel if it has one, otherwise the class's panel. Only child classes of a group whose child classes have no **Class role** are checked. | Assign a panel with at least one **Judge** to the class or the round. See [Judges and panels](/manager-guide/competition-setup/#step-5-add-judges-and-build-panels). |
+| classes with rounds have judges added | A judged round has no judging panel, or nobody on its panel whose marks count: a **Judge**, **Chief judge (in)** or **Audience**. The panel is the round's own panel if it has one, otherwise the class's panel. Rounds of a **Group** whose child classes have no **Class role** are not checked, since their judges sit on the child classes. | Choose a panel for the class or the round, and seat at least one **Judge** on it. See [Classes](/manager-guide/judges/#classes). |
 | group classes have no judges added | A **Group** class (whose child classes have no **Class role**) has a round whose panel has judges on it. In such a group the judges belong on the child classes, not the group. | Remove the panel from the group class and its rounds, or remove the judges from that panel. Put the judges on the child classes' panels instead. See [Judges and panels](/manager-guide/competition-setup/#step-5-add-judges-and-build-panels). |
 | main rounds that sum points have subrounds that use points as well | A main round with **Judging type** **Sum points** has a sub-round that is not judged with points. | Change the sub-round to points judging, or change the main round's **Judging type**. See [Build rounds](/manager-guide/competition-setup/#step-2-build-rounds-from-classes). |
 | main rounds that use AJS have subrounds that use AJS as well | A main round with **Judging type** **JS 3.0** (AJS) has a sub-round that is not judged with AJS. | Change the sub-round to AJS, or change the main round's **Judging type**. See [Build rounds](/manager-guide/competition-setup/#step-2-build-rounds-from-classes). |
@@ -67,7 +71,14 @@ These checks run for every competition. The name is the text shown after **Valid
 | leader and follower partner rounds have matching sub-round counts | A leader class and its follower class both have a main round with the same name, but the two rounds have a different number of sub-rounds. | Add or remove sub-rounds so both sides match. See [Build rounds](/manager-guide/competition-setup/#step-2-build-rounds-from-classes). |
 | no dancer is scheduled in two overlapping rounds at the same time | A dancer is in two rounds whose estimated times overlap. See [Schedule conflicts](#schedule-conflicts). | Move one of the rounds in the schedule, or put both on the same floor. See [Several floors at once](/manager-guide/floors/#several-floors-at-once). |
 | rounds decided by majority have an odd number of judges | A round placed by a majority of the judges has an even number of judges on its panel. Often a judge who should be a **Trainee judge** is on the panel as **Judge**. See [Even judge panels](#even-judge-panels). | On the panel, change the extra judge to **Trainee judge**, or add or remove a judge. See [Judge types](/manager-guide/judges/#judge-types). |
+| panels have all the seats they ask for (warning) | A panel used by a round has fewer judges, chief judges, trainees or observers than its **Seats wanted**. See [Panels short of seats](#panels-short-of-seats). | **Fill open seats** in the panel's pop-up, seat someone yourself, or lower **Seats wanted**. See [A panel's settings](/manager-guide/judges/#a-panels-settings). |
 | no judge is on two floors at the same time | A judge is on the panels of two rounds that run at the same time on different floors. See [Judges on two floors](#judges-on-two-floors). | Put a different judge on one of the panels, or run the rounds one after the other. See [Panels](/manager-guide/judges/#panels). |
+
+## Panels short of seats
+
+A warning, not a failure. On the Judges page each panel can say how many judges, which chief judge, and how many trainees and observers it wants (**Seats wanted** in the panel's pop-up). This check lists the panels used by a round that have fewer seated than that, for example "2 × Judge, 1 × Observer" under **Open seats**. Panels without **Seats wanted** are not checked.
+
+Click the panel to open it on the Judges page. The same warning shows above the tabs there, in orange.
 
 ## DSF checks
 

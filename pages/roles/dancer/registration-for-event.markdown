@@ -62,15 +62,17 @@ receive the confirmation and status emails.
 
 ### Step 2: Create the couple
 
-1. On the event's **Registration** tab, open **With partner**.
+1. On the event's **Registration** tab, open **With partner**. When an event only has classes for
+   couples, the page opens on this tab for you.
 2. If your couple is in the list, pick it and go to Step 3. Otherwise press **Create competitors**.
 3. Press **Add a partner**. Under **Search for partner with email**, type the email address of
    your partner's Vote4Dance account and press **Search**. Your partner appears in the list.
 4. **Your partner has no Vote4Dance account yet?** When the search finds nobody, a
    **Create account for partner** section appears. Fill in their first and last name, country and
    language, and their birth date if you know it, and press **Create account for partner**. They
-   are added to the couple straight away. Use their real email address: it is where their emails
-   go.
+   are added to the couple straight away, so your partner does not need to sign up first. Use their
+   real email address: it is where their emails go. They get a welcome email with a link to the
+   sign-in page, and choose a password with **Forgot your password?** the first time they sign in.
 5. Choose the couple's name: **Use participant name** (your two names) or, if it is offered,
    **Assign custom name**.
 6. Save the couple.
@@ -88,6 +90,11 @@ are listed on your account page.
 Pick the couple under **Select competitors**, open the competition and press **Add** next to the
 class. If a class is locked or **Add** is disabled, read the reason next to it, and see
 [If you cannot register](#if-you-cannot-register).
+
+Classes your competitor cannot enter are hidden to keep the list short. If the list says **No
+classes fit this competitor right now**, press **Show more** to see them. Each locked class says
+why. For example, **This class needs a competitor with 2 people** means you have picked a solo
+competitor for a couples class: open **With partner** and pick or create your couple.
 
 **Whoever registers the couple pays for both of you.** If you are also entering classes on your
 own, add those to the same cart before you press **Pay now**.
@@ -128,11 +135,14 @@ automatically. Nothing is left half-done; just start again.
 
 ## Checking your registrations
 
-Open your name at the top right → **My account** → **Registration**, and open the event. You see
-every class you are entered in, and the payments.
+Every event you are registered for has its own page, **My registration**. It lists every class you
+are entered in, what is paid and what you still have to do. You land on it when you finish
+registering, and you can open it from the event page, from the confirmation email, or from your
+account: open your name at the top right → **My account**, and press the event under
+**Registration**. See [My registration](/dancer/my-registration/).
 
-Teams your club entered you in, such as a group or formation, are listed here too. Point at the
-team name to see who else is in it.
+Teams your club entered you in, such as a group or formation, are listed there too, with the names
+of everyone on the team.
 
 In the Dancer app, the same registrations are under **Profile → Registrations**.
 
@@ -166,6 +176,8 @@ you.
 | What you see | What to do |
 |---|---|
 | Registration is closed, or not open yet | Check the dates on the event's **Registration** tab. Late entries are up to the organizer. |
+| The class list says **No classes fit this competitor right now** | Press **Show more**. The classes that do not fit are listed there, each with the reason it is locked. |
+| A class says **This class needs a competitor with 2 people** | You picked a solo competitor for a couples class. Open **With partner** and pick your couple, or press **Create competitors** and add your partner. If your partner has no Vote4Dance account, you can create it there. |
 | A class is locked | Read the reason next to the class. The table above explains the common ones. |
 | A class you expected is missing | The organizer may not offer it in this registration period. Ask the organizer. |
 | Your partner blocks the registration | Something is missing on your partner's account, such as a birth date or a licence. They fix it on their own account. |
@@ -176,16 +188,17 @@ you.
 
 ## Cancelling a registration
 
-Cancel from your account page, in the list of your registrations, with **Cancel** on the row.
+Withdraw from a class on the event's **My registration** page: press **Withdraw** on the class and
+confirm. See [Withdrawing from a class](/dancer/my-registration/#withdrawing-from-a-class).
 
 - The registration period you registered in must still be open. After it closes, ask the
   organizer.
 - The registration must be Preliminary, Signed or Approved.
-- A group or formation owned by a club can only be cancelled by the club. Members see the button
-  greyed out.
-- Cancelling a couple cancels it for both of you.
+- A group or formation owned by a club can only be withdrawn by the club. Members see a note that
+  the club manages the entry instead of a **Withdraw** button.
+- Withdrawing a couple withdraws it for both of you.
 
-The registration stays in your list as **Cancelled**. **Nothing is refunded automatically**: if
+The registration stays on the page as **Cancelled**. **Nothing is refunded automatically**: if
 you paid, contact the organizer, who refunds from the Manager app.
 
 You can delete a competitor (such as an old couple) from your account only when it has no active
