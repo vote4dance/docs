@@ -28,15 +28,19 @@ You will:
 **Manager** or **Administrator** role. The page needs your club to be connected to a federation
 first — without that it just says "Connect this organization to a federation first."
 
-The page is split by what it wants from you:
+Summary cards at the top count what **Needs your action**, what is **Active**, what is **Waiting for
+the federation**, and the **Members without a licence**. Below them, the licences are split into tabs:
 
-| Section | What is in it |
+| Tab | What is in it |
 |---|---|
-| **Needs your action** | Applications waiting for your club to approve or pay. "Nothing requires your action right now" when you are clear. |
-| **No action needed** | Active, completed and cancelled licences, and the ones now waiting on the federation. |
+| **Needs your action** | Applications waiting for your club to approve or pay, from every season. "Nothing requires your action right now" when you are clear. |
+| **Active** | Licences that are valid for the season you picked |
+| **Waiting for the federation** | Applications your club has handled, or does not have to approve, that the federation still has to approve or the dancer still has to pay |
+| **Expired or cancelled** | Licences that have expired, were suspended or were cancelled |
+| **All** | Every licence for the season |
 
-Each row in the first section says which of the two it is: **Awaiting your approval** or
-**Payment due**.
+Each row in **Needs your action** says which it is: **Awaiting your approval** or **Payment due**.
+Pick the season at the top of the list, or **All seasons**.
 
 ## Before your club can hold licences at all
 
@@ -72,13 +76,20 @@ Each row in the first section says which of the two it is: **Awaiting your appro
 7. Press **Apply for license**
 
 Repeat per member. A club with twenty dancers submits twenty applications — there is no bulk
-apply on the club side.
+apply on the club side. To find who still needs one, click **Members without a licence**: it opens
+[Members](/school-club/club-admin/#members), where the **No licence this season** card lists them.
 
 ## Approving what members applied for themselves
 
 When a member applies for an item that requires club approval, it lands in **Needs your action**
 marked *Awaiting your approval*, with **Approve** and **Decline** on the row. Declining asks you
 to confirm: "Decline license application for *name*?"
+
+To handle several at once, tick them and press **Approve** or **Decline** above the list. You get
+one message when they are done, and one saying how many could not be changed and why.
+
+**Approve** only appears when your federation asks clubs to approve licences. Without that, there
+is nothing for the club to approve, and the application waits under **Waiting for the federation**.
 
 Your approval is one of four checks the federation sees before it can issue the licence, so an
 application nobody approves at the club simply sits there. The federation's own view says it
