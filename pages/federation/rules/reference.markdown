@@ -179,7 +179,7 @@ second condition that rules out the first round:
 
 ```
 round == 3, from end     ← the quarterfinal position
-round >= 2, from start   ← …but never the first round
+round != 1, from start   ← …but never the first round
 ```
 
 ---
@@ -214,7 +214,7 @@ then the exceptions.
 | Symptom | Likely cause | Fix |
 |---|---|---|
 | A rule hits the semifinal at one count and the final at another | It uses a from-start condition for a bracket position | Use `round == N, from end` |
-| The quarterfinal settings land on the placing round in small classes | `round == 3, from end` alone matches the placing round when there is no quarter | Add `round >= 2, from start` |
+| The quarterfinal settings land on the placing round in small classes | `round == 3, from end` alone matches the placing round when there is no quarter | Add `round != 1, from start` |
 | Count 8 has no B-final while 9 and above do | The add rule says `count >= 9` | Cover count 8 too (`count >= 8`), or drop the count condition |
 | Two rules fight over the same round | A second rule was added for a round another rule already targets | Edit the existing rule instead of adding another |
 | Brackets and per-count rules give odd results | Both approaches are on the same class | Use one approach per class |
@@ -244,7 +244,31 @@ applies to every round.
 | `count >= N`, `count <= N` | A range of counts; use both for a closed range | `count >= 9`, `count <= 20` |
 | `round == N, from start` | The Nth round, counting from the first | `round == 1, from start` — the first round |
 | `round == N, from end` | The Nth round, counting back from the final | `round == 1, from end` — the final; `2` — the semifinal |
-| `round >= N, from start` | Every round from the Nth on | Combine with a from-end condition to skip the first round |
+| `round != N, from start` | Every round except the Nth | `round != 1, from start` — never the first round |
+| `round != 1, from end` | Every round except the final | Settings for all rounds before the final |
+
+#### Round comparisons work the other way round
+
+The round generator compares a round condition as *N compared with the round*,
+not *the round compared with N*. So **Greater Than**, **Less Than** and their
+**Or Equal To** forms pick the opposite rounds from what the words say:
+
+| Shown in the editor | Applies to |
+|---|---|
+| Round **Greater Than Or Equal To** 3 | Rounds 1, 2 and 3 |
+| Round **Less Than Or Equal To** 3 | Round 3 and every round after it |
+| Round **Less Than** 1, from end | Every round except the final |
+
+The **Class rules** list marks every such condition with an orange warning tag,
+and its tooltip says which rounds the rule really reaches. The rule editor shows
+the same warning under the condition while you edit it.
+
+![A class rule whose round condition is marked with a warning, with the tooltip explaining how it works](/assets/images/federation-rules/round-condition-warning.png)
+
+Use **Equal To** and **Not Equal To** for round conditions wherever you can. If
+you have a rule that uses a comparison, check that it reaches the rounds you meant,
+and don't flip its operator yet: the comparison will be corrected in a later
+release, and rules that rely on today's behaviour will be adjusted with it.
 
 ### Actions
 
