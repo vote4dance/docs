@@ -46,7 +46,7 @@ states:
 | **Verified** | Good. This is what licence items requiring an external ID need. |
 | **Saved, not verified** | Stored but not checked yet — not good enough to apply with. |
 | **Not found** | The federation's system does not recognise the ID. |
-| **Birthdate does not match federation record** | The date of birth on your account differs from theirs. One of the two is wrong; fix it before applying. |
+| **Birthdate does not match federation record** | The date of birth on your account differs from theirs. One of the two is wrong; fix it before applying. If both show the same date and you still see this, contact the federation or Vote4Dance support. |
 | **Revoked** | The federation has withdrawn it; it cannot be used. |
 
 A few federations issue credentials per club rather than per person. There you pick your club

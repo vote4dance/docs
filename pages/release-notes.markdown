@@ -15,6 +15,7 @@ nav_order: 10
  🛠️ **Improvements**
 * Public: Your account lists your events under **Registration**: **Coming up**, tagged when something needs you, and **Past** by year, with **Find an event** (see [All your events](/dancer/my-registration/#all-your-events))
 * Public: **Pay now** works for classes in an event that runs over several days
+* Public: Verifying a federation ID no longer reports **Birthdate does not match federation record** when the dates are the same, which happened for Dansport Vlaanderen members whose birth date was off by one day (see [Joining a federation](/dancer/joining-a-federation/))
 * Public: A class that is locked because of the registration period's rules, for example a couples class when you have picked a solo competitor, now shows the reason next to the greyed-out **Add** button, and where to go to fix it (see [If you cannot register](/dancer/registration-for-event/#if-you-cannot-register))
 * Public: The **Registration** tab opens on **With partner** when the event's open classes are only for couples, and says why the class list is empty and that **Show more** reveals the locked classes (see [Registering with a partner](/dancer/registration-for-event/#registering-with-a-partner))
 * Public: When you search for a partner's email and nobody has it, the **Create account for partner** section explains that you can create their account for them, so they do not need to sign up first (see [Create the couple](/dancer/registration-for-event/#step-2-create-the-couple))
