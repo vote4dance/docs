@@ -7,7 +7,14 @@ nav_order: 10
 
 # Release notes
 ## 2026-10-08
+ ⭐ **New**
+* Public: **My registration** — every event you are registered for has a page of its own, with what you still have to do, your classes with their rounds, times and results, and whether your start number has been picked up; you pay, add a class and withdraw from a class there (see [My registration](/dancer/my-registration/))
+* Public: You land on **My registration** after registering or paying, and the event's **Overview**, the confirmation email and your account on the day of the event link to it (see [Opening it](/dancer/my-registration/#opening-it))
+* Dancer app: Tapping an event under **Profile → Registrations** opens **My event**, with what is left to do, your Vote4Dance ID and your classes; paying, adding a class and withdrawing open the website (see [In the Dancer app](/dancer/my-registration/#in-the-dancer-app))
+
  🛠️ **Improvements**
+* Public: Your account lists your events under **Registration**: **Coming up**, tagged when something needs you, and **Past** by year, with **Find an event** (see [All your events](/dancer/my-registration/#all-your-events))
+* Public: **Pay now** works for classes in an event that runs over several days
 * Public: A class that is locked because of the registration period's rules, for example a couples class when you have picked a solo competitor, now shows the reason next to the greyed-out **Add** button, and where to go to fix it (see [If you cannot register](/dancer/registration-for-event/#if-you-cannot-register))
 * Public: The **Registration** tab opens on **With partner** when the event's open classes are only for couples, and says why the class list is empty and that **Show more** reveals the locked classes (see [Registering with a partner](/dancer/registration-for-event/#registering-with-a-partner))
 * Public: When you search for a partner's email and nobody has it, the **Create account for partner** section explains that you can create their account for them, so they do not need to sign up first (see [Create the couple](/dancer/registration-for-event/#step-2-create-the-couple))

@@ -135,11 +135,14 @@ automatically. Nothing is left half-done; just start again.
 
 ## Checking your registrations
 
-Open your name at the top right → **My account** → **Registration**, and open the event. You see
-every class you are entered in, and the payments.
+Every event you are registered for has its own page, **My registration**. It lists every class you
+are entered in, what is paid and what you still have to do. You land on it when you finish
+registering, and you can open it from the event page, from the confirmation email, or from your
+account: open your name at the top right → **My account**, and press the event under
+**Registration**. See [My registration](/dancer/my-registration/).
 
-Teams your club entered you in, such as a group or formation, are listed here too. Point at the
-team name to see who else is in it.
+Teams your club entered you in, such as a group or formation, are listed there too, with the names
+of everyone on the team.
 
 In the Dancer app, the same registrations are under **Profile → Registrations**.
 
@@ -185,16 +188,17 @@ you.
 
 ## Cancelling a registration
 
-Cancel from your account page, in the list of your registrations, with **Cancel** on the row.
+Withdraw from a class on the event's **My registration** page: press **Withdraw** on the class and
+confirm. See [Withdrawing from a class](/dancer/my-registration/#withdrawing-from-a-class).
 
 - The registration period you registered in must still be open. After it closes, ask the
   organizer.
 - The registration must be Preliminary, Signed or Approved.
-- A group or formation owned by a club can only be cancelled by the club. Members see the button
-  greyed out.
-- Cancelling a couple cancels it for both of you.
+- A group or formation owned by a club can only be withdrawn by the club. Members see a note that
+  the club manages the entry instead of a **Withdraw** button.
+- Withdrawing a couple withdraws it for both of you.
 
-The registration stays in your list as **Cancelled**. **Nothing is refunded automatically**: if
+The registration stays on the page as **Cancelled**. **Nothing is refunded automatically**: if
 you paid, contact the organizer, who refunds from the Manager app.
 
 You can delete a competitor (such as an old couple) from your account only when it has no active
