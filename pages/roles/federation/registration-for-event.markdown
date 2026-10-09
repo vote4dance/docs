@@ -54,8 +54,9 @@ What dancers, clubs and organizers then see:
 - Each category counts on its own: a dancer can still dance Solo, Duo and Clipdance.
 - Teams in the same class can still share a dancer where you allow a dancer in more than one team
   per class.
+- Adding a dancer to a registered team, or bringing one into a lineup, is checked the same way.
 - The organizer's staff and the check-in desk see a warning instead, and can still register the
-  dancer.
+  dancer or move an entry.
 - The rule only stops new registrations. A dancer who is already in two classes stays in both
   until the organizer cancels one.
 
