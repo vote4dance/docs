@@ -214,7 +214,7 @@ A club belongs to one federation at a time. Applying while any link exists, appr
 
 This screen is headed **License Applications**. It shows the licences your club has applied for or holds, for the federation chosen in **Select federation**. Without a federation link it only says "Connect this organization to a federation first." The **Licenses** item in the sidebar shows a badge with the number of applications that need you.
 
-![The Licenses screen with the summary cards, status tabs and selected applications](/assets/images/club-admin/licenses.png)
+![The Licenses screen opened on Active, with the summary cards and status tabs](/assets/images/club-admin/licenses.png)
 
 The page has these parts:
 
