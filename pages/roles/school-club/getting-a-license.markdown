@@ -28,14 +28,17 @@ You will:
 **Manager** or **Administrator** role. The page needs your club to be connected to a federation
 first — without that it just says "Connect this organization to a federation first."
 
-Summary cards at the top count what **Needs your action**, what is **Active**, what is **Waiting for
-the federation**, and the **Members without a licence**. Below them, the licences are split into tabs:
+Summary cards at the top count what **Needs your action**, what is **Active**, what is **In
+progress**, and the **Members without a licence**. Below them, the licences are split into tabs. The
+list opens on **Needs your action** when something waits for your club, and on **Active** otherwise.
+When your federation does not ask clubs to approve licences and nothing waits for you, the **Needs
+your action** card and tab are left out.
 
 | Tab | What is in it |
 |---|---|
 | **Needs your action** | Applications waiting for your club to approve or pay, from every season. "Nothing requires your action right now" when you are clear. |
 | **Active** | Licences that are valid for the season you picked |
-| **Waiting for the federation** | Applications your club has handled, or does not have to approve, that the federation still has to approve or the dancer still has to pay |
+| **In progress** | Applications that need nothing from your club: the federation still has to approve them or the dancer still has to pay. Dancers who apply for their own licence land here when your federation does not ask clubs to approve. |
 | **Expired or cancelled** | Licences that have expired, were suspended or were cancelled |
 | **All** | Every licence for the season |
 
@@ -89,7 +92,7 @@ To handle several at once, tick them and press **Approve** or **Decline** above 
 one message when they are done, and one saying how many could not be changed and why.
 
 **Approve** only appears when your federation asks clubs to approve licences. Without that, there
-is nothing for the club to approve, and the application waits under **Waiting for the federation**.
+is nothing for the club to approve, and the application waits under **In progress**.
 
 Your approval is one of four checks the federation sees before it can issue the licence, so an
 application nobody approves at the club simply sits there. The federation's own view says it

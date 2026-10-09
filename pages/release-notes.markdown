@@ -8,6 +8,8 @@ nav_order: 10
 # Release notes
 ## 2026-10-09
  🛠️ **Improvements**
+* School/Club: **Members** keeps every row short: **Entries this season** shows how many competitions and entries a dancer has, such as "5 competitions · 12 entries", and the next competition they are entered in, instead of one line per competition. Click the dancer for the full list (see [Members](/school-club/club-admin/#members))
+* School/Club: **Licenses** opens on **Active** when nothing needs your club, so you see who holds a licence straight away, and the **Needs your action** card and tab only show when your federation asks clubs to approve licences or something waits for you. **Waiting for the federation** is now called **In progress**: applications that need nothing from your club, waiting on the federation's approval or the dancer's payment (see [Getting a license](/school-club/getting-a-license/))
 * Manager: **Send notifications** now marks a notification as sent even when none of the event's followers can receive a push, so it no longer stays unsent with the button still showing. Pressing it twice no longer sends the push twice, and when sending fails before anyone gets it, you can retry (see [Sending](/manager-guide/notifications/#sending))
 ## 2026-10-08
  ⭐ **New**
