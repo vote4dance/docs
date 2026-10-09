@@ -59,9 +59,16 @@ Your text cannot contain the characters `<`, `>` or `\`. If it does, saving fail
 
 Press **Send notifications** (the phone icon) on a saved notification, then confirm.
 
-When at least one follower can receive it, the push goes out at once and the row shows "Notifications was sent out on" with the date and time, in the event's time zone. The **Send notifications** button then disappears from that row, so each notification is sent only once.
+The push goes out at once, and the row shows "Notifications was sent out on" with the date and time, in the event's time zone. The **Send notifications** button then disappears from that row, so each notification is sent only once.
 
-If no follower can receive a push, nothing is sent and the row stays unsent. You still see the "Send notifications" confirmation. Check the follower count, and send again later if you want.
+The row is marked as sent even when no follower can receive a push. In that case no push goes out, but the notification stays on the event page as before.
+
+If you press **Send notifications** again from an old window, or press it twice, you see "This update has already been sent, or is being sent right now." Nothing is sent a second time.
+
+If sending fails:
+
+- When nobody has received it yet, you see an error and the row stays unsent. Press **Send notifications** again to retry.
+- When it reached only some followers, you see "The update reached only some followers before sending failed." The row is marked as sent, so the followers who already have it don't get it twice. The others may not have been notified. If that matters, create a new notification with the same text and send it.
 
 ## Scheduling
 

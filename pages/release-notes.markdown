@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-09
+ 🛠️ **Improvements**
+* Manager: **Send notifications** now marks a notification as sent even when none of the event's followers can receive a push, so it no longer stays unsent with the button still showing. Pressing it twice no longer sends the push twice, and when sending fails before anyone gets it, you can retry (see [Sending](/manager-guide/notifications/#sending))
 ## 2026-10-08
  ⭐ **New**
 * Public: **My registration** — every event you are registered for has a page of its own, with what you still have to do, your classes with their rounds, times and results, and whether your start number has been picked up; you pay, add a class and withdraw from a class there (see [My registration](/dancer/my-registration/))
