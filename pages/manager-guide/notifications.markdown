@@ -67,7 +67,7 @@ If you press **Send notifications** again from an old window, or press it twice,
 
 If sending fails:
 
-- When nobody has received it yet, you see an error and the row stays unsent. Press **Send notifications** again to retry.
+- When nobody has received it yet, you see "The update could not be sent. It is still unsent; press Send notifications to try again." The row stays unsent, so press **Send notifications** again to retry.
 - When it reached only some followers, you see "The update reached only some followers before sending failed." The row is marked as sent, so the followers who already have it don't get it twice. The others may not have been notified. If that matters, create a new notification with the same text and send it.
 
 ## Scheduling
