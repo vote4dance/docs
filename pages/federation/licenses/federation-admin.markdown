@@ -7,6 +7,7 @@ nav_order: 1
 help:
   federation.license: ""
   federation.license.items: 3-manage-license-items
+  federation.license.member-check: 9-check-a-member-number
 ---
 
 # Federation admin
@@ -31,6 +32,7 @@ Different parts of the license workflow require different [staff roles](/federat
 | Grant or remove license issuer access | Manager |
 | Move an approved license to another organization (reissue) | Administrator |
 | Add or edit license items (catalog) | Administrator |
+| Check a member number (federations with a member register) | Manager |
 | Map license items to classes | Administrator |
 | Connect Stripe | Administrator |
 
@@ -428,6 +430,47 @@ For a new federation setup, verify this sequence:
 5. Issuer role is configured on the right organizations before org-managed applications begin
 6. Each competitive class has the right accepted items
 7. Payment status and payer type look correct on real applications
+
+## 9. Check a member number
+
+Some federations check each dancer's member number against their own member register when a licence is applied for. Dansport Vlaanderen does this. When a dancer or club tells you a number "is not recognised", the **Member check** tab shows you why, without contacting Vote4Dance support. It only looks things up: nothing is changed, and nothing is sent to the dancer.
+
+The tab is only there when your federation has a member register connected, and you need the Manager role or higher.
+
+![The Member check tab on the Licenses page](/assets/images/member-check/member-check-tab.png)
+
+### Check a number
+
+1. Open `Federation → Licenses` and choose the **Member check** tab
+2. Type the **Member number** the dancer used
+3. Choose the dancer's club, or leave **All clubs**. The register is checked club by club, so **All clubs** is the way to find out which club the member actually belongs to
+4. Press **Check**
+
+For each club that knows the number you see the register's answer: the **Name in register**, the **Member number**, the **Birth date in register** and the **Membership status**. A short text under it says what it means. If no club knows the number, the page says: "This number isn't in any club's member list. Check the number with the member."
+
+Below that, **Vote4Dance accounts** lists the accounts that have a licence with this number or the same name as in the register, with each account's **Birth date in Vote4Dance** and how it **Compared with register**. Click a name to open the dancer.
+
+### What the result tells you
+
+| You see | What it means | What to do |
+|---|---|---|
+| **Active member** | The number is valid for this club. | If the application was still rejected, look at the birth dates under **Vote4Dance accounts**. |
+| **Not active** | The member is in the club's list, but the membership's status type is not ACTIVE, for example PROSPECT, even when its name says "Actief lid". | Change the membership status in the member register. |
+| **Not found** | The number is not in this club's member list. | Check **All clubs**: the member may belong to another club, and must apply with that club selected. |
+| **Check failed** | The register could not be reached with this club's login. | If every club fails, the register is unavailable: try again later. If only some clubs fail, check their register login on the club's page (`Teams & integration`). |
+
+Birth dates are compared like this:
+
+- **Matches**: the birth dates are the same.
+- **One day apart**: usually the register holds the date one day too early. Correct it in the member register. Do not ask the dancer to change their date in Vote4Dance; their account would then be wrong.
+- **Different**: the dates differ by more. One of them has a typing mistake; check with the dancer which one.
+- **Missing**: the dancer's account has no date of birth. They add it under their account settings.
+
+### From a club's page
+
+When you are already looking at a club, open its `Teams & integration` tab and press **Check a member number for this club**. The **Member check** tab opens with that club already selected.
+
+![The member check link on a club's page](/assets/images/member-check/club-page-link.png)
 
 ## Common mistakes
 

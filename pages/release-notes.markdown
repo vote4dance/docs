@@ -10,8 +10,11 @@ nav_order: 10
  ⭐ **New**
 * App: The **Results** tab has a **With results** filter, and opens on it as soon as a class has results; **All** shows every class (see [Find results](/dancer/following-in-the-app/#find-results))
 * App: The **Favorites** tab shows what Premium gives you, with an example of followed dancers and clubs, and opens the Premium offer only when you tap **Upgrade to Premium** (see [Follow dancers and clubs with Premium](/dancer/following-in-the-app/#follow-dancers-and-clubs-with-premium))
+* Federation: **Licenses → Member check** shows why a member number is accepted or rejected: what the federation's member register returns for the number, club by club, next to the Vote4Dance accounts with that number or name and how their birth dates compare. Check **All clubs** to find which club a member belongs to; a club's page links straight to it. Available to Managers for federations with a member register, such as Dansport Vlaanderen (see [Check a member number](/federation-licenses/federation-admin/#9-check-a-member-number))
 
  🛠️ **Improvements**
+* Public: When a federation member number is not accepted, the message now says why: no club selected, the number is not in that club's member list, the membership is not active, the birth date differs from the federation's member register, or the register could not be reached. **Revoked** is now called **Not active** (see [Dancer federation status](/dancer/federation-status/))
+* School/Club: The same reasons show when you apply for a licence for a member, with what to do for each (see [The member number is not recognised](/school-club/getting-a-license/#the-member-number-is-not-recognised))
 * App: New look that matches vote4dance.com — a dark background, a rounded header with the competition name, and a floating tab bar; the Vote4Dance banner now moves
 * App: The voting heart bounces under your finger, and holding it fills the ring only while you hold; the ring is a full circle (see [Vote for a competitor](/dancer/following-in-the-app/#vote-for-a-competitor))
 * App: On a long class list, the last class is no longer hidden behind the system navigation bar
