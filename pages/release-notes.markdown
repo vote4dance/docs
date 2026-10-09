@@ -10,6 +10,9 @@ nav_order: 10
  ⭐ **New**
 * App: The **Results** tab has a **With results** filter, and opens on it as soon as a class has results; **All** shows every class (see [Find results](/dancer/following-in-the-app/#find-results))
 * App: The **Favorites** tab shows what Premium gives you, with an example of followed dancers and clubs, and opens the Premium offer only when you tap **Upgrade to Premium** (see [Follow dancers and clubs with Premium](/dancer/following-in-the-app/#follow-dancers-and-clubs-with-premium))
+* Federation: New rule **One class per dancer in each category**: a dancer can be registered in only one age group and one level per category at an event, such as Rising Talent or Ultimate Talent. Each category counts on its own, and teams in the same class can still share a dancer (see [One class per category](/federation/registration-for-event/#one-class-per-category))
+* Public: When your federation uses it, the other classes of a category are locked once one is in your cart or registered, and say which class you are already in (see [One class per category](/dancer/registration-for-event/#one-class-per-category))
+* Check-in: The desk sees the same reason as a warning and can still add the class
 
  🛠️ **Improvements**
 * App: New look that matches vote4dance.com — a dark background, a rounded header with the competition name, and a floating tab bar; the Vote4Dance banner now moves
