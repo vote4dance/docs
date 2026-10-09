@@ -179,7 +179,7 @@ you.
 | The class list says **No classes fit this competitor right now** | Press **Show more**. The classes that do not fit are listed there, each with the reason it is locked. |
 | A class says **This class needs a competitor with 2 people** | You picked a solo competitor for a couples class. Open **With partner** and pick your couple, or press **Create competitors** and add your partner. If your partner has no Vote4Dance account, you can create it there. |
 | A class is locked | Read the reason next to the class. The table above explains the common ones. |
-| A class says **A dancer in this team is already in …** | Your federation lets each dancer dance only one class per category at an event: one age group and one level. If you are in Solo Juniors 1 Rising Talent, you cannot also enter Solo Juniors 1 Ultimate Talent or Solo Children. Other categories, such as Duo or Clipdance, are not affected. To switch, remove the other class from your cart, or withdraw from it on **My registration**, and add the one you want. See [One class per category](#one-class-per-category). |
+| A class says **A dancer in this team is already in …** or **This team is already in …** | Your federation allows only one class per category at an event: one age group and one level, for each dancer (solo, duo…) or each team (groups, formations). If you are in Solo Juniors 1 Rising Talent, you cannot also enter Solo Juniors 1 Ultimate Talent or Solo Children. Other categories, such as Duo or Clipdance, are not affected. To switch, remove the other class from your cart, or withdraw from it on **My registration**, and add the one you want. See [One class per category](#one-class-per-category). |
 | A class you expected is missing | The organizer may not offer it in this registration period. Ask the organizer. |
 | Your partner blocks the registration | Something is missing on your partner's account, such as a birth date or a licence. They fix it on their own account. |
 | You are not allowed to register this competitor | Ask your club to register you. |
@@ -189,19 +189,20 @@ you.
 
 ### One class per category
 
-Some federations, such as Danssport Vlaanderen, let each dancer dance **only one class per
-category** at an event: one age group and one level. You choose which level to dance, for example
-Rising Talent or Ultimate Talent, but not both.
+Some federations, such as Danssport Vlaanderen, allow **only one class per category** at an
+event: one age group and one level. You choose which level to dance, for example Rising Talent or
+Ultimate Talent, but not both. For solos, duos and similar categories this applies to each
+dancer; for groups and formations it applies to each team.
 
 Once one of these classes is in your cart or registered, the other classes of that category are
-greyed out and say which class you are already in.
+greyed out and say which class you, or your team, are already in.
 
 ![A class locked because the dancer is already in another level of the same category](/assets/images/registration/one-class-per-category.png)
 
 - **Each category counts on its own.** A dancer in Solo Juniors 1 Rising Talent can still dance
   Duo, Clipdance or Freestyle, in the class that fits.
-- **Groups:** two of your club's groups can dance the same class and share a dancer. A dancer
-  cannot be in a Rising Talent group and an Ultimate Talent group of the same category.
+- **Groups and formations:** each team may be in only one class of the category, but its dancers
+  may also dance in your club's other teams, in any class.
 - **To change your mind**, remove the class from your cart, or withdraw from it on
   [My registration](/dancer/my-registration/#withdrawing-from-a-class), and then add the other.
 

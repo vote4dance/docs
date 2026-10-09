@@ -31,34 +31,44 @@ what brings your rules into their event.
 | **Who may register a competitor:** anyone, a member of the team, or the club | The rules editor, in the layer's **Rules** section under `Federation → Structure` |
 | **Custom team names** allowed or not | The rules editor, in the layer's **Rules** section under `Federation → Structure` |
 | **Which club a dancer represents**, if dancers must choose | The rules editor, in the layer's **Rules** section under `Federation → Structure` |
-| **One class per dancer in each category:** one age group and one level | The rules editor, in the layer's **Rules** section under `Federation → Structure`. See [One class per category](#one-class-per-category). |
+| **One class per category:** one age group and one level, per dancer or per team | The rules editor, in the category's **Rules** section under `Federation → Structure`. See [One class per category](#one-class-per-category). |
 
 A class a competitor cannot enter is shown to them as locked, with the reason, before checkout.
 Check the combined result of all your rules in `Federation → Rulebook`.
 
 ## One class per category
 
-When dancers choose their own level, for example Rising Talent or Ultimate Talent, turn on **One
-class per dancer in each category**. A dancer can then be registered in only one class per
-category at an event: one age group and one level.
+When competitors choose their own level, for example Rising Talent or Ultimate Talent, set **One
+class per category**. A competitor can then be registered in only one class per category at an
+event: one age group and one level. You choose who it applies to, per category:
 
-1. Open `Federation → Structure` and the discipline, for example Hip Hop.
-2. In its **Rules** section, turn on **One class per dancer in each category** and save the rules.
-3. To leave out a single category, turn the rule off on that category the same way.
+| Setting | Use it for | What it means |
+|---|---|---|
+| **Per dancer** | Solo, Duo, Clipdance, Freestyle | Each dancer may be in only one class of the category. A dancer in Solo Juniors 1 Rising Talent cannot also enter Solo Juniors 1 Ultimate Talent or Solo Children. |
+| **Per team** | Small groups, Formations | Each team may be in only one class of the category. Its dancers may still dance in other teams, in any class. |
+| **Off** | Categories without the rule | No limit. |
+
+1. Open `Federation → Structure`, the discipline (for example Hip Hop) and the category (for
+   example Solo).
+2. In the category's **Rules** section, set **One class per category** to **Per dancer**, **Per
+   team** or **Off**, and save the rules.
+3. Do this for each category, in each discipline that uses it.
 
 What dancers, clubs and organizers then see:
 
 - On the registration page, the other classes of the category are locked as soon as one is in the
-  cart or registered, with the class the dancer is already in. See
+  cart or registered, with the class the dancer or team is already in. See
   [One class per category](/dancer/registration-for-event/#one-class-per-category).
 - Each category counts on its own: a dancer can still dance Solo, Duo and Clipdance.
-- Teams in the same class can still share a dancer where you allow a dancer in more than one team
-  per class.
-- Adding a dancer to a registered team, or bringing one into a lineup, is checked the same way.
+- **Per dancer:** adding a dancer to a registered team, or bringing one into a lineup, is checked
+  the same way.
+- **Per team:** a team counts as the same team after a lineup change. Example: formation Dance Pops
+  in Children Rising Talent cannot also enter Children Ultimate Talent or New Talent, while its
+  dancers can still dance in team Disco Fever in all three.
 - The organizer's staff and the check-in desk see a warning instead, and can still register,
-  add or move the dancer.
-- The rule only stops new registrations. A dancer who is already in two classes stays in both
-  until the organizer cancels one.
+  add or move the competitor.
+- The rule only stops new registrations. A competitor already in two classes stays in both until
+  the organizer cancels one.
 
 ## When a dancer says they are blocked
 
