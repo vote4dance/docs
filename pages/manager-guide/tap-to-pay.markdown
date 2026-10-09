@@ -66,10 +66,18 @@ If this phone has not turned Tap to Pay on yet, tapping **Tap to Pay on iPhone**
 The check-in station's till — `Check-in → Sell` on a laptop or tablet — can hand a card payment to a staff member's phone:
 
 1. Build the sale as usual, and tap **Take a card**.
+
+   ![The web till with a sticker in the cart and the Take a card button](/assets/images/tap-to-pay/web-till.png)
+
 2. The till shows a QR code. Scan it with the camera on the phone that takes the card; the Vote4Dance app opens on the payment.
+
+   ![The till waiting for the card, with the QR code to scan](/assets/images/tap-to-pay/web-till-qr.png)
+
 3. The customer holds their card to the phone, and the till shows the sale as paid as soon as the payment goes through.
 
 The phone does not have to be signed in for this: the QR is valid for this one sale only, and only for a short while.
+
+If the customer changes their mind, tap **Cancel the card payment**: the sale is called off and nothing is charged.
 
 ## When a card asks for a PIN
 
