@@ -115,6 +115,7 @@ Cancelling does not refund anything. The organizer refunds from Manager.
 | A dancer's licence is Pending | Pending does not count. See [Getting a license](/school-club/getting-a-license/). |
 | "Independent competitors can have at most 2 members" | Create the group on the **Competitors** screen with **Owned by organization** ticked. |
 | A group class is locked with "This team does not belong to a club, and only club teams can enter this class." | The team is independent, even if its dancers are club members. Under **As coach**, choose your club, create the team there with **Owned by organization** ticked (see [Step 1](#step-1-set-up-the-competitors)) and register that team. |
+| A class says **A dancer in this team is already in …** | Your federation lets each dancer dance one class per category: one age group and one level. One of the team's dancers is already in another class of that category, registered or in the cart. Two of your teams may share a dancer in the same class, but not across levels. See [One class per category](/dancer/registration-for-event/#one-class-per-category). |
 | The lineup must change after registering | **Edit lineup** while the period is open. After that, ask the organizer. |
 | An entry was cancelled on the day | The club did not confirm it at check-in. Talk to the organizer. |
 
