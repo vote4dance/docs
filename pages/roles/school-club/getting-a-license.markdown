@@ -146,6 +146,17 @@ The form blocks on a missing member date of birth, a missing season year, and a 
 competition or federation ID where the item requires one. Check the field messages before
 retrying.
 
+### "The member number is not recognised"
+
+For a federation that checks member numbers against its member register, press **Verify** next to the number. The message under the result says why it was not accepted:
+
+- **Not found**: the number isn't in your club's member list in the register. Check the number, and that the member belongs to your club and not to another one.
+- **Not active**: the member is in the register, but the membership is not active there. Ask the federation to check the membership status.
+- **Birthdate does not match federation record**: the date of birth in the register differs from the one on the member's account. If the member's date is correct, do not change it; ask the federation to correct the register.
+- **Verification failed**: the register could not be reached. Try again in a few minutes.
+
+The federation can look up the same number on its side and see exactly what the register holds.
+
 ### "It was declined and I do not know why"
 
 Declines come from the federation or, for club-approval steps, from your own club. The federation
