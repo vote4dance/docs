@@ -6,6 +6,15 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-09
+ ⭐ **New**
+* App: The **Results** tab has a **With results** filter, and opens on it as soon as a class has results; **All** shows every class (see [Find results](/dancer/following-in-the-app/#find-results))
+* App: The **Favorites** tab shows what Premium gives you, with an example of followed dancers and clubs, and opens the Premium offer only when you tap **Upgrade to Premium** (see [Follow dancers and clubs with Premium](/dancer/following-in-the-app/#follow-dancers-and-clubs-with-premium))
+
+ 🛠️ **Improvements**
+* App: New look that matches vote4dance.com — a dark background, a rounded header with the competition name, and a floating tab bar; the Vote4Dance banner now moves
+* App: The voting heart bounces under your finger, and holding it fills the ring only while you hold; the ring is a full circle (see [Vote for a competitor](/dancer/following-in-the-app/#vote-for-a-competitor))
+* App: On a long class list, the last class is no longer hidden behind the system navigation bar
 ## 2026-10-08
  ⭐ **New**
 * Public: **My registration** — every event you are registered for has a page of its own, with what you still have to do, your classes with their rounds, times and results, and whether your start number has been picked up; you pay, add a class and withdraw from a class there (see [My registration](/dancer/my-registration/))
