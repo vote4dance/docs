@@ -21,7 +21,7 @@ On Android, the same feature is called **Card payments on this phone**.
 - **Stripe connected** for the event. Set this up on the event's Shop page, see [Before you sell](/manager-guide/shop/#before-you-sell).
 - **Something to sell at the desk**: an active product in the [Shop](/manager-guide/shop/#products) with a price.
 - **A staff member with desk rights** on the event — **Check-in**, **Sales** or **Manager** — signed in to the Vote4Dance app. Give them these rights under [Users, apps and stations](/manager-guide/users-and-stations/).
-- **An iPhone XS or later** with a current version of iOS, or an Android phone with Android 13 or later and contactless (NFC).
+- **An iPhone XS or later** with a current version of iOS, or an Android phone with Android 13 or later and contactless (NFC). On Android, **developer options** must be turned off; see [On an Android phone](#on-an-android-phone).
 - **Mobile data** on the phone. Without a connection, take cash.
 
 ## Turning it on
@@ -82,6 +82,13 @@ If the customer changes their mind, tap **Cancel the card payment**: the sale is
 ## When a card asks for a PIN
 
 Above the contactless limit, the card may ask for a PIN, and the keypad appears on the iPhone. Hand the phone to the customer, look away, and take it back when they are done. A customer who cannot use the keypad can tap **Accessibility Options** on the PIN screen. Apple's guide, under **How to take a card**, shows how.
+
+## On an Android phone
+
+Android phones work the same way, with plain names: the card on the event's **Overview** is called **Card payments on this phone**, and the card button on **Sell** is **Take a card**.
+
+- **Developer options must be off.** For your security, Stripe refuses card payments on a phone that has developer options or USB debugging turned on. The app then says so: turn developer options off in the phone's **Settings** and try again.
+- **Android 12 or older cannot take cards.** On such a phone the event's card is called **Sell** and only offers cash sales. If the desk's card code is scanned with it, the app says the phone needs Android 13 or later. Use another phone for cards.
 
 ## When a card will not tap
 
