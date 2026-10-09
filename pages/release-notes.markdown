@@ -8,6 +8,9 @@ nav_order: 10
 # Release notes
 ## 2026-10-08
  ⭐ **New**
+* App: **Tap to Pay on iPhone** — desk staff take contactless cards, Apple Pay and other digital wallets right on their iPhone, with no card reader; turn it on once from the event's **Tap to Pay on iPhone** card (see [Tap to Pay on iPhone](/manager-guide/tap-to-pay/))
+* App: **Sell** from the phone — add products, then pay with **Tap to Pay on iPhone** or **Cash**; the result shows **Paid**, **Declined** or **Timed out**, with **Try another card** after a decline (see [Selling from the phone](/manager-guide/tap-to-pay/#selling-from-the-phone))
+* App: A card payment that is declined e-mails the customer a receipt saying nothing was charged, and notifies the staff member who started the sale (see [Receipts](/manager-guide/tap-to-pay/#receipts))
 * Public: **My registration** — every event you are registered for has a page of its own, with what you still have to do, your classes with their rounds, times and results, and whether your start number has been picked up; you pay, add a class and withdraw from a class there (see [My registration](/dancer/my-registration/))
 * Public: You land on **My registration** after registering or paying, and the event's **Overview**, the confirmation email and your account on the day of the event link to it (see [Opening it](/dancer/my-registration/#opening-it))
 * Dancer app: Tapping an event under **Profile → Registrations** opens **My event**, with what is left to do, your Vote4Dance ID and your classes; paying, adding a class and withdrawing open the website (see [In the Dancer app](/dancer/my-registration/#in-the-dancer-app))
