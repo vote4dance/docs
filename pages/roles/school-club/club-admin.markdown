@@ -88,7 +88,7 @@ Each row shows:
 | **Dancer** | The name, the birth year, and the role if it is not **Member** |
 | **Licence this season** | **Active**, **Pending** or **No licence with this club** |
 | **Competitors this season** | The dancer's competitors this season, such as **Solo**, **Duo with** *name* or a group's name |
-| **Entries this season** | Each competition the dancer is entered in, with the number of entries, and how many are unpaid |
+| **Entries this season** | How many competitions and entries the dancer has this season, such as **5 competitions · 12 entries**, the **Next** competition they are entered in, and how many entries are unpaid. Click the name to see every entry. |
 
 Click a name to open the dancer on the right: their licence, all their competitors (marked **Entered**, **This season** or **Earlier seasons**) and each entry with its status and payment. When the dancer has no licence, **Apply for a licence** takes you to [Licenses](#licenses).
 
@@ -214,7 +214,7 @@ A club belongs to one federation at a time. Applying while any link exists, appr
 
 This screen is headed **License Applications**. It shows the licences your club has applied for or holds, for the federation chosen in **Select federation**. Without a federation link it only says "Connect this organization to a federation first." The **Licenses** item in the sidebar shows a badge with the number of applications that need you.
 
-![The Licenses screen with the summary cards, status tabs and selected applications](/assets/images/club-admin/licenses.png)
+![The Licenses screen opened on Active, with the summary cards and status tabs](/assets/images/club-admin/licenses.png)
 
 The page has these parts:
 
@@ -222,16 +222,16 @@ The page has these parts:
 |---|---|
 | The application form | Choose a **Member**, a **License item**, the **Season year** (or a **Federation ID** or **Competition ID** when the item needs one) and an optional **Note**, then press **Apply for license**. |
 | Season, search and export | Pick the season to show, or **All seasons**. **Search by member name** narrows the list, and **Export CSV** downloads it as shown. |
-| Summary cards | **Needs your action**, **Active**, **Waiting for the federation** and **Members without a licence**. Click a card to open that tab. **Members without a licence** opens [Members](#members), where the **No licence this season** card lists them. |
-| Status tabs | **Needs your action**, **Active**, **Waiting for the federation**, **Expired or cancelled** and **All**, each with its count |
+| Summary cards | **Needs your action**, **Active**, **In progress** and **Members without a licence**. The **Needs your action** card and tab only show when your federation asks clubs to approve licences or something waits for your club. Click a card to open that tab. **Members without a licence** opens [Members](#members), where the **No licence this season** card lists them. |
+| Status tabs | **Needs your action**, **Active**, **In progress**, **Expired or cancelled** and **All**, each with its count |
 
-**Needs your action** shows applications waiting for your club to approve or pay, from every season, so nothing waiting on you is hidden by the season. The **What's needed** column says **Awaiting your approval** or **Payment due**. The other tabs follow the season you picked. The list is sorted by member and shows 50 licences per page.
+The list opens on **Needs your action** when something waits for your club, and on **Active** otherwise, so you see straight away who holds a licence. **Needs your action** shows applications waiting for your club to approve or pay, from every season, so nothing waiting on you is hidden by the season. The **What's needed** column says **Awaiting your approval** or **Payment due**. The other tabs follow the season you picked. The list is sorted by member and shows 50 licences per page.
 
 | Action | How | Who |
 |---|---|---|
 | Apply for a member | The form, then **Apply for license** | Manager, Administrator |
 | Approve an application | **Approve** on the row. It only appears when your federation asks clubs to approve licences. | Manager, Administrator |
-| Approve several | On **Needs your action** or **Waiting for the federation**, tick the applications, then press **Approve** | Manager, Administrator |
+| Approve several | On **Needs your action** or **In progress**, tick the applications, then press **Approve** | Manager, Administrator |
 | Decline an application | **Decline**, then confirm "Decline license application for *name*?" The licence becomes cancelled. | Manager, Administrator |
 | Decline several | Tick the applications, press **Decline** and confirm | Manager, Administrator |
 | Pay | **Pay** on an unpaid row. It stays disabled until the licence is approved, and when the federation has not connected Stripe. | Manager, Administrator |
@@ -251,7 +251,7 @@ You cannot change your own role, and on this screen nobody can change or remove 
 
 ### "There is no Approve button on a licence"
 
-**Approve** only appears when your federation asks clubs to approve licences. Without that, an application your club does not have to approve waits under **Waiting for the federation**: on the federation, or on the dancer's payment. See [Getting a license](/school-club/getting-a-license/).
+**Approve** only appears when your federation asks clubs to approve licences. Without that, an application your club does not have to approve waits under **In progress**: on the federation, or on the dancer's payment. See [Getting a license](/school-club/getting-a-license/).
 
 ### "Competitors lists old duos"
 
