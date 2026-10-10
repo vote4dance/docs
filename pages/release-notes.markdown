@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-10
+ 🛠️ **Improvements**
+* Manager: The **Medals** list under **Statistics** ranks clubs without a medal by their 4th, 5th and 6th places, instead of by how many entries they have (see [Statistics](/manager-guide/statistics/))
 ## 2026-10-09
  ⭐ **New**
 * App: The **Results** tab has a **With results** filter, and opens on it as soon as a class has results; **All** shows every class (see [Find results](/dancer/following-in-the-app/#find-results))
