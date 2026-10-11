@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-11
+ 🛠️ **Improvements**
+* Manager: The **Medals** list under **Statistics** names each club as it is written on the event's entries, so two clubs with the same short name, such as SDC, get their own rows instead of being shown as one club. Different spellings of the same club name are counted together (see [Statistics](/manager-guide/statistics/))
 ## 2026-10-10
  🛠️ **Improvements**
 * Manager: The **Medals** list under **Statistics** ranks clubs without a medal by their 4th, 5th and 6th places, instead of by how many entries they have (see [Statistics](/manager-guide/statistics/))
