@@ -49,7 +49,7 @@ The club's details and its website embeds are not under **Administration**. They
 
 `Organization → Administration → Permissions`
 
-This screen lists the club's approved members, each with name, email and a role selector. Next to the list, the **Guide to permissions** panel describes each role. Some lines in the panel only appear when they apply, for example the licence approval line for managers, which only shows when the club's federation asks clubs to approve licences.
+This screen lists the club's approved members, each with name, a shortened email address (such as j•••@g•••.com, so you can tell members with the same name apart) and a role selector. Next to the list, the **Guide to permissions** panel describes each role. Some lines in the panel only appear when they apply, for example the licence approval line for managers, which only shows when the club's federation asks clubs to approve licences.
 
 | Action | How | Who |
 |---|---|---|
