@@ -53,7 +53,7 @@ This screen lists the club's approved members, each with name, email and a role 
 
 | Action | How | Who |
 |---|---|---|
-| Add a person | Type at least three letters of a name or email in **Search members**, pick the person and press **Add**. They join straight away as an approved **Member**. There is no invitation step. | Administrator |
+| Add a person | Type at least three letters of a name, or a whole email address, in **Search members**, pick the person and press **Add**. They join straight away as an approved **Member**. There is no invitation step. | Administrator |
 | Change a role | Pick a new role in the person's selector. It saves immediately. | Administrator |
 | Remove a person | The delete button on the row, then confirm "Are you sure you want to delete *name*?" | Administrator |
 
