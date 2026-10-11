@@ -254,7 +254,7 @@ Click a panel's name at the top of its column. The pop-up shows:
 
 ![A panel's pop-up](/assets/images/judges/panel-popup.png)
 
-**New panel** adds a panel, named "Panel 2", "Panel 3" and so on. Rename it in its pop-up.
+**New panel** adds a panel, named "Panel 2", "Panel 3" and so on. Rename it in its pop-up. Each panel in an event needs a name of its own: if another panel already uses the name you type, the name field turns red and says so, and the name is not saved until you change it. Your typing stays in the field, so you only need to adjust it.
 
 **Panel seats** at the top sets the seats a panel wants when it has no **Seats wanted** of its own. Vote4Dance starts from what most of your panels already have.
 
