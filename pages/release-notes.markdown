@@ -8,6 +8,8 @@ nav_order: 10
 # Release notes
 ## 2026-10-11
  🛠️ **Improvements**
+* Manager: Importing a WDSF competition with **Search WDSF API** on the **Classes** page now fills in both partners' names for couples, and importing it again updates the teams instead of adding another class with a second copy of them
+* Manager: Uploading a couple's result with marks to WDSF now includes the rounds of couples who started in a later round
 * Manager: The **Medals** list under **Statistics** names each club as it is written on the event's entries, so two clubs with the same short name, such as SDC, get their own rows instead of being shown as one club. Different spellings of the same club name are counted together (see [Statistics](/manager-guide/statistics/))
 ## 2026-10-10
  🛠️ **Improvements**
