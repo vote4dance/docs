@@ -49,7 +49,7 @@ There are two ways to add a judge. Both are at the bottom of the judge list.
 
 ### An existing account
 
-Type at least three letters of a name or an email address in the **Search users** box. Matching accounts appear with their email address and a count, such as `3x`, that shows how many competitions they have judged before. Pick one and press **Add**. The judge is added at once; no email is sent. See [Invitations](#invitations).
+Type at least three letters of the judge's name in the **Search users** box, or their whole email address. Matching accounts appear with a shortened email address, such as j•••@g•••.com, and a count, such as `3x`, that shows how many competitions they have judged before. Searching by email needs the whole address. Pick one and press **Add**. The judge is added at once; no email is sent. See [Invitations](#invitations).
 
 Disabled accounts are not listed.
 
@@ -79,7 +79,7 @@ Each row has:
 | Column | What it shows |
 |---|---|
 | Dot | Green when the judge has the Judging app open and connected; hover for battery level. |
-| **Name** | The judge's name. Hover over the info icon after it to see their email address, and click it to copy the address. |
+| **Name** | The judge's name. Hover over the info icon after it to see a shortened email address, such as j•••@g•••.com, so you can tell judges with the same name apart. The full address stays private to the judge; invitations still reach it. |
 | **Photo** | A photo used for this competition only. Upload one to replace the judge's profile picture; delete it to fall back to the profile picture. |
 | **Status** | See [Statuses](#statuses). |
 | **Needs** | **None**, or **Set by supervisor** when the judge has [needs](#judge-needs). Click it to open them. |

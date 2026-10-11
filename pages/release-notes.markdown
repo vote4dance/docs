@@ -8,6 +8,9 @@ nav_order: 10
 # Release notes
 ## 2026-10-11
  🛠️ **Improvements**
+* Manager, Supervisor, School/Club, Federation: When you search for a person to add as a judge, as staff or as a member, a match on their name shows a shortened e-mail address, such as j•••@g•••.com, so you can tell people with the same name apart. To find someone by e-mail, type their whole address; part of an address no longer finds anyone. Club and federation admins still see the full address of their own members in search results (see [Adding judges](/manager-guide/judges/#an-existing-account))
+* Manager, School/Club, Federation: The lists of judges, event users and club members show the same shortened e-mail address instead of the full one. Invitations still reach the person's full address (see [Judges](/manager-guide/judges/#judge-list))
+* Manager, School/Club, Federation: Adding people you picked from a search is limited to 60 an hour
 * Manager: Importing a WDSF competition with **Search WDSF API** on the **Classes** page now fills in both partners' names for couples, and importing it again updates the teams instead of adding another class with a second copy of them
 * Manager: Uploading a couple's result with marks to WDSF now includes the rounds of couples who started in a later round
 * Manager: The **Medals** list under **Statistics** names each club as it is written on the event's entries, so two clubs with the same short name, such as SDC, get their own rows instead of being shown as one club. Different spellings of the same club name are counted together (see [Statistics](/manager-guide/statistics/))

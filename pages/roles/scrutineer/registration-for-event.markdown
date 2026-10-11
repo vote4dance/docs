@@ -19,7 +19,7 @@ This step explains how organizers and scrutineers align on event access and oper
 There is no scrutineer self-registration. Somebody with Manager on the event adds you:
 
 1. They open `Manager → Event → Users`
-2. They find your account with **Search user by name or email** — so you need a personal account
+2. They find your account with **Search user by name or email**, by your name or your whole email address — so you need a personal account
    first, and they need the address it uses
 3. They tick the apps you need
 4. Optionally they give you a **role title** such as "Chief scrutineer". It is only a label; access

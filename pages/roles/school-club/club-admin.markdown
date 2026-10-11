@@ -49,11 +49,11 @@ The club's details and its website embeds are not under **Administration**. They
 
 `Organization → Administration → Permissions`
 
-This screen lists the club's approved members, each with name, email and a role selector. Next to the list, the **Guide to permissions** panel describes each role. Some lines in the panel only appear when they apply, for example the licence approval line for managers, which only shows when the club's federation asks clubs to approve licences.
+This screen lists the club's approved members, each with name, a shortened email address (such as j•••@g•••.com, so you can tell members with the same name apart) and a role selector. Next to the list, the **Guide to permissions** panel describes each role. Some lines in the panel only appear when they apply, for example the licence approval line for managers, which only shows when the club's federation asks clubs to approve licences.
 
 | Action | How | Who |
 |---|---|---|
-| Add a person | Type at least three letters of a name or email in **Search members**, pick the person and press **Add**. They join straight away as an approved **Member**. There is no invitation step. | Administrator |
+| Add a person | Type at least three letters of a name, or a whole email address, in **Search members**, pick the person and press **Add**. They join straight away as an approved **Member**. There is no invitation step. | Administrator |
 | Change a role | Pick a new role in the person's selector. It saves immediately. | Administrator |
 | Remove a person | The delete button on the row, then confirm "Are you sure you want to delete *name*?" | Administrator |
 
