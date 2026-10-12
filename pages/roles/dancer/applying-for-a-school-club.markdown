@@ -33,6 +33,11 @@ Make sure you know:
 1. Find the club and press **Join organization**. You can find it from your federation's page on
    vote4dance.com, under **Organizations**. If you are told "Missing profile information", add
    your birth date, gender and nationality in your account settings first.
+
+   Before you join, the window lists what you agree to: the club, and the federations it belongs
+   to, can see your personal details on Vote4Dance, such as your name, email address and birth
+   date, and can register you for events and manage your registrations and licences. Press
+   **Agree and join** to go ahead. You can leave the club at any time with **Leave organization**.
 2. If the club has **Member approval** switched on, a manager or administrator there has to approve you.
    Your application shows on their members list as "Requires your action"; they can approve people
    one at a time or use **Approve all**. With the setting off, you are a member straight away.
