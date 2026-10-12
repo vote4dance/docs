@@ -69,6 +69,24 @@ Online payments in progress are hidden until they are paid. A registration whose
 
 Registrations and participants are two different lists. A registration is what the dancer or club submitted. A participant is a row in the competition's lineup that rounds, start numbers, heats and results are built on. Nothing moves between them until you run the import.
 
+### Which club a dancer represents
+
+Each registration knows which club every dancer competes for. A dancer who belongs to more than one club can represent one club in one class and another club in a different class, so check this per registration, not on the dancer's profile.
+
+To check or change it:
+
+1. On the `Registrations` tab, press the **+** at the start of a row. Each dancer is listed with the club they represent in this registration.
+2. For more detail, press **Edit** (the pen) on the row. Under **Represents** you see every dancer with their club and where that club comes from:
+   - **Chosen at registration**: the dancer (or their club) picked it when registering. The federation asks for this when a dancer belongs to more than one club.
+   - **Owning organization**: the team belongs to a club and always competes for it.
+   - **Division license organization** or **License organization (no division match)**: the club on the dancer's federation license.
+   - **From the dancer's profile**: the club on the dancer's own account, used when none of the above applies.
+3. The two **Organizations** fields below (short names and full names) show that club in grey. Leave them empty to keep it. Type something only when the participant should be shown with a different club name, for example on the speaker's screen; what you type replaces the club for this registration.
+
+![The Represents row in Edit registration, with the club shown in grey in the Organizations fields](/assets/images/registration/edit-registration-represents.png)
+
+The club shown here is the one **Update/import participants** gives the participant.
+
 ### Update/import participants
 
 On the `Registrations` tab, press **Update/import participants**.

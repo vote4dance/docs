@@ -45,13 +45,15 @@ states:
 |---|---|
 | **Verified** | Good. This is what licence items requiring an external ID need. |
 | **Saved, not verified** | Stored but not checked yet — not good enough to apply with. |
-| **Not found** | The federation's system does not recognise the ID. |
-| **Birthdate does not match federation record** | The date of birth on your account differs from theirs. One of the two is wrong; fix it before applying. If both show the same date and you still see this, contact the federation or Vote4Dance support. |
-| **Revoked** | The federation has withdrawn it; it cannot be used. |
+| **Not found** | The federation's system does not recognise the ID. Where your club is chosen first, the number is not in that club's member list: check the number, and that you chose the club you are a member of. |
+| **Birthdate does not match federation record** | The date of birth in the federation's member register differs from the one on your account. If the date on your account is correct, do not change it: ask your club or the federation to check your record in their register. |
+| **Not active** | You are in the federation's member register, but your membership there is not active. Ask your club or the federation to check your membership status. |
+| **Verification failed** | The federation's member register could not be reached. Try again in a few minutes. |
 
 A few federations issue credentials per club rather than per person. There you pick your club
-first — the field says so: "Select your club above before verifying — this federation uses
-per-club credentials."
+first — the field says so: "Select your organization above before verifying — this federation uses
+per-organization credentials." If you apply without choosing a club, the application says: "Select
+your club first. Member numbers are checked against each club's member list."
 
 ## What to remember
 

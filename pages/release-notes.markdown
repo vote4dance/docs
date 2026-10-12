@@ -6,6 +6,36 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-11
+ 🛠️ **Improvements**
+* Manager, Supervisor: Renaming a judge panel to a name another panel in the event already uses now says so right in the panel's pop-up and keeps what you typed, instead of only showing "Could not save the panels" (see [A panel's settings](/manager-guide/judges/#a-panels-settings))
+* Manager, Supervisor, School/Club, Federation: When you search for a person to add as a judge, as staff or as a member, a match on their name shows a shortened e-mail address, such as j•••@g•••.com, so you can tell people with the same name apart. To find someone by e-mail, type their whole address; part of an address no longer finds anyone. Club and federation admins still see the full address of their own members in search results (see [Adding judges](/manager-guide/judges/#an-existing-account))
+* Manager, School/Club, Federation: The lists of judges, event users and club members show the same shortened e-mail address instead of the full one. Invitations still reach the person's full address (see [Judges](/manager-guide/judges/#judge-list))
+* Manager, School/Club, Federation: Adding people you picked from a search is limited to 60 an hour
+* Manager: Importing a WDSF competition with **Search WDSF API** on the **Classes** page now fills in both partners' names for couples, and importing it again updates the teams instead of adding another class with a second copy of them
+* Manager: Uploading a couple's result with marks to WDSF now includes the rounds of couples who started in a later round
+* Manager: The **Medals** list under **Statistics** names each club as it is written on the event's entries, so two clubs with the same short name, such as SDC, get their own rows instead of being shown as one club. Different spellings of the same club name are counted together (see [Statistics](/manager-guide/statistics/))
+## 2026-10-10
+ 🛠️ **Improvements**
+* Manager: The **Medals** list under **Statistics** ranks clubs without a medal by their 4th, 5th and 6th places, instead of by how many entries they have (see [Statistics](/manager-guide/statistics/))
+## 2026-10-09
+ ⭐ **New**
+* App: The **Results** tab has a **With results** filter, and opens on it as soon as a class has results; **All** shows every class (see [Find results](/dancer/following-in-the-app/#find-results))
+* App: The **Favorites** tab shows what Premium gives you, with an example of followed dancers and clubs, and opens the Premium offer only when you tap **Upgrade to Premium** (see [Follow dancers and clubs with Premium](/dancer/following-in-the-app/#follow-dancers-and-clubs-with-premium))
+* Federation: **Licenses → Member check** shows why a member number is accepted or rejected: what the federation's member register returns for the number, club by club, next to the Vote4Dance accounts with that number or name and how their birth dates compare. Check **All clubs** to find which club a member belongs to; a club's page links straight to it. Available to Managers for federations with a member register, such as Dansport Vlaanderen (see [Check a member number](/federation-licenses/federation-admin/#9-check-a-member-number))
+* Federation: New rule **One class per category**, set per category: **per dancer** (solo, duo…), each dancer can be registered in only one age group and one level of the category at an event, such as Rising Talent or Ultimate Talent; **per team** (groups, formations), each team can be in only one class of the category while its dancers may still dance in other teams (see [One class per category](/federation/registration-for-event/#one-class-per-category))
+* Public: When your federation uses it, the other classes of a category are locked once one is in your cart or registered, and say which class you or your team are already in (see [One class per category](/dancer/registration-for-event/#one-class-per-category))
+* Check-in: The desk sees the same reason as a warning and can still add the class
+
+ 🛠️ **Improvements**
+* Public: When a federation member number is not accepted, the message now says why: no club selected, the number is not in that club's member list, the membership is not active, the birth date differs from the federation's member register, or the register could not be reached. **Revoked** is now called **Not active** (see [Dancer federation status](/dancer/federation-status/))
+* School/Club: The same reasons show when you apply for a licence for a member, with what to do for each (see [The member number is not recognised](/school-club/getting-a-license/#the-member-number-is-not-recognised))
+* App: New look that matches vote4dance.com — a dark background, a rounded header with the competition name, and a floating tab bar; the Vote4Dance banner now moves
+* App: The voting heart bounces under your finger, and holding it fills the ring only while you hold; the ring is a full circle (see [Vote for a competitor](/dancer/following-in-the-app/#vote-for-a-competitor))
+* App: On a long class list, the last class is no longer hidden behind the system navigation bar
+* School/Club: **Members** keeps every row short: **Entries this season** shows how many competitions and entries a dancer has, such as "5 competitions · 12 entries", and the next competition they are entered in, instead of one line per competition. Click the dancer for the full list (see [Members](/school-club/club-admin/#members))
+* School/Club: **Licenses** opens on **Active** when nothing needs your club, so you see who holds a licence straight away, and the **Needs your action** card and tab only show when your federation asks clubs to approve licences or something waits for you. **Waiting for the federation** is now called **In progress**: applications that need nothing from your club, waiting on the federation's approval or the dancer's payment (see [Getting a license](/school-club/getting-a-license/))
+* Manager: **Send notifications** now marks a notification as sent even when none of the event's followers can receive a push, so it no longer stays unsent with the button still showing. Pressing it twice no longer sends the push twice, and when sending fails before anyone gets it, you can retry (see [Sending](/manager-guide/notifications/#sending))
 ## 2026-10-08
  ⭐ **New**
 * App: **Tap to Pay on iPhone** — desk staff take contactless cards, Apple Pay and other digital wallets right on their iPhone, with no card reader; turn it on once from the event's **Tap to Pay on iPhone** card (see [Tap to Pay on iPhone](/manager-guide/tap-to-pay/))
@@ -19,9 +49,11 @@ nav_order: 10
 * School/Club: **Competitors**, **Members**, **Registration** and **Licenses** can be searched and exported to a spreadsheet (CSV), and are sorted by name
 
  🛠️ **Improvements**
+* Public: The **My competitions** tab on the home page has a **Create a competition** link that opens the new event form (see [Event setup](/manager-guide/event-setup/#where-to-go))
+* Manager: **Edit registration** shows under **Represents** which club each dancer competes for in that registration and where it comes from, and the expanded registration row shows that club instead of the club on the dancer's profile, so you can check a dancer who dances for different clubs in different classes (see [Which club a dancer represents](/manager-guide/registration-checkin/#which-club-a-dancer-represents))
 * Public: Your account lists your events under **Registration**: **Coming up**, tagged when something needs you, and **Past** by year, with **Find an event** (see [All your events](/dancer/my-registration/#all-your-events))
 * Public: **Pay now** works for classes in an event that runs over several days
-* Public: Verifying a federation ID no longer reports **Birthdate does not match federation record** when the dates are the same, which happened for Dansport Vlaanderen members whose birth date was off by one day (see [Joining a federation](/dancer/joining-a-federation/))
+* Public: Birth dates from Dansport Vlaanderen's member register are now always read as the calendar date the register holds. When verifying a federation ID still reports **Birthdate does not match federation record** for a date one day apart, the date in the register is one day early: keep the correct date on your account and ask your club or the federation to correct the register (see [Dancer federation status](/dancer/federation-status/))
 * Public: A class that is locked because of the registration period's rules, for example a couples class when you have picked a solo competitor, now shows the reason next to the greyed-out **Add** button, and where to go to fix it (see [If you cannot register](/dancer/registration-for-event/#if-you-cannot-register))
 * Public: The **Registration** tab opens on **With partner** when the event's open classes are only for couples, and says why the class list is empty and that **Show more** reveals the locked classes (see [Registering with a partner](/dancer/registration-for-event/#registering-with-a-partner))
 * Public: When you search for a partner's email and nobody has it, the **Create account for partner** section explains that you can create their account for them, so they do not need to sign up first (see [Create the couple](/dancer/registration-for-event/#step-2-create-the-couple))

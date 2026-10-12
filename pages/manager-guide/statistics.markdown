@@ -18,7 +18,7 @@ help:
 | **Overview** | How big is the event: dancers, entries, teams, clubs, classes and days. |
 | **Dressing rooms** | How many people from each club are in the building on each day. |
 | **Schedule** | How heavy each day is: rounds, heats and estimated floor time per day. |
-| **Medals** | Placements 1–6 per club. Shown to organizers before the competition closes, marked provisional. |
+| **Medals** | Placements 1–6 per club, ranked by 1st places, then 2nd, 3rd, 4th, 5th and 6th. Clubs are named as on the event's entries, so two clubs that share a short name get their own rows. Shown to organizers before the competition closes, marked provisional. |
 
 ## Dressing rooms
 

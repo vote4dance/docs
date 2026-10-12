@@ -28,14 +28,17 @@ You will:
 **Manager** or **Administrator** role. The page needs your club to be connected to a federation
 first — without that it just says "Connect this organization to a federation first."
 
-Summary cards at the top count what **Needs your action**, what is **Active**, what is **Waiting for
-the federation**, and the **Members without a licence**. Below them, the licences are split into tabs:
+Summary cards at the top count what **Needs your action**, what is **Active**, what is **In
+progress**, and the **Members without a licence**. Below them, the licences are split into tabs. The
+list opens on **Needs your action** when something waits for your club, and on **Active** otherwise.
+When your federation does not ask clubs to approve licences and nothing waits for you, the **Needs
+your action** card and tab are left out.
 
 | Tab | What is in it |
 |---|---|
 | **Needs your action** | Applications waiting for your club to approve or pay, from every season. "Nothing requires your action right now" when you are clear. |
 | **Active** | Licences that are valid for the season you picked |
-| **Waiting for the federation** | Applications your club has handled, or does not have to approve, that the federation still has to approve or the dancer still has to pay |
+| **In progress** | Applications that need nothing from your club: the federation still has to approve them or the dancer still has to pay. Dancers who apply for their own licence land here when your federation does not ask clubs to approve. |
 | **Expired or cancelled** | Licences that have expired, were suspended or were cancelled |
 | **All** | Every licence for the season |
 
@@ -89,7 +92,7 @@ To handle several at once, tick them and press **Approve** or **Decline** above 
 one message when they are done, and one saying how many could not be changed and why.
 
 **Approve** only appears when your federation asks clubs to approve licences. Without that, there
-is nothing for the club to approve, and the application waits under **Waiting for the federation**.
+is nothing for the club to approve, and the application waits under **In progress**.
 
 Your approval is one of four checks the federation sees before it can issue the licence, so an
 application nobody approves at the club simply sits there. The federation's own view says it
@@ -142,6 +145,17 @@ Pending, and that you applied for the right member.
 The form blocks on a missing member date of birth, a missing season year, and a missing
 competition or federation ID where the item requires one. Check the field messages before
 retrying.
+
+### "The member number is not recognised"
+
+For a federation that checks member numbers against its member register, press **Verify** next to the number. The message under the result says why it was not accepted:
+
+- **Not found**: the number isn't in your club's member list in the register. Check the number, and that the member belongs to your club and not to another one.
+- **Not active**: the member is in the register, but the membership is not active there. Ask the federation to check the membership status.
+- **Birthdate does not match federation record**: the date of birth in the register differs from the one on the member's account. If the member's date is correct, do not change it; ask the federation to correct the register.
+- **Verification failed**: the register could not be reached. Try again in a few minutes.
+
+The federation can look up the same number on its side and see exactly what the register holds.
 
 ### "It was declined and I do not know why"
 
