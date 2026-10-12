@@ -77,6 +77,8 @@ On the **Registrations** tab:
 
 The list opens on **Preliminary** and **Approved** registrations together. A notice above it says how many are still preliminary; click **Show only these** to list just those, and set each one's status to **Approved** to accept it. Change the status filter to see cancelled or rejected registrations.
 
+![The Registrations tab with the notice counting preliminary registrations, the Show only these button and the Organization column](/assets/images/registration/registrations-preliminary-notice.png)
+
 ## Step 5: Import participants
 
 When the period closes, press **Update/import participants**. It turns every Approved

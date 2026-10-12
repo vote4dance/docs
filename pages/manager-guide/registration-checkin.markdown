@@ -56,11 +56,13 @@ You can reorder periods to control display order.
 | **Cancelled** | Withdrawn by the dancer or club, or set by the organizer. The row is kept. | The dancer/club cancels from their account, or manually. |
 | **Deleted** | Removed. Unpaid rows disappear; paid rows are kept and marked deleted. | Manually. |
 
-Two things that regularly cause confusion:
+Things that regularly cause confusion:
 
 - **The list opens on Preliminary and Approved together.** Change the status filter to see cancelled, rejected or all registrations. The filter is a viewing aid only.
 - **Preliminary registrations are counted above the list**, for example "2 registrations are still preliminary". Set a registration's status to **Approved** to accept it; with invoice payment, approve it once it is paid. Click **Show only these** to list just the preliminary ones.
 - **Names in orange** are not an error. The row shows a **team name or custom name** instead of the dancers' names. Hover the name to see the dancers behind it. Every other row shows the dancers' names in the normal colour.
+
+![The Registrations tab with the notice counting preliminary registrations, the Show only these button and the Organization column](/assets/images/registration/registrations-preliminary-notice.png)
 
 To change a status, use the dropdown on the row. If you have ticked rows with the checkboxes, the change applies to all ticked rows. "Send email on status change" at the bottom controls whether the dancers are emailed about the change (see [Emails](/manager-guide/emails/)).
 
