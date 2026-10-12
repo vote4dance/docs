@@ -15,6 +15,8 @@ nav_order: 10
 * Check-in: **Take a card** on the till hands the sale to a staff member's phone by QR code (see [Taking a card from the web till](/manager-guide/tap-to-pay/#taking-a-card-from-the-web-till))
 
  🛠️ **Improvements**
+* Manager: **Schedule conflicts** hides tight transitions between a floor and its sections, such as a final on the whole floor followed by a first round on section A, so the changes of hall stand out; overlaps are always listed. Untick **Hide tight transitions within the same hall** to see them all (see [Conflicts](/manager-guide/schedule/#what-counts-as-a-conflict))
+* Manager: **Also flag tight transitions under** now lists gaps up to the minutes you choose, up to 60, instead of stopping at five minutes (see [Conflicts](/manager-guide/schedule/#what-counts-as-a-conflict))
 * Manager, Supervisor: On the **Panels** tab of **Judges**, drag a panel's column left or right in **Panel order** to change the order of the panels, for example to move a panel you added later next to the ones it belongs with (see [Panel order and running order](/manager-guide/judges/#panel-order-and-running-order))
 * Manager, Supervisor: A new panel shows how many judges it has out of how many it wants, such as "0/3", as soon as it is created, instead of only once a round uses it (see [Panels](/manager-guide/judges/#panels))
 ## 2026-10-11
