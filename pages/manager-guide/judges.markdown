@@ -215,6 +215,8 @@ The **Panels** tab shows every judge as a row and every panel as a column. Each 
 
 You can seat judges on a panel before it judges any class. A panel that isn't used yet has a grey column and says "Not used by any round". Set up all your panels first if you like, then give each class its panel on the [Classes](#classes) tab.
 
+At the top of each column, under the panel's name, is how many judges the panel has out of how many it wants, for example "2/3". It is red until the panel has all its judges and green once it does. A new panel shows it straight away, such as "0/3", so you can see what to fill before any round uses the panel.
+
 ![The Panels tab: judges down the side, panels across the top](/assets/images/judges/panels-grid.png)
 
 ### Seating a judge
@@ -241,6 +243,14 @@ Under each judge's name is how much they judge, for example "6 rounds · 45 min"
 ### Panel order and running order
 
 **Panel order** shows the panels in the order you gave them. **Running order** sorts them by when their first round starts, grouped by day, so you see the day as it will run. A panel used on several days sits under its first day.
+
+To change the panel order, for example to move a panel you added later next to the ones it belongs with:
+
+1. Choose **Panel order**.
+2. Drag the panel's name at the top of its column to the left or right. On a tablet, hold your finger on the name for a moment before you drag.
+3. Let go where you want the panel. The column moves there with its judges, and the new order is saved at once.
+
+A short click on the name still opens the panel's pop-up. In **Running order** the panels follow the time of their first round, so they can't be dragged.
 
 ### A panel's settings
 
