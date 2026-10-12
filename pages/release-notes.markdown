@@ -12,6 +12,7 @@ nav_order: 10
 * App: **Sell** from the phone — add products, then pay with **Tap to Pay on iPhone** or **Cash**; the result shows **Paid**, **Declined** or **Timed out**, with **Try another card** after a decline (see [Selling from the phone](/manager-guide/tap-to-pay/#selling-from-the-phone))
 * App: A card payment that is declined e-mails the customer a receipt saying nothing was charged, and notifies the staff member who started the sale (see [Receipts](/manager-guide/tap-to-pay/#receipts))
 * App: On Android the same feature is called **Card payments on this phone**; it needs Android 13 or later with developer options turned off, and an older phone offers cash sales only (see [On an Android phone](/manager-guide/tap-to-pay/#on-an-android-phone))
+* Check-in: **Take a card** on the till hands the sale to a staff member's phone by QR code (see [Taking a card from the web till](/manager-guide/tap-to-pay/#taking-a-card-from-the-web-till))
 ## 2026-10-11
  🛠️ **Improvements**
 * Manager, Supervisor: Renaming a judge panel to a name another panel in the event already uses now says so right in the panel's pop-up and keeps what you typed, instead of only showing "Could not save the panels" (see [A panel's settings](/manager-guide/judges/#a-panels-settings))
