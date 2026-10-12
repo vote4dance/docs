@@ -13,6 +13,10 @@ nav_order: 10
 * App: A card payment that is declined e-mails the customer a receipt saying nothing was charged, and notifies the staff member who started the sale (see [Receipts](/manager-guide/tap-to-pay/#receipts))
 * App: On Android the same feature is called **Card payments on this phone**; it needs Android 13 or later with developer options turned off, and an older phone offers cash sales only (see [On an Android phone](/manager-guide/tap-to-pay/#on-an-android-phone))
 * Check-in: **Take a card** on the till hands the sale to a staff member's phone by QR code (see [Taking a card from the web till](/manager-guide/tap-to-pay/#taking-a-card-from-the-web-till))
+
+ 🛠️ **Improvements**
+* Manager, Supervisor: On the **Panels** tab of **Judges**, drag a panel's column left or right in **Panel order** to change the order of the panels, for example to move a panel you added later next to the ones it belongs with (see [Panel order and running order](/manager-guide/judges/#panel-order-and-running-order))
+* Manager, Supervisor: A new panel shows how many judges it has out of how many it wants, such as "0/3", as soon as it is created, instead of only once a round uses it (see [Panels](/manager-guide/judges/#panels))
 ## 2026-10-11
  🛠️ **Improvements**
 * Manager, Supervisor: Renaming a judge panel to a name another panel in the event already uses now says so right in the panel's pop-up and keeps what you typed, instead of only showing "Could not save the panels" (see [A panel's settings](/manager-guide/judges/#a-panels-settings))
