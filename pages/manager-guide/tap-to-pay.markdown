@@ -21,6 +21,7 @@ On Android, the same feature is called **Card payments on this phone**.
 - **Stripe connected** for the event. Set this up on the event's Shop page, see [Before you sell](/manager-guide/shop/#before-you-sell).
 - **Something to sell at the desk**: an active product in the [Shop](/manager-guide/shop/#products) with a price.
 - **A staff member with desk rights** on the event — **Check-in**, **Sales** or **Manager** — signed in to the Vote4Dance app. Give them these rights under [Users, apps and stations](/manager-guide/users-and-stations/).
+- **The Vote4Dance app, version 1.13.0 or later.** If the event's **Overview** has no **Tap to Pay on iPhone** card, update the app from the App Store or Google Play.
 - **An iPhone XS or later** with a current version of iOS, or an Android phone with Android 13 or later and contactless (NFC). On Android, **developer options** must be turned off; see [On an Android phone](#on-an-android-phone).
 - **Mobile data** on the phone. Without a connection, take cash.
 
