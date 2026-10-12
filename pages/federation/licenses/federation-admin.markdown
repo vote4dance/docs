@@ -443,10 +443,10 @@ The tab is only there when your federation has a member register connected, and 
 
 1. Open `Federation → Licenses` and choose the **Member check** tab
 2. Type the **Member number** the dancer used
-3. Choose the dancer's club, or leave **All clubs**. The register is checked club by club, so **All clubs** is the way to find out which club the member actually belongs to
+3. Choose the dancer's club. Each club's register login only sees that club's members, so check with the club the dancer applied with
 4. Press **Check**
 
-For each club that knows the number you see the register's answer: the **Name in register**, the **Member number**, the **Birth date in register** and the **Membership status**. A short text under it says what it means. If no club knows the number, the page says: "This number isn't in any club's member list. Check the number with the member."
+You see the register's answer for that club: the **Name in register**, the **Member number**, the **Birth date in register** and the **Membership status**. A short text under it says what it means.
 
 Below that, **Vote4Dance accounts** lists the accounts that have a licence with this number or the same name as in the register, with each account's **Birth date in Vote4Dance** and how it **Compared with register**. Click a name to open the dancer.
 
@@ -456,8 +456,8 @@ Below that, **Vote4Dance accounts** lists the accounts that have a licence with 
 |---|---|---|
 | **Active member** | The number is valid for this club. | If the application was still rejected, look at the birth dates under **Vote4Dance accounts**. |
 | **Not active** | The member is in the club's list, but the membership's status type is not ACTIVE, for example PROSPECT, even when its name says "Actief lid". | Change the membership status in the member register. |
-| **Not found** | The number is not in this club's member list. | Check **All clubs**: the member may belong to another club, and must apply with that club selected. |
-| **Check failed** | The register could not be reached with this club's login. | If every club fails, the register is unavailable: try again later. If only some clubs fail, check their register login on the club's page (`Teams & integration`). |
+| **Not found** | The number is not in this club's member list. | Check the number with the member. If they belong to another club, check again with that club; they must apply with that club selected. |
+| **Check failed** | The register could not be reached with this club's login. | Try another club: if that works, check this club's register login on the club's page (`Teams & integration`). If no club works, the register is unavailable: try again later. |
 
 Birth dates are compared like this:
 

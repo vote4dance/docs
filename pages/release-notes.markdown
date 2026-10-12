@@ -22,6 +22,7 @@ nav_order: 10
 * Manager: **Also flag tight transitions under** now lists gaps up to the minutes you choose, up to 60, instead of stopping at five minutes (see [Conflicts](/manager-guide/schedule/#what-counts-as-a-conflict))
 * Manager, Supervisor: On the **Panels** tab of **Judges**, drag a panel's column left or right in **Panel order** to change the order of the panels, for example to move a panel you added later next to the ones it belongs with (see [Panel order and running order](/manager-guide/judges/#panel-order-and-running-order))
 * Manager, Supervisor: A new panel shows how many judges it has out of how many it wants, such as "0/3", as soon as it is created, instead of only once a round uses it (see [Panels](/manager-guide/judges/#panels))
+* Federation: **Member check** now asks you to choose the dancer's club before **Check**. **All clubs** is gone: checking every club took too long and ended in "Failed to load data" (see [Check a member number](/federation-licenses/federation-admin/#9-check-a-member-number))
 ## 2026-10-11
  🛠️ **Improvements**
 * Manager, Supervisor: Renaming a judge panel to a name another panel in the event already uses now says so right in the panel's pop-up and keeps what you typed, instead of only showing "Could not save the panels" (see [A panel's settings](/manager-guide/judges/#a-panels-settings))
