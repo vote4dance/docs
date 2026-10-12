@@ -104,7 +104,7 @@ One ticket admits one person, once per day it is valid for. Tickets are bearer o
 
 ## Selling at the desk
 
-The desk sells the same catalog for cash — `Check-in → Sell` — and can hand the ticket over immediately, e-mail a receipt, or put it straight onto a scanned person's account. The receipt e-mail has a language picker that starts on the language of the event's country, so a visitor from abroad can get theirs in English or another app language. A customer who wants to pay by card scans the QR on the page and buys on their own phone. See [Shop](/manager-guide/shop/).
+The desk sells the same catalog — `Check-in → Sell` — and can hand the ticket over immediately, e-mail a receipt, or put it straight onto a scanned person's account. The receipt e-mail has a language picker that starts on the language of the event's country, so a visitor from abroad can get theirs in English or another app language. Customers pay in cash, or by card on a staff member's iPhone with Tap to Pay on iPhone (see [Tap to Pay on iPhone](/manager-guide/tap-to-pay/)); a customer can also scan the QR on the page and buy on their own phone. See [Shop](/manager-guide/shop/).
 
 ![The desk sell page](/assets/images/shop/desk-sell.png)
 
