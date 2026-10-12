@@ -75,7 +75,7 @@ On the **Registrations** tab:
 | **Rejected** | Declined by you. |
 | **Cancelled** | Withdrawn by the dancer, their club, or you. |
 
-The list opens filtered on **Preliminary**. Change the filter to see the rest.
+The list opens on **Preliminary** and **Approved** registrations together. A notice above it says how many are still preliminary; click **Show only these** to list just those, and set each one's status to **Approved** to accept it. Change the status filter to see cancelled or rejected registrations.
 
 ## Step 5: Import participants
 
