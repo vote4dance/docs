@@ -8,6 +8,8 @@ nav_order: 10
 # Release notes
 ## 2026-10-13
  🛠️ **Improvements**
+* Manager, School/Club: A dancer who starts paying online but does not finish no longer shows up as **Cancelled** in the event's registrations or in the club's list; the entry stays hidden until it is paid, and an abandoned payment is removed within the hour (see [Registration statuses](/manager-guide/registration-checkin/#registration-statuses))
+* School/Club: In the club's registrations, **By dancer** no longer shows **Yes** under **Payment** for a dancer whose entries are all cancelled (see [Follow up and pay](/school-club/registration-for-event/#step-4-follow-up-and-pay))
 * Manager, Supervisor: A judge on a whole floor and on one of its sections is no longer warned about being on two panels at the same time when the schedule runs a few minutes over; those rounds run one after the other. Two sections of the same floor are still checked (see [Problems with the panels](/manager-guide/judges/#problems-with-the-panels))
 * Manager, Supervisor: On the **Panels** tab of **Judges**, judges are listed by letter, then by name, as on the **Judges** tab, so a temporary letter per hall groups them while you build the panels (see [Panels](/manager-guide/judges/#panels))
 * Manager, Supervisor: Panel names can contain spaces again, and dragging panels to change their order no longer stops working after you rename a panel with Enter (see [A panel's settings](/manager-guide/judges/#a-panels-settings))
