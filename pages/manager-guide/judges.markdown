@@ -331,6 +331,7 @@ Red problems need fixing; orange ones are warnings. **Show** takes you to the pr
 | A group class round "should have no panel" | Remove the panel; the judges belong on the classes in the group. |
 | A panel "has an even number of judges" for a round decided by majority | Make one judge a **Trainee judge**, or add or remove a judge. |
 | A judge "judges two floors at the same time" | Move the judge to another panel, or run the rounds one after the other. |
+| A judge is "also on another panel at the same time", but the rounds are on a whole floor and one of its sections | This is never reported: a whole floor and its own sections run one after the other. If their estimated times still overlap, the schedule is too full there; see [Schedule conflicts](/manager-guide/schedule/). Two sections of the same floor can run side by side, so an overlap between them is still reported. |
 | A panel "still needs" seats (warning) | **Fill open seats**, seat someone yourself, or lower **Seats wanted**. |
 | A judge on a panel who is away, on two panels at once, or judging their own entry, a named dancer or a class to avoid | Move the judge, or change their needs. |
 | A judge on too many rounds, too long without a break, or outside what they judge (warning) | Move some of their seats, or change their needs. |
