@@ -211,7 +211,7 @@ Which chief judge type to use depends on the rules:
 
 A panel is a named group of judges. Classes and rounds are judged by a panel, not by individual judges. A round cannot be started until its class or the round has a panel. **Start judging** is refused with "Assign a judging panel to this class or round before starting judging."
 
-The **Panels** tab shows every judge as a row and every panel as a column. Each cell is that judge's seat on that panel.
+The **Panels** tab shows every judge as a row and every panel as a column. Each cell is that judge's seat on that panel. The judges are listed by letter, then by name, as on the **Judges** tab. To group judges while you build the panels, for example by hall, you can give them a temporary letter per hall on the **Judges** tab and set their real letters afterwards.
 
 You can seat judges on a panel before it judges any class. A panel that isn't used yet has a grey column and says "Not used by any round". Set up all your panels first if you like, then give each class its panel on the [Classes](#classes) tab.
 
