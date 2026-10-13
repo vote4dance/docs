@@ -6,6 +6,10 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-13
+ 🛠️ **Improvements**
+* Manager, Supervisor: On the **Panels** tab of **Judges**, judges are listed by letter, then by name, as on the **Judges** tab, so a temporary letter per hall groups them while you build the panels (see [Panels](/manager-guide/judges/#panels))
+* Manager, Supervisor: Panel names can contain spaces again, and dragging panels to change their order no longer stops working after you rename a panel with Enter (see [A panel's settings](/manager-guide/judges/#a-panels-settings))
 ## 2026-10-12
  ⭐ **New**
 * App: **Tap to Pay on iPhone** — desk staff take contactless cards, Apple Pay and other digital wallets right on their iPhone, with no card reader, in version 1.13.0 of the app; turn it on once from the event's **Tap to Pay on iPhone** card (see [Tap to Pay on iPhone](/manager-guide/tap-to-pay/))
