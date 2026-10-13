@@ -8,6 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-10-13
  🛠️ **Improvements**
+* Manager, Supervisor: A judge on a whole floor and on one of its sections is no longer warned about being on two panels at the same time when the schedule runs a few minutes over; those rounds run one after the other. Two sections of the same floor are still checked (see [Problems with the panels](/manager-guide/judges/#problems-with-the-panels))
 * Manager, Supervisor: On the **Panels** tab of **Judges**, judges are listed by letter, then by name, as on the **Judges** tab, so a temporary letter per hall groups them while you build the panels (see [Panels](/manager-guide/judges/#panels))
 * Manager, Supervisor: Panel names can contain spaces again, and dragging panels to change their order no longer stops working after you rename a panel with Enter (see [A panel's settings](/manager-guide/judges/#a-panels-settings))
 ## 2026-10-12
