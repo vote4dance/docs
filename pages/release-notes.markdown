@@ -8,7 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-10-15
  ⭐ **New**
-* Scrutineer (Beta): **Add earlier judges** on the **Judges** page lists the judges of your earlier events and of your federation, so you tick them instead of searching for each one; one click picks the whole panel of a recent event (see [Judges from earlier events](/manager-guide/judges/#judges-from-earlier-events))
+* Scrutineer (Beta): **Add earlier judges** on the **Judges** page lists the judges of your earlier events and, once you have run an event in the federation before, of its other events, so you tick them instead of searching for each one; one click picks the whole panel of a recent event (see [Judges from earlier events](/manager-guide/judges/#judges-from-earlier-events))
 
  🛠️ **Improvements**
 * Manager, Supervisor: Searching for a judge to add waits until you stop typing, so a few quick searches no longer stop with "You have searched for people many times in a short while." (see [An existing account](/manager-guide/judges/#an-existing-account))

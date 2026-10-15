@@ -84,9 +84,9 @@ The **Add judges from earlier events** dialog lists people who have judged befor
 | Group | Who is in it |
 |---|---|
 | **Judged at your events** | Judges of earlier events where you have the **Manager** or **Supervisor** app. Those who judged at the most of your events come first, with how many and the last one, such as "4 of your events · last Spring Open 2026, Apr 2026". |
-| **Judged in** your federation | Judges of the federation's other events, such as **Judged in Norges Danseforbund**. Only for events that belong to a federation. |
+| **Judged in** your federation | Judges of the federation's other events, such as **Judged in Norges Danseforbund**. Only for events that belong to a federation, and only once you have run an event in that federation before, as **Manager** or **Supervisor**, or if you work for the federation. |
 
-Only names are shown, never email addresses. People who already judge in this competition are ticked and marked **Already added**.
+The first time you organize an event in a federation, you see only **Judged at your events**, or nothing yet; find your judges with the search below the judge list instead. Only names are shown, never email addresses. People who already judge in this competition are ticked and marked **Already added**.
 
 ![The Add judges from earlier events dialog](/assets/images/judges/add-earlier-judges-dialog.png)
 
@@ -96,11 +96,11 @@ To add judges:
 2. To find someone, type part of their name in **Filter by name**. The lists are filtered while you type; this is not a search, so you can use it as much as you like.
 3. To use a whole panel again, press one of your recent events under **Add a panel from an earlier event**, such as "Winter Trophy 2026 · Feb 2026 · 7". Everyone who judged that event and is not added yet is ticked. The six most recent of your events are offered.
 4. Check the names next to **Selected:**. Press the × on a name to leave that person out.
-5. Press **Add 5 judges** (the button counts the people you ticked). The button shows "Adding 2 of 5…" while it works, and the dialog closes when everyone is added.
+5. Press **Add 5 judges** (the button counts the people you ticked). The button shows "Adding 2 of 5…" while it works. The dialog can't be closed until it is done, and closes by itself when everyone is added.
 
 ![A panel from an earlier event selected](/assets/images/judges/add-earlier-judges-panel.png)
 
-The judges get the next free letters, as when you add them one at a time, and no email is sent; see [Invitations](#invitations). If someone could not be added, the dialog stays open, says who, and keeps them ticked so you can try again.
+The judges get the next free letters, as when you add them one at a time, and no email is sent; see [Invitations](#invitations). If someone could not be added, the dialog stays open, names them with the reason, and keeps them ticked so you can try again.
 
 Someone who is not in the lists, such as a judge new to your events, is found with the search below the judge list, or invited with **Invite new judge**.
 
