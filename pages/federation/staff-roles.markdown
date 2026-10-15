@@ -141,6 +141,8 @@ An Administrator cannot promote a peer to their own level. Only an Owner or a sy
 
 ## Invitation flow
 
+You need the Administrator or Owner role to add staff.
+
 1. Open `Federation → Settings → Roles & access`
 2. Search for the user by name or email
 3. Press `Add`
