@@ -8,6 +8,7 @@ help:
   manager.comp.judges: ""
   manager.comp.judges.panels: panels
   manager.comp.judges.judges: judge-list
+  manager.comp.judges.earlier: judges-from-earlier-events
   manager.comp.judges.classes: classes
   manager.comp.judges.needs: judge-needs
   manager.comp.judges.absent: a-judge-who-cant-come
@@ -45,11 +46,11 @@ You need the **Manager** or **Supervisor** app on the event. The page is read-on
 
 ## Adding judges
 
-There are two ways to add a judge. Both are at the bottom of the judge list.
+There are two ways to add a judge. Both are at the bottom of the judge list. In [Scrutineer (Beta)](#judges-from-earlier-events) there is a third: pick the judges of your earlier events from a list.
 
 ### An existing account
 
-Type at least three letters of the judge's name in the **Search users** box, or their whole email address. Matching accounts appear with a shortened email address, such as j•••@g•••.com, and a count, such as `3x`, that shows how many competitions they have judged before. Searching by email needs the whole address. Pick one and press **Add**. The judge is added at once; no email is sent. See [Invitations](#invitations).
+Type at least three letters of the judge's name in the **Search users** box, or their whole email address. The search starts when you stop typing. Matching accounts appear with a shortened email address, such as j•••@g•••.com, and a count, such as `3x`, that shows how many competitions they have judged before. Searching by email needs the whole address. Pick one and press **Add**. The judge is added at once; no email is sent. See [Invitations](#invitations).
 
 Disabled accounts are not listed.
 
@@ -71,6 +72,37 @@ While you type, the dialog searches for existing accounts by email and by name u
 - If there are matches but none of them is the person, tick "I have reviewed the list above — none of these is the person I want to invite." to go on.
 
 **Create new judge account** creates the account and adds the person as a judge. The dialog then opens the invitation for them. The invitation is not sent until you press **Send invitation** in that dialog.
+
+### Judges from earlier events
+
+In Scrutineer (Beta), the new version of the Manager app, you can add the judges you usually work with without searching for them one by one. Press **Add earlier judges** at the bottom of the judge list.
+
+![Add earlier judges at the bottom of the judge list](/assets/images/judges/add-earlier-judges-button.png)
+
+The **Add judges from earlier events** dialog lists people who have judged before:
+
+| Group | Who is in it |
+|---|---|
+| **Judged at your events** | Judges of earlier events where you have the **Manager** or **Supervisor** app. Those who judged at the most of your events come first, with how many and the last one, such as "4 of your events · last Spring Open 2026, Apr 2026". |
+| **Judged in** your federation | Judges of the federation's other events, such as **Judged in Norges Danseforbund**. Only for events that belong to a federation. |
+
+Only names are shown, never email addresses. People who already judge in this competition are ticked and marked **Already added**.
+
+![The Add judges from earlier events dialog](/assets/images/judges/add-earlier-judges-dialog.png)
+
+To add judges:
+
+1. Tick the people you want. A long group shows its first eight; press **Show all** to see everyone.
+2. To find someone, type part of their name in **Filter by name**. The lists are filtered while you type; this is not a search, so you can use it as much as you like.
+3. To use a whole panel again, press one of your recent events under **Add a panel from an earlier event**, such as "Winter Trophy 2026 · Feb 2026 · 7". Everyone who judged that event and is not added yet is ticked. The six most recent of your events are offered.
+4. Check the names next to **Selected:**. Press the × on a name to leave that person out.
+5. Press **Add 5 judges** (the button counts the people you ticked). The button shows "Adding 2 of 5…" while it works, and the dialog closes when everyone is added.
+
+![A panel from an earlier event selected](/assets/images/judges/add-earlier-judges-panel.png)
+
+The judges get the next free letters, as when you add them one at a time, and no email is sent; see [Invitations](#invitations). If someone could not be added, the dialog stays open, says who, and keeps them ticked so you can try again.
+
+Someone who is not in the lists, such as a judge new to your events, is found with the search below the judge list, or invited with **Invite new judge**.
 
 ## Judge list
 
