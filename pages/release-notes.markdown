@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-15
+ 🛠️ **Improvements**
+* Manager, Supervisor: On the **Panels** tab of **Judges**, a panel with more judges than it wants, such as "2/1", now shows its count in red, just like a panel that is short; hover over the count to see how many judges too many (see [Panels](/manager-guide/judges/#panels))
 ## 2026-10-13
  🛠️ **Improvements**
 * Manager, School/Club: A dancer who starts paying online but does not finish no longer shows up as **Cancelled** in the event's registrations or in the club's list; the entry stays hidden until it is paid, and an abandoned payment is removed within the hour (see [Registration statuses](/manager-guide/registration-checkin/#registration-statuses))

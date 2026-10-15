@@ -215,7 +215,7 @@ The **Panels** tab shows every judge as a row and every panel as a column. Each 
 
 You can seat judges on a panel before it judges any class. A panel that isn't used yet has a grey column and says "Not used by any round". Set up all your panels first if you like, then give each class its panel on the [Classes](#classes) tab.
 
-At the top of each column, under the panel's name, is how many judges the panel has out of how many it wants, for example "2/3". It is red until the panel has all its judges and green once it does. A new panel shows it straight away, such as "0/3", so you can see what to fill before any round uses the panel.
+At the top of each column, under the panel's name, is how many judges the panel has out of how many it wants, for example "2/3". It is green when the panel has exactly the judges it wants, and red when it has too few or too many. Hover over a red count to see what is wrong, for example "1 judge more than wanted". A new panel shows it straight away, such as "0/3", so you can see what to fill before any round uses the panel.
 
 ![The Panels tab: judges down the side, panels across the top](/assets/images/judges/panels-grid.png)
 
