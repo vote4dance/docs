@@ -33,13 +33,16 @@ page. See [Federation staff roles](/federation/staff-roles/).
 
 ## The season
 
-"This season" is always the current calendar year. You cannot choose another season, and the page
-does not print which year it is using.
+"This season" follows your federation's **Season start (MM-DD)** rule (see
+[Before the season: set the rules](/federation/age-transfer/#before-the-season-set-the-rules)). With
+a season starting 1 September, the season that started on 1 September 2026 runs until 31 August 2027,
+and it is written **2026/2027**. Without a season start, the season is the calendar year. You cannot
+choose another season.
 
 | Kind of number | How the season is applied |
 |---|---|
-| Licences | The licence's own season year must be the current year. |
-| Competitions, entries and competitors | The competition's date must be in the current year. For a multi-day event, each day's own date is used for the entries danced that day. |
+| Licences | A licence for the current season counts. A licence with no season, such as one checked against your federation's own member register, counts in every season it is valid for. Its price and the month it was issued count only once, in the season it was paid or issued. |
+| Competitions, entries and competitors | The competition's date must be in the current season. For a multi-day event, each day's own date is used for the entries danced that day. |
 | Members, organizations, classes and class memberships | No season. These are counts of how things stand today. |
 
 Wherever competitions are counted, **practice events are left out**, and so are cancelled entries.
@@ -57,8 +60,8 @@ Eight headline numbers.
 | **Organizations** | Organizations approved into your federation. Organizations still waiting for approval are not counted. |
 | **Members** | People who are approved members of at least one of those approved organizations. Each person counts once. |
 | **Active classes** | Federation classes whose state is active. |
-| **Competitions this season** | Events linked to your federation and dated this year. A multi-day event counts once. |
-| **License revenue** | The sum of the price paid on this season's licences whose payment status is **Paid**. If you have taken payments in more than one currency, only the currency with the largest total is shown and the others are not added in. |
+| **Competitions this season** | Events linked to your federation and dated this season. A multi-day event counts once. |
+| **License revenue** | The sum of the price paid on this season's licences whose payment status is **Paid**. A licence with no season counts in the season it was paid. If you have taken payments in more than one currency, only the currency with the largest total is shown and the others are not added in. |
 
 ## Licenses
 
@@ -69,7 +72,7 @@ All the charts on this tab, except **Members by role**, count this season's lice
 | **Licenses by status** | Licences per status: **Draft**, **Pending**, **Active**, **Expired**, **Suspended**, **Cancelled**. |
 | **Licenses by category** | Licences per category: **Dancer**, **Judge**, **Coach**, **Scrutineer**, **Supervisor**, **Music**, **Organizer**, **Other**. |
 | **Licenses by payment** | Licences per payment status: **Unpaid**, **Paid**, **Invoiced**, **Waived**, **Refunded**. |
-| **Licenses issued per month** | This season's licences by the month the licence record was created. |
+| **Licenses issued per month** | This season's licences by the month the licence record was created. A licence with no season shows only in the season it was created. |
 | **Members by role** | Members of your approved organizations per role in their organization: **Member**, **Coach**, **Manager**, **Administrator**. A person with different roles in two organizations counts once in each role. |
 
 For what the statuses mean, see [Federation licenses](/federation-licenses/).
@@ -97,32 +100,33 @@ can take a moment on a large federation.
 
 | Number | How it is counted |
 |---|---|
-| **Competed this season** | People with at least one entry at one of your competitions this year. The line underneath gives the same number for last year. |
-| **New competitors** | People who competed this year and never in any earlier year. All years are checked, so someone returning after a long break is not new. |
-| **Lapsed** | People who competed last year but not this year. |
-| **Came back** | Of the people who competed last year, the share who have competed this year. Shows **—** when nobody competed last year. |
-| **How often they compete** | People who competed this year, split by how many events they entered: **One competition only**, **2 to 4 competitions**, **5 or more**. A multi-day event counts as one. |
-| **Organizations losing competitors** | Up to 10 organizations with fewer competitors this year than last year, biggest drop first. The number is the change, for example -4. The organization is the club name written on the entries, so a club entered under two spellings counts as two. |
+| **Competed this season** | People with at least one entry at one of your competitions this season. The line underneath gives the same number for last season. |
+| **New competitors** | People who competed this season and never in any earlier season. All seasons are checked, so someone returning after a long break is not new. |
+| **Lapsed** | People who competed last season but not this season. |
+| **Came back** | Of the people who competed last season, the share who have competed this season. Shows **—** when nobody competed last season. |
+| **How often they compete** | People who competed this season, split by how many events they entered: **One competition only**, **2 to 4 competitions**, **5 or more**. A multi-day event counts as one. |
+| **Organizations losing competitors** | Up to 10 organizations with fewer competitors this season than last season, biggest drop first. The number is the change, for example -4. The organization is the club name written on the entries, so a club entered under two spellings counts as two. |
 
-Because the current year is still running, **Lapsed** and **Came back** move during the season as
-people enter their first competition of the year.
+Because the current season is still running, **Lapsed** and **Came back** move during the season as
+people enter their first competition of the season. Early in a season, before its first competition,
+everyone from last season shows as **Lapsed**.
 
 ### The calendar
 
 | Number | How it is counted |
 |---|---|
 | **Competitions run** | The same as **Competitions this season** on [Overview](#overview). The line underneath says how many have finished. An event has finished when its last day has passed or the organizer has closed or archived it. |
-| **Entries** | Entries on your competitions this year, on every day of multi-day events. |
+| **Entries** | Entries on your competitions this season, on every day of multi-day events. Registrations for competitions that have not opened their start lists yet are not counted. |
 | **Results settled** | Of the finished events, the share whose results can be seen. Results can be seen when the organizer publishes them, or when they are held until the end and the event has been closed or archived. Shows **—** when nothing has finished yet. |
 | **Outstanding** | Finished events whose results still cannot be seen. The card has a red border when this is above zero. |
 
 | Chart or list | What it shows |
 |---|---|
-| **Entries per season** | Entries per year, for this year and the five years before it. |
-| **Competitions per month** | This year's events by the month they start. |
+| **Entries per season** | Entries per season, for this season and the five before it. A season that spans two years is labelled with both, for example **2025/2026**. |
+| **Competitions per month** | This season's events by the month they start. |
 | **Finished, results not visible** | Up to 10 of the outstanding events, the longest waiting first. The tag is the number of days since the event's last day. |
-| **Classes that did not fill** | Classes on this year's competitions that drew one entry or none. The tag in the heading is the total, and the text gives it against all classes offered. Up to 12 class names are listed alphabetically, then **+… more** for the rest. Each day of a multi-day event has its own classes, so a class run on two days counts twice. |
-| **Organisers running the most competitions** | Up to 10 organizers with the most events this year, using the organizer name written on the event. Events with no organizer name are left out. |
+| **Classes that did not fill** | Classes at this season's competitions that have already been danced and drew one entry or none. Classes at competitions still to come are left out, because they have no entries yet. The tag in the heading is the total, and the text gives it against the classes danced so far, for example "41 of 232 classes danced this season drew one entry or none". Up to 12 class names are listed alphabetically, then **+… more** for the rest. Each day of a multi-day event has its own classes, so a class run on two days counts twice. Until the season's first competition has finished, the card says **No class has been danced yet this season**. |
+| **Organisers running the most competitions** | Up to 10 organizers with the most events this season, using the organizer name written on the event. Events with no organizer name are left out. |
 
 For the event-by-event view behind these numbers, see [Competitions](/federation/competitions/).
 
@@ -156,7 +160,7 @@ competition or its entries change; reload the page to see the latest figures.
 
 ## Not in this version
 
-- No choice of season or date range. Everything is the current calendar year.
+- No choice of season or date range. Everything is the current season.
 - No export of the statistics.
 
 ## Related pages
