@@ -215,7 +215,7 @@ The **Panels** tab shows every judge as a row and every panel as a column. Each 
 
 You can seat judges on a panel before it judges any class. A panel that isn't used yet has a grey column and says "Not used by any round". Set up all your panels first if you like, then give each class its panel on the [Classes](#classes) tab.
 
-At the top of each column, under the panel's name, is how many judges the panel has out of how many it wants, for example "2/3". It is red until the panel has all its judges and green once it does. A new panel shows it straight away, such as "0/3", so you can see what to fill before any round uses the panel.
+At the top of each column, under the panel's name, is how many judges the panel has out of how many it wants, for example "2/3". It is green when the panel has exactly the judges it wants, and red when it has too few, or more **Judge** or **Trainee judge** seats than it wants. Hover over a red count to see what is wrong, for example "Still needed: 1 × Judge" or "More than wanted: 1 × Judge". A new panel shows it straight away, such as "0/3", so you can see what to fill before any round uses the panel.
 
 ![The Panels tab: judges down the side, panels across the top](/assets/images/judges/panels-grid.png)
 
@@ -266,7 +266,7 @@ Click a panel's name at the top of its column. The pop-up shows:
 
 **New panel** adds a panel, named "Panel 2", "Panel 3" and so on. Rename it in its pop-up. Each panel in an event needs a name of its own: if another panel already uses the name you type, the name field turns red and says so, and the name is not saved until you change it. Your typing stays in the field, so you only need to adjust it.
 
-**Panel seats** at the top sets the seats a panel wants when it has no **Seats wanted** of its own. Vote4Dance starts from what most of your panels already have.
+**Panel seats** at the top sets the seats a panel wants when it has no **Seats wanted** of its own. Vote4Dance starts from what most of your panels already have. A panel you add with **New panel** keeps the **Panel seats** shown at that moment as its own **Seats wanted**, so it does not change when you later seat other panels differently.
 
 ### Letting Vote4Dance suggest seats
 
