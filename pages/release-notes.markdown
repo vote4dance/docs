@@ -10,6 +10,7 @@ nav_order: 10
  🛠️ **Improvements**
 * Manager, Supervisor: On the **Panels** tab of **Judges**, a panel with more judges or trainee judges than it wants, such as "2/1", now shows its count in red, just like a panel that is short; hover over a red count to see what is wrong, such as "More than wanted: 1 × Judge" (see [Panels](/manager-guide/judges/#panels))
 * Manager, Supervisor: A panel added with **New panel** on the **Panels** tab of **Judges** keeps the number of judges it was created with; before, a panel whose **Seats wanted** you never changed could switch, for example from 5 to 3, once most of the other panels had 3 judges (see [A panel's settings](/manager-guide/judges/#a-panels-settings))
+* Federation: A finding that covers many rules or classes can now be marked as intended; before, **Mark as intended** failed for such a finding and nothing was saved (see [Findings](/federation-rules/reference/#findings))
 ## 2026-10-13
  🛠️ **Improvements**
 * Manager, School/Club: A dancer who starts paying online but does not finish no longer shows up as **Cancelled** in the event's registrations or in the club's list; the entry stays hidden until it is paid, and an abandoned payment is removed within the hour (see [Registration statuses](/manager-guide/registration-checkin/#registration-statuses))
