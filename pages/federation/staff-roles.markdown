@@ -141,7 +141,7 @@ An Administrator cannot promote a peer to their own level. Only an Owner or a sy
 
 ## Invitation flow
 
-You need the Administrator or Owner role to add staff.
+You need the Administrator or Owner role to see the staff list and add staff; Viewers and Managers see a note instead.
 
 1. Open `Federation → Settings → Roles & access`
 2. Search for the user by name or email
