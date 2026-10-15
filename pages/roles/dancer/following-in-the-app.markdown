@@ -12,6 +12,8 @@ The Vote4Dance app is for what happens at the venue: seeing when you dance, foll
 
 The app has three tabs at the bottom: **Competitions**, **Favorites** and **Profile**.
 
+To see when you dance, open the competition's **Schedule** tab. [Following the schedule](/spectator/following-the-schedule/) explains what it shows.
+
 ## Find results
 
 1. Open the **Competitions** tab and choose a competition.
