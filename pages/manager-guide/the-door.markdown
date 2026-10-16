@@ -108,6 +108,12 @@ The desk sells the same catalog — `Check-in → Sell` — and can hand the tic
 
 ![The desk sell page](/assets/images/shop/desk-sell.png)
 
+## Check-in on a phone
+
+The check-in screen fits a phone held upright. **Scan** is a camera icon beside the search box, and each person in the list shows their name with the arrived tag and country flag on the same line. When the cookie notice is showing, you can scroll the last card up above it.
+
+![The check-in screen on a phone](/assets/images/helpers/checkin-phone.jpg)
+
 ## Before the day
 
 Work through **The door** card on the Shop page: Stripe connected, admission products on sale, the schedule's days, stations created, and how many registered dancers still have no photo on their ID. Everything the desk needs is on that card.
