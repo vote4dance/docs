@@ -9,6 +9,9 @@ nav_order: 10
 ## 2026-10-16
  🛠️ **Improvements**
 * Manager, Supervisor: Under each judge's name on the **Panels** tab of **Judges**, the rounds and minutes now count only this competition; the "(N in other competitions)" note is gone. Seats in the event's other competitions still count when checking overlaps, rounds per day and breaks (see [Panels](/manager-guide/judges/#panels))
+* Event page: Helpers with **Check-in** or **Café & sales** access now see their **Registration** or **Café & sales** tile before the event opens, so they can find their way in before the day (see [Getting a helper in before the day](/manager-guide/users-and-stations/#getting-a-helper-in-before-the-day))
+* Check-in: On a phone the **Scan** button is an icon, so the search box keeps room for its hint, and the arrived tag and country flag stay on the same line as the person's name (see [Check-in on a phone](/manager-guide/the-door/#check-in-on-a-phone))
+* Check-in: The cookie notice no longer hides the last card on a person's page; you can scroll it into view above the notice
 ## 2026-10-15
  ⭐ **New**
 * Scrutineer (Beta): **Add earlier judges** on the **Judges** page lists the judges of your earlier events and, once you have run an event in the federation before, of its other events, so you tick them instead of searching for each one; one click picks the whole panel of a recent event (see [Judges from earlier events](/manager-guide/judges/#judges-from-earlier-events))
