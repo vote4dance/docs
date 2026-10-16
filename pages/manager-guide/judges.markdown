@@ -270,7 +270,7 @@ The cell shows the seat's letter: **J** for judge, **C** for chief judge, **T** 
 
 Click or hover over a seat to see why it is marked. The reasons are also listed at the top of the seat's menu, so they can be read on a tablet.
 
-Under each judge's name is how much they judge, for example "6 rounds · 45 min". The search box finds a judge by name or letter, and **Only judges with problems** hides everyone whose seats are fine.
+Under each judge's name is how much they judge in this competition, for example "6 rounds · 45 min". Rounds in the event's other competitions are not counted here. The search box finds a judge by name or letter, and **Only judges with problems** hides everyone whose seats are fine.
 
 ### Panel order and running order
 
@@ -413,7 +413,7 @@ In an event with several competitions, such as a championship week, each competi
 When the same person judges in more than one competition of the event (the same Vote4Dance account), Vote4Dance links them:
 
 - A link icon after their name lists the other competitions they judge in.
-- Their rounds in the other competitions count too: a seat at the same time is marked, rounds per day and breaks count every competition, and Suggest takes them into account. The load under their name says, for example, "(12 in other competitions)".
+- Their rounds in the other competitions count too: a seat at the same time is marked, rounds per day and breaks count every competition, and Suggest takes them into account.
 - Their needs are shared. Saving them in one competition saves them in all of them, except **Classes not to judge** and **What they judge**, which name one competition's classes, levels and categories and so are set in each competition. **Judge absent** saves the time away everywhere and tells you how many of their rounds in the other competitions fall in that time; replace those seats on that competition's Judges page.
 
 ![Choosing the competition, and a judge who also judges in another competition](/assets/images/judges/several-competitions.png)
