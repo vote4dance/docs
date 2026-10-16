@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-16
+ 🛠️ **Improvements**
+* Manager, Supervisor: Under each judge's name on the **Panels** tab of **Judges**, the rounds and minutes now count only this competition; the "(N in other competitions)" note is gone. Seats in the event's other competitions still count when checking overlaps, rounds per day and breaks (see [Panels](/manager-guide/judges/#panels))
 ## 2026-10-15
  ⭐ **New**
 * Scrutineer (Beta): **Add earlier judges** on the **Judges** page lists the judges of your earlier events and, once you have run an event in the federation before, of its other events, so you tick them instead of searching for each one; one click picks the whole panel of a recent event (see [Judges from earlier events](/manager-guide/judges/#judges-from-earlier-events))
