@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-17
+ 🛠️ **Improvements**
+* Public: A published event's page now has an address made from its name, such as vote4dance.com/public/event/snow-ball-2026, instead of a number. Links, QR codes and e-mails with the old numbered address keep working and open the same page. While an event is **Hidden** its page keeps the numbered address; the readable one follows the event's name and date until you publish, and renaming a published event does not change it (see [Step 2: Event status](/manager-guide/event-setup/#step-2-event-status))
 ## 2026-10-16
  🛠️ **Improvements**
 * Manager, Supervisor: Under each judge's name on the **Panels** tab of **Judges**, the rounds and minutes now count only this competition; the "(N in other competitions)" note is gone. Seats in the event's other competitions still count when checking overlaps, rounds per day and breaks (see [Panels](/manager-guide/judges/#panels))
