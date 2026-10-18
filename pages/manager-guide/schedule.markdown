@@ -160,8 +160,9 @@ The print view is at `/manager/print/<event id>/schedule`. When the schedule is 
 
 | Option | Effect |
 |---|---|
-| **Group by classes** (on by default) | Rounds of the same division and discipline that follow each other are merged into one line, and the round time column is left out. |
+| **Group by classes** (on by default) | Rounds of the same division and discipline that follow each other are merged into one line, showing the time of the first round. |
 | **Include details** | Adds the number of heats to each line. |
+| **Show round times** (on by default) | Prints the time each round is planned to start in front of it. Turn it off for a printout with only the block start times. |
 | **Print** | Opens the browser's print dialog. The settings bar is not printed. |
 | **Download .csv file** | Downloads the schedule as a CSV: start, round, number, floor and heats per round, with the page and item rows in between. |
 
