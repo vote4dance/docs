@@ -419,6 +419,14 @@ merged and their names added after each other) and **Same as the default
 ladder** or **Could be one class rule** (a rule that repeats the default ladder,
 or copies that together name every value of an axis).
 
+Two kinds point at rules that cannot work at all, and are also listed without a
+tile:
+
+| Label on the card | In plain words |
+|---|---|
+| **Deleted value** (**Deleted category, level or age group**) | The rule is for a category, level or age group the division no longer has. No class can be made for it, so it applies to no class, now or later. |
+| **Unreadable** (**Cannot be read**) | The rule's settings are not valid: its conditions or changes cannot be read. When rounds are made the rule is skipped, so it does nothing at any competition. |
+
 Under **To decide**, the findings are listed as cards, most important first,
 sorted by how many classes each one touches. Each card names the rules and says
 in a line what is wrong; **Review** opens it. **Hide the N unreachable rules**
@@ -471,7 +479,32 @@ many competitors.
 offers **Remove the condition**, which changes nothing because the condition
 never applied; **Could be one class rule** offers **Make it "any"**, which opens
 the merge with every value of that axis selected. **Mark as intended**, with an
-optional reason, is there for every kind.
+optional reason, is there for every kind except **Cannot be read**.
+
+**Deleted value and Cannot be read.** Both reviews offer **Switch off**. A
+switched-off rule stays saved, with everything it says, but no longer applies;
+you can switch it on again later. To deal with one:
+
+1. Press **Review** on the card. The review names the rules and, for a deleted
+   value, which category, level or age group is gone.
+2. Press **Switch off**, and confirm with **Switch off** in the question that
+   follows ("Switch off this rule? It stays saved and can be switched on
+   again."). **Switched off** confirms it, and the finding leaves the list.
+3. If the rule is still needed, make it again with **Add class rule**: for a
+   deleted value, pick a category, level or age group that exists; for a rule
+   that cannot be read, set its conditions and changes again in the editor.
+
+For a deleted value you can also answer **Mark as intended** instead, for
+example while the value is about to be added back. A rule that cannot be read
+can only be switched off. To switch a rule on again, open it in the rule editor
+and press **Enable** ([The rule editor](#the-rule-editor)).
+
+![The review of a Deleted value finding, with Switch off next to Mark as intended](/assets/images/class-rules/finding-switch-off.png)
+
+New and changed rules are checked when they are saved, so a rule whose settings
+cannot be read is refused with "The rule's conditions or changes are not valid,
+so it was not saved." These findings only turn up for rules saved before that
+check.
 
 ### Rules that read backwards
 
