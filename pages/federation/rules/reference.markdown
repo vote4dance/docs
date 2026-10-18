@@ -499,7 +499,7 @@ example while the value is about to be added back. A rule that cannot be read
 can only be switched off. To switch a rule on again, open it in the rule editor
 and press **Enable** ([The rule editor](#the-rule-editor)).
 
-<!-- TODO screenshot: the review of a "Deleted value" finding with the Switch off button (needs a signed-in local federation admin), saved as /assets/images/class-rules/finding-switch-off.png -->
+![The review of a Deleted value finding, with Switch off next to Mark as intended](/assets/images/class-rules/finding-switch-off.png)
 
 New and changed rules are checked when they are saved, so a rule whose settings
 cannot be read is refused with "The rule's conditions or changes are not valid,
