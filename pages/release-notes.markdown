@@ -8,6 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-10-18
  🛠️ **Improvements**
+* Manager: The printed schedule now shows the time each round is planned to start, also with **Group by classes** on; a new **Show round times** option leaves them out (see [Printing](/manager-guide/schedule/#printing))
 * Public: In the lists of events, an event that runs over the end of a month is now listed under the month it starts in, the same date its card shows; before, an event from 28 October to 1 November was listed under November
 ## 2026-10-17
  🛠️ **Improvements**
