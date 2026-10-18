@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-18
+ 🛠️ **Improvements**
+* Public and App: On the results of a round confirmed in Scrutineer (Beta), couples who went through to the next round again show its letter, such as **F** for the final, instead of their placement; this also applies when the judges' marks are hidden. Before, the letter only appeared after the round was opened and confirmed again
 ## 2026-10-17
  🛠️ **Improvements**
 * Public: A published event's page now has an address made from its name, such as vote4dance.com/public/event/snow-ball-2026, instead of a number. Links, QR codes and e-mails with the old numbered address keep working and open the same page. E-mails, payment pages and the app now link to the readable address, and a shared link shows the event's name and picture either way. While an event is **Hidden** its page keeps the numbered address; the readable one follows the event's name and date until you publish, and renaming a published event does not change it (see [Step 2: Event status](/manager-guide/event-setup/#step-2-event-status))
