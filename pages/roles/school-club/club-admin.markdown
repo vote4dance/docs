@@ -197,7 +197,7 @@ Some events charge a fee per dancer for each day they compete. If your club pays
 2. Click **By day**. Each day of the event has its own list, with the number of dancers next to the date. Each dancer appears once per day, with the classes they dance that day.
 3. Click **Export CSV** under the view buttons to download the list, one row per dancer and day, to open in a spreadsheet or print.
 
-The days come from the event's schedule, so the lists appear once the organizer has made the rounds and published the schedule. This is usually after registration has closed. Until then, **By day** says the dancers will be listed once the schedule is published. A class that is not on the schedule yet is listed under **Not on the schedule yet**.
+The days come from the event's schedule, so the lists appear once the organizer has made the rounds and published the schedule. This is usually after registration has closed. Until then, **By day** says the dancers will be listed once the schedule is published. A class with no day on the public schedule yet, for example because its rounds are not placed or sit on a hidden part of the schedule, is listed under **No day on the public schedule yet**.
 
 A dancer in a class that runs over two days, such as a first round on Saturday and a final on Sunday, is listed on both days, even if they might not reach the final. The filter buttons apply here too: with **Active** selected, cancelled entries are left out.
 
