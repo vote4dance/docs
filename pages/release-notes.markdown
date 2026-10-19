@@ -8,6 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-10-19
  🛠️ **Improvements**
+* Manager: A class whose short letter is one of the federation's class codes is now linked to that Federation Class when you create, rename or split it, so the federation's age, level and round rules reach it without picking the class by hand; before, only classes created by importing a file were linked (see [Step 1: Create classes](/manager-guide/competition-setup/#step-1-create-classes))
 * Manager: The diploma guide has a downloadable A4 template and sample printout for designing your own pre-printed diploma paper: they show where each line is printed and which corner to keep free for the Vote4Dance mark (see [Designing your own diploma paper](/manager-guide/diploma-customization/#designing-your-own-diploma-paper))
 ## 2026-10-18
  🛠️ **Improvements**
