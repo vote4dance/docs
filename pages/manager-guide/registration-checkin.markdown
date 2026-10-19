@@ -181,6 +181,8 @@ There are three check-in mechanisms, and they are independent:
 - **The Vote4Dance ID**: every dancer has a personal QR code, in the app, on their account page and in the approval email. Check-in desk staff scan it in the Check-in app to find the dancer, hand out the start number, see payment status and mark them **Arrived**. See [At the door](/manager-guide/the-door/).
 - **Tickets**: what the audience shows. Sold from the event's Tickets page or at the desk — see [Shop](/manager-guide/shop/). Dancers do not need one unless the organizer says so.
 
+For a paper list of every club's dancers at the entrance, in case the network goes down, click **Print dancer lists** on the Check-in page. See [Dancer lists](/manager-guide/statistics/#dancer-lists).
+
 ### The Arrived column
 
 Once anybody has been marked arrived at the desk, the registrations list gains an **Arrived** column: `n/m` of the registration's members arrived today, with a filter for everyone, some or nobody. It is a live view of the entrance, not a check-in — an unconfirmed club is still cancelled when check-ins are applied, however many of its dancers walked through the door.
