@@ -8,7 +8,13 @@ nav_order: 10
 # Release notes
 ## 2026-10-19
  ⭐ **New**
+* Manager: **Print dancer lists** on **Statistics** and **Check-in** prints every club's dancers with their classes, start numbers and a box to tick on arrival, for the entrance when the network is down or to hand to the clubs. Pick a day to list only that day's dancers, and tick **One page per organization** for a page per club (see [Dancer lists](/manager-guide/statistics/#dancer-lists))
+* Manager: **Download dancers (CSV)** and **Download organizations (CSV)** on the dancer lists give every dancer's date of birth and what each dancer and club has paid and still owes, so clubs can ask their dancers to pay back the fees (see [Downloading the lists](/manager-guide/statistics/#downloading-the-lists))
 * Public: Clubs can see their dancers for each day of an event. The new **By day** view under **Administration → Registration** lists each dancer once per day with the classes they dance that day, and **Export CSV** downloads the list. This helps a club that pays a per-day fee for its dancers to collect it from them. The days come from the event's schedule, so the lists appear once the organizer has published it (see [Dancers per day](/school-club/club-admin/#dancers-per-day))
+
+ 🛠️ **Improvements**
+* Manager: A class whose short letter is one of the federation's class codes is now linked to that Federation Class when you create, rename or split it, so the federation's age, level and round rules reach it without picking the class by hand; before, only classes created by importing a file were linked (see [Step 1: Create classes](/manager-guide/competition-setup/#step-1-create-classes))
+* Manager: The diploma guide has a downloadable A4 template and sample printout for designing your own pre-printed diploma paper: they show where each line is printed and which corner to keep free for the Vote4Dance mark (see [Designing your own diploma paper](/manager-guide/diploma-customization/#designing-your-own-diploma-paper))
 ## 2026-10-18
  🛠️ **Improvements**
 * Federation: Class rule **Findings** now report rules for a category, level or age group the division no longer has (**Deleted value**) and rules whose settings cannot be read (**Cannot be read**), which are skipped when rounds are made. Both have a **Switch off** button that keeps the rule saved but stops it applying; you can switch it on again in the rule editor. A rule whose settings are not valid can no longer be saved (see [Findings](/federation-rules/reference/#findings))
