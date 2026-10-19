@@ -217,7 +217,9 @@ then the exceptions.
    round", "the final" or "the semifinal" go on a rule whose **When** says that
    stage, not on a number of competitors.
 4. **Add extra rounds.** A B-final or a bronze battle is a rule with **Action**
-   **Add After**, on the round it sits beside.
+   **Add After**, on the round it sits beside. A presentation or warm-up danced
+   before everything else is a rule for **Before the first round** ([A round
+   before the first round](#a-round-before-the-first-round)).
 5. **Only then handle special numbers of competitors.** If one size genuinely
    needs a different shape (six competitors dancing trios, for example), add a
    rule limited with **And only when the class has between … competitors**.
@@ -340,7 +342,8 @@ as **Round sizes**, **Round name(s)**, **Judging type**, **Num to advance**,
 ([Settings](#settings-by-what-they-control)). **Another change** adds one more.
 Under **Advanced**, **Setup** tags a rule as part of a variant that organizers
 can switch on, and **Action** says what the rule does with the round: **Modify**
-(the default), **Add After** or **Remove**.
+(the default), **Add After** or **Remove**. When **Which rounds** is **Before the
+first round**, **Add After** reads **Add before the first round**.
 
 On the right:
 
@@ -365,6 +368,9 @@ The **When** card is set in words. For rounds, **Which rounds** offers:
 - **The final**
 - **Every round except the final** (the usual choice for hiding results)
 - **The first round**
+- **Before the first round**, a round of its own danced ahead of all the others,
+  such as a presentation or a warm-up ([A round before the first
+  round](#a-round-before-the-first-round))
 - **The semi-final, quarter-final or another round counted from the final**, with
   **Semi-final (2nd from the end)**, **Quarter-final (3rd from the end)** and so
   on
@@ -387,6 +393,30 @@ end**); the editor and the **Does the opposite** finding say what it behaves as,
 such as "round 3 from the end and earlier", and the finding lets you choose what
 you want to keep ([Rules that read backwards](#rules-that-read-backwards)). Saving a rule in the editor writes it
 in plain words from then on.
+
+### A round before the first round
+
+Some classes dance a round before the competition starts that is not judged,
+such as a presentation where every couple is shown, or a warm-up. A class rule
+adds it to the classes it is for, so organizers get it from the Round Guide
+without adding it by hand.
+
+1. Press **Add class rule** and, under **Applies to**, pick the classes the
+   round is for, such as the levels that dance a presentation.
+2. Under **When**, set **Which rounds** to **Before the first round**. The rule
+   now adds a round: under **Advanced**, **Action** says **Add before the first
+   round**.
+3. If only some class sizes dance it, tick **between … and … competitors**, for
+   example 2 and 6 for classes that dance a final only.
+4. Under **Change**, set up the added round, for example **Judging type** with
+   no judging, **Round name(s)** "Presentation", **Num to advance** 100 %, **Max
+   on floor**, **Music length** and **Extra time**.
+5. Check **Rounds this hits** and **Example** on the right: they show the added
+   round first, at a number of competitors the rule is for. Then press **Save**.
+
+The added round is danced by all competitors and the class's own rounds follow
+it unchanged. A rule with **Which rounds** set to **Before the first round** and
+**Action** **Modify** changes the round another rule adds there.
 
 ---
 
