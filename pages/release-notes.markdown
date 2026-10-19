@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-19
+ 🛠️ **Improvements**
+* Manager: The diploma guide has a downloadable A4 template and sample printout for designing your own pre-printed diploma paper: they show where each line is printed and which corner to keep free for the Vote4Dance mark (see [Designing your own diploma paper](/manager-guide/diploma-customization/#designing-your-own-diploma-paper))
 ## 2026-10-18
  🛠️ **Improvements**
 * Federation: Class rule **Findings** now report rules for a category, level or age group the division no longer has (**Deleted value**) and rules whose settings cannot be read (**Cannot be read**), which are skipped when rounds are made. Both have a **Switch off** button that keeps the rule saved but stops it applying; you can switch it on again in the rule editor. A rule whose settings are not valid can no longer be saved (see [Findings](/federation-rules/reference/#findings))
