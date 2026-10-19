@@ -41,6 +41,16 @@ Following dancers and clubs, real-time updates and notifications are part of Pre
 
 The Favorites tab no longer opens the Premium offer by itself. It only opens when you tap **Upgrade to Premium**.
 
+### Cancel Premium
+
+1. Open the **Profile** tab and tap **Settings**.
+2. Tap **Cancel subscription**.
+
+What happens next depends on where you bought Premium:
+
+- **In the app:** cancel it in the App Store or Play Store. Open **Subscriptions** there and remove Vote4Dance.
+- **On the Vote4Dance website:** **Cancel subscription** opens your subscription in your browser, where you can change or cancel it. The App Store and Play Store do not list subscriptions bought on the website.
+
 ## Vote for a competitor
 
 When the organizer has switched on audience voting, you can give a competitor up to five hearts, until that round's results are published.
