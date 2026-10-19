@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-19
+ ⭐ **New**
+* Public: Clubs can see their dancers for each day of an event. The new **By day** view under **Administration → Registration** lists each dancer once per day with the classes they dance that day, and **Export CSV** downloads the list. This helps a club that pays a per-day fee for its dancers to collect it from them. The days come from the event's schedule, so the lists appear once the organizer has published it (see [Dancers per day](/school-club/club-admin/#dancers-per-day))
 ## 2026-10-18
  🛠️ **Improvements**
 * Federation: Class rule **Findings** now report rules for a category, level or age group the division no longer has (**Deleted value**) and rules whose settings cannot be read (**Cannot be read**), which are skipped when rounds are made. Both have a **Switch off** button that keeps the rule saved but stops it applying; you can switch it on again in the rule editor. A rule whose settings are not valid can no longer be saved (see [Findings](/federation-rules/reference/#findings))

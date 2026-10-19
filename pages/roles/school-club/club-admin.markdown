@@ -181,10 +181,25 @@ The selected event opens below the cards. Filter its entries with the buttons ab
 | **Unpaid** | Active entries that are not paid |
 | **Cancelled** | Cancelled, rejected and deleted entries |
 
-Use **Search dancer or class** to narrow the list, and switch between two views:
+Use **Search dancer or class** to narrow the list, and switch between three views:
 
 - **By class** lists the classes, each with its number of entries and how many are unpaid. Click a class to see its entries. Each entry shows the competitor, **Status** and, when the event takes payment, **Payment**.
 - **By dancer** lists one row per dancer with the classes they are entered in, the status of each, and how many entries are unpaid.
+- **By day** lists your dancers for each day of the event. See [Dancers per day](#dancers-per-day).
+
+### Dancers per day
+
+Some events charge a fee per dancer for each day they compete. If your club pays it for everyone and collects it from the dancers afterwards, **By day** shows who dances which day.
+
+![The By day view with the dancers for each day of the event](/assets/images/club-admin/registrations-by-day.png)
+
+1. Open **Administration → Registration** and click the event's card.
+2. Click **By day**. Each day of the event has its own list, with the number of dancers next to the date. Each dancer appears once per day, with the classes they dance that day.
+3. Click **Export CSV** under the view buttons to download the list, one row per dancer and day, to open in a spreadsheet or print.
+
+The days come from the event's schedule, so the lists appear once the organizer has made the rounds and published the schedule. This is usually after registration has closed. Until then, **By day** says the dancers will be listed once the schedule is published. A class that is not on the schedule yet is listed under **Not on the schedule yet**.
+
+A dancer in a class that runs over two days, such as a first round on Saturday and a final on Sunday, is listed on both days, even if they might not reach the final. The filter buttons apply here too: with **Active** selected, cancelled entries are left out.
 
 | Action | How | Who |
 |---|---|---|
