@@ -7,6 +7,10 @@ nav_order: 10
 
 # Release notes
 ## 2026-10-19
+ ⭐ **New**
+* Manager: **Print dancer lists** on **Statistics** and **Check-in** prints every club's dancers with their classes, start numbers and a box to tick on arrival, for the entrance when the network is down or to hand to the clubs. Pick a day to list only that day's dancers, and tick **One page per organization** for a page per club (see [Dancer lists](/manager-guide/statistics/#dancer-lists))
+* Manager: **Download dancers (CSV)** and **Download organizations (CSV)** on the dancer lists give every dancer's date of birth and what each dancer and club has paid and still owes, so clubs can ask their dancers to pay back the fees (see [Downloading the lists](/manager-guide/statistics/#downloading-the-lists))
+
  🛠️ **Improvements**
 * Manager: A class whose short letter is one of the federation's class codes is now linked to that Federation Class when you create, rename or split it, so the federation's age, level and round rules reach it without picking the class by hand; before, only classes created by importing a file were linked (see [Step 1: Create classes](/manager-guide/competition-setup/#step-1-create-classes))
 * Manager: The diploma guide has a downloadable A4 template and sample printout for designing your own pre-printed diploma paper: they show where each line is printed and which corner to keep free for the Vote4Dance mark (see [Designing your own diploma paper](/manager-guide/diploma-customization/#designing-your-own-diploma-paper))
