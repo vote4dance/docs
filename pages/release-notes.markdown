@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-20
+ 🛠️ **Improvements**
+* Public: On an event's **Tickets** tab, the price, the choice between variants (such as **Under 16** and **Over 16**) and the quantity buttons now sit next to each item instead of under a long description; on a phone the choices are stacked so they fit on the screen (see [Checking the public page](/manager-guide/shop/#checking-the-public-page))
 ## 2026-10-19
  ⭐ **New**
 * Manager: **Print dancer lists** on **Statistics** and **Check-in** prints every club's dancers with their classes, start numbers and a box to tick on arrival, for the entrance when the network is down or to hand to the clubs. Pick a day to list only that day's dancers, and tick **One page per organization** for a page per club (see [Dancer lists](/manager-guide/statistics/#dancer-lists))
