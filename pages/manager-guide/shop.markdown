@@ -63,7 +63,7 @@ A product that has been sold is never deleted — it is archived, so the tickets
 
 ### Checking the public page
 
-**Open public tickets page** in the toolbar opens what buyers see: `/public/event/<event id>/tickets`. Send that link out; it is the same page the event's **Tickets** tab shows.
+**Open public tickets page** in the toolbar opens what buyers see: the event's page with **/tickets** at the end, such as vote4dance.com/public/event/snow-ball-2026/tickets once the event is published. Send that link out; it is the same page the event's **Tickets** tab shows.
 
 ## Orders
 
