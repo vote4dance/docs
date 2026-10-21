@@ -97,7 +97,7 @@ Then assign start numbers and add participants to the first rounds. See
 | A registration is stuck on Preliminary | With manual acceptance you approve it yourself. With invoice payment, approve it once paid. |
 | An online payment was abandoned | The registration is removed automatically. The dancer starts again. |
 | An approved registration is not in the lineup | Run **Update/import participants** again. The **Imported** check shows which registrations are in. |
-| A dancer wants a refund after cancelling | Cancelling does not refund. You refund from Manager. |
+| A dancer wants a refund after cancelling | Cancelling does not refund. You refund from Manager. If the dancer registered again and paid twice, see [Paid twice after cancelling](/manager-guide/registration-checkin/#paid-twice-after-cancelling). |
 
 ## Next step
 

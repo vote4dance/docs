@@ -68,6 +68,17 @@ To change a status, use the dropdown on the row. If you have ticked rows with th
 
 Online payments in progress are hidden until they are paid. A registration whose checkout is abandoned is removed automatically.
 
+### Paid twice after cancelling
+
+A dancer who cancels a paid registration and registers for the same class again ends up with one registration, not two: the cancelled one is reused, so the dancer does not appear under **Cancelled**. If the dancer paid again, both payments belong to that registration.
+
+1. Open the **Registrations** tab and click **+** to expand the registration.
+2. Click **Payment**.
+3. The dialog lists every payment for the registration. Earlier ones are marked **Earlier payment**.
+4. On the payment to give back, check the amount, add a description if you like and click **Refund**.
+
+Earlier payments made before this was introduced are not listed under the registration. Refund those in Stripe.
+
 ## From registrations to participants
 
 Registrations and participants are two different lists. A registration is what the dancer or club submitted. A participant is a row in the competition's lineup that rounds, start numbers, heats and results are built on. Nothing moves between them until you run the import.

@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-21
+ 🛠️ **Improvements**
+* Manager: When a dancer cancels a paid registration and registers again, the **Payment** button on the registration now lists every payment made for it, the earlier ones marked **Earlier payment**, each with its own **Refund**; before, only the latest payment was shown, so a payment made twice could not be found or refunded from the registration (see [Paid twice after cancelling](/manager-guide/registration-checkin/#paid-twice-after-cancelling))
 ## 2026-10-20
  🛠️ **Improvements**
 * Public: On an event's **Tickets** tab, the price, the choice between variants (such as **Under 16** and **Over 16**) and the quantity buttons now sit next to each item instead of under a long description; on a phone the choices are stacked so they fit on the screen (see [Checking the public page](/manager-guide/shop/#checking-the-public-page))
