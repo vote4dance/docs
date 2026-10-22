@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-22
+ 🛠️ **Improvements**
+* Manager, Registration: Solo and couple entries, and entries in classes without a federation class, now appear under the dancers' names on the **Registrations** list, in the cart and on start lists, instead of a nickname given to the team. Group and formation classes keep their team names. To collect team names in another class, add **Participant name** under **Requested information** in its **Registration rules**. A name you type on a registration still shows and is imported (see [Team names](/manager-guide/registration-checkin/#team-names))
 ## 2026-10-21
  🛠️ **Improvements**
 * Manager: When a dancer cancels a paid registration and registers again, the **Payment** button on the registration now lists every payment made for it, the earlier ones marked **Earlier payment**, each with its own **Refund**; before, only the latest payment was shown, so a payment made twice could not be found or refunded from the registration (see [Paid twice after cancelling](/manager-guide/registration-checkin/#paid-twice-after-cancelling))
