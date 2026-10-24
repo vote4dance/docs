@@ -45,6 +45,21 @@ For each period define:
 
 You can reorder periods to control display order.
 
+### Team names
+
+Dancers can give their team a name of its own. That name is used in group and formation classes, and in classes that ask for one. Solo and couple entries, and entries in classes that are not linked to a federation class, are shown under the dancers' names and not under a nickname.
+
+To collect team names in a class that doesn't use them, for example a crew class at an event without a federation:
+
+1. On the **Registration period** tab, open the period and click **Registration rules** to cover all its classes, or open **Select classes** and edit the rules of one class.
+2. Under **Requested information**, add a field, choose **Participants** and pick **Participant name**.
+
+   ![Registration rules with Participant name asked for under Requested information](/assets/images/registration/requested-information-participant-name.png)
+
+3. Click **OK**. Dancers registering for the class are now asked for the name, and it shows on the **Registrations** list and on the start list after the import.
+
+A name you type on a registration yourself always shows and is imported. Asking for **Name of show** collects a show title and doesn't turn team names on. A federation can switch team names on or off for its categories; where it switches them off, the start list always shows the dancers.
+
 ## Registration statuses
 
 | Status | Meaning | How a registration gets there |
