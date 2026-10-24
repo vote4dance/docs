@@ -8,7 +8,12 @@ nav_order: 10
 # Release notes
 ## 2026-10-24
  🛠️ **Improvements**
+* Manager: On the **Judges** page, a **Chief judge (in)** now counts as one of the panel's judges. A panel that wants 5 judges with a **Chief judge (in)** is full with 4 judges plus the chief, so it no longer shows "Still needed: 1 × Judge" or a warning on the **Validator**; before, the chief was counted separately. A **Chief judge (out)** still does not count towards the judges, and a panel with a **Chief judge (in)** on its **Seats wanted** now needs one who marks, not a **Chief judge (out)** (see [A panel's settings](/manager-guide/judges/#a-panels-settings))
+* Public: Opening an event's **Registration** tab without being signed in now shows how registration works and a **Sign in** button that brings you back to the same page, instead of sending you straight to the sign-in page (see [Registering on your own (solo)](/dancer/registration-for-event/#registering-on-your-own-solo))
 * Public: **Pay now** has a line under it saying that your registration is final once paid, and if you have paid, confirming a **Withdraw** reminds you that the payment is not refunded automatically: contact the organizer. The card for a class with no start time yet now says **Your dance time is announced after registration closes** (see [Withdrawing from a class](/dancer/my-registration/#withdrawing-from-a-class))
+## 2026-10-22
+ 🛠️ **Improvements**
+* Manager, Registration: Solo and couple entries, and entries in classes without a federation class, now appear under the dancers' names on the **Registrations** list, in the cart, on start lists, in registration e-mails, on **My event**, in the club's registration lists and at the check-in desk, instead of a nickname given to the team. Group and formation classes keep their team names. To collect team names in another class, add **Participant name** under **Requested information** in its **Registration rules**. A name you type on a registration still shows and is imported (see [Team names](/manager-guide/registration-checkin/#team-names))
 ## 2026-10-21
  🛠️ **Improvements**
 * Manager: When a dancer cancels a paid registration and registers again, the **Payment** button on the registration now lists every payment made for it, the earlier ones marked **Earlier payment**, each with its own **Refund**; before, only the latest payment was shown, so a payment made twice could not be found or refunded from the registration (see [Paid twice after cancelling](/manager-guide/registration-checkin/#paid-twice-after-cancelling))
