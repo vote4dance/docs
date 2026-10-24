@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-24
+ 🛠️ **Improvements**
+* Manager: On the **Judges** page, a **Chief judge (in)** now counts as one of the panel's judges. A panel that wants 5 judges with a **Chief judge (in)** is full with 4 judges plus the chief, so it no longer shows "Still needed: 1 × Judge" or a warning on the **Validator**; before, the chief was counted separately. A **Chief judge (out)** still does not count towards the judges, and a panel with a **Chief judge (in)** on its **Seats wanted** now needs one who marks, not a **Chief judge (out)** (see [A panel's settings](/manager-guide/judges/#a-panels-settings))
 ## 2026-10-22
  🛠️ **Improvements**
 * Manager, Registration: Solo and couple entries, and entries in classes without a federation class, now appear under the dancers' names on the **Registrations** list, in the cart, on start lists, in registration e-mails, on **My event**, in the club's registration lists and at the check-in desk, instead of a nickname given to the team. Group and formation classes keep their team names. To collect team names in another class, add **Participant name** under **Requested information** in its **Registration rules**. A name you type on a registration still shows and is imported (see [Team names](/manager-guide/registration-checkin/#team-names))
