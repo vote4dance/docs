@@ -45,7 +45,7 @@ The card at the top tells you what is left, and counts it (**1 thing left**). It
 
 | What it says | What it means | What you do |
 |---|---|---|
-| **Pay** and an amount | The organizer has approved classes you have not paid for yet. | Press **Pay now** and pay by card. Everything still unpaid at the event is paid at once. |
+| **Pay** and an amount | The organizer has approved classes you have not paid for yet. | Press **Pay now** and pay by card. Everything still unpaid at the event is paid at once. Once paid, your registration is final. |
 | **Pay as the organizer describes** | The organizer takes payment their own way, for example by bank transfer or at the desk. Their instructions are shown below. | Follow the instructions. |
 | **Payment in progress** | You have paid by card and the payment is being confirmed. | Wait a minute: the class turns **Paid** on its own. |
 | **Waiting for the organizer to approve your registration** | The organizer approves registrations by hand. | Nothing yet. If the event takes card payment, you can pay once you are approved. |
@@ -67,7 +67,7 @@ online until…**). After that, changes are made at the desk.
   [What your status means](/dancer/registration-for-event/#what-your-status-means)) and whether it
   is **Paid** or **Not paid**.
 - **Its rounds**, once the organizer has set them up and published the schedule: the time, the
-  round, and your heat and floor. Before that it says **Time set after registration closes**.
+  round, and your heat and floor. Before that it says **Your dance time is announced after registration closes**.
 - **How it went**, round by round, as soon as the results are published: **Through**,
   **Not through · placed 4**, **Alternate 1**, **Placed 2** and so on. A round still being judged
   says **Results coming**.
@@ -99,7 +99,7 @@ Results and times update on their own while the page is open.
 
 1. Open **My registration** for the event.
 2. Press **Withdraw** on the class.
-3. Press **Withdraw** again to confirm, or **Keep it** to stop.
+3. Press **Withdraw** again to confirm, or **Keep it** to stop. If you have paid, the confirmation reminds you that the payment is not refunded automatically.
 
 ![Confirming that you withdraw from a class](/assets/images/my-registration/withdraw.png)
 
