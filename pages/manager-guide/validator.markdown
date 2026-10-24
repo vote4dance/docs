@@ -76,7 +76,7 @@ These checks run for every competition. The name is the text shown after **Valid
 
 ## Panels short of seats
 
-A warning, not a failure. On the Judges page each panel can say how many judges, which chief judge, and how many trainees and observers it wants (**Seats wanted** in the panel's pop-up). This check lists the panels used by a round that have fewer seated than that, for example "2 × Judge, 1 × Observer" under **Open seats**. Panels without **Seats wanted** are not checked.
+A warning, not a failure. On the Judges page each panel can say how many judges, which chief judge, and how many trainees and observers it wants (**Seats wanted** in the panel's pop-up). This check lists the panels used by a round that have fewer seated than that, for example "2 × Judge, 1 × Observer" under **Open seats**. A **Chief judge (in)** counts as one of the judges wanted, a **Chief judge (out)** does not. Panels without **Seats wanted** are not checked.
 
 Click the panel to open it on the Judges page. The same warning shows above the tabs there, in orange.
 

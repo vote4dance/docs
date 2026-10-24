@@ -8,6 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-10-24
  🛠️ **Improvements**
+* Manager: On the **Judges** page, a **Chief judge (in)** now counts as one of the panel's judges. A panel that wants 5 judges with a **Chief judge (in)** is full with 4 judges plus the chief, so it no longer shows "Still needed: 1 × Judge" or a warning on the **Validator**; before, the chief was counted separately. A **Chief judge (out)** still does not count towards the judges, and a panel with a **Chief judge (in)** on its **Seats wanted** now needs one who marks, not a **Chief judge (out)** (see [A panel's settings](/manager-guide/judges/#a-panels-settings))
 * Public: Opening an event's **Registration** tab without being signed in now shows how registration works and a **Sign in** button that brings you back to the same page, instead of sending you straight to the sign-in page (see [Registering on your own (solo)](/dancer/registration-for-event/#registering-on-your-own-solo))
 ## 2026-10-22
  🛠️ **Improvements**

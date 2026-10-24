@@ -247,7 +247,7 @@ The **Panels** tab shows every judge as a row and every panel as a column. Each 
 
 You can seat judges on a panel before it judges any class. A panel that isn't used yet has a grey column and says "Not used by any round". Set up all your panels first if you like, then give each class its panel on the [Classes](#classes) tab.
 
-At the top of each column, under the panel's name, is how many judges the panel has out of how many it wants, for example "2/3". It is green when the panel has exactly the judges it wants, and red when it has too few, or more **Judge** or **Trainee judge** seats than it wants. Hover over a red count to see what is wrong, for example "Still needed: 1 × Judge" or "More than wanted: 1 × Judge". A new panel shows it straight away, such as "0/3", so you can see what to fill before any round uses the panel.
+At the top of each column, under the panel's name, is how many judges the panel has out of how many it wants, for example "2/3". It is green when the panel has exactly the judges it wants, and red when it has too few, or more **Judge** or **Trainee judge** seats than it wants. Hover over a red count to see what is wrong, for example "Still needed: 1 × Judge" or "More than wanted: 1 × Judge". A new panel shows it straight away, such as "0/3", so you can see what to fill before any round uses the panel. A **Chief judge (in)** is counted in it, so 4 **Judge** seats and a **Chief judge (in)** show as "5/5".
 
 ![The Panels tab: judges down the side, panels across the top](/assets/images/judges/panels-grid.png)
 
@@ -291,7 +291,7 @@ Click a panel's name at the top of its column. The pop-up shows:
 - the panel's name, which you can change;
 - the panel's problems, if any, and what it still needs, for example "Still needed: 1 × Judge", with **Fill open seats**;
 - **Judges**: what the panel judges, either the whole class or single rounds, such as "Novice Jack&Jill – Leaders · Semi only";
-- **Seats wanted**: how many judges, which chief judge, and how many trainees the panel should have;
+- **Seats wanted**: how many judges, which chief judge, and how many trainees the panel should have. A **Chief judge (in)** marks like the other judges, so the chief counts as one of the judges wanted: a panel that wants 5 judges and a **Chief judge (in)** is full with 4 **Judge** seats plus the chief. A **Chief judge (out)** does not count towards the judges;
 - **Delete panel**, which is only possible while no round uses the panel.
 
 ![A panel's pop-up](/assets/images/judges/panel-popup.png)
