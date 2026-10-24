@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-24
+ 🛠️ **Improvements**
+* Public: Opening an event's **Registration** tab without being signed in now shows how registration works and a **Sign in** button that brings you back to the same page, instead of sending you straight to the sign-in page (see [Registering on your own (solo)](/dancer/registration-for-event/#registering-on-your-own-solo))
 ## 2026-10-22
  🛠️ **Improvements**
 * Manager, Registration: Solo and couple entries, and entries in classes without a federation class, now appear under the dancers' names on the **Registrations** list, in the cart, on start lists, in registration e-mails, on **My event**, in the club's registration lists and at the check-in desk, instead of a nickname given to the team. Group and formation classes keep their team names. To collect team names in another class, add **Participant name** under **Requested information** in its **Registration rules**. A name you type on a registration still shows and is imported (see [Team names](/manager-guide/registration-checkin/#team-names))

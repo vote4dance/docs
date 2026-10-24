@@ -32,7 +32,9 @@ put its own registration help at the top of the **Registration** tab, above the 
 
 ## Registering on your own (solo)
 
-1. Sign in on vote4dance.com, open the event and go to its **Registration** tab.
+1. Open the event on vote4dance.com and go to its **Registration** tab. If you are not signed in, press **Sign in** (or create a free account); you come back to the same page.
+
+   ![The Registration tab when you are not signed in: how registration works, and a Sign in button](/assets/images/registration/signed-out-registration.png)
 2. Open the **As myself** tab. The first time, press **Create competitor**: your name is already
    filled in, so just press **Save changes**. Next time, pick yourself under **Select competitor**
    instead of creating a new one.
