@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-24
+ 🛠️ **Improvements**
+* Public: **Pay now** has a line under it saying that your registration is final once paid, and if you have paid, confirming a **Withdraw** reminds you that the payment is not refunded automatically: contact the organizer. The card for a class with no start time yet now says **Your dance time is announced after registration closes** (see [Withdrawing from a class](/dancer/my-registration/#withdrawing-from-a-class))
 ## 2026-10-21
  🛠️ **Improvements**
 * Manager: When a dancer cancels a paid registration and registers again, the **Payment** button on the registration now lists every payment made for it, the earlier ones marked **Earlier payment**, each with its own **Refund**; before, only the latest payment was shown, so a payment made twice could not be found or refunded from the registration (see [Paid twice after cancelling](/manager-guide/registration-checkin/#paid-twice-after-cancelling))
