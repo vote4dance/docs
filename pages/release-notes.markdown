@@ -6,6 +6,10 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-25
+ ⭐ **New**
+* Public: Dancers upload their own music per class on **My registration**; the federation sets the limits in its class rules. A class that dances to your own music shows **Own music · max 1:30** when you register, and after registering you upload an MP3 on **My registration**, listen to it, **Replace** or **Remove** it, until registration closes (see [Your music](/dancer/my-registration/#your-music))
+
 ## 2026-10-24
  🛠️ **Improvements**
 * Manager: On the **Judges** page, a **Chief judge (in)** now counts as one of the panel's judges. A panel that wants 5 judges with a **Chief judge (in)** is full with 4 judges plus the chief, so it no longer shows "Still needed: 1 × Judge" or a warning on the **Validator**; before, the chief was counted separately. A **Chief judge (out)** still does not count towards the judges, and a panel with a **Chief judge (in)** on its **Seats wanted** now needs one who marks, not a **Chief judge (out)** (see [A panel's settings](/manager-guide/judges/#a-panels-settings))
