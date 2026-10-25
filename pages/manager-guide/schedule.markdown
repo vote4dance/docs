@@ -186,7 +186,7 @@ The report takes every round that has an estimated time, works out when each dan
 A pair is not reported when:
 
 - both rounds are in the **same class**;
-- both rounds are on the **same floor**, since one floor cannot run two rounds at once;
+- the two windows **overlap on the same floor**, since one floor runs its rounds one after the other. A short gap between two classes on the same floor is still listed as **Tight**: the dancer goes straight from one class into the next;
 - the rounds are on **different days**. Rounds on items with no dated page above them are only compared within the same item;
 - either round has no estimated time: it is on **Unscheduled**, or its item has no start time.
 
@@ -194,7 +194,7 @@ A dancer's window is narrowed to their own heat. Once heats are drawn, the real 
 
 **Also flag tight transitions under** sets how short a gap must be to show as **Tight**, from 0 to 60 minutes, 5 by default. Raise it to see every dancer with less than, say, 15 minutes between rounds.
 
-**Hide tight transitions within the same hall** is ticked when the page opens. It hides **Tight** rows where both rounds are in the same hall: on the same floor or its sections, such as a final on the whole floor followed by a first round on section `A`. Dancers only need a moment to move between those, so a short gap there is usually planned. Rows where the dancer has to go to another floor stay, and **Conflict** rows always stay, even in the same hall, because two sections running at the same time still need the dancer in both places. Untick it to see every tight transition. See [Floors](/manager-guide/floors/) for how floors and sections are set up.
+**Hide tight transitions within the same hall** appears when the event has rounds on a floor's sections, and is ticked when the page opens. It hides **Tight** rows where both rounds are in a hall split into sections: on that floor or its sections, such as a final on the whole floor followed by a first round on section `A`. Dancers only need a moment to move between those, so a short gap there is usually planned. Rows where the dancer has to go to another floor stay, and **Conflict** rows always stay, even in the same hall, because two sections running at the same time still need the dancer in both places. Untick it to see every tight transition. A floor without sections has nothing to hide, so every tight change on it is listed. See [Floors](/manager-guide/floors/) for how floors and sections are set up.
 
 ![The Hide tight transitions within the same hall checkbox next to the tight-transition minutes](/assets/images/schedule/conflicts-hide-same-hall.jpg)
 
@@ -240,7 +240,7 @@ The report follows the schedule as you change it. A **Tight** row is a warning, 
 | The public page says there is no schedule | The schedule is not published, or all items are **Visible for staff only**. |
 | The conflicts page stays empty with no message | You do not have the **Supervisor** app on the event. |
 | A tight change between two sections of the same floor is missing | **Hide tight transitions within the same hall** is ticked. Untick it to list those rows too. |
-| "No scheduling conflicts found", but you know of one | Check that both rounds have estimated times, are on different floors, are on dated pages for the same day, and that the dancer has the same account or federation ID in both entries. |
+| "No scheduling conflicts found", but you know of one | Check that both rounds have estimated times, are on dated pages for the same day, and that the dancer has the same account or federation ID in both entries. |
 
 ## Not in this version
 
