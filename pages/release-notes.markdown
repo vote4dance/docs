@@ -9,6 +9,7 @@ nav_order: 10
 ## 2026-10-25
  🛠️ **Improvements**
 * Manager: **Schedule conflicts** now lists a dancer who goes from one class straight into another on the same floor as **Tight**; before, two rounds on the same floor were never compared, so an event on one floor showed no conflicts at all. **Hide tight transitions within the same hall** only appears when the event has rounds on a floor's sections, and only hides moves between the whole floor and its sections (see [What counts as a conflict](/manager-guide/schedule/#what-counts-as-a-conflict))
+* App: On Android, the icons in the tab bar and on the event pages show again after updating the app. In version 1.13.3 they could stay blank if you updated from an earlier version; update to 1.13.4 (see [Following in the app](/dancer/following-in-the-app/))
 ## 2026-10-24
  🛠️ **Improvements**
 * Manager: On the **Judges** page, a **Chief judge (in)** now counts as one of the panel's judges. A panel that wants 5 judges with a **Chief judge (in)** is full with 4 judges plus the chief, so it no longer shows "Still needed: 1 × Judge" or a warning on the **Validator**; before, the chief was counted separately. A **Chief judge (out)** still does not count towards the judges, and a panel with a **Chief judge (in)** on its **Seats wanted** now needs one who marks, not a **Chief judge (out)** (see [A panel's settings](/manager-guide/judges/#a-panels-settings))
