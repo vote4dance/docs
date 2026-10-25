@@ -6,13 +6,14 @@ parent: Dancer
 nav_order: 5.5
 help:
   public.event.me: ""
+  public.event.me.change-class: changing-class
 ---
 
 # My registration
 
 Every event you are registered for has a page of its own: **My registration**. It shows what you
 still have to do, every class you are in with its rounds and results, and whether your start number
-has been picked up. You also pay, add a class and withdraw from a class there.
+has been picked up. You also pay, add a class, change class and withdraw from a class there.
 
 In the Dancer app the same page is called **My event**. See [In the Dancer app](#in-the-dancer-app).
 
@@ -94,6 +95,47 @@ On a competition day the page also shows:
   says this at events where the desk checks dancers in with Vote4Dance.
 
 Results and times update on their own while the page is open.
+
+## Changing class
+
+If you picked the wrong class, you do not have to withdraw and register again: until registration
+closes you can move your entry to another class. Your payment stays with the entry.
+
+1. Open **My registration** for the event.
+2. Press **Change class** on the class.
+3. Pick the class you want to move to.
+4. Press **Change class** again, or **Keep current class** to stop.
+
+![The Change class button on a class](/assets/images/my-registration/change-class-button.png)
+
+![Picking the class to move to](/assets/images/my-registration/change-class.png)
+
+*Anna and Sam, who dance a duo, move from Rising Talent to Ultimate Talent. Both of them move.*
+
+What you can move to:
+
+- **Classes that open for registration together with yours.** These are the classes you see side by
+  side when you register, for example the other levels or regions of the same group of classes.
+  They cost the same, so nothing is charged and nothing is refunded.
+- **Only classes you are allowed to dance.** A class you do not qualify for, for example because of
+  your age, your level or your licence, is shown greyed out with the reason. A class where you
+  already dance another level of the same category is greyed out too, when the federation allows
+  only one class per category.
+- **Not the classes you are already in**, and not a class you withdrew from earlier.
+
+A duo or team moves as one: everyone on the entry moves to the new class.
+
+The **Change class** button is missing when:
+
+- **Registration has closed.** The class says **Registration has closed: changes only at the desk**:
+  ask the organizer.
+- **Your club owns the entry.** The club changes it: ask your coach.
+- **There is no other class to move to.** A class that is registered separately, with its own price,
+  is not in the list: withdraw and register again instead (see
+  [Withdrawing from a class](#withdrawing-from-a-class)). Nothing you paid is refunded
+  automatically.
+- **The organizer has already put you on the start list**, or the class has lineup changes for your
+  team. The organizer changes those: ask them.
 
 ## Withdrawing from a class
 
