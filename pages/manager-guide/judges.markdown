@@ -112,7 +112,7 @@ Each row has:
 |---|---|
 | Dot | Green when the judge has the Judging app open and connected; hover for battery level. |
 | **Name** | The judge's name. Hover over the info icon after it to see a shortened email address, such as j•••@g•••.com, so you can tell judges with the same name apart. The full address stays private to the judge; invitations still reach it. |
-| **Photo** | A photo used for this competition only. Upload one to replace the judge's profile picture; delete it to fall back to the profile picture. |
+| **Photo** | A photo used for this competition only, shown for the judge on screens and in judge lists. A judge without one shows a placeholder; their Vote4Dance ID photo is never shown here. |
 | **Status** | See [Statuses](#statuses). |
 | **Needs** | **None**, or **Set by supervisor** when the judge has [needs](#judge-needs). Click it to open them. |
 | **Letter** | The judge's letter. Type it in; it saves when you leave the field or press Enter. |
@@ -194,6 +194,8 @@ The legend lists the roles a judge can have on a panel. **Not judging** is only 
 | **Chief judge (in)** | Marks like the other judges and counts in the result; also breaks ties. |
 | **Chief judge (out)** | Doesn't count in the result; their marks only break ties. |
 | **Audience** | Scores come from public audience voting; counts toward final placements. Can be chosen on a panel, but is not shown in the legend. |
+
+The **Audience** judge follows the votes while the round is being judged and hands in by itself when the last of the other judges hands in; votes after that no longer change its result. It then shows as handed in with the other judges in the round's results. If you re-open the round and want the votes to count again, unlock the **Audience** judge there the same way as any other judge.
 
 When you seat a judge on the **Panels** tab, the seat menu says what each type does, and hovering over a type in the legend under the grid shows the same. **How it works** in the menu and the legend opens this section.
 
