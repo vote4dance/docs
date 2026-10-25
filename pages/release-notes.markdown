@@ -8,6 +8,8 @@ nav_order: 10
 # Release notes
 ## 2026-10-25
  🛠️ **Improvements**
+* App: Tapping **Vote** in a round without Premium now closes the round and shows the Premium offer; before, nothing seemed to happen on iPhone and the app stopped responding to taps once the round was closed (see [Vote for a competitor](/dancer/following-in-the-app/#vote-for-a-competitor))
+* Manager: The **Audience** judge now shows as handed in once the last of the other judges hands in, and can be unlocked like any other judge, for example after re-opening a round so later votes count again; before, it always looked open and could not be unlocked (see [Judge types](/manager-guide/judges/#judge-types))
 * Manager: **Schedule conflicts** and **Problems** now flag a dancer entered in two classes that start at the same time on one floor in the same schedule item, since those classes are danced together; before, two rounds on the same floor were never a conflict (see [What counts as a conflict](/manager-guide/schedule/#what-counts-as-a-conflict))
 * Manager: In an event with several competitions, **Problems** lists dancers in overlapping rounds and judges on two floors once, under **Event** at the top, instead of once under every competition (see [Reading the page](/manager-guide/validator/#reading-the-page))
 * Manager, Screens: A judge is shown with the **Photo** uploaded on the **Judges** page, or a placeholder when there is none. The judge's Vote4Dance ID photo, the one the check-in desk compares faces with, is no longer used as a stand-in on screens or in judge lists (see [Judge list](/manager-guide/judges/#judge-list))

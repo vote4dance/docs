@@ -195,6 +195,8 @@ The legend lists the roles a judge can have on a panel. **Not judging** is only 
 | **Chief judge (out)** | Doesn't count in the result; their marks only break ties. |
 | **Audience** | Scores come from public audience voting; counts toward final placements. Can be chosen on a panel, but is not shown in the legend. |
 
+The **Audience** judge follows the votes while the round is being judged and hands in by itself when the last of the other judges hands in; votes after that no longer change its result. It then shows as handed in with the other judges in the round's results. If you re-open the round and want the votes to count again, unlock the **Audience** judge there the same way as any other judge.
+
 When you seat a judge on the **Panels** tab, the seat menu says what each type does, and hovering over a type in the legend under the grid shows the same. **How it works** in the menu and the legend opens this section.
 
 The type is set per panel, so the same person can be a **Judge** on one panel and a **Trainee judge** on another.
