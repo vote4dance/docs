@@ -112,7 +112,7 @@ Each row has:
 |---|---|
 | Dot | Green when the judge has the Judging app open and connected; hover for battery level. |
 | **Name** | The judge's name. Hover over the info icon after it to see a shortened email address, such as j•••@g•••.com, so you can tell judges with the same name apart. The full address stays private to the judge; invitations still reach it. |
-| **Photo** | A photo used for this competition only. Upload one to replace the judge's profile picture; delete it to fall back to the profile picture. |
+| **Photo** | A photo used for this competition only, shown for the judge on screens and in judge lists. A judge without one shows a placeholder; their Vote4Dance ID photo is never shown here. |
 | **Status** | See [Statuses](#statuses). |
 | **Needs** | **None**, or **Set by supervisor** when the judge has [needs](#judge-needs). Click it to open them. |
 | **Letter** | The judge's letter. Type it in; it saves when you leave the field or press Enter. |
