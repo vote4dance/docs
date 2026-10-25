@@ -186,9 +186,10 @@ The report takes every round that has an estimated time, works out when each dan
 A pair is not reported when:
 
 - both rounds are in the **same class**;
-- the two windows **overlap on the same floor**, since one floor runs its rounds one after the other. A short gap between two classes on the same floor is still listed as **Tight**: the dancer goes straight from one class into the next;
 - the rounds are on **different days**. Rounds on items with no dated page above them are only compared within the same item;
 - either round has no estimated time: it is on **Unscheduled**, or its item has no start time.
+
+Two rounds on the **same floor** are compared too. Rounds on the same schedule item that start at the same time on one floor are danced together, so a dancer in both is a **Conflict**. Other rounds on one floor run one after the other, so a dancer going from one class straight into the next is **Tight**, with 0 minutes when the estimated times touch or overlap.
 
 A dancer's window is narrowed to their own heat. Once heats are drawn, the real heat is used; before that, the heat is predicted from the start numbers the same way the draw will place them. Dancers without a start number are counted for the whole round.
 
