@@ -9,6 +9,7 @@ help:
   federation.discipline.rules.findings: findings
   federation.structure.class-rule-findings: across-the-federation
   federation.discipline.rules.merge: merging-copies
+  federation.discipline.rules.links: linked-rules
   federation.discipline.rules.trace: check-a-class
   federation.discipline.default-ladder: default-ladder
 ---
@@ -26,8 +27,8 @@ under **Structure**.
 This page starts with the thinking behind class rules and walks through one
 example. It then shows the screens you work in: the rules list, the rule editor,
 the checks that find rules that probably are not meant (findings), the **By class**
-tab that explains what a class gets, merging copies of the same rule, and the
-default ladder. It ends with a reference of every condition, action and
+tab that explains what a class gets, merging copies of the same rule, linking
+one rule across disciplines, and the default ladder. It ends with a reference of every condition, action and
 setting. For complete rule sets you can copy, see
 [Battle class rules](/federation-rules/battle-class-rules/) and
 [Battle sub-rounds](/federation-rules/battle-sub-rounds/).
@@ -276,7 +277,8 @@ Each group row shows:
   least one copy applies to. A rule that reaches 0 classes does nothing today. A
   note such as **1 switched off** counts copies you have turned off, and **the
   same rule exists in Breaking and Popping** tells you the other disciplines of
-  the division have a copy of their own.
+  the division have a copy of their own. A linked rule says **Also in Breaking,
+  Popping** instead ([Linked rules](#linked-rules)).
 - **A finding label**, when the checks on the **Findings** tab found something
   about the group: **Gap**, **2 copies differ**, **Does the opposite**,
   **Unreachable**, **Never effective** and so on ([Findings](#findings)).
@@ -324,11 +326,10 @@ The editor has three cards on the left and three on the right.
 
 **Applies to.** Pick the categories, class levels and age groups the rule is for.
 **Any category** and **Any** mean every value, including ones added later; **Pick
-some…** lets you choose. The **Also in these … disciplines** chips show which
-disciplines of the division there are, but they cannot be picked yet: a rule
-belongs to one discipline for now, and rules shared across disciplines are not
-possible yet. When you edit a group, each copy keeps its own scope and saving
-changes the conditions and the changes on all of them.
+some…** lets you choose. **Also in these … disciplines** adds the rule to other
+disciplines, linked, so it is one rule to edit in all of them ([Linked
+rules](#linked-rules)). When you edit a group, each copy keeps its own scope and
+saving changes the conditions and the changes on all of them.
 
 **When.** Which rounds, and for which class sizes, in plain words
 ([Round conditions in plain words](#round-conditions-in-plain-words)). Under
@@ -689,6 +690,7 @@ What to know:
   reload.
 - Each discipline is merged on its own page, with its own check. When sister
   disciplines have copies of the same rule, the dialog says so and links to them.
+  Merged alike, they can then be linked into one rule ([Linked rules](#linked-rules)).
 
 ### Merge all safe groups
 
@@ -714,6 +716,188 @@ What to know:
 There is no undo here either: the copies are removed, and the check is what makes
 that safe. On the federation page, the same button for administrators handles the
 disciplines one after the other and gives a result per discipline.
+
+After the merges, the rules that have become identical across the disciplines
+are linked into one rule ([Merge all safe groups links too](#merge-all-safe-groups-links-too)).
+
+## Linked rules
+
+The disciplines of a division often use the same rule. Hiphop, Breaking and
+Popping may each say "max 3 on the floor in the semi-final", and until now each
+discipline had a copy of its own: a change had to be made three times, and it was
+easy to forget one. **Linking** turns those copies into one rule. Edit it in any
+of the disciplines and the change reaches all of them, so they cannot drift
+apart.
+
+What stays per discipline:
+
+- **Its place in the list.** Each discipline keeps the rule where it stands in
+  its own reading order, so you can still move it in one discipline only.
+- **Its switch.** You can switch the rule off in one discipline and keep it on
+  in the others.
+
+Where a rule can be linked:
+
+- A rule that names categories, class levels or age groups is linked with other
+  disciplines of **the same division**.
+- A rule for any category, level and age group can also be linked with
+  disciplines of **other divisions**, such as Disco in IDO.
+
+Linking changes no round: the copies already say the same, so a link needs no
+check.
+
+### How a linked rule looks
+
+In the rules list, a linked rule says where else it is:
+
+- **Also in Breaking, Popping** names the other disciplines that have the rule.
+  A discipline of another division is named with its division, such as
+  **IDO: Disco**.
+- **Off in Popping** names the disciplines where the rule is switched off.
+
+A linked row has a **Linked** button with everything you can do to the link:
+switch it off here or everywhere, unlink it, remove it from this discipline or
+delete it everywhere. **How linked rules work** at the bottom of the menu opens
+this section.
+
+![A linked rule in the list, with the Linked menu open](/assets/images/class-rules/linked-rules-list.png)
+
+### Linking a rule from the rule editor
+
+1. Press **Edit** on the rule's row to open the rule editor.
+2. Under **Applies to**, **Also in these Streetstyles disciplines** shows the
+   disciplines of the division. The ones that already have the rule are ticked.
+   For a rule for any category, level and age group, the disciplines of the other
+   divisions are listed too, under their division's name.
+
+   ![The Disciplines field in the rule editor](/assets/images/class-rules/linked-rules-editor.png)
+
+3. Tick a discipline to add the rule there, linked. Untick one to remove the rule
+   from it.
+4. Press **Save**. **Save the rule in every discipline it is in?** lists what
+   saving does: **Changes the rule in …** with how many active classes each
+   discipline has, **Adds it to …, linked.** and **Removes it from ….** Press
+   **Save** to confirm.
+
+Ticking adds a new rule to that discipline. If the discipline already has its
+own copy of the rule, link the copies instead, by merging
+([Linking while you merge](#linking-while-you-merge)), so the discipline does
+not get the rule twice.
+
+Saving any change to a linked rule shows the same confirmation, so you always
+see which disciplines the change reaches before it is saved.
+
+What to know:
+
+- **Edit all** on a group of copies cannot add the rule to other disciplines:
+  copies edited together stay in this discipline. Open one copy with **Edit** to
+  link it.
+- A rule shared with another division cannot be limited to categories, levels or
+  age groups. If you narrow such a rule, saving asks **Unlink the other divisions
+  and save?**. Press **Unlink and save**: the other divisions keep their own copy,
+  no longer linked.
+- Rules that belong to a round setup, the default ladder and rules a round setup
+  has replaced stay in their own discipline and cannot be linked.
+- The **Setup** tag under **Advanced** is part of the rule, so it is the same in
+  every discipline the rule is linked with.
+
+### Linking while you merge
+
+When the other disciplines of the division already have the rule that a merge is
+about to make, the merge dialog offers to link them in the same step. Merge the
+copies in each discipline on its own page; the last merge links them.
+
+1. Press **Merge 3** on the group row. The dialog **Merge 3 rules into one**
+   opens and runs its check.
+2. Under the check, a card says **Breaking and Popping already have this rule as
+   the merge makes it**, with **Link with Breaking and Popping** ticked.
+3. Leave it ticked and press **Merge 3 rules into 1**, then confirm. The copies
+   are merged, and the merged rule is linked with Breaking and Popping. Untick
+   **Link with Breaking and Popping** to merge without linking.
+
+![The merge dialog offering to link the merged rule](/assets/images/class-rules/linked-rules-merge.png)
+
+A copy that is already linked cannot be merged with the copies in its own
+discipline. The dialog says **This copy is linked with …** and offers **Unlink
+and merge**: unlinking keeps every discipline's copy as it is and changes no
+round, and the merge is then checked as usual.
+
+### Merge all safe groups links too
+
+**Merge all safe groups** ([Merge all safe groups](#merge-all-safe-groups)) now
+ends with a linking step. It merges first, then links the rules that have become
+identical across the disciplines.
+
+1. Press **Merge all safe groups** under the last row.
+2. Next to **Will merge** (and **Will not merge**, if any), the dialog lists
+   **Will link**: each rule that will be linked and the disciplines it will be
+   linked across, for example "max 3 on the floor in the semi-final" · Hiphop,
+   Breaking, Popping.
+3. Press **Merge 9 groups**. The groups are merged one after the other, and the
+   identical rules are linked last. When there is nothing to merge but something
+   to link, the button says **Link 9 rules** instead.
+4. The result lists **Linked** next to what was merged, and **Not linked** for any
+   rule that could not be linked.
+
+![Merge all safe groups with the linking step](/assets/images/class-rules/linked-rules-merge-all.png)
+
+On a discipline's page, the rules are linked with the other disciplines of the
+division. The same button on the federation page, which handles every discipline,
+also links identical rules for any category, level and age group across the
+divisions. Under **Across …**, the federation-wide count says how many groups of
+identical rules would be linked after the merges.
+
+If the merges went through but the rules could not be linked, the dialog says
+**The merges stand, but the rules could not be read again to link them. Run it
+again to link.** Running it again links them.
+
+### Switching a linked rule off
+
+Open the **Linked** menu on the row:
+
+- **Switch off here** switches the rule off in this discipline only. It stays on
+  in the others, and the row says **Off in …** in each of them.
+- **Switch off everywhere** switches it off in every discipline it is linked
+  with.
+
+Either way the rule stays saved and linked. **Switch on here** and **Switch on
+everywhere** bring it back. In the rule editor, the same choice is the **Switch
+off here** button at the top; its arrow opens **Switch off everywhere**. **Switch
+off here** in the editor is saved when you press **Save**.
+
+### Unlinking, removing and deleting
+
+These are in the **Linked** menu, and under **More** in the rule editor:
+
+- **Unlink from the others** keeps the rule in every discipline, but each
+  discipline then has its own copy again, and a change to one no longer reaches
+  the others. It changes no round.
+- **Remove from this discipline** takes the rule out of this discipline only. The
+  other disciplines keep it.
+- **Delete in every discipline** removes the rule from every discipline it is
+  in. **There is no undo.**
+
+Each one asks first and names the disciplines it touches.
+
+### When linked copies differ
+
+The disciplines of a link normally say exactly the same. If one of them no longer
+does (an older version of the app wrote it, or it was fixed directly), the row
+says **The copies in Breaking no longer say the same as this one** and offers
+**Make all like this one**. The rule editor shows the same warning, and saving
+the rule there also makes every copy like the one you saved. On the **Findings**
+tab the problem is listed as **Linked copies differ**, with **Make all like this
+one** on the finding.
+
+1. Open the copy that says what the rule should say.
+2. Press **Make all like this one**.
+3. Confirm. The copies in the other disciplines then say what this one says: the
+   same conditions, changes, categories, levels, age groups and reading. Each
+   discipline keeps its own place in the list and its own switch.
+
+Until the copies say the same again, a change that would reach them in another
+way, such as linking them with one more discipline, is refused with a message to
+make them all like one copy first, or to unlink them.
 
 ---
 
@@ -909,6 +1093,7 @@ guide.
 | **Default ladder** | Row 0 of the list: the ladder for classes no other rule gives one. |
 | **Copy** | One of several rules that do exactly the same thing for different classes. |
 | **Group** | All the copies of one rule, shown as one row. |
+| **Linked rule** | One rule used by several disciplines: a change in one reaches all of them, while each keeps its own place in the list and its own switch. |
 | **Finding** | Something in the rules that probably is not meant, reported on the **Findings** tab. |
 | **Counted from the start / from the final** | Two ways to number the same rounds: from the first round forward, or from the final backward. |
 | **Placing round** | The first round, which ranks everyone before the bracket or later rounds. |

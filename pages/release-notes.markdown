@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-25
+ ⭐ **New**
+* Federation: A class rule that several disciplines use can now be linked, so it is one rule: a change made in one discipline reaches all of them, while each discipline keeps the rule's place in its own list and can switch it off for itself. Tick the disciplines under **Applies to** in the rule editor, or tick **Link with …** when you merge copies. **Merge all safe groups** now merges first and then links the rules that have become identical across the division's disciplines (and, on the federation page, rules for any category, level and age group across divisions). A linked rule says **Also in …** and **Off in …** in the list, and its **Linked** menu switches it off here or everywhere, unlinks it, or removes it from one discipline or every discipline (see [Linked rules](/federation-rules/reference/#linked-rules))
 ## 2026-10-24
  🛠️ **Improvements**
 * Manager: On the **Judges** page, a **Chief judge (in)** now counts as one of the panel's judges. A panel that wants 5 judges with a **Chief judge (in)** is full with 4 judges plus the chief, so it no longer shows "Still needed: 1 × Judge" or a warning on the **Validator**; before, the chief was counted separately. A **Chief judge (out)** still does not count towards the judges, and a panel with a **Chief judge (in)** on its **Seats wanted** now needs one who marks, not a **Chief judge (out)** (see [A panel's settings](/manager-guide/judges/#a-panels-settings))
