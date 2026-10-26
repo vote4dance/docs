@@ -6,6 +6,14 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-26
+ ⭐ **New**
+* All web apps: You can sign in with just your e-mail. Press **Continue**, type the 6-digit code that Vote4Dance mails you (it works for 10 minutes), and you are in; there is no password to remember. A new e-mail address gets a short form after the code (first name, last name, nationality and the terms), with no password to invent. An account that has a password can still use it with **This account has a password · use it instead**, and **Forgot your password?** still works. The Vote4Dance mobile app keeps its e-mail and password sign-in for now (see [Sign in with a code](/signing-in/#sign-in-with-a-code))
+* All web apps: After you sign in with a code or a password, you are offered once on each device to save a **passkey**, so your face, fingerprint or phone code signs you in next time. On a borrowed computer, choose **Use a passkey from your phone** and scan the code on the screen with your phone. A code to your e-mail always works if you lose your phone (see [Save a passkey](/signing-in/#save-a-passkey) and [Sign in with a passkey](/signing-in/#sign-in-with-a-passkey))
+* All web apps: A parent can save a passkey for each of their children's accounts on the parent's phone; the phone lists the accounts by the child's name (see [Children's accounts on a parent's phone](/signing-in/#childrens-accounts-on-a-parents-phone))
+* All web apps: Changing your password now signs your account out on your other devices (see [Use your password](/signing-in/#use-your-password))
+* Public: **My account** → **Settings** has a new **How you sign in** box. It lists your passkeys, where you can remove one or add one on the device you are using, shows the e-mail code as always on, and keeps **Set password** (see [Manage how you sign in](/signing-in/#manage-how-you-sign-in))
+* Check-in: An account that the desk creates for a walk-in no longer gets a password. The person signs in with their e-mail address and a code (see [Create an account](/signing-in/#create-an-account))
 ## 2026-10-25
  🛠️ **Improvements**
 * App: Tapping **Vote** in a round without Premium now closes the round and shows the Premium offer; before, nothing seemed to happen on iPhone and the app stopped responding to taps once the round was closed (see [Vote for a competitor](/dancer/following-in-the-app/#vote-for-a-competitor))
