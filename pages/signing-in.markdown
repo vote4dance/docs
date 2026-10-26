@@ -117,7 +117,7 @@ If you have no phone with you, use the e-mail code instead.
 
 Every dancer has an account of their own, and a child's account has its own e-mail address (see [Dancer account creation](/dancer/account-creation/#one-account-per-dancer)). If you manage your children's accounts, you can save a passkey for each child on your own phone.
 
-1. Sign in to your child's account with a code sent to the child's e-mail address.
+1. Sign in to your child's account with its e-mail address. The code goes to that address, which is often your own.
 2. When Vote4Dance offers a passkey, check that it says your child's name, for example **Save passkey for** followed by the name, and choose it.
 3. Repeat for each child.
 
