@@ -25,9 +25,22 @@ help:
 
 The report answers one question: **how many different dancers does each club bring, and on which days?** It is a headcount for planning space and dressing rooms, not an occupancy model.
 
+### What Dancers and Organizations count
+
+Organizers use these numbers for insurance, fire safety, the venue or city, catering and the yearly report, so this is exactly what goes in:
+
+- **Dancers** is the number of **different people who dance** in the event. Someone entered in four classes is one dancer.
+- **Everyone in a group or formation counts.** A formation of 24 brings 24 dancers. The count follows the line-up the club sent for each class: a dancer the club left out of a class does not count for it, and a replacement or an added dancer does.
+- **Coaches, team staff, judges, volunteers and spectators are not included.** Add them yourself if your insurance or venue needs the full number of people in the building.
+- **Organizations** is the number of **different clubs** these dancers dance for. A club with several registration periods is still one club, so this can be lower than the number of rows on the **Registrations → Clubs** tab, which lists a club once per registration period.
+
+The same explanation is shown above the numbers on the **Dressing rooms** tab.
+
+![The Dressing rooms tab explaining what Dancers and Organizations count](/assets/images/statistics/dressing-rooms-what-counts.png)
+
 ### How it counts
 
-- **A dancer is counted once.** A dancer entered in four classes is one person. Entries are deduplicated on the dancer's identity (federation id or, for older imports, name).
+- **A dancer is counted once.** A dancer entered in four classes is one person. Dancers who registered in Vote4Dance are recognized by their account; participants imported from a file without registrations are recognized by their federation id or, for older imports, their name.
 - **A dancer is listed on every day one of their classes is scheduled.** A class with a heat on Saturday and the final on Sunday puts its dancers on both days.
 - **The club is the club the dancer represents in that class.** A dancer who represents two clubs in different classes appears in both club rows, but once in the total.
 - Cancelled participants are left out.
