@@ -8,7 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-10-26
  🛠️ **Improvements**
-* Manager: **Statistics → Dressing rooms** now counts every dancer of a group or formation, following the line-up the club sent for each class. Before, once the participants were imported, an entry counted at most three dancers, so events with groups and formations showed far too few **Dancers**. The tab now also says above the numbers what **Dancers** and **Organizations** count (see [What Dancers and Organizations count](/manager-guide/statistics/#what-dancers-and-organizations-count))
+* Manager: **Statistics → Dressing rooms**, **Day by day** and **Print dancer lists** now count and list every dancer of a group or formation, following the line-up the club sent for each class. Before, once the participants were imported, an entry counted at most three dancers, so events with groups and formations showed far too few **Dancers** and the dancer lists missed people. The tab now also says above the numbers what **Dancers** and **Organizations** count (see [What Dancers and Organizations count](/manager-guide/statistics/#what-dancers-and-organizations-count))
 ## 2026-10-25
  🛠️ **Improvements**
 * App: Tapping **Vote** in a round without Premium now closes the round and shows the Premium offer; before, nothing seemed to happen on iPhone and the app stopped responding to taps once the round was closed (see [Vote for a competitor](/dancer/following-in-the-app/#vote-for-a-competitor))
