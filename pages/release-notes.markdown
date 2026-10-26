@@ -8,6 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-10-26
  🛠️ **Improvements**
+* Registration, Check-in: Dancers you skip from a team's lineup for a class no longer get that class's confirmation e-mail or check-in QR code, are no longer let in at the check-in desk as dancing in it, and no longer show for it in the club's and organizer's registration lists or on **My event**. A replacement dancer gets all of these instead. Before, everyone on the team got them, even though only the dancers in the lineup were charged (see [Step 3: Register](/school-club/registration-for-event/#step-3-register))
 * Manager: **Statistics → Dressing rooms**, **Day by day** and **Print dancer lists** now count and list every dancer of a group or formation, following the line-up the club sent for each class. Before, once the participants were imported, an entry counted at most three dancers, so events with groups and formations showed far too few **Dancers** and the dancer lists missed people. The tab now also says above the numbers what **Dancers** and **Organizations** count (see [What Dancers and Organizations count](/manager-guide/statistics/#what-dancers-and-organizations-count))
 ## 2026-10-25
  🛠️ **Improvements**

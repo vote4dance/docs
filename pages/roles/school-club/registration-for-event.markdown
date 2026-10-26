@@ -69,6 +69,9 @@ sent, not only on the page. So:
   "Edit the lineup in the cart before registering", where the class allows lineup changes. In the
   cart, a refused entry says why and has an **Edit lineup** button.
 - A replacement dancer takes over the dance role of the dancer they replace.
+- A skipped dancer is not part of the entry: they get no confirmation e-mail or check-in QR code
+  for it, the check-in desk does not let them in as dancing in it, and it is not listed for them.
+  A replacement dancer gets all of these instead. A dancer you skip is not charged for the class.
 - Classes the team is too big for under the federation's rules stay hidden: the team's size decides
   whether it is a small group or a formation.
 
