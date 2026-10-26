@@ -26,7 +26,7 @@ You create your personal account yourself. Then:
 
 Navigate to **https://vote4dance.com**
 
-Create an account at the homepage. Manager access is then given to you per event, by whoever owns that event.
+Sign in at the homepage with your e-mail and a code; a new address creates your account (see [Signing in](/signing-in/)). Manager access is then given to you per event, by whoever owns that event.
 
 ## Before you start
 
@@ -40,24 +40,21 @@ Gather these details:
 
 ### Part 1: Create your personal Vote4Dance account
 
-1. Go to https://vote4dance.com and choose **Create account**
-2. Fill in the form:
+1. Go to https://vote4dance.com and choose **Sign in**
+2. Type your **e-mail** and press **Continue**. Use your own permanent address: it is your sign-in name, and where registration confirmations and the check-in QR code go.
+3. Type the 6-digit code that Vote4Dance mails to that address. It works for 10 minutes.
+4. Fill in the short form that follows a new address:
 
 | Field | Notes |
 |---|---|
-| **First name** | Letters, spaces, hyphens and apostrophes only. |
-| **Last name** | Same. Use the name your federation and organizers know you by, not a nickname — this is how you are found in entry lists. |
-| **Email** | Your own permanent address. This is your sign-in name, and where registration confirmations and the check-in QR code go. |
-| **Country** | Required. |
-| **Password** and **Confirm password** | The two must match. |
+| **Firstname** | Letters, spaces, hyphens and apostrophes only. |
+| **Lastname** | Same. Use the name your federation and organizers know you by, not a nickname — this is how you are found in entry lists. |
+| **Nationality** | Required. |
 | **I accept the Terms of Service and Privacy Policy** | Required. |
 
-3. Complete the captcha if you are asked for one
-4. Submit
+5. Press **Create account**
 
-You are **signed in immediately** — there is no confirmation email to wait for and no link to
-click. If the email is already taken, Vote4Dance says "Email already exists"; use
-**Forgot your password?** on the sign-in page rather than creating a second account.
+You are **signed in immediately**. There is no password to invent, and no separate sign-up. If you already have an account with that e-mail address, the code signs you in to it rather than creating a second one. See [Signing in](/signing-in/) for the steps with screenshots, and for saving a **passkey** so your face or fingerprint signs you in next time.
 
 There is no birth year, club or licence on this form. Those come later, on your profile and
 through your federation.
@@ -86,7 +83,7 @@ Two things worth knowing:
 
 ### Part 3: Verify you have access
 
-1. Sign in with your email and password
+1. Sign in with your email and a code (or your passkey)
 2. Open the event; you should see one tile per app you have been given
 3. Open **Manager** and confirm you can reach the event's setup pages
 
@@ -127,16 +124,11 @@ Lineup, Check-in, Cafe or Organizer. Ask for the app you actually need to be tic
 
 ### "I forgot my password"
 
-1. Go to https://vote4dance.com
-2. Click "Sign In"
-3. Click **Forgot Password?**
-4. Enter your email
-5. Check your email for a reset link
-6. Create a new password and sign in
+You do not need a password. Go to https://vote4dance.com, choose **Sign in**, type your email and press **Continue**, then type the code that arrives in your inbox. If you do have a password and want to reset it, choose **This account has a password · use it instead**, then **Forgot your password?**. See [Signing in](/signing-in/#use-your-password).
 
 ## What success looks like
 
-- You can sign in with your email and password
+- You can sign in with your email and a code, or a passkey
 - You can click **Manager** and see event configuration options
 - You can create a new event or open an existing one
 - You can edit the event's details
