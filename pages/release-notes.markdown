@@ -7,7 +7,11 @@ nav_order: 10
 
 # Release notes
 ## 2026-10-26
+ ⭐ **New**
+* Manager: A dancer who belongs to more than one club now gets a list under **Represents** in **Edit registration**, so you can correct the club a dancer or parent picked by mistake when registering. Only clubs that have approved the dancer are listed, and clearing the list goes back to the club Vote4Dance finds on its own (see [Change the club a dancer represents](/manager-guide/registration-checkin/#change-the-club-a-dancer-represents))
+
  🛠️ **Improvements**
+* Manager: The **Organization** column on the **Registrations** tab now shows every dancer's club as soon as the page opens; before, a dancer whose club came from their own account showed only after you opened the row (see [Which club a dancer represents](/manager-guide/registration-checkin/#which-club-a-dancer-represents))
 * Registration, Check-in: Dancers you skip from a team's lineup for a class no longer get that class's confirmation e-mail or check-in QR code, are no longer let in at the check-in desk as dancing in it, and no longer show for it in the club's and organizer's registration lists or on **My event**. A replacement dancer gets all of these instead. Before, everyone on the team got them, even though only the dancers in the lineup were charged (see [Step 3: Register](/school-club/registration-for-event/#step-3-register))
 * Manager: **Statistics → Dressing rooms**, **Day by day** and **Print dancer lists** now count and list every dancer of a group or formation, following the line-up the club sent for each class. Before, once the participants were imported, an entry counted at most three dancers, so events with groups and formations showed far too few **Dancers** and the dancer lists missed people. A dancer who is both in a registered entry and in a couple put together on the start list (a Jack & Jill final) now counts once. The tab now also says above the numbers what **Dancers** and **Organizations** count (see [What Dancers and Organizations count](/manager-guide/statistics/#what-dancers-and-organizations-count))
 ## 2026-10-25
