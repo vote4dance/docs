@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-26
+ 🛠️ **Improvements**
+* Registration, Check-in: Dancers you skip from a team's lineup for a class no longer get that class's confirmation e-mail or check-in QR code, are no longer let in at the check-in desk as dancing in it, and no longer show for it in the club's and organizer's registration lists or on **My event**. A replacement dancer gets all of these instead. Before, everyone on the team got them, even though only the dancers in the lineup were charged (see [Step 3: Register](/school-club/registration-for-event/#step-3-register))
 ## 2026-10-25
  🛠️ **Improvements**
 * App: Tapping **Vote** in a round without Premium now closes the round and shows the Premium offer; before, nothing seemed to happen on iPhone and the app stopped responding to taps once the round was closed (see [Vote for a competitor](/dancer/following-in-the-app/#vote-for-a-competitor))
