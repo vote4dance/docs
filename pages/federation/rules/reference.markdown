@@ -620,7 +620,11 @@ with what it did:
 - A **Finding** label on a row that a finding is about, which opens its review.
 
 On the right, **Rounds the manager will create** shows the rounds the Round Guide
-would make, with how many dance, how many go through and the floor size. A round
+would make, with how many dance, how many go through and the floor size. How
+many go through is what the round's **Num to advance** says, and the next round
+shows that many dancers, even when its round size is larger: a final that holds
+8 for classes that start there still shows the 6 a semifinal sends. A second
+chance shows the dancers who did not go straight through. A round
 that got a built-in name or a cut that no other age group dances is marked, which
 is how a hole in the ladder shows up. **Same class with one more competitor**
 shows the rounds one competitor higher, so you can see which rules start or stop
