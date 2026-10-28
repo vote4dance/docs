@@ -58,7 +58,7 @@ To collect team names in a class that doesn't use them, for example a crew class
 
 3. Click **OK**. Dancers registering for the class are now asked for the name, and it shows on the **Registrations** list and on the start list after the import.
 
-A name you type on a registration yourself always shows and is imported. Asking for **Name of show** collects a show title and doesn't turn team names on. A federation can switch team names on or off for its categories; where it switches them off, the start list always shows the dancers.
+A name you type on a registration yourself always shows and is imported. If the start list shows a team under its dancers while the **Registrations** list shows its name, import the registrations again: the import updates the entries already on the start list. Asking for **Name of show** collects a show title and doesn't turn team names on. A federation can switch team names on or off for its categories; where it switches them off, the start list always shows the dancers.
 
 ## Registration statuses
 
