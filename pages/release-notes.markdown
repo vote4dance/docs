@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-28
+ 🛠️ **Improvements**
+* Manager: Importing registrations now puts a group or formation team on the start list under its team name, also when the name was given to the team and not typed on the registration; before, such a team showed up under its first three dancers on the start list and the public participants list, while the **Registrations** list showed its name. A team name containing **&** now stays whole. To fix a start list you imported earlier, import the registrations again (see [Team names](/manager-guide/registration-checkin/#team-names))
 ## 2026-10-26
  ⭐ **New**
 * Manager: A dancer who belongs to more than one club now gets a list under **Represents** in **Edit registration**, so you can correct the club a dancer or parent picked by mistake when registering. Only clubs that have approved the dancer are listed, and clearing the list goes back to the club Vote4Dance finds on its own (see [Change the club a dancer represents](/manager-guide/registration-checkin/#change-the-club-a-dancer-represents))
