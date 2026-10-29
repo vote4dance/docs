@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-29
+ ⭐ **New**
+* Federation: The **Class rules** tab has a **Download CSV** button. It saves every rule of the discipline as a spreadsheet row, with where it applies, its condition and each setting in its own column, so you can go through the rules or agree changes outside Vote4Dance (see [Download the rules](/federation-rules/reference/#download-the-rules))
 ## 2026-10-26
  ⭐ **New**
 * Manager: A dancer who belongs to more than one club now gets a list under **Represents** in **Edit registration**, so you can correct the club a dancer or parent picked by mistake when registering. Only clubs that have approved the dancer are listed, and clearing the list goes back to the club Vote4Dance finds on its own (see [Change the club a dancer represents](/manager-guide/registration-checkin/#change-the-club-a-dancer-represents))
