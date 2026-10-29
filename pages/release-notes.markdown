@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-10-29
+ 🛠️ **Improvements**
+* Speaker: On **Lineup**, every heat card always shows its heat number and how many are dancing in it. When the cards are narrow, for example with two rounds side by side or a zoomed-in browser, the **Done** button shrinks to a ✓ instead of covering the count (see [Live operations](/manager-guide/live-operations/))
 ## 2026-10-26
  ⭐ **New**
 * Manager: A dancer who belongs to more than one club now gets a list under **Represents** in **Edit registration**, so you can correct the club a dancer or parent picked by mistake when registering. Only clubs that have approved the dancer are listed, and clearing the list goes back to the club Vote4Dance finds on its own (see [Change the club a dancer represents](/manager-guide/registration-checkin/#change-the-club-a-dancer-represents))
