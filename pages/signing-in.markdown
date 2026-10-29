@@ -88,6 +88,7 @@ Good to know:
 - **A passkey only works on vote4dance.com**, so a fake website cannot trick it out of you.
 - **On iPhone and Android it follows you.** It is kept in your device's own keychain, together with your other saved logins, so it is also on your new phone. On other devices it can be for that device only; the list under **How you sign in** says which.
 - **You are not locked out if you lose your phone.** A code to your e-mail always signs you in.
+- **Changing or resetting your password removes your passkeys.** That signs out anyone who might have saved one with your old password. Save a new passkey on your own devices afterwards.
 
 To read more about passkeys, choose **What is a passkey?** on the sign-in screen.
 
