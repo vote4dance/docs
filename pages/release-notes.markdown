@@ -10,8 +10,11 @@ nav_order: 10
  🛠️ **Improvements**
 * App: Start numbers in a round's heats stay on one line and are easier to read, also when the phone's text size is turned up; before, a four-digit number could break over two lines (see [Find results](/dancer/following-in-the-app/#find-results))
 * Public: On a club's **Registration** page, **Download list (CSV)** now sits on the selected event and downloads that event's active entries, in a file named after the event; before, **Export CSV** downloaded every entry of all events shown in one file (see [Registration](/school-club/club-admin/#registration))
-* Manager: **Statistics** → **Dressing rooms** counts every member of a registered group or formation; before, an entry counted at most three dancers (see [How it counts](/manager-guide/statistics/#how-it-counts))
+* Manager: **Statistics** (the overview, **Dressing rooms** and the printed dressing-room lists) now counts every member of a registered group or formation once the participants are imported; before, an entry could still count at most three dancers, so an event with groups showed far too few **Dancers** (see [What Dancers and Organizations count](/manager-guide/statistics/#what-dancers-and-organizations-count))
 * Manager: The **Registrations** list shows the dancers who dance the entry, with lineup changes applied, instead of the team's roster (see [Team names](/manager-guide/registration-checkin/#team-names))
+## 2026-10-29
+ 🛠️ **Improvements**
+* Speaker: On **Lineup**, every heat card always shows its heat number and how many are dancing in it. When the cards are narrow, for example with two rounds side by side or a zoomed-in browser, the **Done** button shrinks to a ✓ instead of covering the count (see [Live operations](/manager-guide/live-operations/))
 ## 2026-10-26
  ⭐ **New**
 * Manager: A dancer who belongs to more than one club now gets a list under **Represents** in **Edit registration**, so you can correct the club a dancer or parent picked by mistake when registering. Only clubs that have approved the dancer are listed, and clearing the list goes back to the club Vote4Dance finds on its own (see [Change the club a dancer represents](/manager-guide/registration-checkin/#change-the-club-a-dancer-represents))
