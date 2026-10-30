@@ -184,7 +184,7 @@ To see which dancers of one club or school hold a license:
 1. Open **Licenses** → **All other licenses**
 2. In **Filter by organization**, type part of the club's name or short name and pick it from the list
 
-The list now shows every license of that organization, together with any other filters you have set. Picking an organization unticks **Only show those awaiting an organization or dancer**, so active licenses show too; tick it again to see only the open ones. **Download CSV** downloads the same selection. The list only offers organizations that hold at least one license, so if a club is missing, none of its dancers has a license yet. The search box also finds a license by the organization's name.
+The list now shows every license of that organization, together with any other filters you have set. Picking an organization unticks **Only show those awaiting an organization or dancer**, so active licenses show too; tick it again to see only the open ones. Clearing the organization puts the tick back as it was. **Download CSV** downloads the same selection. The list only offers organizations that hold at least one license: if you see *No organization with that name holds a license*, none of that club's dancers has a license yet. The search box also finds a license by the organization's name.
 
 ### What each field means
 
