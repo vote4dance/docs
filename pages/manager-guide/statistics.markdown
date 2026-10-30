@@ -46,6 +46,7 @@ If a yellow box says **Dancer numbers may be off**, Vote4Dance could not read th
 - **A dancer is counted once.** A dancer entered in four classes is one person. Dancers in Vote4Dance are recognized by their account. A participant imported from a file is recognized by their federation id or name; when the name is exactly that of one dancer in the event's teams, it is that dancer, so they are not counted twice.
 - **A dancer is listed on every day one of their classes is scheduled.** A class with a heat on Saturday and the final on Sunday puts its dancers on both days.
 - **The club is the club the dancer represents in that class.** A dancer who represents two clubs in different classes appears in both club rows, but once in the total.
+- **A registered group or formation counts all its members**, not only the three names shown on the entry.
 - Cancelled participants are left out.
 
 ### The numbers on the page
