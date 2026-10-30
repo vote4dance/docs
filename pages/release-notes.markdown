@@ -8,6 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-10-30
  🛠️ **Improvements**
+* Federation: **Licenses** → **All other licenses** has a **Filter by organization**, so you can see which dancers of one club or school hold a license; type part of the club's name to find it. **Download CSV** follows the filter, and the search box also finds a club by name (see [Licenses of one organization](/federation-licenses/federation-admin/#licenses-of-one-organization))
 * App: Start numbers in a round's heats stay on one line and are easier to read, also when the phone's text size is turned up; before, a four-digit number could break over two lines (see [Find results](/dancer/following-in-the-app/#find-results))
 * Public: On a club's **Registration** page, **Download list (CSV)** now sits on the selected event and downloads that event's active entries, in a file named after the event; before, **Export CSV** downloaded every entry of all events shown in one file (see [Registration](/school-club/club-admin/#registration))
 * Manager: **Statistics** (the overview, **Dressing rooms** and the printed dressing-room lists) now counts every member of a registered group or formation once the participants are imported; before, an entry could still count at most three dancers, so an event with groups showed far too few **Dancers** (see [What Dancers and Organizations count](/manager-guide/statistics/#what-dancers-and-organizations-count))
