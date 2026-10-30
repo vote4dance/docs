@@ -58,7 +58,7 @@ If a yellow box says **Dancer numbers may be off**, Vote4Dance could not read th
 | **Without club** (card) | Dancers whose club could not be resolved. They are listed in the "No club" row. |
 | **Dancers per day** (chart) | Unique dancers on each scheduled day. |
 | **Dancers per organization** (chart) | The largest clubs. The table below is complete. |
-| **Organization** (column) | Club name. "No club" collects everyone without a resolved club. |
+| **Organization** (column) | Club name, with its short code in brackets when it has one. "No club" collects everyone without a resolved club. |
 | **Dancers** (column) | Unique people from that club across the event. |
 | **Entries** (column) | Couples and teams from that club. A mixed-club couple counts once for each club. |
 | One column per day | Unique dancers from that club on that day. A dash means none. |
