@@ -90,6 +90,8 @@ and payment.
 - **Get cost** shows the price. **Pay now** pays online, when the event takes online payment.
   With manual payment you see the amount and the organizer's payment details instead.
 - If the organizer invoices the club, the invoice appears under **Pay your registrations**.
+- The receipt or invoice the club gets after paying has one line per team or dancer. Each line
+  names the team, its dancers and its classes, so you can match every amount to a team.
 - **Edit lineup** changes the dancers while the period is open. Some events lock the lineup once
   paid. The new lineup is checked against the class rules again.
 
