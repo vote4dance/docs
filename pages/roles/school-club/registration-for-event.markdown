@@ -88,7 +88,8 @@ and payment.
 
 - **Only Approved entries dance.** Preliminary means the organizer has not accepted it yet.
 - **Get cost** shows the price. **Pay now** pays online, when the event takes online payment.
-  With manual payment you see the amount and the organizer's payment details instead.
+  Once paid, the registration is final. With manual payment you see the amount and the
+  organizer's payment details instead.
 - If the organizer invoices the club, the invoice appears under **Pay your registrations**.
 - **Edit lineup** changes the dancers while the period is open. Some events lock the lineup once
   paid. The new lineup is checked against the class rules again.
@@ -107,7 +108,12 @@ Cancel from the **Registration** list while the entry's registration period is o
 is Preliminary, Signed or Approved. A club-owned competitor can only be cancelled by the club's
 coaches, managers and administrators. After the period closes, ask the organizer.
 
-Cancelling does not refund anything. The organizer refunds from Manager.
+1. Press the cancel button on the entry.
+2. Check the class named in **Withdraw from …?** and press **Withdraw**, or **Keep it** to stop.
+
+Everyone on the entry gets an email confirming it. Cancelling does not refund anything: if the
+entry is paid, the confirmation says so, and the organizer decides on refunds and makes them from
+Manager.
 
 ## Common problems
 
