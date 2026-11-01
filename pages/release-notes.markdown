@@ -8,6 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-10-30
  🛠️ **Improvements**
+* Federation: **Licenses** → **All other licenses** has a **Filter by organization**, so you can see which dancers of one club or school hold a license; type part of the club's name to find it. **Download CSV** follows the filter, and the search box also finds a club by name (see [Licenses of one organization](/federation-licenses/federation-admin/#licenses-of-one-organization))
 * Public: The invoice and receipt a club gets when it pays for registrations now has one line per team or dancer that names the team, its dancers and its classes, for example "Winter Cup – Main: Sparkles (Anna Andersson, Erik Berg) — Disco Duo Juniors". Before, every line only said the event and the registration period. Invoices sent before this change stay as they are (see [Step 4: Follow up and pay](/school-club/registration-for-event/#step-4-follow-up-and-pay))
 * App: Start numbers in a round's heats stay on one line and are easier to read, also when the phone's text size is turned up; before, a four-digit number could break over two lines (see [Find results](/dancer/following-in-the-app/#find-results))
 * Public: On a club's **Registration** page, **Download list (CSV)** now sits on the selected event and downloads that event's active entries, in a file named after the event; before, **Export CSV** downloaded every entry of all events shown in one file (see [Registration](/school-club/club-admin/#registration))
