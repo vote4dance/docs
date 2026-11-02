@@ -6,6 +6,11 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-02
+ ⭐ **New**
+* Public: A sponsor can upload a short video on their sponsor page, under **Sponsor video**. The video plays on the venue screens once the organizer has approved it; until then the logo is shown (see [Uploading a video](/manager-guide/sponsor-videos/#uploading-a-video))
+* Screens: Sponsors with an approved video are shown as a clip: on the **Sponsors** screen loop, including sponsors with a break screen package, and as the intro of a final. A **Results presented by** card covers a final's result screen for a few seconds (see [What the venue screens show](/manager-guide/sponsor-videos/#what-the-venue-screens-show))
+* Speaker: **Sponsor spots** on the **Overview** lets the speaker **Play** a sponsor's video or logo full screen on all or some of the screens, and **Skip** it again. A screen showing a live heat waits until the heat has cleared (see [Playing and skipping a sponsor spot](/manager-guide/sponsor-videos/#playing-and-skipping-a-sponsor-spot))
 ## 2026-10-30
  🛠️ **Improvements**
 * Federation: **Licenses** → **All other licenses** has a **Filter by organization**, so you can see which dancers of one club or school hold a license; type part of the club's name to find it. **Download CSV** follows the filter, and the search box also finds a club by name (see [Licenses of one organization](/federation-licenses/federation-admin/#licenses-of-one-organization))
