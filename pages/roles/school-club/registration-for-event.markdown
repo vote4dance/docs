@@ -94,8 +94,48 @@ and payment.
   names the team, its dancers and its classes, so you can match every amount to a team.
 - **Edit lineup** changes the dancers while the period is open. Some events lock the lineup once
   paid. The new lineup is checked against the class rules again.
+- **Change class**, the swap icon next to **Edit lineup**, moves an entry to another class while the
+  period is open. See [Moving an entry to another class](#moving-an-entry-to-another-class).
 
 See [Registration](/school-club/club-admin/#registration) for every column and button.
+
+### Moving an entry to another class
+
+If a dancer or team is in the wrong class, you do not have to cancel and register again: until
+registration closes you can move the entry to another class.
+
+1. Open `Organization → Administration → Registration` and click the event's card.
+2. Find the entry and press **Change class**, the swap icon next to **Edit lineup**.
+3. Pick the class to move to.
+4. Press **Change class** again, or **Keep current class** to stop.
+
+![The Change class button next to Edit lineup on an entry](/assets/images/club-registration/change-class-button.png)
+
+![Picking the class to move the entry to](/assets/images/club-registration/change-class.png)
+
+*Anna and Sam's duo moves from Rising Talent to Ultimate Talent, and both of them move. The solo
+classes are greyed out: a duo cannot dance them.*
+
+What you can move to:
+
+- **Classes that open for registration together with the entry's class**, for example the other
+  levels of the same group of classes. They cost the same, so nothing is charged and nothing is
+  refunded. The entry keeps its status and its payment.
+- **Only classes the entry may dance.** The new class's rules are checked as for a new
+  registration: age, level, licence and team size. A class the entry does not qualify for is greyed
+  out with the reason.
+- **Not a class the team is already in.**
+
+Everyone on the entry moves to the new class.
+
+The **Change class** button is missing when:
+
+- **Registration has closed.** Ask the organizer.
+- **The organizer has already put the entry on the start list**, or the entry has lineup changes
+  for its class, for example a skipped or replaced dancer. Ask the organizer.
+- **There is no other class to move to.** A class that is registered separately, with its own
+  price, is not offered: cancel the entry and register again instead. Cancelling does not refund
+  anything.
 
 ## Step 5: Confirm your roster on the day
 
@@ -122,6 +162,7 @@ Cancelling does not refund anything. The organizer refunds from Manager.
 | A group class is locked with "This team does not belong to a club, and only club teams can enter this class." | The team is independent, even if its dancers are club members. Under **As coach**, choose your club, create the team there with **Owned by organization** ticked (see [Step 1](#step-1-set-up-the-competitors)) and register that team. |
 | A class says **A dancer in this team is already in …** | Your federation lets each dancer dance one class per category (solo, duo…): one age group and one level. One of the team's dancers is already in another class of that category, registered or in the cart. The same check applies when you add a dancer to a registered team or bring one in with **Edit lineup**. See [One class per category](/dancer/registration-for-event/#one-class-per-category). |
 | A class says **This team is already in …** | Your federation lets each group or formation dance one class per category. The team is already in another class of that category; its dancers may still dance in your other teams, in any class. To switch, remove or withdraw the other class first. |
+| Wrong class | Press **Change class** on the entry while the period is open, and pick the right class. If the class you want is not offered, it is registered separately: cancel the entry and register again. After registration closes, ask the organizer. See [Moving an entry to another class](#moving-an-entry-to-another-class). |
 | The lineup must change after registering | **Edit lineup** while the period is open. After that, ask the organizer. |
 | An entry was cancelled on the day | The club did not confirm it at check-in. Talk to the organizer. |
 

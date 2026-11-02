@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-02
+ 🛠️ **Improvements**
+* Public: On a club's **Registration** page, coaches, managers and administrators can now move an entry to another class with **Change class**, the swap icon next to **Edit lineup**, as dancers already can on **My registration**. It works until registration closes, for classes that open for registration together with the entry's class, so the price stays the same; the new class's rules are checked as for a new registration, and an entry already on the start list or with lineup changes is not offered the button (see [Moving an entry to another class](/school-club/registration-for-event/#moving-an-entry-to-another-class))
 ## 2026-10-30
  🛠️ **Improvements**
 * Federation: **Licenses** → **All other licenses** has a **Filter by organization**, so you can see which dancers of one club or school hold a license; type part of the club's name to find it. **Download CSV** follows the filter, and the search box also finds a club by name (see [Licenses of one organization](/federation-licenses/federation-admin/#licenses-of-one-organization))
