@@ -6,6 +6,17 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-02
+ ⭐ **New**
+* App: Live quiz and all-day quizzes at the event: join by QR code or from the event page, answer before the clock runs out, and see your place (see [Quizzes](/spectator/quizzes/))
+* App: **Call it** on every heat: pick who goes through or who wins, and earn points when you are right (see [Hearts and Call it](/spectator/hearts-and-calls/))
+* App: Hearts voting is now free; before, voting could need Premium. The full standings beyond the top 10 and live hearts, where the event shows them, stay in Premium (see [Hearts and Call it](/spectator/hearts-and-calls/#what-is-free))
+* Speaker: The **Audience** page runs quizzes: open the lobby, start and close questions, autoplay, and put the lobby, standings and podium on screen (see [Running a quiz from the speaker app](/manager-guide/speaker-quiz/))
+* Screens: Quiz screens for the lobby with QR code, the question with countdown, the reveal, the leaderboard and the podium (see [Quiz screens](/manager-guide/screens/#quiz-screens))
+* Public: The event's **Audience** tab shows what is on, results so far and the audience favourite of published rounds; quiz results have a page you can share (see [The Audience page](/spectator/audience-page/))
+
+ 🛠️ **Improvements**
+* Public: Giving hearts moved to the app; the website shows a **Take part in the Vote4Dance app** prompt on the heat instead of a voting button (see [Hearts and Call it](/spectator/hearts-and-calls/#give-hearts))
 ## 2026-10-30
  🛠️ **Improvements**
 * Federation: **Licenses** → **All other licenses** has a **Filter by organization**, so you can see which dancers of one club or school hold a license; type part of the club's name to find it. **Download CSV** follows the filter, and the search box also finds a club by name (see [Licenses of one organization](/federation-licenses/federation-admin/#licenses-of-one-organization))
