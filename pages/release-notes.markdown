@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-02
+ ⭐ **New**
+* Federation: The new rule **Team represents** (Country, Club, Individual dancer, Continent) decides what the public participants list and the app show under each team's name, so national competitions can leave out the country and international ones show it. Set it for the whole federation, a division, a discipline or a competition level; without it, teams show club, city and country as before (see [What a team represents](/federation/divisions/#what-a-team-represents))
 ## 2026-10-30
  🛠️ **Improvements**
 * Federation: **Licenses** → **All other licenses** has a **Filter by organization**, so you can see which dancers of one club or school hold a license; type part of the club's name to find it. **Download CSV** follows the filter, and the search box also finds a club by name (see [Licenses of one organization](/federation-licenses/federation-admin/#licenses-of-one-organization))

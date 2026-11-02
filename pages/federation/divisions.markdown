@@ -184,6 +184,23 @@ A competition level's **Code** must be unique in the whole federation, not only 
 
 Class levels are the steps a class ladder promotes through. Competition levels are tiers of competitions; a competition level's rules can, for example, stop a tier from awarding promotion points (see [Promotion points](/federation/progression/)).
 
+### What a team represents
+
+The rule **Team represents** decides what the public participants list and the Vote4Dance app show under each team's name. Use it, for example, to leave out the country at national competitions and show it only at international ones.
+
+| Value | Shown under the team |
+|---|---|
+| **Country** | Club, city and country. This is what every team shows when the rule is not set. |
+| **Club** | Club and city, without the country |
+| **Individual dancer** | Only the team's country, without the club |
+| **Continent** | Club and the continent of the team's country |
+
+1. Set the value most of your competitions need for the whole federation in `Federation → Rulebook`, or on a division's or discipline's **Rules** tab.
+2. Open **Competition Levels**, go to the **Rules** tab of a level that needs something else (for example your international level) and set **Team represents** there.
+3. Save. Open event pages pick up the change within a minute.
+
+A competition shows what its competition level says. A competition without a competition level uses the federation, division or discipline value.
+
 ---
 
 ## Classes
