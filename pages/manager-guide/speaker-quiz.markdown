@@ -30,8 +30,17 @@ If a live quiz has a planned start time, it says **planned for** and the time. W
 1. Tap **Open lobby**. The lobby goes on the screen that follows the floor, with a QR code players scan to join.
 2. Wait for the players to join: **Players join at** shows the address and a count of how many have **joined**. **Show lobby on screen** puts it up again if the screen has changed.
 3. Tap **Open quiz — start question 1**.
+
+   ![The lobby is open: start question 1 when the players have joined](/assets/images/audience/speaker-quiz-lobby.png)
+
 4. The question is on the phones and, with its countdown, on the screen. You see how many have answered and the correct answer, which is not on the screen. Tap **+10 s** (or the number shown) if players need more time.
+
+   ![A question is open: the countdown, how many have answered and the correct answer, shown to you only](/assets/images/audience/speaker-quiz-question.png)
+
 5. Tap **Close now & reveal** to close early, or let the clock close it. The answer split with the correct option highlighted goes on the screen.
+
+   ![After the reveal: the answer split and the leaderboard](/assets/images/audience/speaker-quiz-reveal.png)
+
 6. Tap **Show leaderboard on screen** for the top 10 and how they moved. Tap **Next question** for the next one.
 7. After the last question, tap **Finish quiz**. The podium with the top three goes on the screen.
 

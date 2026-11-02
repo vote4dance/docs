@@ -14,6 +14,8 @@ Every event has an **Audience** tab on its page on the website. It shows what is
 
 ## What the page shows
 
+![The Audience page with a quiz on and the results so far](/assets/images/audience/web-audience-page.png)
+
 - **Happening now**: the quiz that is on, with the question it is on and how many are playing, and the rounds on the floor that you can give hearts to or call. Each has a button that takes you to the app.
 - **All day**: quizzes you can play whenever you like, and until when.
 - **Later today**: quizzes that start by themselves later.
