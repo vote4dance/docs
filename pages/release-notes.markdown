@@ -6,6 +6,10 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-02
+ 🛠️ **Improvements**
+* Manager: **Update/import participants** now lists under **Changed** only the participants where something really changed. Before, running the import again to add new registrations could list every participant already imported as changed, and could move them around in their class (see [Update/import participants](/manager-guide/registration-checkin/#updateimport-participants))
+* Manager, Check-in: A registration you or the check-in desk enter is **Approved** straight away, paid or not, so there is no second step to approve it. Registrations from dancers and clubs follow the period's acceptance as before (see [Registration statuses](/manager-guide/registration-checkin/#registration-statuses))
 ## 2026-10-30
  🛠️ **Improvements**
 * Federation: **Licenses** → **All other licenses** has a **Filter by organization**, so you can see which dancers of one club or school hold a license; type part of the club's name to find it. **Download CSV** follows the filter, and the search box also finds a club by name (see [Licenses of one organization](/federation-licenses/federation-admin/#licenses-of-one-organization))
