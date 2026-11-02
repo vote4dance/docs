@@ -55,7 +55,7 @@ What happens next depends on where you bought Premium:
 
 When the organizer has switched on audience voting, you can give a competitor up to five hearts, until that round's results are published.
 
-1. In the schedule, tap **Vote** next to the competitor. The voting card opens. If voting needs Premium for your account, **Vote** opens the Premium offer instead.
+1. In the schedule, tap **Vote** next to the competitor. The voting card opens. If voting needs Premium for your account, **Vote** closes the round and opens the Premium offer instead.
 2. Tap the big heart to fill the ring a little at a time, or **hold** it to fill the ring while your finger is down. Lift your finger and it stops where it is.
 3. Each time the ring is full you earn a heart. The hearts at the top show how many you have given.
 4. Tap **Clear** to start over, or **Save** to give your votes.

@@ -29,7 +29,7 @@ You need the Manager app for the event to see Problems.
 
 ## Reading the page
 
-If the event has several competitions, the page has one section per competition, headed with the competition's name. Otherwise it shows a single section for the event.
+If the event has several competitions, the page starts with an **Event** section for the checks that look at the whole event, [schedule conflicts](#schedule-conflicts) and [judges on two floors](#judges-on-two-floors), with each clash listed once. Then comes one section per competition, headed with the competition's name. Otherwise it shows a single section for the event.
 
 Each failed check is a table headed **Validating that** *what should be true* **- failed!**, for example "Validating that there are no start number conflicts - failed!". Checks that pass are not shown.
 
@@ -103,12 +103,12 @@ These run only when the competition's federation is WDSF.
 
 ## Schedule conflicts
 
-The schedule conflict check covers the whole event, including clashes between rounds in different competitions. With several competitions, the same list therefore appears in each competition's section.
+The schedule conflict check covers the whole event, including clashes between rounds in different competitions. With several competitions, the list appears once, in the **Event** section at the top of the page.
 
 What counts as a conflict:
 
 - The same dancer is in two rounds whose estimated times overlap. A dancer is recognised by their **Person ID**, or by their account when the participant is linked to a **Competitor** that has members with accounts.
-- The two rounds are in different classes, and not on the same floor. Two rounds on the same floor cannot actually run at the same time.
+- The two rounds are in different classes. On the same floor, only rounds on the same schedule item that start at the same time count, since those classes are danced together; rounds that follow each other on one floor do not.
 
 A round's estimated time comes from its **Schedule item**, its place in the schedule, **Number of heats** and **Heat length**. A round that is not on a schedule item, or whose schedule item has no start time, is not checked.
 
@@ -148,7 +148,7 @@ This happens when you [run floors in parallel](/manager-guide/floors/#several-fl
 
 **Who counts.** Everyone on the panel has to be at the floor, so every judge type counts, **Trainee judge** included. **Audience** is not a person at the floor and is left out.
 
-**The same person in several competitions.** In an event with several competitions, a judge added to each of them is recognised as one person by their account. A clash between rounds in two competitions is listed in the section of each competition that has one of the rounds.
+**The same person in several competitions.** In an event with several competitions, a judge added to each of them is recognised as one person by their account. A clash between rounds in two competitions is listed once, in the **Event** section.
 
 **Times.** Rounds are timed the same way as for [schedule conflicts](#schedule-conflicts). A schedule item without a start time is still checked: its rounds are compared with each other only, and the **Round A** and **Round B** columns show no times for it. Rounds on different schedule items are never compared, and rounds that are not on a schedule item or a floor are not checked.
 

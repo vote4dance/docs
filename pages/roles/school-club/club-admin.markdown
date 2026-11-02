@@ -169,7 +169,7 @@ This screen shows your club's event registrations for the season. It includes re
 
 ![The Registration screen with the season's events and entries folded per class](/assets/images/club-admin/registrations.png)
 
-At the top, a line counts the season's entries and how many are unpaid. Below it, each event this season has a card with its date, the number of entries and the number unpaid. The next event is selected. Click another card to switch. **Show earlier seasons** adds the events from before this season, and **Export CSV** downloads every entry of the events shown.
+At the top, a line counts the season's entries and how many are unpaid. Below it, each event this season has a card with its date, the number of entries and the number unpaid. The next event is selected. Click another card to switch. **Show earlier seasons** adds the events from before this season. **Download list (CSV)** at the top of the selected event downloads its active entries, in a file named after the event.
 
 The selected event opens below the cards. Filter its entries with the buttons above the list:
 
