@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-02
+ ⭐ **New**
+* App: **Settings** → **Appearance** lets you choose **Light** or **Dark**, and every screen follows your choice at once. The app keeps starting in **Dark** until you change it, and the Vote4Dance ID card stays dark in both (see [Following in the app](/dancer/following-in-the-app/))
 ## 2026-10-30
  🛠️ **Improvements**
 * Federation: **Licenses** → **All other licenses** has a **Filter by organization**, so you can see which dancers of one club or school hold a license; type part of the club's name to find it. **Download CSV** follows the filter, and the search box also finds a club by name (see [Licenses of one organization](/federation-licenses/federation-admin/#licenses-of-one-organization))
