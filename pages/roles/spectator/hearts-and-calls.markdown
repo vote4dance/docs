@@ -12,12 +12,16 @@ While a round is on the floor you can take part from your seat, in the Vote4Danc
 
 ## Give hearts
 
+![A heat on the floor with the Call it card at the top and a Vote button next to each couple](/assets/images/audience/heat-vote-and-call.png)
+
 Hearts are open while a round is on the floor, and close when the judges are done. If the organizer has not switched voting off for the event, you find **Vote** next to the couples in a heat.
 
 1. Open the event in the app and open the heat on the floor.
 2. Tap **Vote** next to a couple. The hearts card opens.
 3. Press and **hold** the big heart. The ring fills while your finger is down; each time it is full you earn a heart. Lift your finger and it stops where it is.
 4. Tap **Clear** to start over, or **Save** to give your hearts.
+
+![The hearts card: press and hold the big heart, then Save](/assets/images/audience/hearts-dialog.png)
 
 The heat shows how many people have voted, for example "143 have voted". After the round is published, the couple the room liked most is shown as the **Audience favourite** on the results.
 
@@ -38,11 +42,23 @@ To make a call:
 
 1. Open the heat. Next to **Vote** you see **Call it**; the card shows how many you have picked, for example "1 of 3 picked".
 2. Tap **Pick** (or the circles on the couples) and choose couples. Tap **Done**.
-3. Tap **Send my call**. It says **Saved**.
+3. Tap **Done**, or **Send my call** if the sheet shows it. The card then says **Saved**.
+
+![The pick sheet for a final: Who wins?](/assets/images/audience/call-it-pick-sheet.png)
+
+![A semi-final heat: Who goes through? Pick 3 of 6, with 3 picked](/assets/images/audience/call-it-who-goes-through.png)
 
 You can change your call until the round starts, or until the judges are done. The card tells you which: "locks when the round starts" or "locks when the judges are done". After that it says that your call is in and waiting for the result.
 
-When the results are published the couples are marked **Through** or **Not through** (a final: **Winner**), and your card tells you how you did, for example "You called 2 of 3 through". Your points go on the standings of the event's **Call it** game, which you find with the quizzes on the event page.
+![The call is locked and waiting for the result](/assets/images/audience/call-it-locked.png)
+
+When the results are published the couples are marked **Through** or **Not through** (a final: **Winner**), and your card tells you how you did, for example "You called 2 of 3 through", with a ✓ or ✗ for each of your picks. Your points go on the standings of the event's **Call it** game, which you find with the quizzes on the event page.
+
+![After the results are published: You called 2 of 3 through, and the Through to column](/assets/images/audience/call-it-settled-through-to.png)
+
+In a final the winner is marked **Winner**, and the couple the room liked most **Audience favourite**.
+
+![A published final with the Audience favourite and the Winner](/assets/images/audience/audience-favourite-winner.png)
 
 ### The day in numbers
 

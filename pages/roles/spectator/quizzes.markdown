@@ -20,8 +20,18 @@ The speaker runs the live quiz from the hall, one question at a time.
 2. Check the name shown ("You play as"). It is your account name and appears on the leaderboard. Tap **Join the quiz**.
 3. You are in: **You're in**, with a note that the first question opens in a moment.
 4. When a question opens, the same question is on the screen. Tap your answer before the clock runs out. You get one answer per question and cannot change it. A correct answer earns points, and in most quizzes the faster you are, the more you earn ("faster is more").
+
+![A live question with the time left](/assets/images/audience/quiz-question.png)
+
+![Answered: waiting for the room](/assets/images/audience/quiz-answered.png)
 5. When the question closes you see the reveal: **Correct**, **Not this time** or **No answer**, the right answer, your points and whether you moved up or down.
+
+![The reveal after a right answer](/assets/images/audience/quiz-reveal-correct.png)
+
+![The reveal after a wrong answer](/assets/images/audience/quiz-reveal-wrong.png)
 6. After the last question you see how you finished and your place in the top of the room.
+
+![The final standings: You finished 2nd, Top of the room](/assets/images/audience/quiz-final-standings.png)
 
 If your phone loses the network or you reload, you land back on the current question.
 
