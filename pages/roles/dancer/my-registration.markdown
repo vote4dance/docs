@@ -143,6 +143,8 @@ The **Change class** button is missing when:
 Once the organizer has published a round's results, every class you finished gets two buttons under
 its rounds:
 
+![Share result and Download diploma under a finished class](/assets/images/my-registration/share-diploma-buttons.png)
+
 - **Share result** makes a picture of your result for Instagram, Facebook or a message: your names,
   the event, your placing and the class. In the app it opens the share sheet with the picture; on the
   website it shows the picture with **Save image** and **Copy link**. The picture is public, just like
@@ -150,6 +152,10 @@ its rounds:
 - **Download diploma** gives you your diploma as a PDF to keep or print, in the organizer's own
   design when the organizer has uploaded one. Only the dancers in the entry can download it, and only
   once the organizer has switched diplomas on for the event. Until then the button is not shown.
+
+![The picture Share result makes](/assets/images/my-registration/share-result.png){: width="360" }
+
+![A diploma in the organizer's design](/assets/images/my-registration/diploma.png){: width="360" }
 
 Both show your placing only when the organizer shows placings for that round; otherwise they say the
 round you reached, such as **Semi-final**. If a result is corrected, download the diploma again: it is
