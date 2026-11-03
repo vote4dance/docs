@@ -198,7 +198,7 @@ The rule **Team represents** decides what is shown under each team's name on the
 2. Open **Competition Levels**, go to the **Rules** tab of a level that needs something else (for example your international level) and set **Team represents** there.
 3. Save. Pages that are already open update right away for events that have not ended yet. Older events show the change the next time the page is opened.
 
-A competition shows what its competition level says. A competition without a competition level uses the federation, division or discipline value. Event classes that are not linked to one of your federation's classes follow the federation and competition-level value.
+A competition shows what its competition level says. A competition without a competition level uses the federation, division or discipline value. Event classes that are not linked to one of your federation's classes follow the federation, their division and discipline, and the competition level.
 
 The check-in app and the club registration pages always show the club, city and country, whatever this rule says.
 
