@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-02
+ 🛠️ **Improvements**
+* Public: A dancer who belongs to more than one club now picks the club for every class they add to the basket, with the club picked last already filled in. Before, the second class took the first class's club without asking (see [Depends on your event](/dancer/registration-for-event/#depends-on-your-event))
 ## 2026-10-30
  🛠️ **Improvements**
 * Federation: **Licenses** → **All other licenses** has a **Filter by organization**, so you can see which dancers of one club or school hold a license; type part of the club's name to find it. **Download CSV** follows the filter, and the search box also finds a club by name (see [Licenses of one organization](/federation-licenses/federation-admin/#licenses-of-one-organization))
