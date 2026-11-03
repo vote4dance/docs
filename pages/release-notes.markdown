@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-03
+ 🛠️ **Improvements**
+* App: If you have Premium from the free welcome gift, **Settings** no longer shows **Cancel subscription** and App Store or Play Store steps for a subscription you don't have. It says that the gift is free and the date it ends on its own, with nothing charged. Once the gift has ended, the Premium offer says **Start subscription** instead of **Renew subscription** (see [If you have the free welcome gift](/dancer/following-in-the-app/#if-you-have-the-free-welcome-gift))
 ## 2026-11-02
  🛠️ **Improvements**
 * Federation: **Rounds the manager will create** on the **By class** tab of the class rules now shows how many really go through each round, as its **Num to advance** sets it, and the next round shows that many dancers. Before, a round showed the size of the next round instead, so a semifinal sending 6 to a final that holds 8 read "8 through"; a second chance now also shows the dancers who did not go straight through (none when everyone goes straight on), and each round shows the heats it is created with, never more than its dancers (see [Check a class](/federation-rules/reference/#check-a-class))

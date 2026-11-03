@@ -51,6 +51,14 @@ What happens next depends on where you bought Premium:
 - **In the app:** cancel it in the App Store or Play Store. Open **Subscriptions** there and remove Vote4Dance.
 - **On the Vote4Dance website:** **Cancel subscription** opens your subscription in your browser, where you can change or cancel it. The App Store and Play Store do not list subscriptions bought on the website.
 
+### If you have the free welcome gift
+
+The free welcome gift gives you Premium for a few days without paying, and there is nothing to cancel. Settings shows no **Cancel subscription** while you have it. It says that the gift is free and on which date it ends. The gift ends on its own on that date and nothing is charged.
+
+![Settings while you have the free welcome gift](/assets/images/app/settings-welcome-gift.png)
+
+When the gift has ended, tap **Upgrade to Premium** in Settings and then **Start subscription** if you want to keep Premium.
+
 ## Vote for a competitor
 
 When the organizer has switched on audience voting, you can give a competitor up to five hearts, until that round's results are published.
