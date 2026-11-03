@@ -4,6 +4,8 @@ title: Registration for event
 permalink: /school-club/registration-for-event/
 parent: School/Club
 nav_order: 5
+help:
+  public.organization.registrations.change-class: moving-an-entry-to-another-class
 ---
 
 # Registering your club's dancers for an event
@@ -125,6 +127,8 @@ What you can move to:
   registration: age, level, licence and team size. A class the entry does not qualify for is greyed
   out with the reason.
 - **Not a class the team is already in.**
+- **Not a class only the competitors themselves may register**, unless your club owns the team. It
+  is greyed out; the competitors can move there from **My registration**.
 
 Everyone on the entry moves to the new class.
 
@@ -136,6 +140,8 @@ The **Change class** button is missing when:
 - **There is no other class to move to.** A class that is registered separately, with its own
   price, is not offered: cancel the entry and register again instead. Cancelling does not refund
   anything.
+- **The entry's class may only be registered by the competitors themselves**, and your club does not
+  own the team. The competitors change it from **My registration**.
 
 ## Step 5: Confirm your roster on the day
 
