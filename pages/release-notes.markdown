@@ -9,7 +9,7 @@ nav_order: 10
 ## 2026-11-02
  ⭐ **New**
 * App: Live quiz and all-day quizzes at the event: join by QR code or from the event page, answer before the clock runs out, and see your place (see [Quizzes](/spectator/quizzes/))
-* App: **Call it** on every heat: pick who goes through or who wins, and earn points when you are right (see [Hearts and Call it](/spectator/hearts-and-calls/))
+* App: **Call it** for every competition day: call who wins the day's finals, with your own finals and the headline finals first, and pick who goes through from the heat; earn points when you are right (see [Hearts and Call it](/spectator/hearts-and-calls/#call-it))
 * App: Hearts voting is now free; before, voting could need Premium. The full standings beyond the top 10 and live hearts, where the event shows them, stay in Premium (see [Hearts and Call it](/spectator/hearts-and-calls/#what-is-free))
 * Speaker: The **Audience** page runs quizzes: open the lobby, start and close questions, autoplay, and put the lobby, standings and podium on screen (see [Running a quiz from the speaker app](/manager-guide/speaker-quiz/))
 * Screens: Quiz screens for the lobby with QR code, the question with countdown, the reveal, the leaderboard and the podium (see [Quiz screens](/manager-guide/screens/#quiz-screens))
