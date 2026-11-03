@@ -779,13 +779,16 @@ this section.
    discipline has, **Adds it to …, linked.** and **Removes it from ….** Press
    **Save** to confirm.
 
-Ticking adds a new rule to that discipline. If the discipline already has its
-own copy of the rule, link the copies instead, by merging
-([Linking while you merge](#linking-while-you-merge)), so the discipline does
-not get the rule twice.
+Ticking a discipline that already has the same rule links that copy, so the
+discipline never gets the rule twice. Otherwise the rule is added at the end of
+that discipline's rules. A rule you create with **Add class rule** always gets a
+new copy in each discipline you tick.
 
-Saving any change to a linked rule shows the same confirmation, so you always
-see which disciplines the change reaches before it is saved.
+Saving a change to what a linked rule says (its conditions, its changes, who it
+applies to, how its round conditions are read, or its setup tag) shows the same
+confirmation, so you always see which disciplines the change reaches before it
+is saved. Switching the rule off in this discipline only is saved here, without
+the confirmation.
 
 What to know:
 
