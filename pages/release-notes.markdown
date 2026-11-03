@@ -9,6 +9,7 @@ nav_order: 10
 ## 2026-11-03
  🛠️ **Improvements**
 * Manager: **Download results** → **Download .csv file** on **Data transfer** now lists each class by start number, lowest first, until the class has results; after that the file follows the placings as before. The file also ends with a **Complete clubs** column with each club's full name, next to the short code in **Club** (see [Data exports](/manager-guide/post-event/#3-data-exports))
+* App: If you have Premium from the free welcome gift, **Settings** no longer shows **Cancel subscription** and App Store or Play Store steps for a subscription you don't have. It says that the gift is free and the date it ends on its own, with nothing charged. Once the gift has ended, the Premium offer says **Start subscription** instead of **Renew subscription** (see [If you have the free welcome gift](/dancer/following-in-the-app/#if-you-have-the-free-welcome-gift))
 ## 2026-11-02
  ⭐ **New**
 * Federation: The new rule **Team represents** (Country, Club, Individual dancer) decides what the public participants list and the app show under each team's name, so national competitions can leave out the country and international ones show it. Set it for the whole federation, a division, a discipline or a competition level; without it, teams show club, city and country as before (see [What a team represents](/federation/divisions/#what-a-team-represents))
