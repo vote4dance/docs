@@ -53,7 +53,7 @@ What happens next depends on where you bought Premium:
 
 ### If you have the free welcome gift
 
-The free welcome gift gives you Premium for a few days without paying, and there is nothing to cancel. Settings shows no **Cancel subscription** while you have it. It says that the gift is free and on which date it ends. The gift ends on its own on that date and nothing is charged.
+The free welcome gift gives you Premium for a few days without paying, and there is nothing to cancel. Only a paid subscription shows **Cancel subscription** in Settings. While you have the gift, Settings says that the gift is free and on which date it ends. The gift ends on its own on that date and nothing is charged.
 
 ![Settings while you have the free welcome gift](/assets/images/app/settings-welcome-gift.png)
 
