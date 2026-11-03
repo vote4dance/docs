@@ -9,7 +9,9 @@ nav_order: 10
 ## 2026-11-03
  ⭐ **New**
 * App: **Settings** → **Appearance** lets you choose **Light** or **Dark**, and every screen follows your choice at once. The app keeps starting in **Dark** until you change it, and the Vote4Dance ID card stays dark in both (see [Following in the app](/dancer/following-in-the-app/))
+* New manager: **Theme** in the account menu now also offers **System**, next to **Light** and **Dark**. With **System** the site follows your device's light or dark setting and changes with it, also on the other Vote4Dance pages in the same browser. Sites start in **Dark** until you choose
  🛠️ **Improvements**
+* All apps: Pages now open in your theme straight away; before, they showed a white page for a moment, also in **Dark**
 * Manager: **Download results** → **Download .csv file** on **Data transfer** now lists each class by start number, lowest first, until the class has results; after that the file follows the placings as before. The file also ends with a **Complete clubs** column with each club's full name, next to the short code in **Club** (see [Data exports](/manager-guide/post-event/#3-data-exports))
 * App: If you have Premium from the free welcome gift, **Settings** no longer shows **Cancel subscription** and App Store or Play Store steps for a subscription you don't have. It says that the gift is free and the date it ends on its own, with nothing charged. Once the gift has ended, the Premium offer says **Start subscription** instead of **Renew subscription** (see [If you have the free welcome gift](/dancer/following-in-the-app/#if-you-have-the-free-welcome-gift))
 ## 2026-11-02
