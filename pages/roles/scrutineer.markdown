@@ -4,6 +4,12 @@ title: Scrutineer
 permalink: /scrutineer/
 nav_order: 4
 has_children: true
+help:
+  supervisor.lineup: ""
+  supervisor.result: ""
+  supervisor.remarks: warnings-from-the-judges
+  supervisor.dancers: looking-up-a-dancer
+  supervisor.floor-sides: a-split-floor-seen-from-your-seat
 ---
 
 # Scrutineer
@@ -27,6 +33,7 @@ What it gives you, and what it deliberately does not:
 | Follow judging live: *Judging in progress*, *Judges are done* per heat | |
 | Filter to one floor, follow the schedule, and push things to the screens with **Show on screen** | |
 | See every warning the judges give during the whole event in one list, **Warnings**, and keep track of which ones you have dealt with | |
+| Look up any dancer by name or start number under **Dancers**, with their age, original class and rounds | |
 
 **Supervisor cannot publish results.** Publishing is done from the Speaker console or from
 Manager. If you are the one who publishes, you also need **Speaker** or **Manager** ticked.
@@ -42,10 +49,12 @@ round. The list updates by itself as the judges send new warnings.
 ![The Warnings page, grouped by round](/assets/images/warnings/warnings-round.jpg)
 
 1. Open **Warnings** in the Supervisor menu. The number next to it is how many warnings you have
-   not seen yet.
+   not seen yet on the floor you have chosen.
 2. Each row shows the start number, the dancer or couple and their club, the warning and its
    reason, and which judges gave it. When several judges give the same warning, it shows once with
-   all their names.
+   all their names. Under the name you see the entry's **Original class** and each dancer's year of
+   birth with the age they turn this year, for example "born 2012 (14)", so you can check an age
+   warning without looking the dancer up.
 3. Choose how to read the list:
    - **New** shows only the warnings you have not seen yet; **All** shows every warning.
    - **Round** groups the warnings by round, newest first, under the day and the block of the
@@ -57,7 +66,7 @@ round. The list updates by itself as the judges send new warnings.
 4. When you have dealt with a warning, press the round tick on its row. The row turns grey and the
    tick green. Press it again to mark the warning as new again.
 5. **Mark all seen** marks every warning in the list as seen. Press **Undo** if you did not mean
-   to.
+   to. When new warnings come in, **Mark all seen** comes back in its place.
 
 ![Grouped by club on a phone](/assets/images/warnings/warnings-club-phone.jpg)
 
@@ -66,7 +75,32 @@ A disqualification stands out from a warning: it has a filled label with a stop 
 ![A disqualification among warnings](/assets/images/warnings/warnings-disqualify-phone.jpg)
 
 What you have seen is remembered on your phone or computer only. Another scrutineer, or you on
-another device, starts with all warnings as new.
+another device, starts with all warnings as new. Two tabs or windows on the same computer share
+what you have ticked.
+
+## Looking up a dancer
+
+When you need to check a dancer, most often their age or the class they really belong in, look
+them up instead of searching the start lists.
+
+1. Open **Dancers** in the Supervisor menu.
+2. Type a name, or part of one, or a start number.
+3. Each entry that matches shows its start number, the dancers and their club, the class they
+   dance in, their **Original class** and each dancer's year of birth with the age they turn this
+   year. A withdrawn entry is marked **Withdrawn**.
+4. Press an entry to see that dancer's classes and rounds day by day, with the time, the floor and
+   their heats. **Back to the search** takes you back.
+
+The **Original class** is the class the entry was made in. It differs from the class danced when
+classes have been combined, for example two age groups dancing together.
+
+## A split floor, seen from your seat
+
+When a floor is split into halves, such as A and B, the rounds that dance at the same time are
+shown side by side on **Lineup** and **Results**, in the order A, B. If you sit on the other side
+of the floor, B is on your left: choose **B | A** under **Floor sides** at the top of the page.
+The choice is remembered on your phone or computer, so every scrutineer can pick the side they
+sit on. **Floor sides** only shows when a split floor is on the page.
 
 ## Judge types, which is your vocabulary
 
@@ -88,8 +122,8 @@ If a panel looks wrong in the results, check the types before you doubt the arit
 Manager warns the desk at two moments that concern you directly:
 
 - **Closing a round** — "Warning! All judges have not submitted their results!!"
-- **Confirming a round** — "Warning! You have conflicting placements!!", and, if no advancement
-  has been set, "No targets have been set from the round result."
+- **Confirming a round** — "Warning! Some participants share a placement.", and, if no
+  advancement has been set, "No targets have been set from the round result."
 
 And **Problems** in Manager runs the structural checks continuously: start-number conflicts,
 license conflicts, rounds without judges, group classes with no judges, participants scheduled in

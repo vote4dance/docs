@@ -6,6 +6,15 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-03
+ ⭐ **New**
+* Supervisor: New **Dancers** page: look up a dancer by name or start number and see their age, original class and the class they dance in, then open their classes and rounds day by day (see [Looking up a dancer](/scrutineer/#looking-up-a-dancer))
+* Supervisor: On a split floor, **Floor sides** lets you show the halves as **A | B** or **B | A** on **Lineup** and **Results**, matching the side of the floor you sit on (see [A split floor, seen from your seat](/scrutineer/#a-split-floor-seen-from-your-seat))
+
+ 🛠️ **Improvements**
+* Supervisor: Each warning on **Warnings** shows the entry's original class and the dancers' years of birth with their age, so an age warning can be checked on the spot (see [Warnings from the judges](/scrutineer/#warnings-from-the-judges))
+* Supervisor: The number of new warnings on the menu now counts the floor you have chosen, so ticking off everything on **Warnings** clears it; it no longer comes back after warnings were ticked in another tab, and **Mark all seen** replaces **Undo** as soon as new warnings come in (see [Warnings from the judges](/scrutineer/#warnings-from-the-judges))
+* Manager: When a final has a shared placement, confirming the round says so again ("Warning! Some participants share a placement."), and the tooltip reads "Shared placement"; in Swedish it had become "conflicting placements" (see [What to watch on the day](/scrutineer/#what-to-watch-on-the-day))
 ## 2026-11-02
  🛠️ **Improvements**
 * Federation: **Rounds the manager will create** on the **By class** tab of the class rules now shows how many really go through each round, as its **Num to advance** sets it, and the next round shows that many dancers. Before, a round showed the size of the next round instead, so a semifinal sending 6 to a final that holds 8 read "8 through"; a second chance now also shows the dancers who did not go straight through (none when everyone goes straight on), and each round shows the heats it is created with, never more than its dancers (see [Check a class](/federation-rules/reference/#check-a-class))
