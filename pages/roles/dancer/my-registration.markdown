@@ -165,15 +165,13 @@ classes do not allow it: ask the organizer instead.
 
 Some classes are danced to **your own music**. Then you upload your track yourself, and the DJ plays
 it at the event. Whether a class asks for it, and how long your track may be, is set by the
-federation in its class rules.
+federation in its rules.
 
 You can see it before you register: on the class list, a class that dances to your own music has a
 tag such as **Own music · max 1:30**. The limit is a longest length (**max 1:30**), a shortest
 length (**min 2:30**) or both (**2:30–3:00**).
 
-<!-- SCREENSHOT TODO (needs the feature from monorepo PR #646 running locally): /assets/images/my-registration/music-class-tag.png
-     The registration class list with the tag "Own music · max 1:30" on a class. Embed here as:
-     ![A class that dances to your own music](/assets/images/my-registration/music-class-tag.png) -->
+![A class that dances to your own music](/assets/images/my-registration/music-class-tag.png)
 
 You do not have to upload when you register. After you have registered, upload from **My registration**.
 
@@ -187,31 +185,32 @@ You do not have to upload when you register. After you have registered, upload f
    classes. Press **Upload music** to jump to the first one. The event page says the same when you
    are registered.
 
-<!-- SCREENSHOT TODO (needs the feature from monorepo PR #646 running locally): /assets/images/my-registration/music-missing.png
-     An entry card on My registration with the "Music missing · Own music · max 1:30" line and the Upload MP3 button.
-     Embed here as: ![A class where music is missing](/assets/images/my-registration/music-missing.png) -->
+   ![A class where music is missing](/assets/images/my-registration/music-missing.png)
 
 2. Press **Upload MP3** and pick the file on your phone or computer. Only MP3 files work: export
    your track as MP3 first if it is another format. A file larger than 30 MB is refused.
 3. A window called **Music for** and the class opens. Your browser checks the file before anything is
-   sent, and shows it under **Checked in your browser**, for example **Length 1:28 of max 1:30**.
+   sent, and shows it under **Checked in your browser**, for example **Length 1:20 of max 1:30**.
    Under **Listen before you send it** you can play the track and make sure it is the right one.
-4. Press **Upload 1:28 track** (the button shows your track's length). Press **Cancel** to stop
+4. Press **Upload 1:20 track** (the button shows your track's length). Press **Cancel** to stop
    without sending anything.
 
-<!-- SCREENSHOT TODO (needs the feature from monorepo PR #646 running locally): /assets/images/my-registration/music-upload-dialog.png
-     The "Music for <class>" dialog with file name, "Length 1:28 of max 1:30", the player and the Upload 1:28 track button.
-     Embed here as: ![Checking and listening to the track before it is sent](/assets/images/my-registration/music-upload-dialog.png) -->
+   ![Checking and listening to the track before it is sent](/assets/images/my-registration/music-upload-dialog.png)
 
 When the upload is done the line changes to **Music uploaded**, with the track's length against the
-limit and the file name, for example **1:28 of max 1:30 · my-routine.mp3**, and the tag **Ready for the
+limit and the file name, for example **1:20 of max 1:30 · music-ok.mp3**, and the tag **Ready for the
 DJ**. Once every class has its music, the **Upload music** reminder at the top goes away.
+
+![A class with its music uploaded](/assets/images/my-registration/music-uploaded.png)
 
 The server checks the length once more after the upload. This is why a file can still be refused
 even though your browser accepted it (see [If your file is refused](#if-your-file-is-refused)).
 
 In a class danced by a couple or a team, anyone on the entry can upload. In a class your club has
 registered, the club's coaches and anyone on the roster can upload. The last upload counts.
+
+If you were put on a team's entry by a lineup change, you see the track and can play it, but you
+cannot upload: the line says **The team's dancers upload the music for this entry.**
 
 While you are still in the middle of paying for the class, the **Upload MP3** button is not shown yet; it appears once the payment is done.
 
@@ -228,6 +227,8 @@ While you are still in the middle of paying for the class, the **Upload MP3** bu
 ### If your file is refused
 
 Your browser tells you straight away when a file cannot be used, and you can pick another file:
+
+![A track that is longer than the class allows](/assets/images/my-registration/music-dialog-too-long.png)
 
 | What it says | What it means | What you do |
 |---|---|---|
