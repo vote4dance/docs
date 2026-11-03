@@ -186,7 +186,7 @@ Class levels are the steps a class ladder promotes through. Competition levels a
 
 ### What a team represents
 
-The rule **Team represents** decides what the public participants list and the Vote4Dance app show under each team's name. Use it, for example, to leave out the country at national competitions and show it only at international ones.
+The rule **Team represents** decides what is shown under each team's name on the public participants list, in the Vote4Dance app, in the speaker app and on the event's screens. Use it, for example, to leave out the country at national competitions and show it only at international ones.
 
 | Value | Shown under the team |
 |---|---|
@@ -196,9 +196,11 @@ The rule **Team represents** decides what the public participants list and the V
 
 1. Set the value most of your competitions need for the whole federation in `Federation → Rulebook`, or on a division's or discipline's **Rules** tab.
 2. Open **Competition Levels**, go to the **Rules** tab of a level that needs something else (for example your international level) and set **Team represents** there.
-3. Save. Open event pages pick up the change within a minute.
+3. Save. Pages that are already open update right away for events that have not ended yet. Older events show the change the next time the page is opened.
 
-A competition shows what its competition level says. A competition without a competition level uses the federation, division or discipline value.
+A competition shows what its competition level says. A competition without a competition level uses the federation, division or discipline value. Event classes that are not linked to one of your federation's classes follow the federation and competition-level value.
+
+The check-in app and the club registration pages always show the club, city and country, whatever this rule says.
 
 ---
 
