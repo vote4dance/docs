@@ -625,7 +625,8 @@ many go through is what the round's **Num to advance** says, and the next round
 shows that many dancers, even when its round size is larger: a final that holds
 8 for classes that start there still shows the 6 a semifinal sends. A second
 chance shows the dancers who did not go straight through, and none when everyone
-goes straight on. Heats are the heats the round is created with. A round
+goes straight on, and sends on no more than it has. Heats are the heats the round
+is created with, but never more than the dancers in it. A round
 that got a built-in name or a cut that no other age group dances is marked, which
 is how a hole in the ladder shows up. **Same class with one more competitor**
 shows the rounds one competitor higher, so you can see which rules start or stop
