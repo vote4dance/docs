@@ -7,6 +7,8 @@ nav_order: 10
 
 # Release notes
 ## 2026-11-02
+ ⭐ **New**
+* Federation: The new rule **Team represents** (Country, Club, Individual dancer) decides what the public participants list and the app show under each team's name, so national competitions can leave out the country and international ones show it. Set it for the whole federation, a division, a discipline or a competition level; without it, teams show club, city and country as before (see [What a team represents](/federation/divisions/#what-a-team-represents))
  🛠️ **Improvements**
 * Federation: **Rounds the manager will create** on the **By class** tab of the class rules now shows how many really go through each round, as its **Num to advance** sets it, and the next round shows that many dancers. Before, a round showed the size of the next round instead, so a semifinal sending 6 to a final that holds 8 read "8 through"; a second chance now also shows the dancers who did not go straight through (none when everyone goes straight on), and each round shows the heats it is created with, never more than its dancers (see [Check a class](/federation-rules/reference/#check-a-class))
 * Public: On a club's **Registration** page, coaches, managers and administrators can now move an entry to another class with **Change class**, the swap icon next to **Edit lineup**, as dancers already can on **My registration**. It works until registration closes, for classes that open for registration together with the entry's class, so the price stays the same; the new class's rules are checked as for a new registration, and an entry already on the start list or with lineup changes is not offered the button (see [Moving an entry to another class](/school-club/registration-for-event/#moving-an-entry-to-another-class))
