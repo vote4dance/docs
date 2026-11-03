@@ -7,6 +7,8 @@ nav_order: 10
 
 # Release notes
 ## 2026-11-03
+ ⭐ **New**
+* Screens: A sponsor can now present the results of a final (**Results presented by**), the start of a final (**Final intro**) and a card of its own in the **Sponsors** screen loop during breaks (**Break screen**). All three can be added to the sponsor catalog as standard items (see [What the venue screens show for sponsors](/manager-guide/sponsors/#what-the-venue-screens-show-for-sponsors))
  🛠️ **Improvements**
 * Manager: **Download results** → **Download .csv file** on **Data transfer** now lists each class by start number, lowest first, until the class has results; after that the file follows the placings as before. The file also ends with a **Complete clubs** column with each club's full name, next to the short code in **Club** (see [Data exports](/manager-guide/post-event/#3-data-exports))
 ## 2026-11-02
