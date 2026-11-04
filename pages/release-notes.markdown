@@ -8,6 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-11-04
  🛠️ **Improvements**
+* All web apps: A page that has been open since before an update now notices the update by itself. Screens and lineup reload on their own within a few minutes; judging tablets, Supervisor, Speaker, Check-in and Cafe show **There is a newer version** and reload once the device has not been touched for 5 minutes, but never while a judge's tablet is unlocked, marks are still being sent, or a registration, sale or order is half-filled; Manager and the other apps only show the message, and you press **Reload** when it suits you (see [Updates during an event](/requirements/#updates-during-an-event))
 * Supervisor: On the **Panels** tab of **Judges**, one click on an empty cell now seats the judge as **Judge**, or as **Trainee judge** if that is their **Seat** need. To give them another seat, click the seat or right-click the cell (see [Seating a judge](/manager-guide/judges/#seating-a-judge))
 ## 2026-11-03
  ⭐ **New**
