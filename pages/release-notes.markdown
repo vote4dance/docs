@@ -6,9 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
-<<<<<<< Updated upstream
 ## 2026-11-04
  🛠️ **Improvements**
+* All web apps: A page that has been open since before an update now notices the update by itself. Screens and lineup reload on their own within a few minutes; judging tablets, Supervisor, Speaker, Check-in and Cafe show **There is a newer version** and reload once the device has not been touched for 5 minutes, but never while a judge's tablet is unlocked, marks are still being sent, or a registration, sale or order is half-filled; Manager and the other apps only show the message, and you press **Reload** when it suits you (see [Updates during an event](/requirements/#updates-during-an-event))
 * Supervisor: On the **Panels** tab of **Judges**, one click on an empty cell now seats the judge as **Judge**, or as **Trainee judge** if that is their **Seat** need. To give them another seat, click the seat or right-click the cell (see [Seating a judge](/manager-guide/judges/#seating-a-judge))
 ## 2026-11-03
  ⭐ **New**
@@ -17,11 +17,6 @@ nav_order: 10
  🛠️ **Improvements**
 * Manager: **Download results** → **Download .csv file** on **Data transfer** now lists each class by start number, lowest first, until the class has results; after that the file follows the placings as before. The file also ends with a **Complete clubs** column with each club's full name, next to the short code in **Club** (see [Data exports](/manager-guide/post-event/#3-data-exports))
 * App: If you have Premium from the free welcome gift, **Settings** no longer shows **Cancel subscription** and App Store or Play Store steps for a subscription you don't have. It says that the gift is free and the date it ends on its own, with nothing charged. Once the gift has ended, the Premium offer says **Start subscription** instead of **Renew subscription** (see [If you have the free welcome gift](/dancer/following-in-the-app/#if-you-have-the-free-welcome-gift))
-=======
-## 2026-11-03
- 🛠️ **Improvements**
-* All web apps: A page that has been open since before an update now notices the update by itself. Screens and lineup reload on their own within a few minutes; judging tablets, Supervisor, Speaker, Check-in and Cafe show **There is a newer version** and reload once the device has not been touched for 5 minutes, but never while a judge's tablet is unlocked, marks are still being sent, or a registration, sale or order is half-filled; Manager and the other apps only show the message, and you press **Reload** when it suits you (see [Updates during an event](/requirements/#updates-during-an-event))
->>>>>>> Stashed changes
 ## 2026-11-02
  ⭐ **New**
 * Federation: The new rule **Team represents** (Country, Club, Individual dancer) decides what the public participants list and the app show under each team's name, so national competitions can leave out the country and international ones show it. Set it for the whole federation, a division, a discipline or a competition level; without it, teams show club, city and country as before (see [What a team represents](/federation/divisions/#what-a-team-represents))
