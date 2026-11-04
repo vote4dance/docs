@@ -8,6 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-11-03
  ⭐ **New**
+* Manager, Supervisor: A judge's needs have a new **Not on the same panel as**. Choose the judges someone must not sit with, for example from the same dance school. **Suggest** keeps them apart, and if they end up on one panel you get a warning under the problems (see [Keeping two judges apart](/manager-guide/judges/#keeping-two-judges-apart))
 * App: **Settings** → **Appearance** lets you choose **Light** or **Dark**, and every screen follows your choice at once. The app keeps starting in **Dark** until you change it, and the Vote4Dance ID card stays dark in both (see [Following in the app](/dancer/following-in-the-app/))
  🛠️ **Improvements**
 * Manager: **Download results** → **Download .csv file** on **Data transfer** now lists each class by start number, lowest first, until the class has results; after that the file follows the placings as before. The file also ends with a **Complete clubs** column with each club's full name, next to the short code in **Club** (see [Data exports](/manager-guide/post-event/#3-data-exports))
