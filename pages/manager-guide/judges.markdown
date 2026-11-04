@@ -255,9 +255,19 @@ At the top of each column, under the panel's name, is how many judges the panel 
 
 ### Seating a judge
 
-1. Click the cell where the judge's row meets the panel's column.
-2. Choose the seat: **Judge**, **Chief judge (out)**, **Chief judge (in)**, **Trainee judge** or **Audience**. See [Judge types](#judge-types).
+In the **Supervisor** app, one click is enough:
+
+1. Click the empty cell where the judge's row meets the panel's column. The judge is seated as **Judge** straight away. A judge whose **Seat** need is **Trainee** gets **Trainee judge** instead (see [Judge needs](#judge-needs)).
+2. To give them another seat, click the seat, or right-click the cell, and choose **Judge**, **Chief judge (out)**, **Chief judge (in)**, **Trainee judge** or **Audience**. See [Judge types](#judge-types).
 3. The seat is saved at once. A message at the top says, for example, "Seated Anna Berg on Panel A (Judge)", with **Undo** to take it back.
+
+A striped cell still opens the list first, so you see why the judge can't sit there before you decide. If a list is open, clicking an empty cell only closes the list.
+
+In **Manager**, each click opens the list:
+
+1. Click the cell where the judge's row meets the panel's column.
+2. Choose the seat: **Judge**, **Chief judge (out)**, **Chief judge (in)**, **Trainee judge** or **Audience**.
+3. The seat is saved at once, with the same message and **Undo**.
 
 To take a judge off a panel, click their seat and choose **Remove from panel**.
 
