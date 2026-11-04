@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-04
+ ⭐ **New**
+* Public: **My account** has a new **Family** page. Add your children once and open their accounts from your own to register them and pay, with no second inbox or password. A bar on every page shows whose account you are in. An account a child already has can be brought in, and your child can take it over when they are old enough (see [Family](/dancer/family/))
 ## 2026-11-03
  ⭐ **New**
 * App: **Settings** → **Appearance** lets you choose **Light** or **Dark**, and every screen follows your choice at once. The app keeps starting in **Dark** until you change it, and the Vote4Dance ID card stays dark in both (see [Following in the app](/dancer/following-in-the-app/))
