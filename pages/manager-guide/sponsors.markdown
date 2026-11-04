@@ -203,7 +203,7 @@ When the result of a final comes up on the **Result** screen, the sponsor with t
 
 ### Final intro
 
-When a final goes live, the sponsor with the **Final intro** placement is shown in a card on the heat screen, before the first dance of the final. It is shown once per final, not for every dance of it, and the class sponsor follows after it.
+When a final goes live, the sponsor with the **Final intro** placement is shown in a card at the bottom of the heat screen for a few seconds, on the first dance of the final. The heat stays visible behind it. It is shown once per final, not for every dance of it, and the class sponsor follows after it.
 
 ### Break screen
 
