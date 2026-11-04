@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-04
+ ⭐ **New**
+* App: **Settings** → **Appearance** now also offers **System**, and the app follows your phone unless you choose otherwise. On a phone set to light the app now opens light, and it changes when your phone does. If you already chose **Light** or **Dark**, the app keeps your choice. Update the app from the App Store or Play Store to get it (see [Choose how the app looks](/dancer/following-in-the-app/#choose-how-the-app-looks))
 ## 2026-11-03
  ⭐ **New**
 * App: **Settings** → **Appearance** lets you choose **Light** or **Dark**, and every screen follows your choice at once. The app keeps starting in **Dark** until you change it, and the Vote4Dance ID card stays dark in both (see [Following in the app](/dancer/following-in-the-app/))
