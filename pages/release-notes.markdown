@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-04
+ 🛠️ **Improvements**
+* Supervisor: On the **Panels** tab of **Judges**, one click on an empty cell now seats the judge as **Judge**, or as **Trainee judge** if that is their **Seat** need. To give them another seat, click the seat or right-click the cell (see [Seating a judge](/manager-guide/judges/#seating-a-judge))
 ## 2026-11-03
  ⭐ **New**
 * Manager, Supervisor: A judge's needs have a new **Not on the same panel as**. Choose the judges someone must not sit with, for example from the same dance school. **Suggest** keeps them apart, and if they end up on one panel you get a warning under the problems (see [Keeping two judges apart](/manager-guide/judges/#keeping-two-judges-apart))
