@@ -81,11 +81,11 @@ The app can be light or dark. Unless you choose otherwise, it follows your phone
 
 ![Appearance with System chosen, on a phone that is set to dark right now](/assets/images/app/appearance-system-dark.png)
 
-*With **System** chosen, the screen shows what your phone is set to right now.*
+*With System chosen, the screen shows what your phone is set to right now.*
 
 ![Appearance with Light chosen](/assets/images/app/appearance-light.png)
 
-*With **Light** chosen, the app stays light even when your phone is set to dark.*
+*With Light chosen, the app stays light even when your phone is set to dark.*
 
 Your choice is saved on this phone, so another phone you sign in on keeps its own. The Vote4Dance ID card stays dark whichever you choose.
 
