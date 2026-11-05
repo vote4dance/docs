@@ -15,7 +15,7 @@ You sign in to Vote4Dance with your e-mail address. There is no password to reme
 
 This is the same for everybody: dancers, parents, judges, organizers, desk staff, club administrators and spectators. All the Vote4Dance web apps share one sign-in, so you sign in once and are signed in everywhere on that device.
 
-**The Vote4Dance mobile app** still has its own sign-in with e-mail and password for now. Codes and passkeys are for the web apps.
+**The Vote4Dance mobile app signs you in the same way.** It uses the same e-mail address, the same code and the same passkeys, so what you set up on the website works in the app too. Where the app differs, a short note says so.
 
 ## Sign in with a code
 
@@ -26,12 +26,16 @@ Use this the first time, on a new device, or whenever you have no passkey.
 
    ![The sign-in screen asking for an e-mail address](/assets/images/sign-in/sign-in-email.png)
 
-3. Open your e-mail. Vote4Dance has sent you a 6-digit code. It works for 10 minutes. On a phone, Mail often offers the code above the keyboard, so you only tap it.
+3. Open your e-mail. Vote4Dance has sent you a 6-digit code. It works for 10 minutes. On a phone, Mail often offers the code above the keyboard, so you only tap it. The code is also in the subject line of the e-mail, so you can read it in the notification without opening the e-mail.
 4. Type the code and press **Sign in**.
 
    ![The screen where you type the 6-digit code](/assets/images/sign-in/sign-in-code.png)
 
 You are signed in. The code proves that the inbox is yours, so there is nothing to remember and nothing to reset.
+
+**In the app.** Open the Vote4Dance app and choose **Sign in** (or **Join Vote4Dance** if you are new). Type your e-mail address, press **Continue**, and type the 6-digit code on the **Check your e-mail** screen; the code is in the e-mail's subject line, so the notification already shows it. The screen has **Send again** and **use another e-mail** if the code does not arrive.
+
+![The code screen in the app](/assets/images/sign-in/app-code.png)
 
 ## Create an account
 
@@ -39,13 +43,13 @@ You do not need a separate step to sign up. Use the same screen as for signing i
 
 1. Go to [vote4dance.com](https://vote4dance.com), type the e-mail address you want to use and press **Continue**. Use an address of your own that you will keep: it is your sign-in name, and registration confirmations and your check-in QR code are sent to it.
 2. Type the 6-digit code that Vote4Dance mails to that address.
-3. Because the address is new, a short form follows. Fill in **Firstname**, **Lastname** and **Nationality**, and tick **I accept the Terms of Service and Privacy Policy**.
+3. Because the address is new, a short form follows. Fill in **Firstname**, **Lastname** and **Nationality**, and tick **I accept the Terms of Service and Privacy Policy**. (In the app the form is called **Create your account** and asks for **First name**, **Last name** and **Country**.)
 
    ![The short form that follows the code for a new e-mail address](/assets/images/sign-in/sign-in-new-account.png)
 
 4. Press **Create account**.
 
-There is no password to invent. Use the name your federation and organizers know you by, not a nickname: it is how you are found in entry lists. What to do next, for example filling in your profile and joining a club, is described for each role, for example [Dancer account creation](/dancer/account-creation/).
+In the app, choose **Join Vote4Dance** on the first screen; the steps are the same. There is no password to invent. Use the name your federation and organizers know you by, not a nickname: it is how you are found in entry lists. What to do next, for example filling in your profile and joining a club, is described for each role, for example [Dancer account creation](/dancer/account-creation/).
 
 **One account per person.** If you already have an account, use the same e-mail address and you are signed in to it. Do not create a second account with another address: your results, licences and registrations would be split across two accounts. Children need their own accounts too, see [Children's accounts on a parent's phone](#childrens-accounts-on-a-parents-phone).
 
@@ -59,9 +63,11 @@ If your account has a password from before, you can keep using it.
 2. On the screen that asks for the code, choose **This account has a password · use it instead**.
 3. Type your password and press **Sign in**.
 
+   The app has the same two screens: choose **This account has a password · use it instead** under the code, type your e-mail address and password, and press **Sign in**. If the app cannot send a code, for example because of a problem with the connection, the screen says what went wrong and offers the same link, so you can sign in with your password instead.
+
    ![The password screen with the Forgot your password link](/assets/images/sign-in/sign-in-password.png)
 
-If you have forgotten your password, choose **Forgot your password?** on this screen. Vote4Dance mails you a link to set a new one. You do not have to: the e-mail code always works too.
+If you have forgotten your password, choose **Forgot your password?** on this screen (in the app it is **Forgot password?**). Vote4Dance mails you a link to set a new one. You do not have to: the e-mail code always works too.
 
 If you change your password, Vote4Dance signs your account out on your other devices. Sign in again there with a code or your new password.
 
@@ -90,6 +96,10 @@ Good to know:
 - **You are not locked out if you lose your phone.** A code to your e-mail always signs you in.
 - **Changing or resetting your password removes your passkeys.** That signs out anyone who might have saved one with your old password. Save a new passkey on your own devices afterwards.
 
+**In the app.** Right after you sign in, the app shows the same **Sign in faster next time** screen. Choose **Save passkey for** followed by your name and confirm with your face, fingerprint or phone code, or choose **Not now**. It asks once on each phone.
+
+![The app offering to save a passkey](/assets/images/sign-in/app-passkey-offer.png)
+
 To read more about passkeys, choose **What is a passkey?** on the sign-in screen.
 
 ![The help that explains what a passkey is](/assets/images/sign-in/passkey-what-is-a-passkey.png)
@@ -103,6 +113,8 @@ Once a passkey is saved, signing in takes a few seconds.
 3. Choose it and confirm with your face, fingerprint or phone code.
 
 You are signed in, with no code and no password.
+
+**In the app.** On the first screen choose **Sign in**, then choose **Use a passkey** below **Continue** and confirm with your face, fingerprint or phone code. The passkey has to be saved on that phone first.
 
 ### On a borrowed or shared computer
 
@@ -140,6 +152,10 @@ It has three parts:
   - To remove one, choose the bin at the end of its row and confirm. That passkey will no longer sign you in. A code to your e-mail still works.
 - **Code to your e-mail** is marked **Always on**. It works on any device and is your way back in if a phone is lost.
 - **Password** has **Set password**, for people who want a password too or had one before.
+
+**In the app.** Open the **Profile** tab, choose **Settings**, then **How you sign in**. It shows the same **Passkeys** list with **Add a passkey on this device**, and **Code to your e-mail**, marked **Always on**. To remove a passkey, choose the bin icon at the end of its row and confirm with **Remove**. Setting or changing a password is done on the website.
+
+![How you sign in in the app](/assets/images/sign-in/app-how-you-sign-in.png)
 
 ## If something goes wrong
 
