@@ -802,9 +802,10 @@ What to know:
   copies edited together stay in this discipline. Open one copy with **Edit** to
   link it.
 - A rule shared with another division cannot be limited to categories, levels or
-  age groups. If you narrow such a rule, saving asks **Unlink the other divisions
-  and save?**. Press **Unlink and save**: the other divisions keep their own copy,
-  no longer linked.
+  age groups. If you narrow such a rule, a note under the disciplines names the
+  copies this affects, and saving asks **Unlink the other divisions and save?**.
+  Press **Unlink and save**: the other divisions keep their own copy, no longer
+  linked.
 - Rules that belong to a round setup, the default ladder and rules a round setup
   has replaced stay in their own discipline and cannot be linked.
 - The **Setup** tag under **Advanced** is part of the rule, so it is the same in
