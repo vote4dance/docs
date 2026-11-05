@@ -32,7 +32,7 @@ From Manager print routes and round tools, produce:
 
 Use `Data` export tools for:
 
-- Result CSV
+- Result CSV (**Download results** → **Download .csv file**): one row per participant, class by class. Until a class has results its rows follow the start numbers; afterwards they follow the placings. **Club** holds the club's short code and the last column, **Complete clubs**, its full name.
 - Partial average export where relevant
 
 Run exports only when result status is final.

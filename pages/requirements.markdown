@@ -51,6 +51,25 @@ Checklist:
 - Backup internet path (secondary router or 4G/5G)
 - A designated technical contact on event day
 
+## Updates during an event
+
+Vote4Dance can release an update while your event is running. Devices that have been open
+since before the update pick it up by themselves, so you don't have to walk round and reload
+every screen:
+
+- **Screens and lineup** reload on their own within a few minutes, without showing anything to
+  the audience.
+- **Judging tablets, Supervisor, Speaker, Check-in and Cafe** show **There is a newer version**
+  with a **Reload** button. If nobody presses it, the device reloads by itself once it has not
+  been touched for 5 minutes. A judging tablet only does that while it is locked with the
+  judge's PIN, after every mark has been sent. The check-in desk and the Cafe wait while a
+  registration, a sale or an order is half-filled.
+- **Manager and the other apps** only show **There is a newer version**. Press **Reload** when
+  it suits you; anything you have not saved is lost when you reload.
+
+Devices that reload by themselves never do so while offline, and they spread out over a few
+minutes so the venue Wi-Fi isn't hit all at once.
+
 ## Browser guidance
 
 For Manager and admin workflows, use current Google Chrome.
