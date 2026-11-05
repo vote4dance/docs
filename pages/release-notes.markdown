@@ -8,6 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-11-05
  🛠️ **Improvements**
+* App: In **Claim past results**, a dancer or partner spelled with and without an accent, such as Zoë and Zoe, now counts as one person. Your search also finds your results under the other spelling, and one partner shows as one group instead of two. A result spelled differently from what you searched for shows **Spelling differs** and starts unticked, so check it's yours before you tick it (see [If something is missing or looks wrong](/dancer/creating-and-getting-a-ranking/#if-something-is-missing-or-looks-wrong))
 * App: On Android, the app's text now shows in the Vote4Dance font, Nunito, with the right weights for headings and italics; before, most of it showed in the phone's standard font. Nunito is slightly wider, so some longer text, such as a subtitle in **Settings**, can now take a second line. On iPhone, list rows, buttons, tab labels and headers now use Nunito too.
 ## 2026-11-04
  🛠️ **Improvements**
