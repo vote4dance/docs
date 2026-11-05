@@ -39,6 +39,12 @@ Open the event in the app and tap the **Call it** card, **Call the finals of the
 - **Headline finals**: the day's biggest finals.
 - **The day in numbers**: a few questions about the day, such as how many dancers or clubs take part and how many finals are danced. They are answered from Vote4Dance's own numbers when the game ends; the closest answer wins.
 
+![A day of Call it: your place, your finals, the headline finals and the day in numbers](/assets/images/audience/call-it-day.png)
+
+Further down, **Top of the room** shows who leads the day so far.
+
+![Top of the room with the two leading players and their points](/assets/images/audience/call-it-day-standings.png)
+
 You call who wins each final. A final that comes straight after the first round can be called as soon as the game opens. A final after a semi-final opens when the semi-final's results are published, because only then is it known who dances in it. Every final can also be called from its heat.
 
 Rounds before the final can be called too, from the heat, while they are on the floor:
