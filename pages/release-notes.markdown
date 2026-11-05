@@ -7,6 +7,10 @@ nav_order: 10
 
 # Release notes
 ## 2026-11-05
+ ⭐ **New**
+* Federation: A promotion points table can pay by the round a dancer reached, such as 5 points for every semifinalist, and can ask for a minimum number of jury marks in that round (see [Pay by the round a dancer reached](/federation/progression/#pay-by-the-round-a-dancer-reached)).
+* Federation: A competition level can have its own promotion points table, so a championship can pay differently while using the same classes as the qualifiers (see [A points table for one level of competition](/federation/progression/#a-points-table-for-one-level-of-competition)).
+* Federation: **Season points** has a **Recalculate points** button. It shows per event what the saved tables would change, then updates the results and leaves corrected ones alone (see [Recalculate points](/federation/progression/#recalculate-points)).
  🛠️ **Improvements**
 * App: On Android, the app's text now shows in the Vote4Dance font, Nunito, with the right weights for headings and italics; before, most of it showed in the phone's standard font. Nunito is slightly wider, so some longer text, such as a subtitle in **Settings**, can now take a second line. On iPhone, list rows, buttons, tab labels and headers now use Nunito too.
 * Manager: Letters with accents, such as é and è, now show correctly when you open a downloaded file in Excel. This covers **Download .csv file** and **Download partial average** under **Download results**, and **Download .csv file** on the schedule's print view. Before, Excel could show é as Ã© (see [Data exports](/manager-guide/post-event/#3-data-exports))
