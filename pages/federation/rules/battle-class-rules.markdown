@@ -226,7 +226,7 @@ Rules that should only fire when a quarter exists combine two conditions:
 
 ```
 round == 3, from end    ← the quarter layer
-round >= 2, from start  ← excludes the first round (placing)
+round != 1, from start  ← excludes the first round (placing)
 ```
 
 ---
