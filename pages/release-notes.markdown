@@ -8,7 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-11-05
  ⭐ **New**
-* App: **Settings** → **Appearance** now also offers **System**, and the app follows your phone unless you choose otherwise. On a phone set to light the app now opens light, and it changes when your phone does. If you already chose **Light** or **Dark**, the app keeps your choice. Update the app from the App Store or Play Store to get it (see [Choose how the app looks](/dancer/following-in-the-app/#choose-how-the-app-looks))
+* App: **Settings** → **Appearance** now also offers **System**, next to **Light** and **Dark**. With **System** the app follows your phone's light or dark setting and changes when your phone does. The app stays **Dark** unless you choose otherwise. Update the app from the App Store or Play Store to get it (see [Choose how the app looks](/dancer/following-in-the-app/#choose-how-the-app-looks))
  🛠️ **Improvements**
 * App: On Android, the app's text now shows in the Vote4Dance font, Nunito, with the right weights for headings and italics; before, most of it showed in the phone's standard font. Nunito is slightly wider, so some longer text, such as a subtitle in **Settings**, can now take a second line. On iPhone, list rows, buttons, tab labels and headers now use Nunito too.
 ## 2026-11-04

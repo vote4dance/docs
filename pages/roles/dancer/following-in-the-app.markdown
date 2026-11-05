@@ -70,7 +70,7 @@ When the organizer has switched on audience voting, you can give a competitor up
 
 ## Choose how the app looks
 
-The app can be light or dark. Unless you choose otherwise, it follows your phone: light when your phone is set to light, dark when your phone is set to dark.
+The app is dark unless you choose otherwise. You can make it light, or let it follow your phone.
 
 1. Open the **Profile** tab and tap **Settings**. If your app shows a **Settings** tab instead of **Profile**, open that.
 2. Tap **Appearance**.
