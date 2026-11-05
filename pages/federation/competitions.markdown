@@ -162,6 +162,9 @@ file named `competitions-<tab>-<date>.csv`. The file has one row per event with 
 competition, reference number, dates, venue, organizer, state, entries, organizations, classes,
 classes finished, judges and federation standing. The button is greyed out when the list is empty.
 
+The file uses the list separator that goes with your browser's language: a semicolon where numbers are written with a decimal comma, as in Belgium, the Netherlands or Sweden, and a comma elsewhere.
+If it opens with everything in one column, open it in Excel with **Data → From Text/CSV** and choose the separator there.
+
 ## Rankings and rules
 
 The same link between an event and your federation is what your rankings and rules use.

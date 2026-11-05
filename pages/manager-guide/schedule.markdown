@@ -203,6 +203,8 @@ Each row shows **Severity**, **Time**, **Dancer**, **Date**, **Round A** and **R
 
 **Export CSV** downloads the rows the table shows, so the **Also flag tight transitions under** value and **Hide tight transitions within the same hall** decide which tight rows are included. Each row has the severity, the minutes of overlap or gap, the dancer and how they were matched, the date, and for both rounds the round, estimated start and end, and floor. The file opens in Excel with å, ä and ö intact.
 
+The file uses the list separator that goes with your browser's language. If it opens with everything in one column, see [Dancer lists](/manager-guide/statistics/#dancer-lists).
+
 ### How dancers are recognised
 
 A conflict can only be found when the system knows two entries are the same person. The **Dancer** column says which identity matched:
