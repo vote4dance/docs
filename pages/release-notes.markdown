@@ -46,6 +46,7 @@ nav_order: 10
 * Federation: The **Class rules** tab has a **Download CSV** button. It saves every rule of the discipline as a spreadsheet row, with where it applies, its condition and each setting in its own column, so you can go through the rules or agree changes outside Vote4Dance (see [Download the rules](/federation-rules/reference/#download-the-rules))
  🛠️ **Improvements**
 * Speaker: On **Lineup**, every heat card always shows its heat number and how many are dancing in it. When the cards are narrow, for example with two rounds side by side or a zoomed-in browser, the **Done** button shrinks to a ✓ instead of covering the count (see [Live operations](/manager-guide/live-operations/))
+* App: The notification you get when a dancer you follow finishes a round now includes their placing whenever the app shows it. Before, the placing was often left out of the notification in rounds where the organizer had not set a position to hide results from (see [Follow dancers and clubs with Premium](/dancer/following-in-the-app/#follow-dancers-and-clubs-with-premium))
 ## 2026-10-26
  ⭐ **New**
 * Manager: A dancer who belongs to more than one club now gets a list under **Represents** in **Edit registration**, so you can correct the club a dancer or parent picked by mistake when registering. Only clubs that have approved the dancer are listed, and clearing the list goes back to the club Vote4Dance finds on its own (see [Change the club a dancer represents](/manager-guide/registration-checkin/#change-the-club-a-dancer-represents))
