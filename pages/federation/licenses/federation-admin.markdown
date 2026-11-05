@@ -7,6 +7,7 @@ nav_order: 1
 help:
   federation.license: ""
   federation.license.items: 3-manage-license-items
+  federation.license.member-check: 9-check-a-member-number
 ---
 
 # Federation admin
@@ -31,6 +32,7 @@ Different parts of the license workflow require different [staff roles](/federat
 | Grant or remove license issuer access | Manager |
 | Move an approved license to another organization (reissue) | Administrator |
 | Add or edit license items (catalog) | Administrator |
+| Check a member number (federations with a member register) | Manager |
 | Map license items to classes | Administrator |
 | Connect Stripe | Administrator |
 
@@ -174,6 +176,15 @@ When **not** to use manual creation:
 When a license was applied for with a federation ID (the member number from the federation's own system), the ID is shown under the person's name in **All other licenses**. It is also a column in the CSV download, and the search box finds a license by it.
 
 The ID is saved on the license when it is applied for and is not updated automatically if the federation changes it later. When the dancer registers for a competition, the ID is checked with the federation again. If the federation no longer recognizes the old ID, that license does not count for the registration. To fix it, the dancer (or their organization) applies again with the new ID; this updates the existing license instead of creating a second one.
+
+### Licenses of one organization
+
+To see which dancers of one club or school hold a license:
+
+1. Open **Licenses** → **All other licenses**
+2. In **Filter by organization**, type part of the club's name or short name and pick it from the list
+
+The list now shows every license of that organization, together with any other filters you have set. Picking an organization unticks **Only show those awaiting an organization or dancer**, so active licenses show too; tick it again to see only the open ones. Clearing the organization puts the tick back as it was. **Download CSV** downloads the same selection. The list only offers organizations that hold at least one license: if you see *No organization with that name holds a license*, none of that club's dancers has a license yet. The search box also finds a license by the organization's name.
 
 ### What each field means
 
@@ -428,6 +439,47 @@ For a new federation setup, verify this sequence:
 5. Issuer role is configured on the right organizations before org-managed applications begin
 6. Each competitive class has the right accepted items
 7. Payment status and payer type look correct on real applications
+
+## 9. Check a member number
+
+Some federations check each dancer's member number against their own member register when a licence is applied for. Dansport Vlaanderen does this. When a dancer or club tells you a number "is not recognised", the **Member check** tab shows you why, without contacting Vote4Dance support. It only looks things up: nothing is changed, and nothing is sent to the dancer.
+
+The tab is only there when your federation has a member register connected, and you need the Manager role or higher.
+
+![The Member check tab on the Licenses page](/assets/images/member-check/member-check-tab.png)
+
+### Check a number
+
+1. Open `Federation → Licenses` and choose the **Member check** tab
+2. Type the **Member number** the dancer used
+3. Choose the dancer's club. Each club's register login only sees that club's members, so check with the club the dancer applied with
+4. Press **Check**
+
+You see the register's answer for that club: the **Name in register**, the **Member number**, the **Birth date in register** and the **Membership status**. A short text under it says what it means.
+
+Below that, **Vote4Dance accounts** lists the accounts that have a licence with this number or the same name as in the register, with each account's **Birth date in Vote4Dance** and how it **Compared with register**. Click a name to open the dancer.
+
+### What the result tells you
+
+| You see | What it means | What to do |
+|---|---|---|
+| **Active member** | The number is valid for this club. | If the application was still rejected, look at the birth dates under **Vote4Dance accounts**. |
+| **Not active** | The member is in the club's list, but the membership's status type is not ACTIVE, for example PROSPECT, even when its name says "Actief lid". | Change the membership status in the member register. |
+| **Not found** | The number is not in this club's member list. | Check the number with the member. If they belong to another club, check again with that club; they must apply with that club selected. |
+| **Check failed** | The register could not be reached with this club's login. | Try another club: if that works, check this club's register login on the club's page (`Teams & integration`). If no club works, the register is unavailable: try again later. |
+
+Birth dates are compared like this:
+
+- **Matches**: the birth dates are the same.
+- **One day apart**: usually the register holds the date one day too early. Correct it in the member register. Do not ask the dancer to change their date in Vote4Dance; their account would then be wrong.
+- **Different**: the dates differ by more. One of them has a typing mistake; check with the dancer which one.
+- **Missing**: the dancer's account has no date of birth. They add it under their account settings.
+
+### From a club's page
+
+When you are already looking at a club, open its `Teams & integration` tab and press **Check a member number for this club**. The **Member check** tab opens with that club already selected.
+
+![The member check link on a club's page](/assets/images/member-check/club-page-link.png)
 
 ## Common mistakes
 

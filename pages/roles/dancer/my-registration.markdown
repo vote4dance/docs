@@ -6,13 +6,14 @@ parent: Dancer
 nav_order: 5.5
 help:
   public.event.me: ""
+  public.event.me.change-class: changing-class
 ---
 
 # My registration
 
 Every event you are registered for has a page of its own: **My registration**. It shows what you
 still have to do, every class you are in with its rounds and results, and whether your start number
-has been picked up. You also pay, add a class and withdraw from a class there.
+has been picked up. You also pay, add a class, change class and withdraw from a class there.
 
 In the Dancer app the same page is called **My event**. See [In the Dancer app](#in-the-dancer-app).
 
@@ -45,7 +46,7 @@ The card at the top tells you what is left, and counts it (**1 thing left**). It
 
 | What it says | What it means | What you do |
 |---|---|---|
-| **Pay** and an amount | The organizer has approved classes you have not paid for yet. | Press **Pay now** and pay by card. Everything still unpaid at the event is paid at once. |
+| **Pay** and an amount | The organizer has approved classes you have not paid for yet. | Press **Pay now** and pay by card. Everything still unpaid at the event is paid at once. Once paid, your registration is final. |
 | **Pay as the organizer describes** | The organizer takes payment their own way, for example by bank transfer or at the desk. Their instructions are shown below. | Follow the instructions. |
 | **Payment in progress** | You have paid by card and the payment is being confirmed. | Wait a minute: the class turns **Paid** on its own. |
 | **Waiting for the organizer to approve your registration** | The organizer approves registrations by hand. | Nothing yet. If the event takes card payment, you can pay once you are approved. |
@@ -67,7 +68,7 @@ online until…**). After that, changes are made at the desk.
   [What your status means](/dancer/registration-for-event/#what-your-status-means)) and whether it
   is **Paid** or **Not paid**.
 - **Its rounds**, once the organizer has set them up and published the schedule: the time, the
-  round, and your heat and floor. Before that it says **Time set after registration closes**.
+  round, and your heat and floor. Before that it says **Your dance time is announced after registration closes**.
 - **How it went**, round by round, as soon as the results are published: **Through**,
   **Not through · placed 4**, **Alternate 1**, **Placed 2** and so on. A round still being judged
   says **Results coming**.
@@ -95,11 +96,54 @@ On a competition day the page also shows:
 
 Results and times update on their own while the page is open.
 
+## Changing class
+
+If you picked the wrong class, you do not have to withdraw and register again: until registration
+closes you can move your entry to another class. Your payment stays with the entry.
+
+1. Open **My registration** for the event.
+2. Press **Change class** on the class.
+3. Pick the class you want to move to.
+4. Press **Change class** again, or **Keep current class** to stop.
+
+![The Change class button on a class](/assets/images/my-registration/change-class-button.png)
+
+![Picking the class to move to](/assets/images/my-registration/change-class.png)
+
+*Anna and Sam, who dance a duo, move from Rising Talent to Ultimate Talent. Both of them move.*
+
+What you can move to:
+
+- **Classes that open for registration together with yours.** These are the classes you see side by
+  side when you register, for example the other levels or regions of the same group of classes.
+  They cost the same, so nothing is charged and nothing is refunded.
+- **Only classes you are allowed to dance.** A class you do not qualify for, for example because of
+  your age, your level or your licence, is shown greyed out with the reason. A class where you
+  already dance another level of the same category is greyed out too, when the federation allows
+  only one class per category.
+- **Not the classes you are already in**, and not a class you withdrew from earlier.
+
+A duo or team moves as one: everyone on the entry moves to the new class.
+
+The **Change class** button is missing when:
+
+- **Registration has closed.** The class says **Registration has closed: changes only at the desk**:
+  ask the organizer.
+- **Your club owns the entry.** The club changes it: ask your club's coach or administrator. They
+  change the class from the club's **Registration** page (see
+  [Moving an entry to another class](/school-club/registration-for-event/#moving-an-entry-to-another-class)).
+- **There is no other class to move to.** A class that is registered separately, with its own price,
+  is not in the list: withdraw and register again instead (see
+  [Withdrawing from a class](#withdrawing-from-a-class)). Nothing you paid is refunded
+  automatically.
+- **The organizer has already put you on the start list**, or the class has lineup changes for your
+  team. The organizer changes those: ask them.
+
 ## Withdrawing from a class
 
 1. Open **My registration** for the event.
 2. Press **Withdraw** on the class.
-3. Press **Withdraw** again to confirm, or **Keep it** to stop.
+3. Press **Withdraw** again to confirm, or **Keep it** to stop. If you have paid, the confirmation reminds you that the payment is not refunded automatically.
 
 ![Confirming that you withdraw from a class](/assets/images/my-registration/withdraw.png)
 

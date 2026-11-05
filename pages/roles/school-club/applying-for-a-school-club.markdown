@@ -35,8 +35,10 @@ A dancer left on **Member** is correct, not a mistake to fix.
 3. With **Member approval** on, they wait under **Members** until a manager or administrator
    approves them. With it off, they are members at once.
 
-An administrator can also add someone directly: **Permissions → Search members**, pick the
-person, **Add**. They must already have a Vote4Dance account. There is no invitation email.
+The club cannot add people itself: everyone joins by pressing **Join organization**. That way each
+member has agreed that the club and its federation can see their details and manage their
+registrations. Coaches and other staff join the same way; an administrator then gives them their
+role under **Permissions**.
 
 ## Make it easy to find the right club
 

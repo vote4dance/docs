@@ -75,7 +75,9 @@ On the **Registrations** tab:
 | **Rejected** | Declined by you. |
 | **Cancelled** | Withdrawn by the dancer, their club, or you. |
 
-The list opens filtered on **Preliminary**. Change the filter to see the rest.
+The list opens on **Preliminary** and **Approved** registrations together. A notice above it says how many are still preliminary; click **Show only these** to list just those, and set each one's status to **Approved** to accept it. Change the status filter to see cancelled or rejected registrations.
+
+![The Registrations tab with the notice counting preliminary registrations, the Show only these button and the Organization column](/assets/images/registration/registrations-preliminary-notice.png)
 
 ## Step 5: Import participants
 
@@ -95,7 +97,7 @@ Then assign start numbers and add participants to the first rounds. See
 | A registration is stuck on Preliminary | With manual acceptance you approve it yourself. With invoice payment, approve it once paid. |
 | An online payment was abandoned | The registration is removed automatically. The dancer starts again. |
 | An approved registration is not in the lineup | Run **Update/import participants** again. The **Imported** check shows which registrations are in. |
-| A dancer wants a refund after cancelling | Cancelling does not refund. You refund from Manager. |
+| A dancer wants a refund after cancelling | Cancelling does not refund. You refund from Manager. If the dancer registered again and paid twice, see [Paid twice after cancelling](/manager-guide/registration-checkin/#paid-twice-after-cancelling). |
 
 ## Next step
 

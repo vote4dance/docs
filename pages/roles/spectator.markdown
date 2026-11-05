@@ -20,6 +20,7 @@ has_children: true
 ## Start here
 
 - [Buying tickets](/spectator/buying-tickets/) — how an event's Tickets page works, paying, and what happens at the entrance
+- [Following the schedule](/spectator/following-the-schedule/) — what is dancing now, when the next round starts, and which results are out
 
 ## Good to know
 

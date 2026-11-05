@@ -15,8 +15,69 @@ competitor — start number, name, organization, placement and category — and
 style it to match your event. You reach it from the Manager print routes
 (**Print → Diplomas** for a class and round).
 
-This page explains the print options and, for advanced users, how to fine-tune
-the layout with custom CSS.
+This page explains how to design your own diploma paper, the print options and,
+for advanced users, how to fine-tune the layout with custom CSS.
+
+## Designing your own diploma paper
+
+Many organizers have diplomas pre-printed with their own artwork — a logo,
+a border, sponsors, a signature — and let Vote4Dance print each competitor's
+details on top. To help your designer leave room in the right places, you can
+download a template that shows exactly where Vote4Dance prints each line, and
+a sample printout to test on your printer.
+
+**Downloads**
+
+- [Diploma template, A4 (PDF)](/assets/downloads/diplomas/diploma-template-a4.pdf)
+  and [the same template as SVG](/assets/downloads/diplomas/diploma-template-a4.svg)
+  for design programs such as Illustrator, Affinity Designer or Inkscape. The
+  blue guides sit on their own layer: design on the layer underneath, then
+  delete the guides before you send the file to the print shop.
+- [Sample diplomas, Clean print, A4 (PDF)](/assets/downloads/diplomas/diploma-sample-clean-a4.pdf)
+  — three diplomas exactly as Vote4Dance prints them, with made-up names.
+
+![The diploma template: the reserved Vote4Dance corner at the top left, the competition name and date at the top, and the name, club and placement lines in the middle of the page](/assets/images/diplomas/diploma-template-a4.png)
+
+**What to tell your designer**
+
+1. The paper is **A4, portrait**. Vote4Dance prints **one diploma per page**.
+2. Keep the **top-left corner free**: about **35 mm across and 20 mm down**.
+   Vote4Dance prints its small **Vote4Dance** mark there on every diploma, from
+   6 to 28 mm from the left edge and 8 to 10.5 mm from the top. It cannot be
+   moved, so keep that corner plain and light.
+3. Along the **top edge**, the competition name is printed in the middle
+   (about 9 to 18 mm from the top) and the date at the right (about 8 to
+   10.5 mm from the top).
+4. Leave the **middle of the page** free for the competitor's details. Each
+   line is centred across the page, from top to bottom:
+   - start number and name(s), about **140 to 148 mm** from the top
+   - club and country, about **153 to 161 mm**
+   - placement and class, such as "1st place - Youth Latin", about **165 to 174 mm**
+
+   When a competitor has a show name, it gets its own line under the club, and
+   the placement line moves down about 12 mm. Long names make a line wider, so
+   keep the area plain from side to side, not only in the middle.
+5. Use light colours or soft artwork behind these lines so the black text
+   stays easy to read.
+
+The positions are measured from a **Clean** print on A4 with **Show name of
+competition** and **Show start numbers** on. If you switch either off, the
+lines may sit a little differently, so make your test print with the options
+you will use on the day.
+
+**Before the event: make a test print**
+
+1. Print the [sample diplomas](/assets/downloads/diplomas/diploma-sample-clean-a4.pdf)
+   on plain paper on the printer you will use at the venue, at **100 %**
+   scale (not "Fit to page").
+2. Hold the test print against one of your pre-printed diplomas, up to the
+   light, and check that every line lands where your design leaves room.
+3. When you print the real diplomas, choose **Clean** on the diploma page,
+   paper size **A4** and scale **100 %** in the print dialog.
+
+If a line needs to move a few millimetres, it can be fine-tuned on the diploma
+page after a test print (see [Custom CSS](#custom-css) below, or ask the person
+who sets up your event to help).
 
 ## Print options
 

@@ -71,7 +71,7 @@ who already has Manager on that event.
 Manager. The last Manager on a competition cannot be removed, so an event always has an owner.
 
 **If someone else owns the event:** ask them to add you. They go to `Manager → Event → Users`,
-use **Search user by name or email** to find your account, and tick the apps you need — for an
+use **Search user by name or email** to find your account (give them your whole email address; part of one finds nothing), and tick the apps you need — for an
 organizer that is **Manager**. They can also give you a free-text role title such as
 "Chairperson"; the title is only a label, access follows the ticked apps.
 

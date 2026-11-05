@@ -36,6 +36,18 @@ Two naming traps:
 
 Each user can also be given a free-text **role title** (for example "Chairperson" or "Floor manager"). It is only a label shown in the list; access follows the ticked apps.
 
+## Getting a helper in before the day
+
+A helper at the check-in desk or the cafe counter does not need the Manager app, and does not need to wait for the event to open. Their tile is on the event page as soon as they have been given access:
+
+1. Under `Manager → Event → Users`, add the helper and tick **Check-in** (for the check-in desk) or **Café & sales** (for the cafe counter), then press **Save changes**.
+2. Ask the helper to sign in to Vote4Dance and open your event page.
+3. Under **Functions** they tap **Registration** for check-in, or **Café & sales** for the cafe.
+
+![The helper's event page, with the Registration and Café & sales tiles](/assets/images/helpers/event-page-helper-tiles.jpg)
+
+The helper can open the app and look around before the day. Marking people as arrived, and the other desk actions, start working once the event is open.
+
 ## Judges
 
 A judge is not a user in the Users list. Judges are created on `Manager → Competition → Judges`, linked to an existing account or invited by email, and assigned to panels per class. The list shows each judge as `Not invited`, `Invited` or `Active`, and you can send, resend or re-notify the invitation in any of the app's languages (English, Swedish, Spanish, Finnish, Norwegian, Dutch, German or French). See [Judges](/manager-guide/judges/) for the full judge setup.

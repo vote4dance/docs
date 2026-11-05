@@ -18,7 +18,11 @@ Your age rules are applied in two places:
 ## Before the season: set the rules
 
 1. **Season start (MM-DD)**, so ages are counted for the right year. Age is counted by birth
-   year: the year the season ends minus the birth year.
+   year: the year the season ends minus the birth year. Write it as month and day with two digits
+   each, for example `09-01` for 1 September. A date that does not exist, such as `02-30` or `9-01`,
+   is not saved: you get "The season start is not a date. Write it as month-day, for example 09-01
+   for 1 September." The same season start decides what counts as "this season" on
+   [Statistics](/federation/statistics/#the-season).
 2. **Age groups** with their bands, under `Federation → Structure`. See
    [Divisions](/federation/divisions/#age-groups).
 3. **Whose age counts** for couples and groups: for example the oldest member, or every member.

@@ -32,7 +32,9 @@ put its own registration help at the top of the **Registration** tab, above the 
 
 ## Registering on your own (solo)
 
-1. Sign in on vote4dance.com, open the event and go to its **Registration** tab.
+1. Open the event on vote4dance.com and go to its **Registration** tab. If you are not signed in, press **Sign in** (or create a free account); you come back to the same page.
+
+   ![The Registration tab when you are not signed in: how registration works, and a Sign in button](/assets/images/registration/signed-out-registration.png)
 2. Open the **As myself** tab. The first time, press **Create competitor**: your name is already
    filled in, so just press **Save changes**. Next time, pick yourself under **Select competitor**
    instead of creating a new one.
@@ -165,7 +167,7 @@ you.
 | **…the event requires a licence** | You, and your partner, need an **Active** licence from the event's federation before you can enter. Pending and expired licences do not count. See [Getting a license](/dancer/getting-a-license/). |
 | **…a class requires dance roles** | Set **Leader** and **Follower** on your couple. The locked class has a button that opens the couple's roles. |
 | **…only certain people may register** | Some events let only a member of the team, or only the club, register a competitor. If you are not allowed, ask your club to register you. |
-| **…the event asks which club you represent** | Pick the club from your approved club memberships. |
+| **…the event asks which club you represent** | Pick the club from your approved club memberships. If you belong to more than one club, you are asked for every class you add, since you can dance for a different club in each class; the club you picked last is already filled in. |
 | **…a group or formation class only accepts club teams** | Only a team owned by a club can enter. Ask your club to register the team. |
 | **…custom team names are not allowed** | The custom name option is hidden, and your own names are used. |
 | **…the event uses classes you move up through** | You can only enter the class you are in. Classes and age groups can change between seasons without you applying. See [Class transfer](/dancer/class-transfer/) and [Age transfer](/dancer/age-transfer/). |
@@ -179,12 +181,32 @@ you.
 | The class list says **No classes fit this competitor right now** | Press **Show more**. The classes that do not fit are listed there, each with the reason it is locked. |
 | A class says **This class needs a competitor with 2 people** | You picked a solo competitor for a couples class. Open **With partner** and pick your couple, or press **Create competitors** and add your partner. If your partner has no Vote4Dance account, you can create it there. |
 | A class is locked | Read the reason next to the class. The table above explains the common ones. |
+| A class says **A dancer in this team is already in …** or **This team is already in …** | Your federation allows only one class per category at an event: one age group and one level, for each dancer (solo, duo…) or each team (groups, formations). If you are in Solo Juniors 1 Rising Talent, you cannot also enter Solo Juniors 1 Ultimate Talent or Solo Children. Other categories, such as Duo or Clipdance, are not affected. To switch, remove the other class from your cart, or withdraw from it on **My registration**, and add the one you want. See [One class per category](#one-class-per-category). |
 | A class you expected is missing | The organizer may not offer it in this registration period. Ask the organizer. |
 | Your partner blocks the registration | Something is missing on your partner's account, such as a birth date or a licence. They fix it on their own account. |
 | You are not allowed to register this competitor | Ask your club to register you. |
 | "This team does not belong to a club, and only club teams can enter this class." | The class only takes teams owned by a club, and this team is independent even if its dancers are club members. A coach registers it under **As coach**: choose the club, create the team there and register that team. See [Registering your club's dancers](/school-club/registration-for-event/#step-1-set-up-the-competitors). |
 | A class says "Edit the lineup in the cart before registering", or the cart refuses a team entry | The rules are checked on the lineup that dances, with skipped and replacement dancers applied. Use **Edit lineup** in the cart to skip or replace the dancer who does not fit, for example one who is too old. Your club usually does this. |
 | None of the above | Ask the organizer. |
+
+### One class per category
+
+Some federations, such as Danssport Vlaanderen, allow **only one class per category** at an
+event: one age group and one level. You choose which level to dance, for example Rising Talent or
+Ultimate Talent, but not both. For solos, duos and similar categories this applies to each
+dancer; for groups and formations it applies to each team.
+
+Once one of these classes is in your cart or registered, the other classes of that category are
+greyed out and say which class you, or your team, are already in.
+
+![A class locked because the dancer is already in another level of the same category](/assets/images/registration/one-class-per-category.png)
+
+- **Each category counts on its own.** A dancer in Solo Juniors 1 Rising Talent can still dance
+  Duo, Clipdance or Freestyle, in the class that fits.
+- **Groups and formations:** each team may be in only one class of the category, but its dancers
+  may also dance in your club's other teams, in any class.
+- **To change your mind**, remove the class from your cart, or withdraw from it on
+  [My registration](/dancer/my-registration/#withdrawing-from-a-class), and then add the other.
 
 ## Cancelling a registration
 

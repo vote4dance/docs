@@ -63,7 +63,7 @@ A product that has been sold is never deleted — it is archived, so the tickets
 
 ### Checking the public page
 
-**Open public tickets page** in the toolbar opens what buyers see: `/public/event/<event id>/tickets`. Send that link out; it is the same page the event's **Tickets** tab shows.
+**Open public tickets page** in the toolbar opens what buyers see: the event's page with **/tickets** at the end, such as vote4dance.com/public/event/snow-ball-2026/tickets once the event is published. Send that link out; it is the same page the event's **Tickets** tab shows.
 
 ## Orders
 
@@ -111,7 +111,7 @@ Dancers never need a ticket to compete under the first two choices — their Vot
 
 ## Selling at the desk
 
-The check-in station sells too: `Check-in → Sell`. It is the same catalog, with a cart, a total and **Paid in cash**. Cash is the payment method at the desk; a customer who wants to pay by card scans the QR on the page and buys on their own phone, and passes are sold that way only.
+The check-in station sells too: `Check-in → Sell`. It is the same catalog, with a cart, a total and **Paid in cash**. A customer can also pay by card on a staff member's iPhone: the staff member sells from the Vote4Dance app with Tap to Pay on iPhone — see [Tap to Pay on iPhone](/manager-guide/tap-to-pay/). A customer who prefers to pay on their own phone scans the QR on the page and buys there; passes are sold that way only.
 
 ![The desk sell page](/assets/images/shop/desk-sell.png)
 

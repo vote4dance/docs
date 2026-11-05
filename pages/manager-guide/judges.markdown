@@ -8,6 +8,7 @@ help:
   manager.comp.judges: ""
   manager.comp.judges.panels: panels
   manager.comp.judges.judges: judge-list
+  manager.comp.judges.earlier: judges-from-earlier-events
   manager.comp.judges.classes: classes
   manager.comp.judges.needs: judge-needs
   manager.comp.judges.absent: a-judge-who-cant-come
@@ -45,11 +46,11 @@ You need the **Manager** or **Supervisor** app on the event. The page is read-on
 
 ## Adding judges
 
-There are two ways to add a judge. Both are at the bottom of the judge list.
+There are two ways to add a judge. Both are at the bottom of the judge list. In [Scrutineer (Beta)](#judges-from-earlier-events) there is a third: pick the judges of your earlier events from a list.
 
 ### An existing account
 
-Type at least three letters of a name or an email address in the **Search users** box. Matching accounts appear with their email address and a count, such as `3x`, that shows how many competitions they have judged before. Pick one and press **Add**. The judge is added at once; no email is sent. See [Invitations](#invitations).
+Type at least three letters of the judge's name in the **Search users** box, or their whole email address. The search starts when you stop typing. Matching accounts appear with a shortened email address, such as j•••@g•••.com, and a count, such as `3x`, that shows how many competitions they have judged before. Searching by email needs the whole address. Pick one and press **Add**. The judge is added at once; no email is sent. See [Invitations](#invitations).
 
 Disabled accounts are not listed.
 
@@ -72,6 +73,37 @@ While you type, the dialog searches for existing accounts by email and by name u
 
 **Create new judge account** creates the account and adds the person as a judge. The dialog then opens the invitation for them. The invitation is not sent until you press **Send invitation** in that dialog.
 
+### Judges from earlier events
+
+In Scrutineer (Beta), the new version of the Manager app, you can add the judges you usually work with without searching for them one by one. Press **Add earlier judges** at the bottom of the judge list.
+
+![Add earlier judges at the bottom of the judge list](/assets/images/judges/add-earlier-judges-button.png)
+
+The **Add judges from earlier events** dialog lists people who have judged before:
+
+| Group | Who is in it |
+|---|---|
+| **Judged at your events** | Judges of earlier events where you have the **Manager** or **Supervisor** app. Those who judged at the most of your events come first, with how many and the last one, such as "4 of your events · last Spring Open 2026, Apr 2026". |
+| **Judged in** your federation | Judges of the federation's other events, such as **Judged in Norges Danseforbund**. Only for events that belong to a federation, and only once you have run an event in that federation before, as **Manager** or **Supervisor**, or if you work for the federation. |
+
+The first time you organize an event in a federation, you see only **Judged at your events**, or nothing yet; find your judges with the search below the judge list instead. Only names are shown, never email addresses. People who already judge in this competition are ticked and marked **Already added**.
+
+![The Add judges from earlier events dialog](/assets/images/judges/add-earlier-judges-dialog.png)
+
+To add judges:
+
+1. Tick the people you want. A long group shows its first eight; press **Show all** to see everyone.
+2. To find someone, type part of their name in **Filter by name**. The lists are filtered while you type; this is not a search, so you can use it as much as you like.
+3. To use a whole panel again, press one of your recent events under **Add a panel from an earlier event**, such as "Winter Trophy 2026 · Feb 2026 · 7". Everyone who judged that event and is not added yet is ticked. The six most recent of your events are offered.
+4. Check the names next to **Selected:**. Press the × on a name to leave that person out.
+5. Press **Add 5 judges** (the button counts the people you ticked). The button shows "Adding 2 of 5…" while it works. The dialog can't be closed until it is done, and closes by itself when everyone is added.
+
+![A panel from an earlier event selected](/assets/images/judges/add-earlier-judges-panel.png)
+
+The judges get the next free letters, as when you add them one at a time, and no email is sent; see [Invitations](#invitations). If someone could not be added, the dialog stays open, names them with the reason, and keeps them ticked so you can try again.
+
+Someone who is not in the lists, such as a judge new to your events, is found with the search below the judge list, or invited with **Invite new judge**.
+
 ## Judge list
 
 Each row has:
@@ -79,8 +111,8 @@ Each row has:
 | Column | What it shows |
 |---|---|
 | Dot | Green when the judge has the Judging app open and connected; hover for battery level. |
-| **Name** | The judge's name. Hover over the info icon after it to see their email address, and click it to copy the address. |
-| **Photo** | A photo used for this competition only. Upload one to replace the judge's profile picture; delete it to fall back to the profile picture. |
+| **Name** | The judge's name. Hover over the info icon after it to see a shortened email address, such as j•••@g•••.com, so you can tell judges with the same name apart. The full address stays private to the judge; invitations still reach it. |
+| **Photo** | A photo used for this competition only, shown for the judge on screens and in judge lists. A judge without one shows a placeholder; their Vote4Dance ID photo is never shown here. |
 | **Status** | See [Statuses](#statuses). |
 | **Needs** | **None**, or **Set by supervisor** when the judge has [needs](#judge-needs). Click it to open them. |
 | **Letter** | The judge's letter. Type it in; it saves when you leave the field or press Enter. |
@@ -163,6 +195,8 @@ The legend lists the roles a judge can have on a panel. **Not judging** is only 
 | **Chief judge (out)** | Doesn't count in the result; their marks only break ties. |
 | **Audience** | Scores come from public audience voting; counts toward final placements. Can be chosen on a panel, but is not shown in the legend. |
 
+The **Audience** judge follows the votes while the round is being judged and hands in by itself when the last of the other judges hands in; votes after that no longer change its result. It then shows as handed in with the other judges in the round's results. If you re-open the round and want the votes to count again, unlock the **Audience** judge there the same way as any other judge.
+
 When you seat a judge on the **Panels** tab, the seat menu says what each type does, and hovering over a type in the legend under the grid shows the same. **How it works** in the menu and the legend opens this section.
 
 The type is set per panel, so the same person can be a **Judge** on one panel and a **Trainee judge** on another.
@@ -211,17 +245,29 @@ Which chief judge type to use depends on the rules:
 
 A panel is a named group of judges. Classes and rounds are judged by a panel, not by individual judges. A round cannot be started until its class or the round has a panel. **Start judging** is refused with "Assign a judging panel to this class or round before starting judging."
 
-The **Panels** tab shows every judge as a row and every panel as a column. Each cell is that judge's seat on that panel.
+The **Panels** tab shows every judge as a row and every panel as a column. Each cell is that judge's seat on that panel. The judges are listed by letter, then by name, as on the **Judges** tab. To group judges while you build the panels, for example by hall, you can give them a temporary letter per hall on the **Judges** tab and set their real letters afterwards.
 
 You can seat judges on a panel before it judges any class. A panel that isn't used yet has a grey column and says "Not used by any round". Set up all your panels first if you like, then give each class its panel on the [Classes](#classes) tab.
+
+At the top of each column, under the panel's name, is how many judges the panel has out of how many it wants, for example "2/3". It is green when the panel has exactly the judges it wants, and red when it has too few, or more **Judge** or **Trainee judge** seats than it wants. Hover over a red count to see what is wrong, for example "Still needed: 1 × Judge" or "More than wanted: 1 × Judge". A new panel shows it straight away, such as "0/3", so you can see what to fill before any round uses the panel. A **Chief judge (in)** is counted in it, so 4 **Judge** seats and a **Chief judge (in)** show as "5/5".
 
 ![The Panels tab: judges down the side, panels across the top](/assets/images/judges/panels-grid.png)
 
 ### Seating a judge
 
-1. Click the cell where the judge's row meets the panel's column.
-2. Choose the seat: **Judge**, **Chief judge (out)**, **Chief judge (in)**, **Trainee judge** or **Audience**. See [Judge types](#judge-types).
+In the **Supervisor** app, one click is enough:
+
+1. Click the empty cell where the judge's row meets the panel's column. The judge is seated as **Judge** straight away. A judge whose **Seat** need is **Trainee** gets **Trainee judge** instead (see [Judge needs](#judge-needs)).
+2. To give them another seat, click the seat, or right-click the cell, and choose **Judge**, **Chief judge (out)**, **Chief judge (in)**, **Trainee judge** or **Audience**. See [Judge types](#judge-types).
 3. The seat is saved at once. A message at the top says, for example, "Seated Anna Berg on Panel A (Judge)", with **Undo** to take it back.
+
+A striped cell still opens the list first, so you see why the judge can't sit there before you decide. If a list is open, clicking an empty cell only closes the list.
+
+In **Manager**, each click opens the list:
+
+1. Click the cell where the judge's row meets the panel's column.
+2. Choose the seat: **Judge**, **Chief judge (out)**, **Chief judge (in)**, **Trainee judge** or **Audience**.
+3. The seat is saved at once, with the same message and **Undo**.
 
 To take a judge off a panel, click their seat and choose **Remove from panel**.
 
@@ -236,11 +282,19 @@ The cell shows the seat's letter: **J** for judge, **C** for chief judge, **T** 
 
 Click or hover over a seat to see why it is marked. The reasons are also listed at the top of the seat's menu, so they can be read on a tablet.
 
-Under each judge's name is how much they judge, for example "6 rounds · 45 min". The search box finds a judge by name or letter, and **Only judges with problems** hides everyone whose seats are fine.
+Under each judge's name is how much they judge in this competition, for example "6 rounds · 45 min". Rounds in the event's other competitions are not counted here. The search box finds a judge by name or letter, and **Only judges with problems** hides everyone whose seats are fine.
 
 ### Panel order and running order
 
 **Panel order** shows the panels in the order you gave them. **Running order** sorts them by when their first round starts, grouped by day, so you see the day as it will run. A panel used on several days sits under its first day.
+
+To change the panel order, for example to move a panel you added later next to the ones it belongs with:
+
+1. Choose **Panel order**.
+2. Drag the panel's name at the top of its column to the left or right. On a tablet, hold your finger on the name for a moment before you drag.
+3. Let go where you want the panel. The column moves there with its judges, and the new order is saved at once.
+
+A short click on the name still opens the panel's pop-up. In **Running order** the panels follow the time of their first round, so they can't be dragged.
 
 ### A panel's settings
 
@@ -249,14 +303,14 @@ Click a panel's name at the top of its column. The pop-up shows:
 - the panel's name, which you can change;
 - the panel's problems, if any, and what it still needs, for example "Still needed: 1 × Judge", with **Fill open seats**;
 - **Judges**: what the panel judges, either the whole class or single rounds, such as "Novice Jack&Jill – Leaders · Semi only";
-- **Seats wanted**: how many judges, which chief judge, and how many trainees the panel should have;
+- **Seats wanted**: how many judges, which chief judge, and how many trainees the panel should have. A **Chief judge (in)** marks like the other judges, so the chief counts as one of the judges wanted: a panel that wants 5 judges and a **Chief judge (in)** is full with 4 **Judge** seats plus the chief. A **Chief judge (out)** does not count towards the judges;
 - **Delete panel**, which is only possible while no round uses the panel.
 
 ![A panel's pop-up](/assets/images/judges/panel-popup.png)
 
-**New panel** adds a panel, named "Panel 2", "Panel 3" and so on. Rename it in its pop-up.
+**New panel** adds a panel, named "Panel 2", "Panel 3" and so on. Rename it in its pop-up. Each panel in an event needs a name of its own: if another panel already uses the name you type, the name field turns red and says so, and the name is not saved until you change it. Your typing stays in the field, so you only need to adjust it.
 
-**Panel seats** at the top sets the seats a panel wants when it has no **Seats wanted** of its own. Vote4Dance starts from what most of your panels already have.
+**Panel seats** at the top sets the seats a panel wants when it has no **Seats wanted** of its own. Vote4Dance starts from what most of your panels already have. A panel you add with **New panel** keeps the **Panel seats** shown at that moment as its own **Seats wanted**, so it does not change when you later seat other panels differently.
 
 ### Letting Vote4Dance suggest seats
 
@@ -284,13 +338,37 @@ Each judge can have needs that Vote4Dance checks every seat against. Open them w
 | **Max minutes without a break** | Judging longer than this without at least 10 minutes off breaks the need. |
 | **Classes not to judge** | Classes this judge must never judge. |
 | **Dancers not to judge** | Students, a partner or family. Their entries are found by name. A judge who dances in a class themselves is found without being listed here. |
+| **Not on the same panel as** | Judges who must not judge together, for example from the same dance school. See [Keeping two judges apart](#keeping-two-judges-apart). |
 | **Seat** | Which seat the judge wants: **Any seat**, **Judge**, **Chief judge** or **Trainee**. |
 | **Split leader/follower classes** | Whether the judge prefers to judge **Leaders**, **Followers** or **Either**. |
 | **What they judge** | **Can only judge** limits the judge to some divisions, disciplines, levels, categories or age groups; other classes show as **Can't sit here**. **Wants to judge** is a wish that Suggest follows when it can. Only the kinds where your classes differ are shown. |
 | **Note** | Anything else. |
 | **Supervisor note** | Only supervisors see this, never the judge. |
 
-Choose **Save needs**. Seats on the grid are checked again straight away.
+Choose **Save and mark reviewed**. Seats on the grid are checked again straight away.
+
+### Keeping two judges apart
+
+When two judges must not sit on the same panel, for example because they teach at the same dance school, you can tell Vote4Dance to keep them apart:
+
+1. Open the needs of one of the two judges.
+2. Under **Not on the same panel as**, choose the other judge. You can choose several.
+3. Choose **Save and mark reviewed**.
+
+It works both ways. The other judge's needs now list the first judge too, and you can remove the pair from either of them.
+
+From then on:
+
+- **Suggest** never puts the two on the same panel.
+- On the grid, a panel where one of them already sits shows **Can't sit here** for the other. Clicking the cell still opens the seat menu, so you can seat them anyway when there is no other way.
+
+![The grid with two judges who should be kept apart on one panel](/assets/images/judges/judge-pair-grid.png)
+
+- If the two do end up on one panel, both seats get a **!** and [Problems with the panels](#problems-with-the-panels) shows a warning. It doesn't stop you from saving or from running the round.
+
+![The warning for two judges on one panel](/assets/images/judges/judge-pair-warning.png)
+
+Only people who manage the judges see this need. The judges themselves don't see it and can't change it.
 
 ### A judge who can't come
 
@@ -321,9 +399,11 @@ Red problems need fixing; orange ones are warnings. **Show** takes you to the pr
 | A group class round "should have no panel" | Remove the panel; the judges belong on the classes in the group. |
 | A panel "has an even number of judges" for a round decided by majority | Make one judge a **Trainee judge**, or add or remove a judge. |
 | A judge "judges two floors at the same time" | Move the judge to another panel, or run the rounds one after the other. |
+| A judge is "also on another panel at the same time", but the rounds are on a whole floor and one of its sections | This is never reported: a whole floor and its own sections run one after the other. If their estimated times still overlap, the schedule is too full there; see [Schedule conflicts](/manager-guide/schedule/). Two sections of the same floor can run side by side, so an overlap between them is still reported. |
 | A panel "still needs" seats (warning) | **Fill open seats**, seat someone yourself, or lower **Seats wanted**. |
 | A judge on a panel who is away, on two panels at once, or judging their own entry, a named dancer or a class to avoid | Move the judge, or change their needs. |
 | A judge on too many rounds, too long without a break, or outside what they judge (warning) | Move some of their seats, or change their needs. |
+| Two judges on one panel who should be [kept apart](#keeping-two-judges-apart) (warning) | Move one of them, or remove the pair from their needs. |
 
 Panels with a problem have a red or orange mark at the top of their column. The same checks, except judges' needs, are on the [Problems](/manager-guide/validator/) page.
 
@@ -370,14 +450,14 @@ In an event with several competitions, such as a championship week, each competi
 When the same person judges in more than one competition of the event (the same Vote4Dance account), Vote4Dance links them:
 
 - A link icon after their name lists the other competitions they judge in.
-- Their rounds in the other competitions count too: a seat at the same time is marked, rounds per day and breaks count every competition, and Suggest takes them into account. The load under their name says, for example, "(12 in other competitions)".
-- Their needs are shared. Saving them in one competition saves them in all of them, except **Classes not to judge** and **What they judge**, which name one competition's classes, levels and categories and so are set in each competition. **Judge absent** saves the time away everywhere and tells you how many of their rounds in the other competitions fall in that time; replace those seats on that competition's Judges page.
+- Their rounds in the other competitions count too: a seat at the same time is marked, rounds per day and breaks count every competition, and Suggest takes them into account.
+- Their needs are shared. Saving them in one competition saves them in all of them, except **Classes not to judge** and **What they judge**, which name one competition's classes, levels and categories and so are set in each competition. Adding or removing a judge under **Not on the same panel as** carries over to the competitions where both judges judge. **Judge absent** saves the time away everywhere and tells you how many of their rounds in the other competitions fall in that time; replace those seats on that competition's Judges page.
 
 ![Choosing the competition, and a judge who also judges in another competition](/assets/images/judges/several-competitions.png)
 
 ## Removing a judge
 
-The delete icon on a judge's row removes them from the competition after you confirm. It also removes them from every panel.
+The delete icon on a judge's row removes them from the competition after you confirm. It also removes them from every panel and from other judges' **Not on the same panel as**.
 
 A judge who has already given marks in this competition cannot be removed: "Cannot change judge with results".
 

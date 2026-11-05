@@ -23,9 +23,9 @@ Emails, the check-in QR code and how to test them are on [Emails and the check-i
 
 | Tab | What it is for |
 |---|---|
-| `Registrations` | Every registration in the competition, with status, payment and the **Imported** check. This is where you approve, reject, email and import. Click a column header such as **Participant name** to sort. Type in **Filter by name** above the table to find a registration by its team name or any dancer's name; it combines with the class, status and payment filters. |
+| `Registrations` | Every registration in the competition, with status, payment and the **Imported** check. This is where you approve, reject, email and import. Click a column header such as **Participant name** to sort. Type in **Filter by name** above the table to find a registration by its team name or any dancer's name; it combines with the class, status and payment filters. When the registrations carry clubs, an **Organization** column shows the club each entry represents (see [Which club a dancer represents](#which-club-a-dancer-represents)); sort on it, or use its filter to list one club's entries. |
 | `Participants` | The registrations grouped by class, with how many are Approved, Signed (only when the event uses it) and Preliminary. A read-only view of what will be imported. It is **not** the participant list itself — that lives under `Competition → Participants`. |
-| `Organizations` | Registrations grouped per club, with the club's payment invitations. |
+| `Organizations` | Registrations grouped per club, with the club's payment invitations. A red tag such as **1 cancelled (paid 300 SEK)** means entries were cancelled after they had been paid, which you may need to refund; hover it to see which ones. Entries cancelled before anyone paid are not shown, since they change nothing the club owes. |
 | `Finances` | Expected, paid and outstanding totals per currency and period, and who still owes what. |
 | `Registration period` | The registration windows: dates, payment mode, acceptance mode, prices, rules and form. |
 | `Data transfer` | CSV import of participants, result downloads, and the reset and delete tools. Not an export to another system. |
@@ -45,6 +45,21 @@ For each period define:
 
 You can reorder periods to control display order.
 
+### Team names
+
+Dancers can give their team a name of its own. That name is used in group and formation classes, and in classes that ask for one. Solo and couple entries, and entries in classes that are not linked to a federation class, are shown under the dancers' names and not under a nickname.
+
+To collect team names in a class that doesn't use them, for example a crew class at an event without a federation:
+
+1. On the **Registration period** tab, open the period and click **Registration rules** to cover all its classes, or open **Select classes** and edit the rules of one class.
+2. Under **Requested information**, add a field, choose **Participants** and pick **Participant name**.
+
+   ![Registration rules with Participant name asked for under Requested information](/assets/images/registration/requested-information-participant-name.png)
+
+3. Click **OK**. Dancers registering for the class are now asked for the name, and it shows on the **Registrations** list and on the start list after the import.
+
+A name you type on a registration yourself always shows and is imported. Asking for **Name of show** collects a show title and doesn't turn team names on. A federation can switch team names on or off for its categories; where it switches them off, the start list always shows the dancers.
+
 ## Registration statuses
 
 | Status | Meaning | How a registration gets there |
@@ -56,14 +71,28 @@ You can reorder periods to control display order.
 | **Cancelled** | Withdrawn by the dancer or club, or set by the organizer. The row is kept. | The dancer/club cancels from their account, or manually. |
 | **Deleted** | Removed. Unpaid rows disappear; paid rows are kept and marked deleted. | Manually. |
 
-Two things that regularly cause confusion:
+Things that regularly cause confusion:
 
-- **The list opens filtered on Preliminary.** Change the status filter to see approved, cancelled or all registrations. The filter is a viewing aid only.
+- **The list opens on Preliminary and Approved together.** Change the status filter to see cancelled, rejected or all registrations. The filter is a viewing aid only.
+- **Preliminary registrations are counted above the list**, for example "2 registrations are still preliminary". Set a registration's status to **Approved** to accept it; with invoice payment, approve it once it is paid. Click **Show only these** to list just the preliminary ones.
 - **Names in orange** are not an error. The row shows a **team name or custom name** instead of the dancers' names. Hover the name to see the dancers behind it. Every other row shows the dancers' names in the normal colour.
+
+![The Registrations tab with the notice counting preliminary registrations, the Show only these button and the Organization column](/assets/images/registration/registrations-preliminary-notice.png)
 
 To change a status, use the dropdown on the row. If you have ticked rows with the checkboxes, the change applies to all ticked rows. "Send email on status change" at the bottom controls whether the dancers are emailed about the change (see [Emails](/manager-guide/emails/)).
 
 Online payments in progress are hidden until they are paid. A registration whose checkout is abandoned is removed automatically.
+
+### Paid twice after cancelling
+
+A dancer who cancels a paid registration and registers for the same class again ends up with one registration, not two: the cancelled one is reused, so the dancer does not appear under **Cancelled**. If the dancer paid again, both payments belong to that registration.
+
+1. Open the **Registrations** tab and click **+** to expand the registration.
+2. Click **Payment**.
+3. The dialog lists every payment for the registration. Earlier ones are marked **Earlier payment**.
+4. On the payment to give back, check the amount, add a description if you like and click **Refund**.
+
+Earlier payments made before this was introduced are not listed under the registration. Refund those in Stripe.
 
 ## From registrations to participants
 
@@ -73,17 +102,30 @@ Registrations and participants are two different lists. A registration is what t
 
 Each registration knows which club every dancer competes for. A dancer who belongs to more than one club can represent one club in one class and another club in a different class, so check this per registration, not on the dancer's profile.
 
-To check or change it:
+To check it:
 
-1. On the `Registrations` tab, press the **+** at the start of a row. Each dancer is listed with the club they represent in this registration.
+1. On the `Registrations` tab, the **Organization** column shows the club each entry represents. Press the **+** at the start of a row to see the club of every dancer in it.
 2. For more detail, press **Edit** (the pen) on the row. Under **Represents** you see every dancer with their club and where that club comes from:
-   - **Chosen at registration**: the dancer (or their club) picked it when registering. The federation asks for this when a dancer belongs to more than one club.
+   - **Chosen at registration**: the dancer (or their club) picked it when registering, or a manager picked it here. The federation asks for this when a dancer belongs to more than one club.
    - **Owning organization**: the team belongs to a club and always competes for it.
    - **Division license organization** or **License organization (no division match)**: the club on the dancer's federation license.
-   - **From the dancer's profile**: the club on the dancer's own account, used when none of the above applies.
-3. The two **Organizations** fields below (short names and full names) show that club in grey. Leave them empty to keep it. Type something only when the participant should be shown with a different club name, for example on the speaker's screen; what you type replaces the club for this registration.
+   - **From the dancer's profile**: the club the dancer is a member of, used when none of the above applies. A dancer who belongs to several clubs is shown with their main club.
 
-![The Represents row in Edit registration, with the club shown in grey in the Organizations fields](/assets/images/registration/edit-registration-represents.png)
+#### Change the club a dancer represents
+
+A dancer who belongs to more than one club gets a list under **Represents** instead of a line of text. Use it when a dancer or parent picked the wrong club when registering:
+
+1. Press **Edit** (the pen) on the registration.
+2. Under **Represents**, open the list next to the dancer and choose the club they compete for in this registration. Only clubs that have approved the dancer as a member are listed.
+3. Press **Ok**.
+
+The change applies to this registration only. If the dancer has the same mix-up in other classes, change each of those registrations too. To go back to the club Vote4Dance finds on its own (for example the one on the dancer's license), clear the list with the **×** and press **Ok**.
+
+![Represents in Edit registration, with a list to choose the club of a dancer who belongs to two clubs](/assets/images/registration/edit-registration-represents.png)
+
+A dancer who belongs to only one club, and every dancer in a team owned by a club, is shown as text. To have such a participant shown with a different club name, for example on the speaker's screen, type it in the two **Organizations** fields below (short names and full names). They show the club in grey; leave them empty to keep it.
+
+If the registration is already imported (the **Imported** check), run **Update/import participants** again so the participant gets the new club.
 
 The club shown here is the one **Update/import participants** gives the participant.
 
@@ -177,6 +219,8 @@ There are three check-in mechanisms, and they are independent:
 - **Organization check-in** (`Manager → Competition → Check-in`): each club confirms its whole roster for the day and signs. The manager opens a check-in window, follows the cancellation report, and applies the check-in to the competition. This is what decides who dances.
 - **The Vote4Dance ID**: every dancer has a personal QR code, in the app, on their account page and in the approval email. Check-in desk staff scan it in the Check-in app to find the dancer, hand out the start number, see payment status and mark them **Arrived**. See [At the door](/manager-guide/the-door/).
 - **Tickets**: what the audience shows. Sold from the event's Tickets page or at the desk — see [Shop](/manager-guide/shop/). Dancers do not need one unless the organizer says so.
+
+For a paper list of every club's dancers at the entrance, in case the network goes down, click **Print dancer lists** on the Check-in page. See [Dancer lists](/manager-guide/statistics/#dancer-lists).
 
 ### The Arrived column
 

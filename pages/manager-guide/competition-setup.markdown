@@ -75,6 +75,12 @@ A class has these fields:
 
 Group classes and merged classes add their own fields (class group, merge target).
 
+If the class's short letter is one of the federation's class codes, such as `BJITT`, the class is linked to that
+**Federation Class** by itself when you save it, and its division, discipline and category are filled in from the
+federation. This also works for older codes the federation still lists, and for each class when you split a
+merged class such as `BJITT/BVITT`. If two of the federation's classes share the code, set the **Discipline**
+first so the right one is picked. A Federation Class you chose yourself is never changed.
+
 Tips:
 
 - Keep the class title human-readable for registrations and printouts

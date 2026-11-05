@@ -49,13 +49,14 @@ The club's details and its website embeds are not under **Administration**. They
 
 `Organization → Administration → Permissions`
 
-This screen lists the club's approved members, each with name, email and a role selector. Next to the list, the **Guide to permissions** panel describes each role. Some lines in the panel only appear when they apply, for example the licence approval line for managers, which only shows when the club's federation asks clubs to approve licences.
+This screen lists the club's approved members, each with name, email address and a role selector. Next to the list, the **Guide to permissions** panel describes each role. Some lines in the panel only appear when they apply, for example the licence approval line for managers, which only shows when the club's federation asks clubs to approve licences.
 
 | Action | How | Who |
 |---|---|---|
-| Add a person | Type at least three letters of a name or email in **Search members**, pick the person and press **Add**. They join straight away as an approved **Member**. There is no invitation step. | Administrator |
 | Change a role | Pick a new role in the person's selector. It saves immediately. | Administrator |
 | Remove a person | The delete button on the row, then confirm "Are you sure you want to delete *name*?" | Administrator |
+
+You cannot add people to the club yourself. Dancers, coaches and other staff join by pressing **Join organization** on the club's page; that is also where they agree that the club and its federation can see their details and manage their registrations. If **Member approval** is on, you approve them under **Members**. Give them a role here once they have joined.
 
 Rules the screen follows:
 
@@ -88,7 +89,7 @@ Each row shows:
 | **Dancer** | The name, the birth year, and the role if it is not **Member** |
 | **Licence this season** | **Active**, **Pending** or **No licence with this club** |
 | **Competitors this season** | The dancer's competitors this season, such as **Solo**, **Duo with** *name* or a group's name |
-| **Entries this season** | Each competition the dancer is entered in, with the number of entries, and how many are unpaid |
+| **Entries this season** | How many competitions and entries the dancer has this season, such as **5 competitions · 12 entries**, the **Next** competition they are entered in, and how many entries are unpaid. Click the name to see every entry. |
 
 Click a name to open the dancer on the right: their licence, all their competitors (marked **Entered**, **This season** or **Earlier seasons**) and each entry with its status and payment. When the dancer has no licence, **Apply for a licence** takes you to [Licenses](#licenses).
 
@@ -168,7 +169,7 @@ This screen shows your club's event registrations for the season. It includes re
 
 ![The Registration screen with the season's events and entries folded per class](/assets/images/club-admin/registrations.png)
 
-At the top, a line counts the season's entries and how many are unpaid. Below it, each event this season has a card with its date, the number of entries and the number unpaid. The next event is selected. Click another card to switch. **Show earlier seasons** adds the events from before this season, and **Export CSV** downloads every entry of the events shown.
+At the top, a line counts the season's entries and how many are unpaid. Below it, each event this season has a card with its date, the number of entries and the number unpaid. The next event is selected. Click another card to switch. **Show earlier seasons** adds the events from before this season. **Download list (CSV)** at the top of the selected event downloads its active entries, in a file named after the event.
 
 The selected event opens below the cards. Filter its entries with the buttons above the list:
 
@@ -180,15 +181,31 @@ The selected event opens below the cards. Filter its entries with the buttons ab
 | **Unpaid** | Active entries that are not paid |
 | **Cancelled** | Cancelled, rejected and deleted entries |
 
-Use **Search dancer or class** to narrow the list, and switch between two views:
+Use **Search dancer or class** to narrow the list, and switch between three views:
 
 - **By class** lists the classes, each with its number of entries and how many are unpaid. Click a class to see its entries. Each entry shows the competitor, **Status** and, when the event takes payment, **Payment**.
 - **By dancer** lists one row per dancer with the classes they are entered in, the status of each, and how many entries are unpaid.
+- **By day** lists your dancers for each day of the event. See [Dancers per day](#dancers-per-day).
+
+### Dancers per day
+
+Some events charge a fee per dancer for each day they compete. If your club pays it for everyone and collects it from the dancers afterwards, **By day** shows who dances which day.
+
+![The By day view with the dancers for each day of the event](/assets/images/club-admin/registrations-by-day.png)
+
+1. Open **Administration → Registration** and click the event's card.
+2. Click **By day**. Each day of the event has its own list, with the number of dancers next to the date. Each dancer appears once per day, with the classes they dance that day.
+3. Click **Export CSV** under the view buttons to download the list, one row per dancer and day, to open in a spreadsheet or print.
+
+The days come from the event's schedule, so the lists appear once the organizer has made the rounds and published the schedule. This is usually after registration has closed. Until then, **By day** says your dancers will be listed once the organizer has put your classes on the published schedule. The lists update by themselves when the organizer publishes the schedule or moves classes to another day. A class with no day on the public schedule yet, for example because its rounds are not placed or sit on a hidden part of the schedule, is listed under **No day on the public schedule yet**.
+
+A dancer in a class that runs over two days, such as a first round on Saturday and a final on Sunday, is listed on both days, even if they might not reach the final. The filter buttons apply here too: with **Active** selected, cancelled entries are left out.
 
 | Action | How | Who |
 |---|---|---|
 | Change the lineup | **Edit lineup** on the entry. You can use it while the entry's registration period is open and the entry is **Preliminary**, **Signed** or **Approved**. The new lineup is checked against the class rules, and a replacement dancer takes over the replaced dancer's dance role. | Coach, Manager, Administrator |
 | Cancel an entry | The cancel button on the entry, then confirm, under the same conditions. For a club-owned competitor, only the club's coaches, managers and administrators can cancel. | Coach, Manager, Administrator |
+| Move an entry to another class | **Change class**, the swap icon next to **Edit lineup**, while the entry's registration period is open, the entry is not on the start list and has no lineup changes. You can pick another class of the same registration period, at the same price; its rules are checked as for a new registration. See [Moving an entry to another class](/school-club/registration-for-event/#moving-an-entry-to-another-class). | Coach, Manager, Administrator |
 | See the price | **Get cost**, for approved entries not yet paid | Coach, Manager, Administrator |
 | Pay online | **Pay now** with the amount, when the event takes online payment. With manual payment you see the amount and the organizer's payment information instead. | Coach, Manager, Administrator |
 | Pay the club's invoice | **Pay now** on a row under **Pay your registrations**. It is enabled when the invoice's status is **Ready to send**. | Coach, Manager, Administrator |
@@ -214,7 +231,7 @@ A club belongs to one federation at a time. Applying while any link exists, appr
 
 This screen is headed **License Applications**. It shows the licences your club has applied for or holds, for the federation chosen in **Select federation**. Without a federation link it only says "Connect this organization to a federation first." The **Licenses** item in the sidebar shows a badge with the number of applications that need you.
 
-![The Licenses screen with the summary cards, status tabs and selected applications](/assets/images/club-admin/licenses.png)
+![The Licenses screen opened on Active, with the summary cards and status tabs](/assets/images/club-admin/licenses.png)
 
 The page has these parts:
 
@@ -222,16 +239,16 @@ The page has these parts:
 |---|---|
 | The application form | Choose a **Member**, a **License item**, the **Season year** (or a **Federation ID** or **Competition ID** when the item needs one) and an optional **Note**, then press **Apply for license**. |
 | Season, search and export | Pick the season to show, or **All seasons**. **Search by member name** narrows the list, and **Export CSV** downloads it as shown. |
-| Summary cards | **Needs your action**, **Active**, **Waiting for the federation** and **Members without a licence**. Click a card to open that tab. **Members without a licence** opens [Members](#members), where the **No licence this season** card lists them. |
-| Status tabs | **Needs your action**, **Active**, **Waiting for the federation**, **Expired or cancelled** and **All**, each with its count |
+| Summary cards | **Needs your action**, **Active**, **In progress** and **Members without a licence**. The **Needs your action** card and tab only show when your federation asks clubs to approve licences or something waits for your club. Click a card to open that tab. **Members without a licence** opens [Members](#members), where the **No licence this season** card lists them. |
+| Status tabs | **Needs your action**, **Active**, **In progress**, **Expired or cancelled** and **All**, each with its count |
 
-**Needs your action** shows applications waiting for your club to approve or pay, from every season, so nothing waiting on you is hidden by the season. The **What's needed** column says **Awaiting your approval** or **Payment due**. The other tabs follow the season you picked. The list is sorted by member and shows 50 licences per page.
+The list opens on **Needs your action** when something waits for your club, and on **Active** otherwise, so you see straight away who holds a licence. **Needs your action** shows applications waiting for your club to approve or pay, from every season, so nothing waiting on you is hidden by the season. The **What's needed** column says **Awaiting your approval** or **Payment due**. The other tabs follow the season you picked. The list is sorted by member and shows 50 licences per page.
 
 | Action | How | Who |
 |---|---|---|
 | Apply for a member | The form, then **Apply for license** | Manager, Administrator |
 | Approve an application | **Approve** on the row. It only appears when your federation asks clubs to approve licences. | Manager, Administrator |
-| Approve several | On **Needs your action** or **Waiting for the federation**, tick the applications, then press **Approve** | Manager, Administrator |
+| Approve several | On **Needs your action** or **In progress**, tick the applications, then press **Approve** | Manager, Administrator |
 | Decline an application | **Decline**, then confirm "Decline license application for *name*?" The licence becomes cancelled. | Manager, Administrator |
 | Decline several | Tick the applications, press **Decline** and confirm | Manager, Administrator |
 | Pay | **Pay** on an unpaid row. It stays disabled until the licence is approved, and when the federation has not connected Stripe. | Manager, Administrator |
@@ -251,7 +268,7 @@ You cannot change your own role, and on this screen nobody can change or remove 
 
 ### "There is no Approve button on a licence"
 
-**Approve** only appears when your federation asks clubs to approve licences. Without that, an application your club does not have to approve waits under **Waiting for the federation**: on the federation, or on the dancer's payment. See [Getting a license](/school-club/getting-a-license/).
+**Approve** only appears when your federation asks clubs to approve licences. Without that, an application your club does not have to approve waits under **In progress**: on the federation, or on the dancer's payment. See [Getting a license](/school-club/getting-a-license/).
 
 ### "Competitors lists old duos"
 

@@ -160,8 +160,9 @@ The print view is at `/manager/print/<event id>/schedule`. When the schedule is 
 
 | Option | Effect |
 |---|---|
-| **Group by classes** (on by default) | Rounds of the same division and discipline that follow each other are merged into one line, and the round time column is left out. |
+| **Group by classes** (on by default) | Rounds of the same division and discipline that follow each other are merged into one line, showing the time of the first round. |
 | **Include details** | Adds the number of heats to each line. |
+| **Show round times** (on by default) | Prints the time each round is planned to start in front of it. Turn it off for a printout with only the block start times. |
 | **Print** | Opens the browser's print dialog. The settings bar is not printed. |
 | **Download .csv file** | Downloads the schedule as a CSV: start, round, number, floor and heats per round, with the page and item rows in between. |
 
@@ -180,22 +181,27 @@ The report takes every round that has an estimated time, works out when each dan
 | Severity | Meaning | Time column |
 |---|---|---|
 | **Conflict** | The two windows overlap. | Minutes of overlap |
-| **Tight** | The second round starts less than five minutes after the first ends. | Minutes of gap |
+| **Tight** | The second round starts only a few minutes after the first ends: 5 minutes or less by default. | Minutes of gap |
 
 A pair is not reported when:
 
 - both rounds are in the **same class**;
-- both rounds are on the **same floor**, since one floor cannot run two rounds at once;
 - the rounds are on **different days**. Rounds on items with no dated page above them are only compared within the same item;
 - either round has no estimated time: it is on **Unscheduled**, or its item has no start time.
 
+Two rounds on the **same floor** are compared too. Rounds on the same schedule item that start at the same time on one floor are danced together, so a dancer in both is a **Conflict**. Other rounds on one floor run one after the other, so a dancer going from one class straight into the next is **Tight**, with 0 minutes when the estimated times touch or overlap.
+
 A dancer's window is narrowed to their own heat. Once heats are drawn, the real heat is used; before that, the heat is predicted from the start numbers the same way the draw will place them. Dancers without a start number are counted for the whole round.
 
-**Also flag tight transitions under** sets how short a gap must be to show as **Tight**, from 0 to 60 minutes, 5 by default. The report itself only finds gaps under five minutes, so a higher value shows no more rows; use it to narrow the list.
+**Also flag tight transitions under** sets how short a gap must be to show as **Tight**, from 0 to 60 minutes, 5 by default. Raise it to see every dancer with less than, say, 15 minutes between rounds.
+
+**Hide tight transitions within the same hall** appears when the event has rounds on a floor's sections, and is ticked when the page opens. It hides **Tight** rows where the dancer moves between two floors of a hall split into sections: between the whole floor and a section, or between two sections, such as a final on the whole floor followed by a first round on section `A`. Dancers only need a moment to move between those, so a short gap there is usually planned. Rows where the dancer has to go to another floor stay, and **Conflict** rows always stay, even in the same hall, because two sections running at the same time still need the dancer in both places. Untick it to see every tight transition. A change that stays on one floor or section is always listed, since the dancer goes straight from one class into the next. See [Floors](/manager-guide/floors/) for how floors and sections are set up.
+
+![The Hide tight transitions within the same hall checkbox next to the tight-transition minutes](/assets/images/schedule/conflicts-hide-same-hall.jpg)
 
 Each row shows **Severity**, **Time**, **Dancer**, **Date**, **Round A** and **Round B**. The round cells show round number and floor code, class, round, estimated time window and floor, and link to the round. Hard conflicts come first, largest overlap at the top. With very many conflicts only the largest are listed, and the page says "Showing the most overlapping conflicts only."
 
-**Export CSV** downloads the rows the table shows, so the **Also flag tight transitions under** value decides which tight rows are included. Each row has the severity, the minutes of overlap or gap, the dancer and how they were matched, the date, and for both rounds the round, estimated start and end, and floor. The file opens in Excel with å, ä and ö intact.
+**Export CSV** downloads the rows the table shows, so the **Also flag tight transitions under** value and **Hide tight transitions within the same hall** decide which tight rows are included. Each row has the severity, the minutes of overlap or gap, the dancer and how they were matched, the date, and for both rounds the round, estimated start and end, and floor. The file opens in Excel with å, ä and ö intact.
 
 ### How dancers are recognised
 
@@ -234,7 +240,8 @@ The report follows the schedule as you change it. A **Tight** row is a warning, 
 | Buttons are greyed out | The event is closed or archived, or you do not have edit access. |
 | The public page says there is no schedule | The schedule is not published, or all items are **Visible for staff only**. |
 | The conflicts page stays empty with no message | You do not have the **Supervisor** app on the event. |
-| "No scheduling conflicts found", but you know of one | Check that both rounds have estimated times, are on different floors, are on dated pages for the same day, and that the dancer has the same account or federation ID in both entries. |
+| A tight change between two sections of the same floor is missing | **Hide tight transitions within the same hall** is ticked. Untick it to list those rows too. |
+| "No scheduling conflicts found", but you know of one | Check that both rounds have estimated times, are on dated pages for the same day, and that the dancer has the same account or federation ID in both entries. |
 
 ## Not in this version
 
