@@ -6,12 +6,16 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-05
+ 🛠️ **Improvements**
+* App: On Android, the app's text now shows in the Vote4Dance font, Nunito, with the right weights for headings and italics; before, most of it showed in the phone's standard font. Nunito is slightly wider, so some longer text, such as a subtitle in **Settings**, can now take a second line. On iPhone, list rows, buttons, tab labels and headers now use Nunito too.
 ## 2026-11-04
  🛠️ **Improvements**
 * All web apps: A page that has been open since before an update now notices the update by itself. Screens and lineup reload on their own within a few minutes; judging tablets, Supervisor, Speaker, Check-in and Cafe show **There is a newer version** and reload once the device has not been touched for 5 minutes, but never while a judge's tablet is unlocked, marks are still being sent, or a registration, sale or order is half-filled; Manager and the other apps only show the message, and you press **Reload** when it suits you (see [Updates during an event](/requirements/#updates-during-an-event))
 * Supervisor: On the **Panels** tab of **Judges**, one click on an empty cell now seats the judge as **Judge**, or as **Trainee judge** if that is their **Seat** need. To give them another seat, click the seat or right-click the cell (see [Seating a judge](/manager-guide/judges/#seating-a-judge))
 ## 2026-11-03
  ⭐ **New**
+* Screens: A sponsor can now present the results of a final (**Results presented by**), the start of a final (**Final intro**) and a card of its own in the **Sponsors** screen loop during breaks (**Break screen**). All three can be added to the sponsor catalog as standard items (see [What the venue screens show for sponsors](/manager-guide/sponsors/#what-the-venue-screens-show-for-sponsors))
 * Manager, Supervisor: A judge's needs have a new **Not on the same panel as**. Choose the judges someone must not sit with, for example from the same dance school. **Suggest** keeps them apart, and if they end up on one panel you get a warning under the problems (see [Keeping two judges apart](/manager-guide/judges/#keeping-two-judges-apart))
 * App: **Settings** → **Appearance** lets you choose **Light** or **Dark**, and every screen follows your choice at once. The app keeps starting in **Dark** until you change it, and the Vote4Dance ID card stays dark in both (see [Following in the app](/dancer/following-in-the-app/))
  🛠️ **Improvements**
@@ -24,6 +28,8 @@ nav_order: 10
 * Federation: **Rounds the manager will create** on the **By class** tab of the class rules now shows how many really go through each round, as its **Num to advance** sets it, and the next round shows that many dancers. Before, a round showed the size of the next round instead, so a semifinal sending 6 to a final that holds 8 read "8 through"; a second chance now also shows the dancers who did not go straight through (none when everyone goes straight on), and each round shows the heats it is created with, never more than its dancers (see [Check a class](/federation-rules/reference/#check-a-class))
 * Public: On a club's **Registration** page, coaches, managers and administrators can now move an entry to another class with **Change class**, the swap icon next to **Edit lineup**, as dancers already can on **My registration**. It works until registration closes, for classes that open for registration together with the entry's class, so the price stays the same; the new class's rules are checked as for a new registration, and an entry already on the start list or with lineup changes is not offered the button (see [Moving an entry to another class](/school-club/registration-for-event/#moving-an-entry-to-another-class))
 * Public: A dancer who belongs to more than one club now picks the club for every class they add to the basket, with the club picked last already filled in. Before, the second class took the first class's club without asking (see [Depends on your event](/dancer/registration-for-event/#depends-on-your-event))
+* Manager: **Update/import participants** now lists under **Changed** only the participants where something really changed. Before, running the import again to add new registrations could list every participant already imported as changed, and could move them around in their class (see [Update/import participants](/manager-guide/registration-checkin/#updateimport-participants))
+* Manager, Check-in: A registration you or the check-in desk enter is **Approved** straight away, paid or not, so there is no second step to approve it. Registrations from dancers and clubs follow the period's acceptance as before (see [Registration statuses](/manager-guide/registration-checkin/#registration-statuses))
 ## 2026-10-30
  🛠️ **Improvements**
 * Federation: **Licenses** → **All other licenses** has a **Filter by organization**, so you can see which dancers of one club or school hold a license; type part of the club's name to find it. **Download CSV** follows the filter, and the search box also finds a club by name (see [Licenses of one organization](/federation-licenses/federation-admin/#licenses-of-one-organization))
@@ -36,8 +42,11 @@ nav_order: 10
 * Manager: The **Registrations** list shows the dancers who dance the entry, with lineup changes applied, instead of the team's roster (see [Team names](/manager-guide/registration-checkin/#team-names))
 * Public, Federation, Manager: A club's and the federation's registration overview, the amount a club pays by invoice and the organizer's club list (CSV) now follow each entry's lineup: dancers skipped for a class are not listed or charged for it, and a replacement is. Before, they still showed the team's whole roster, and a team that skipped different dancers in two classes could be charged for a dancer who sits one out (see [Step 3: Register](/school-club/registration-for-event/#step-3-register))
 ## 2026-10-29
+ ⭐ **New**
+* Federation: The **Class rules** tab has a **Download CSV** button. It saves every rule of the discipline as a spreadsheet row, with where it applies, its condition and each setting in its own column, so you can go through the rules or agree changes outside Vote4Dance (see [Download the rules](/federation-rules/reference/#download-the-rules))
  🛠️ **Improvements**
 * Speaker: On **Lineup**, every heat card always shows its heat number and how many are dancing in it. When the cards are narrow, for example with two rounds side by side or a zoomed-in browser, the **Done** button shrinks to a ✓ instead of covering the count (see [Live operations](/manager-guide/live-operations/))
+* App: The notification you get when a dancer you follow finishes a round now includes their placing whenever the app shows it. Before, the placing was often left out of the notification in rounds where the organizer had not set a position to hide results from (see [Follow dancers and clubs with Premium](/dancer/following-in-the-app/#follow-dancers-and-clubs-with-premium))
 ## 2026-10-28
  🛠️ **Improvements**
 * Manager: Importing registrations now puts a group or formation team on the start list under its team name, also when the name was given to the team and not typed on the registration; before, such a team showed up under its first three dancers on the start list and the public participants list, while the **Registrations** list showed its name. A team name containing **&** now stays whole. To fix a start list you imported earlier, import the registrations again (see [Team names](/manager-guide/registration-checkin/#team-names))

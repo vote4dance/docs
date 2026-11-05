@@ -69,7 +69,7 @@ The amount covers the whole entry, so for a couple or a group it includes the pa
 
 ## Adding classes at the door
 
-A dancer who wants to dance one more class can be entered at the desk. **Add classes** on the person screen (above the registrations, shown when the event has a registration period) opens the desk's registration with the dancer already filled in; the desk picks the team and the classes.
+A dancer who wants to dance one more class can be entered at the desk. **Add classes** on the person screen (above the registrations, shown when the event has a registration period) opens the desk's registration with the dancer already filled in; the desk picks the team and the classes. Classes the desk registers are approved straight away, paid or not.
 
 - **The class list warns but does not block.** A class whose round has started, or whose heats are drawn, says so under its name: *Already started* or *Heats are drawn*, with the note that the organizer adds late entries to the start list by hand. The desk can still register the dancer; tell the organizer so they can place the entry.
 - **The review collects everything still owed.** The new classes are priced together with the dancer's entries that are still unpaid from before, and the review says how much of the amount is earlier: "Includes … still unpaid from earlier entries". **Payment collected** marks both paid; **Register without payment** registers the new classes and leaves them owed.
