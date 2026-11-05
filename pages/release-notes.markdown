@@ -6,10 +6,25 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-05
+ 🛠️ **Improvements**
+* App: On Android, the app's text now shows in the Vote4Dance font, Nunito, with the right weights for headings and italics; before, most of it showed in the phone's standard font. Nunito is slightly wider, so some longer text, such as a subtitle in **Settings**, can now take a second line. On iPhone, list rows, buttons, tab labels and headers now use Nunito too.
+## 2026-11-04
+ 🛠️ **Improvements**
+* All web apps: A page that has been open since before an update now notices the update by itself. Screens and lineup reload on their own within a few minutes; judging tablets, Supervisor, Speaker, Check-in and Cafe show **There is a newer version** and reload once the device has not been touched for 5 minutes, but never while a judge's tablet is unlocked, marks are still being sent, or a registration, sale or order is half-filled; Manager and the other apps only show the message, and you press **Reload** when it suits you (see [Updates during an event](/requirements/#updates-during-an-event))
+* Supervisor: On the **Panels** tab of **Judges**, one click on an empty cell now seats the judge as **Judge**, or as **Trainee judge** if that is their **Seat** need. To give them another seat, click the seat or right-click the cell (see [Seating a judge](/manager-guide/judges/#seating-a-judge))
+## 2026-11-03
+ ⭐ **New**
+* Manager, Supervisor: A judge's needs have a new **Not on the same panel as**. Choose the judges someone must not sit with, for example from the same dance school. **Suggest** keeps them apart, and if they end up on one panel you get a warning under the problems (see [Keeping two judges apart](/manager-guide/judges/#keeping-two-judges-apart))
+* App: **Settings** → **Appearance** lets you choose **Light** or **Dark**, and every screen follows your choice at once. The app keeps starting in **Dark** until you change it, and the Vote4Dance ID card stays dark in both (see [Following in the app](/dancer/following-in-the-app/))
+ 🛠️ **Improvements**
+* Manager: **Download results** → **Download .csv file** on **Data transfer** now lists each class by start number, lowest first, until the class has results; after that the file follows the placings as before. The file also ends with a **Complete clubs** column with each club's full name, next to the short code in **Club** (see [Data exports](/manager-guide/post-event/#3-data-exports))
+* App: If you have Premium from the free welcome gift, **Settings** no longer shows **Cancel subscription** and App Store or Play Store steps for a subscription you don't have. It says that the gift is free and the date it ends on its own, with nothing charged. Once the gift has ended, the Premium offer says **Start subscription** instead of **Renew subscription** (see [If you have the free welcome gift](/dancer/following-in-the-app/#if-you-have-the-free-welcome-gift))
 ## 2026-11-02
  ⭐ **New**
 * Public: Dancers upload their own music per class on **My registration**; the federation sets the limits in its rules. A class that dances to your own music shows **Own music · max 1:30** when you register, and after registering you upload an MP3 on **My registration**, listen to it, **Replace** or **Remove** it, until registration closes (see [Your music](/dancer/my-registration/#your-music))
 
+* Federation: The new rule **Team represents** (Country, Club, Individual dancer) decides what the public participants list and the app show under each team's name, so national competitions can leave out the country and international ones show it. Set it for the whole federation, a division, a discipline or a competition level; without it, teams show club, city and country as before (see [What a team represents](/federation/divisions/#what-a-team-represents))
  🛠️ **Improvements**
 * Federation: **Rounds the manager will create** on the **By class** tab of the class rules now shows how many really go through each round, as its **Num to advance** sets it, and the next round shows that many dancers. Before, a round showed the size of the next round instead, so a semifinal sending 6 to a final that holds 8 read "8 through"; a second chance now also shows the dancers who did not go straight through (none when everyone goes straight on), and each round shows the heats it is created with, never more than its dancers (see [Check a class](/federation-rules/reference/#check-a-class))
 * Public: On a club's **Registration** page, coaches, managers and administrators can now move an entry to another class with **Change class**, the swap icon next to **Edit lineup**, as dancers already can on **My registration**. It works until registration closes, for classes that open for registration together with the entry's class, so the price stays the same; the new class's rules are checked as for a new registration, and an entry already on the start list or with lineup changes is not offered the button (see [Moving an entry to another class](/school-club/registration-for-event/#moving-an-entry-to-another-class))
