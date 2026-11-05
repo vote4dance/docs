@@ -6,11 +6,18 @@ nav_order: 10
 ---
 
 # Release notes
-## 2026-11-04
+## 2026-11-05
  ⭐ **New**
 * App: **Settings** → **Appearance** now also offers **System**, and the app follows your phone unless you choose otherwise. On a phone set to light the app now opens light, and it changes when your phone does. If you already chose **Light** or **Dark**, the app keeps your choice. Update the app from the App Store or Play Store to get it (see [Choose how the app looks](/dancer/following-in-the-app/#choose-how-the-app-looks))
+ 🛠️ **Improvements**
+* App: On Android, the app's text now shows in the Vote4Dance font, Nunito, with the right weights for headings and italics; before, most of it showed in the phone's standard font. Nunito is slightly wider, so some longer text, such as a subtitle in **Settings**, can now take a second line. On iPhone, list rows, buttons, tab labels and headers now use Nunito too.
+## 2026-11-04
+ 🛠️ **Improvements**
+* All web apps: A page that has been open since before an update now notices the update by itself. Screens and lineup reload on their own within a few minutes; judging tablets, Supervisor, Speaker, Check-in and Cafe show **There is a newer version** and reload once the device has not been touched for 5 minutes, but never while a judge's tablet is unlocked, marks are still being sent, or a registration, sale or order is half-filled; Manager and the other apps only show the message, and you press **Reload** when it suits you (see [Updates during an event](/requirements/#updates-during-an-event))
+* Supervisor: On the **Panels** tab of **Judges**, one click on an empty cell now seats the judge as **Judge**, or as **Trainee judge** if that is their **Seat** need. To give them another seat, click the seat or right-click the cell (see [Seating a judge](/manager-guide/judges/#seating-a-judge))
 ## 2026-11-03
  ⭐ **New**
+* Manager, Supervisor: A judge's needs have a new **Not on the same panel as**. Choose the judges someone must not sit with, for example from the same dance school. **Suggest** keeps them apart, and if they end up on one panel you get a warning under the problems (see [Keeping two judges apart](/manager-guide/judges/#keeping-two-judges-apart))
 * App: **Settings** → **Appearance** lets you choose **Light** or **Dark**, and every screen follows your choice at once. The app keeps starting in **Dark** until you change it, and the Vote4Dance ID card stays dark in both (see [Following in the app](/dancer/following-in-the-app/))
  🛠️ **Improvements**
 * Manager: **Download results** → **Download .csv file** on **Data transfer** now lists each class by start number, lowest first, until the class has results; after that the file follows the placings as before. The file also ends with a **Complete clubs** column with each club's full name, next to the short code in **Club** (see [Data exports](/manager-guide/post-event/#3-data-exports))
