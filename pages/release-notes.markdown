@@ -39,6 +39,8 @@ nav_order: 10
 * Manager: The **Registrations** list shows the dancers who dance the entry, with lineup changes applied, instead of the team's roster (see [Team names](/manager-guide/registration-checkin/#team-names))
 * Public, Federation, Manager: A club's and the federation's registration overview, the amount a club pays by invoice and the organizer's club list (CSV) now follow each entry's lineup: dancers skipped for a class are not listed or charged for it, and a replacement is. Before, they still showed the team's whole roster, and a team that skipped different dancers in two classes could be charged for a dancer who sits one out (see [Step 3: Register](/school-club/registration-for-event/#step-3-register))
 ## 2026-10-29
+ ⭐ **New**
+* Federation: The **Class rules** tab has a **Download CSV** button. It saves every rule of the discipline as a spreadsheet row, with where it applies, its condition and each setting in its own column, so you can go through the rules or agree changes outside Vote4Dance (see [Download the rules](/federation-rules/reference/#download-the-rules))
  🛠️ **Improvements**
 * Speaker: On **Lineup**, every heat card always shows its heat number and how many are dancing in it. When the cards are narrow, for example with two rounds side by side or a zoomed-in browser, the **Done** button shrinks to a ✓ instead of covering the count (see [Live operations](/manager-guide/live-operations/))
 ## 2026-10-26
