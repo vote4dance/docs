@@ -169,7 +169,7 @@ This screen shows your club's event registrations for the season. It includes re
 
 ![The Registration screen with the season's events and entries folded per class](/assets/images/club-admin/registrations.png)
 
-At the top, a line counts the season's entries and how many are unpaid. Below it, each event this season has a card with its date, the number of entries and the number unpaid. The next event is selected. Click another card to switch. **Show earlier seasons** adds the events from before this season, and **Export CSV** downloads every entry of the events shown.
+At the top, a line counts the season's entries and how many are unpaid. Below it, each event this season has a card with its date, the number of entries and the number unpaid. The next event is selected. Click another card to switch. **Show earlier seasons** adds the events from before this season. **Download list (CSV)** at the top of the selected event downloads its active entries, in a file named after the event.
 
 The selected event opens below the cards. Filter its entries with the buttons above the list:
 
@@ -205,6 +205,7 @@ A dancer in a class that runs over two days, such as a first round on Saturday a
 |---|---|---|
 | Change the lineup | **Edit lineup** on the entry. You can use it while the entry's registration period is open and the entry is **Preliminary**, **Signed** or **Approved**. The new lineup is checked against the class rules, and a replacement dancer takes over the replaced dancer's dance role. | Coach, Manager, Administrator |
 | Cancel an entry | The cancel button on the entry, then confirm, under the same conditions. For a club-owned competitor, only the club's coaches, managers and administrators can cancel. | Coach, Manager, Administrator |
+| Move an entry to another class | **Change class**, the swap icon next to **Edit lineup**, while the entry's registration period is open, the entry is not on the start list and has no lineup changes. You can pick another class of the same registration period, at the same price; its rules are checked as for a new registration. See [Moving an entry to another class](/school-club/registration-for-event/#moving-an-entry-to-another-class). | Coach, Manager, Administrator |
 | See the price | **Get cost**, for approved entries not yet paid | Coach, Manager, Administrator |
 | Pay online | **Pay now** with the amount, when the event takes online payment. With manual payment you see the amount and the organizer's payment information instead. | Coach, Manager, Administrator |
 | Pay the club's invoice | **Pay now** on a row under **Pay your registrations**. It is enabled when the invoice's status is **Ready to send**. | Coach, Manager, Administrator |
