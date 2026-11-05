@@ -42,7 +42,8 @@ Use this when your child has no Vote4Dance account yet.
    right age class.
 3. Check the email address. Vote4Dance proposes your own address with your child's name added, for
    example `karin.lindgren+anna@example.com`. Mail to that address lands in your own inbox, so you
-   do not need a new one. You can type another address instead.
+   do not need a new one. You can type another address instead. If your child's name has no Latin
+   letters, the field stays empty and you type the address yourself.
 
    ![The Add a child dialog with the name, birthdate, country and the proposed email address](/assets/images/family/add-child.png)
 4. Press **Add Anna**. If your own address has not been confirmed yet, you are asked to
@@ -88,7 +89,9 @@ type the email address and the password and press **Add to my family**. The acco
 by mail that it was added to your family.
 
 If the account has no birthdate, you are asked to enter it, because it is needed for the right age
-class. If neither way works, write to [info@vote4dance.com](mailto:info@vote4dance.com).
+class. If you came in by code, a new code is mailed at the same time: type the birthdate and the new
+code, and press **Add to my family** again. If neither way works, write to
+[info@vote4dance.com](mailto:info@vote4dance.com).
 
 ## Your children
 
