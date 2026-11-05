@@ -47,6 +47,9 @@ nav_order: 10
  🛠️ **Improvements**
 * Speaker: On **Lineup**, every heat card always shows its heat number and how many are dancing in it. When the cards are narrow, for example with two rounds side by side or a zoomed-in browser, the **Done** button shrinks to a ✓ instead of covering the count (see [Live operations](/manager-guide/live-operations/))
 * App: The notification you get when a dancer you follow finishes a round now includes their placing whenever the app shows it. Before, the placing was often left out of the notification in rounds where the organizer had not set a position to hide results from (see [Follow dancers and clubs with Premium](/dancer/following-in-the-app/#follow-dancers-and-clubs-with-premium))
+## 2026-10-28
+ 🛠️ **Improvements**
+* Manager: Importing registrations now puts a group or formation team on the start list under its team name, also when the name was given to the team and not typed on the registration; before, such a team showed up under its first three dancers on the start list and the public participants list, while the **Registrations** list showed its name. A team name containing **&** now stays whole. To fix a start list you imported earlier, import the registrations again (see [Team names](/manager-guide/registration-checkin/#team-names))
 ## 2026-10-26
  ⭐ **New**
 * Manager: A dancer who belongs to more than one club now gets a list under **Represents** in **Edit registration**, so you can correct the club a dancer or parent picked by mistake when registering. Only clubs that have approved the dancer are listed, and clearing the list goes back to the club Vote4Dance finds on its own (see [Change the club a dancer represents](/manager-guide/registration-checkin/#change-the-club-a-dancer-represents))
