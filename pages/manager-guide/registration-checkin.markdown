@@ -64,9 +64,9 @@ A name you type on a registration yourself always shows and is imported. Asking 
 
 | Status | Meaning | How a registration gets there |
 |---|---|---|
-| **Preliminary** | Registered, not yet accepted. Not counted as a participant. | Automatic when the period uses **manual** acceptance, invoice payment, or when a functionary enters the registration. |
+| **Preliminary** | Registered, not yet accepted. Not counted as a participant. | Automatic when the dancer or club registers in a period with **manual** acceptance or invoice payment. |
 | **Signed** | Optional intermediate step for your own bookkeeping. Never set automatically, and no email is sent for it. | Manually, from the status dropdown. |
-| **Approved** | Accepted. This is the only status the import uses. | Automatic when the online payment is completed, or when the period uses **direct** acceptance. Otherwise manually. |
+| **Approved** | Accepted. This is the only status the import uses. | Automatic when the online payment is completed, when the period uses **direct** acceptance, or when you or the check-in desk enter the registration, paid or not. Otherwise manually. |
 | **Rejected** | Declined by the organizer. | Manually. |
 | **Cancelled** | Withdrawn by the dancer or club, or set by the organizer. The row is kept. | The dancer/club cancels from their account, or manually. |
 | **Deleted** | Removed. Unpaid rows disappear; paid rows are kept and marked deleted. | Manually. |
@@ -141,6 +141,7 @@ What the import does:
 
 - Creates one participant per approved registration, with the dancers' names, clubs, years of birth, federation ids and class. Start numbers are left at 0.
 - Updates participants whose registration changed (a new partner, a new club, a renamed team). Only the fields the registration knows about are touched, so start numbers and check-in state survive a re-run.
+- Lists under **Changed** only the participants where something the import saves is different. Running the import again to add new registrations leaves everyone already imported untouched, and keeps their order in the class.
 - Lists as **Removed** every participant that no longer has an approved registration. That includes registrations that were cancelled or rejected after an earlier import. If you leave the row ticked, the participant is deleted from the lineup.
 
 You can run it as often as you like. The normal rhythm is once when the period closes, and once more after late approvals or cancellations.
