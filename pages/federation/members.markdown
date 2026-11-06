@@ -138,6 +138,8 @@ Press the red delete button on the row and confirm **Remove membership for \<cla
 
 **Download CSV** saves the roster as it is filtered now: **Competitor ID**, **Competitor**, **Class**, **Status**, **Effective from**, **Points**, **Reason** and **Locked**. It is disabled until the roster shows at least one row.
 
+The file uses the list separator that goes with your browser's language: a semicolon where numbers are written with a decimal comma, as in Belgium, the Netherlands or Sweden, and a comma elsewhere. **Points** use the matching decimal mark. If it opens with everything in one column, open it in Excel with **Data → From Text/CSV** and choose the separator there.
+
 ### Age-up batch transition
 
 Below the roster is the **Age-up batch transition**: set an **Effective date**, press **Preview**, tick the competitors to move, optionally set a carryover, and press **Run age-up**. It always covers the whole federation, also when the roster is limited to one division. The full workflow is in [Age moves](/federation/age-moves/).
