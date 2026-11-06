@@ -234,8 +234,9 @@ Class rules live per discipline under **Federation → Structure → (division) 
 Discipline**, in the **Class rules** tab. The tab has three parts: **Rules**, the
 list; **Findings**, a check of the list ([Findings](#findings)); and **By class**,
 which explains what one class gets ([Check a class](#check-a-class)).
-**Preview a class** at the top of the page opens **By class**, and **Add class
-rule** opens the rule editor with an empty rule.
+**Preview a class** at the top of the page opens **By class**, **Add class
+rule** opens the rule editor with an empty rule, and **Download CSV** saves the
+whole list as a spreadsheet ([Download the rules](#download-the-rules)).
 
 ![The Class rules tab with the grouped list](/assets/images/class-rules/grouped-list.png)
 
@@ -298,6 +299,38 @@ it.
 
 Under the last row, **Merge all safe groups** merges every group of identical
 copies that passes the check in one go ([Merge all safe groups](#merge-all-safe-groups)).
+
+### Download the rules
+
+To go through a discipline's rules in a spreadsheet, for example to agree
+changes with the people who write your rulebook, download them:
+
+1. Open the discipline's **Class rules** tab.
+2. Press **Download CSV** at the top of the page. The file is called
+   **class-rules-(discipline)-(date).csv**.
+3. Open it in Excel, Numbers or Google Sheets.
+
+The file has one row per saved rule, in the order the Round Guide reads them,
+switched-off rules included:
+
+- **Rule ID**, **Order** and **On** (Yes or No).
+- **Categories**, **Levels** and **Age groups** the rule applies to, or **any**.
+- **Condition**, in the same words as the labels in the list (**Count ≥ 10 ·
+  First round**), and the **Action** for a rule that adds or removes a round.
+- One column for each setting a rule changes: **Round name(s)**, **Round
+  sizes**, **Max on floor**, **Music length**, **Num to advance**, **Judging
+  type** and so on. A rule with a second **Round sizes** (the class sizes each
+  round stretches to) fills **Round sizes (2)**.
+
+Column titles and values are in the language you use Vote4Dance in. In a
+language that writes decimals with a comma, the columns are separated by a
+semicolon, so Excel opens the file in columns straight away.
+
+The file is for reading and marking up. Changes are still made in the rule
+editor: write the **Rule ID** next to a change, so it is easy to find the rule
+again.
+
+![Download CSV at the top of the Class rules tab](/assets/images/class-rules/download-csv.png)
 
 ### Row 0: the default ladder
 
@@ -620,7 +653,13 @@ with what it did:
 - A **Finding** label on a row that a finding is about, which opens its review.
 
 On the right, **Rounds the manager will create** shows the rounds the Round Guide
-would make, with how many dance, how many go through and the floor size. A round
+would make, with how many dance, how many go through and the floor size. How
+many go through is what the round's **Num to advance** says, and the next round
+shows that many dancers, even when its round size is larger: a final that holds
+8 for classes that start there still shows the 6 a semifinal sends. A second
+chance shows the dancers who did not go straight through, and none when everyone
+goes straight on, and sends on no more than it has. Heats are the heats the round
+is created with, but never more than the dancers in it. A round
 that got a built-in name or a cut that no other age group dances is marked, which
 is how a hole in the ladder shows up. **Same class with one more competitor**
 shows the rounds one competitor higher, so you can see which rules start or stop

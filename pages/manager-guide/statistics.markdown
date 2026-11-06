@@ -65,7 +65,7 @@ If a yellow box says **Dancer numbers may be off**, Vote4Dance could not read th
 | **Not scheduled** (column) | Dancers whose classes have no round on a dated schedule day yet. |
 | **Total** (row) | Each person once. It is normally **lower than the sum of the rows**, because a dancer can appear under several clubs. This is intended, not a calculation error. |
 
-**Export CSV** downloads the table. **Print view** opens a paper version: one row per club, one column per day, no charts.
+**Export CSV** downloads the table, with the same list separator as the [dancer lists](#dancer-lists). **Print view** opens a paper version: one row per club, one column per day, no charts.
 
 ### What the report needs
 
@@ -111,5 +111,5 @@ Organizers with **Manager** access also see two download buttons. Both follow th
 
 The downloads are made from the registrations, so they include the date of birth and the amounts. A competition whose participants were only imported, without registrations in Vote4Dance, has nothing to download.
 
-The files use the list separator that goes with your computer's language: a semicolon where numbers are written with a decimal comma, as in Belgium, the Netherlands or Sweden, and a comma elsewhere. If a file opens with everything in one column, open it in Excel with **Data → From Text/CSV** and choose the separator there.
+The files use the list separator that goes with your browser's language: a semicolon where numbers are written with a decimal comma, as in Belgium, the Netherlands or Sweden, and a comma elsewhere. If a file opens with everything in one column, open it in Excel with **Data → From Text/CSV** and choose the separator there.
 
