@@ -111,9 +111,19 @@ on a card to let your child take over or to remove them from your family.
    at [My registration](/dancer/my-registration/), exactly as if your child had signed in.
 4. Press **Back to my account** when you are done.
 
-Some things cannot be changed from your account, so a parent can never lock a child out: the
-password, the email address, API keys and passkeys. Trying shows **Change this from the child's own
-login.** You also go back to your own account to add or remove children.
+Some things cannot be done from your own login while you are in your child's account, so a parent can never lock a child out or change what belongs to the child alone:
+
+- changing the **password**, or the **email address**
+- deleting the account
+- creating API keys
+- saving or removing a **passkey**
+- subscribing to Premium from the App Store or Play Store
+
+Trying shows **Sign in to this account directly to change this.** Your child changes these when they sign in themselves. You can still change the other details, such as the name, and you can still register, pay and manage entries. You go back to your own account to add or remove children.
+
+### Premium in your child's account
+
+If your child has no Premium of their own, the Premium on your account follows you into their account, so you have it there too. It is only shown: you cannot buy or renew it from your child's account, so go back to your own account for that. If your child has a Premium of their own, that is the one that counts in their account.
 
 ## Let your child take over
 
@@ -166,4 +176,5 @@ account stays as it is.
 | **You're signed in as a child's account. Create your own first.** | You are signed in to an account with a birthdate under 18. [Create an account](/dancer/account-creation/) of your own. |
 | **Wrong email or password. Use the code instead.** | Use the code at the top of the dialog. |
 | **Ten children is the most one account can manage. Write to us if you need more.** | Write to [info@vote4dance.com](mailto:info@vote4dance.com). |
+| **Sign in to this account directly to change this.** | You are in your child's account. The password, email address, passkeys, deleting the account and subscribing can only be done by signing in as your child. |
 | **Try again in an hour.** | Too many mails or tries in a short time. Wait an hour. |
