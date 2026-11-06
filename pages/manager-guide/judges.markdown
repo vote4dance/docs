@@ -255,9 +255,19 @@ At the top of each column, under the panel's name, is how many judges the panel 
 
 ### Seating a judge
 
-1. Click the cell where the judge's row meets the panel's column.
-2. Choose the seat: **Judge**, **Chief judge (out)**, **Chief judge (in)**, **Trainee judge** or **Audience**. See [Judge types](#judge-types).
+In the **Supervisor** app, one click is enough:
+
+1. Click the empty cell where the judge's row meets the panel's column. The judge is seated as **Judge** straight away. A judge whose **Seat** need is **Trainee** gets **Trainee judge** instead (see [Judge needs](#judge-needs)).
+2. To give them another seat, click the seat, or right-click the cell, and choose **Judge**, **Chief judge (out)**, **Chief judge (in)**, **Trainee judge** or **Audience**. See [Judge types](#judge-types).
 3. The seat is saved at once. A message at the top says, for example, "Seated Anna Berg on Panel A (Judge)", with **Undo** to take it back.
+
+A striped cell still opens the list first, so you see why the judge can't sit there before you decide. If a list is open, clicking an empty cell only closes the list.
+
+In **Manager**, each click opens the list:
+
+1. Click the cell where the judge's row meets the panel's column.
+2. Choose the seat: **Judge**, **Chief judge (out)**, **Chief judge (in)**, **Trainee judge** or **Audience**.
+3. The seat is saved at once, with the same message and **Undo**.
 
 To take a judge off a panel, click their seat and choose **Remove from panel**.
 
@@ -328,13 +338,37 @@ Each judge can have needs that Vote4Dance checks every seat against. Open them w
 | **Max minutes without a break** | Judging longer than this without at least 10 minutes off breaks the need. |
 | **Classes not to judge** | Classes this judge must never judge. |
 | **Dancers not to judge** | Students, a partner or family. Their entries are found by name. A judge who dances in a class themselves is found without being listed here. |
+| **Not on the same panel as** | Judges who must not judge together, for example from the same dance school. See [Keeping two judges apart](#keeping-two-judges-apart). |
 | **Seat** | Which seat the judge wants: **Any seat**, **Judge**, **Chief judge** or **Trainee**. |
 | **Split leader/follower classes** | Whether the judge prefers to judge **Leaders**, **Followers** or **Either**. |
 | **What they judge** | **Can only judge** limits the judge to some divisions, disciplines, levels, categories or age groups; other classes show as **Can't sit here**. **Wants to judge** is a wish that Suggest follows when it can. Only the kinds where your classes differ are shown. |
 | **Note** | Anything else. |
 | **Supervisor note** | Only supervisors see this, never the judge. |
 
-Choose **Save needs**. Seats on the grid are checked again straight away.
+Choose **Save and mark reviewed**. Seats on the grid are checked again straight away.
+
+### Keeping two judges apart
+
+When two judges must not sit on the same panel, for example because they teach at the same dance school, you can tell Vote4Dance to keep them apart:
+
+1. Open the needs of one of the two judges.
+2. Under **Not on the same panel as**, choose the other judge. You can choose several.
+3. Choose **Save and mark reviewed**.
+
+It works both ways. The other judge's needs now list the first judge too, and you can remove the pair from either of them.
+
+From then on:
+
+- **Suggest** never puts the two on the same panel.
+- On the grid, a panel where one of them already sits shows **Can't sit here** for the other. Clicking the cell still opens the seat menu, so you can seat them anyway when there is no other way.
+
+![The grid with two judges who should be kept apart on one panel](/assets/images/judges/judge-pair-grid.png)
+
+- If the two do end up on one panel, both seats get a **!** and [Problems with the panels](#problems-with-the-panels) shows a warning. It doesn't stop you from saving or from running the round.
+
+![The warning for two judges on one panel](/assets/images/judges/judge-pair-warning.png)
+
+Only people who manage the judges see this need. The judges themselves don't see it and can't change it.
 
 ### A judge who can't come
 
@@ -369,6 +403,7 @@ Red problems need fixing; orange ones are warnings. **Show** takes you to the pr
 | A panel "still needs" seats (warning) | **Fill open seats**, seat someone yourself, or lower **Seats wanted**. |
 | A judge on a panel who is away, on two panels at once, or judging their own entry, a named dancer or a class to avoid | Move the judge, or change their needs. |
 | A judge on too many rounds, too long without a break, or outside what they judge (warning) | Move some of their seats, or change their needs. |
+| Two judges on one panel who should be [kept apart](#keeping-two-judges-apart) (warning) | Move one of them, or remove the pair from their needs. |
 
 Panels with a problem have a red or orange mark at the top of their column. The same checks, except judges' needs, are on the [Problems](/manager-guide/validator/) page.
 
@@ -416,13 +451,13 @@ When the same person judges in more than one competition of the event (the same 
 
 - A link icon after their name lists the other competitions they judge in.
 - Their rounds in the other competitions count too: a seat at the same time is marked, rounds per day and breaks count every competition, and Suggest takes them into account.
-- Their needs are shared. Saving them in one competition saves them in all of them, except **Classes not to judge** and **What they judge**, which name one competition's classes, levels and categories and so are set in each competition. **Judge absent** saves the time away everywhere and tells you how many of their rounds in the other competitions fall in that time; replace those seats on that competition's Judges page.
+- Their needs are shared. Saving them in one competition saves them in all of them, except **Classes not to judge** and **What they judge**, which name one competition's classes, levels and categories and so are set in each competition. Adding or removing a judge under **Not on the same panel as** carries over to the competitions where both judges judge. **Judge absent** saves the time away everywhere and tells you how many of their rounds in the other competitions fall in that time; replace those seats on that competition's Judges page.
 
 ![Choosing the competition, and a judge who also judges in another competition](/assets/images/judges/several-competitions.png)
 
 ## Removing a judge
 
-The delete icon on a judge's row removes them from the competition after you confirm. It also removes them from every panel.
+The delete icon on a judge's row removes them from the competition after you confirm. It also removes them from every panel and from other judges' **Not on the same panel as**.
 
 A judge who has already given marks in this competition cannot be removed: "Cannot change judge with results".
 
