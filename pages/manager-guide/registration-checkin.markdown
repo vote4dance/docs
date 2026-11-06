@@ -58,15 +58,15 @@ To collect team names in a class that doesn't use them, for example a crew class
 
 3. Click **OK**. Dancers registering for the class are now asked for the name, and it shows on the **Registrations** list and on the start list after the import.
 
-A name you type on a registration yourself always shows and is imported. Asking for **Name of show** collects a show title and doesn't turn team names on. A federation can switch team names on or off for its categories; where it switches them off, the start list always shows the dancers.
+A name you type on a registration yourself always shows and is imported. If the start list shows a team under its dancers while the **Registrations** list shows its name, import the registrations again: the import updates the entries already on the start list. Asking for **Name of show** collects a show title and doesn't turn team names on. A federation can switch team names on or off for its categories; where it switches them off, the start list always shows the dancers.
 
 ## Registration statuses
 
 | Status | Meaning | How a registration gets there |
 |---|---|---|
-| **Preliminary** | Registered, not yet accepted. Not counted as a participant. | Automatic when the period uses **manual** acceptance, invoice payment, or when a functionary enters the registration. |
+| **Preliminary** | Registered, not yet accepted. Not counted as a participant. | Automatic when the dancer or club registers in a period with **manual** acceptance or invoice payment. |
 | **Signed** | Optional intermediate step for your own bookkeeping. Never set automatically, and no email is sent for it. | Manually, from the status dropdown. |
-| **Approved** | Accepted. This is the only status the import uses. | Automatic when the online payment is completed, or when the period uses **direct** acceptance. Otherwise manually. |
+| **Approved** | Accepted. This is the only status the import uses. | Automatic when the online payment is completed, when the period uses **direct** acceptance, or when you or the check-in desk enter the registration, paid or not. Otherwise manually. |
 | **Rejected** | Declined by the organizer. | Manually. |
 | **Cancelled** | Withdrawn by the dancer or club, or set by the organizer. The row is kept. | The dancer/club cancels from their account, or manually. |
 | **Deleted** | Removed. Unpaid rows disappear; paid rows are kept and marked deleted. | Manually. |
@@ -102,17 +102,30 @@ Registrations and participants are two different lists. A registration is what t
 
 Each registration knows which club every dancer competes for. A dancer who belongs to more than one club can represent one club in one class and another club in a different class, so check this per registration, not on the dancer's profile.
 
-To check or change it:
+To check it:
 
-1. On the `Registrations` tab, press the **+** at the start of a row. Each dancer is listed with the club they represent in this registration.
+1. On the `Registrations` tab, the **Organization** column shows the club each entry represents. Press the **+** at the start of a row to see the club of every dancer in it.
 2. For more detail, press **Edit** (the pen) on the row. Under **Represents** you see every dancer with their club and where that club comes from:
-   - **Chosen at registration**: the dancer (or their club) picked it when registering. The federation asks for this when a dancer belongs to more than one club.
+   - **Chosen at registration**: the dancer (or their club) picked it when registering, or a manager picked it here. The federation asks for this when a dancer belongs to more than one club.
    - **Owning organization**: the team belongs to a club and always competes for it.
    - **Division license organization** or **License organization (no division match)**: the club on the dancer's federation license.
-   - **From the dancer's profile**: the club on the dancer's own account, used when none of the above applies.
-3. The two **Organizations** fields below (short names and full names) show that club in grey. Leave them empty to keep it. Type something only when the participant should be shown with a different club name, for example on the speaker's screen; what you type replaces the club for this registration.
+   - **From the dancer's profile**: the club the dancer is a member of, used when none of the above applies. A dancer who belongs to several clubs is shown with their main club.
 
-![The Represents row in Edit registration, with the club shown in grey in the Organizations fields](/assets/images/registration/edit-registration-represents.png)
+#### Change the club a dancer represents
+
+A dancer who belongs to more than one club gets a list under **Represents** instead of a line of text. Use it when a dancer or parent picked the wrong club when registering:
+
+1. Press **Edit** (the pen) on the registration.
+2. Under **Represents**, open the list next to the dancer and choose the club they compete for in this registration. Only clubs that have approved the dancer as a member are listed.
+3. Press **Ok**.
+
+The change applies to this registration only. If the dancer has the same mix-up in other classes, change each of those registrations too. To go back to the club Vote4Dance finds on its own (for example the one on the dancer's license), clear the list with the **×** and press **Ok**.
+
+![Represents in Edit registration, with a list to choose the club of a dancer who belongs to two clubs](/assets/images/registration/edit-registration-represents.png)
+
+A dancer who belongs to only one club, and every dancer in a team owned by a club, is shown as text. To have such a participant shown with a different club name, for example on the speaker's screen, type it in the two **Organizations** fields below (short names and full names). They show the club in grey; leave them empty to keep it.
+
+If the registration is already imported (the **Imported** check), run **Update/import participants** again so the participant gets the new club.
 
 The club shown here is the one **Update/import participants** gives the participant.
 
@@ -128,6 +141,7 @@ What the import does:
 
 - Creates one participant per approved registration, with the dancers' names, clubs, years of birth, federation ids and class. Start numbers are left at 0.
 - Updates participants whose registration changed (a new partner, a new club, a renamed team). Only the fields the registration knows about are touched, so start numbers and check-in state survive a re-run.
+- Lists under **Changed** only the participants where something the import saves is different. Running the import again to add new registrations leaves everyone already imported untouched, and keeps their order in the class.
 - Lists as **Removed** every participant that no longer has an approved registration. That includes registrations that were cancelled or rejected after an earlier import. If you leave the row ticked, the participant is deleted from the lineup.
 
 You can run it as often as you like. The normal rhythm is once when the period closes, and once more after late approvals or cancellations.

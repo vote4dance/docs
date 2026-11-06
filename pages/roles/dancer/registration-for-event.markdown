@@ -121,9 +121,9 @@ The status decides whether you are in. **Only Approved counts.**
 
 | Status | What it means | What you do |
 |---|---|---|
-| **Preliminary** | Registered, but **not yet a participant**. Normal when the organizer approves by hand, you pay by invoice, or a functionary entered you. | Wait, or pay the invoice. Ask the organizer if it stays here close to the event. |
+| **Preliminary** | Registered, but **not yet a participant**. Normal when the organizer approves by hand or you pay by invoice. | Wait, or pay the invoice. Ask the organizer if it stays here close to the event. |
 | **Signed** | An optional step the organizer uses for their own bookkeeping. | Nothing. |
-| **Approved** | Accepted. You are in. Automatic when an online payment completes, or when the period accepts directly. | Keep the email: it has your check-in QR code. |
+| **Approved** | Accepted. You are in. Automatic when an online payment completes, when the period accepts directly, or when the organizer or the check-in desk entered you. | Keep the email: it has your check-in QR code. |
 | **Cancelled** | Withdrawn by you, your club or the organizer. | Register again if it was a mistake and registration is still open. |
 | **Rejected** | Declined by the organizer. | Ask the organizer why. |
 
@@ -167,7 +167,7 @@ you.
 | **…the event requires a licence** | You, and your partner, need an **Active** licence from the event's federation before you can enter. Pending and expired licences do not count. See [Getting a license](/dancer/getting-a-license/). |
 | **…a class requires dance roles** | Set **Leader** and **Follower** on your couple. The locked class has a button that opens the couple's roles. |
 | **…only certain people may register** | Some events let only a member of the team, or only the club, register a competitor. If you are not allowed, ask your club to register you. |
-| **…the event asks which club you represent** | Pick the club from your approved club memberships. |
+| **…the event asks which club you represent** | Pick the club from your approved club memberships. If you belong to more than one club, you are asked for every class you add, since you can dance for a different club in each class; the club you picked last is already filled in. |
 | **…a group or formation class only accepts club teams** | Only a team owned by a club can enter. Ask your club to register the team. |
 | **…custom team names are not allowed** | The custom name option is hidden, and your own names are used. |
 | **…the event uses classes you move up through** | You can only enter the class you are in. Classes and age groups can change between seasons without you applying. See [Class transfer](/dancer/class-transfer/) and [Age transfer](/dancer/age-transfer/). |

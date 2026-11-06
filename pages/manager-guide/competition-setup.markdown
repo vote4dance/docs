@@ -160,6 +160,10 @@ Participants get there three ways:
 - **Generate random competitors** — a practice-event-only action that fills a round with test
   entries, for rehearsals. See [Test run and venue rehearsal](/manager-guide/test-run/).
 
+Each participant's club shows by its full name, with its short code in brackets when the name
+doesn't already contain it, for example Dansstudio Shake Vzw (SHAKE). A participant with no full
+club name on file shows the short code instead.
+
 CSV import lives on `Competition → Registration → Data transfer`, together with the reset and
 delete tools.
 

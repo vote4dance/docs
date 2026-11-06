@@ -129,7 +129,9 @@ The **Change class** button is missing when:
 
 - **Registration has closed.** The class says **Registration has closed: changes only at the desk**:
   ask the organizer.
-- **Your club owns the entry.** The club changes it: ask your coach.
+- **Your club owns the entry.** The club changes it: ask your club's coach or administrator. They
+  change the class from the club's **Registration** page (see
+  [Moving an entry to another class](/school-club/registration-for-event/#moving-an-entry-to-another-class)).
 - **There is no other class to move to.** A class that is registered separately, with its own price,
   is not in the list: withdraw and register again instead (see
   [Withdrawing from a class](#withdrawing-from-a-class)). Nothing you paid is refunded

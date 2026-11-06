@@ -175,7 +175,18 @@ When **not** to use manual creation:
 
 When a license was applied for with a federation ID (the member number from the federation's own system), the ID is shown under the person's name in **All other licenses**. It is also a column in the CSV download, and the search box finds a license by it.
 
+This CSV always uses commas, whatever your browser's language, so it reads the same way each time if you match it against your own member system or accounting. In an Excel set up for a decimal comma, as in Belgium, the Netherlands or Sweden, open it with **Data → From Text/CSV** and choose comma as the separator.
+
 The ID is saved on the license when it is applied for and is not updated automatically if the federation changes it later. When the dancer registers for a competition, the ID is checked with the federation again. If the federation no longer recognizes the old ID, that license does not count for the registration. To fix it, the dancer (or their organization) applies again with the new ID; this updates the existing license instead of creating a second one.
+
+### Licenses of one organization
+
+To see which dancers of one club or school hold a license:
+
+1. Open **Licenses** → **All other licenses**
+2. In **Filter by organization**, type part of the club's name or short name and pick it from the list
+
+The list now shows every license of that organization, together with any other filters you have set. Picking an organization unticks **Only show those awaiting an organization or dancer**, so active licenses show too; tick it again to see only the open ones. Clearing the organization puts the tick back as it was. **Download CSV** downloads the same selection. The list only offers organizations that hold at least one license: if you see *No organization with that name holds a license*, none of that club's dancers has a license yet. The search box also finds a license by the organization's name.
 
 ### What each field means
 
