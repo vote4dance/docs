@@ -9,6 +9,8 @@ nav_order: 10
 ## 2026-11-06
  ⭐ **New**
 * App: **Settings** → **Appearance** now also offers **System**, next to **Light** and **Dark**. With **System** the app follows your phone's light or dark setting and changes when your phone does. The app stays **Dark** unless you choose otherwise. Update the app from the App Store or Play Store to get it (see [Choose how the app looks](/dancer/following-in-the-app/#choose-how-the-app-looks))
+ 🛠️ **Improvements**
+* App: On iPhone, when a Premium payment has to be approved first, for example through Ask to Buy, the app now says it is waiting for your purchase to be confirmed instead of showing an error. Once the payment is approved, Premium starts by itself the next time you open the app; before, you had to tap **Restore purchases** (see [Follow dancers and clubs with Premium](/dancer/following-in-the-app/#follow-dancers-and-clubs-with-premium))
 ## 2026-11-05
  🛠️ **Improvements**
 * App: On Android, the app's text now shows in the Vote4Dance font, Nunito, with the right weights for headings and italics; before, most of it showed in the phone's standard font. Nunito is slightly wider, so some longer text, such as a subtitle in **Settings**, can now take a second line. On iPhone, list rows, buttons, tab labels and headers now use Nunito too.
