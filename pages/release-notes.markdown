@@ -10,6 +10,7 @@ nav_order: 10
  ⭐ **New**
 * App: **Settings** → **Appearance** now also offers **System**, next to **Light** and **Dark**. With **System** the app follows your phone's light or dark setting and changes when your phone does. The app stays **Dark** unless you choose otherwise. Update the app from the App Store or Play Store to get it (see [Choose how the app looks](/dancer/following-in-the-app/#choose-how-the-app-looks))
  🛠️ **Improvements**
+* Manager: **Problems** no longer asks you to set **Number to advance** on a B-final, a bronze or a battle inside a round, or on the final when the B-final runs after it, since none of them send anyone on. A second chance round at `0` is still listed (see [Problems](/manager-guide/validator/)).
 * App: On iPhone, when a Premium payment has to be approved first, for example through Ask to Buy, the app now says it is waiting for your purchase to be confirmed instead of showing an error. Once the payment is approved, Premium starts by itself the next time you open the app; before, you had to tap **Restore purchases** (see [Follow dancers and clubs with Premium](/dancer/following-in-the-app/#follow-dancers-and-clubs-with-premium))
 ## 2026-11-05
  🛠️ **Improvements**
