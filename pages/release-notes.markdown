@@ -8,6 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-11-06
  ⭐ **New**
+* Federation: A federation can close a class level once a team has enough points this season. Set **Class closes at points** and **Results that count** in the rules; the class then shows as locked, with the reason, when the team registers, and event staff get a warning instead of being stopped. A new **Season points** page under **Structure** lists every team's points and the entries to check, and a federation administrator can correct the points of one result with **Correct points** (see [Closing a class at points](/federation/class-point-limits/))
 * App: **Settings** → **Appearance** now also offers **System**, next to **Light** and **Dark**. With **System** the app follows your phone's light or dark setting and changes when your phone does. The app stays **Dark** unless you choose otherwise. Update the app from the App Store or Play Store to get it (see [Choose how the app looks](/dancer/following-in-the-app/#choose-how-the-app-looks))
  🛠️ **Improvements**
 * Manager: **Problems** no longer asks you to set **Number to advance** on a B-final, a bronze or a battle inside a round, or on the final when the B-final runs after it, since none of them send anyone on. A second chance round at `0` is still listed (see [Problems](/manager-guide/validator/)).
