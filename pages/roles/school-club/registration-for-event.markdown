@@ -96,7 +96,9 @@ and payment.
 - The receipt or invoice the club gets after paying has one line per team or dancer. Each line
   names the team, its dancers and its classes, so you can match every amount to a team.
 - **Edit lineup** changes the dancers while the period is open. Some events lock the lineup once
-  paid. The new lineup is checked against the class rules again.
+  paid. The new lineup is checked against the class rules again. Where the federation counts your
+  club's dancers, a swap is free and an extra dancer is paid for: see
+  [Changing a group's lineup after paying](#changing-a-groups-lineup-after-paying).
 - **Change class**, the swap icon next to **Edit lineup**, moves an entry to another class while the
   period is open. See [Moving an entry to another class](#moving-an-entry-to-another-class).
 
@@ -144,6 +146,82 @@ The **Change class** button is missing when:
 - **The entry's class may only be registered by the competitors themselves**, and your club does not
   own the team. The competitors change it from **My registration**.
 
+### Changing a group's lineup after paying
+
+Some federations let a club change the dancers of a small group or formation without paying again,
+as long as the club does not have more dancers than it has paid for. Your federation's rules say
+whether this applies. It works for club-owned teams in a registration period where each dancer pays
+once, however many classes they dance in.
+
+What this means for your club:
+
+- **Until registration closes, you can swap dancers for free.** Change who dances in a paid group,
+  and nothing is charged as long as your club's number of different dancers in that period stays at
+  or below the number you have paid for.
+- **A paid place stays with your club.** If a dancer leaves, you get no refund, but the place is
+  yours and can go to another dancer later, in the same group or another one.
+- **A new dancer above that number is paid for.** You pay the period's price for each extra dancer,
+  and the lineup is saved when the payment has come through.
+- **It only covers changes to groups that are already registered.** A new group pays as usual.
+- **After registration closes, your club can no longer change the lineup.** Ask the organizer. The
+  organizer can make the change, and the place you paid for stays with your club.
+
+*Example:* your club has paid for 4 dancers in the period: Crazy Stars with Rosa and Noor, and
+Bright Lights with Sam and Lena. Replacing Rosa with Olivia is free: your club still has 4
+different dancers. Adding Mila to Crazy Stars would make 5, so you pay for one more dancer. Replace
+Rosa with Mila instead, and it is free again.
+
+To change a lineup:
+
+1. Open `Organization → Administration → Registration` and click the event's card.
+2. Find the entry and press **Edit lineup**.
+3. Use **Skip** to leave a dancer out, **Replace** to swap a dancer for another member, or
+   **Add dancer** to bring in one more. **Add dancer** only shows when your federation's rule is on.
+
+   ![Edit lineup with the Add dancer button](/assets/images/lineup-places/edit-lineup-add-dancer.png)
+
+4. After **Add dancer**, **Pick a dancer to add** lists your club's approved members. Choose one.
+
+   ![Picking a club member to add](/assets/images/lineup-places/add-dancer-picker.png)
+
+   The dancer is marked **Added**. A replaced dancer shows **Replaced with** and the new name. Press
+   **Undo** next to a change to take it back.
+
+   ![Edit lineup with a replaced dancer and an added dancer](/assets/images/lineup-places/edit-lineup-added.png)
+
+5. Press **Save changes**. If your club stays at or below the dancers it has paid for, the lineup is
+   saved and you are done.
+6. If the change takes your club above that number, a pop-up **Pay for 1 new dancer** opens. It
+   says how many dancers your club will have, how many it has paid for, who is new, and the price.
+   Check it and press the pay button, which shows the amount, for example **Pay EUR 10.00**. You
+   pay by card or another method Stripe offers. If the organizer put in a dancer your club has not
+   paid for yet, the pop-up includes that dancer too.
+
+   ![The pop-up that asks to pay for a new dancer](/assets/images/lineup-places/pay-for-new-dancer.png)
+
+7. When you are back, **Lineup saved** confirms the payment and the dancers who are now in the
+   lineup. Press **Done**.
+
+   ![The confirmation that the lineup is saved](/assets/images/lineup-places/lineup-saved.png)
+
+If you press **Back to lineup** in the pop-up, nothing is paid and nothing is saved.
+
+**If you cancel the payment.** Leave Stripe's page without paying and you come back to **Edit
+lineup** with the changes you were making and the note "Payment cancelled". Your saved lineup has
+not changed. Press **Save changes** to try again, or **Cancel** to leave it as it was.
+
+![Edit lineup after a cancelled payment](/assets/images/lineup-places/payment-cancelled.png)
+
+**If the payment takes longer.** Some payment methods take a few days. You see "Your payment is on
+its way": your lineup has not changed yet, but the place stays with your club. When the payment has
+come through, open **Edit lineup** and save the same changes again. It costs nothing more. If you
+see "Please make your lineup change again", open **Edit lineup** and make the changes once more.
+If your payment went through, it costs nothing extra.
+
+**If registration closes while you pay.** You see "Registration closed while you paid". The payment
+went through, but the lineup is not changed. Contact the organizer and name the dancers. The
+organizer can make the change, and your club keeps the place you paid for.
+
 ## Step 5: Confirm your roster on the day
 
 The organizer opens an **Organization check-in** window, and the club confirms which of its teams dance and
@@ -175,7 +253,7 @@ Manager.
 | A class says **A dancer in this team is already in …** | Your federation lets each dancer dance one class per category (solo, duo…): one age group and one level. One of the team's dancers is already in another class of that category, registered or in the cart. The same check applies when you add a dancer to a registered team or bring one in with **Edit lineup**. See [One class per category](/dancer/registration-for-event/#one-class-per-category). |
 | A class says **This team is already in …** | Your federation lets each group or formation dance one class per category. The team is already in another class of that category; its dancers may still dance in your other teams, in any class. To switch, remove or withdraw the other class first. |
 | Wrong class | Press **Change class** on the entry while the period is open, and pick the right class. If the class you want is not offered, it is registered separately: cancel the entry and register again. After registration closes, ask the organizer. See [Moving an entry to another class](#moving-an-entry-to-another-class). |
-| The lineup must change after registering | **Edit lineup** while the period is open. After that, ask the organizer. |
+| The lineup must change after registering | **Edit lineup** while the period is open. After that, ask the organizer. If the federation counts your club's dancers, a swap is free and a new dancer is paid for: see [Changing a group's lineup after paying](#changing-a-groups-lineup-after-paying). |
 | An entry was cancelled on the day | The club did not confirm it at check-in. Talk to the organizer. |
 
 ## Next step
