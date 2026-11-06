@@ -6,9 +6,10 @@ nav_order: 10
 ---
 
 # Release notes
-## 2026-11-05
+## 2026-11-06
  ⭐ **New**
 * App: **Settings** → **Appearance** now also offers **System**, next to **Light** and **Dark**. With **System** the app follows your phone's light or dark setting and changes when your phone does. The app stays **Dark** unless you choose otherwise. Update the app from the App Store or Play Store to get it (see [Choose how the app looks](/dancer/following-in-the-app/#choose-how-the-app-looks))
+## 2026-11-05
  🛠️ **Improvements**
 * App: On Android, the app's text now shows in the Vote4Dance font, Nunito, with the right weights for headings and italics; before, most of it showed in the phone's standard font. Nunito is slightly wider, so some longer text, such as a subtitle in **Settings**, can now take a second line. On iPhone, list rows, buttons, tab labels and headers now use Nunito too.
 * Manager: Letters with accents, such as é and è, now show correctly when you open a downloaded file in Excel. This covers **Download .csv file** and **Download partial average** under **Download results**, and **Download .csv file** on the schedule's print view. Before, Excel could show é as Ã© (see [Data exports](/manager-guide/post-event/#3-data-exports))
