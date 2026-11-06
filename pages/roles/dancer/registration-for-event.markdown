@@ -29,6 +29,7 @@ put its own registration help at the top of the **Registration** tab, above the 
   happens on the website: tap the card to open the event's registration there.
 - **Your birth date is on your account.** Classes often depend on age.
 - **You know which class you want to enter.** If you are unsure, ask your club or the organizer.
+- **Registering your child?** [Open their account](/dancer/family/#open-your-childs-account) first, then follow the same steps.
 
 ## Registering on your own (solo)
 
