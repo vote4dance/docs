@@ -151,7 +151,7 @@ The **Change class** button is missing when:
 Some federations let a club change the dancers of a small group or formation without paying again,
 as long as the club does not have more dancers than it has paid for. Your federation's rules say
 whether this applies. It works for club-owned teams in a registration period where each dancer pays
-once, however many classes they dance in. For example, Disco small groups and formations in DSV.
+once, however many classes they dance in.
 
 What this means for your club:
 
@@ -193,8 +193,9 @@ To change a lineup:
    saved and you are done.
 6. If the change takes your club above that number, a pop-up **Pay for 1 new dancer** opens. It
    says how many dancers your club will have, how many it has paid for, who is new, and the price.
-   Check it and press the pay button, which shows the amount, for example **Pay EUR 10.00**. You pay by card or another method Stripe
-   offers.
+   Check it and press the pay button, which shows the amount, for example **Pay EUR 10.00**. You
+   pay by card or another method Stripe offers. If the organizer put in a dancer your club has not
+   paid for yet, the pop-up includes that dancer too.
 
    ![The pop-up that asks to pay for a new dancer](/assets/images/lineup-places/pay-for-new-dancer.png)
 

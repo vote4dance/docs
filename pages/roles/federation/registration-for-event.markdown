@@ -80,7 +80,7 @@ paid for at the period's price. When a dancer leaves, nothing is refunded, and t
 the club for another dancer.
 
 Use it when a club pays per dancer for a group, and you want it to be able to change who dances
-without asking the organizer each time. DSV uses it for small groups and formations.
+without asking the organizer each time.
 
 1. Open `Federation → Structure`, the discipline, category or federation class where it should
    apply.
