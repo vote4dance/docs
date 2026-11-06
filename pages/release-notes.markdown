@@ -8,6 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-11-06
  ⭐ **New**
+* Federation: A competition level can set who may enter its events by the team's points this season (**Points needed to enter**, **Winners who may enter anyway**) and by how many competitions it has danced (**Competitions danced before entering**). A team that does not meet a rule is told why when it registers; event staff only get a warning. The division's rules decide how results count, and **Publish the season ranking** adds a **Season ranking** page per age group to the division's public page, next to a **Season points** page with an age group filter and a **Ranked by** switch (see [Entry rules and the season ranking](/federation/season-ranking/))
 * App: **Settings** → **Appearance** now also offers **System**, next to **Light** and **Dark**. With **System** the app follows your phone's light or dark setting and changes when your phone does. The app stays **Dark** unless you choose otherwise. Update the app from the App Store or Play Store to get it (see [Choose how the app looks](/dancer/following-in-the-app/#choose-how-the-app-looks))
  🛠️ **Improvements**
 * Manager: **Problems** no longer asks you to set **Number to advance** on a B-final, a bronze or a battle inside a round, or on the final when the B-final runs after it, since none of them send anyone on. A second chance round at `0` is still listed (see [Problems](/manager-guide/validator/)).
