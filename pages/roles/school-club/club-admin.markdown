@@ -259,6 +259,10 @@ Coaches do not see this screen. The full flow, including the federation's checks
 
 ## Troubleshooting
 
+### "A downloaded CSV opens with everything in one column"
+
+**Export CSV** and **Download list (CSV)** use the list separator that goes with your browser's language: a semicolon where numbers are written with a decimal comma, as in Belgium, the Netherlands or Sweden, and a comma elsewhere. When your computer's Excel is set up for a different country than your browser, open the file in Excel with **Data → From Text/CSV** and choose the separator there.
+
 ### "Add does nothing on Permissions"
 
 Only an administrator can add people. The search needs at least three letters. The person must already have a Vote4Dance account, and adding someone who is already in the club (approved or waiting) fails.

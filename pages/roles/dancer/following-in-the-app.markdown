@@ -67,3 +67,26 @@ When the organizer has switched on audience voting, you can give a competitor up
 2. Tap the big heart to fill the ring a little at a time, or **hold** it to fill the ring while your finger is down. Lift your finger and it stops where it is.
 3. Each time the ring is full you earn a heart. The hearts at the top show how many you have given.
 4. Tap **Clear** to start over, or **Save** to give your votes.
+
+## Choose how the app looks
+
+The app is dark unless you choose otherwise. You can make it light, or let it follow your phone.
+
+1. Open the **Profile** tab and tap **Settings**. If your app shows a **Settings** tab instead of **Profile**, open that.
+2. Tap **Appearance**.
+3. Tap the one you want. The app changes straight away.
+   - **System** changes with your phone. If your phone turns dark in the evening, the app does too.
+   - **Light** keeps the app light, whatever your phone is set to.
+   - **Dark** keeps the app dark, whatever your phone is set to.
+
+![Appearance with System chosen, on a phone that is set to dark right now](/assets/images/app/appearance-system-dark.png)
+
+*With System chosen, the screen shows what your phone is set to right now.*
+
+![Appearance with Light chosen](/assets/images/app/appearance-light.png)
+
+*With Light chosen, the app stays light even when your phone is set to dark.*
+
+Your choice is saved on this phone, so another phone you sign in on keeps its own. The Vote4Dance ID card stays dark whichever you choose.
+
+If you don't see **System**, update the app from the App Store or Play Store.
