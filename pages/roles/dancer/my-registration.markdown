@@ -254,6 +254,19 @@ says until when (**MP3 only · until 3 Nov 18:00**). After that it is locked and
 contact. If the organizer has no contact listed, it says **Registration has closed: music changes
 only through the organizer.** Ask the organizer: they can upload on your behalf.
 
+
+### The reminder in your registration e-mail
+
+When a class asks for your own music and you have not uploaded it yet, the registration e-mail has a box called **Upload your music**. It lists the classes and says to upload your track as MP3 on **My registration**, before the date registration closes when there is one. It also reminds you that you can listen to the track there and replace it until registration closes.
+
+### When your club registered the entry
+
+Your club's coaches, managers and administrators can upload the music for an entry from the club's **Registrations** list, because the dancers may not have an account. On a class that asks for own music, the entry has a **Music** button next to the cancel button. When the entry still needs its music, the button says **Upload music** and is outlined in gold. Press it to open the same window as above: upload, listen, replace or remove. See [Club admin screens](/school-club/club-admin/#registration).
+
+### After the competition
+
+The music is not kept for ever. Vote4Dance deletes the uploaded files automatically some days after the competition has ended, so the organizer and the DJ should download them before then. The federation decides how many days (see [Own music](/federation-rules/own-music/)); if it has not set a number, the files are kept for 8 days. After that, the entry says **The track was removed after the competition.**
+
 ## All your events
 
 Your account lists every event you have registered for, under **Registration**:
