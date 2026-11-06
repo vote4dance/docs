@@ -157,6 +157,8 @@ no overridden value.
 The file is named after the federation, the export and the date, for example
 `DSF-rules-2026-09-28.csv`.
 
+These files always use commas, whatever your browser's language, so every rule value stays exactly as it is stored. In an Excel set up for a decimal comma, as in Belgium, the Netherlands or Sweden, open them with **Data → From Text/CSV** and choose comma as the separator.
+
 ## Related
 
 - [Promotion points](/federation/progression/) — the points source, points

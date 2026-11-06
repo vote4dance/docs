@@ -205,6 +205,7 @@ A dancer in a class that runs over two days, such as a first round on Saturday a
 |---|---|---|
 | Change the lineup | **Edit lineup** on the entry. You can use it while the entry's registration period is open and the entry is **Preliminary**, **Signed** or **Approved**. The new lineup is checked against the class rules, and a replacement dancer takes over the replaced dancer's dance role. | Coach, Manager, Administrator |
 | Cancel an entry | The cancel button on the entry, then confirm, under the same conditions. For a club-owned competitor, only the club's coaches, managers and administrators can cancel. | Coach, Manager, Administrator |
+| Move an entry to another class | **Change class**, the swap icon next to **Edit lineup**, while the entry's registration period is open, the entry is not on the start list and has no lineup changes. You can pick another class of the same registration period, at the same price; its rules are checked as for a new registration. See [Moving an entry to another class](/school-club/registration-for-event/#moving-an-entry-to-another-class). | Coach, Manager, Administrator |
 | See the price | **Get cost**, for approved entries not yet paid | Coach, Manager, Administrator |
 | Pay online | **Pay now** with the amount, when the event takes online payment. With manual payment you see the amount and the organizer's payment information instead. | Coach, Manager, Administrator |
 | Pay the club's invoice | **Pay now** on a row under **Pay your registrations**. It is enabled when the invoice's status is **Ready to send**. | Coach, Manager, Administrator |
@@ -256,6 +257,10 @@ The list opens on **Needs your action** when something waits for your club, and 
 Coaches do not see this screen. The full flow, including the federation's checks, is on [Getting a license](/school-club/getting-a-license/).
 
 ## Troubleshooting
+
+### "A downloaded CSV opens with everything in one column"
+
+**Export CSV** and **Download list (CSV)** use the list separator that goes with your browser's language: a semicolon where numbers are written with a decimal comma, as in Belgium, the Netherlands or Sweden, and a comma elsewhere. When your computer's Excel is set up for a different country than your browser, open the file in Excel with **Data → From Text/CSV** and choose the separator there.
 
 ### "Add does nothing on Permissions"
 
