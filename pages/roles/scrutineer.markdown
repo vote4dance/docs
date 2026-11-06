@@ -85,6 +85,8 @@ them up instead of searching the start lists.
 
 1. Open **Dancers** in the Supervisor menu.
 2. Type a name, or part of one, or a start number.
+
+   ![The Dancers page after searching for a name, with start number, age and original class](/assets/images/scrutineer/dancers-search.png)
 3. Each entry that matches shows its start number, the dancers and their club, the class they
    dance in, their **Original class** and each dancer's year of birth with the age they turn this
    year. A withdrawn entry is marked **Withdrawn**.
@@ -101,6 +103,8 @@ shown side by side on **Lineup** and **Results**, in the order A, B. If you sit 
 of the floor, B is on your left: choose **B | A** under **Floor sides** at the top of the page.
 The choice is remembered on your phone or computer, so every scrutineer can pick the side they
 sit on. **Floor sides** only shows when a split floor is on the page.
+
+![Floor sides at the top of Lineup, with A | B and B | A](/assets/images/scrutineer/floor-sides.png)
 
 ## Judge types, which is your vocabulary
 
