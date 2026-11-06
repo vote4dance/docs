@@ -6,6 +6,7 @@ parent: Dancer
 nav_order: 5.5
 help:
   public.event.me: ""
+  public.event.me.music: your-music
   public.event.me.change-class: changing-class
 ---
 
@@ -161,6 +162,110 @@ Everyone on the entry is taken off the class, and each of you gets an email conf
 Some federation classes let a registered team change its dancers, for example to replace one who is
 injured. Only then does the class show **Edit lineup**, and only while registration is open. Most
 classes do not allow it: ask the organizer instead.
+
+## Your music
+
+Some classes are danced to **your own music**. Then you upload your track yourself, and the DJ plays
+it at the event. Whether a class asks for it, and how long your track may be, is set by the
+federation in its rules.
+
+You can see it before you register: on the class list, a class that dances to your own music has a
+tag such as **Own music · max 1:30**. The limit is a longest length (**max 1:30**), a shortest
+length (**min 2:30**) or both (**2:30–3:00**).
+
+![A class that dances to your own music](/assets/images/my-registration/music-class-tag.png)
+
+You do not have to upload when you register. After you have registered, upload from **My registration**.
+
+### Uploading your music
+
+1. Open **My registration** for the event. A class that asks for own music has a **Music** line under
+   its status. It says **Music missing** and the limit, for example **Own music · max 1:30**, with an
+   **Upload MP3** button.
+
+   When music is missing, the card at the top says **Upload music for 2 classes** and lists the
+   classes. Press **Upload music** to jump to the first one. The event page says the same when you
+   are registered.
+
+   ![A class where music is missing](/assets/images/my-registration/music-missing.png)
+
+2. Press **Upload MP3** and pick the file on your phone or computer. Only MP3 files work: export
+   your track as MP3 first if it is another format. A file larger than 30 MB is refused.
+3. A window called **Music for** and the class opens. Your browser checks the file before anything is
+   sent, and shows it under **Checked in your browser**, for example **Length 1:20 of max 1:30**.
+   Under **Listen before you send it** you can play the track and make sure it is the right one.
+4. Press **Upload 1:20 track** (the button shows your track's length). Press **Cancel** to stop
+   without sending anything.
+
+   ![Checking and listening to the track before it is sent](/assets/images/my-registration/music-upload-dialog.png)
+
+When the upload is done the line changes to **Music uploaded**, with the track's length against the
+limit and the file name, for example **1:20 of max 1:30 · music-ok.mp3**, and the tag **Ready for the
+DJ**. Once every class has its music, the **Upload music** reminder at the top goes away.
+
+![A class with its music uploaded](/assets/images/my-registration/music-uploaded.png)
+
+The server checks the length once more after the upload. This is why a file can still be refused
+even though your browser accepted it (see [If your file is refused](#if-your-file-is-refused)).
+
+In a class danced by a couple or a team, anyone on the entry can upload. In a class your club has
+registered, the club's coaches and anyone on the roster can upload. The last upload counts.
+
+If you were put on a team's entry by a lineup change, you see the track and can play it, but you
+cannot upload: the line says **The team's dancers upload the music for this entry.**
+
+While you are still in the middle of paying for the class, the **Upload MP3** button is not shown yet; it appears once the payment is done.
+
+### Listening, replacing and removing
+
+- **Listen.** Under **Music uploaded** there is a player. Press the play button to hear the file the
+  DJ will get.
+- **Replace.** Press **Replace** and pick a new MP3. You go through the same window as the first time.
+  Your new track takes the place of the earlier one only when it passes the check: until then the
+  earlier file stays.
+- **Remove.** Press **Remove**, then **Remove** again to confirm, or **Cancel** to keep the file. The DJ then has no track for this entry until you upload another one, and the class
+  says **Music missing** again.
+
+### If your file is refused
+
+Your browser tells you straight away when a file cannot be used, and you can pick another file:
+
+![A track that is longer than the class allows](/assets/images/my-registration/music-dialog-too-long.png)
+
+| What it says | What it means | What you do |
+|---|---|---|
+| **MP3 only (your file is .wav)** | The file is not an MP3. | Export the track as MP3. |
+| **The file is larger than 30 MB** | The file is too big. | Export it again as a smaller MP3. |
+| **1:41 is longer than the class limit of max 1:30** | The track is longer than the class allows. | Shorten the track. |
+| **0:55 is shorter than the class minimum of min 2:30** | The track is shorter than the class requires. | Use a longer track. |
+| **This file could not be read as an MP3** | The file is damaged or is not really an MP3. | Export it again as MP3. |
+
+If the server refuses a file after it was sent, the line says **Not accepted:** and the reason, and
+**Fix the track and upload it again.** Press **Upload MP3** again.
+
+If the class already had a music file, nothing is lost: the line keeps **Music uploaded** and adds
+why the new file was refused, with **Your earlier file from 12 Oct is still the one the DJ gets.**
+
+### After registration closes
+
+You can upload, replace and remove music while the class's registration period is open. The line
+says until when (**MP3 only · until 3 Nov 18:00**). After that it is locked and says
+**Registration has closed: to change your music, contact the organizer at** and the organizer's
+contact. If the organizer has no contact listed, it says **Registration has closed: music changes
+only through the organizer.** Ask the organizer: they can upload on your behalf.
+
+
+### The reminder in your registration e-mail
+
+When a class asks for your own music and you have not uploaded it yet, the registration e-mail has a box called **Upload your music**. It lists the classes and says to upload your track as MP3 on **My registration**, before the date registration closes when there is one. It also reminds you that you can listen to the track there and replace it until registration closes.
+
+### When your club registered the entry
+
+Your club's coaches, managers and administrators can upload the music for an entry from the club's **Registrations** list, because the dancers may not have an account. On a class that asks for own music, the entry has a **Music** button next to the cancel button. When the entry still needs its music, the button says **Upload music** and is outlined in gold. Press it to open the same window as above: upload, listen, replace or remove. See [Club admin screens](/school-club/club-admin/#registration).
+
+### After the competition
+
+The music is not kept for ever. Vote4Dance deletes the uploaded files automatically some days after the competition has ended, so the organizer and the DJ should download them before then. The federation decides how many days (see [Own music](/federation-rules/own-music/)); if it has not set a number, the files are kept for 8 days. After that, the entry says **The track was removed after the competition.**
 
 ## All your events
 
