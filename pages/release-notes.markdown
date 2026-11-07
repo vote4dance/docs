@@ -8,6 +8,8 @@ nav_order: 10
 # Release notes
 ## 2026-11-07
  🛠️ **Improvements**
+* Federation: On/off rules now have three choices, **Inherit** (or **Default**), **On** and **Off**, with a line under each that says what applies now and where it comes from, so you can see an inherited value and go back to it ([guide](/federation/divisions/#onoff-rules))
+* Registration: Custom competitor names are now off unless the federation allows them or the registration form asks for a team name; federations choose where they apply, such as formations and breaking
 * Speaker, Lineup, Supervisor: An empty heat now says why it has no dancers: they show once the results of the previous round are published. Before, it only said **Results not published**, which looked like it was about the round on screen (see [Users, apps and stations](/manager-guide/users-and-stations/))
 ## 2026-11-06
  ⭐ **New**
