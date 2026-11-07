@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-07
+ 🛠️ **Improvements**
+* Speaker, Lineup, Supervisor: An empty heat now says why it has no dancers: they show once the results of the previous round are published. Before, it only said **Results not published**, which looked like it was about the round on screen (see [Users, apps and stations](/manager-guide/users-and-stations/))
 ## 2026-11-06
  ⭐ **New**
 * App: **Settings** → **Appearance** now also offers **System**, next to **Light** and **Dark**. With **System** the app follows your phone's light or dark setting and changes when your phone does. The app stays **Dark** unless you choose otherwise. Update the app from the App Store or Play Store to get it (see [Choose how the app looks](/dancer/following-in-the-app/#choose-how-the-app-looks))
