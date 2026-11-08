@@ -10,6 +10,7 @@ help:
   federation.structure.class-rule-findings: across-the-federation
   federation.discipline.rules.merge: merging-copies
   federation.discipline.rules.trace: check-a-class
+  federation.discipline.rules.rounds: rounds-round-names-and-round-sizes
   federation.discipline.default-ladder: default-ladder
 ---
 
