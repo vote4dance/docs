@@ -6,6 +6,10 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-08
+ ⭐ **New**
+* Public: **My family's IDs** shows every child's Vote4Dance ID on one screen, so a parent can show them at the entrance without opening each child's account. On the day of an event, **My account** opens with **Show the children's IDs** (see [Show your children's IDs at the entrance](/dancer/family/#show-your-childrens-ids-at-the-entrance))
+* App: **Profile** → **My family's IDs** shows the same IDs in the app. Update the app from the App Store or Play Store to get it (see [Show your children's IDs at the entrance](/dancer/family/#show-your-childrens-ids-at-the-entrance))
 ## 2026-11-06
  ⭐ **New**
 * App: **Settings** → **Appearance** now also offers **System**, next to **Light** and **Dark**. With **System** the app follows your phone's light or dark setting and changes when your phone does. The app stays **Dark** unless you choose otherwise. Update the app from the App Store or Play Store to get it (see [Choose how the app looks](/dancer/following-in-the-app/#choose-how-the-app-looks))

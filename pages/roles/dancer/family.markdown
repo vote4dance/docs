@@ -10,6 +10,7 @@ help:
   public.account.family.confirm: first-confirm-your-own-address
   public.account.family.bring-in: my-child-already-has-an-account
   public.account.family.take-over: let-your-child-take-over
+  public.account.family-ids: show-your-childrens-ids-at-the-entrance
 ---
 
 # Family
@@ -124,6 +125,36 @@ Trying shows **Sign in to this account directly to change this.** Your child cha
 ### Premium in your child's account
 
 If your child has no Premium of their own, the Premium on your account follows you into their account, so you have it there too. It is only shown: you cannot buy or renew it from your child's account, so go back to your own account for that. If your child has a Premium of their own, that is the one that counts in their account.
+
+## Show your children's IDs at the entrance
+
+At the event, the entrance checks each dancer in with their Vote4Dance ID. **My family's IDs** shows
+every child's ID on one screen, so you don't have to open each child's account in the queue.
+
+1. On the day of the event, open **My account**. When your children are registered, a card at the
+   top names the event and the children who dance. Press **Show the children's IDs**. On other
+   days, press **My family's IDs** at the top of **My account**, or on the **Family** page.
+
+   ![My account on the day of an event: Alva and Noah are registered, with the button Show the children's IDs](/assets/images/family/family-ids-today.png)
+2. On a phone you see one child's ID at a time. Swipe sideways, or press a child's name above the
+   card, to show the next one. Children who dance today come first.
+
+   ![My family's IDs on a phone: Alva's ID with her name, birthdate, club, today's event and the QR code](/assets/images/family/family-ids-phone.png)
+3. Hold each QR code up to the desk in turn. The desk scans it and sees the same ID your child would
+   show from their own account.
+
+On a computer or tablet, all IDs are shown side by side.
+
+![My family's IDs on a computer: three IDs side by side](/assets/images/family/family-ids-wide.png)
+
+- A child who is not registered at an event today still has an ID; it checks them in at any event
+  they are registered for.
+- The entrance compares the photo with the face. If a child has no photo yet, the ID says so: press
+  **Open Alva's account to add one** and add the photo from **Vote4Dance ID** there.
+- In the app, the same IDs are under **Profile** → **My family's IDs**. Swipe between them the same
+  way.
+- **My family's IDs** is only there in your own account. Inside a child's account, press **Back to
+  my account** first.
 
 ## Let your child take over
 

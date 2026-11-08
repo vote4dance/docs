@@ -24,6 +24,8 @@ Your Vote4Dance ID is the QR code the entrance scans when you arrive at a compet
 
 The app is the practical one at a venue: two taps from the Profile tab, and your tickets are in the same place.
 
+Showing your children's IDs? **My family's IDs** puts them all on one screen, on the website and in the app. See [Show your children's IDs at the entrance](/dancer/family/#show-your-childrens-ids-at-the-entrance).
+
 ## Add a photo
 
 Tap the photo on the card to add or change one — from your camera roll or the camera itself. A clear picture of your face is all it needs.
