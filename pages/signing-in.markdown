@@ -11,7 +11,7 @@ help:
 
 # Signing in
 
-You sign in to Vote4Dance with your e-mail address. There is no password to remember: Vote4Dance sends a short code to your e-mail, and you type it in. If you like, you can then save a **passkey** on your phone or computer, so that your face, fingerprint or phone code signs you in next time.
+You sign in to Vote4Dance with your e-mail address. There is no password to remember: Vote4Dance sends a short code to your e-mail, and you type it in. (If your account has a password from before, you can use that instead, see [Use your password](#use-your-password).) If you like, you can then save a **passkey** on your phone or computer, so that your face, fingerprint or phone code signs you in next time.
 
 This is the same for everybody: dancers, parents, judges, organizers, desk staff, club administrators and spectators. All the Vote4Dance web apps share one sign-in, so you sign in once and are signed in everywhere on that device.
 
@@ -26,14 +26,20 @@ Use this the first time, on a new device, or whenever you have no passkey.
 
    ![The sign-in screen asking for an e-mail address](/assets/images/sign-in/sign-in-email.png)
 
+   On a phone the screen is shorter: it shows only the e-mail field and **Continue**.
+
+   ![The sign-in screen on a phone](/assets/images/sign-in/sign-in-email-phone.png)
+
 3. Open your e-mail. Vote4Dance has sent you a 6-digit code. It works for 10 minutes. On a phone, Mail often offers the code above the keyboard, so you only tap it. The code is also in the subject line of the e-mail, so you can read it in the notification without opening the e-mail.
-4. Type the code and press **Sign in**.
+4. Type the code and press **Continue**.
 
    ![The screen where you type the 6-digit code](/assets/images/sign-in/sign-in-code.png)
 
+If the code is late, press **Send again** after 30 seconds. The code in the first e-mail keeps working for 10 minutes, so it is not wasted if that e-mail turns up late. Use whichever code you have: either one signs you in, and then both stop working.
+
 You are signed in. The code proves that the inbox is yours, so there is nothing to remember and nothing to reset.
 
-**In the app.** Open the Vote4Dance app and choose **Sign in** (or **Join Vote4Dance** if you are new). Type your e-mail address, press **Continue**, and type the 6-digit code on the **Check your e-mail** screen; the code is in the e-mail's subject line, so the notification already shows it. The screen has **Send again** and **use another e-mail** if the code does not arrive.
+**In the app.** Open the Vote4Dance app and choose **Sign in** (or **Join Vote4Dance** if you are new). Type your e-mail address, press **Continue**, and type the 6-digit code on the **Check your e-mail** screen; the code is in the e-mail's subject line, so the notification already shows it. The screen has **Send again** and **use another e-mail** if the code does not arrive. The button under the code says **Continue**, and after **Send again** the first code still works too.
 
 ![The code screen in the app](/assets/images/sign-in/app-code.png)
 
@@ -59,11 +65,23 @@ In the app, choose **Join Vote4Dance** on the first screen; the steps are the sa
 
 If your account has a password from before, you can keep using it.
 
+There are two ways to the password screen.
+
+**From the first screen.**
+
+1. Type your e-mail address.
+2. Under **Continue**, choose **Have a password? Sign in with it**. The password screen opens with your e-mail address already filled in.
+3. Type your password and press **Sign in**.
+
+If you chose it by mistake, press **Back** to return to the e-mail screen.
+
+**From the code screen.**
+
 1. Type your e-mail address and press **Continue**.
 2. On the screen that asks for the code, choose **This account has a password · use it instead**.
 3. Type your password and press **Sign in**.
 
-   The app has the same two screens: choose **This account has a password · use it instead** under the code, type your e-mail address and password, and press **Sign in**. If the app cannot send a code, for example because of a problem with the connection, the screen says what went wrong and offers the same link, so you can sign in with your password instead.
+   The app has the same two ways: choose **Have a password? Sign in with it** under **Continue** on the first screen, or **This account has a password · use it instead** under the code. Then type your e-mail address and password, and press **Sign in**. If the app cannot send a code, for example because of a problem with the connection, the screen says what went wrong and offers the same link, so you can sign in with your password instead.
 
    ![The password screen with the Forgot your password link](/assets/images/sign-in/sign-in-password.png)
 
@@ -81,12 +99,14 @@ After you sign in with a code or a password, on a device that supports passkeys,
 
    ![The offer to save a passkey after signing in](/assets/images/sign-in/passkey-offer.png)
 
+   Only save it on a device that is yours, not on a shared or borrowed one.
+
 2. Confirm with your face, fingerprint or phone code when the phone or computer asks.
 3. A screen says **Passkey saved** and shows which device it is saved on. Press **Continue**.
 
    ![The confirmation that the passkey is saved](/assets/images/sign-in/passkey-saved.png)
 
-If you do not want one now, choose **Not now**. You can add one at any time, see [Manage how you sign in](#manage-how-you-sign-in).
+If you do not want one now, choose **Not now**, the button next to the save button. You can add one at any time, see [Manage how you sign in](#manage-how-you-sign-in).
 
 Good to know:
 
@@ -96,7 +116,7 @@ Good to know:
 - **You are not locked out if you lose your phone.** A code to your e-mail always signs you in.
 - **Changing or resetting your password removes your passkeys.** That signs out anyone who might have saved one with your old password. Save a new passkey on your own devices afterwards.
 
-**In the app.** Right after you sign in, the app shows the same **Sign in faster next time** screen. Choose **Save passkey for** followed by your name and confirm with your face, fingerprint or phone code, or choose **Not now**. It asks once on each phone.
+**In the app.** Right after you sign in, the app shows the same **Sign in faster next time** screen. Choose **Save passkey for** followed by your name and confirm with your face, fingerprint or phone code, or choose **Not now**, the outlined button. It asks once on each phone.
 
 ![The app offering to save a passkey](/assets/images/sign-in/app-passkey-offer.png)
 
@@ -118,7 +138,7 @@ You are signed in, with no code and no password.
 
 ### On a borrowed or shared computer
 
-You can use the passkey on your phone to sign in on a computer that is not yours. Nothing is saved on that computer.
+You can use the passkey on your phone to sign in on a computer that is not yours. Nothing is saved on that computer. This choice is shown on computers and tablets, not on phones.
 
 1. On the computer, go to [vote4dance.com](https://vote4dance.com) and choose **Sign in**.
 2. Choose **Use a passkey from your phone**.
@@ -161,7 +181,7 @@ It has three parts:
 
 **The code does not arrive.**
 - It can take a minute. Look in **Spam** or junk mail.
-- After 30 seconds the screen offers **Send again**. Use it once and use the newest code.
+- After 30 seconds the screen offers **Send again**. Use it once. The code in the first e-mail still works for 10 minutes, so if it arrives late you can use it; either code signs you in.
 - Check that the address is spelled right. If it is not, choose **use another e-mail** (or **Back**) and type it again.
 
 **"This code is invalid or has expired."** A code works for 10 minutes. Ask for a new one with **Send again**, and type the newest.
