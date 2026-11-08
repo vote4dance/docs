@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-08
+ 🛠️ **Improvements**
+* Federation: In a class rule, round names and round sizes are now one **Rounds** table, with a row per round counted from the final, so each round's size and name sit side by side. **Small classes start here** lets a class that is a little too big for a round start in it anyway, and **Rounds by class size** shows which rounds each class size gets. Before, they were separate lists you had to match up by position. The rules are stored as before, so the rounds the Round Guide creates do not change ([guide](/federation-rules/reference/#rounds-round-names-and-round-sizes))
 ## 2026-11-07
  🛠️ **Improvements**
 * Federation: On/off rules now have three choices, **Inherit** (or **Default**), **On** and **Off**, with a line under each that says what applies now and where it comes from, so you can see an inherited value and go back to it ([guide](/federation/divisions/#onoff-rules))
