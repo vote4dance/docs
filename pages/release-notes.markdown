@@ -7,7 +7,15 @@ nav_order: 10
 
 # Release notes
 ## 2026-11-08
+ ⭐ **New**
+* App: Live quiz and all-day quizzes at the event: join by QR code or from the event page, answer before the clock runs out, and see your place (see [Quizzes](/spectator/quizzes/))
+* App: **Call it** for every competition day: call who wins the day's finals, with your own finals and the headline finals first, and pick who goes through from the heat; earn points when you are right (see [Hearts and Call it](/spectator/hearts-and-calls/#call-it))
+* App: Hearts voting is now free; before, voting could need Premium. The full standings beyond the top 10 and live hearts, where the event shows them, stay in Premium (see [Hearts and Call it](/spectator/hearts-and-calls/#what-is-free))
+* Speaker: The **Audience** page runs quizzes: open the lobby, start and close questions, autoplay, and put the lobby, standings and podium on screen (see [Running a quiz from the speaker app](/manager-guide/speaker-quiz/))
+* Screens: Quiz screens for the lobby with QR code, the question with countdown, the reveal, the leaderboard and the podium (see [Quiz screens](/manager-guide/screens/#quiz-screens))
+* Public: The event's **Audience** tab shows what is on, results so far and the audience favourite of published rounds; quiz results have a page you can share (see [The Audience page](/spectator/audience-page/))
  🛠️ **Improvements**
+* Public: Giving hearts moved to the app; the website shows a **Take part in the Vote4Dance app** prompt on the heat instead of a voting button (see [Hearts and Call it](/spectator/hearts-and-calls/#give-hearts))
 * Federation: In a class rule, round names and round sizes are now one **Rounds** table, with a row per round counted from the final, so each round's size and name sit side by side. **Small classes start here** lets a class that is a little too big for a round start in it anyway, and **Rounds by class size** shows which rounds each class size gets. Before, they were separate lists you had to match up by position. The rules are stored as before, so the rounds the Round Guide creates do not change ([guide](/federation-rules/reference/#rounds-round-names-and-round-sizes))
 ## 2026-11-07
  🛠️ **Improvements**
@@ -56,19 +64,12 @@ nav_order: 10
 ## 2026-11-02
  ⭐ **New**
 * Federation: The new rule **Team represents** (Country, Club, Individual dancer) decides what the public participants list and the app show under each team's name, so national competitions can leave out the country and international ones show it. Set it for the whole federation, a division, a discipline or a competition level; without it, teams show club, city and country as before (see [What a team represents](/federation/divisions/#what-a-team-represents))
-* App: Live quiz and all-day quizzes at the event: join by QR code or from the event page, answer before the clock runs out, and see your place (see [Quizzes](/spectator/quizzes/))
-* App: **Call it** for every competition day: call who wins the day's finals, with your own finals and the headline finals first, and pick who goes through from the heat; earn points when you are right (see [Hearts and Call it](/spectator/hearts-and-calls/#call-it))
-* App: Hearts voting is now free; before, voting could need Premium. The full standings beyond the top 10 and live hearts, where the event shows them, stay in Premium (see [Hearts and Call it](/spectator/hearts-and-calls/#what-is-free))
-* Speaker: The **Audience** page runs quizzes: open the lobby, start and close questions, autoplay, and put the lobby, standings and podium on screen (see [Running a quiz from the speaker app](/manager-guide/speaker-quiz/))
-* Screens: Quiz screens for the lobby with QR code, the question with countdown, the reveal, the leaderboard and the podium (see [Quiz screens](/manager-guide/screens/#quiz-screens))
-* Public: The event's **Audience** tab shows what is on, results so far and the audience favourite of published rounds; quiz results have a page you can share (see [The Audience page](/spectator/audience-page/))
  🛠️ **Improvements**
 * Federation: **Rounds the manager will create** on the **By class** tab of the class rules now shows how many really go through each round, as its **Num to advance** sets it, and the next round shows that many dancers. Before, a round showed the size of the next round instead, so a semifinal sending 6 to a final that holds 8 read "8 through"; a second chance now also shows the dancers who did not go straight through (none when everyone goes straight on), and each round shows the heats it is created with, never more than its dancers (see [Check a class](/federation-rules/reference/#check-a-class))
 * Public: On a club's **Registration** page, coaches, managers and administrators can now move an entry to another class with **Change class**, the swap icon next to **Edit lineup**, as dancers already can on **My registration**. It works until registration closes, for classes that open for registration together with the entry's class, so the price stays the same; the new class's rules are checked as for a new registration, and an entry already on the start list or with lineup changes is not offered the button (see [Moving an entry to another class](/school-club/registration-for-event/#moving-an-entry-to-another-class))
 * Public: A dancer who belongs to more than one club now picks the club for every class they add to the basket, with the club picked last already filled in. Before, the second class took the first class's club without asking (see [Depends on your event](/dancer/registration-for-event/#depends-on-your-event))
 * Manager: **Update/import participants** now lists under **Changed** only the participants where something really changed. Before, running the import again to add new registrations could list every participant already imported as changed, and could move them around in their class (see [Update/import participants](/manager-guide/registration-checkin/#updateimport-participants))
 * Manager, Check-in: A registration you or the check-in desk enter is **Approved** straight away, paid or not, so there is no second step to approve it. Registrations from dancers and clubs follow the period's acceptance as before (see [Registration statuses](/manager-guide/registration-checkin/#registration-statuses))
-* Public: Giving hearts moved to the app; the website shows a **Take part in the Vote4Dance app** prompt on the heat instead of a voting button (see [Hearts and Call it](/spectator/hearts-and-calls/#give-hearts))
 ## 2026-10-30
  🛠️ **Improvements**
 * Federation: **Licenses** → **All other licenses** has a **Filter by organization**, so you can see which dancers of one club or school hold a license; type part of the club's name to find it. **Download CSV** follows the filter, and the search box also finds a club by name (see [Licenses of one organization](/federation-licenses/federation-admin/#licenses-of-one-organization))
