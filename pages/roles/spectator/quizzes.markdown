@@ -37,7 +37,9 @@ If your phone loses the network or you reload, you land back on the current ques
 
 ## All-day quizzes
 
-An all-day quiz is open for hours, for example until the finals. Nobody runs it; you play whenever you like.
+An all-day quiz is open for hours, for example until the finals. Nobody runs it; you play whenever you like. On the event's [Audience page](/spectator/audience-page/) on the web, it is under **All day**, with how many questions you play at your own pace and how many are playing.
+
+![All-day quizzes on the Audience page: how many questions and how many are playing](/assets/images/audience/web-all-day-quiz.png)
 
 1. Open the quiz from the event page.
 2. Answer the questions in any order. Your progress and your place at the moment are at the top.
@@ -50,7 +52,9 @@ A **play-now** quiz has a timer on each question. The clock starts when you open
 
 ## Standings
 
-During and after a quiz you see your own place and points. The top 10 is open to everyone. The full standings, beyond the top 10, are part of Premium. The podium and the final standings are also on the event's [Audience page](/spectator/audience-page/) on the web.
+During and after a quiz you see your own place and points. The top 10 is open to everyone. The full standings, beyond the top 10, are part of Premium. The podium and the final standings are also on the event's [Audience page](/spectator/audience-page/) on the web: click **Standings →** next to a finished quiz for its results page, with the podium, each player's correct answers and points, and for each question the right answer and how many got it right.
+
+![A quiz's results page: the podium, the standings and question by question](/assets/images/audience/web-quiz-results.png)
 
 ## Free and Premium
 

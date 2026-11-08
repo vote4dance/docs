@@ -68,6 +68,14 @@ You can change your call until the round starts, or until the judges are done. T
 
 ![The call is locked and waiting for the result](/assets/images/audience/call-it-locked.png)
 
+On the website you cannot call, but you can see how many have. The event's [Audience page](/spectator/audience-page/) shows the round on the floor under **Happening now**, for example "2 have called".
+
+![The round on the floor on the Audience page, with how many have called](/assets/images/audience/web-floor-card-called.png)
+
+Click it to open the round's heats, which say the same and have the buttons to the app.
+
+![The heats of the round on the website: Vote and call it in the Vote4Dance app, 2 have called](/assets/images/audience/web-heat-dialog-called.png)
+
 When the results are published the couples are marked **Through** or **Not through** (a final: **Winner**), and your card tells you how you did, for example "You called 2 of 3 through", with a ✓ or ✗ for each of your picks. Your points go on the standings of that day's **Call it**, which you find with the quizzes on the event page.
 
 ![After the results are published: You called 2 of 3 through, and the Through to column](/assets/images/audience/call-it-settled-through-to.png)
