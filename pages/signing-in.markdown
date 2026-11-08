@@ -26,7 +26,7 @@ Use this the first time, on a new device, or whenever you have no passkey.
 
    ![The sign-in screen asking for an e-mail address](/assets/images/sign-in/sign-in-email.png)
 
-   On a phone the screen is shorter: it shows only the e-mail field and **Continue**.
+   On a phone the screen is shorter: it leaves out **Use a passkey from your phone** and the box about borrowed or shared computers, since you are already on your phone.
 
    ![The sign-in screen on a phone](/assets/images/sign-in/sign-in-email-phone.png)
 
