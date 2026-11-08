@@ -10,6 +10,7 @@ help:
   federation.structure.class-rule-findings: across-the-federation
   federation.discipline.rules.merge: merging-copies
   federation.discipline.rules.trace: check-a-class
+  federation.discipline.rules.rounds: rounds-round-names-and-round-sizes
   federation.discipline.default-ladder: default-ladder
 ---
 
@@ -206,8 +207,9 @@ The steps follow the three questions above: the ladder first, then the stages,
 then the exceptions.
 
 1. **Write the base rule.** Press **Add class rule** in the **Class rules** tab.
-   Leave **When** on **Every round**, and under **Change** set **Round sizes** and
-   **Round name(s)**. For a 1v1 battle discipline, set **Round type** to
+   Leave **When** on **Every round**, and under **Change** pick **Rounds** and fill
+   in one row per round, from the final outward ([Rounds: round names and round
+   sizes](#rounds-round-names-and-round-sizes)). For a 1v1 battle discipline, set **Round type** to
    **Brackets** instead and let the generator build the bracket
    ([Battle class rules](/federation-rules/battle-class-rules/)).
 2. **Check it.** Open the **By class** tab ([Check a class](#check-a-class)),
@@ -370,7 +372,8 @@ of competitors you can change; a closed eye marks a round the rule applies to.
 
 **Change.** What the rule writes. Each change is picked from a list grouped as
 **Round setting**, **Bracket setting**, **Music and time** and **Other**, such
-as **Round sizes**, **Round name(s)**, **Judging type**, **Num to advance**,
+as **Rounds** (round sizes and names as one table, see [Rounds: round names and
+round sizes](#rounds-round-names-and-round-sizes)), **Judging type**, **Num to advance**,
 **Hide from position**, **Max on floor**, **Music length** or **Dances**
 ([Settings](#settings-by-what-they-control)). **Another change** adds one more.
 Under **Advanced**, **Setup** tags a rule as part of a variant that organizers
@@ -450,6 +453,77 @@ without adding it by hand.
 The added round is danced by all competitors and the class's own rounds follow
 it unchanged. A rule with **Which rounds** set to **Before the first round** and
 **Action** **Modify** changes the round another rule adds there.
+
+### Rounds: round names and round sizes
+
+A rule's round names and round sizes are set together, in one table under
+**Change**: **Rounds**. Each row is one round, counted from the final — **Final**,
+**Second last**, **Third last** and so on — so you read the class the way it is
+danced, from the end backwards, and each round's size and name sit side by side.
+
+![The Rounds table with a final of 6, where classes of up to 8 start in the final](/assets/images/class-rules/rounds-table.png)
+
+The example is the Disco ladder: a final of 6, a semifinal of 12, a quarterfinal
+of 24 and two preliminary rounds, where classes of up to 8 dance a final only.
+
+1. Open the rule (**Edit** on its row in the **Class rules** tab), or press **Add
+   class rule** and pick **Rounds** under **Change**. A rule that sets round sizes
+   or round names can only be for **Every round**, with or without a number of
+   competitors.
+2. In the **Final** row, enter the **Round size** — the most competitors the final
+   holds, here 6 — and its **Name**, such as Final.
+3. Fill in the rows above it in the same way: **Second last** 12 Semifinal,
+   **Third last** 24 Quarterfinal, and so on. **Goes through** shows how many go
+   on from each round to the next: the next round's size, or **placed** for the
+   final. You do not type it.
+4. Use **Small classes start here** to let a class that is only a little too big
+   for a round start in it anyway. In the **Final** row, **classes of 7 –** 8 means
+   a class of 7 or 8 skips the semifinal and dances straight in the final — all of
+   them dance it and are placed there. In the **Second last** row, **classes of 13
+   –** 16 means a class of 13 to 16 starts in the semifinal instead of dancing a
+   quarterfinal first. Leave it empty when a class should start in a round only
+   if it fits its **Round size**.
+5. The largest round has no field there: it takes **classes of N and up**, every
+   class larger than the rows below it allow, here **classes of 56 and up**.
+6. To add a round, press **Add a round**: a new row is added just below the
+   largest round, at double the size of the row before it. Fill in its size and
+   name. To remove a round, press **×** at the end of its row; the final cannot be
+   removed.
+7. Check the result under **Rounds by class size** (below), then press **Save**.
+
+**Names.** A name with [X] numbers the rounds, the first round being 1:
+"Preliminary [X]" gives Preliminary 1, Preliminary 2 … and the note under the
+table shows how it comes out. When a rule has fewer names than rounds, the
+earlier rounds get the last name; an empty name field shows the name such a
+round gets. **Not set by this rule** means the rule gives sizes but no names, so
+the names come from another rule or the default ladder.
+
+**Rounds by class size.** Below the table, a bar shows every class size as the
+app creates the rounds — here **1–8 final only**, **9–16 2 rounds**, **17–32 3
+rounds**, **33–55 4 rounds** and **56+ 5 rounds**. Click a part of the bar to see
+it as **A class of N**: the rounds such a class dances, how many dance in each
+and how many go through, for example "Semifinal 14 dance · 6 through → Final 6
+dance · placed". The bar's limits follow the table: change **Round size** or
+**Small classes start here** to move them.
+
+The **Example** card on the right says the same for one real class of the
+discipline, with the reason in words:
+
+![The Example card: a class of 14 starts in the semifinal](/assets/images/class-rules/rounds-example.png)
+
+**Nothing else changes.** The table is a new way to show and edit the same
+settings as before: saving stores the round names, the round sizes, and the
+round sizes for small classes as three lists, exactly as rules have always been
+stored, so the Round Guide creates the same rounds and the **Download CSV** file
+keeps its **Round name(s)**, **Round sizes** and **Round sizes (2)** columns.
+Press **Show the stored lists** to see them, and **Hide the stored lists** to
+close them again:
+
+![The stored lists below the Rounds table](/assets/images/class-rules/rounds-stored-lists.png)
+
+A rule whose lists cannot be drawn as one table — for example one with two lists
+of round names — keeps the separate **Round name(s)** and **Round sizes**
+changes, as before.
 
 ---
 
@@ -860,9 +934,9 @@ Set under **Advanced** in the rule editor.
 
 | Setting | Values | Effect |
 |---|---|---|
-| **Round sizes** | A list of sizes, such as 2, 4, 8, 16, 200 | The ladder. The first size at least as large as the number of competitors is the first round; the ladder runs down to the final. In brackets mode, the largest size below 200 is the largest bracket (8 = up to quarterfinals, 16 = adds a round of 16). |
+| **Round sizes** | A list of sizes, such as 2, 4, 8, 16, 200 | The ladder. The first size at least as large as the number of competitors is the first round; the ladder runs down to the final. In the rule editor it is the **Round size** column of the **Rounds** table, and **Small classes start here** is the second list (**Round sizes (2)** in the CSV) ([Rounds](#rounds-round-names-and-round-sizes)). In brackets mode, the largest size below 200 is the largest bracket (8 = up to quarterfinals, 16 = adds a round of 16). |
 | **Round type** | **Normal**, **Chance (Without placement)**, **Points (Summary only)**, **Match Race**, **Battle**, **Brackets** | **Brackets** on the base rule builds a whole battle bracket for any size. **Battle** on one round splits it into one battle per pair (the older per-size setup). |
-| **Round name(s)** | A list, or one name | On the base rule, a list read from the final outward, such as Final, Semi-Final, Quarter-Final, Preliminary [X]. On a rule that modifies or adds one round, the name of that round. |
+| **Round name(s)** | A list, or one name | On the base rule, a list read from the final outward, such as Final, Semi-Final, Quarter-Final, Preliminary [X] — the **Name** column of the **Rounds** table. On a rule that modifies or adds one round, the name of that round. |
 
 **Who advances and which places a round awards**
 
