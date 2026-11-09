@@ -137,7 +137,7 @@ Only Administrators and Owners can save it.
 
 The **API keys** tab is only shown to Administrators, Owners and Vote4Dance system administrators. It has two parts: **API keys**, which let another system read the federation's public events, and **Personal configuration keys**, which let a script change the federation's configuration for you.
 
-![The API keys tab with website keys at the top and personal configuration keys below](/assets/images/federation-settings/api-keys-tab.png)
+![The API keys tab: website keys at the top, and below them the personal configuration keys of every administrator with their owner](/assets/images/federation-settings/api-keys-tab.png)
 
 ### API keys for your website
 
