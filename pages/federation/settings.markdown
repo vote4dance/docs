@@ -8,15 +8,17 @@ help:
   federation.admin: ""
   federation.admin.roles: roles--access
   federation.admin.public: public-page
+  federation.admin.api: api-keys
+  federation.admin.config-keys: personal-configuration-keys
   federation.admin.integrations: integrations
   federation.admin.guide: guide
 ---
 
 # Federation settings
 
-**Settings** is where you change the federation's own details, decide who has access, choose what the public federation page shows, and set up integrations. Open it with **Settings** at the right end of the federation bar: `Federation → Settings`.
+**Settings** is where you change the federation's own details, decide who has access, choose what the public federation page shows, and set up API keys and integrations. Open it with **Settings** at the right end of the federation bar: `Federation → Settings`.
 
-The screen has five tabs: **Federation**, **Roles & access**, **Public page**, **Integrations** and **Guide**. Each tab has its own address (`?settings=federation`, `roles`, `public`, `integrations`, `guide`), so you can bookmark or share a link to one tab.
+The screen has six tabs: **Federation**, **Roles & access**, **Public page**, **API keys**, **Integrations** and **Guide**. Each tab has its own address (`?settings=federation`, `roles`, `public`, `api`, `integrations`, `guide`), so you can bookmark or share a link to one tab.
 
 ## Who can change what
 
@@ -28,6 +30,7 @@ The **Settings** button is only in the bar for Administrators, Owners and Vote4D
 | Connect, manage or clear the Stripe payout account | Administrator, Owner |
 | Turn public page sections on and off | Administrator, Owner |
 | Write the **Registration help** | Administrator, Owner |
+| Create and revoke API keys and personal configuration keys (**API keys**) | Administrator, Owner |
 | Save the NORRIQ MemberSport hosts (**Integrations**) | Administrator, Owner |
 | Add staff and remove or change Viewers and Managers | Administrator, Owner |
 | Change or remove Administrators and Owners, or make someone Administrator or Owner | Owner |
@@ -129,6 +132,63 @@ and clubs to your own rules and documentation.
   the Vote4Dance guide.
 
 Only Administrators and Owners can save it.
+
+## API keys
+
+The **API keys** tab is only shown to Administrators, Owners and Vote4Dance system administrators. It has two parts: **API keys**, which let another system read the federation's public events, and **Personal configuration keys**, which let a script change the federation's configuration for you.
+
+![The API keys tab: website keys at the top, and below them the personal configuration keys of every administrator with their owner](/assets/images/federation-settings/api-keys-tab.png)
+
+### API keys for your website
+
+An API key lets an outside system, such as the federation's own website, read the federation's public events from Vote4Dance. Keep keys secret: they belong on a server, never in a web page.
+
+1. Press **Create key**.
+2. Under **Label**, write what the key is for, for example the name of the website.
+3. Under **Expires**, choose a day if the key should stop working then. Leave it empty for a key that does not expire.
+4. Press **Create key**. The key is shown once: copy it and give it to whoever runs the website.
+
+To stop a key, press **Revoke key** on its row, then **OK**. Systems using it stop working right away, and this cannot be undone.
+
+### Personal configuration keys
+
+A personal configuration key lets a script change this federation's configuration through the Vote4Dance API, instead of you clicking through the federation pages. It is useful for big, repetitive changes, such as entering a new season's class rules for every discipline. Vote4Dance support may also ask you for a key to make such a change for you.
+
+A configuration key can:
+
+- read the federation's divisions, disciplines, dances, classes, categories, age groups and class levels
+- change class rules: edit several rules at once, add a rule at a chosen place in the list, merge two rules into one, or delete a rule
+
+It cannot reach members, licences, clubs, competitions, rankings or points. A change is refused when the rule was changed by someone else since the script read it, so nothing is overwritten by mistake.
+
+The key is your own:
+
+- It acts with your own rights. Every change it makes is recorded under your name, just as if you had made it on the page yourself.
+- Every Administrator and Owner of the federation sees all configuration keys in the list, with the name of the person each key belongs to, and can revoke any of them, for example when someone leaves or loses a laptop. Only you can create a key for yourself.
+- It belongs to this one federation. It cannot change any other federation, even one you also administer.
+- It stops working when it expires, when you revoke it, or when you are no longer an Administrator or Owner of the federation. Changing or resetting your password revokes all your configuration keys, so a key never outlives a password change.
+
+To create a key:
+
+1. Open `Federation → Settings → API keys` and go to **Personal configuration keys**.
+2. Press **Create configuration key**.
+3. Under **Label**, write what the key is for, for example "Import 2027 class rules".
+4. Under **Expires**, choose the last day the key should work. It is 7 days ahead to begin with, and can be at most 30 days from today. The key works until the end of that day (UTC).
+
+   ![The Create configuration key dialog with a label and an expiry date](/assets/images/federation-settings/config-key-create.png)
+
+5. Press **Create configuration key**.
+6. Copy the key and press **Done**. It is shown only once: keep it as safe as your password, because until it expires anyone who has it can change the federation's configuration as you.
+
+   ![The new key, shown once, with a warning to keep it safe](/assets/images/federation-settings/config-key-copy.png)
+
+You can have up to 5 active configuration keys per federation. Revoked and expired keys don't count.
+
+The list shows each key's **Label**, its **Owner**, the first characters of the **Key**, its **Status** (**Active**, **Expired** or **Revoked**), when it was **Created**, when it was **Last used**, and when it **Expires**.
+
+When the work is done, revoke the key rather than waiting for it to expire: press **Revoke key** on its row, then **OK**. Scripts using the key stop working right away.
+
+If you lose a key, revoke it and create a new one.
 
 ## Integrations
 

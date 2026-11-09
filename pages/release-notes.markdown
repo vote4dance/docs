@@ -7,6 +7,8 @@ nav_order: 10
 
 # Release notes
 ## 2026-11-09
+ ⭐ **New**
+* Federation: **Personal configuration keys** on `Settings → API keys` let a script make big configuration changes for you, such as a new season's class rules, instead of clicking through every discipline. A key acts with your own rights, reaches only this federation's configuration (never members, licences, clubs or competitions), is shown once, and stops working after at most 30 days. Every administrator of the federation sees all configuration keys and can revoke any of them (see [Personal configuration keys](/federation/settings/#personal-configuration-keys))
  🛠️ **Improvements**
 * Manager: A tied battle can no longer be confirmed. Before, a 1–1 battle could be confirmed and both dancers went on. Instead, **Vote again** puts the battle back to judging so the judges can pick again after the dancers dance again, and in a battle danced over several rounds **Extra round** puts its tie-break round on the floor (see [When a battle is tied](/battle-bracket/#when-a-battle-is-tied))
 * Manager: A battle that is being judged, closed or confirmed can now be opened again on its own from the **⋯** on its box in the **Bracket**, for example to open one judge's sheet again or to take back a confirmed battle (see [Opening a battle again](/battle-bracket/#opening-a-battle-again))
