@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-09
+ 🛠️ **Improvements**
+* Manager, Supervisor: When you change a round's or a class's panel so that a judge who has already given marks leaves the round, for example a judge who falls ill, you're now asked whether to remove that judge's marks. Choose **Remove marks and change** to remove them and change the panel; the round's result is worked out again without them. Before, the change was refused with "Cannot change panel with results" (see [Replacing a judge who has already given marks](/manager-guide/judges/#replacing-a-judge-who-has-already-given-marks))
 ## 2026-11-08
  🛠️ **Improvements**
 * Federation: In a class rule, round names and round sizes are now one **Rounds** table, with a row per round counted from the final, so each round's size and name sit side by side. **Small classes start here** lets a class that is a little too big for a round start in it anyway, and **Rounds by class size** shows which rounds each class size gets. Before, they were separate lists you had to match up by position. The rules are stored as before, so the rounds the Round Guide creates do not change ([guide](/federation-rules/reference/#rounds-round-names-and-round-sizes))
