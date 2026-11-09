@@ -166,7 +166,7 @@ The key is your own:
 - It acts with your own rights. Every change it makes is recorded under your name, just as if you had made it on the page yourself.
 - Every Administrator and Owner of the federation sees all configuration keys in the list, with the name of the person each key belongs to, and can revoke any of them, for example when someone leaves or loses a laptop. Only you can create a key for yourself.
 - It belongs to this one federation. It cannot change any other federation, even one you also administer.
-- It stops working when it expires, when you revoke it, or when you are no longer an Administrator or Owner of the federation.
+- It stops working when it expires, when you revoke it, or when you are no longer an Administrator or Owner of the federation. Changing or resetting your password revokes all your configuration keys, so a key never outlives a password change.
 
 To create a key:
 
