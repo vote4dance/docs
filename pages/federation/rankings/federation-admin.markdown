@@ -71,7 +71,6 @@ The ranking editor decides how standings are calculated. The settings that matte
   - *Best of latest results* — the N most recent events, counting the best M of them.
   - *Best results overall* — the best M results in the window.
   - *Accumulate full season* — every result since the season start. Best-N does **not** apply in this mode.
-  - *Snapshot selection*.
 - **Take best count** — the M above. Shown only for the two "best" modes.
 - **Ranking by** — *Placement*, *Summary* (the judges' score), *Points* or *Head-to-head*. With *Points*, a **Ranking Points** table appears: from place, to place, points. This table belongs to the ranking, not to the class, so if two class levels award different points they need two rankings.
 - **Update daily** — recalculated every night at 03:00. The **Import** button on the ranking row recalculates it immediately (the button is also how you refresh after a correction).

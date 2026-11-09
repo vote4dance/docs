@@ -9,7 +9,9 @@ help:
   federation.discipline.rules.findings: findings
   federation.structure.class-rule-findings: across-the-federation
   federation.discipline.rules.merge: merging-copies
+  federation.discipline.rules.links: linked-rules
   federation.discipline.rules.trace: check-a-class
+  federation.discipline.rules.rounds: rounds-round-names-and-round-sizes
   federation.discipline.default-ladder: default-ladder
 ---
 
@@ -26,8 +28,8 @@ under **Structure**.
 This page starts with the thinking behind class rules and walks through one
 example. It then shows the screens you work in: the rules list, the rule editor,
 the checks that find rules that probably are not meant (findings), the **By class**
-tab that explains what a class gets, merging copies of the same rule, and the
-default ladder. It ends with a reference of every condition, action and
+tab that explains what a class gets, merging copies of the same rule, linking
+one rule across disciplines, and the default ladder. It ends with a reference of every condition, action and
 setting. For complete rule sets you can copy, see
 [Battle class rules](/federation-rules/battle-class-rules/) and
 [Battle sub-rounds](/federation-rules/battle-sub-rounds/).
@@ -206,8 +208,9 @@ The steps follow the three questions above: the ladder first, then the stages,
 then the exceptions.
 
 1. **Write the base rule.** Press **Add class rule** in the **Class rules** tab.
-   Leave **When** on **Every round**, and under **Change** set **Round sizes** and
-   **Round name(s)**. For a 1v1 battle discipline, set **Round type** to
+   Leave **When** on **Every round**, and under **Change** pick **Rounds** and fill
+   in one row per round, from the final outward ([Rounds: round names and round
+   sizes](#rounds-round-names-and-round-sizes)). For a 1v1 battle discipline, set **Round type** to
    **Brackets** instead and let the generator build the bracket
    ([Battle class rules](/federation-rules/battle-class-rules/)).
 2. **Check it.** Open the **By class** tab ([Check a class](#check-a-class)),
@@ -277,7 +280,8 @@ Each group row shows:
   least one copy applies to. A rule that reaches 0 classes does nothing today. A
   note such as **1 switched off** counts copies you have turned off, and **the
   same rule exists in Breaking and Popping** tells you the other disciplines of
-  the division have a copy of their own.
+  the division have a copy of their own. A linked rule says **Also in Breaking,
+  Popping** instead ([Linked rules](#linked-rules)).
 - **A finding label**, when the checks on the **Findings** tab found something
   about the group: **Gap**, **2 copies differ**, **Does the opposite**,
   **Unreachable**, **Never effective** and so on ([Findings](#findings)).
@@ -357,11 +361,10 @@ The editor has three cards on the left and three on the right.
 
 **Applies to.** Pick the categories, class levels and age groups the rule is for.
 **Any category** and **Any** mean every value, including ones added later; **Pick
-some…** lets you choose. The **Also in these … disciplines** chips show which
-disciplines of the division there are, but they cannot be picked yet: a rule
-belongs to one discipline for now, and rules shared across disciplines are not
-possible yet. When you edit a group, each copy keeps its own scope and saving
-changes the conditions and the changes on all of them.
+some…** lets you choose. **Also in these … disciplines** adds the rule to other
+disciplines, linked, so it is one rule to edit in all of them ([Linked
+rules](#linked-rules)). When you edit a group, each copy keeps its own scope and
+saving changes the conditions and the changes on all of them.
 
 **When.** Which rounds, and for which class sizes, in plain words
 ([Round conditions in plain words](#round-conditions-in-plain-words)). Under
@@ -370,7 +373,8 @@ of competitors you can change; a closed eye marks a round the rule applies to.
 
 **Change.** What the rule writes. Each change is picked from a list grouped as
 **Round setting**, **Bracket setting**, **Music and time** and **Other**, such
-as **Round sizes**, **Round name(s)**, **Judging type**, **Num to advance**,
+as **Rounds** (round sizes and names as one table, see [Rounds: round names and
+round sizes](#rounds-round-names-and-round-sizes)), **Judging type**, **Num to advance**,
 **Hide from position**, **Max on floor**, **Music length** or **Dances**
 ([Settings](#settings-by-what-they-control)). **Another change** adds one more.
 Under **Advanced**, **Setup** tags a rule as part of a variant that organizers
@@ -450,6 +454,77 @@ without adding it by hand.
 The added round is danced by all competitors and the class's own rounds follow
 it unchanged. A rule with **Which rounds** set to **Before the first round** and
 **Action** **Modify** changes the round another rule adds there.
+
+### Rounds: round names and round sizes
+
+A rule's round names and round sizes are set together, in one table under
+**Change**: **Rounds**. Each row is one round, counted from the final — **Final**,
+**Second last**, **Third last** and so on — so you read the class the way it is
+danced, from the end backwards, and each round's size and name sit side by side.
+
+![The Rounds table with a final of 6, where classes of up to 8 start in the final](/assets/images/class-rules/rounds-table.png)
+
+The example is the Disco ladder: a final of 6, a semifinal of 12, a quarterfinal
+of 24 and two preliminary rounds, where classes of up to 8 dance a final only.
+
+1. Open the rule (**Edit** on its row in the **Class rules** tab), or press **Add
+   class rule** and pick **Rounds** under **Change**. A rule that sets round sizes
+   or round names can only be for **Every round**, with or without a number of
+   competitors.
+2. In the **Final** row, enter the **Round size** — the most competitors the final
+   holds, here 6 — and its **Name**, such as Final.
+3. Fill in the rows above it in the same way: **Second last** 12 Semifinal,
+   **Third last** 24 Quarterfinal, and so on. **Goes through** shows how many go
+   on from each round to the next: the next round's size, or **placed** for the
+   final. You do not type it.
+4. Use **Small classes start here** to let a class that is only a little too big
+   for a round start in it anyway. In the **Final** row, **classes of 7 –** 8 means
+   a class of 7 or 8 skips the semifinal and dances straight in the final — all of
+   them dance it and are placed there. In the **Second last** row, **classes of 13
+   –** 16 means a class of 13 to 16 starts in the semifinal instead of dancing a
+   quarterfinal first. Leave it empty when a class should start in a round only
+   if it fits its **Round size**.
+5. The largest round has no field there: it takes **classes of N and up**, every
+   class larger than the rows below it allow, here **classes of 56 and up**.
+6. To add a round, press **Add a round**: a new row is added just below the
+   largest round, at double the size of the row before it. Fill in its size and
+   name. To remove a round, press **×** at the end of its row; the final cannot be
+   removed.
+7. Check the result under **Rounds by class size** (below), then press **Save**.
+
+**Names.** A name with [X] numbers the rounds, the first round being 1:
+"Preliminary [X]" gives Preliminary 1, Preliminary 2 … and the note under the
+table shows how it comes out. When a rule has fewer names than rounds, the
+earlier rounds get the last name; an empty name field shows the name such a
+round gets. **Not set by this rule** means the rule gives sizes but no names, so
+the names come from another rule or the default ladder.
+
+**Rounds by class size.** Below the table, a bar shows every class size as the
+app creates the rounds — here **1–8 final only**, **9–16 2 rounds**, **17–32 3
+rounds**, **33–55 4 rounds** and **56+ 5 rounds**. Click a part of the bar to see
+it as **A class of N**: the rounds such a class dances, how many dance in each
+and how many go through, for example "Semifinal 14 dance · 6 through → Final 6
+dance · placed". The bar's limits follow the table: change **Round size** or
+**Small classes start here** to move them.
+
+The **Example** card on the right says the same for one real class of the
+discipline, with the reason in words:
+
+![The Example card: a class of 14 starts in the semifinal](/assets/images/class-rules/rounds-example.png)
+
+**Nothing else changes.** The table is a new way to show and edit the same
+settings as before: saving stores the round names, the round sizes, and the
+round sizes for small classes as three lists, exactly as rules have always been
+stored, so the Round Guide creates the same rounds and the **Download CSV** file
+keeps its **Round name(s)**, **Round sizes** and **Round sizes (2)** columns.
+Press **Show the stored lists** to see them, and **Hide the stored lists** to
+close them again:
+
+![The stored lists below the Rounds table](/assets/images/class-rules/rounds-stored-lists.png)
+
+A rule whose lists cannot be drawn as one table — for example one with two lists
+of round names — keeps the separate **Round name(s)** and **Round sizes**
+changes, as before.
 
 ---
 
@@ -728,6 +803,7 @@ What to know:
   reload.
 - Each discipline is merged on its own page, with its own check. When sister
   disciplines have copies of the same rule, the dialog says so and links to them.
+  Merged alike, they can then be linked into one rule ([Linked rules](#linked-rules)).
 
 ### Merge all safe groups
 
@@ -753,6 +829,192 @@ What to know:
 There is no undo here either: the copies are removed, and the check is what makes
 that safe. On the federation page, the same button for administrators handles the
 disciplines one after the other and gives a result per discipline.
+
+After the merges, the rules that have become identical across the disciplines
+are linked into one rule ([Merge all safe groups links too](#merge-all-safe-groups-links-too)).
+
+## Linked rules
+
+The disciplines of a division often use the same rule. Hiphop, Breaking and
+Popping may each say "max 3 on the floor in the semi-final", and until now each
+discipline had a copy of its own: a change had to be made three times, and it was
+easy to forget one. **Linking** turns those copies into one rule. Edit it in any
+of the disciplines and the change reaches all of them, so they cannot drift
+apart.
+
+What stays per discipline:
+
+- **Its place in the list.** Each discipline keeps the rule where it stands in
+  its own reading order, so you can still move it in one discipline only.
+- **Its switch.** You can switch the rule off in one discipline and keep it on
+  in the others.
+
+Where a rule can be linked:
+
+- A rule that names categories, class levels or age groups is linked with other
+  disciplines of **the same division**.
+- A rule for any category, level and age group can also be linked with
+  disciplines of **other divisions**, such as Disco in IDO.
+
+Linking changes no round: the copies already say the same, so a link needs no
+check.
+
+### How a linked rule looks
+
+In the rules list, a linked rule says where else it is:
+
+- **Also in Breaking, Popping** names the other disciplines that have the rule.
+  A discipline of another division is named with its division, such as
+  **IDO: Disco**.
+- **Off in Popping** names the disciplines where the rule is switched off.
+
+A linked row has a **Linked** button with everything you can do to the link:
+switch it off here or everywhere, unlink it, remove it from this discipline or
+delete it everywhere. **How linked rules work** at the bottom of the menu opens
+this section.
+
+![A linked rule in the list, with the Linked menu open](/assets/images/class-rules/linked-rules-list.png)
+
+### Linking a rule from the rule editor
+
+1. Press **Edit** on the rule's row to open the rule editor.
+2. Under **Applies to**, **Also in these Streetstyles disciplines** shows the
+   disciplines of the division. The ones that already have the rule are ticked.
+   For a rule for any category, level and age group, the disciplines of the other
+   divisions are listed too, under their division's name.
+
+   ![The Disciplines field in the rule editor](/assets/images/class-rules/linked-rules-editor.png)
+
+3. Tick a discipline to add the rule there, linked. Untick one to remove the rule
+   from it.
+4. Press **Save**. **Save the rule in every discipline it is in?** lists what
+   saving does: **Changes the rule in …** with how many active classes each
+   discipline has, **Adds it to …, linked.** and **Removes it from ….** Press
+   **Save** to confirm.
+
+Ticking a discipline that already has the same rule links that copy, so the
+discipline never gets the rule twice. Otherwise the rule is added at the end of
+that discipline's rules. A rule you create with **Add class rule** always gets a
+new copy in each discipline you tick.
+
+Saving a change to what a linked rule says (its conditions, its changes, who it
+applies to, how its round conditions are read, or its setup tag) shows the same
+confirmation, so you always see which disciplines the change reaches before it
+is saved. Switching the rule off in this discipline only is saved here, without
+the confirmation.
+
+What to know:
+
+- **Edit all** on a group of copies cannot add the rule to other disciplines:
+  copies edited together stay in this discipline. Open one copy with **Edit** to
+  link it.
+- A rule shared with another division cannot be limited to categories, levels or
+  age groups. If you narrow such a rule, a note under the disciplines names the
+  copies this affects, and saving asks **Unlink the other divisions and save?**.
+  Press **Unlink and save**: the other divisions keep their own copy, no longer
+  linked.
+- Rules that belong to a round setup, the default ladder and rules a round setup
+  has replaced stay in their own discipline and cannot be linked.
+- The **Setup** tag under **Advanced** is part of the rule, so it is the same in
+  every discipline the rule is linked with.
+
+### Linking while you merge
+
+When the other disciplines of the division already have the rule that a merge is
+about to make, the merge dialog offers to link them in the same step. Merge the
+copies in each discipline on its own page; the last merge links them.
+
+1. Press **Merge 3** on the group row. The dialog **Merge 3 rules into one**
+   opens and runs its check.
+2. Under the check, a card says **Breaking and Popping already have this rule as
+   the merge makes it**, with **Link with Breaking and Popping** ticked.
+3. Leave it ticked and press **Merge 3 rules into 1**, then confirm. The copies
+   are merged, and the merged rule is linked with Breaking and Popping. Untick
+   **Link with Breaking and Popping** to merge without linking.
+
+![The merge dialog offering to link the merged rule](/assets/images/class-rules/linked-rules-merge.png)
+
+A copy that is already linked cannot be merged with the copies in its own
+discipline. The dialog says **This copy is linked with …** and offers **Unlink
+and merge**: unlinking keeps every discipline's copy as it is and changes no
+round, and the merge is then checked as usual.
+
+### Merge all safe groups links too
+
+**Merge all safe groups** ([Merge all safe groups](#merge-all-safe-groups)) now
+ends with a linking step. It merges first, then links the rules that have become
+identical across the disciplines.
+
+1. Press **Merge all safe groups** under the last row.
+2. Next to **Will merge** (and **Will not merge**, if any), the dialog lists
+   **Will link**: each rule that will be linked and the disciplines it will be
+   linked across, for example "max 3 on the floor in the semi-final" · Hiphop,
+   Breaking, Popping.
+3. Press **Merge 9 groups**. The groups are merged one after the other, and the
+   identical rules are linked last. When there is nothing to merge but something
+   to link, the button says **Link 9 rules** instead.
+4. The result lists **Linked** next to what was merged, and **Not linked** for any
+   rule that could not be linked.
+
+![Merge all safe groups with the linking step](/assets/images/class-rules/linked-rules-merge-all.png)
+
+On a discipline's page, the rules are linked with the other disciplines of the
+division. The same button on the federation page, which handles every discipline,
+also links identical rules for any category, level and age group across the
+divisions. Under **Across …**, the federation-wide count says how many groups of
+identical rules would be linked after the merges.
+
+If the merges went through but the rules could not be linked, the dialog says
+**The merges stand, but the rules could not be read again to link them. Run it
+again to link.** Running it again links them.
+
+### Switching a linked rule off
+
+Open the **Linked** menu on the row:
+
+- **Switch off here** switches the rule off in this discipline only. It stays on
+  in the others, and the row says **Off in …** in each of them.
+- **Switch off everywhere** switches it off in every discipline it is linked
+  with.
+
+Either way the rule stays saved and linked. **Switch on here** and **Switch on
+everywhere** bring it back. In the rule editor, the same choice is the **Switch
+off here** button at the top; its arrow opens **Switch off everywhere**. **Switch
+off here** in the editor is saved when you press **Save**.
+
+### Unlinking, removing and deleting
+
+These are in the **Linked** menu, and under **More** in the rule editor:
+
+- **Unlink from the others** keeps the rule in every discipline, but each
+  discipline then has its own copy again, and a change to one no longer reaches
+  the others. It changes no round.
+- **Remove from this discipline** takes the rule out of this discipline only. The
+  other disciplines keep it.
+- **Delete in every discipline** removes the rule from every discipline it is
+  in. **There is no undo.**
+
+Each one asks first and names the disciplines it touches.
+
+### When linked copies differ
+
+The disciplines of a link normally say exactly the same. If one of them no longer
+does (an older version of the app wrote it, or it was fixed directly), the row
+says **The copies in Breaking no longer say the same as this one** and offers
+**Make all like this one**. The rule editor shows the same warning, and saving
+the rule there also makes every copy like the one you saved. On the **Findings**
+tab the problem is listed as **Linked copies differ**, with **Make all like this
+one** on the finding.
+
+1. Open the copy that says what the rule should say.
+2. Press **Make all like this one**.
+3. Confirm. The copies in the other disciplines then say what this one says: the
+   same conditions, changes, categories, levels, age groups and reading. Each
+   discipline keeps its own place in the list and its own switch.
+
+Until the copies say the same again, a change that would reach them in another
+way, such as linking them with one more discipline, is refused with a message to
+make them all like one copy first, or to unlink them.
 
 ---
 
@@ -860,9 +1122,9 @@ Set under **Advanced** in the rule editor.
 
 | Setting | Values | Effect |
 |---|---|---|
-| **Round sizes** | A list of sizes, such as 2, 4, 8, 16, 200 | The ladder. The first size at least as large as the number of competitors is the first round; the ladder runs down to the final. In brackets mode, the largest size below 200 is the largest bracket (8 = up to quarterfinals, 16 = adds a round of 16). |
+| **Round sizes** | A list of sizes, such as 2, 4, 8, 16, 200 | The ladder. The first size at least as large as the number of competitors is the first round; the ladder runs down to the final. In the rule editor it is the **Round size** column of the **Rounds** table, and **Small classes start here** is the second list (**Round sizes (2)** in the CSV) ([Rounds](#rounds-round-names-and-round-sizes)). In brackets mode, the largest size below 200 is the largest bracket (8 = up to quarterfinals, 16 = adds a round of 16). |
 | **Round type** | **Normal**, **Chance (Without placement)**, **Points (Summary only)**, **Match Race**, **Battle**, **Brackets** | **Brackets** on the base rule builds a whole battle bracket for any size. **Battle** on one round splits it into one battle per pair (the older per-size setup). |
-| **Round name(s)** | A list, or one name | On the base rule, a list read from the final outward, such as Final, Semi-Final, Quarter-Final, Preliminary [X]. On a rule that modifies or adds one round, the name of that round. |
+| **Round name(s)** | A list, or one name | On the base rule, a list read from the final outward, such as Final, Semi-Final, Quarter-Final, Preliminary [X] — the **Name** column of the **Rounds** table. On a rule that modifies or adds one round, the name of that round. |
 
 **Who advances and which places a round awards**
 
@@ -948,6 +1210,7 @@ guide.
 | **Default ladder** | Row 0 of the list: the ladder for classes no other rule gives one. |
 | **Copy** | One of several rules that do exactly the same thing for different classes. |
 | **Group** | All the copies of one rule, shown as one row. |
+| **Linked rule** | One rule used by several disciplines: a change in one reaches all of them, while each keeps its own place in the list and its own switch. |
 | **Finding** | Something in the rules that probably is not meant, reported on the **Findings** tab. |
 | **Counted from the start / from the final** | Two ways to number the same rounds: from the first round forward, or from the final backward. |
 | **Placing round** | The first round, which ranks everyone before the bracket or later rounds. |
