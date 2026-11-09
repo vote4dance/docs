@@ -42,9 +42,10 @@ already created it, ask to be added to it.
 
 ### Step 1: Personal account first
 
-Create or sign in to your own account — see
-[Dancer account creation](/dancer/account-creation/) for the form; it is the same one for
-everybody.
+Create or sign in to your own account — you do both on the same screen, with your email and a
+code, and there is no password. See [Signing in](/signing-in/) for the steps and
+[Dancer account creation](/dancer/account-creation/) for the form that follows a new address; it is
+the same one for everybody.
 
 ### Step 2: Create the organization
 
