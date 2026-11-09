@@ -212,6 +212,35 @@ For every battle round:
 
 ---
 
+## Judging the battles live
+
+In the new Manager, open the battle round under **Live**. The battle on the floor shows each judge's pick as it comes in, the votes for each dancer, and **Confirm winner**. The **Bracket** below it shows every battle and who goes on.
+
+### When a battle is tied
+
+A tied battle can't be confirmed: there is no winner to send on. Instead of **Confirm winner** you get a button that settles the tie:
+
+- **Vote again** — the votes are level, for example 1–1 because a judge didn't pick anyone. The battle goes back to judging. Let the dancers dance again; each judge's earlier pick stays filled in, so they change it if they want and send it in again. Nothing new is added to the schedule.
+- **Extra round** — in a battle danced over several rounds, the dancers have won the same number of rounds. The battle's tie-break round is put on the floor; if the battle has none, one is added after its other rounds. Judge it like the other rounds.
+
+When the battle has a winner, confirm it as usual.
+
+### Opening a battle again
+
+Each battle in the **Bracket** that is being judged, closed or confirmed has a **⋯** button. Choose **Reopen battle** to:
+
+1. Open one judge's sheet again, for example when a judge sent in the wrong pick.
+2. Put a closed battle back to judging.
+3. Take back a confirmed battle. Its winner is taken out of the next battle again, as long as nobody has judged that battle yet.
+
+Only that battle changes; the other battles stay as they are. Once the whole battle round is confirmed, reopen the round itself instead.
+
+### The marks for each battle
+
+Under **Marks**, each battle has its own tab with the two dancers in that battle, each judge's pick and the battle's place. **Result** shows everyone in the round.
+
+---
+
 ## Known limitations
 
 - **B‑Final routing** is manual unless the federation has configured `round_others_id` on the semifinal round. This is the most common source of bracket errors — double-check before closing the semi.
