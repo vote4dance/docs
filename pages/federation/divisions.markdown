@@ -235,6 +235,27 @@ Each layer has its own place in Structure:
 
 Only set a rule where it differs from the layer above; empty fields inherit. Check the merged result in `Federation → Rulebook`. The rules themselves are documented under [Federation Rules](/federation-rules/).
 
+### On/off rules
+
+Rules that are either on or off have three choices:
+
+- **Inherit** takes the value from a wider layer. On a rule's widest layer this choice is called **Default**, the platform's own setting.
+- **On** and **Off** set the value on this layer. A few rules use clearer words, such as **Allow** and **Forbid** or **Automatic** and **Manual**.
+
+The **Applies now** line under each rule says what applies and where it comes from, and it follows your choice before you save. If a category or class level sits under disciplines with different values, it says **Varies by class** and lists them.
+
+To turn a rule off for most classes and on for a few, for example:
+
+1. Leave the rule on **Default**, or set **Off** on the discipline.
+2. Open **Categories** → **Rules** and pick the category that is the exception.
+3. Choose **On** (or **Allow**) and press **Save category rules**.
+
+To undo a setting, choose **Inherit** again and save.
+
+**Allow custom competitor names** is off by default. Turn it on where competitors have their own name, such as formations, groups and breaking. Without it, competitors show under their dancers' names, unless the registration form asks for a team name.
+
+![The custom competitor names rule set to Default, with the Applies now line below it](/assets/images/federation-rules/custom-names-rule.png)
+
 ---
 
 ## Rankings

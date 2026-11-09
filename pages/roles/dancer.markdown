@@ -12,6 +12,7 @@ has_children: true
 
 This role hub covers:
 - Getting your account set up and licensed
+- Managing your children's accounts from your own ([Family](/dancer/family/))
 - Joining a school/club as a member
 - Registering for events
 - Tracking your rankings and results
