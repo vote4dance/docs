@@ -8,6 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-11-09
  🛠️ **Improvements**
+* App: On Android, buying Premium now finishes on the spot: the purchase screen closes and Premium is on. Before, it often said **Waiting for your purchase to be confirmed.** even though the purchase had gone through, and Premium only showed up a little later. Update the app from the Play Store to get it
 * Manager, Supervisor: When you change a round's or a class's panel so that a judge who has already given marks leaves the round, for example a judge who falls ill, you're now asked whether to remove that judge's marks. Choose **Remove marks and change** to remove them and change the panel; the round's result is worked out again without them. Before, the change was refused with "Cannot change panel with results" (see [Replacing a judge who has already given marks](/manager-guide/judges/#replacing-a-judge-who-has-already-given-marks))
 * Scrutineer (Beta): On the **Judges** page, a judge who already has an account now has **Notify** at the end of their row, where other judges have **Send invitation**, instead of in the **⋯** menu. Once an email has gone out, its date shows under the button. Before, a panel of judges who all had accounts showed no way to email them (see [In Scrutineer (Beta)](/manager-guide/judges/#in-scrutineer-beta))
 ## 2026-11-08
