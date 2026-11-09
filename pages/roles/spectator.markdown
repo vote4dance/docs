@@ -16,11 +16,15 @@ has_children: true
 - Keep the tickets in your Vote4Dance account and in the app, as QR codes
 - Follow the competition live: schedule, live scores and results, on the web and in the app
 - Hand a ticket to somebody else — whoever shows the code gets in
+- Take part in the hall: give hearts to couples, call who goes through, and play the quiz in the app
 
 ## Start here
 
 - [Buying tickets](/spectator/buying-tickets/) — how an event's Tickets page works, paying, and what happens at the entrance
 - [Following the schedule](/spectator/following-the-schedule/) — what is dancing now, when the next round starts, and which results are out
+- [Hearts and Call it](/spectator/hearts-and-calls/) — give hearts and call who goes through or wins
+- [Quizzes](/spectator/quizzes/) — the live quiz and all-day quizzes
+- [The Audience page](/spectator/audience-page/) — what is on and the results so far
 
 ## Good to know
 

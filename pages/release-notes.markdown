@@ -10,7 +10,15 @@ nav_order: 10
  🛠️ **Improvements**
 * Manager, Supervisor: When you change a round's or a class's panel so that a judge who has already given marks leaves the round, for example a judge who falls ill, you're now asked whether to remove that judge's marks. Choose **Remove marks and change** to remove them and change the panel; the round's result is worked out again without them. Before, the change was refused with "Cannot change panel with results" (see [Replacing a judge who has already given marks](/manager-guide/judges/#replacing-a-judge-who-has-already-given-marks))
 ## 2026-11-08
+ ⭐ **New**
+* App: Live quiz and all-day quizzes at the event: join by QR code or from the event page, answer before the clock runs out, and see your place (see [Quizzes](/spectator/quizzes/))
+* App: **Call it** for every competition day: call who wins the day's finals, with your own finals and the headline finals first, and pick who goes through from the heat; earn points when you are right (see [Hearts and Call it](/spectator/hearts-and-calls/#call-it))
+* App: Hearts voting is now free; before, voting could need Premium. The full standings beyond the top 10 and live hearts, where the event shows them, stay in Premium (see [Hearts and Call it](/spectator/hearts-and-calls/#what-is-free))
+* Speaker: The **Audience** page runs quizzes: open the lobby, start and close questions, autoplay, and put the lobby, standings and podium on screen (see [Running a quiz from the speaker app](/manager-guide/speaker-quiz/))
+* Screens: Quiz screens for the lobby with QR code, the question with countdown, the reveal, the leaderboard and the podium (see [Quiz screens](/manager-guide/screens/#quiz-screens))
+* Public: The event's **Audience** tab shows what is on, results so far and the audience favourite of published rounds; quiz results have a page you can share (see [The Audience page](/spectator/audience-page/))
  🛠️ **Improvements**
+* Public: Giving hearts moved to the app; the website shows a **Take part in the Vote4Dance app** prompt on the heat instead of a voting button (see [Hearts and Call it](/spectator/hearts-and-calls/#give-hearts))
 * Federation: In a class rule, round names and round sizes are now one **Rounds** table, with a row per round counted from the final, so each round's size and name sit side by side. **Small classes start here** lets a class that is a little too big for a round start in it anyway, and **Rounds by class size** shows which rounds each class size gets. Before, they were separate lists you had to match up by position. The rules are stored as before, so the rounds the Round Guide creates do not change ([guide](/federation-rules/reference/#rounds-round-names-and-round-sizes))
 ## 2026-11-07
  🛠️ **Improvements**
