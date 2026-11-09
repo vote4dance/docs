@@ -30,6 +30,8 @@ Bronze / B‑final rounds have no special status in the system — they are norm
 - **Assign to match** — a button on a battle round. Reads placements from a source round (the round you pick) and automatically pairs competitors using the standard tournament fold (seed 1 vs bottom, seed 2 vs second-to-last, …). Works for **any count**, including the 7-competitor bye.
 - **Per‑team match selector** — on the round‑results screen, each team has a dropdown for *Match*. Use this to override seeding, handle trios, and place B‑final competitors.
 
+In Scrutineer (Beta), the new version of the Manager app, the round page has **Place in battles** instead: it puts the starters into their battles, seeded by the bracket or at random, and lets you move a starter to another battle. For how to read a battle round's result there, see [Battle rounds](/manager-guide/live-operations/#battle-rounds).
+
 ### Glossary
 
 - **Seed N** — the competitor that placed Nth in the prior (qualifying) round.
