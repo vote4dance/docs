@@ -30,8 +30,9 @@ Gather these details:
 
 ## One account per dancer
 
-**Every dancer needs their own account**, in their own name and with their own birth date. A
-parent does not register children from the parent's account: create one account for each child.
+**Every dancer needs their own account**, in their own name and with their own birth date. If you
+are a parent, add each child under [Family](/dancer/family/): you get an account for each child that
+you open from your own, with no second inbox or password.
 
 Each account needs its own email address, because the email is the sign-in name. Two children need
 two different addresses. They can belong to a parent; they just cannot be shared between accounts.
