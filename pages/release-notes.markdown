@@ -9,6 +9,7 @@ nav_order: 10
 ## 2026-11-09
  🛠️ **Improvements**
 * Manager, Supervisor: When you change a round's or a class's panel so that a judge who has already given marks leaves the round, for example a judge who falls ill, you're now asked whether to remove that judge's marks. Choose **Remove marks and change** to remove them and change the panel; the round's result is worked out again without them. Before, the change was refused with "Cannot change panel with results" (see [Replacing a judge who has already given marks](/manager-guide/judges/#replacing-a-judge-who-has-already-given-marks))
+* Scrutineer (Beta): On the **Judges** page, a judge who already has an account now has **Notify** at the end of their row, where other judges have **Send invitation**, instead of in the **⋯** menu. Once an email has gone out, its date shows under the button. Before, a panel of judges who all had accounts showed no way to email them (see [In Scrutineer (Beta)](/manager-guide/judges/#in-scrutineer-beta))
 ## 2026-11-08
  ⭐ **New**
 * App: Live quiz and all-day quizzes at the event: join by QR code or from the event page, answer before the clock runs out, and see your place (see [Quizzes](/spectator/quizzes/))

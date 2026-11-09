@@ -164,6 +164,14 @@ Every invitation also contains the [demo link](#demo). The email comes from the 
 
 After sending, the row shows **Invited** (or stays **Active**). Send again as often as you need to; each send updates the date.
 
+### In Scrutineer (Beta)
+
+In Scrutineer (Beta), every judge with an email address has this button at the end of their row, **Active** judges too, so you can always email a judge from the list. Once an email has gone out, its date shows under the button: **Invited** and the date for a judge who has not set a password yet, **Emailed** and the date for an **Active** judge. An **Active** judge's button then reads **Notify again**.
+
+![Notify and Notify again at the end of each judge's row](/assets/images/judges/judge-list-notify.png)
+
+**Reset PIN** and **Remove** are in the row's **⋯** menu.
+
 ## PIN
 
 There is no event-wide judge code. Each judge sets their own four-digit PIN on their own device the first time they open the Judging app. The app asks for it again when they come back, and locks itself after 10 minutes without use or with the screen hidden.
