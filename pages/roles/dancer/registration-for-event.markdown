@@ -29,6 +29,7 @@ put its own registration help at the top of the **Registration** tab, above the 
   happens on the website: tap the card to open the event's registration there.
 - **Your birth date is on your account.** Classes often depend on age.
 - **You know which class you want to enter.** If you are unsure, ask your club or the organizer.
+- **Registering your child?** [Open their account](/dancer/family/#open-your-childs-account) first, then follow the same steps.
 
 ## Registering on your own (solo)
 
@@ -169,7 +170,7 @@ you.
 | **…only certain people may register** | Some events let only a member of the team, or only the club, register a competitor. If you are not allowed, ask your club to register you. |
 | **…the event asks which club you represent** | Pick the club from your approved club memberships. If you belong to more than one club, you are asked for every class you add, since you can dance for a different club in each class; the club you picked last is already filled in. |
 | **…a group or formation class only accepts club teams** | Only a team owned by a club can enter. Ask your club to register the team. |
-| **…custom team names are not allowed** | The custom name option is hidden, and your own names are used. |
+| **…custom team names are not allowed** | Custom names are off unless the federation allows them for the class or the registration form asks for a team name. The custom name option is hidden, and your own names are used. |
 | **…the event uses classes you move up through** | You can only enter the class you are in. Classes and age groups can change between seasons without you applying. See [Class transfer](/dancer/class-transfer/) and [Age transfer](/dancer/age-transfer/). |
 | **…your club confirms its dancers on the day** | If the organizer uses **Organization check-in**, teams their club has not confirmed are cancelled, even if you are in the hall. Make sure your club knows you are coming. |
 

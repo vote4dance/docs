@@ -19,7 +19,7 @@ Promotion points are federation rules, usually set per **class level**:
 | Rule | Decides |
 |---|---|
 | **Promotion points source** | Where points come from, usually the points on the competition entry. |
-| **Promotion points table** | Points per placement, optionally by field size and final kind. |
+| **Promotion points table** | Points per placement, optionally by field size, final kind, the round reached and jury marks. |
 | **Promotion points reach** | Finalists only, or everyone placed. |
 | **Advance by**, **target class** and **promotion threshold** | Which class a couple moves to, and at how many points. |
 

@@ -215,6 +215,7 @@ The **Sponsors** screen loops through the event's sponsors. A sponsor with the *
 - Sold-out state on the public sponsor page is based on the offer capacity fields returned by the API. Functionary sell actions and QR entry points follow the same sold-out rules.
 - Purchased sponsors can update company details, link, and logo through the sponsor flow supported by the product.
 - If a sponsor image is important for delivery, make sure the sponsor completes their company name, link, and logo after purchase.
+- Sponsors can also add a short video on the same page. See [Sponsor videos and spots](/manager-guide/sponsor-videos/).
 
 ## Recommended organizer checklist
 

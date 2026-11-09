@@ -435,9 +435,19 @@ Panels lock when judging starts, so marks are not given by a panel that has chan
 |---|---|---|
 | A panel's seats | Any round that uses the panel, from its class or as its own panel, has scores | The panel's cells can't be changed and its name shows a lock. |
 | A class's panel | Any round of the class has been started | The class's **Judge panel** and tick box are greyed out. |
-| A round's own panel | Judges who would leave the round have given marks in it | Saving is refused. |
+| A round's own panel | Judges who would leave the round have given marks in it | You're asked whether to remove their marks (see below). |
 
-The server also refuses these changes once marks exist, with "Cannot change panel with results".
+### Replacing a judge who has already given marks
+
+Sometimes a judge has to leave after judging has started, for example because they fall ill. When you change a round's panel or a class's panel so that a judge who has already given marks leaves the round, Vote4Dance asks first:
+
+1. Choose the new panel for the round, or for the class, on the **Classes** tab.
+2. **Remove the leaving judge's marks?** opens. It names the judge and how many marks they have in the round.
+
+   ![Asked whether to remove the leaving judge's marks](/assets/images/judges/remove-leaving-marks.png)
+
+3. Choose **Remove marks and change** to remove that judge's marks and change the panel. The marks can't be restored. The other judges' marks stay, and the round's result is worked out again without the removed marks.
+4. Choose **Cancel** to keep the panel and the marks as they are.
 
 A panel cannot be deleted while any round uses it.
 
