@@ -31,6 +31,7 @@ what brings your rules into their event.
 | **Who may register a competitor:** anyone, a member of the team, or the club | The rules editor, in the layer's **Rules** section under `Federation → Structure` |
 | **Custom team names** allowed or not | The rules editor, in the layer's **Rules** section under `Federation → Structure` |
 | **Which club a dancer represents**, if dancers must choose | The rules editor, in the layer's **Rules** section under `Federation → Structure` |
+| **Lineup changes that follow the club's dancer count**, for small groups and formations | The rules editor, in the layer's **Rules** section under `Federation → Structure`. See [Lineup changes that follow the club's dancer count](#lineup-changes-that-follow-the-clubs-dancer-count). |
 | **One class per category:** one age group and one level, per dancer or per team | The rules editor, in the category's **Rules** section under `Federation → Structure`. See [One class per category](#one-class-per-category). |
 
 A class a competitor cannot enter is shown to them as locked, with the reason, before checkout.
@@ -69,6 +70,39 @@ What dancers, clubs and organizers then see:
   add or move the competitor.
 - The rule only stops new registrations. A competitor already in two classes stays in both until
   the organizer cancels one.
+
+## Lineup changes that follow the club's dancer count
+
+For small groups and formations, a club often swaps dancers after it has paid. With **Lineup
+changes follow the club's dancer count**, such a swap costs nothing as long as the club does not
+have more different dancers in the registration period than it has paid for. Each extra dancer is
+paid for at the period's price. When a dancer leaves, nothing is refunded, and the place stays with
+the club for another dancer.
+
+Use it when a club pays per dancer for a group, and you want it to be able to change who dances
+without asking the organizer each time.
+
+1. Open `Federation → Structure`, the discipline, category or federation class where it should
+   apply.
+2. In the **Rules** section, turn on **Allow lineup change after registration**, and then
+   **Lineup changes follow the club's dancer count**. Save the rules.
+
+What you need to know:
+
+- **It needs lineup changes to be allowed.** Without **Allow lineup change after registration**
+  the rule has no effect.
+- **It applies to a registration period where each dancer pays once.** That is a period priced per
+  person with more than one price step, all with the same total. In other periods the rule does
+  nothing.
+- **It applies to teams that belong to a club.** Independent teams are not counted.
+- **The price comes from the period.** The organizer sets it. You do not set an amount here.
+- **It is off by default.** The most specific scope that sets it wins, so you can switch it on for
+  small groups and formations and leave duos and solos off.
+- **A club pays the extra dancers itself.** In the club's **Edit lineup**, an **Add dancer** button
+  appears and a pop-up takes the payment. See [Changing a group's lineup after
+  paying](/school-club/registration-for-event/#changing-a-groups-lineup-after-paying).
+- **After registration closes, clubs can no longer change lineups.** The organizer can still make
+  the change, and the place the club paid for stays with the club.
 
 ## When a dancer says they are blocked
 
