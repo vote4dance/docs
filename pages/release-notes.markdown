@@ -10,6 +10,7 @@ nav_order: 10
  ⭐ **New**
 * Federation: **Personal configuration keys** on `Settings → API keys` let a script make big configuration changes for you, such as a new season's class rules, instead of clicking through every discipline. A key acts with your own rights, reaches only this federation's configuration (never members, licences, clubs or competitions), is shown once, and stops working after at most 30 days. Every administrator of the federation sees all configuration keys and can revoke any of them (see [Personal configuration keys](/federation/settings/#personal-configuration-keys))
  🛠️ **Improvements**
+* App: On Android, buying Premium now finishes on the spot: the purchase screen closes and Premium is on. Before, it often said **Waiting for your purchase to be confirmed.** even though the purchase had gone through, and Premium only showed up a little later. Update the app from the Play Store to get it
 * Manager, Supervisor: When you change a round's or a class's panel so that a judge who has already given marks leaves the round, for example a judge who falls ill, you're now asked whether to remove that judge's marks. Choose **Remove marks and change** to remove them and change the panel; the round's result is worked out again without them. Before, the change was refused with "Cannot change panel with results" (see [Replacing a judge who has already given marks](/manager-guide/judges/#replacing-a-judge-who-has-already-given-marks))
 * Scrutineer (Beta): On the **Judges** page, a judge who already has an account now has **Notify** at the end of their row, where other judges have **Send invitation**, instead of in the **⋯** menu. Once an email has gone out, its date shows under the button. Before, a panel of judges who all had accounts showed no way to email them (see [In Scrutineer (Beta)](/manager-guide/judges/#in-scrutineer-beta))
 ## 2026-11-08
@@ -389,6 +390,7 @@ nav_order: 10
 * All apps: English screens say organization instead of club (Organization check-in, Owning organization) and Check-in instead of Checkin, the Manager app is called Scrutineer under Users, a team's dancers are its lineup, and the Swedish screens are retranslated with consistent terms
 * Public: A shared Vote4Dance link shows a preview picture, and links to an event or competition show its name, dates and place
 * Public: A web page opened without a network shows a translated hint instead of a technical error
+* Dutch: "coach" is used instead of "trainer" throughout the web apps, the dancer app and the store listing
 ## 2026-09-27
  ⭐ **New**
 * Check-in: The person screen shows what a dancer owes for registrations paid at the door — a red or green payment tag on each registration, the amount to pay with the organizer's payment note, and a Payment collected button that marks the dancer's unpaid registrations paid once the desk confirms the amount. Rejected registrations and free periods are left out, and for a couple or group the amount covers the whole entry, so either dancer's scan settles it (see [At the door](/manager-guide/the-door/))
