@@ -154,18 +154,17 @@ To stop a key, press **Revoke key** on its row, then **OK**. Systems using it st
 
 A personal configuration key lets a script change this federation's configuration through the Vote4Dance API, instead of you clicking through the federation pages. It is useful for big, repetitive changes, such as entering a new season's class rules for every discipline. Vote4Dance support may also ask you for a key to make such a change for you.
 
-A configuration key can reach:
+A configuration key can:
 
-- divisions, age groups, categories, class levels and competition levels
-- disciplines, their dances, class rules and round setups
-- federation classes and their rule profiles, rankings and ranking profiles
+- read the federation's divisions, disciplines, dances, classes, categories, age groups and class levels
+- change class rules: edit several rules at once, add a rule at a chosen place in the list, merge two rules into one, or delete a rule
 
-It cannot reach members, licences, clubs, competitions, ranking standings or points.
+It cannot reach members, licences, clubs, competitions, rankings or points. A change is refused when the rule was changed by someone else since the script read it, so nothing is overwritten by mistake.
 
 The key is your own:
 
 - It acts with your own rights. Every change it makes is recorded under your name, just as if you had made it on the page yourself.
-- Only you see your keys. Another administrator sees their own keys, not yours.
+- Every Administrator and Owner of the federation sees all configuration keys in the list, with the name of the person each key belongs to, and can revoke any of them, for example when someone leaves or loses a laptop. Only you can create a key for yourself.
 - It belongs to this one federation. It cannot change any other federation, even one you also administer.
 - It stops working when it expires, when you revoke it, or when you are no longer an Administrator or Owner of the federation.
 
@@ -185,7 +184,7 @@ To create a key:
 
 You can have up to 5 active configuration keys per federation. Revoked and expired keys don't count.
 
-The list shows each key's **Label**, the first characters of the **Key**, its **Status** (**Active**, **Expired** or **Revoked**), when it was **Created**, when it was **Last used**, and when it **Expires**.
+The list shows each key's **Label**, its **Owner**, the first characters of the **Key**, its **Status** (**Active**, **Expired** or **Revoked**), when it was **Created**, when it was **Last used**, and when it **Expires**.
 
 When the work is done, revoke the key rather than waiting for it to expire: press **Revoke key** on its row, then **OK**. Scripts using the key stop working right away.
 
