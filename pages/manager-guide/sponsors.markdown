@@ -189,12 +189,33 @@ In practice, most organizers start with the default prices, then adjust:
 - down for local events or sponsor bundles
 - per slot if some placements are more valuable for the audience you are selling to
 
+## What the venue screens show for sponsors
+
+Besides the sponsor offers above, three placements put a sponsor on the venue screens. The screens are set up as described in [Screens](/manager-guide/screens/). Each placement shows the sponsor's logo and company name, and only one sponsor can hold it. If nobody has bought a placement, the screens show nothing extra for it.
+
+You can add these placements to the sponsor catalog as standard items: **Results presented by**, **Final intro** and **Break screen**.
+
+### Results presented by
+
+When the result of a final comes up on the **Result** screen, the sponsor with the **Results presented by** placement covers the screen with a card headed **Results presented by**. The card shows once per final, for a few seconds, and then the results are in view.
+
+![The Results presented by card on a final's result screen](/assets/images/sponsors/screen-results-presented-by.png)
+
+### Final intro
+
+When a final goes live, the sponsor with the **Final intro** placement is shown in a card at the bottom of the heat screen for a few seconds, on the first dance of the final. The heat stays visible behind it. It is shown once per final, not for every dance of it, and the class sponsor follows after it.
+
+### Break screen
+
+The **Sponsors** screen loops through the event's sponsors. A sponsor with the **Break screen** placement gets a full card of its own in that loop, which runs during breaks.
+
 ## Purchases and operations
 
 - The `Purchases` tab shows purchased sponsors, contact details, and amount totals.
 - Sold-out state on the public sponsor page is based on the offer capacity fields returned by the API. Functionary sell actions and QR entry points follow the same sold-out rules.
 - Purchased sponsors can update company details, link, and logo through the sponsor flow supported by the product.
 - If a sponsor image is important for delivery, make sure the sponsor completes their company name, link, and logo after purchase.
+- Sponsors can also add a short video on the same page. See [Sponsor videos and spots](/manager-guide/sponsor-videos/).
 
 ## Recommended organizer checklist
 

@@ -7,6 +7,7 @@ nav_order: 1.4
 help:
   manager.event.screens: ""
   screens.event: ""
+  screens.event.quiz: quiz-screens
 ---
 
 # Screens, projectors and venue technology
@@ -112,6 +113,32 @@ screen** buttons. The speaker picks which screen to drive, then sends it:
 
 The screen fades over about a second when it changes. Audience voting and the live-placement
 view are variants of the heat screen and appear on their own when they apply.
+
+## Quiz screens
+
+When the speaker runs a quiz (see [Running a quiz from the speaker app](/manager-guide/speaker-quiz/)), the screen shows it. It follows the same steps as the speaker:
+
+1. **Lobby**: "Quiz starts in a moment", the number of questions and seconds each, how many have **joined**, and a QR code, **Scan to join**, so the hall can play in the app.
+
+   ![The quiz lobby on the screen: the quiz's name, how many have joined and the QR code to join](/assets/images/audience/screen-quiz-lobby.png)
+
+2. **Question**: the question with its answers, a countdown, and how many players have **Answered**. The correct answer is never shown before the question closes.
+
+   ![A question on the screen with its countdown and how many have answered](/assets/images/audience/screen-quiz-question.png)
+
+3. **Reveal**: how the answers split with the right answer highlighted, the share who were right, and who was **Fastest correct**. For a question answered with a number, the screen says **Correct answer** and the number.
+
+   ![The reveal on the screen: the answer split, the share who were right and the fastest correct player](/assets/images/audience/screen-quiz-reveal.png)
+
+4. **Leaderboard**: the top 10 after each question. Players see their own place on their phone.
+
+   ![The leaderboard on the screen after the first question](/assets/images/audience/screen-quiz-leaderboard.png)
+
+5. **Podium**: the top three with **Congratulations to the winner**.
+
+   ![The podium on the screen at the end of the quiz](/assets/images/audience/screen-quiz-podium.png)
+
+With no quiz on, a screen that was sent to the quiz says **No quiz on right now**. Players take part in the app, see [Quizzes](/spectator/quizzes/).
 
 ## Who controls what is shown
 
