@@ -388,6 +388,7 @@ nav_order: 10
 * All apps: English screens say organization instead of club (Organization check-in, Owning organization) and Check-in instead of Checkin, the Manager app is called Scrutineer under Users, a team's dancers are its lineup, and the Swedish screens are retranslated with consistent terms
 * Public: A shared Vote4Dance link shows a preview picture, and links to an event or competition show its name, dates and place
 * Public: A web page opened without a network shows a translated hint instead of a technical error
+* Dutch: "coach" is used instead of "trainer" throughout the web apps, the dancer app and the store listing
 ## 2026-09-27
  ⭐ **New**
 * Check-in: The person screen shows what a dancer owes for registrations paid at the door — a red or green payment tag on each registration, the amount to pay with the organizer's payment note, and a Payment collected button that marks the dancer's unpaid registrations paid once the desk confirms the amount. Rejected registrations and free periods are left out, and for a couple or group the amount covers the whole entry, so either dancer's scan settles it (see [At the door](/manager-guide/the-door/))
