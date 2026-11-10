@@ -34,6 +34,8 @@ Two naming traps:
 - **"Scrutineer" is the Manager app.** The tick box under Users and the tile on the event page are both labelled Scrutineer in English; this page calls it Manager. The federation-level [Scrutineer](/scrutineer/) role in this documentation is a description of a job, not a tick box in the competition.
 - **Manager does not automatically open the other apps.** A person with only Manager can do everything from the Manager app, but the Speaker, Screens, Lineup, Check-in, Cafe and Organizer apps each check for their own tick. Give the head of scrutineering Manager plus the apps they will actually open. The last Scrutineer (Manager) on a competition cannot be removed.
 
+**The person who creates the event starts with every app.** You see all the tiles on your event page from the start and can open each app to set it up. Take away the ones you will not use yourself with **Edit access** on your own row. With **Café & sales** on, the Vote4Dance app notifies you of each new cafe order, so take it off if someone else runs the cafe.
+
 Each user can also be given a free-text **role title** (for example "Chairperson" or "Floor manager"). It is only a label shown in the list; access follows the ticked apps.
 
 ## Getting a helper in before the day
