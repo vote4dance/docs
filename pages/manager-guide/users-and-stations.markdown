@@ -26,6 +26,7 @@ Everyone who works at a competition uses one of the Vote4Dance apps. Access is g
 | **Check-in** | "Avprickning" in Swedish; the tile reads "Registration" and the event name ("Anmälan" in Swedish) | The check-in desk | Finds dancers (by name, or by scanning a [Vote4Dance ID](/dancer/vote4dance-id/) or a ticket), assigns and prints start numbers, marks arrivals, uses tickets, takes walk-in registrations and sells for cash. See [At the door](/manager-guide/the-door/). |
 | **Cafe** | | The cafe counter | Products and the live order queue. |
 | **Organizer** | "Arrangör" in Swedish | The person who sells to the audience | The event Shop: products, orders, dancer admission and the door checklist. See [Shop](/manager-guide/shop/). |
+| **Music (DJ)** | "Musik (DJ)" in Swedish | The DJ | Opens the Music page of the event and nothing else: listen to the dancers' own tracks and download them, named by start number. See [Give the DJ their own login](/manager-guide/music/#give-the-dj-their-own-login). |
 
 The event overview page shows one tile per app the signed-in person has access to. The dancer-facing pages and public results need no access at all.
 

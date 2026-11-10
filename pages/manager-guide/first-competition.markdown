@@ -21,7 +21,7 @@ Read it once from top to bottom. Every step links to the page with the details.
 | **Do we need permission first?** | Not in Vote4Dance. Choosing the federation when you create the event is what puts the competition under it; there is no approval step. Your federation may still have its own requirements, such as sanctioning the date, so ask them. Its dancers need active licences, and a club the federation has not approved cannot hold licences for them. |
 | **Who enters the dancers?** | The dancers and their clubs, through registration on the public event page. You approve the registrations and import them. You can also enter and add walk-ins yourself at the desk. |
 | **What does Vote4Dance handle on the day?** | Start numbers, check-in, heats and lineup, judge marks, results, screens, speaker, diplomas and exports. |
-| **What does Vote4Dance *not* handle?** | Music, microphones and lighting. Those stay with your DJ and the venue's technician. See [Screens, projectors and venue technology](/manager-guide/screens/). |
+| **What does Vote4Dance *not* handle?** | Playing the music, microphones and lighting. Those stay with your DJ and the venue's technician. See [Screens, projectors and venue technology](/manager-guide/screens/). When a class dances to its own music, Vote4Dance does collect the dancers' tracks for the DJ: see [Music from the dancers](/manager-guide/music/). |
 | **Can we test everything before the day?** | Yes, and you should. See [Test run and venue rehearsal](/manager-guide/test-run/). |
 
 ## Who does what

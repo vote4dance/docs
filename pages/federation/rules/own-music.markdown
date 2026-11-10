@@ -8,7 +8,7 @@ nav_order: 6
 
 # Own music
 
-Use this page when your federation's dancers bring their own music to the competition. You decide which classes ask for it, how long a track may be and how long Vote4Dance keeps the files. Dancers then upload an MP3 for each entry from **My registration** (see [Your music](/dancer/my-registration/#your-music)), and the organizer and the DJ download the tracks, named by start number.
+Use this page when your federation's dancers bring their own music to the competition. You decide which classes ask for it, how long a track may be and how long Vote4Dance keeps the files. Dancers then upload an MP3 for each entry from **My registration** (see [Your music](/dancer/my-registration/#your-music)), and the organizer and the DJ download the tracks, named by start number, from the event's **Music** page (see [Music from the dancers](/manager-guide/music/)).
 
 Nothing changes until you set a rule: without **Own music required**, no class asks for music.
 
@@ -38,7 +38,7 @@ Dancers see the result before they register: the class shows a tag such as **Own
 ## What the dancers and the organizer see
 
 - **A track that is too long or too short** is refused, within the tolerance you set, and the dancer is told why and which length the class allows. An earlier file stays in place until a new one passes.
-- **The organizer and the DJ** download the files from the event. Each file starts with the entry's start number.
+- **The organizer and the DJ** download the files from the event's **Music** page, in Scrutineer (Beta), the new version of the Manager app. Each file starts with the entry's start number. The organizer can give the DJ a login that opens only that page. See [Music from the dancers](/manager-guide/music/).
 - **Upload closes with registration.** After that only the organizer can change a track.
 
 ## How long files are kept

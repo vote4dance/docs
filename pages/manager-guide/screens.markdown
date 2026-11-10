@@ -22,7 +22,7 @@ venue's technician before the day.
 | The venue's equipment | Does Vote4Dance drive it? |
 |---|---|
 | Projector, LED wall, TVs | **Yes** — through a computer or tablet running the Screens app, connected like any other picture source. |
-| Sound system and microphones | No. Your DJ and the speaker use the venue's sound. Vote4Dance shows the running order; it does not play music or route audio. |
+| Sound system and microphones | No. Your DJ and the speaker use the venue's sound. Vote4Dance shows the running order; it does not play music or route audio. It can collect the dancers' own tracks for the DJ to download: see [Music from the dancers](/manager-guide/music/). |
 | Stage lighting | No. |
 | Streaming / camera mixer | No, but a screen output can be fed into a mixer like any other HDMI source, and the blank/green-screen views exist for exactly that. |
 
