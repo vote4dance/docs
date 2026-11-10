@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-10
+ ⭐ **New**
+* Manager: When you add a round to a class yourself, you can now say during setup where the participants who do not qualify go. **Takes the rest from** on **Add a single round** links a second chance round or a B-final to the round it follows, a second chance takes its judging type, schedule item and floor from that round, and a round's settings now show **Round for those that qualify** and **Round for non-qualified participants** under **How many go through**. Before, only the Round guide could set this ahead of time; for a round you added yourself you had to wait until its judging was closed (see [Send the rest to a second chance or a B-final](/manager-guide/competition-setup/#send-the-rest-to-a-second-chance-or-a-b-final))
 ## 2026-11-09
  ⭐ **New**
 * Federation: **Personal configuration keys** on `Settings → API keys` let a script make big configuration changes for you, such as a new season's class rules, instead of clicking through every discipline. A key acts with your own rights, reaches only this federation's configuration (never members, licences, clubs or competitions), is shown once, and stops working after at most 30 days. Every administrator of the federation sees all configuration keys and can revoke any of them (see [Personal configuration keys](/federation/settings/#personal-configuration-keys))
