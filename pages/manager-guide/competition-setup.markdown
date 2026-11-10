@@ -105,9 +105,10 @@ To create a class's rounds with the Round guide:
 
 The Round guide also fills in each round's **Round for those that qualify** and **Round for
 non-qualified participants** (the next round, a B-final or a second chance), so the class is ready
-to advance as soon as results are in. You can still change a link under **Qualified participants**
-when the round is closed. If the rounds are created but some links could not be set, the Round guide
-says so and you set those by hand.
+to advance as soon as results are in. You can change a link in the round's settings before the round
+starts (see [Send the rest to a second chance or a B-final](#send-the-rest-to-a-second-chance-or-a-b-final)),
+or under **Qualified participants** when the round is closed. If the rounds are created but some links
+could not be set, the Round guide says so and you set those by hand.
 
 ## Step 2: Build rounds from classes
 
@@ -138,6 +139,52 @@ A round can't be added in front of a first round that has started. If the first 
 it back to **Not started** and use **Remove participants** on it first, so nobody ends up in both rounds.
 
 ![Place in class on the Add Round form](/assets/images/round-guide/add-round-place.png)
+
+### Send the rest to a second chance or a B-final
+
+When a round sends only some of its participants on, you can decide during setup where the others go: to a second
+chance round that leads back into the next round, or to a B-final that gives them their places. The Round guide
+sets this up for the rounds it creates. For a round you add yourself, set it when you add the round, in the new
+Manager:
+
+1. Open the class and click **Add a single round**.
+2. Enter the **Round name**, for example "Second chance".
+3. Under **Takes the rest from**, choose the round whose non-qualified participants dance here, for example the
+   semifinal. The list holds the class's rounds that send participants on, whose judging is not yet closed and
+   that have no round for the rest yet.
+4. Set **How many go through** to the number that go on from the new round. Leave it empty for a B-final, which
+   sends nobody on.
+5. If you set a number, the form fills in the rest from the round you chose. **Round for those that qualify**
+   becomes the round the semifinal sends its own qualifiers to, usually the final, so both rounds lead to the same
+   next round. **Judging type**, **Schedule item** and **Floor** become the semifinal's, so the second chance is
+   judged the same way and dances in the same block. A B-final keeps the values of the class's last round instead.
+6. Check the values, change any that do not fit your class, and click **Save changes**.
+
+   ![The Add Round form with Takes the rest from set to the semifinal](/assets/images/round-guide/add-round-rest-from.png)
+
+The class's rounds now show the link on the round you chose, for example "4 go through, the rest to Second chance".
+That round keeps sending its qualifiers to the same round as before.
+
+![The rounds of a class, where the semifinal sends the rest to the second chance](/assets/images/round-guide/rounds-rest-to-second-chance.png)
+
+To change where a round you already have sends its participants:
+
+1. Open the class and click the round.
+2. Under **How many go through**, set **Round for those that qualify** and **Round for non-qualified
+   participants**. **Not going through** means the rest get their places from this round and do not dance again.
+3. Click **Save changes**.
+
+Good to know:
+
+- The two fields show only while **How many go through** is set, so not on a final.
+- When **Round for those that qualify** reads **The next round**, followed by a round's name, the round has no
+  link of its own: its qualifiers go to the round after it in the class when it starts. Once you choose a round for
+  the non-qualified, saving also fills in the round for those that qualify, so the two groups can never end up in
+  the same round by accident.
+- You can change both until the round's judging is closed. After that, use **Qualified participants** on the closed
+  round.
+- When you confirm the round on the day, the rest are sent to the round you chose, and that round's **Best
+  placement** is set to the first place after those who went through unless you choose otherwise.
 
 Typical round tree:
 
