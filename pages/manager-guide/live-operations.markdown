@@ -142,6 +142,19 @@ While a round is **In progress**, the round page shows a **Stuck?** link next to
 - Use round add/copy/clear tools in open or ready state
 - Re-run send-through after correction
 
+### Wrong judging type on a round in progress
+
+You can change a round's judging type while it is **In progress** until the first judge gives a mark. After that the type is locked, so marks are never counted under a type they weren't given for. If you notice the type is wrong once judging has begun, for example a chance round set to 1–5 marks that should have been judged by placement, clear the marks and change the type. The couples, their heats and their starting order stay as they are, including a drawn order.
+
+1. Open the round in **Live** and choose **Edit round…**.
+2. Click the **Judging type** button. Under the type it says **Locked by the marks given.**
+3. Click **Clear marks** and confirm with **Clear marks**. Every mark given so far in this round is removed.
+4. Choose the right judging type. The judges' tablets open the round again, and they mark it once more.
+
+![The judging type locked by the marks given, with Clear marks under it](/assets/images/live-marks/clear-marks-judging-type.png)
+
+**Clear marks** also shows under **Judging type** in the round's settings in Setup. It is only there while the round is **In progress**. To change a round whose judging is closed, open it again first.
+
 ### Schedule drift
 
 - Update beat/time planning in schedule and round settings (see [Schedule and conflicts](/manager-guide/schedule/))
