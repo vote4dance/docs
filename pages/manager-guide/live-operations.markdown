@@ -116,6 +116,23 @@ for how battle rounds are built.
 
 When you change the panel of a battle round, its battles get the same panel.
 
+## Round comment
+
+A round comment is a short note about the round, such as "Presentation dance 1 min" or
+"Final dances solo first". It is shown on the judging sheets and in the public app. You can
+change it right on the round's page in **Live**, for example while you walk through the
+rounds before the event:
+
+1. Open the round in **Live**. The comment is the last row of the box with the round's
+   facts, under **Round comment**.
+2. Click the comment. With no comment yet, click **Add round comment**.
+3. Type the new comment and press **Enter**, or click somewhere else, to save it. Press
+   **Esc** to leave it as it was. On a phone, tap **Save** or **Cancel**.
+
+![The round comment as the last row of the round facts](/assets/images/live-round/round-comment.png)
+
+Once a round is confirmed and published, its comment is still shown but can't be changed.
+
 ## Audience-facing coordination
 
 During live execution:
