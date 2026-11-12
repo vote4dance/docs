@@ -7,6 +7,8 @@ nav_order: 10
 
 # Release notes
 ## 2026-11-12
+ ⭐ **New**
+* App: **Profile** → **Quiz history** lists every quiz you have played, newest first, with how many you have played, your best place and your high score; each quiz shows your place, the event, the date, your points and how many played, and opens its full standings. Part of Premium. Update the app from the App Store or Play Store to get it (see [Your quiz history](/spectator/quizzes/#your-quiz-history))
  🛠️ **Improvements**
 * Manager: On a round's page in **Live**, the round comment is now the last row of the round facts, and you can change it right there: click it, type, and press **Enter**. A round without a comment shows **Add round comment**. Before, you had to open **Edit round…** (see [Round comment](/manager-guide/live-operations/#round-comment))
 * Federation: A licence with no price now becomes **Active** as soon as a dancer or club applies for it. Before, it stayed **Pending** with payment outstanding until you activated it by hand. If you require club or federation approval, it waits for that approval and nothing else (see [Step 2: Create the licence items](/federation/getting-a-license/#step-2-define-the-licence-items))
