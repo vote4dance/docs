@@ -10,6 +10,9 @@ nav_order: 10
  🛠️ **Improvements**
 * Manager: On a round's page in **Live**, the round comment is now the last row of the round facts, and you can change it right there: click it, type, and press **Enter**. A round without a comment shows **Add round comment**. Before, you had to open **Edit round…** (see [Round comment](/manager-guide/live-operations/#round-comment))
 ## 2026-11-11
+ ⭐ **New**
+* Manager: **Assign start numbers** in the new Manager has a **Numbers to skip** field. Type the numbers that must not be given out, separated by commas, with ranges such as `100-104`, and numbering leaves them out. Useful when clubs keep gaps in their number series. Type the list each time you number (see [After the import](/manager-guide/registration-checkin/#after-the-import))
+## 2026-11-11
  🛠️ **Improvements**
 * Manager: A round's judging type can now be changed after the judges have started marking. Under the locked **Judging type**, click **Clear marks**: the marks given so far are removed, the couples and their order stay, including a drawn order, and you pick the right type. Before, you had to take the couples out of the round and add them again (see [Wrong judging type on a round in progress](/manager-guide/live-operations/#wrong-judging-type-on-a-round-in-progress))
 ## 2026-11-10

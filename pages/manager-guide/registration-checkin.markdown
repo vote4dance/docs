@@ -161,6 +161,9 @@ The next steps, in the order the system expects them:
 1. `Competition → Participants` — check the lineup per class. Add or correct participants by hand if needed.
 2. **Assign start numbers** (button on the Participants page, or per class in the class footer). This has to happen **before** participants are added to rounds; afterwards the button refuses. The dialog asks:
    - **Start with number** (10 by default). It can be as low as 1; below 10 the dialog warns that single-digit numbers can be mistaken for placements at the prize ceremony.
+   - **Numbers to skip**: numbers that are never given out, for example numbers a club keeps for its own dancers. Separate them with commas; a range such as `100-104` skips every number in it, so `13, 66, 100-104` leaves out 13, 66 and 100 to 104. The numbers line at the bottom of the dialog shows the result before you confirm. A participant who already has one of these numbers keeps it. If the round ten a class would start on is in the list, the class starts on the next round ten that isn't. The field is empty each time you open the dialog, so type the list again for every competition in the event.
+
+     ![Assign start numbers with numbers to skip](/assets/images/start-numbers/numbers-to-skip.png)
    - **Start each class on an even ten** (on by default): every class after the first jumps up to the next ten.
    - **Free numbers between classes** (3 by default): numbers left unused before the next class starts.
    - **Reuse numbers**: a dancer keeps the same number across classes.
