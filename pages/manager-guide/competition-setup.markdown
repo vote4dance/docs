@@ -9,6 +9,7 @@ help:
   manager.comp.classes: step-1-create-classes
   manager.comp.classes.round: step-2-build-rounds-from-classes
   manager.comp.teams: step-3-add-participants
+  manager.comp.teams.participants-verify: verify-entries
   manager.comp.data: data-transfer
 ---
 
@@ -215,6 +216,27 @@ CSV import lives on `Competition → Registration → Data transfer`, together w
 delete tools.
 
 Do not bulk delete participants once judging is underway.
+
+### Verify entries
+
+After you have imported an entry list, **Verify** checks all entries of the competition and warns you about what looks wrong, so you can fix it before the event. It only warns: nothing is changed.
+
+It has these checks:
+
+- **Licence number**: when the entry list has licence numbers (for example a list imported from the federation's system), it lists every entry where a dancer has no licence number. It tells you which dancer (dancer 1, 2 or 3) and their birth year. It only checks that a number is there. Whether a licence is valid is still checked in the federation's own system.
+- **WSDC level** (WSDC competitions only): looks up each Jack&Jill leader and follower in the WSDC registry and compares their level with the class they entered. A dancer's points decide the lowest level they must dance, and the registry also says how far up they may go. Verify lists every dancer who is below their level ("Leader must dance Intermediate or higher · 22 points in Novice") or above it ("Follower may dance up to Novice"). A dancer the registry doesn't know may dance Newcomer and Novice. Entries without a WSDC id, and dancers the registry didn't answer for, are listed under **Not checked**. The registry shows today's points, so run it before the event.
+
+1. Go to **Competition → Participants**.
+2. Click **Verify**, next to **Print start numbers**. The **Verify entries** panel opens. Each row shows the start number, what is missing and the classes of the entry.
+
+   ![The Verify entries panel listing dancers without a licence number](/assets/images/verify-entries/verify-entries-panel.png)
+
+3. Click **Open entry** on a row to open that entry and fix it, for example by adding the licence number.
+4. To work through all findings in one go, click **Show these N in the list**. The participants list then shows only those entries, and a **Verify findings** tag appears next to the filter buttons. Click **×** on the tag to show all participants again.
+
+   ![The participants list showing only the entries Verify found, with the Verify findings tag](/assets/images/verify-entries/verify-entries-filter.png)
+
+5. When you have fixed entries, click **Verify again** to run the checks again. When nothing is found, the panel says "No problems in the N entries that could be checked".
 
 ## Step 4: Assign start numbers and class entries
 
