@@ -221,7 +221,10 @@ Do not bulk delete participants once judging is underway.
 
 After you have imported an entry list, **Verify** checks all entries of the competition and warns you about what looks wrong, so you can fix it before the event. It only warns: nothing is changed.
 
-Today it has one check, **Licence number**. When the entry list has licence numbers (for example a list imported from the federation's system), it lists every entry where a dancer has no licence number. It tells you which dancer (dancer 1, 2 or 3) and their birth year. It only checks that a number is there. Whether a licence is valid is still checked in the federation's own system.
+It has these checks:
+
+- **Licence number**: when the entry list has licence numbers (for example a list imported from the federation's system), it lists every entry where a dancer has no licence number. It tells you which dancer (dancer 1, 2 or 3) and their birth year. It only checks that a number is there. Whether a licence is valid is still checked in the federation's own system.
+- **WSDC level** (WSDC competitions only): looks up each Jack&Jill leader and follower in the WSDC registry and compares their level with the class they entered. A dancer's points decide the lowest level they must dance, and the registry also says how far up they may go. Verify lists every dancer who is below their level ("Leader must dance Intermediate or higher · 22 points in Novice") or above it ("Follower may dance up to Novice"). A dancer the registry doesn't know may dance Newcomer and Novice. Entries without a WSDC id, and dancers the registry didn't answer for, are listed under **Not checked**. The registry shows today's points, so run it before the event.
 
 1. Go to **Competition → Participants**.
 2. Click **Verify**, next to **Print start numbers**. The **Verify entries** panel opens. Each row shows the start number, what is missing and the classes of the entry.
