@@ -9,6 +9,8 @@ nav_order: 10
 ## 2026-11-12
  🛠️ **Improvements**
 * Manager: On a round's page in **Live**, the round comment is now the last row of the round facts, and you can change it right there: click it, type, and press **Enter**. A round without a comment shows **Add round comment**. Before, you had to open **Edit round…** (see [Round comment](/manager-guide/live-operations/#round-comment))
+* Federation: A licence with no price now becomes **Active** as soon as a dancer or club applies for it. Before, it stayed **Pending** with payment outstanding until you activated it by hand. If you require club or federation approval, it waits for that approval and nothing else (see [Step 2: Create the licence items](/federation/getting-a-license/#step-2-define-the-licence-items))
+* Federation: A dancer whose licence you suspended can no longer get it back by applying again, and a licence item you set to inactive can no longer be applied for (see [Step 2: Define the licence items](/federation/getting-a-license/#step-2-define-the-licence-items))
 ## 2026-11-11
  ⭐ **New**
 * Manager: **Assign start numbers** in the new Manager has a **Numbers to skip** field. Type the numbers that must not be given out, separated by commas, with ranges such as `100-104`, and numbering leaves them out. Useful when clubs keep gaps in their number series. Type the list each time you number (see [After the import](/manager-guide/registration-checkin/#after-the-import))

@@ -97,7 +97,7 @@ Each item has:
 | **Division** and **Discipline** | Which part of your structure the item belongs to. |
 | **Competition scope** | `Full season` or `Single competition`. |
 | **Organization mode** | `Required`, `Optional` or `Not allowed` — see above. |
-| **Price** and **Currency** | Leave the price at zero for a free licence. |
+| **Price** and **Currency** | Leave the price at zero for a free licence. A free licence has nothing to pay: it becomes **Active** as soon as it is applied for, unless you require club or federation approval, in which case it waits as **Pending** for that approval only. |
 | **Maximum uses per season** | Optional cap. |
 | **Status** | Whether the item is available at all. |
 | **Note** | Internal. |
