@@ -7,6 +7,7 @@ nav_order: 4
 has_children: true
 help:
   federation.rules: ""
+  federation.rules.rules: what-applies-to-one-class
   federation.rules.checks: setup-check
   federation.rules.map: setup-map
   federation.rules.ages: age-bands
@@ -33,42 +34,82 @@ Federation
                     └── Age group
                           └── Class level
                                 └── Federation class  (most specific, always wins)
+
+Competition level: applies at events of that level, whichever class is dancing
 ```
 
 The most specific layer that sets a value wins. Not every rule can be set at
 every layer; the **Rulebook** lists the layers each rule accepts.
 
-Each layer's own overrides are edited in its **Rules** section under
-**Federation → Structure**. Check the merged result in **Federation → Rulebook**
-before going live: for every rule it shows the value that applies, the layer
-that set it and the value it displaced. Rules nobody has set are marked as the
-platform default.
+Each layer has its own **Federation rules** editor under **Federation →
+Structure**, and the federation itself has **Structure → Federation rules**. See
+[Setting federation rules](/federation-rules/editor/). Check the result in
+**Federation → Rulebook** before going live: for one class it says in plain
+sentences what applies and which level set each rule. Rules nobody has set use
+the platform default.
+
+> The rules that decide which rounds a class dances are not federation rules.
+> They are set on each discipline's **Round setup**; see
+> [How the round setup works](/federation-rules/reference/).
 
 ## Start here
 
-- [How class rules work](/federation-rules/reference/) — **read this first.**
-  The thinking behind class rules, a worked example, a step-by-step method, and
+- [Setting federation rules](/federation-rules/editor/) — the editor every level
+  shares: the level strip, finding a rule, inherited and set-here values, and
+  saving.
+- [How the round setup works](/federation-rules/reference/) — **read this first.**
+  The thinking behind the round setup, a worked example, a step-by-step method, and
   a reference of every condition, action and setting.
 - [Age category rules](/federation-rules/age-category-rules/) — how the age
   category is decided for solos, duos, and groups, and where to set the rules.
-- [Battle class rules](/federation-rules/battle-class-rules/) — how to configure
-  class rules so the Round Guide auto-generates the correct skeleton for each
+- [Battle round setup](/federation-rules/battle-class-rules/) — how to configure
+  the round setup so the Round Guide auto-generates the correct skeleton for each
   competitor count in a 1v1 battle discipline.
 - [Battle sub-rounds](/federation-rules/battle-sub-rounds/) — battles danced in
   several rounds with a tie-break, and a final made of a bronze and a gold
   battle.
-- [Round setups](/federation-rules/round-setups/) — describe a ladder of rounds
-  as a table instead of class rules, preview it, compare it with today's rules
+- [Round templates](/federation-rules/round-setups/) — describe a ladder of rounds
+  as a table instead of rules, preview it, compare it with today's rules
   and switch over.
+
+## What applies to one class
+
+**Rulebook → Rules** shows every federation rule that applies to one class, in
+plain sentences, with the level that set it.
+
+![What applies to one class, at a Regional competition, with one rule's trail open](/assets/images/federation-rules-editor/rulebook-competition-level.png)
+
+1. Open **Rulebook** and stay on the **Rules** tab.
+2. Under **Rules for one class**, pick the **Division** and then the **Class**.
+3. Read **What applies to** (the class). The strip below the title shows every
+   level from the federation down to the class, with how many of the rules each
+   level sets.
+4. Each rule is one sentence, such as *Only the dancer can apply for a
+   licence.*, grouped by topic. Under it you see the rule's name and value, and
+   on the right the level that set it, such as **Discipline · FDJ**.
+5. Click **Where it comes from** to see which levels can set the rule and the
+   value each of them sets. The level that wins is highlighted.
+6. Click **Change at** (the level) to open that level's editor and change the
+   rule there.
+
+Some rules only apply at events of one competition level, such as a
+championship that awards no promotion points. To include them, pick the level
+under **At a competition of level**. With **Any**, they are left out.
+
+Rules that no level sets are not listed one by one. A line under the list says
+that every other rule uses the platform default, with an example; click **Show
+them** to see them all.
 
 ## Checking the whole setup
 
-The **Rulebook** has six tabs: **Rules** (the merged result for one division or
-class, above), **Setup map**, **Age bands**, **Setup check**, **Where rules are
-set** and **Timed profiles**. The four in the middle look at every class in the
-federation at once, so you do not have to open classes one at a time. Each
-reads the whole setup when you open it ("Reading every class…") and says when
-it was read. Press **Run again** after you change something.
+The **Rulebook** has these tabs: **Rules** ([what applies to one
+class](#what-applies-to-one-class)), **Setup map**, **Age bands**, **Setup
+check** and **Where rules are set**. A sixth tab, **Timed profiles**, appears
+only when some rules are dated, that is, set to start or stop on a given day.
+The four in the middle look at every class in the federation at once, so you do
+not have to open classes one at a time. Each reads the whole setup when you
+open it ("Reading every class…") and says when it was read. Press **Run again**
+after you change something.
 
 ### Setup check
 
@@ -77,6 +118,8 @@ counts the problems, warnings, notes and checks that passed. Each check that
 finds something says what it found, why it matters, and under **How to fix**
 what to do, with links such as **Open class**, **Open rules** or **Open level**
 that go straight to the class or level concerned.
+
+![Setup check with the promotion note opened](/assets/images/federation-rules-editor/setup-check.png)
 
 It checks for:
 
@@ -89,6 +132,10 @@ It checks for:
   but it is dropped the next time that level's rules are saved.
 - classes with a progression warning, the same warnings the **Progression**
   panel shows per division
+- divisions where promotion is not set up: no class has a **Promotes to**
+  class, so results give points but nobody moves up. That is fine if promotion
+  happens outside Vote4Dance; otherwise **Open progression** takes you to the
+  division (see [Check promotion by cause](/federation/progression/#check-promotion-by-cause))
 - rules set for some divisions only. Often deliberate.
 - categories, age groups and class levels with the same name in several
   divisions that are set up differently. Often deliberate.
@@ -126,17 +173,25 @@ Age groups that are drafts or retired are drawn as an outline. See
 
 ### Where rules are set
 
-Every rule against every level it can be set at, for the whole federation. Each
-cell says whether the rule is set at that level, and how many times, whether it
-could be set there, or whether that level is not allowed for the rule. The
-counters at the top show how many rules are in use, how many are set at several
-levels, how many are set to different values, and how many are stored but no
-longer on the platform. Filter on **All rules**, **Set somewhere** or **Set
-nowhere**.
+Every rule against every level it can be set at, for the whole federation, in
+one table with a column per level and the rules grouped by topic. The title
+says how many rules your federation sets and how many use the platform default.
 
-Click a rule to open its details: what it does, where it can be set, the
-platform default, how many classes it reaches, and every place it is set. A
-rule the platform no longer has can be removed there by an Administrator.
+![Where rules are set](/assets/images/federation-rules-editor/where-rules-are-set.png)
+
+- A filled cell is a level that sets the rule. It shows the value, or how many
+  entries set it, such as **16 set** on the categories. Click it to open that
+  level's editor.
+- An outlined cell is a level that could set the rule but doesn't. A blank cell
+  is a level the rule can't be set at.
+- Under each rule's name you see how far it reaches: **every class**, a count
+  such as *reaches 804 of 864 classes*, or the competition levels it applies at.
+
+Use **Set somewhere** to see only the rules that are set, or **All** to see
+every rule. Click a rule's name to open its details: what it does, where it can
+be set, the platform default, how many classes it reaches, and every place it
+is set. A rule the platform no longer has can be removed there by an
+Administrator.
 
 ### Export setup
 

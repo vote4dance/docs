@@ -152,12 +152,12 @@ To stop a key, press **Revoke key** on its row, then **OK**. Systems using it st
 
 ### Personal configuration keys
 
-A personal configuration key lets a script change this federation's configuration through the Vote4Dance API, instead of you clicking through the federation pages. It is useful for big, repetitive changes, such as entering a new season's class rules for every discipline. Vote4Dance support may also ask you for a key to make such a change for you.
+A personal configuration key lets a script change this federation's configuration through the Vote4Dance API, instead of you clicking through the federation pages. It is useful for big, repetitive changes, such as entering a new season's round setup for every discipline. Vote4Dance support may also ask you for a key to make such a change for you.
 
 A configuration key can:
 
 - read the federation's divisions, disciplines, dances, classes, categories, age groups and class levels
-- change class rules: edit several rules at once, add a rule at a chosen place in the list, merge two rules into one, or delete a rule
+- change the round setup: edit several rules at once, add a rule at a chosen place in the list, merge two rules into one, or delete a rule
 - create and change classes, age groups and categories, and change or retire a discipline
 - read the rules set at each place in the structure (the federation, a division, a discipline, a category, an age group, a class level, a class or a competition level), and change one rule there, keeping the others
 - read the rules a class ends up with, and where each one comes from, also as at an event of a chosen competition level
@@ -195,7 +195,7 @@ To create a key:
 
 1. Open `Federation → Settings → API keys` and go to **Personal configuration keys**.
 2. Press **Create configuration key**.
-3. Under **Label**, write what the key is for, for example "Import 2027 class rules".
+3. Under **Label**, write what the key is for, for example "Import 2027 round setup".
 4. Under **Expires**, choose the last day the key should work. It is 7 days ahead to begin with, and can be at most 30 days from today. The key works until the end of that day (UTC).
 
    ![The Create configuration key dialog with a label and an expiry date](/assets/images/federation-settings/config-key-create.png)

@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Battle class rules
+title: Battle round setup
 permalink: /federation-rules/battle-class-rules/
 parent: Federation Rules
 nav_order: 2
 ---
 
-# Battle class rules
+# Battle round setup
 
-This page explains how to configure federation class rules so that the **Round Guide** automatically generates the correct round skeleton — placing round, battle layers, B‑final — for each competitor count in a 1v1 battle discipline.
+This page explains how to configure the round setup so that the **Round Guide** automatically generates the correct round skeleton — placing round, battle layers, B‑final — for each competitor count in a 1v1 battle discipline.
 
-New to class rules? Read [How class rules work](/federation-rules/reference/) first — this page builds on its ladder, stage and exception thinking, and its reference lists every condition, action and setting used below.
+New to the round setup? Read [How the round setup works](/federation-rules/reference/) first — this page builds on its ladder, stage and exception thinking, and its reference lists every condition, action and setting used below.
 
 > **Competition operators:** see [Battle bracket setup](/battle-bracket/) for how to seed and run battles once the skeleton exists.
 
@@ -139,13 +139,15 @@ Some rulebook choices are switches rather than round changes. Set them in a modi
 in the **Bracket setting** group of the rule editor); a count condition on the rule decides which
 class sizes they apply to.
 
-1. On the discipline's **Class Rules** tab, click **Add class rule** (or **Edit class rule** on an
+1. In the discipline's **Round setup** section, click **Add rule** (or **Edit** on an
    existing one).
-2. Choose the battle **Category** the rule is for.
-3. Click **Add round setting**, pick a setting that starts with **Bracket:**, and set its value.
-4. Click **Save changes**.
+2. Under **Applies to**, click **Pick some…** next to **Categories** and choose the battle
+   category the rule is for.
+3. Under **Change**, click **Another change**, pick a setting that starts with **Bracket:**, and
+   set its value.
+4. Click **Save**.
 
-![A class rule that turns on the redance round and names it](/assets/images/round-setups/bracket-settings.png)
+![A rule that turns on the redance round and names it](/assets/images/round-setups/bracket-settings.png)
 
 | Setting | What it does |
 |---|---|
@@ -200,7 +202,7 @@ Compared with Vuxna, the children's class makes three different choices: the bra
 
 ## Manual per-count rules (legacy)
 
-The following sections document the original approach: an explicit `round_sizes` rule plus `round_type: battle` modify rules for each competitor count. Use this approach for existing class rule sets that are already working. Both approaches are fully supported; do not mix them on the same class.
+The following sections document the original approach: an explicit `round_sizes` rule plus `round_type: battle` modify rules for each competitor count. Use this approach for existing rule sets that are already working. Both approaches are fully supported; do not mix them on the same class.
 
 **Why this section is so long.** Here the generator only knows the ladder, not what a bracket is. It produces plain rounds, and your rules turn them into a bracket: this round is the placing round, these rounds are battles, the B‑final goes here. Because the right shape differs per count, each count gets its own rules. Every count below reads the same way: the ladder, what it generates, and the rules that turn those rounds into battles.
 

@@ -10,9 +10,9 @@ nav_order: 3
 
 This guide walks competition organisers through running **battle rounds** (1‑vs‑1 elimination matches and trios) where competitors are seeded based on the results of a prior qualifying round. It assumes you have **administrator** role or higher on the competition.
 
-When a federation has configured battle class rules, the **Round Guide** generates the entire skeleton (placing round, all battle layers, B‑final) automatically for any count. Classes using **brackets mode** require only 4–5 rules total; the skeleton adapts to whatever count arrives on the day. When class rules are not configured, you build the skeleton by hand. Either way, the seeding steps below are the same.
+When a federation has configured a battle round setup, the **Round Guide** generates the entire skeleton (placing round, all battle layers, B‑final) automatically for any count. Classes using **brackets mode** require only 4–5 rules total; the skeleton adapts to whatever count arrives on the day. When no round setup is configured, you build the skeleton by hand. Either way, the seeding steps below are the same.
 
-> **Federation admins:** see [Battle class rules](/federation-rules/battle-class-rules/) for how to configure class rules so the skeleton is generated automatically.
+> **Federation admins:** see [Battle round setup](/federation-rules/battle-class-rules/) for how to configure the round setup so the skeleton is generated automatically.
 
 ---
 
@@ -23,7 +23,7 @@ Battle rounds work in two parts:
 1. **Round skeleton** — created once, before the battle starts. A *parent* battle round contains *child* rounds, one per match (final, B‑final, semis, quarters, trios).
 2. **Seeding** — done after the previous round has been judged and confirmed. The **Assign to match** button seeds the bracket automatically in most cases.
 
-Bronze / B‑final rounds have no special status in the system — they are normal child rounds that you populate with the losers of the prior round. When class rules set up `round_others_id`, the **Assign teams** button routes losers there automatically; otherwise, you place them by hand.
+Bronze / B‑final rounds have no special status in the system — they are normal child rounds that you populate with the losers of the prior round. When the round setup sets up `round_others_id`, the **Assign teams** button routes losers there automatically; otherwise, you place them by hand.
 
 ### The two tools you'll use
 
@@ -115,7 +115,7 @@ This size uses **crosses** (select) judging for the trios rather than 1v1 match 
 - Trio A: seed 1, seed 6, seed 5
 - Trio B: seed 2, seed 3, seed 4
 
-If the round guide generated the skeleton from class rules, this seeding follows automatically. Otherwise, place each competitor in the right trio via the *Match* dropdown.
+If the round guide generated the skeleton from the round setup, this seeding follows automatically. Otherwise, place each competitor in the right trio via the *Match* dropdown.
 
 **After the trios are judged.**
 - **Final.** Run **Assign to match** sourcing the trio parent. The winner from each trio advances.

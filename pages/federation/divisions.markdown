@@ -71,9 +71,9 @@ Each section has its own address, so you can bookmark or share it.
 | **Judging** | `judging` | The division's judging setups. Only a system administrator can change them. |
 | **Ranking** | `ranking` | The division's rankings. See [Federation admin rankings](/federation-rankings/federation-admin/). |
 | **Progression** | `progression` | How each class promotes. See [Promotion points](/federation/progression/). |
-| **Rules** | `rules` | The division's own rule overrides |
+| **Federation rules** | `rules` | The division's own rule overrides |
 
-Age Groups, Categories, Class Levels and Competition Levels each have two tabs, set with `sub`: **List** (`sub=list`, the default) and **Rules** (`sub=rules`). The **Rules** tab is only there for Administrators, and only once the list has at least one entry. Changing the division section clears `sub`.
+Age Groups, Categories, Class Levels and Competition Levels each have two tabs, set with `sub`: **List** (`sub=list`, the default) and **Federation rules** (`sub=rules`). The **Federation rules** tab is only there for Administrators, and only once the list has at least one entry. Changing the division section clears `sub`.
 
 ### Discipline sections
 
@@ -83,8 +83,8 @@ Age Groups, Categories, Class Levels and Competition Levels each have two tabs, 
 |---|---|---|
 | **Classes** | `list` (default) | The discipline's classes |
 | **Dances** | `dances` | The dances |
-| **Class Rules** | `rules` | Round rules for the classes. See [How class rules work](/federation-rules/reference/). |
-| **Rules** | `discipline-rules` | The discipline's own rule overrides. Administrators only. |
+| **Round setup** | `rules` | Round rules for the classes. See [How the round setup works](/federation-rules/reference/). |
+| **Federation rules** | `discipline-rules` | The discipline's own rule overrides. Administrators only. |
 
 ---
 
@@ -149,7 +149,7 @@ Open **Categories** in a division. **Add category** is under the list; **Edit ca
 | **Image** | No | |
 | **State** | Yes | **Draft**, **Active** or **Retired**. New ones start as **Active**. |
 
-The roster limits (minimum and maximum members, required dance roles) are set on the category's **Rules** tab (**Category rules**). Registration and class memberships are checked against them. The maximum cannot be below the minimum, and a category cannot require more distinct roles than its maximum number of members.
+The roster limits (minimum and maximum members, required dance roles) are set on the category's **Federation rules** tab. Registration and class memberships are checked against them. The maximum cannot be below the minimum, and a category cannot require more distinct roles than its maximum number of members.
 
 A category that has classes cannot be deleted.
 
@@ -171,7 +171,7 @@ Open **Age Groups** in a division. **Add age group** is under the list; **Edit a
 | **Use Birthday** | Yes | **Enable** to use the participant's birthday instead of the calendar year they were born |
 | **State** | Yes | **Draft**, **Active** or **Retired**. New ones start as **Active**. |
 
-How the age of a couple or group is decided, and how to change it, is set on the age group's **Rules** tab. See [Age category rules](/federation-rules/age-category-rules/).
+How the age of a couple or group is decided, and how to change it, is set on the age group's **Federation rules** tab. See [Age category rules](/federation-rules/age-category-rules/).
 
 An age group that has classes cannot be deleted.
 
@@ -179,7 +179,7 @@ An age group that has classes cannot be deleted.
 
 ## Class levels and competition levels
 
-**Class Levels** and **Competition Levels** work the same way: **Add class level** or **Add competition level** under the list, **Edit class level** or **Edit competition level** on each row, drag to reorder, and a **Rules** tab for each level's overrides. Each has a **Name**, a **Code** and a **State**. New ones start as **Active**.
+**Class Levels** and **Competition Levels** work the same way: **Add class level** or **Add competition level** under the list, **Edit class level** or **Edit competition level** on each row, drag to reorder, and a **Federation rules** tab for each level's overrides. Each has a **Name**, a **Code** and a **State**. New ones start as **Active**.
 
 A competition level's **Code** must be unique in the whole federation, not only in its division. Saving a code that another competition level already uses is refused with "Another competition level in this federation already uses this code. Choose a different code."
 
@@ -195,8 +195,8 @@ The rule **Team represents** decides what is shown under each team's name on the
 | **Club** | Club and city, without the country |
 | **Individual dancer** | Only the team's country, without the club |
 
-1. Set the value most of your competitions need for the whole federation in `Federation → Rulebook`, or on a division's or discipline's **Rules** tab.
-2. Open **Competition Levels**, go to the **Rules** tab of a level that needs something else (for example your international level) and set **Team represents** there.
+1. Set the value most of your competitions need for the whole federation in `Federation → Rulebook`, or on a division's or discipline's **Federation rules** tab.
+2. Open **Competition Levels**, go to the **Federation rules** tab of a level that needs something else (for example your international level) and set **Team represents** there.
 3. Save. Pages that are already open update right away for events that have not ended yet. Older events show the change the next time the page is opened.
 
 A competition shows what its competition level says. A competition without a competition level uses the federation, division or discipline value. Event classes that are not linked to one of your federation's classes follow the federation, their division and discipline, and the competition level.
@@ -207,7 +207,7 @@ The check-in app and the club registration pages always show the club, city and 
 
 ## Classes
 
-The discipline's **Classes** section is a table of its classes: **Name**, **Code**, **Category**, **Class Level**, **Age Group**, **Advance By**, **Licenses**, **Rules**, **Target Class** and **State**.
+The discipline's **Classes** section is a table of its classes: **Name**, **Code**, **Category**, **Class Level**, **Age Group**, **Advance By**, **Licenses**, **Federation rules**, **Target Class** and **State**.
 
 - **Add class**: create one class. Pick its **Category**, **Class Level** and **Age Group**, give it a **Name** and **Code**, and set **Advance By**, **Target Class** and **State**. A new class starts as **Active**.
 - **Add many**: a grid of categories against class levels. Click the age group codes to select the combinations you want and press **Save changes**. Each class is created active, named from the discipline, category, class level and age group, and coded from their codes.
@@ -221,49 +221,49 @@ Promotion settings on a class (**Advance By**, **Target Class** and the threshol
 
 ## Rules
 
-Rules are set in layers that follow the structure: federation, division, discipline, category, age group, class level, class. The most specific layer that sets a value wins.
+Federation rules are set in layers that follow the structure: federation, division, discipline, category, age group, class level, class, and competition level for the events of one level. The most specific layer that sets a value wins.
 
-Each layer has its own place in Structure:
+Every layer has the same **Federation rules** editor:
 
 | Layer | Where |
 |---|---|
-| Division | Division → **Rules** (**Division rules**) |
-| Discipline | Discipline → **Rules** (**Discipline rules**) |
-| Category | **Categories** → **Rules** (**Category rules**) |
-| Age group | **Age Groups** → **Rules** (**Age group rules**) |
-| Class level | **Class Levels** → **Rules** (**Class level rules**) |
-| Class | The **Rules** button on the class row. With several classes selected, the rules are saved to all of them. |
+| Federation | **Federation rules**, at the top of the list on the left |
+| Division | The division's **Federation rules** section |
+| Discipline | The discipline's **Federation rules** section |
+| Category | **Categories** → **Federation rules** tab, then pick the category |
+| Age group | **Age Groups** → **Federation rules** tab, then pick the age group |
+| Class level | **Class Levels** → **Federation rules** tab, then pick the class level |
+| Competition level | **Competition Levels** → **Federation rules** tab, then pick the competition level |
+| Class | The **Federation rules** button on the class row. With several classes selected, the rules are saved to all of them. |
 
-Only set a rule where it differs from the layer above; empty fields inherit. Check the merged result in `Federation → Rulebook`. The rules themselves are documented under [Federation Rules](/federation-rules/).
+Only set a rule where it differs from the layer above; the rest is inherited. Each rule says where its value comes from, and the strip at the top of the editor takes you to any other layer. Changes are kept only after you press **Save rules**. How the editor works is described in [Setting federation rules](/federation-rules/editor/); check the result for one class in **Rulebook** → **Rules**.
 
 ### On/off rules
 
 Rules that are either on or off have three choices:
 
-- **Inherit** takes the value from a wider layer. On a rule's widest layer this choice is called **Default**, the platform's own setting.
-- **On** and **Off** set the value on this layer. A few rules use clearer words, such as **Allow** and **Forbid** or **Automatic** and **Manual**.
+- **Inherited** takes the value from a wider layer; the button shows that value, such as **Inherited · No**, and the line below says where it comes from.
+- **Yes** and **No** (or **On** and **Off**) set the value on this layer. A few rules use clearer words, such as **Allow** and **Club only**.
 
-The **Applies now** line under each rule says what applies and where it comes from, and it follows your choice before you save. If a category or class level sits under disciplines with different values, it says **Varies by class** and lists them.
+On a category or class level that sits under disciplines with different values, an inherited rule says **Varies by class**.
 
 To turn a rule off for most classes and on for a few, for example:
 
-1. Leave the rule on **Default**, or set **Off** on the discipline.
-2. Open **Categories** → **Rules** and pick the category that is the exception.
-3. Choose **On** (or **Allow**) and press **Save category rules**.
+1. Leave the rule inherited, or set **Off** on the discipline.
+2. Open **Categories** → **Federation rules** and pick the category that is the exception.
+3. Choose **On** and press **Save rules**.
 
-To undo a setting, choose **Inherit** again and save.
+To undo a setting, choose **Inherited** again, or click **Reset**, and save.
 
 **Allow custom competitor names** is off by default. Turn it on where competitors have their own name, such as formations, groups and breaking. Without it, competitors show under their dancers' names, unless the registration form asks for a team name.
-
-![The custom competitor names rule set to Default, with the Applies now line below it](/assets/images/federation-rules/custom-names-rule.png)
 
 ### Club membership required
 
 A federation can require that everyone who competes belongs to one of its clubs. Turn this on with **Club membership required**:
 
-1. Open the rules of the federation (`Federation → Rulebook`), a division, a discipline or a category, wherever the requirement should start.
+1. Open the federation rules of the federation, a division, a discipline or a category, wherever the requirement should start (see [Where to find each editor](/federation-rules/editor/#where-to-find-each-editor)).
 2. Under **Club membership required**, choose **Required**. **Disabled** is the default and checks nothing.
-3. Save the rules.
+3. Press **Save rules**.
 
 ![Club membership required set to Required in the rule editor](/assets/images/federation-rules/club-membership-required.png)
 
@@ -316,7 +316,7 @@ Only active license items that match the class's division and discipline are off
 ## Related pages
 
 - [Members](/federation/members/): the competitors in each class
-- [Federation Rules](/federation-rules/) and [How class rules work](/federation-rules/reference/)
+- [Federation Rules](/federation-rules/) and [How the round setup works](/federation-rules/reference/)
 - [Age category rules](/federation-rules/age-category-rules/)
 - [Promotion points](/federation/progression/)
 - [Age moves](/federation/age-moves/)

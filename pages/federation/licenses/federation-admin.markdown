@@ -304,7 +304,7 @@ Use `Division -> [division] -> [discipline] -> class -> License rules` when a cl
 - different divisions or classes need different accepted products
 - you want progression checks to use the same class-specific product logic
 
-The current class rule editor only offers active license items that match the same division and discipline as the class.
+The current federation rules editor only offers active license items that match the same division and discipline as the class.
 
 ### Add a class mapping
 
