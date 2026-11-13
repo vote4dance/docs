@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How class rules work
+title: How the round setup works
 permalink: /federation-rules/reference/
 parent: Federation Rules
 nav_order: 0
@@ -15,26 +15,26 @@ help:
   federation.discipline.default-ladder: default-ladder
 ---
 
-# How class rules work
+# How the round setup works
 
-Class rules answer one question: **"This class has N competitors — which rounds
+The round setup answers one question: **"This class has N competitors — which rounds
 does it dance?"** The federation writes the rules once per discipline, and the
 **Round Guide** in Manager applies them to every competition, so organizers get
-the right rounds without building them by hand. Class rules are not the
+the right rounds without building them by hand. The round setup is not the
 federation's rule profiles (licences, progression, age composition and the
-like): those are set under **Rulebook**, while class rules live per discipline
+like): those are set under **Rulebook**, while the round setup lives per discipline
 under **Structure**.
 
-This page starts with the thinking behind class rules and walks through one
+This page starts with the thinking behind the round setup and walks through one
 example. It then shows the screens you work in: the rules list, the rule editor,
 the checks that find rules that probably are not meant (findings), the **By class**
 tab that explains what a class gets, merging copies of the same rule, linking
 one rule across disciplines, and the default ladder. It ends with a reference of every condition, action and
 setting. For complete rule sets you can copy, see
-[Battle class rules](/federation-rules/battle-class-rules/) and
+[Battle round setup](/federation-rules/battle-class-rules/) and
 [Battle sub-rounds](/federation-rules/battle-sub-rounds/).
 
-Only federation administrators can change class rules. Other federation staff
+Only federation administrators can change the round setup. Other federation staff
 can read the list, the findings and **By class**.
 
 > **Draft.** This page collects what the other federation guides already use.
@@ -42,7 +42,7 @@ can read the list, the findings and **By class**.
 
 ---
 
-## The thinking behind class rules
+## The thinking behind the round setup
 
 ### The problem they solve
 
@@ -52,7 +52,7 @@ cuts, perhaps a B-final. Without rules, every organizer would build those
 rounds by hand at every event, and two competitions under the same federation
 could run the same class differently.
 
-Class rules move that decision to where it belongs: **the federation's
+The round setup moves that decision to where it belongs: **the federation's
 rulebook.** The federation describes once how a class is danced, and every
 competition gets the same answer for the same number of competitors.
 
@@ -65,7 +65,7 @@ something else". It describes a **pattern**:
 > first round is a placing round judged 10-0. Semifinal losers dance a B-final
 > for third place.*
 
-Class rules are written the same way, in three layers of thought:
+The round setup is written the same way, in three layers of thought:
 
 | Ask yourself | Goes into | Example |
 |---|---|---|
@@ -188,7 +188,7 @@ Rule 3 still finds the semifinal, because the semifinal is **always 2nd from the
 end**. Had rule 3 been set to "the third round from the start", it would have hit
 the semifinal at 10 competitors but the final at 6.
 
-This is the most important habit in class rules: **name stages from the
+This is the most important habit in the round setup: **name stages from the
 final.** The final is always the last round and the semifinal the one before,
 however many rounds a class gets. Use **The first round** for the one round that
 is always first.
@@ -207,12 +207,12 @@ between … competitors** if it reaches a round you did not mean.
 The steps follow the three questions above: the ladder first, then the stages,
 then the exceptions.
 
-1. **Write the base rule.** Press **Add class rule** in the **Class rules** tab.
+1. **Write the base rule.** Press **Add rule** in the **Round setup** section.
    Leave **When** on **Every round**, and under **Change** pick **Rounds** and fill
    in one row per round, from the final outward ([Rounds: round names and round
    sizes](#rounds-round-names-and-round-sizes)). For a 1v1 battle discipline, set **Round type** to
    **Brackets** instead and let the generator build the bracket
-   ([Battle class rules](/federation-rules/battle-class-rules/)).
+   ([Battle round setup](/federation-rules/battle-class-rules/)).
 2. **Check it.** Open the **By class** tab ([Check a class](#check-a-class)),
    pick a class, and try a few numbers of competitors — a small one, a typical
    one and a large one — to see the round list before adding anything else.
@@ -233,19 +233,19 @@ then the exceptions.
 
 ## The rules list
 
-Class rules live per discipline under **Federation → Structure → (division) →
-Discipline**, in the **Class rules** tab. The tab has three parts: **Rules**, the
+The round setup lives per discipline under **Federation → Structure → (division) →
+Discipline**, in the **Round setup** section. The section has three parts: **Rules**, the
 list; **Findings**, a check of the list ([Findings](#findings)); and **By class**,
 which explains what one class gets ([Check a class](#check-a-class)).
-**Preview a class** at the top of the page opens **By class**, **Add class
+**Preview a class** at the top of the page opens **By class**, **Add
 rule** opens the rule editor with an empty rule, and **Download CSV** saves the
 whole list as a spreadsheet ([Download the rules](#download-the-rules)).
 
-![The Class rules tab with the grouped list](/assets/images/class-rules/grouped-list.png)
+![The Round setup section with the grouped list](/assets/images/class-rules/grouped-list.png)
 
 ### Grouped and flat
 
-Over the years a discipline's class rules collect **copies**: the same rule
+Over the years a discipline's rules collect **copies**: the same rule
 written once per class level or age group, because a rule could only name one
 of each. The list folds them into **groups**. A group is every rule that does
 exactly the same thing — the same conditions, the same changes, the same action
@@ -266,7 +266,7 @@ divided into four sections by what the rule changes: **Ladder · how many
 rounds** (round sizes and round names), **Floor and music**, **Hidden results**
 and **Other**. Order decides which rule wins when two rules set the same value.
 Drag a row to move it; the copies of a group always move together. A group that a
-round setup has replaced is locked and cannot be moved.
+round template has replaced is locked and cannot be moved.
 
 Each group row shows:
 
@@ -309,7 +309,7 @@ copies that passes the check in one go ([Merge all safe groups](#merge-all-safe-
 To go through a discipline's rules in a spreadsheet, for example to agree
 changes with the people who write your rulebook, download them:
 
-1. Open the discipline's **Class rules** tab.
+1. Open the discipline's **Round setup** section.
 2. Press **Download CSV** at the top of the page. The file is called
    **class-rules-(discipline)-(date).csv**.
 3. Open it in Excel, Numbers or Google Sheets.
@@ -334,7 +334,7 @@ The file is for reading and marking up. Changes are still made in the rule
 editor: write the **Rule ID** next to a change, so it is easy to find the rule
 again.
 
-![Download CSV at the top of the Class rules tab](/assets/images/class-rules/download-csv.png)
+![Download CSV at the top of the Round setup section](/assets/images/class-rules/download-csv.png)
 
 ### Row 0: the default ladder
 
@@ -349,8 +349,8 @@ ladder](#default-ladder)).
 
 ## The rule editor
 
-**Add class rule**, and **Edit** or **Edit all** on a row, open the rule editor.
-It is a page of its own, with **Class rules** in the breadcrumb to go back. The
+**Add rule**, and **Edit** or **Edit all** on a row, open the rule editor.
+It is a page of its own, with **Round setup** in the breadcrumb to go back. The
 title says what the rule does in words, such as "Max 4 on the floor in the
 quarter-final". **Save** stores the rule, **Disable** (or **Enable**) switches it
 off without deleting it, and **More** has **Copy**, **Paste** and **Delete**.
@@ -434,11 +434,11 @@ in plain words from then on.
 ### A round before the first round
 
 Some classes dance a round before the competition starts that is not judged,
-such as a presentation where every couple is shown, or a warm-up. A class rule
+such as a presentation where every couple is shown, or a warm-up. A rule
 adds it to the classes it is for, so organizers get it from the Round Guide
 without adding it by hand.
 
-1. Press **Add class rule** and, under **Applies to**, pick the classes the
+1. Press **Add rule** and, under **Applies to**, pick the classes the
    round is for, such as the levels that dance a presentation.
 2. Under **When**, set **Which rounds** to **Before the first round**. The rule
    now adds a round: under **Advanced**, **Action** says **Add before the first
@@ -467,8 +467,8 @@ danced, from the end backwards, and each round's size and name sit side by side.
 The example is the Disco ladder: a final of 6, a semifinal of 12, a quarterfinal
 of 24 and two preliminary rounds, where classes of up to 8 dance a final only.
 
-1. Open the rule (**Edit** on its row in the **Class rules** tab), or press **Add
-   class rule** and pick **Rounds** under **Change**. A rule that sets round sizes
+1. Open the rule (**Edit** on its row in the **Round setup** section), or press **Add
+   rule** and pick **Rounds** under **Change**. A rule that sets round sizes
    or round names can only be for **Every round**, with or without a number of
    competitors.
 2. In the **Final** row, enter the **Round size** — the most competitors the final
@@ -554,7 +554,7 @@ ladder** (a rule that sets round sizes, names or brackets also waits for a
 particular round, which can never hold), **Overlapping ladders** (two rules give
 the same class a ladder at the same numbers of competitors, so their sizes are
 merged and their names added after each other) and **Same as the default
-ladder** or **Could be one class rule** (a rule that repeats the default ladder,
+ladder** or **Could be one rule** (a rule that repeats the default ladder,
 or copies that together name every value of an axis).
 
 Two kinds point at rules that cannot work at all, and are also listed without a
@@ -608,14 +608,14 @@ Press **Apply to 1 rule** (the button says how many).
 
 **Ladder gap.** The review lists the rules that have a ladder at that size and the
 ones that do not, and what the classes get now. There is nothing to click to fix
-it: add a ladder rule for the missing sizes with **Add class rule**, or answer
+it: add a ladder rule for the missing sizes with **Add rule**, or answer
 **Mark as intended** with a reason, for example that these classes never get that
 many competitors.
 
 **Other findings.** **Reaches no class** and **Same as the default ladder** offer
 **Hide these rules** (in your browser only); **Round condition on a ladder**
 offers **Remove the condition**, which changes nothing because the condition
-never applied; **Could be one class rule** offers **Make it "any"**, which opens
+never applied; **Could be one rule** offers **Make it "any"**, which opens
 the merge with every value of that axis selected. **Mark as intended**, with an
 optional reason, is there for every kind except **Cannot be read**.
 
@@ -628,7 +628,7 @@ you can switch it on again later. To deal with one:
 2. Press **Switch off**, and confirm with **Switch off** in the question that
    follows ("Switch off this rule? It stays saved and can be switched on
    again."). **Switched off** confirms it, and the finding leaves the list.
-3. If the rule is still needed, make it again with **Add class rule**: for a
+3. If the rule is still needed, make it again with **Add rule**: for a
    deleted value, pick a category, level or age group that exists; for a rule
    that cannot be read, set its conditions and changes again in the editor.
 
@@ -675,16 +675,16 @@ now.
 
 ### Across the federation
 
-**Federation → Structure → Class rule findings** checks the class rules of every
+**Federation → Structure → Round setup findings** checks the round setup of every
 discipline in turn. This is not the Rulebook: the federation's rule profiles live
-there, and this page only reads class rules. Open it from the **Class rule
+there, and this page only reads the round setup. Open it from the **Round setup
 findings** card on a division's Structure page, or from the Structure menu. It
-reads all the federation's class rules, so it runs when you press **Check all
+reads the round setup of the whole federation, so it runs when you press **Check all
 disciplines**; **Check again** runs it again after you have made changes. The
 results are kept until the next run, and the line under the heading says when it
 last ran and how many disciplines and active classes it covered.
 
-![Class rule findings across the federation](/assets/images/class-rules/federation-findings.png)
+![Round setup findings across the federation](/assets/images/class-rules/federation-findings.png)
 
 The page has the same tiles, **To decide** cards and **Marked as intended** as a
 discipline's tab, with the disciplines named on each card, and **Review** opens
@@ -702,7 +702,7 @@ The **By class** tab answers "why did this class get these rounds?" — it is th
 page to open when an organizer says "the rounds look wrong". It works for one
 class at one number of competitors.
 
-1. Open the **Class rules** tab and then **By class** (or press **Preview a
+1. Open the **Round setup** section and then **By class** (or press **Preview a
    class**).
 2. Pick the class under **Class**.
 3. Set **Competitors**: press 8, 9, 10, 24 or 30, or type a number.
@@ -784,7 +784,7 @@ blocks**. Copies that are in no block stay as they are.
 What to know:
 
 - **The copies are removed and this cannot be undone.** To split the rule again,
-  open it, press **More → Copy**, press **Add class rule**, press **More → Paste**,
+  open it, press **More → Copy**, press **Add rule**, press **More → Paste**,
   then narrow its category, class level or age group.
 - **Identical copies can be merged while "Copies differ" is open** for a group:
   the odd copies stay separate and are not touched.
@@ -894,7 +894,7 @@ this section.
 
 Ticking a discipline that already has the same rule links that copy, so the
 discipline never gets the rule twice. Otherwise the rule is added at the end of
-that discipline's rules. A rule you create with **Add class rule** always gets a
+that discipline's rules. A rule you create with **Add rule** always gets a
 new copy in each discipline you tick.
 
 Saving a change to what a linked rule says (its conditions, its changes, who it
@@ -913,7 +913,7 @@ What to know:
   copies this affects, and saving asks **Unlink the other divisions and save?**.
   Press **Unlink and save**: the other divisions keep their own copy, no longer
   linked.
-- Rules that belong to a round setup, the default ladder and rules a round setup
+- Rules that belong to a round template, the default ladder and rules a round template
   has replaced stay in their own discipline and cannot be linked.
 - The **Setup** tag under **Advanced** is part of the rule, so it is the same in
   every discipline the rule is linked with.
@@ -950,7 +950,7 @@ identical across the disciplines.
    **Will link**: each rule that will be linked and the disciplines it will be
    linked across, for example "max 3 on the floor in the semi-final" · Hiphop,
    Breaking, Popping.
-3. Press **Merge 9 groups**. The groups are merged one after the other, and the
+3. Press **Merge 2 groups**. The groups are merged one after the other, and the
    identical rules are linked last. When there is nothing to merge but something
    to link, the button says **Link 9 rules** instead.
 4. The result lists **Linked** next to what was merged, and **Not linked** for any
@@ -1026,7 +1026,7 @@ Without it, the app's built-in ladder is used, with round names in the language 
 whoever creates the rounds. It is row 0 of the list, **Rule 0 · pinned first**,
 and has the lowest priority: any other rule that sets round sizes or names wins.
 
-1. In the **Class rules** tab, press **Set** (or **Edit**) on the **Default ladder**
+1. In the **Round setup** section, press **Set** (or **Edit**) on the **Default ladder**
    row. The page **Default ladder · (discipline)** opens.
 2. Under **Ladder**, pick the language under **Names in** — it starts in the
    federation's language. In the table, each round has an **Up to** (the largest
@@ -1083,13 +1083,13 @@ findings: ladder rules that now say exactly the default.
 
 ## Reference
 
-### Where class rules live
+### Where the round setup lives
 
-Class rules live per discipline under **Federation → Structure → (division) →
-Discipline**, in the **Class rules** tab. **Applies to** in the rule editor
+The round setup lives per discipline under **Federation → Structure → (division) →
+Discipline**, in the **Round setup** section. **Applies to** in the rule editor
 narrows a rule from the whole discipline to a category, class level or age group.
-Where a federation uses [round setups](/federation-rules/round-setups/), the
-rules a setup manages are listed under it and are read-only.
+Where a federation uses [round templates](/federation-rules/round-setups/), the
+rules a template manages are listed under it and are read-only.
 
 ### When: rounds and class sizes
 
