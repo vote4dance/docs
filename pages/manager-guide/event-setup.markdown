@@ -179,7 +179,7 @@ That is what gives the public schedule, the speaker and the screens their times.
 ### Registration & Payment Settings
 
 Fees are not set on the event. They belong to the **registration period**, which also decides
-the payment mode (free, invoice, or online through Stripe), the currency and the price ladder.
+the payment mode (free of charge, manual, or online through Stripe), the currency and the price ladder.
 See [Registration and check-in](/manager-guide/registration-checkin/).
 
 ## What you can print

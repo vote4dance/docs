@@ -54,9 +54,6 @@ The card at the top tells you what is left, and counts it (**1 thing left**). It
 | **Waiting for the organizer to approve your registration** | The organizer approves registrations by hand. | Nothing yet. If the event takes card payment, you can pay once you are approved. |
 | **All set** | Nothing is left to do. | Nothing. |
 
-When your club pays for its dancers with one invoice, the club's invoice can be listed here as well,
-with its amount and a **Pay club invoice** button.
-
 Below the card you see until when you can change your classes online (**You can change classes
 online until…**). After that, changes are made at the desk.
 

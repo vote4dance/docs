@@ -43,7 +43,7 @@ You can enter all of this later, but the setup goes much faster if you have deci
 3. **Classes** — which classes dancers can enter: discipline, age group, level/class, team size.
 4. **Round structure per class** — is it a final only, or qualification → semifinal → final, and how many go through each time.
 5. **Judges** — who judges, how many per panel, which classes each panel takes.
-6. **Registration** — when it opens and closes, what it costs, and whether payment is online (Stripe), invoice or free.
+6. **Registration** — when it opens and closes, what it costs, and whether payment is online (Stripe), manual or free.
 7. **Functionaries** — who sits at the desk, who runs the screens, who is the speaker, who lets dancers on to the floor.
 8. **Devices** — count them: one computer for Manager, one computer per projector/TV, one tablet per judge, one tablet or phone each for check-in, lineup and speaker. See [Technical requirements](/requirements/).
 9. **Awards** — medals/diplomas per class, and whether you print diplomas on site.
