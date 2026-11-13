@@ -108,6 +108,10 @@ Defining items is not enough on its own. Open the relevant
 `Division → Discipline → Class → License rules` and map the products a class accepts. This is
 what makes a licence count at registration, and it needs the **Administrator** role.
 
+A licence that a class accepts can still be turned away at some events. For example, a
+single-competition licence can be refused at championships. Set that on the competition level: see
+[Licences that don't count at a level](/federation/season-ranking/#licences-that-dont-count-at-a-level).
+
 ### Step 4: Decide which clubs may issue
 
 For items with organization mode `Required`, the club must be an **approved issuer**. Grant that
