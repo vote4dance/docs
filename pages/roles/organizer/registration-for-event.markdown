@@ -39,7 +39,7 @@ period at different prices. For each period, set:
 | Setting | Choices |
 |---|---|
 | **Name and dates** | When it opens and closes. |
-| **Payment mode** | Free, manual (invoice), or online with Stripe. |
+| **Payment mode** | **Free of charge**, **Manual payment**, or **Online payment** with Stripe. A club that registers entries pays them with **Pay now** on its registration list, and gets a receipt and an invoice made out to the club. |
 | **Acceptance mode** | **Manual**: you approve each registration. **Direct**: registrations are approved automatically (with online payment, once paid). |
 | **Currency and prices** | The price ladder. |
 | **Rules and form** | What the registration asks for, and which rules apply. |
@@ -69,7 +69,7 @@ On the **Registrations** tab:
 
 | Status | What it means |
 |---|---|
-| **Preliminary** | Registered, not yet accepted. With manual acceptance or invoice payment, every registration starts here. |
+| **Preliminary** | Registered, not yet accepted. With manual acceptance, every registration starts here. |
 | **Signed** | An optional step for your own bookkeeping. Never set automatically. |
 | **Approved** | Accepted. **Only Approved registrations become participants.** |
 | **Rejected** | Declined by you. |
@@ -94,7 +94,7 @@ Then assign start numbers and add participants to the first rounds. See
 |---|---|
 | Nobody can register | Check that the event is published **and** that a registration period is open today. You need both. |
 | A dancer cannot see or enter a class | Check the period's **allowed classes**. Then check the class's Federation Class: the dancer's age, licence or dance role may not fit. The class list shows the dancer the reason. |
-| A registration is stuck on Preliminary | With manual acceptance you approve it yourself. With invoice payment, approve it once paid. |
+| A registration is stuck on Preliminary | With manual acceptance you approve it yourself. With manual payment, approve it once you have received the payment. |
 | An online payment was abandoned | The registration is removed automatically. The dancer starts again. |
 | An approved registration is not in the lineup | Run **Update/import participants** again. The **Imported** check shows which registrations are in. |
 | A dancer wants a refund after cancelling | Cancelling does not refund. You refund from Manager. If the dancer registered again and paid twice, see [Paid twice after cancelling](/manager-guide/registration-checkin/#paid-twice-after-cancelling). |

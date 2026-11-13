@@ -122,7 +122,7 @@ The status decides whether you are in. **Only Approved counts.**
 
 | Status | What it means | What you do |
 |---|---|---|
-| **Preliminary** | Registered, but **not yet a participant**. Normal when the organizer approves by hand or you pay by invoice. | Wait, or pay the invoice. Ask the organizer if it stays here close to the event. |
+| **Preliminary** | Registered, but **not yet a participant**. Normal when the organizer approves by hand. | Wait, or pay if the event asks for payment. Ask the organizer if it stays here close to the event. |
 | **Signed** | An optional step the organizer uses for their own bookkeeping. | Nothing. |
 | **Approved** | Accepted. You are in. Automatic when an online payment completes, when the period accepts directly, or when the organizer or the check-in desk entered you. | Keep the email: it has your check-in QR code. |
 | **Cancelled** | Withdrawn by you, your club or the organizer. | Register again if it was a mistake and registration is still open. |

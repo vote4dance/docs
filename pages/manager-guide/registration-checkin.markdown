@@ -25,7 +25,7 @@ Emails, the check-in QR code and how to test them are on [Emails and the check-i
 |---|---|
 | `Registrations` | Every registration in the competition, with status, payment and the **Imported** check. This is where you approve, reject, email and import. Click a column header such as **Participant name** to sort. Type in **Filter by name** above the table to find a registration by its team name or any dancer's name; it combines with the class, status and payment filters. When the registrations carry clubs, an **Organization** column shows the club each entry represents (see [Which club a dancer represents](#which-club-a-dancer-represents)); sort on it, or use its filter to list one club's entries. |
 | `Participants` | The registrations grouped by class, with how many are Approved, Signed (only when the event uses it) and Preliminary. A read-only view of what will be imported. It is **not** the participant list itself — that lives under `Competition → Participants`. |
-| `Organizations` | Registrations grouped per club, with the club's payment invitations. A red tag such as **1 cancelled (paid 300 SEK)** means entries were cancelled after they had been paid, which you may need to refund; hover it to see which ones. Entries cancelled before anyone paid are not shown, since they change nothing the club owes. |
+| `Organizations` | Registrations grouped per club, with what each club still owes and the payment reminders. Use **Send** to remind clubs or dancers of what they still owe; they pay with **Pay now** on their registration list. A red tag such as **1 cancelled (paid 300 SEK)** means entries were cancelled after they had been paid, which you may need to refund; hover it to see which ones. Entries cancelled before anyone paid are not shown, since they change nothing the club owes. |
 | `Finances` | Expected, paid and outstanding totals per currency and period, and who still owes what. |
 | `Registration period` | The registration windows: dates, payment mode, acceptance mode, prices, rules and form. |
 | `Data transfer` | CSV import of participants, result downloads, and the reset and delete tools. Not an export to another system. |
@@ -37,7 +37,7 @@ On the `Participants` tab, each class shows its number of registrations per stat
 For each period define:
 
 - Name and start/end timestamps
-- Payment mode: free, manual/invoice, or online (Stripe)
+- Payment mode: **Free of charge**, **Manual payment**, or **Online payment** (Stripe)
 - Acceptance mode: manual or direct
 - Currency and price ladder
 - Rule/form configuration
@@ -64,7 +64,7 @@ A name you type on a registration yourself always shows and is imported. If the 
 
 | Status | Meaning | How a registration gets there |
 |---|---|---|
-| **Preliminary** | Registered, not yet accepted. Not counted as a participant. | Automatic when the dancer or club registers in a period with **manual** acceptance or invoice payment. |
+| **Preliminary** | Registered, not yet accepted. Not counted as a participant. | Automatic when the dancer or club registers in a period with **manual** acceptance. |
 | **Signed** | Optional intermediate step for your own bookkeeping. Never set automatically, and no email is sent for it. | Manually, from the status dropdown. |
 | **Approved** | Accepted. This is the only status the import uses. | Automatic when the online payment is completed, when the period uses **direct** acceptance, or when you or the check-in desk enter the registration, paid or not. Otherwise manually. |
 | **Rejected** | Declined by the organizer. | Manually. |
@@ -74,7 +74,7 @@ A name you type on a registration yourself always shows and is imported. If the 
 Things that regularly cause confusion:
 
 - **The list opens on Preliminary and Approved together.** Change the status filter to see cancelled, rejected or all registrations. The filter is a viewing aid only.
-- **Preliminary registrations are counted above the list**, for example "2 registrations are still preliminary". Set a registration's status to **Approved** to accept it; with invoice payment, approve it once it is paid. Click **Show only these** to list just the preliminary ones.
+- **Preliminary registrations are counted above the list**, for example "2 registrations are still preliminary". Set a registration's status to **Approved** to accept it; with manual payment, approve it once you have received the payment. Click **Show only these** to list just the preliminary ones.
 - **Names in orange** are not an error. The row shows a **team name or custom name** instead of the dancers' names. Hover the name to see the dancers behind it. Every other row shows the dancers' names in the normal colour.
 
 ![The Registrations tab with the notice counting preliminary registrations, the Show only these button and the Organization column](/assets/images/registration/registrations-preliminary-notice.png)
