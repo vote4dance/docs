@@ -124,7 +124,7 @@ Open `Organization → Administration → Registration` and the event's card. Th
 
 ![The confirmation before signing, with the amount the organization commits to pay and the reference](/assets/images/organization-signing/3b-sign-confirm.png)
 
-**Decline an entry.** Press **Decline** and confirm **Decline the entry in …?**. The entry is withdrawn, and its dancers get an email asking them to contact the organization. It moves to **Declined** at the bottom of the list, tagged **Declined by the organization**. Declining cannot be undone from here: if it was a mistake, the dancers register again, and you sign the new entry.
+**Decline an entry.** Press **Decline** and confirm **Decline the entry in …?**. The entry is withdrawn, and its dancers get an email asking them to contact the organization. It moves to **Declined** at the bottom of the list, tagged **Declined by the organization**. Declining cannot be undone from here: if it was a mistake, the dancers register again, and you sign the new entry. An entry that is already paid cannot be declined, because the organizer has the money: ask the organizer to withdraw it and refund the payment.
 
 ![A declined entry tagged Declined by the organization](/assets/images/organization-signing/6b-declined-club.png)
 
