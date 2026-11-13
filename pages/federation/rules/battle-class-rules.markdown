@@ -139,11 +139,13 @@ Some rulebook choices are switches rather than round changes. Set them in a modi
 in the **Bracket setting** group of the rule editor); a count condition on the rule decides which
 class sizes they apply to.
 
-1. In the discipline's **Round setup** section, click **Add rule** (or **Edit rule** on an
+1. In the discipline's **Round setup** section, click **Add rule** (or **Edit** on an
    existing one).
-2. Choose the battle **Category** the rule is for.
-3. Click **Add round setting**, pick a setting that starts with **Bracket:**, and set its value.
-4. Click **Save changes**.
+2. Under **Applies to**, click **Pick some…** next to **Categories** and choose the battle
+   category the rule is for.
+3. Under **Change**, click **Another change**, pick a setting that starts with **Bracket:**, and
+   set its value.
+4. Click **Save**.
 
 ![A rule that turns on the redance round and names it](/assets/images/round-setups/bracket-settings.png)
 

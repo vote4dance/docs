@@ -237,7 +237,7 @@ The round setup lives per discipline under **Federation → Structure → (divis
 Discipline**, in the **Round setup** section. The section has three parts: **Rules**, the
 list; **Findings**, a check of the list ([Findings](#findings)); and **By class**,
 which explains what one class gets ([Check a class](#check-a-class)).
-**Preview a class** at the top of the page opens **By class**, **Add class
+**Preview a class** at the top of the page opens **By class**, **Add
 rule** opens the rule editor with an empty rule, and **Download CSV** saves the
 whole list as a spreadsheet ([Download the rules](#download-the-rules)).
 
@@ -950,7 +950,7 @@ identical across the disciplines.
    **Will link**: each rule that will be linked and the disciplines it will be
    linked across, for example "max 3 on the floor in the semi-final" · Hiphop,
    Breaking, Popping.
-3. Press **Merge 9 groups**. The groups are merged one after the other, and the
+3. Press **Merge 2 groups**. The groups are merged one after the other, and the
    identical rules are linked last. When there is nothing to merge but something
    to link, the button says **Link 9 rules** instead.
 4. The result lists **Linked** next to what was merged, and **Not linked** for any

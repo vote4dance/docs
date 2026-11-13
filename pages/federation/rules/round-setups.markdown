@@ -99,7 +99,7 @@ Values build on each other, and each level only holds what differs from the leve
 | A size column, such as **8+** | One round, for classes of that size |
 
 A dash means the round isn't danced at that size. Click a cell to open its panel, add what differs
-with **Add round setting**, and click **Apply**.
+with **Another change**, and click **Apply**.
 
 ![The panel for one cell](/assets/images/round-setups/setup-cell-panel.png)
 
