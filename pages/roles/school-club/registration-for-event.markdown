@@ -6,6 +6,7 @@ parent: School/Club
 nav_order: 5
 help:
   public.organization.registrations.change-class: moving-an-entry-to-another-class
+  public.organization.registrations.signing: signing-your-members-entries
 ---
 
 # Registering your club's dancers for an event

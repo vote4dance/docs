@@ -8,6 +8,7 @@ help:
   public.event.me: ""
   public.event.me.music: your-music
   public.event.me.change-class: changing-class
+  public.event.me.organization-signing: when-your-organization-signs-your-entry
   public.event.me.share: sharing-your-result-and-your-diploma
 ---
 

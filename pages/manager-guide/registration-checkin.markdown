@@ -7,6 +7,9 @@ nav_order: 3
 help:
   manager.comp.registration: the-registration-page
   manager.comp.registration.periods: registration-periods
+  manager.comp.registration.organization-signing: organizations-sign-their-dancers-entries
+  manager.comp.registration.organization-signing.mark-paid: mark-an-organization-as-paid-manual-payment
+  manager.comp.registration.organization-signing.reminders: send-reminders
   manager.comp.registration.data: data-transfer
   manager.comp.checkin: check-in
 ---
