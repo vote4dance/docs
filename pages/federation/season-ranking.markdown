@@ -19,12 +19,12 @@ It builds on [Closing a class at points](/federation/class-point-limits/), which
 These rules are set on a **competition level**, so they apply whenever a competition runs at that level, for example a championship.
 
 1. Go to **Structure**, choose the division and open **Competition Levels**.
-2. Choose the competition level and open its **Rules** tab.
+2. Open the **Federation rules** tab and pick the competition level.
 3. Fill in the rules you need:
    - **Points needed to enter**: for each class level, **At least** and **At most**. A team with exactly that number can enter. A class level left empty has no range. "At least" cannot be higher than "At most".
    - **Winners who may enter anyway**: choose a **Competition level** and a **Class level**. A team that placed 1st at that competition level, in that class level, earlier this season in the same discipline and category may enter with too few points. It lifts only the minimum: it does not lift the upper limit or the number of competitions.
    - **Competitions danced before entering**: how many earlier competitions this season, in the same discipline and category, a team must have danced. Leave it empty for no minimum.
-4. Press **Save competition level rules**.
+4. Press **Save rules**.
 
 ![Points needed to enter and Winners who may enter anyway on a competition level](/assets/images/season-ranking/entry-rules.png)
 

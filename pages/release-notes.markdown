@@ -7,7 +7,14 @@ nav_order: 10
 
 # Release notes
 ## 2026-11-13
+ ⭐ **New**
+* Federation: Every level now has the same federation rules editor, on its own page in **Structure**: the federation (new **Structure** → **Federation rules**), a division, a discipline, a category, an age group, a class level, a competition level and a class. A strip at the top shows every level and how many rules each sets; click one to open it. The rules are grouped by topic, **Find a rule** finds one by a word, and **All** / **Set here** shows every rule or only the ones this level sets. Each rule says whether it is inherited and from where, or what it replaces, and nothing is saved until you press **Save rules** in the bar that lists your changes (see [Setting federation rules](/federation-rules/editor/))
+* Federation: **Rulebook** → **Rules** now says in plain sentences what applies to one class, such as "Only the dancer can apply for a licence.", with the level that set each rule, **Where it comes from**, and a **Change at** link to that level. Pick a level under **At a competition of level** to include the rules that only apply at those events (see [What applies to one class](/federation-rules/#what-applies-to-one-class))
  🛠️ **Improvements**
+* Federation: The class rules on a discipline are now called **Round setup**, and round setups are now called **Round templates**, so they are no longer mixed up with the federation rules. Nothing else changed (see [How the round setup works](/federation-rules/reference/) and [Round templates](/federation-rules/round-setups/))
+* Federation: **Rulebook** → **Where rules are set** shows every rule against every level, grouped by topic, with the value set and how many classes it reaches. Click a cell to open that level (see [Where rules are set](/federation-rules/#where-rules-are-set))
+* Federation: **Progression** on a division now groups what stops classes from promoting **By cause**, such as **No “Promotes to” class** or **Competition levels that give no points**, with a button to fix each (see [Check promotion by cause](/federation/progression/#check-promotion-by-cause))
+* Federation: **Rulebook** → **Setup check** says when promotion is not set up in a division, and links each division to its **Progression** (see [Setup check](/federation-rules/#setup-check))
 * Scrutineer (Beta): A floor section you add now gets a letter code straight away, so the public schedule shows round numbers such as `1A` and `1B` again. A section named `A` or `Section B` gets that letter; otherwise it gets the first letter the floor's other sections don't use. Before, a new section got no letter code and the schedule showed only `1`. For sections you already added, open **Edit** on the section and fill in **Letter** (see [Create a section](/manager-guide/floors/#create-a-section))
 ## 2026-11-12
  ⭐ **New**

@@ -62,7 +62,7 @@ Some federations only let the club register a competitor, or only a member of th
 list says so.
 
 **The rules are checked on the lineup that dances**, with the team's skipped and replacement
-dancers applied. This covers the federation's class rules and licences and the organizer's own class
+dancers applied. This covers the federation's rules and licences and the organizer's own class
 and period rules (age, team size, dance roles), and they are checked again when the registration is
 sent, not only on the page. So:
 
@@ -96,7 +96,7 @@ and payment.
 - The receipt or invoice the club gets after paying has one line per team or dancer. Each line
   names the team, its dancers and its classes, so you can match every amount to a team.
 - **Edit lineup** changes the dancers while the period is open. Some events lock the lineup once
-  paid. The new lineup is checked against the class rules again. Where the federation counts your
+  paid. The new lineup is checked against the federation rules again. Where the federation counts your
   club's dancers, a swap is free and an extra dancer is paid for: see
   [Changing a group's lineup after paying](#changing-a-groups-lineup-after-paying).
 - **Change class**, the swap icon next to **Edit lineup**, moves an entry to another class while the

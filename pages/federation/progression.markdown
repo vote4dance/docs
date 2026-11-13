@@ -47,7 +47,7 @@ A couple's first processed entry opens their balance:
 
 Promotion points are a **federation rule**, so they are edited in the rule editor of the scope they should apply to. The usual place is the class level, because the points normally differ per level (a lower class awards fewer points than a higher one):
 
-`Federation → Structure → (division) → Class Levels → Rules → (select the class level)`
+`Federation → Structure → (division) → Class Levels → Federation rules → (select the class level)`
 
 The same rules can be set on the federation, a division, a discipline or a single federation class; the **Rulebook** lists the layers each rule accepts. A narrower scope replaces the wider one; the table is replaced as a whole, not merged row by row.
 
@@ -63,13 +63,29 @@ The rules involved:
   - **Points**.
   Rows are tried from the top and the first matching row wins, so put the specific rows (a direct-final variant, a small-field variant) above the general ones.
 - **Promotion points reach** — *Finalists only* (default) or *All placed, including earlier rounds*. Choose the second when your rulebook pays by place alone, whichever round the place was earned in; give dancers out before the final a row for their places (for example places 7 and up). You don't need it for rows that name a round: those pay either way.
-- **Awards promotion points** — turn it off on a **competition level** (`Structure → (division) → Competition levels → Rules`) to make a whole tier of competitions, such as a championship, award nothing.
+- **Awards promotion points** — turn it off on a **competition level** (`Structure → (division) → Competition Levels → Federation rules`) to make a whole tier of competitions, such as a championship, award nothing.
 - **Opening rounds count as the start of a class** — off by default. See [When a class starts directly](#when-a-class-starts-directly).
-- **Ladder** — each class that promotes needs *Advance by: points*, a *target class*, and a *promotion threshold* on its class level or class rules. Leave the threshold unset if promotion is decided by hand.
+- **Ladder** — each class that promotes needs *Advance by: points*, a *target class*, and a *promotion threshold* on its class level or federation rules. Leave the threshold unset if promotion is decided by hand.
 
 Check the result on `Structure → (division) → Progression`: every class with where it promotes to, the threshold, where its points come from, and, per class, the resolved table with the scope it was inherited from and a small calculator ("place 1 of 8 starters → points"). The tab warns about configurations that would silently do nothing, such as a table without the matching source.
 
 ![The points table and the calculator on the Progression tab](/assets/images/promotion-points/points-table-preview.png)
+
+### Check promotion by cause
+
+At the top of **Progression**, a heading says how promotion stands in the division: **Promotion is set up in this division**, **Promotion is set up, but 3 classes need a look**, or **Promotion is not set up in this division**. Below it, the counters show how many classes there are, how many **Promote automatically**, how many are **Not set up** and how many **Need a look**.
+
+**By cause** groups the classes that don't promote by what is missing, so you fix a whole group at once instead of class by class:
+
+1. Read each cause and how far it reaches, for example **No “Promotes to” class** for *Standard, Latin, Tio-Dans and 1 more discipline · all class levels from A-klass to E-klass*, with the number of classes.
+2. Click **Show** to list only those classes below, or **Show all classes** to list them all again.
+3. Use the button on the cause to fix it: **Set up a ladder** or **Set “Promotes to”** opens the discipline's classes at the first class concerned, where you set the class it promotes to, and **Change at** (a competition level) opens that level's federation rules.
+
+**Competition levels that give no points** lists the levels where **Awards promotion points** is turned off; results at their events give no points, whatever the class says.
+
+If promotion happens outside Vote4Dance, **Promotion is not set up** is fine and there is nothing to do.
+
+![Progression for a division where promotion is not set up, with the By cause list](/assets/images/federation-rules-editor/progression-by-cause.png)
 
 Note that the promotion threshold compares the **sum of everything the couple has earned since joining the class**. A rulebook that promotes on the best N results of a season cannot be expressed as an automatic threshold yet; leave the threshold unset and promote manually from the roster. Ranking standings, by contrast, can use best-N windows, see [Federation admin rankings](/federation-rankings/federation-admin/).
 
@@ -77,11 +93,11 @@ Note that the promotion threshold compares the **sum of everything the couple ha
 
 Some rulebooks pay for reaching a round, whatever the place. A semifinalist may earn 5 points, while a finalist on the same place earns what the final pays. A place alone can't tell those two dancers apart, so name the round on the row.
 
-1. Open `Structure → (division) → Class Levels → Rules` and select the class level.
+1. Open `Structure → (division) → Class Levels → Federation rules` and select the class level.
 2. In **Promotion points table**, set **Round** to *Final* on the rows that pay by place in the final.
 3. Press **Add a points row** and set **Round** to *Semifinal*. The places empty themselves: this row pays everyone who went out in that round, whatever their place.
 4. Fill in **Points** and, if the rulebook asks for it, **Min. jury marks**.
-5. Press **Save class level rules**, then check a few results with the calculator on the **Progression** tab.
+5. Press **Save rules**, then check a few results with the calculator on the **Progression** tab.
 
 ![Two semifinal rows in the points table](/assets/images/promotion-points/points-table-semifinal.png)
 
@@ -118,8 +134,8 @@ If your rulebook says otherwise, turn on **Opening rounds count as the start of 
 A championship can pay differently from the qualifiers, even when it uses the same classes. Give it a competition level with its own table.
 
 1. Open `Structure → (division) → Competition Levels` and add a level for the championship, if you don't have one yet.
-2. Open **Rules**, select the level, and fill in **Promotion points table** the same way as above. For example: *Final* rows paying 30, 29, 28 and so on, a *Semifinal* row and a *Before the semifinal* row paying 15 each.
-3. Press **Save competition level rules**.
+2. Open **Federation rules**, select the level, and fill in **Promotion points table** the same way as above. For example: *Final* rows paying 30, 29, 28 and so on, a *Semifinal* row and a *Before the semifinal* row paying 15 each.
+3. Press **Save rules**.
 4. Set this competition level on each event it applies to.
 
 At events on that level, this table replaces the class tables for every class in the event, including classes that have no class level of their own. The **Progression** tab tells you which levels have their own table. Competition levels belong to a division, so each division needs its own.

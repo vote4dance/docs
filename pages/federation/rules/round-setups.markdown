@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Round setups
+title: Round templates
 permalink: /federation-rules/round-setups/
 parent: Federation Rules
 nav_order: 4
@@ -8,34 +8,37 @@ help:
   federation.discipline.setup: ""
 ---
 
-# Round setups
+# Round templates
 
-A **round setup** decides which rounds a group of classes dances. You fill in a table — which
+A **round template** decides which rounds a group of classes dances. You fill in a table — which
 rounds there are, from how many competitors each one starts, and what differs per round — and
 Vote4Dance builds the rounds from it. Organizers keep using the **Round guide** in Manager exactly
-as before; the rounds they get now come from your setup.
+as before; the rounds they get now come from your template.
 
-You don't need to know how class rules work to use a setup. A setup replaces the class rules for
-its classes, and you can always switch back.
+You don't need to know how the round setup works to use a template. A template replaces the rules
+of the round setup for its classes, and you can always switch back.
 
-> Round setups are switched on per federation by Vote4Dance. If you don't see **Setups** on a
-> discipline's **Class rules** tab, ask Vote4Dance to switch them on.
+> Round templates are switched on per federation by Vote4Dance. If you don't see **New ladder** at
+> the top of a discipline's **Round setup**, ask Vote4Dance to switch them on.
 
 ---
 
-## Your first setup
+## Your first template
 
-This example sets up **Hiphop Solo Beginner**: a final, a semifinal from 8 competitors, a
+This example makes a template for **Hiphop Solo Beginner**: a final, a semifinal from 8 competitors, a
 quarterfinal (Kvartsfinal) from 15 and an eighth-final (Åttondelsfinal) from 30.
 
-**1. Open the Class rules tab.** Go to **Federation → Structure → (division) → Discipline** and
-open **Class Rules**. Click **New setup** on the **Setups** card.
+**1. Start a new template.** Go to **Federation → Structure → (division) → Discipline** and open
+**Round setup**. Click **New ladder**, type a name in **New template** and press **Create template**. The template
+opens. Back in **Round setup** (**Back to round setup**), your templates are listed among the rules
+under **Ladder · how many rounds**, marked **draft** until you switch them on, with **Compare and
+switch on** next to each.
 
-![The Setups card on the Class rules tab](/assets/images/round-setups/setups-card.png)
+![A draft template among the rules in Round setup, with New ladder at the top](/assets/images/round-setups/templates-in-round-setup.png)
 
 **2. Name it and choose its classes.** Pick the **Categories**, **Class Levels** and **Age Groups**
 it covers. Leave a list empty to cover all of them — here, every age group. Below the lists you see
-how many active classes the setup covers. If your choices match no class, a warning says so before
+how many active classes the template covers. If your choices match no class, a warning says so before
 you save.
 
 ![Name and classes](/assets/images/round-setups/setup-name-and-classes.png)
@@ -47,7 +50,7 @@ say from how many competitors it is danced.
 
 **4. Fill in what differs.** The table has a row per round and a column per class size. Click a
 cell to set, for example, the judging type for small finals. Put values that apply everywhere in
-**Setup default**.
+**Template default**.
 
 ![Settings by round and class size](/assets/images/round-setups/setup-grid.png)
 
@@ -55,8 +58,8 @@ cell to set, for example, the judging type for small finals. Put values that app
 the rounds it gets.
 
 **6. Compare and activate.** On **Compare and activate**, click **Compare with current rules**,
-go through the differences, and click **Activate setup**. From then on, new classes get their
-rounds from the setup.
+go through the differences, and click **Activate template**. From then on, new classes get their
+rounds from the template.
 
 Save as you go with **Save changes**. If you leave the page with unsaved changes, Vote4Dance asks
 first.
@@ -67,22 +70,22 @@ first.
 
 | Word | Meaning |
 |---|---|
-| **Setup** | The table that decides which rounds a group of classes dances. |
-| **Draft / Active** | A draft changes nothing for organizers. An active setup is what the Round guide uses. |
+| **Template** | The table that decides which rounds a group of classes dances. |
+| **Draft / Active** | A draft changes nothing for organizers. An active template is what the Round guide uses. |
 | **Size range** | A column in the table, for classes of a certain size, for example 8–14 competitors. |
 | **Intended** | Your mark that a difference from today's rounds is on purpose. |
-| **Old rules** | The class rules the setup replaced. They come back if you restore them. |
+| **Old rules** | The rules the template replaced. They come back if you restore them. |
 
 ---
 
-## Filling in a setup
+## Filling in a template
 
 ### Which rounds are danced
 
 Each round starts from a number of competitors: with a semifinal from 8, a class of 7 dances only
 the final and a class of 8 dances a semifinal and a final.
 
-**Largest class size** is the biggest class the setup has to handle. It goes up by itself when a
+**Largest class size** is the biggest class the template has to handle. It goes up by itself when a
 round starts above it.
 
 ### Settings by round and class size
@@ -91,7 +94,7 @@ Values build on each other, and each level only holds what differs from the leve
 
 | Level | Applies to |
 |---|---|
-| **Setup default** | Every round of every class in the setup |
+| **Template default** | Every round of every class in the template |
 | **Whole round** | One round, at every class size |
 | A size column, such as **8+** | One round, for classes of that size |
 
@@ -127,7 +130,7 @@ where the round before the final begins (8 in the example).
 
 ### Point summary
 
-**Add a point summary after the final** gives every class from the setup a summary round that
+**Add a point summary after the final** gives every class from the template a summary round that
 totals the placement points. Vote4Dance switches this on for the federations that use it.
 
 ![Point summary](/assets/images/round-setups/setup-point-summary.png)
@@ -148,9 +151,9 @@ optionally **Fewest competitors** and **Most competitors**.
 ## Preview
 
 Pick a class, enter the number of competitors, and tick the options organizers can choose. Each
-round shows its values and where each one **Comes from** — **Setup default**, a whole round, a size
-column, **Extrachans** or **Hide results**. **Other class rule** means a class rule outside the
-setup.
+round shows its values and where each one **Comes from** — **Template default**, a whole round, a size
+column, **Extrachans** or **Hide results**. **Other rule** means a rule outside the
+template.
 
 ![Preview of a class with 20 competitors and Extrachans](/assets/images/round-setups/preview.png)
 
@@ -158,22 +161,22 @@ setup.
 
 ## Compare and activate
 
-Before a setup takes over, compare the rounds it gives with the rounds organizers get today.
+Before a template takes over, compare the rounds it gives with the rounds organizers get today.
 
 ![Comparing with the current rules](/assets/images/round-setups/compare.png)
 
-1. **Rules this setup replaces.** Vote4Dance selects today's rules that only apply to the setup's
-   classes. A rule that also applies to other classes is marked **Outside this setup's classes** and
+1. **Rules this template replaces.** Vote4Dance selects today's rules that only apply to the template's
+   classes. A rule that also applies to other classes is marked **Outside this template's classes** and
    stays as it is.
-2. **Compare with current rules.** Vote4Dance builds the rounds for every class in the setup at every
+2. **Compare with current rules.** Vote4Dance builds the rounds for every class in the template at every
    size from 1 to 64, with and without each option, and lists what is different. In the picture,
-   every class gets one more round because the setup adds a point summary.
-3. **Fix or mark each difference.** Change the setup until the difference goes away, or tick
+   every class gets one more round because the template adds a point summary.
+3. **Fix or mark each difference.** Change the template until the difference goes away, or tick
    **Intended** and write a **Note** saying why. **Mark all as intended** marks a whole class. If a
    later change makes the same rounds differ in another way, the mark lapses and your old note is
    shown as a hint.
-4. **Activate setup.** You can activate once the setup is saved and nothing is left open. If you
-   change the setup, the selected rules, the classes, dances or judging types after comparing,
+4. **Activate template.** You can activate once the template is saved and nothing is left open. If you
+   change the template, the selected rules, the classes, dances or judging types after comparing,
    compare again.
 
 Rounds that competitions already have are not changed.
@@ -182,21 +185,21 @@ Rounds that competitions already have are not changed.
 
 ## After activation
 
-![An active setup](/assets/images/round-setups/active-setup.png)
+![An active template](/assets/images/round-setups/active-setup.png)
 
-- **An active setup is read-only.** To change its rounds, click **Restore old rules** on **Compare
-  and activate**: the setup becomes a draft and the old rules come back. Make your changes, compare
-  and activate again. You can still rename an active setup.
+- **An active template is read-only.** To change its rounds, click **Restore old rules** on **Compare
+  and activate**: the template becomes a draft and the old rules come back. Make your changes, compare
+  and activate again. You can still rename an active template.
 
   ![Restore old rules](/assets/images/round-setups/active-restore.png)
 
-- **The setup's own rules** are listed under it on the Class rules tab and can't be edited there.
+- **The template's own rules** are listed under it in the Round setup section and can't be edited there.
   The rules it replaced are listed too, switched off.
-- **New class rules can't compete with it.** While a setup is active, a class rule that would set
+- **New rules can't compete with it.** While a template is active, a rule that would set
   round names or sizes for its classes is refused.
-- **Deleting.** Delete a draft with **Delete draft**. An active setup has to be restored first.
-- **If Vote4Dance switches round setups off** for your federation, the setups stay listed on the
-  **Class rules** tab. You can still open, restore and delete them, but not change or activate them.
+- **Deleting.** Delete a draft with **Delete draft**. An active template has to be restored first.
+- **If Vote4Dance switches round templates off** for your federation, the templates stay listed in the
+  **Round setup** section. You can still open, restore and delete them, but not change or activate them.
 
 ---
 
@@ -204,28 +207,28 @@ Rounds that competitions already have are not changed.
 
 | Message | What to do |
 |---|---|
-| Another active setup already covers some of these classes | Change the classes so the two setups don't share any, or restore the other setup. |
-| A rule that stays on sets round names or sizes for some of these classes | Select that rule under **Rules this setup replaces**, or narrow it to other classes. |
-| Restore the old rules to change the rounds of an active setup | Click **Restore old rules**, then make your change. |
+| Another active template already covers some of these classes | Change the classes so the two templates don't share any, or restore the other template. |
+| A rule that stays on sets round names or sizes for some of these classes | Select that rule under **Rules this template replaces**, or narrow it to other classes. |
+| Restore the old rules to change the rounds of an active template | Click **Restore old rules**, then make your change. |
 | Sending 100% or more through moves classes up a round | Use a number of competitors instead of a percentage of 100 or more. |
 | The extra chance needs a round before the final … | Start the Extrachans size ranges where the round before the final begins. |
 | An extra chance size range that sets Music Length or Extra Time must set both | Set both in the size range's **Settings**, or neither. |
-| This setup covers too many classes and settings at once | Split it into smaller setups. |
+| This template covers too many classes and settings at once | Split it into smaller templates. |
 | A setting starts above the largest class size | Raise **Largest class size** until the setting's column shows, then change or remove it. |
-| These choices match no active class in this discipline | Check the **Categories**, **Class Levels** and **Age Groups**. A level may only exist for other categories — for example battle classes, which setups don't cover yet. |
+| These choices match no active class in this discipline | Check the **Categories**, **Class Levels** and **Age Groups**. A level may only exist for other categories — for example battle classes, which templates don't cover yet. |
 
 ---
 
-## For class-rule experts
+## For round setup experts
 
-A setup is stored as its table and turned into class rules when you activate it. Those rules come
+A template is stored as its table and turned into rules of the round setup when you activate it. Those rules come
 first in the discipline's rule list. A hand-written rule that still applies to the same classes runs
-after them, so it can change a value the setup sets — but not the rounds themselves: activation
-refuses rules that set round names or sizes for the setup's classes. Battle classes are not covered
-by setups yet; see [Battle class rules](/federation-rules/battle-class-rules/).
+after them, so it can change a value the template sets — but not the rounds themselves: activation
+refuses rules that set round names or sizes for the template's classes. Battle classes are not covered
+by templates yet; see [Battle round setup](/federation-rules/battle-class-rules/).
 
 ## Related
 
-- [How class rules work](/federation-rules/reference/)
-- [Battle class rules](/federation-rules/battle-class-rules/)
+- [How the round setup works](/federation-rules/reference/)
+- [Battle round setup](/federation-rules/battle-class-rules/)
 - [Point summary](/point-summary/)

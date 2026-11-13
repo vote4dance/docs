@@ -61,7 +61,7 @@ What a Manager can do:
 - Open **Competitions** and **Statistics**
 
 What a Manager cannot do (these need an Administrator):
-- Edit class rules or rule profiles
+- Edit the round setup or rule profiles
 - Assign organizations, change Temporary rows, rename competitors, move club-owned teams, or
   decide club transfer requests (see [Club transfers](/federation/club-transfers/))
 - Move a license to another organization, or remove its organization, once the federation has
@@ -97,7 +97,7 @@ What an Administrator can do:
 - Create and edit the license catalog (license items) and class license mappings
 - Create and edit rule profiles
 - Create and edit rankings, leagues, and ranking corrections
-- Edit class rules
+- Edit the round setup
 - Create and edit representation records, move club-owned teams, and approve or reject club transfer requests (see [Club transfers](/federation/club-transfers/))
 - Move a license the federation has approved to another organization (reissue), or remove its organization
 - Remove an organization from the federation, and set up its NORRIQ credentials

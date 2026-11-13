@@ -39,9 +39,9 @@ actually applies**, and let everything else inherit it.
 
 | If the rule…                                                                       | Set it on…           | Where in admin                                                                 |
 | ---------------------------------------------------------------------------------- | -------------------- | ------------------------------------------------------------------------------ |
-| is the same for a whole category across all its age groups (e.g. all small groups) | **Category**         | Structure → (division) → **Category** → pick the category → **Rules**          |
-| differs per age band, the same way for every category (e.g. the older partner decides up to Adults, but both must reach Senior) | **Age group** | Structure → (division) → **Age groups** → pick the group → **Rules** |
-| applies to one concrete class only (discipline + category + age group + level)     | **Federation class** | Structure → (division) → **Discipline** → **Federation classes** list → the row's rules icon |
+| is the same for a whole category across all its age groups (e.g. all small groups) | **Category**         | Structure → (division) → **Categories** → **Federation rules** → pick the category |
+| differs per age band, the same way for every category (e.g. the older partner decides up to Adults, but both must reach Senior) | **Age group** | Structure → (division) → **Age Groups** → **Federation rules** → pick the group |
+| applies to one concrete class only (discipline + category + age group + level)     | **Federation class** | Structure → (division) → **Discipline** → **Classes** → the row's **Federation rules** button |
 | changes on a specific date (e.g. a new season)                                     | **Timed profile**    | Federation → **Rules** → **Add rule profile** (set Effective from / to)        |
 
 **Rule of thumb:** set the baseline on the **Category**, override the exceptions
