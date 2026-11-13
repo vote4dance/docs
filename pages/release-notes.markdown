@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-13
+ 🛠️ **Improvements**
+* Scrutineer (Beta): A floor section you add now gets a letter code straight away, so the public schedule shows round numbers such as `1A` and `1B` again. A section named `A` or `Section B` gets that letter; otherwise it gets the first letter the floor's other sections don't use. Before, a new section got no letter code and the schedule showed only `1`. For sections you already added, open **Edit** on the section and fill in **Letter** (see [Create a section](/manager-guide/floors/#create-a-section))
 ## 2026-11-12
  ⭐ **New**
 * Manager: **Verify** on the **Participants** page checks all entries and warns about dancers with no licence number and, on WSDC competitions, Jack&Jill dancers whose WSDC registry level doesn't match their class, so you can fix them before the event. It only warns and changes nothing (see [Verify entries](/manager-guide/competition-setup/#verify-entries))
