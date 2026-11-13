@@ -8,6 +8,7 @@ help:
   public.event.me: ""
   public.event.me.music: your-music
   public.event.me.change-class: changing-class
+  public.event.me.organization-signing: when-your-organization-signs-your-entry
   public.event.me.share: sharing-your-result-and-your-diploma
 ---
 
@@ -52,10 +53,31 @@ The card at the top tells you what is left, and counts it (**1 thing left**). It
 | **Pay as the organizer describes** | The organizer takes payment their own way, for example by bank transfer or at the desk. Their instructions are shown below. | Follow the instructions. |
 | **Payment in progress** | You have paid by card and the payment is being confirmed. | Wait a minute: the class turns **Paid** on its own. |
 | **Waiting for the organizer to approve your registration** | The organizer approves registrations by hand. | Nothing yet. If the event takes card payment, you can pay once you are approved. |
+| **Your organization pays** | Your club or organization signs your entry and pays the organizer. | Nothing. |
+| **Contact your organization** | Your organization did not sign your entry, so it is withdrawn. | Talk to your organization. |
 | **All set** | Nothing is left to do. | Nothing. |
 
 Below the card you see until when you can change your classes online (**You can change classes
 online until…**). After that, changes are made at the desk.
+
+## When your organization signs your entry
+
+At some events, your club or organization has to sign your entry before it counts. Then:
+
+1. **Right after you register**, you see **Registration sent. Your organization signs it next, nothing is paid yet.** You pay nothing yet.
+2. **While it waits**, the class shows **Waiting for the organization** and **Waiting for (organization) to sign**. If your organization pays, the card at the top says **Your organization pays the entry fee. You don't need to do anything else.** If the dancers pay, it says **You pay once the entry is signed.**
+
+   ![My registration with an entry waiting for the organization, and the organization paying](/assets/images/organization-signing/2b-my-event-waiting.png)
+
+3. **When it is signed**, the class changes to **Signed**, and then to **Approved** once it is paid. If the organization pays, you do nothing more. If you pay yourself, press **Pay now** as usual.
+
+   ![My registration after the organization has signed](/assets/images/organization-signing/4-my-event-signed.png)
+
+4. **If it is declined**, you get an email, the class shows **Declined by the organization**, and the card at the top says **Contact your organization**. The entry is withdrawn. Ask your organization why. If it was a mistake, register again.
+
+   ![My registration with a declined entry and the Contact your organization card](/assets/images/organization-signing/6c-my-event-declined.png)
+
+If you have no organization, your entry skips signing and you pay yourself. The same texts show in the Dancer app, on **My event**.
 
 ## Your classes
 
@@ -63,7 +85,7 @@ online until…**). After that, changes are made at the desk.
 
 - **Who dances it**: you, or your couple or team, and your start number once it has one
   (**Number 123**).
-- **Its status** (**Approved**, **Preliminary** and so on, see
+- **Its status** (**Approved**, **Preliminary**, **Waiting for the organization** and so on, see
   [What your status means](/dancer/registration-for-event/#what-your-status-means)) and whether it
   is **Paid** or **Not paid**.
 - **Its rounds**, once the organizer has set them up and published the schedule: the time, the
@@ -303,7 +325,7 @@ Press an event to open its **My registration**. Paying and withdrawing happen th
 ## In the Dancer app
 
 In the app, open **Profile → Registrations** and tap an event to open **My event**. It shows the
-same things to do, your Vote4Dance ID and your classes. Inside an event, the **Mine** part lists
+same things to do, your Vote4Dance ID and your classes, including **Waiting for the organization** and **Declined by the organization** (see [When your organization signs your entry](#when-your-organization-signs-your-entry)). Inside an event, the **Mine** part lists
 your classes and links to **My event** with **My registration, ID and payment**.
 
 Paying, adding a class and withdrawing open this page on the website. You may need to sign in there.

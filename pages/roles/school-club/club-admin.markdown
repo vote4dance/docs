@@ -178,6 +178,8 @@ The selected event opens below the cards. Filter its entries with the buttons ab
 | **Active** | Every entry that is not cancelled, rejected or deleted |
 | **Approved** | Approved entries |
 | **Waiting** | Entries that are **Preliminary**, **Signed** or **Reserved** |
+| **To sign** | Entries your members registered that wait for your organization to sign. Shown when the organizer has the organization sign the entries |
+| **Signed** | Entries your organization has signed |
 | **Unpaid** | Active entries that are not paid |
 | **Cancelled** | Cancelled, rejected and deleted entries |
 
@@ -186,6 +188,10 @@ Use **Search dancer or class** to narrow the list, and switch between three view
 - **By class** lists the classes, each with its number of entries and how many are unpaid. Click a class to see its entries. Each entry shows the competitor, **Status** and, when the event takes payment, **Payment**.
 - **By dancer** lists one row per dancer with the classes they are entered in, the status of each, and how many entries are unpaid.
 - **By day** lists your dancers for each day of the event. See [Dancers per day](#dancers-per-day).
+
+### Signing entries
+
+When the organizer has the organization sign the entries, the selected event starts with a **To sign (n)** card. **Sign**, **Decline** and **Sign all** are there, and, with online payment, **Sign and pay**. After signing, a payment card shows the amount, reference and the organizer's payment instructions. The steps are in [Signing your members' entries](/school-club/registration-for-event/#signing-your-members-entries).
 
 ### Dancers per day
 
