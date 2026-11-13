@@ -41,6 +41,9 @@ there, or its points in the class below allow it to move up. If you think your n
 start higher, for example because you both danced in a higher class before, ask your federation
 before you register.
 
+The other way round, a couple that already holds a higher class can't register for the
+entry-level class of the same ladder.
+
 ## Manual changes
 
 A federation official can correct points, and the federation can move a couple by hand, for
