@@ -123,7 +123,9 @@ The status decides whether you are in. **Only Approved counts.**
 | Status | What it means | What you do |
 |---|---|---|
 | **Preliminary** | Registered, but **not yet a participant**. Normal when the organizer approves by hand. | Wait, or pay if the event asks for payment. Ask the organizer if it stays here close to the event. |
-| **Signed** | An optional step the organizer uses for their own bookkeeping. | Nothing. |
+| **Signed** | An optional step the organizer uses for their own bookkeeping. If your organization signs entries, it means your organization signed yours and the entry now waits for payment. | Nothing, unless **You pay once the entry is signed** is shown: then pay when it asks you to. |
+| **Waiting for the organization** | Your club or organization has to sign your entry first. See [When your organization signs your entry](#when-your-organization-signs-your-entry). | Nothing. Your entry is not paid for yet. |
+| **Declined by the organization** | Your organization did not sign the entry, so it is withdrawn. | Contact your organization. |
 | **Approved** | Accepted. You are in. Automatic when an online payment completes, when the period accepts directly, or when the organizer or the check-in desk entered you. | Keep the email: it has your check-in QR code. |
 | **Cancelled** | Withdrawn by you, your club or the organizer. | Register again if it was a mistake and registration is still open. |
 | **Rejected** | Declined by the organizer. | Ask the organizer why. |
@@ -135,6 +137,17 @@ code; you also have it in the app under **Profile → Vote4Dance ID** and on you
 
 If you pay online and leave the checkout before paying, the registration is removed
 automatically. Nothing is left half-done; just start again.
+
+## When your organization signs your entry
+
+Some events want your club or organization to sign the entries before they count. When you register yourself, you see **Registration sent. Your organization signs it next, nothing is paid yet.** The entry shows **Waiting for the organization**, and you get an email that says the same. You do not pay when you register.
+
+- If the event lets your organization pay, **My registration** says **Your organization pays the entry fee. You don't need to do anything else.**
+- If the dancers pay themselves, you pay once the organization has signed. **My registration** says **You pay once the entry is signed.**
+- If you have no organization, your entry is not held up: skip signing and pay as the page tells you.
+- If your organization declines, you get an email, and the entry shows **Declined by the organization**. Contact your organization.
+
+See [When your organization signs your entry](/dancer/my-registration/#when-your-organization-signs-your-entry) for what My registration shows.
 
 ## Checking your registrations
 

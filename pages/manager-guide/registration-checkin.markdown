@@ -25,7 +25,7 @@ Emails, the check-in QR code and how to test them are on [Emails and the check-i
 |---|---|
 | `Registrations` | Every registration in the competition, with status, payment and the **Imported** check. This is where you approve, reject, email and import. Click a column header such as **Participant name** to sort. Type in **Filter by name** above the table to find a registration by its team name or any dancer's name; it combines with the class, status and payment filters. When the registrations carry clubs, an **Organization** column shows the club each entry represents (see [Which club a dancer represents](#which-club-a-dancer-represents)); sort on it, or use its filter to list one club's entries. |
 | `Participants` | The registrations grouped by class, with how many are Approved, Signed (only when the event uses it) and Preliminary. A read-only view of what will be imported. It is **not** the participant list itself — that lives under `Competition → Participants`. |
-| `Organizations` | Registrations grouped per club, with what each club still owes and the payment reminders. Use **Send** to remind clubs or dancers of what they still owe; they pay with **Pay now** on their registration list. A red tag such as **1 cancelled (paid 300 SEK)** means entries were cancelled after they had been paid, which you may need to refund; hover it to see which ones. Entries cancelled before anyone paid are not shown, since they change nothing the club owes. |
+| `Organizations` | Registrations grouped per club, with what each club still owes and the payment reminders. Use **Send** to remind clubs or dancers of what they still owe; they pay with **Pay now** on their registration list. When the period has the organization sign the entries, it also shows how many entries each organization has signed, how many wait for it, and has a **Mark paid** button (see [Organizations sign their dancers' entries](#organizations-sign-their-dancers-entries)). A red tag such as **1 cancelled (paid 300 SEK)** means entries were cancelled after they had been paid, which you may need to refund; hover it to see which ones. Entries cancelled before anyone paid are not shown, since they change nothing the club owes. |
 | `Finances` | Expected, paid and outstanding totals per currency and period, and who still owes what. |
 | `Registration period` | The registration windows: dates, payment mode, acceptance mode, prices, rules and form. |
 | `Data transfer` | CSV import of participants, result downloads, and the reset and delete tools. Not an export to another system. |
@@ -37,13 +37,91 @@ On the `Participants` tab, each class shows its number of registrations per stat
 For each period define:
 
 - Name and start/end timestamps
-- Payment mode: **Free of charge**, **Manual payment**, or **Online payment** (Stripe)
+- Payment mode: **Free of charge**, **Manual payment**, or **Online payment** (Stripe). Online is recommended: payments are checked off automatically
+- Whether the organization signs the entries, and who pays (see [Organizations sign their dancers' entries](#organizations-sign-their-dancers-entries))
 - Acceptance mode: manual or direct
 - Currency and price ladder
 - Rule/form configuration
 - Allowed classes
 
 You can reorder periods to control display order.
+
+### Organizations sign their dancers' entries
+
+Some events want the club to vouch for its dancers. When you switch this on for a registration period, an entry that a dancer registers waits until the dancer's organization (club, school or other organization) has signed it. The organization can also pay all its entries together, in one payment, instead of every dancer paying separately.
+
+Dancers who have no organization are not held up: their entries skip signing, and the dancers pay themselves.
+
+#### Set it up
+
+1. Open `Manager → Competition → Registration`, then the **Registration periods** tab (**Registration period** in the classic Manager).
+2. Open the period with **Edit registration period**.
+3. Pick the **Payment type**: **Online payment** (recommended) or **Manual payment**. Online payment is recommended because payments are checked off automatically.
+4. Switch on **The organization signs the entries**. The text under it says: dancers' entries wait until their organization signs.
+5. Under **Who pays?**, choose:
+   - **The organization, together**: the organization pays all its signed entries in one payment. With online payment it pays by card when it signs. With manual payment it pays you in one payment.
+   - **Each dancer**: dancers pay one by one, by card with online payment, or as you describe in **Description** with manual payment.
+6. With **Manual payment** and **The organization, together**, fill in **Payment instructions to organizations**, for example an account number, IBAN or Swish number and what to write as the reference. Organizations see the text when they sign, together with the amount and their reference.
+7. Press **OK**.
+
+![A registration period with Manual payment, The organization signs the entries switched on, Who pays? set to The organization, together, and payment instructions](/assets/images/organization-signing/1-period-signing.png)
+
+*The organization signs the entries, and pays them together by manual payment.*
+
+**In the event checklist.** The payment step recommends **Take payment online (Stripe)**: payments are checked off automatically, the money goes straight to your account, and organizations get a receipt and an invoice. If you can't take payment online, choose **Take payment manually**. Then you check off each payment yourselves.
+
+#### What the organization sees
+
+- **Online payment, the organization pays:** it presses **Sign and pay**, pays by card in the next step, and gets a receipt and an invoice made out to the organization.
+- **Manual payment, the organization pays:** it signs, then sees the amount to pay, a reference (the organization's short name and the event number) and your payment instructions. It pays you outside Vote4Dance, and you mark it paid.
+- **Each dancer pays:** the organization only signs. The dancers pay themselves once the entry is signed.
+
+The guide for the club is [Signing your members' entries](/school-club/registration-for-event/#signing-your-members-entries). The dancers see **Waiting for the organization** on their entry: see [When your organization signs your entry](/dancer/my-registration/#when-your-organization-signs-your-entry).
+
+#### Follow the entries
+
+On the **Sign-ups** tab (**Registrations** in the classic Manager), filter by:
+
+| Filter | Shows |
+|---|---|
+| **Waiting for the organization** | Entries the organization has not signed yet |
+| **Signed** | Signed by the organization, not yet paid |
+| **Approved** | Accepted. Payment alone approves a signed entry, so it is **Approved** once it is paid |
+| **Declined** | Entries the organization declined, shown as **Declined by the organization** |
+
+A notice above the list counts the entries waiting for their organization to sign, and the signed entries waiting for payment.
+
+![The Sign-ups tab with the filters All, Waiting for the organization, Signed, Approved and Declined, and an approved entry that is paid](/assets/images/organization-signing/5c-signups.png)
+
+On the **Organizations** tab, each organization has one row with **Dancers**, **Signed**, **Waiting for the organization**, **Outstanding** (only signed entries count), **Paid** and a **Status** such as **Waiting for payment**.
+
+![The Organizations tab with signed, waiting, outstanding and paid per organization, and the Mark paid button](/assets/images/organization-signing/5a-organizations.png)
+
+#### Mark an organization as paid (manual payment)
+
+With online payment, a card payment marks the entries paid on its own. With manual payment, mark them yourself when the money has arrived:
+
+1. Open the **Organizations** tab and press **Mark paid** on the organization's row.
+2. In **Mark as paid?**, check the number of signed entries and the amount. Entries still waiting for the organization are not included, and the dialog says how many.
+3. Set **Payment received** to the date the money arrived.
+4. Press **Mark paid**.
+
+All the organization's signed entries that are not yet paid are marked paid at once, and become **Approved**.
+
+![Mark as paid with the organization, its signed entries and amount, and the Payment received date](/assets/images/organization-signing/5b-mark-paid.png)
+
+#### Send reminders
+
+On the **Organizations** tab, press **Send reminder to all**, or tick organizations and press **Send reminder to selected**. Check the count in the confirmation and press **Send** (for example **Send 3 reminders**). A reminder goes to:
+
+- organizations that still have entries to sign, and organizations that still have to pay,
+- dancers who are still waiting for their organization, who are told there is nothing for them to do.
+
+The **Last sent** column shows when an organization was last reminded.
+
+#### If an organization declines
+
+The entry is withdrawn. The dancers get an email, and **My registration** shows **Declined by the organization** and tells them to contact their organization. A declined entry shows under the **Declined** filter. If it was a mistake, the dancers register again, and the organization signs the new entry.
 
 ### Team names
 
@@ -65,8 +143,8 @@ A name you type on a registration yourself always shows and is imported. If the 
 | Status | Meaning | How a registration gets there |
 |---|---|---|
 | **Preliminary** | Registered, not yet accepted. Not counted as a participant. | Automatic when the dancer or club registers in a period with **manual** acceptance. |
-| **Signed** | Optional intermediate step for your own bookkeeping. Never set automatically, and no email is sent for it. | Manually, from the status dropdown. |
-| **Approved** | Accepted. This is the only status the import uses. | Automatic when the online payment is completed, when the period uses **direct** acceptance, or when you or the check-in desk enter the registration, paid or not. Otherwise manually. |
+| **Signed** | Normally an optional step for your own bookkeeping: never set automatically, and no email is sent for it. In a period where the organization signs the entries, **Signed** means the organization has signed the entry and it waits for payment (see [Organizations sign their dancers' entries](#organizations-sign-their-dancers-entries)). | Manually, from the status dropdown, or when the organization signs. |
+| **Approved** | Accepted. This is the only status the import uses. | Automatic when the online payment is completed, when you mark an organization's signed entries as paid, when the period uses **direct** acceptance, or when you or the check-in desk enter the registration, paid or not. Otherwise manually. |
 | **Rejected** | Declined by the organizer. | Manually. |
 | **Cancelled** | Withdrawn by the dancer or club, or set by the organizer. The row is kept. | The dancer/club cancels from their account, or manually. |
 | **Deleted** | Removed. Unpaid rows disappear; paid rows are kept and marked deleted. | Manually. |
