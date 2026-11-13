@@ -27,6 +27,8 @@ How it works, in more detail: [Class transfer](/dancer/class-transfer/) and
   lineup, can be a new competitor with no points. Where the federation requires class membership, a
   new competitor can register for entry-level classes and is placed there when it registers. For a higher class, the federation has to place
   it there first.
+  A competitor that already holds a higher class can't register for the entry-level class of the
+  same ladder.
 
 ## If the federation has a couple in the wrong class
 

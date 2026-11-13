@@ -13,6 +13,7 @@ help:
   federation.division.competitionlevel: class-levels-and-competition-levels
   federation.division.ranking: rankings
   federation.division.rules: rules
+  federation.division.rules.club-membership: club-membership-required
   federation.discipline: classes
   federation.discipline.dances: discipline-sections
   federation.discipline.discipline-rules: rules
@@ -255,6 +256,20 @@ To turn a rule off for most classes and on for a few, for example:
 To undo a setting, choose **Inherited** again, or click **Reset**, and save.
 
 **Allow custom competitor names** is off by default. Turn it on where competitors have their own name, such as formations, groups and breaking. Without it, competitors show under their dancers' names, unless the registration form asks for a team name.
+
+### Club membership required
+
+A federation can require that everyone who competes belongs to one of its clubs. Turn this on with **Club membership required**:
+
+1. Open the federation rules of the federation, a division, a discipline or a category, wherever the requirement should start (see [Where to find each editor](/federation-rules/editor/#where-to-find-each-editor)).
+2. Under **Club membership required**, choose **Required**. **Disabled** is the default and checks nothing.
+3. Press **Save rules**.
+
+![Club membership required set to Required in the rule editor](/assets/images/federation-rules/club-membership-required.png)
+
+From then on, every dancer in an entry must be an approved member of a club that the federation has approved. A club that is retired doesn't count. If one dancer in a couple or group isn't, the entry is refused when they register, with the message "Every dancer must be a member of a club that belongs to the federation." The dancer can ask a club to approve them as a member, and the club can apply to the federation if it isn't approved yet (see [Joining a federation](/school-club/joining-a-federation/)).
+
+Entries made before you turned the rule on stay as they are.
 
 ---
 

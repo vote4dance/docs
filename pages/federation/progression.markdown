@@ -89,6 +89,14 @@ If promotion happens outside Vote4Dance, **Promotion is not set up** is fine and
 
 Note that the promotion threshold compares the **sum of everything the couple has earned since joining the class**. A rulebook that promotes on the best N results of a season cannot be expressed as an automatic threshold yet; leave the threshold unset and promote manually from the roster. Ranking standings, by contrast, can use best-N windows, see [Federation admin rankings](/federation-rankings/federation-admin/).
 
+## A team that already holds a higher class
+
+When **Membership policy** is **Required**, a team needs a class membership to enter a class. A team without one can still register for the bottom class of a ladder, and it is placed in that class when it registers. Higher classes stay closed until the federation places the team there or its points allow it to move up.
+
+A team that already holds a class higher up the same ladder can't enter a lower class. Registering for the bottom class is refused with "This team already dances in a higher class, so it cannot enter this lower class." Many rulebooks say this: a couple that has danced A or B may not start in a lower class. Before, such a team was placed in the bottom class as well, and then held two classes in one ladder.
+
+The ladder is the chain of **Target Class** settings, so this works as long as each class points to the next one up. If a team really should dance a lower class, for example after a long break, move it on `Members → Competitors` first (see [Class moves: your part](/federation/class-transfer/#manual-moves-and-corrections)).
+
 ## Pay by the round a dancer reached
 
 Some rulebooks pay for reaching a round, whatever the place. A semifinalist may earn 5 points, while a finalist on the same place earns what the final pays. A place alone can't tell those two dancers apart, so name the round on the row.
