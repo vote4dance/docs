@@ -333,6 +333,19 @@ Suggest never saves straight away. The suggested seats get a dashed outline and 
 
 Trainee seats only go to judges whose **Seat** need asks for it. If a seat can't be filled without breaking someone's needs, the bar says so; fill it yourself or change a need.
 
+### Panels in the speaker app
+
+The speaker can see the judges grouped by panel, which helps when presenting the panel before a class starts:
+
+1. Open the speaker app for the event and go to **Overview**.
+2. In the **Judges** card, choose **By panel**.
+
+Each panel is listed under its competition, in the same order as on the **Panels** tab, with the judges seated on it. A judge on several panels appears under each of them. Judges who are not on any panel are listed last, under **Not in a panel**. Audience seats are not shown.
+
+Choose **All judges** to go back to one list per competition. The speaker app remembers the choice on that device.
+
+![The Judges card in the speaker app, grouped by panel](/assets/images/judges/speaker-judges-by-panel.png)
+
 ## Judge needs
 
 Each judge can have needs that Vote4Dance checks every seat against. Open them with the needs button on the judge's row on the **Panels** tab, or click **Needs** on the **Judges** tab.
