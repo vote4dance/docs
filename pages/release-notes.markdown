@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-15
+ 🛠️ **Improvements**
+* Federation: When you move a competitor to another class under **Members**, **Carry over a percentage** can now be picked. It starts at 50%, and you can change it. Before, the choice jumped back to **Keep everything**, so no percentage could be entered (see [Editing a membership](/federation/members/#editing-a-membership))
 ## 2026-11-13
  ⭐ **New**
 * Manager: A registration period can have **The organization signs the entries**. Dancers' entries then wait until their club or organization has signed them, and under **Who pays?** you choose **The organization, together** or **Each dancer**. With manual payment you give the organizations payment instructions, and on the **Organizations** tab you see what each has signed, waits for, owes and paid, press **Mark paid** when the money arrives, and **Send reminder** to organizations and waiting dancers. The event checklist now recommends online payment and offers **Take payment manually** (see [Organizations sign their dancers' entries](/manager-guide/registration-checkin/#organizations-sign-their-dancers-entries))
