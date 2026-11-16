@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-16
+ 🛠️ **Improvements**
+* Scrutineer (Beta): Couples you send on or keep out by hand in a round's **Result** tab now go as you set them when you confirm the round. Before, confirming could set every couple again from the result, and when the round had no more couples than go through, all of them went on (see [Changing who goes through by hand](/manager-guide/live-operations/#changing-who-goes-through-by-hand))
 ## 2026-11-13
  ⭐ **New**
 * Manager: A registration period can have **The organization signs the entries**. Dancers' entries then wait until their club or organization has signed them, and under **Who pays?** you choose **The organization, together** or **Each dancer**. With manual payment you give the organizations payment instructions, and on the **Organizations** tab you see what each has signed, waits for, owes and paid, press **Mark paid** when the money arrives, and **Send reminder** to organizations and waiting dancers. The event checklist now recommends online payment and offers **Take payment manually** (see [Organizations sign their dancers' entries](/manager-guide/registration-checkin/#organizations-sign-their-dancers-entries))

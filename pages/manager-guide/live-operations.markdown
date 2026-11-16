@@ -65,6 +65,21 @@ It has a tab for each dance, with how many judges have submitted it (such as **3
 - **A total of 0** shows as 0 for a couple that danced. A dash means the couple has not been
   marked in any dance yet.
 
+### Changing who goes through by hand
+
+When the result alone doesn't decide who goes on, for example to settle a tie at the line, you
+can change a single couple's status yourself:
+
+1. Close the round. The status can be changed while the round is closed, before you confirm it.
+2. On the **Result** tab, click the couple's **Status**.
+3. Choose **Advance to** and the round to send the couple to, or **Not going through** to keep it
+   out.
+
+The couple then shows **Moved** (**Changed by hand**). When you confirm the round, the couples you
+changed go as you set them, and the others go by their place and the number going through. If you
+change the number going through afterwards, every couple is set from the result again, so change
+the number first and the single couples after.
+
 ### Rounds judged with scores over several dances
 
 In a round judged with scores (**Sum subtotal** under **Judging** on the round page) that is
