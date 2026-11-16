@@ -9,6 +9,7 @@ nav_order: 10
 ## 2026-11-16
  🛠️ **Improvements**
 * Scrutineer (Beta): Couples you send on or keep out by hand in a round's **Result** tab now go as you set them when you confirm the round. Before, confirming could set every couple again from the result, and when the round had no more couples than go through, all of them went on (see [Changing who goes through by hand](/manager-guide/live-operations/#changing-who-goes-through-by-hand))
+* Results: In a round danced in several styles or dances, such as a battle selection, each style's own table now heads its place column **Plac in** and the style's name, for example **Plac in New Style**. The number there is the place in that style alone; letters such as **Å** show who went on from the whole round, and the round's total table, headed **Plac**, gives the place that counts. Point at the heading to see this explained. Before, every table said **Plac**, so a dancer placed 3rd in one style could look 3rd in the round
 * Speaker: The **Judges** card on **Overview** can now show the judges **By panel**: each panel with the judges seated on it, and the judges on no panel under **Not in a panel**. **All judges** shows one list per competition, as before (see [Panels in the speaker app](/manager-guide/judges/#panels-in-the-speaker-app))
 ## 2026-11-13
  ⭐ **New**
