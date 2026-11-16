@@ -201,6 +201,14 @@ semifinal instead of the quarterfinal:
 3. Under **Qualified participants**, choose the right **Round for those that qualify**, then click **Save changes**
    and **Confirm round** again.
 
+### A dancer withdraws before the first round
+
+When you withdraw an entry in its entry form, or with check-in, while it is only in the first round of its class and no judge has marked it there yet, it is taken out of that round as well. It gets no place in the result, and the results file shows it as withdrawn (**S**).
+
+An entry you withdraw from the round itself, from the round's menu or the lineup, stays in the round, struck through, so you can take the withdrawal back with one click. So does an entry that has already been marked, or that is in a round that is closed or confirmed. Such an entry is placed last. To leave it out of the result, take it out of the round before judging starts.
+
+If you withdrew the wrong entry in its entry form, take back the withdrawal and add the entry to the round again.
+
 ### Wrong judging type on a round in progress
 
 You can change a round's judging type while it is **In progress** until the first judge gives a mark. After that the type is locked, so marks are never counted under a type they weren't given for. If you notice the type is wrong once judging has begun, for example a chance round set to 1–5 marks that should have been judged by placement, clear the marks and change the type. The couples, their heats and their starting order stay as they are, including a drawn order.
