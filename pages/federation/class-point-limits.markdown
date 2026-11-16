@@ -58,7 +58,7 @@ With **Never**:
 
 ## What dancers and event staff see
 
-- **A dancer or a club registering** sees the class locked, with the reason and a **Why is this locked?** link: "This team has 18 points this season. From 18 points, it can no longer enter this class." The **Add** button is off.
+- **A dancer or a club registering** sees the class locked, with a **Closed** tag, the reason and a **Why is this locked?** link: "This team has 18 points this season. From 18 points, it can no longer enter Rising Talent." The **Add** button is off. The team's points this season show next to the team picker, and a note under the list says that entries made before the team reached the limit stay. When the division publishes its [season ranking](/federation/season-ranking/#the-public-season-ranking), a **See the season ranking** link opens it. See [A class closed by your season points](/dancer/registration-for-event/#a-class-closed-by-your-season-points).
 - **Going up is always open.** A team that is closed out of one class level can still enter the next one up.
 - **A class move** is refused in the same way when the team is moving into a class it has no longer the right to enter.
 - **Event staff** are warned instead of stopped. They may still add or move the team.
@@ -67,7 +67,7 @@ With **Never**:
 - **Who sees a team's points in the app:** the team's dancers, their parents, their club's coaches and managers, and the federation. Anyone else only sees them when the division publishes its [season ranking](/federation/season-ranking/), and then only from published results.
 - **Entries already made** stay. If a team's points rise after it has registered, the entry is not removed. It shows on **Season points** under **Entries to check**, so someone can decide what to do.
 
-![A class locked by points, with the next level up still open](/assets/images/class-point-limits/class-locked.png)
+![A class closed by points, with the Closed tag and the next level up still open](/assets/images/class-point-limits/class-locked.png)
 
 A class that fails an earlier check, such as age or licence, shows that reason instead of the points.
 
