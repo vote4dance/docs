@@ -9,6 +9,7 @@ help:
   manager.comp.live.judges-not-finishing: judges-not-finishing   # the round page's "Stuck?" links
   manager.comp.live.wrong-teams-in-round: wrong-teams-in-round
   manager.comp.live.schedule-drift: schedule-drift
+  manager.comp.live.send-through: check-where-the-round-sends-its-participants
 ---
 
 # Live operations
@@ -40,6 +41,24 @@ For each round:
 5. **Confirm round**, then set the advancement targets — Manager warns you if you confirm
    without any ("No targets have been set from the round result") and if placements conflict
 6. **Publish results online** when it should be public
+
+### Check where the round sends its participants
+
+When you confirm a round, check **Round for those that qualify** under **Qualified participants** before you send
+anyone on. It is filled in from the class setup, but you can change it, and a slip there sends the participants past
+a round.
+
+The field warns you when the round you picked skips a round:
+
+- For a second chance round, when it sends its qualifiers somewhere else than the round it takes the rest from does,
+  for example "Preliminary sent its qualifiers to Quarterfinal. This sends them to Semifinal instead."
+- For any other round, when it sends them past the next round, for example "The next round is Quarterfinal. Sending
+  to Semifinal skips it."
+
+The warning doesn't stop you: if you skip a round on purpose, for example because fewer participants came than
+planned, save as usual.
+
+![A warning under Round for those that qualify when a second chance round sends its qualifiers past the next round](/assets/images/round-guide/send-through-warning.png)
 
 ## Live controls you will use most
 
@@ -173,6 +192,14 @@ While a round is **In progress**, the round page shows a **Stuck?** link next to
 
 - Use round add/copy/clear tools in open or ready state
 - Re-run send-through after correction
+
+If a round sent its participants to the wrong round, for example a second chance round that sent them to the
+semifinal instead of the quarterfinal:
+
+1. In the round they went to by mistake, use **Remove participants** while it is **Not started**.
+2. Set the round that sent them back with **Previous status** until it is **Closed**.
+3. Under **Qualified participants**, choose the right **Round for those that qualify**, then click **Save changes**
+   and **Confirm round** again.
 
 ### Wrong judging type on a round in progress
 
