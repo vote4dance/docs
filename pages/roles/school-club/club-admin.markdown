@@ -207,6 +207,8 @@ The days come from the event's schedule, so the lists appear once the organizer 
 
 A dancer in a class that runs over two days, such as a first round on Saturday and a final on Sunday, is listed on both days, even if they might not reach the final. The filter buttons apply here too: with **Active** selected, cancelled entries are left out.
 
+To see when your dancers dance during the day, follow the club in the schedule: see [Find your club's rounds](/spectator/following-the-schedule/#find-your-clubs-rounds).
+
 | Action | How | Who |
 |---|---|---|
 | Change the lineup | **Edit lineup** on the entry. You can use it while the entry's registration period is open and the entry is **Preliminary**, **Signed** or **Approved**. The new lineup is checked against the federation rules, and a replacement dancer takes over the replaced dancer's dance role. | Coach, Manager, Administrator |

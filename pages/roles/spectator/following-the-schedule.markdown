@@ -25,6 +25,36 @@ The dot after a block tells you where it stands:
 
 When the event has more than one day, pick the day at the top. The schedule opens on today.
 
+## Find your club's rounds
+
+When you follow a whole club, the schedule picks out the rounds its dancers are in. Team leaders and coaches use this to see when their dancers are on during the day. You can also follow single dancers. Following needs a Vote4Dance account with Premium.
+
+On the website:
+
+1. Sign in and open the event.
+2. Open the **Competitors** tab and unfold **Organizations**, under the search field. It lists every club with dancers at the event.
+3. Click the heart next to your club. Do the same for any other club you want to follow. The number next to **Organizations** shows how many you follow.
+
+   ![The Organizations panel on the Competitors tab, with one club followed](/assets/images/spectator-schedule/web-follow-club.png)
+
+4. Open the **Schedule** tab and pick **Favorites** above the schedule. Open a block: the rounds with dancers from the clubs and dancers you follow have a heart and a coloured bar, and the other rounds are greyed out. Pick **All** to go back.
+
+   ![The schedule with Favorites picked: the club's rounds are marked with a heart, the others are greyed out](/assets/images/spectator-schedule/web-favorites-club.png)
+
+In the app:
+
+1. Open the competition and the **Competitors** tab.
+2. Unfold **Organizations at this event** and tap the heart next to your club.
+3. Open the **Schedule** tab and pick **Favorites**. The app marks the same rounds.
+
+The **Competitors** tab has a **Favorites** switch too: it lists only the classes your club's dancers are in.
+
+You follow a club for one event at a time, so follow it again at the next event. The app's **Favorites** tab collects what you follow, grouped by competition: see [Follow dancers and clubs with Premium](/dancer/following-in-the-app/#follow-dancers-and-clubs-with-premium).
+
+Without Premium, the heart and **Favorites** open the Premium offer instead. When you are not signed in, the heart cannot be clicked.
+
+To see which of your club's dancers are entered, and download the list, open the club's **Administration → Registration**: see [Registration](/school-club/club-admin/#registration).
+
 ## Times on your phone
 
 Each round shows the time it is planned to start, so you know when to be in the hall. On a phone held upright the website shows the time where the block number used to be. You no longer need to turn the phone sideways to see it. The app shows both the time and the block number.
