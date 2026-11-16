@@ -56,8 +56,29 @@ During and after a quiz you see your own place and points. The top 10 is open to
 
 ![A quiz's results page: the podium, the standings and question by question](/assets/images/audience/web-quiz-results.png)
 
+## Your quiz history
+
+**Quiz history** in the app keeps every quiz you have played, so you can look back on how you did after the event. It is part of Premium.
+
+1. Open the **Profile** tab and tap **Quiz history** ("Your places and points from every quiz"), under **My tickets**.
+
+   ![The Quiz history card on the Profile tab, with the Premium label](/assets/images/audience/app-quiz-history-card.png)
+
+2. At the top are three numbers: **Quizzes**, how many you have played; **Best place**, your best finish; and **High score**, the most points you got in one quiz.
+3. Below them is one row for each quiz, newest first: your place, the name of the quiz, the event and its date, your points and how many played. A place on the podium has a gold, silver or bronze badge, and a quiz you won has a gold frame. Your **Call it** days are listed too, by their day.
+
+   ![Quiz history: quizzes played, best place and high score, then one row per quiz](/assets/images/audience/app-quiz-history.png)
+
+4. Tap a quiz to see its **Full standings**: every player with their place, how many they got right and their points. Your own row is marked **you**. Tap the **×** to close it.
+
+   ![The full standings of a quiz you won. The names are made up.](/assets/images/audience/app-quiz-history-standings.png)
+
+A quiz shows up in your history once it has closed. Until you have played one, the screen says "No quizzes yet. Join a quiz at an event and it shows up here when it has finished."
+
+If you don't have Premium, the card shows a **Premium** label, and tapping it opens the Premium offer instead. See [Follow dancers and clubs with Premium](/dancer/following-in-the-app/#follow-dancers-and-clubs-with-premium).
+
 ## Free and Premium
 
-Playing every quiz is free: join, answer, see your points and rank, the top 10 and the podium. Premium adds the full standings beyond the top 10.
+Playing every quiz is free: join, answer, see your points and rank, the top 10 and the podium. Premium adds the full standings beyond the top 10 and your [quiz history](#your-quiz-history).
 
 The organizer sets up the quizzes before the event. See also [Hearts and Call it](/spectator/hearts-and-calls/).
