@@ -187,14 +187,14 @@ Printing is in Scrutineer (Beta), the new version of the Manager app.
 
 1. Open the **Judges** tab.
 2. To print every judge, press **Print judge schedules** under the list. To print one judge, open the **⋯** menu on their row and choose **Print schedule**.
-3. A new tab opens with one slip per judge, in letter order. Press **Print**. Two slips fit on an A4 page; cut along the dashed line.
+3. A new tab opens with one slip per judge and day, in letter order. Choose what to print in the bar at the top (see [Events over several days](#events-over-several-days)), then press **Print**. Two short slips fit on an A4 page; cut along the dashed line.
 
 ![The Print schedule item in a judge's menu, and Print judge schedules under the list](/assets/images/judges/judge-list-print-schedule.png)
 
 Each slip shows:
 
-- The judge's letter and name, the date and the number of classes.
-- One line per class: **First round** (the estimated start time), **Class**, **Starters** and **Rounds** (how many rounds the class has).
+- The judge's letter and name, the date and the number of classes. When your letters are really names, as at some events, the slip shows just the name.
+- One line per class, by its full name: **First round** (the estimated start time), **Class**, **Starters** and **Rounds** (how many rounds the class has).
 - A QR code the judge can scan to open their live schedule in the Judging app.
 
 ![A judge's printed schedule](/assets/images/judges/judge-schedule-slip.png)
@@ -208,6 +208,15 @@ Good to know:
 - There is no PIN on the slip. Each judge chooses their own PIN in the Judging app; see [PIN](#pin).
 - You can print schedules for an archived event too.
 
+### Events over several days
+
+Each slip covers one judge on one day. For an event over several days, use the bar at the top of the print tab:
+
+- **Day**: **All days** prints every day's slips, with each day starting on a new sheet. Pick a single day to print only that day's slips, for example each morning at the desk. The tab starts on today when your event runs today.
+- **Judges from**: shown when your event has several competitions running side by side. **Whole event** gives each judge one slip per day covering every competition they judge in, with a **Competition** column. **This competition** prints only the competition you opened it from.
+
+A short day fits on half a page. A long day takes a full A4 page, and a day that doesn't fit on one page carries on to the next with the judge's name and **continued** at the top.
+
 ### In the Judging app
 
 While there is nothing to judge, the Judging app shows the judge's schedule instead of only "Great job! Waiting for a round...":
@@ -219,6 +228,8 @@ While there is nothing to judge, the Judging app shows the judge's schedule inst
 ![My schedule in the Judging app while waiting for a round](/assets/images/judges/judge-app-my-schedule.png)
 
 The list updates by itself when you change the schedule or the panels, or when a round closes. The times are estimates and move with the schedule.
+
+At an event over several days, the list opens at today: each earlier day is folded into one line, such as "Wednesday 28 October · 22 rounds, all done", and today's finished rounds are folded too, so the next round is in view. Press **Show** to see them again. Later days follow below, and **Coming days** lists how many classes the judge has on each of them. When the judge sits in several competitions, each class shows its competition.
 
 ### In the invitation email
 
