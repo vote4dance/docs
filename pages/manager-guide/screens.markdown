@@ -144,6 +144,12 @@ The **Done** button, which publishes the round, stays disabled until the round h
 
 To show a battle round's result on a screen, see the table above. The audience reads the same round as a tree on the website: see [Battle results as a tree](/spectator/following-the-schedule/#battle-results-as-a-tree).
 
+#### Who is already through, on Lineup
+
+A final or B-final is often not drawn until the whole semifinal is done. On **Lineup** (and **Live**) the speaker still sees who is already through: as soon as a battle feeding the round is confirmed, its winner or loser shows with a label such as "Winner of Battle semi 1". A place still to be danced for shows as a "?" with the battle and its two dancers, for example "Winner of Battle semi 2 (542 against 556)", and the heat says **Waiting for Battle semi 2**. The speaker can call up the final dancers early, and the list matches what the secretariat sees.
+
+Once the round is drawn, **Lineup** shows it as usual.
+
 ## Quiz screens
 
 When the speaker runs a quiz (see [Running a quiz from the speaker app](/manager-guide/speaker-quiz/)), the screen shows it. It follows the same steps as the speaker:
