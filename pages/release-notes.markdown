@@ -7,6 +7,8 @@ nav_order: 10
 
 # Release notes
 ## 2026-11-16
+ ⭐ **New**
+* Schedule: With **Favorites** picked, the schedule is now a timetable of the clubs and dancers you follow. Each of their rounds lists your dancers with start number, name and club, later rounds show who got through, and the other rounds stay greyed out or fold away with **Only followed**. **Print** prints the day's timetable or saves it as a PDF, for team leaders and coaches who want it on paper (see [Find your club's rounds](/spectator/following-the-schedule/#find-your-clubs-rounds))
  🛠️ **Improvements**
 * Check-in: The desk can scan the next dancer straight after pressing **Arrived**, and the arrival is still saved, with a short message naming the dancer. Moving on from an admitted dancer without pressing **Arrived** shows a warning with **Mark arrived** and **Open**, and an arrival that can't be saved, for example when the Wi-Fi drops, stays on screen with the dancer's name and **Try again**. Before, an arrival could be lost when the next dancer was scanned quickly (see [Working through a queue](/manager-guide/the-door/#working-through-a-queue))
 * App: You can now claim past results entered with a member number that isn't yours, such as a number from an organizer's own system, even when you have a licence with a different number or the result has no birth year. You can claim it as long as no other dancer holds that number and its birth year, if it has one, is the one on your account. Such a result shows **Check this is you** and starts unticked, so tick only the ones that are yours. Before, these results didn't show up under **Claim past results** at all (see [If something is missing or looks wrong](/dancer/creating-and-getting-a-ranking/#if-something-is-missing-or-looks-wrong))
