@@ -40,6 +40,14 @@ So when a dancer moves to your club, the federation has to reissue the licence t
 - **The right club tag** (your **Short letters**) in results. For federations that import result
   files, a wrong club tag creates a duplicate club.
 
+## Your teams' season points
+
+If your federation closes a class at a number of points per season, the club's coaches and managers can follow every team's points in the Vote4Dance app. Open a dancer's or team's public profile and look at **Ranking and progression** on **Overview**. In a class's results, each team's place is followed by the points it earned there.
+
+When results are published and some of the club's teams have reached a limit, the coaches get one message for all of them, for example **2 of your teams move up**, naming each team and its category. Entries already made stay. To stop these messages, switch off **My club's teams move up a class** under **Profile** → **Settings** → **Notifications**, or in **Notification settings** on the website.
+
+See [Your season points in the app](/dancer/season-points/) for what each line means.
+
 ## If something looks wrong
 
 | What you see | Most likely reason |
