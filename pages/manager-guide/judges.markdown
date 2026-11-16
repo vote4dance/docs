@@ -12,6 +12,7 @@ help:
   manager.comp.judges.classes: classes
   manager.comp.judges.needs: judge-needs
   manager.comp.judges.absent: a-judge-who-cant-come
+  manager.comp.judges.cantJudgeClass: a-judge-who-cant-judge-one-class
   manager.comp.judges.problems: problems-with-the-panels
   manager.comp.judges.suggest: letting-vote4dance-suggest-seats
   manager.comp.judges.types: judge-types
@@ -404,6 +405,21 @@ When a judge is ill, delayed or has to leave:
 ![Replacing a judge who can't come](/assets/images/judges/judge-absent.png)
 
 A panel that already has scores keeps the judge; the dialog lists those panels. It also lists panels whose rounds have no time yet, since Vote4Dance can't tell whether they fall in the time away; check those yourself. To change who judges the rounds still to come, give those rounds a panel of their own on the [Classes](#classes) tab.
+
+### A judge who can't judge one class
+
+Sometimes a judge can still judge, just not one class, for example because their own student dances in it. You can swap the judge out of that class's rounds and leave everything else as it is:
+
+1. On the **Panels** tab, click the **Can't judge a class…** button on the judge's row. If the problems list already says the judge **Must not judge** a class in a round still to come, you can also click **Swap out…** on that problem; the judge and the class are then filled in for you.
+2. Choose the **Class**. Only classes where the judge has rounds still to come are listed.
+3. Under **Replaced by**, the judge Vote4Dance suggests is chosen and marked **Suggested**, picked by the same rules as **Judge absent**. Choose someone else, or **Nobody** to just take the judge off. Add a **Reason** if you like.
+4. The table lists the class's rounds the judge sits in, with the time, the panel judging it now and the panel that will judge it. A round that already has scores, or is closed, keeps the judge and shows **Scores in, stays as it is**.
+5. Leave **Add … to … classes not to judge** ticked so that **Suggest** never seats the judge in this class again and the problems list warns if they end up there. When you start from a **Must not judge** problem the box is unticked, because that need is already set.
+6. Choose **Swap in … rounds**. A message confirms who now judges the class's rounds.
+
+![Swapping a judge out of one class](/assets/images/judges/cant-judge-class.png)
+
+Your panels are not changed. Each panel the judge sits on in those rounds gets a copy named after it with **(substitute)** at the end, with the replacement in the judge's seat, and the class's rounds are given that copy as their own panel. Other classes that use the same panel, and the judge's rounds in other classes and competitions, keep the judge. On the [Classes](#classes) tab the rounds are then tagged **Own panel**. To undo it for a round that has no scores yet, choose **Class panel** for it again.
 
 ## Problems with the panels
 
