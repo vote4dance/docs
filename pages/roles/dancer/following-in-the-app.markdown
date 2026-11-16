@@ -35,6 +35,8 @@ The **Favorites** tab collects the dancers and clubs you follow, grouped by comp
 
 Following dancers and clubs, real-time updates and notifications are part of Premium.
 
+To follow a club, open the competition's **Competitors** tab, unfold **Organizations at this event** and tap the heart next to the club. [Find your club's rounds](/spectator/following-the-schedule/#find-your-clubs-rounds) shows how to pick out their rounds in the schedule.
+
 1. Open the **Favorites** tab.
 2. Read what Premium gives you, and look at the example to see how followed dancers will appear.
 3. Tap **Upgrade to Premium** when you want it.
