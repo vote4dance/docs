@@ -196,6 +196,7 @@ you.
 | A class says **This class needs a competitor with 2 people** | You picked a solo competitor for a couples class. Open **With partner** and pick your couple, or press **Create competitors** and add your partner. If your partner has no Vote4Dance account, you can create it there. |
 | A class is locked | Read the reason next to the class. The table above explains the common ones. |
 | A class says **A dancer in this team is already in …** or **This team is already in …** | Your federation allows only one class per category at an event: one age group and one level, for each dancer (solo, duo…) or each team (groups, formations). If you are in Solo Juniors 1 Rising Talent, you cannot also enter Solo Juniors 1 Ultimate Talent or Solo Children. Other categories, such as Duo or Clipdance, are not affected. To switch, remove the other class from your cart, or withdraw from it on **My registration**, and add the one you want. See [One class per category](#one-class-per-category). |
+| A class says **Closed** and "This team has … points this season" | Your team has too many points this season for that class level, so it moves up. Enter the next level up instead. See [A class closed by your season points](#a-class-closed-by-your-season-points). |
 | A class you expected is missing | The organizer may not offer it in this registration period. Ask the organizer. |
 | Your partner blocks the registration | Something is missing on your partner's account, such as a birth date or a licence. They fix it on their own account. |
 | You are not allowed to register this competitor | Ask your club to register you. |
@@ -221,6 +222,34 @@ greyed out and say which class you, or your team, are already in.
   may also dance in your club's other teams, in any class.
 - **To change your mind**, remove the class from your cart, or withdraw from it on
   [My registration](/dancer/my-registration/#withdrawing-from-a-class), and then add the other.
+
+### A class closed by your season points
+
+Some federations close a class level to a team once it has earned enough points this season. A
+team in Rising Talent that reaches 18 points, for example, dances Ultimate Talent from then on.
+
+When you pick the team, the registration page shows how many points it has this season, next to
+the team picker. The points are counted on the day of the event, the same way the class list counts
+them.
+
+A class the team's points have closed stays in the list, so you can see why it is not open:
+
+- It has a grey **Closed** tag next to its name, and the **Add** button is off.
+- The reason names the level: "This team has 18 points this season. From 18 points, it can no
+  longer enter Rising Talent."
+- The line under it says which federation's rule it is. Questions about the rule go to your club or
+  the federation.
+- **See the season ranking** opens the federation's season ranking, where you can check the results
+  behind the points. The link is only there when the federation publishes its season ranking.
+
+![A class closed by the team's season points, with the points next to the team picker and the note under the list](/assets/images/registration/season-points-closed-class.png)
+
+Under the list a note says: "An entry made before the team reached 18 points stays. Only new
+entries follow the limit." So a class you entered before your team reached the limit is not taken
+away. Only new entries are refused.
+
+**What to do:** enter the next level up, which is still open. If the points look wrong, ask your
+club or the federation.
 
 ## Cancelling a registration
 

@@ -9,6 +9,7 @@ help:
   manager.comp.live.judges-not-finishing: judges-not-finishing   # the round page's "Stuck?" links
   manager.comp.live.wrong-teams-in-round: wrong-teams-in-round
   manager.comp.live.schedule-drift: schedule-drift
+  manager.comp.live.send-through: check-where-the-round-sends-its-participants
 ---
 
 # Live operations
@@ -41,6 +42,24 @@ For each round:
    without any ("No targets have been set from the round result") and if placements conflict
 6. **Publish results online** when it should be public
 
+### Check where the round sends its participants
+
+When you confirm a round, check **Round for those that qualify** under **Qualified participants** before you send
+anyone on. It is filled in from the class setup, but you can change it, and a slip there sends the participants past
+a round.
+
+The field warns you when the round you picked skips a round:
+
+- For a second chance round, when it sends its qualifiers somewhere else than the round it takes the rest from does,
+  for example "Preliminary sent its qualifiers to Quarterfinal. This sends them to Semifinal instead."
+- For any other round, when it sends them past the next round, for example "The next round is Quarterfinal. Sending
+  to Semifinal skips it."
+
+The warning doesn't stop you: if you skip a round on purpose, for example because fewer participants came than
+planned, save as usual.
+
+![A warning under Round for those that qualify when a second chance round sends its qualifiers past the next round](/assets/images/round-guide/send-through-warning.png)
+
 ## Live controls you will use most
 
 - Round status controls: **Not started** → **In progress** (`Start judging`) → **Closed** (`Close round`) → **Confirmed** (`Confirm round`) → **Published** (`Publish results online`), plus **Previous status** to step back
@@ -64,6 +83,21 @@ It has a tab for each dance, with how many judges have submitted it (such as **3
   **Withdrawn** or **DQ**, so you can still see where it stood.
 - **A total of 0** shows as 0 for a couple that danced. A dash means the couple has not been
   marked in any dance yet.
+
+### Changing who goes through by hand
+
+When the result alone doesn't decide who goes on, for example to settle a tie at the line, you
+can change a single couple's status yourself:
+
+1. Close the round. The status can be changed while the round is closed, before you confirm it.
+2. On the **Result** tab, click the couple's **Status**.
+3. Choose **Advance to** and the round to send the couple to, or **Not going through** to keep it
+   out.
+
+The couple then shows **Moved** (**Changed by hand**). When you confirm the round, the couples you
+changed go as you set them, and the others go by their place and the number going through. If you
+change the number going through afterwards, every couple is set from the result again, so change
+the number first and the single couples after.
 
 ### Rounds judged with scores over several dances
 
@@ -158,6 +192,22 @@ While a round is **In progress**, the round page shows a **Stuck?** link next to
 
 - Use round add/copy/clear tools in open or ready state
 - Re-run send-through after correction
+
+If a round sent its participants to the wrong round, for example a second chance round that sent them to the
+semifinal instead of the quarterfinal:
+
+1. In the round they went to by mistake, use **Remove participants** while it is **Not started**.
+2. Set the round that sent them back with **Previous status** until it is **Closed**.
+3. Under **Qualified participants**, choose the right **Round for those that qualify**, then click **Save changes**
+   and **Confirm round** again.
+
+### A dancer withdraws before the first round
+
+When you withdraw an entry in its entry form, or with check-in, while it is only in the first round of its class and no judge has marked it there yet, it is taken out of that round as well. It gets no place in the result, and the results file shows it as withdrawn (**S**).
+
+An entry you withdraw from the round itself, from the round's menu or the lineup, stays in the round, struck through, so you can take the withdrawal back with one click. So does an entry that has already been marked, or that is in a round that is closed or confirmed. Such an entry is placed last. To leave it out of the result, take it out of the round before judging starts.
+
+If you withdrew the wrong entry in its entry form, take back the withdrawal and add the entry to the round again.
 
 ### Wrong judging type on a round in progress
 
