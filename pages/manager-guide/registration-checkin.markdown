@@ -71,7 +71,7 @@ Dancers who have no organization are not held up: their entries skip signing, an
 
 *The organization signs the entries, and pays them together by manual payment.*
 
-**In the event checklist.** The payment step recommends **Take payment online (Stripe)**: payments are checked off automatically, the money goes straight to your account, and organizations get a receipt and an invoice. If you can't take payment online, choose **Take payment manually**. Then you check off each payment yourselves.
+**In the event checklist.** The payment step recommends **Take payment online (Stripe)**: payments are checked off automatically, the money goes straight to your account, and organizations get a receipt and an invoice. If you can't take payment online, choose **Take payment manually**. Then you check off each payment yourselves. If you imported your entries and take no sign-ups in Vote4Dance, you don't need a payment setup: the step is then **Optional** and the checklist moves on to the next step.
 
 #### What the organization sees
 
@@ -318,6 +318,8 @@ Once anybody has been marked arrived at the desk, the registrations list gains a
 - Mark team attendance/cancellation reasons
 - Capture signed check-in submissions
 - Apply/unapply check-in to competition state
+
+Each club is shown with its full name and its short name, for example **Föreningen Olands Bugg & Swing (OLAND)**. A club whose dancers only dance with partners from other clubs takes its name from those couples. A club with no full name in the entries is shown by its short name only.
 
 ### Recommended check-in sequence
 
