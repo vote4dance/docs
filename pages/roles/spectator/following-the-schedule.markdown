@@ -69,11 +69,28 @@ In the app:
 2. Unfold **Organizations at this event** and tap the heart next to your club.
 3. Open the **Schedule** tab and pick **Favorites**. The app marks the same rounds with a heart; open a round to see who dances. Printing is done on the website.
 
-The **Competitors** tab has a **Favorites** switch too: it lists only the classes your club's dancers are in.
+### List your club's entries
+
+The **Competitors** tab has a **Favorites** switch too. With **Classes** picked it lists only the classes your club's dancers are in; click a class to see your dancers' heats. Pick **List** for a short list of everyone you follow, for example to hand out at the team leaders' meeting:
+
+1. Open the **Competitors** tab, pick **Favorites** and then **List**.
+2. Each row is one start number: the dancers, their club and every class they are entered in, with the round each class starts in. A group or formation shows its team name.
+3. Pick **By start no.** to sort by start number, or **By club** to see each club's entries under its own heading.
+4. Click **Print** to print the list or save it as a PDF. In the print window you choose **Portrait** or **Landscape**.
+
+![The Competitors tab with Favorites and List picked: one row per start number with dancers, club and classes](/assets/images/spectator-schedule/web-entry-list.png)
+
+A link to the list opens it directly, so you can share it with other team leaders who follow the same clubs.
+
+### Download a club's entries as a spreadsheet
+
+You don't need Premium for this. On the **Competitors** tab, unfold **Organizations** and click a club's name. **Showing** and the club then appear next to **All** and **Favorites**, with **Download CSV**. The file opens in Excel and lists the club's entries class by class, with each entry's start number, name and heat in every round.
+
+![The Competitors tab with a club picked: Showing ADK and Download CSV next to All and Favorites](/assets/images/spectator-schedule/web-club-csv.png)
 
 You follow a club for one event at a time, so follow it again at the next event. The app's **Favorites** tab collects what you follow, grouped by competition: see [Follow dancers and clubs with Premium](/dancer/following-in-the-app/#follow-dancers-and-clubs-with-premium).
 
-Without Premium, the heart, **Favorites** and printing open the Premium offer instead. When you are not signed in, the heart cannot be clicked.
+Without Premium, the heart, **Favorites**, the list and printing open the Premium offer instead. The club's CSV download works without Premium. When you are not signed in, the heart cannot be clicked.
 
 To see which of your club's dancers are entered, and download the list, open the club's **Administration → Registration**: see [Registration](/school-club/club-admin/#registration).
 
