@@ -62,6 +62,9 @@ With **Never**:
 - **Going up is always open.** A team that is closed out of one class level can still enter the next one up.
 - **A class move** is refused in the same way when the team is moving into a class it has no longer the right to enter.
 - **Event staff** are warned instead of stopped. They may still add or move the team.
+- **In the Vote4Dance app** each dancer sees every team's points under **Ranking and progression** on their public profile: the points, a bar to the next limit, and the results behind the total. Each team's place in the class results is followed by the points it earned, such as **+7**. See [Your season points in the app](/dancer/season-points/).
+- **When a team reaches a limit**, its dancers and their parents get a message on their phone once the competition's results are published, and the club's coaches get one message for all the club's teams that moved up. Each person can switch these messages off in their notification settings; the federation cannot switch them off.
+- **Who sees a team's points in the app:** the team's dancers, their parents, their club's coaches and managers, and the federation. Anyone else only sees them when the division publishes its [season ranking](/federation/season-ranking/), and then only from published results.
 - **Entries already made** stay. If a team's points rise after it has registered, the entry is not removed. It shows on **Season points** under **Entries to check**, so someone can decide what to do.
 
 ![A class closed by points, with the Closed tag and the next level up still open](/assets/images/class-point-limits/class-locked.png)

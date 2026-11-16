@@ -140,9 +140,25 @@ Under the battles, the speaker sees who meets whom in the next round, so the nex
 
 ![Who meets whom in the next round, under the battles](/assets/images/battle-results/speaker-pairings.png)
 
-The **Done** button, which publishes the round, stays disabled until the round has been confirmed. The final and the B-final show the usual winner list. The venue screen in Live mode is not changed: it follows the floor battle by battle, as before.
+The **Done** button, which publishes the round, stays disabled until the round has been confirmed. A final or B-final danced as one battle shows the usual winner list; a final made of best-of battles is listed battle by battle (see [Best-of battles](#best-of-battles)). The venue screen in Live mode is not changed: it follows the floor battle by battle, as before.
 
 To show a battle round's result on a screen, see the table above. The audience reads the same round as a tree on the website: see [Battle results as a tree](/spectator/following-the-schedule/#battle-results-as-a-tree).
+
+#### Best-of battles
+
+At some events a battle is won over several rounds: best of 2 with a **Tie-Break** if it ends 1–1, or best of 3. The **Results** page then shows each battle with its rounds under it, so the speaker can follow the battle round by round:
+
+- The big score is **rounds** won, for example 2–1, not judges' votes.
+- Under the dancers, each round shows who won it and the judges' vote, such as "Runda 1 / 2 · 33 Noor Lindqvist 2–1". The round being danced is framed and shows how many judges have handed in, for example "on the floor · 2 of 3 judges".
+- While the battle runs, the dancer ahead shows **Leads 1–0**.
+- **Judges done** comes when every round has been decided and one dancer has won more rounds. At 1–1 the battle shows **Level — waiting for a tie-break** until the secretariat adds the tie-break round.
+- The **Read out** line gives the rounds won, for example "Battle 1: 33 Noor Lindqvist wins 2–1 in rounds over 31 Ella Sandberg and goes on to final. 31 Ella Sandberg goes to bronsbattle."
+
+![A semifinal of best-of battles: battle 1 decided after a tie-break, battle 2 on the floor in its second round](/assets/images/battle-results/speaker-best-of-semifinal.png)
+
+When the final is a gold battle and a bronze battle, for example **Guldbattle** and **Bronsbattle**, the speaker follows the final the same way. The battles are named by their round, and the **Read out** line also gives the places, for example "31 Ella Sandberg takes place 3, 30 Tove Ahlström place 4." Under the semifinal, **Final — how they meet** shows who goes to which battle: the winners to the gold battle and the losers to the bronze battle. Once the final is confirmed, the usual list of places follows under the battles.
+
+![A final with the bronze battle done and the gold battle on the floor in its third round](/assets/images/battle-results/speaker-best-of-final.png)
 
 #### Who is already through, on Lineup
 

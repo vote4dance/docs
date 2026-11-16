@@ -29,6 +29,8 @@ Closing can happen days after the competition. Until then, your points and class
 
 The full mechanism is on [Promotion points](/federation/progression/).
 
+If your federation closes a class at a number of points per season, the app shows where each of your teams stands and tells you when one moves up: see [Your season points in the app](/dancer/season-points/).
+
 ## Points belong to the couple
 
 Promotion points and class belong to the **couple or team**, not to each dancer. If you start
