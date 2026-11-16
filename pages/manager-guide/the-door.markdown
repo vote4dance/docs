@@ -9,6 +9,7 @@ help:
   checkin.redeem: tickets
   checkin.sell: selling-at-the-desk
   checkin.user: the-person-screen
+  checkin.user.arrivals: working-through-a-queue
 ---
 
 # At the door
@@ -83,6 +84,33 @@ A dancer who wants to dance one more class can be entered at the desk. **Add cla
 The Manager's registration list gains an **Arrived** column once anybody has arrived, showing `n/m` members per registration with a filter for everyone, some or nobody. That is the list to watch from the office while the desk works.
 
 Arrival is recorded for every dancer, whatever the admission policy says, and it never gates anybody: a dancer who is admitted is admitted whether or not the desk pressed the button.
+
+### Working through a queue
+
+When it's busy, the desk can scan the next dancer as soon as it has pressed **Arrived**. It doesn't have to wait for the screen to turn green.
+
+1. Scan the dancer's Vote4Dance ID.
+2. Press **Arrived**.
+3. Scan the next dancer straight away. The arrival you just pressed is still saved, and a short message confirms it with the dancer's name, for example *Emma Janssens – arrived*.
+
+The camera keeps reading while a dancer's screen is open. If the next code opens before you pressed **Arrived**, the desk gets a warning naming the dancer you skipped:
+
+![A dancer left without Arrived](/assets/images/door/arrival-left-unmarked.png)
+
+- **Mark arrived** marks them without going back.
+- **Open** goes back to their screen.
+
+The warning only comes for a dancer who was **Admitted**. Moving on from someone who needs a ticket, isn't on the event or has already arrived gives no warning.
+
+If an arrival can't be saved, for example because the hall's Wi-Fi dropped for a moment, a message with the dancer's name stays on screen until you deal with it. Press **Try again** once the connection is back.
+
+![An arrival that wasn't saved](/assets/images/door/arrival-save-failed.png)
+
+Families who show every child's ID on one phone (**My family's IDs**) work the same way: scan a child, press **Arrived**, then scan the next child.
+
+### A dancer shows "Not on this event"
+
+If a dancer you know is entered gets **Not on this event** when you scan their ID, type their name in the box instead; their entry will come up. This usually means they made a second Vote4Dance account and are showing that account's ID. Ask them to sign in with the email address they were registered with, so their ID works at the next event.
 
 ## Tickets
 
