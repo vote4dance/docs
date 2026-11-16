@@ -176,11 +176,11 @@ While a round is **In progress**, the round page shows a **Stuck?** link next to
 
 ### A dancer withdraws before the first round
 
-When you withdraw an entry that is only in the first round of its class, and no judge has marked it there yet, it is taken out of that round as well. It gets no place in the result, and the results file shows it as withdrawn (**S**). This works the same from the entry form, the round's menu and check-in.
+When you withdraw an entry in its entry form, or with check-in, while it is only in the first round of its class and no judge has marked it there yet, it is taken out of that round as well. It gets no place in the result, and the results file shows it as withdrawn (**S**).
 
-An entry that has already been marked, or that is in a round that is closed or confirmed, stays in the round and is placed last, struck through.
+An entry you withdraw from the round itself, from the round's menu or the lineup, stays in the round, struck through, so you can take the withdrawal back with one click. So does an entry that has already been marked, or that is in a round that is closed or confirmed. Such an entry is placed last. To leave it out of the result, take it out of the round before judging starts.
 
-If you withdrew the wrong entry, take back the withdrawal and add the entry to the round again.
+If you withdrew the wrong entry in its entry form, take back the withdrawal and add the entry to the round again.
 
 ### Wrong judging type on a round in progress
 
