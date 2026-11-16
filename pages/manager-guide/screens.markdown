@@ -8,6 +8,7 @@ help:
   manager.event.screens: ""
   screens.event: ""
   screens.event.quiz: quiz-screens
+  speaker.event.results.battles: battles-in-the-speaker-app
 ---
 
 # Screens, projectors and venue technology
@@ -113,6 +114,35 @@ screen** buttons. The speaker picks which screen to drive, then sends it:
 
 The screen fades over about a second when it changes. Audience voting and the live-placement
 view are variants of the heat screen and appear on their own when they apply.
+
+### Battles in the speaker app
+
+When a round is danced as battles, the speaker's **Results** page lists every battle in order and follows the floor while the round runs. The round appears as soon as its first battle has started. Each battle shows where it stands:
+
+| Status | Meaning |
+|---|---|
+| **On the floor** | The battle is being danced. It also shows how many judges have handed in, for example "2 of 3 judges". |
+| **Judges done** | All judges have handed in and the winner is known. This is the same moment the venue screen reveals the winner. |
+| **Tie — waiting for the secretariat** | The judges tied, and the secretariat has to settle it. |
+| **Done** | The battle has been confirmed. |
+| **Next** | The battle that is danced next. |
+
+![Battles in the speaker app: done, judges done, on the floor and next](/assets/images/battle-results/speaker-battles.png)
+
+Once a battle has a winner you see:
+
+- The winner with a big start number, the name and **through**.
+- The score, for example 2-1, and which judges voted for whom.
+- The loser, marked **out**.
+- A **Read out** line to say into the microphone, such as "Battle 1: 591 wins 2-1 over 583 and goes on to quarter-final."
+
+Under the battles, the speaker sees who meets whom in the next round, so the next battle can be called up before that round has started.
+
+![Who meets whom in the next round, under the battles](/assets/images/battle-results/speaker-pairings.png)
+
+The **Done** button, which publishes the round, stays disabled until the round has been confirmed. The final and the B-final show the usual winner list. The venue screen in Live mode is not changed: it follows the floor battle by battle, as before.
+
+To show a battle round's result on a screen, see the table above. The audience reads the same round as a tree on the website: see [Battle results as a tree](/spectator/following-the-schedule/#battle-results-as-a-tree).
 
 ## Quiz screens
 
