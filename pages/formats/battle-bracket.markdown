@@ -42,6 +42,13 @@ In Scrutineer (Beta), the new version of the Manager app, the round page has **P
 
 ---
 
+## What spectators and the speaker see
+
+- **Spectators and dancers** read a published battle class as a tree on the event page: see [Battle results as a tree](/spectator/following-the-schedule/#battle-results-as-a-tree).
+- **The speaker** gets a live list of every battle in the **Results** page of the Speaker app: see [Battles in the speaker app](/manager-guide/screens/#battles-in-the-speaker-app).
+
+---
+
 ## Two‑step pattern for every battle round
 
 1. **Set up the round skeleton** in the round editor before the battle starts. Create the parent battle round and the child rounds (one per match) with the right *Number of competitors* and *Number advancing*.
