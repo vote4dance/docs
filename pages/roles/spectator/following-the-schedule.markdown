@@ -115,6 +115,12 @@ On a phone the tree shows one round at a time:
 
 Only rounds that have been published show results. When the organizer hides or delays the judges' marks, for the whole event or for one round, the tree shows no votes and no judge letters, only who went on. Places the organizer hides are not shown either.
 
+### In the Vote4Dance app
+
+In the app, open the competition's **Results**, tap the class, and the result sheet opens on **Tree**, with **Tables** next to it. It works like the website on a phone: pick a round with the round buttons or the arrows, and each battle shows both dancers with their start number and name, the judges who voted for each, and the votes. The winner has a pink start number and is in bold, and under each battle you see where the winner goes next. The last page has the final, the B-final and the placings.
+
+![The tree in the Vote4Dance app: the eighth-final, with where each winner goes next](/assets/images/battle-results/app-tree.png)
+
 ## Finished blocks turn grey
 
 Blocks whose results are all out turn grey, and so do the notes above the block that is dancing now, such as "Competition start" or a lunch break. The block that is dancing, and everything after it, stays bright, so you find your place in a long schedule at a glance. The green dot stays, so you can still see which results are out.
