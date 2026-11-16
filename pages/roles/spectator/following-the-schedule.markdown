@@ -118,6 +118,7 @@ The tree reads from left to right:
 - The winner is in **bold** and the loser is dimmed. A line leads from each battle to the battle its winner goes to next.
 - The B-final hangs under the final.
 - A **Placings** box lists 1st to 4th by name, then ranges such as 5-8 and 9-16.
+- When a battle is won over several rounds, for example best of 3 or best of 2 with a tie-break, the number is the rounds won instead of the votes, and each dancer has a dot per round: filled for a round they won, a ring for a round they lost, an orange ring for a round that ended level, and a dash for a round not danced yet.
 
 The seed of a dancer, for example "1 v 16", is shown once the selection round has been published.
 
@@ -137,6 +138,10 @@ Only rounds that have been published show results. When the organizer hides or d
 In the app, open the competition's **Results**, tap the class, and the result sheet opens on **Tree**, with **Tables** next to it. It works like the website on a phone: pick a round with the round buttons or the arrows, and each battle shows both dancers with their start number and name, the judges who voted for each, and the votes. The winner has a pink start number and is in bold, and under each battle you see where the winner goes next. The last page has the final, the B-final and the placings.
 
 ![The tree in the Vote4Dance app: the eighth-final, with where each winner goes next](/assets/images/battle-results/app-tree.png)
+
+A battle won over several rounds shows the rounds won and a dot per round, as on the website. In the picture below, battle 1 went to a tie-break: Noor Lindqvist won the first round and the tie-break, Ella Sandberg the second.
+
+![A semifinal of best-of battles in the app: a dot for each round and the rounds won](/assets/images/battle-results/app-tree-best-of.png)
 
 ## Finished blocks turn grey
 
