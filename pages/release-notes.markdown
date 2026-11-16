@@ -8,6 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-11-16
  🛠️ **Improvements**
+* App: You can now claim past results entered with a member number that isn't yours, such as a number from an organizer's own system, even when you have a licence with a different number or the result has no birth year. You can claim it as long as no other dancer holds that number and its birth year, if it has one, is the one on your account. Such a result shows **Check this is you** and starts unticked, so tick only the ones that are yours. Before, these results didn't show up under **Claim past results** at all (see [If something is missing or looks wrong](/dancer/creating-and-getting-a-ranking/#if-something-is-missing-or-looks-wrong))
 * Scrutineer (Beta): Couples you send on or keep out by hand in a round's **Result** tab now go as you set them when you confirm the round. Before, confirming could set every couple again from the result, and when the round had no more couples than go through, all of them went on (see [Changing who goes through by hand](/manager-guide/live-operations/#changing-who-goes-through-by-hand))
 * Speaker: The **Judges** card on **Overview** can now show the judges **By panel**: each panel with the judges seated on it, and the judges on no panel under **Not in a panel**. **All judges** shows one list per competition, as before (see [Panels in the speaker app](/manager-guide/judges/#panels-in-the-speaker-app))
 ## 2026-11-13
