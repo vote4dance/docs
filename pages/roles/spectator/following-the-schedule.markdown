@@ -6,6 +6,7 @@ parent: Spectator
 nav_order: 2
 help:
   public.event.schedule: ""
+  public.event.results.battles: battle-results-as-a-tree
 ---
 
 # Following the schedule
@@ -64,6 +65,34 @@ Each round shows the time it is planned to start, so you know when to be in the 
 *Finished blocks are grey and keep their green dot.*
 
 Planned times move when the competition runs ahead or behind. When the organizer has chosen not to show times, you see the block number instead.
+
+## Battle results as a tree
+
+When a class is run as battles, its result is easier to follow as a tree than as tables. Open the event page, go to **Results** and pick the class. At the top you choose **Tree** or **Tables**. **Tree** is shown first.
+
+![The Tree view of a battle class, from the selection round to the final and the placings](/assets/images/battle-results/tree-desktop.png)
+
+The tree reads from left to right:
+
+- First comes the selection round, with how many dancers go on.
+- Then one column for each battle round, for example eighth-final, quarter-final, semifinal and final.
+- Each battle is a box with the start number and name of both dancers, the letters of the judges who voted for each of them, and the number of votes.
+- The winner is in **bold** and the loser is dimmed. A line leads from each battle to the battle its winner goes to next.
+- The B-final hangs under the final.
+- A **Placings** box lists 1st to 4th by name, then ranges such as 5-8 and 9-16.
+
+The seed of a dancer, for example "1 v 16", is shown once the selection round has been published.
+
+To see the tables behind a battle, click the battle, or press **Show table** to open the tables for the whole round. Choose **Tables** at any time to go back to the tables.
+
+On a phone the tree shows one round at a time:
+
+1. Pick a round with the round buttons at the top, or move between rounds with the arrows on either side of the round's name.
+2. Under each battle you see where its winner goes next, for example "Winner → Semifinal battle 2".
+
+![The tree on a phone: the quarter-final, with where each winner goes next](/assets/images/battle-results/tree-phone.png)
+
+Only rounds that have been published show results. When the organizer hides or delays the judges' marks, for the whole event or for one round, the tree shows no votes and no judge letters, only who went on. Places the organizer hides are not shown either.
 
 ## Finished blocks turn grey
 
