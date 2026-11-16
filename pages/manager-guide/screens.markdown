@@ -8,6 +8,7 @@ help:
   manager.event.screens: ""
   screens.event: ""
   screens.event.quiz: quiz-screens
+  speaker.event.results.battles: battles-in-the-speaker-app
 ---
 
 # Screens, projectors and venue technology
@@ -108,11 +109,62 @@ screen** buttons. The speaker picks which screen to drive, then sends it:
 | Schedule | A specific schedule item |
 | Lineup | A round, its teams, a single team in a heat, a group's dancers, a redance/rotation draw |
 | Results | A round's result, or the open judging for one team |
-| Judges | One judge, or all judges in turn |
+| Judges | One judge, or all judges in turn. The speaker can list the judges [by panel](/manager-guide/judges/#panels-in-the-speaker-app) |
 | Sponsors | A sponsor, or the sponsor rotation |
 
 The screen fades over about a second when it changes. Audience voting and the live-placement
 view are variants of the heat screen and appear on their own when they apply.
+
+### Battles in the speaker app
+
+When a round is danced as battles, the speaker's **Results** page lists every battle in order and follows the floor while the round runs. The round appears as soon as its first battle has started. Each battle shows where it stands:
+
+| Status | Meaning |
+|---|---|
+| **On the floor** | The battle is being danced. It also shows how many judges have handed in, for example "2 of 3 judges". |
+| **Judges done** | All judges have handed in and the winner is known. This is the same moment the venue screen reveals the winner. |
+| **Tie — waiting for the secretariat** | The judges tied, and the secretariat has to settle it. |
+| **Done** | The battle has been confirmed. |
+| **Next** | The battle that is danced next. |
+
+![Battles in the speaker app: done, judges done, on the floor and next](/assets/images/battle-results/speaker-battles.png)
+
+Once a battle has a winner you see:
+
+- The winner with a big start number, the name and **through**.
+- The score, for example 2-1, and which judges voted for whom.
+- The loser, marked **out**.
+- A **Read out** line to say into the microphone, such as "Battle 1: 591 wins 2-1 over 583 and goes on to quarter-final."
+
+Under the battles, the speaker sees who meets whom in the next round, so the next battle can be called up before that round has started.
+
+![Who meets whom in the next round, under the battles](/assets/images/battle-results/speaker-pairings.png)
+
+The **Done** button, which publishes the round, stays disabled until the round has been confirmed. A final or B-final danced as one battle shows the usual winner list; a final made of best-of battles is listed battle by battle (see [Best-of battles](#best-of-battles)). The venue screen in Live mode is not changed: it follows the floor battle by battle, as before.
+
+To show a battle round's result on a screen, see the table above. The audience reads the same round as a tree on the website: see [Battle results as a tree](/spectator/following-the-schedule/#battle-results-as-a-tree).
+
+#### Best-of battles
+
+At some events a battle is won over several rounds: best of 2 with a **Tie-Break** if it ends 1–1, or best of 3. The **Results** page then shows each battle with its rounds under it, so the speaker can follow the battle round by round:
+
+- The big score is **rounds** won, for example 2–1, not judges' votes.
+- Under the dancers, each round shows who won it and the judges' vote, such as "Runda 1 / 2 · 33 Noor Lindqvist 2–1". The round being danced is framed and shows how many judges have handed in, for example "on the floor · 2 of 3 judges".
+- While the battle runs, the dancer ahead shows **Leads 1–0**.
+- **Judges done** comes when every round has been decided and one dancer has won more rounds. At 1–1 the battle shows **Level — waiting for a tie-break** until the secretariat adds the tie-break round.
+- The **Read out** line gives the rounds won, for example "Battle 1: 33 Noor Lindqvist wins 2–1 in rounds over 31 Ella Sandberg and goes on to final. 31 Ella Sandberg goes to bronsbattle."
+
+![A semifinal of best-of battles: battle 1 decided after a tie-break, battle 2 on the floor in its second round](/assets/images/battle-results/speaker-best-of-semifinal.png)
+
+When the final is a gold battle and a bronze battle, for example **Guldbattle** and **Bronsbattle**, the speaker follows the final the same way. The battles are named by their round, and the **Read out** line also gives the places, for example "31 Ella Sandberg takes place 3, 30 Tove Ahlström place 4." Under the semifinal, **Final — how they meet** shows who goes to which battle: the winners to the gold battle and the losers to the bronze battle. Once the final is confirmed, the usual list of places follows under the battles.
+
+![A final with the bronze battle done and the gold battle on the floor in its third round](/assets/images/battle-results/speaker-best-of-final.png)
+
+#### Who is already through, on Lineup
+
+A final or B-final is often not drawn until the whole semifinal is done. On **Lineup** (and **Live**) the speaker still sees who is already through: as soon as a battle feeding the round is confirmed, its winner or loser shows with a label such as "Winner of Battle semi 1". A place still to be danced for shows as a "?" with the battle and its two dancers, for example "Winner of Battle semi 2 (542 against 556)", and the heat says **Waiting for Battle semi 2**. The speaker can call up the final dancers early, and the list matches what the secretariat sees.
+
+Once the round is drawn, **Lineup** shows it as usual.
 
 ## Quiz screens
 

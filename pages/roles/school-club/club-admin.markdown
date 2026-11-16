@@ -178,6 +178,8 @@ The selected event opens below the cards. Filter its entries with the buttons ab
 | **Active** | Every entry that is not cancelled, rejected or deleted |
 | **Approved** | Approved entries |
 | **Waiting** | Entries that are **Preliminary**, **Signed** or **Reserved** |
+| **To sign** | Entries your members registered that wait for your organization to sign. Shown when the organizer has the organization sign the entries |
+| **Signed** | Entries your organization has signed |
 | **Unpaid** | Active entries that are not paid |
 | **Cancelled** | Cancelled, rejected and deleted entries |
 
@@ -186,6 +188,10 @@ Use **Search dancer or class** to narrow the list, and switch between three view
 - **By class** lists the classes, each with its number of entries and how many are unpaid. Click a class to see its entries. Each entry shows the competitor, **Status** and, when the event takes payment, **Payment**.
 - **By dancer** lists one row per dancer with the classes they are entered in, the status of each, and how many entries are unpaid.
 - **By day** lists your dancers for each day of the event. See [Dancers per day](#dancers-per-day).
+
+### Signing entries
+
+When the organizer has the organization sign the entries, the selected event starts with a **To sign (n)** card. **Sign**, **Decline** and **Sign all** are there, and, with online payment, **Sign and pay**. After signing, a payment card shows the amount, reference and the organizer's payment instructions. The steps are in [Signing your members' entries](/school-club/registration-for-event/#signing-your-members-entries).
 
 ### Dancers per day
 
@@ -201,15 +207,16 @@ The days come from the event's schedule, so the lists appear once the organizer 
 
 A dancer in a class that runs over two days, such as a first round on Saturday and a final on Sunday, is listed on both days, even if they might not reach the final. The filter buttons apply here too: with **Active** selected, cancelled entries are left out.
 
+To see when your dancers dance during the day, follow the club in the schedule: see [Find your club's rounds](/spectator/following-the-schedule/#find-your-clubs-rounds).
+
 | Action | How | Who |
 |---|---|---|
-| Change the lineup | **Edit lineup** on the entry. You can use it while the entry's registration period is open and the entry is **Preliminary**, **Signed** or **Approved**. The new lineup is checked against the class rules, and a replacement dancer takes over the replaced dancer's dance role. | Coach, Manager, Administrator |
+| Change the lineup | **Edit lineup** on the entry. You can use it while the entry's registration period is open and the entry is **Preliminary**, **Signed** or **Approved**. The new lineup is checked against the federation rules, and a replacement dancer takes over the replaced dancer's dance role. | Coach, Manager, Administrator |
 | Cancel an entry | The cancel button on the entry, then confirm, under the same conditions. For a club-owned competitor, only the club's coaches, managers and administrators can cancel. | Coach, Manager, Administrator |
 | Move an entry to another class | **Change class**, the swap icon next to **Edit lineup**, while the entry's registration period is open, the entry is not on the start list and has no lineup changes. You can pick another class of the same registration period, at the same price; its rules are checked as for a new registration. See [Moving an entry to another class](/school-club/registration-for-event/#moving-an-entry-to-another-class). | Coach, Manager, Administrator |
 | Upload or play an entry's music | **Music** next to the cancel button, on a class that asks for own music. It says **Upload music** while the entry has no file. You can use it while the entry's registration period is open; after that only the organizer can change it. See [When your club registered the entry](/dancer/my-registration/#when-your-club-registered-the-entry). | Coach, Manager, Administrator |
 | See the price | **Get cost**, for approved entries not yet paid | Coach, Manager, Administrator |
-| Pay online | **Pay now** with the amount, when the event takes online payment. With manual payment you see the amount and the organizer's payment information instead. | Coach, Manager, Administrator |
-| Pay the club's invoice | **Pay now** on a row under **Pay your registrations**. It is enabled when the invoice's status is **Ready to send**. | Coach, Manager, Administrator |
+| Pay online | **Get cost**, then **Pay now** with the amount, when the event takes online payment. The payment is billed to the club, which gets a receipt and an invoice. With manual payment you see the amount and the organizer's payment information instead. | Coach, Manager, Administrator |
 
 Cancelling does not refund a payment by itself. New registrations are made from the event's own registration page. See [Registration for event](/school-club/registration-for-event/).
 

@@ -47,6 +47,8 @@ The floor name is required. Nothing on this screen checks for duplicate names, s
 
 A section saves as you type. There is no **Save changes** button for a section. Click the pencil again to close the fields.
 
+In Scrutineer (Beta), type the section's name and add it. The section gets a letter code straight away: the letter its name ends in, such as `A` or `Section B`, or otherwise the first letter the floor's other sections don't use. To change it, click **Edit** on the section's row, change the **Letter** and click **Save**.
+
 A section cannot have its own sections.
 
 ## Rename a floor

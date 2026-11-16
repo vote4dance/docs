@@ -122,8 +122,10 @@ The status decides whether you are in. **Only Approved counts.**
 
 | Status | What it means | What you do |
 |---|---|---|
-| **Preliminary** | Registered, but **not yet a participant**. Normal when the organizer approves by hand or you pay by invoice. | Wait, or pay the invoice. Ask the organizer if it stays here close to the event. |
-| **Signed** | An optional step the organizer uses for their own bookkeeping. | Nothing. |
+| **Preliminary** | Registered, but **not yet a participant**. Normal when the organizer approves by hand. | Wait, or pay if the event asks for payment. Ask the organizer if it stays here close to the event. |
+| **Signed** | An optional step the organizer uses for their own bookkeeping. If your organization signs entries, it means your organization signed yours and the entry now waits for payment. | Nothing, unless **You pay once the entry is signed** is shown: then pay when it asks you to. |
+| **Waiting for the organization** | Your club or organization has to sign your entry first. See [When your organization signs your entry](#when-your-organization-signs-your-entry). | Nothing. Your entry is not paid for yet. |
+| **Declined by the organization** | Your organization did not sign the entry, so it is withdrawn. | Contact your organization. |
 | **Approved** | Accepted. You are in. Automatic when an online payment completes, when the period accepts directly, or when the organizer or the check-in desk entered you. | Keep the email: it has your check-in QR code. |
 | **Cancelled** | Withdrawn by you, your club or the organizer. | Register again if it was a mistake and registration is still open. |
 | **Rejected** | Declined by the organizer. | Ask the organizer why. |
@@ -135,6 +137,17 @@ code; you also have it in the app under **Profile → Vote4Dance ID** and on you
 
 If you pay online and leave the checkout before paying, the registration is removed
 automatically. Nothing is left half-done; just start again.
+
+## When your organization signs your entry
+
+Some events want your club or organization to sign the entries before they count. When you register yourself, you see **Registration sent. Your organization signs it next, nothing is paid yet.** The entry shows **Waiting for the organization**, and you get an email that says the same. You do not pay when you register.
+
+- If the event lets your organization pay, **My registration** says **Your organization pays the entry fee. You don't need to do anything else.**
+- If the dancers pay themselves, you pay once the organization has signed. **My registration** says **You pay once the entry is signed.**
+- If you have no organization, your entry is not held up: skip signing and pay as the page tells you.
+- If your organization declines, you get an email, and the entry shows **Declined by the organization**. Contact your organization.
+
+See [When your organization signs your entry](/dancer/my-registration/#when-your-organization-signs-your-entry) for what My registration shows.
 
 ## Checking your registrations
 
@@ -183,6 +196,7 @@ you.
 | A class says **This class needs a competitor with 2 people** | You picked a solo competitor for a couples class. Open **With partner** and pick your couple, or press **Create competitors** and add your partner. If your partner has no Vote4Dance account, you can create it there. |
 | A class is locked | Read the reason next to the class. The table above explains the common ones. |
 | A class says **A dancer in this team is already in …** or **This team is already in …** | Your federation allows only one class per category at an event: one age group and one level, for each dancer (solo, duo…) or each team (groups, formations). If you are in Solo Juniors 1 Rising Talent, you cannot also enter Solo Juniors 1 Ultimate Talent or Solo Children. Other categories, such as Duo or Clipdance, are not affected. To switch, remove the other class from your cart, or withdraw from it on **My registration**, and add the one you want. See [One class per category](#one-class-per-category). |
+| A class says **Closed** and "This team has … points this season" | Your team has too many points this season for that class level, so it moves up. Enter the next level up instead. See [A class closed by your season points](#a-class-closed-by-your-season-points). |
 | A class you expected is missing | The organizer may not offer it in this registration period. Ask the organizer. |
 | Your partner blocks the registration | Something is missing on your partner's account, such as a birth date or a licence. They fix it on their own account. |
 | You are not allowed to register this competitor | Ask your club to register you. |
@@ -208,6 +222,34 @@ greyed out and say which class you, or your team, are already in.
   may also dance in your club's other teams, in any class.
 - **To change your mind**, remove the class from your cart, or withdraw from it on
   [My registration](/dancer/my-registration/#withdrawing-from-a-class), and then add the other.
+
+### A class closed by your season points
+
+Some federations close a class level to a team once it has earned enough points this season. A
+team in Rising Talent that reaches 18 points, for example, dances Ultimate Talent from then on.
+
+When you pick the team, the registration page shows how many points it has this season, next to
+the team picker. The points are counted on the day of the event, the same way the class list counts
+them.
+
+A class the team's points have closed stays in the list, so you can see why it is not open:
+
+- It has a grey **Closed** tag next to its name, and the **Add** button is off.
+- The reason names the level: "This team has 18 points this season. From 18 points, it can no
+  longer enter Rising Talent."
+- The line under it says which federation's rule it is. Questions about the rule go to your club or
+  the federation.
+- **See the season ranking** opens the federation's season ranking, where you can check the results
+  behind the points. The link is only there when the federation publishes its season ranking.
+
+![A class closed by the team's season points, with the points next to the team picker and the note under the list](/assets/images/registration/season-points-closed-class.png)
+
+Under the list a note says: "An entry made before the team reached 18 points stays. Only new
+entries follow the limit." So a class you entered before your team reached the limit is not taken
+away. Only new entries are refused.
+
+**What to do:** enter the next level up, which is still open. If the points look wrong, ask your
+club or the federation.
 
 ## Cancelling a registration
 

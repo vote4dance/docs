@@ -33,7 +33,7 @@ See [Event setup](/manager-guide/event-setup/).
 
 | What | How it reaches your event |
 |---|---|
-| **Age and class rules** | Each of your classes maps to a **Federation Class**, which carries its age and level rules. You do not enter ages yourself. |
+| **Age and level rules** | Each of your classes maps to a **Federation Class**, which carries its age and level rules. You do not enter ages yourself. |
 | **Licence requirements** | Checked automatically when dancers register. See [Licences](/organizer/getting-a-license/). |
 | **Registration rules** | For example who may register a competitor, whether custom team names are allowed, and dance-role requirements. |
 | **Promotion points and rankings** | Processed when you **close** the competition. See [Results, points and rankings](/organizer/creating-and-getting-a-ranking/). |

@@ -8,7 +8,9 @@ help:
   manager.event.competitions: ""
   manager.comp.classes: step-1-create-classes
   manager.comp.classes.round: step-2-build-rounds-from-classes
+  manager.comp.classes.round.place: add-a-round-between-two-rounds
   manager.comp.teams: step-3-add-participants
+  manager.comp.teams.participants-verify: verify-entries
   manager.comp.data: data-transfer
 ---
 
@@ -140,6 +142,33 @@ it back to **Not started** and use **Remove participants** on it first, so nobod
 
 ![Place in class on the Add Round form](/assets/images/round-guide/add-round-place.png)
 
+### Add a round between two rounds
+
+When a class needs an extra round in the middle, for example a quarterfinal between the preliminary and the
+semifinal, add it in its place instead of at the end:
+
+1. Open the class and click **Add a single round**.
+2. Enter the **Round name**, for example "Quarterfinal".
+3. Under **Place in class**, choose **After** and the round it should follow, for example **After Preliminary**. The
+   form then takes its values from the round it goes in front of, so it is not set up as a final.
+4. Check the values and click **Save changes**.
+
+![Place in class with After choices for each round of the class](/assets/images/round-guide/add-round-after.png)
+
+The new round takes over the link of the round before it: the preliminary now sends its qualifiers to the
+quarterfinal, and the quarterfinal sends them on to the semifinal. If the preliminary has a second chance round, that
+round now leads to the quarterfinal as well.
+
+Good to know:
+
+- If the round before sends its qualifiers somewhere other than the next round, for example straight to the final,
+  that link stays as it is. Check its **Round for those that qualify** afterwards if it should go to the new round.
+- An **After** choice is greyed out when the round before would not send anyone to the new round, with the reason
+  under it: the round has started, it sends nobody on (a final), or it sends its qualifiers to a round picked for it.
+- When you delete a round, the round before it now sends its qualifiers to the round after it.
+- A second chance round can only be added **After the last round**. Where it sits in the class doesn't change where
+  its participants go.
+
 ### Send the rest to a second chance or a B-final
 
 When a round sends only some of its participants on, you can decide during setup where the others go: to a second
@@ -178,7 +207,9 @@ Good to know:
 
 - The two fields show only while **How many go through** is set, so not on a final.
 - When **Round for those that qualify** reads **The next round**, followed by a round's name, the round has no
-  link of its own: its qualifiers go to the round after it in the class when it starts. Once you choose a round for
+  link of its own: its qualifiers go to the round after it in the class when it starts, passing over its own second
+  chance round or B-final. A second chance round without a link goes to the round after the round it takes the
+  rest from. Once you choose a round for
   the non-qualified, saving also fills in the round for those that qualify, so the two groups can never end up in
   the same round by accident.
 - You can change both until the round's judging is closed. After that, use **Qualified participants** on the closed
@@ -215,6 +246,27 @@ CSV import lives on `Competition → Registration → Data transfer`, together w
 delete tools.
 
 Do not bulk delete participants once judging is underway.
+
+### Verify entries
+
+After you have imported an entry list, **Verify** checks all entries of the competition and warns you about what looks wrong, so you can fix it before the event. It only warns: nothing is changed.
+
+It has these checks:
+
+- **Licence number**: when the entry list has licence numbers (for example a list imported from the federation's system), it lists every entry where a dancer has no licence number. It tells you which dancer (dancer 1, 2 or 3) and their birth year. It only checks that a number is there. Whether a licence is valid is still checked in the federation's own system.
+- **WSDC level** (WSDC competitions only): looks up each Jack&Jill leader and follower in the WSDC registry and compares their level with the class they entered. A dancer's points decide the lowest level they must dance, and the registry also says how far up they may go. Verify lists every dancer who is below their level ("Leader must dance Intermediate or higher · 22 points in Novice") or above it ("Follower may dance up to Novice"). A dancer the registry doesn't know may dance Newcomer and Novice. Entries without a WSDC id, and dancers the registry didn't answer for, are listed under **Not checked**. The registry shows today's points, so run it before the event.
+
+1. Go to **Competition → Participants**.
+2. Click **Verify**, next to **Print start numbers**. The **Verify entries** panel opens. Each row shows the start number, what is missing and the classes of the entry.
+
+   ![The Verify entries panel listing dancers without a licence number](/assets/images/verify-entries/verify-entries-panel.png)
+
+3. Click **Open entry** on a row to open that entry and fix it, for example by adding the licence number.
+4. To work through all findings in one go, click **Show these N in the list**. The participants list then shows only those entries, and a **Verify findings** tag appears next to the filter buttons. Click **×** on the tag to show all participants again.
+
+   ![The participants list showing only the entries Verify found, with the Verify findings tag](/assets/images/verify-entries/verify-entries-filter.png)
+
+5. When you have fixed entries, click **Verify again** to run the checks again. When nothing is found, the panel says "No problems in the N entries that could be checked".
 
 ## Step 4: Assign start numbers and class entries
 

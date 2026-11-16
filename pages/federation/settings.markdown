@@ -152,14 +152,37 @@ To stop a key, press **Revoke key** on its row, then **OK**. Systems using it st
 
 ### Personal configuration keys
 
-A personal configuration key lets a script change this federation's configuration through the Vote4Dance API, instead of you clicking through the federation pages. It is useful for big, repetitive changes, such as entering a new season's class rules for every discipline. Vote4Dance support may also ask you for a key to make such a change for you.
+A personal configuration key lets a script change this federation's configuration through the Vote4Dance API, instead of you clicking through the federation pages. It is useful for big, repetitive changes, such as entering a new season's round setup for every discipline. Vote4Dance support may also ask you for a key to make such a change for you.
 
 A configuration key can:
 
 - read the federation's divisions, disciplines, dances, classes, categories, age groups and class levels
-- change class rules: edit several rules at once, add a rule at a chosen place in the list, merge two rules into one, or delete a rule
+- change the round setup: edit several rules at once, add a rule at a chosen place in the list, merge two rules into one, or delete a rule
+- create and change classes, age groups and categories, and change or retire a discipline
+- read the rules set at each place in the structure (the federation, a division, a discipline, a category, an age group, a class level, a class or a competition level), and change one rule there, keeping the others
+- read the rules a class ends up with, and where each one comes from, also as at an event of a chosen competition level
+- list, create and change competition levels with their rules. A code that another competition level already uses is refused
+- read the federation's licence items, and set which of them a class accepts
 
-It cannot reach members, licences, clubs, competitions, rankings or points. A change is refused when the rule was changed by someone else since the script read it, so nothing is overwritten by mistake.
+It cannot reach members, the licences dancers hold, clubs, competitions, rankings or points, and it cannot create or change the licence items themselves. A change is refused when someone else changed the same thing since the script read it, so nothing is overwritten by mistake.
+
+For the person writing the script, these are the addresses for rules, competition levels, licence items and new categories, below `/public/v1/federation`:
+
+| Method | Path | What it does |
+|---|---|---|
+| `GET` | `/rule-profiles` | every stored set of rules |
+| `GET` | `/rule-profiles/:scope_type/:scope_id` | the rules set at one place in the structure |
+| `PATCH` | `/rule-profiles/:scope_type/:scope_id` | set or remove one rule there; needs `If-Match` |
+| `GET` | `/classes/:id/rules` | the rules a class resolves to, optionally `?competition_level_id=` |
+| `GET` | `/competition-levels` | competition levels with their rules, optionally `?division_id=` |
+| `POST` | `/competition-levels` | create a competition level; a code already in use answers 409 |
+| `PATCH` | `/competition-levels/:id` | change a competition level; needs `If-Match` |
+| `GET` | `/license-items` | the federation's licence items |
+| `GET` | `/classes/:id/license-items` | the licence items a class accepts |
+| `PUT` | `/classes/:id/license-items` | set the licence items a class accepts; needs `If-Match` |
+| `POST` | `/categories` | create a category |
+
+The full reference, with every address, is at `/public/v1/openapi.json`.
 
 The key is your own:
 
@@ -172,7 +195,7 @@ To create a key:
 
 1. Open `Federation → Settings → API keys` and go to **Personal configuration keys**.
 2. Press **Create configuration key**.
-3. Under **Label**, write what the key is for, for example "Import 2027 class rules".
+3. Under **Label**, write what the key is for, for example "Import 2027 round setup".
 4. Under **Expires**, choose the last day the key should work. It is 7 days ahead to begin with, and can be at most 30 days from today. The key works until the end of that day (UTC).
 
    ![The Create configuration key dialog with a label and an expiry date](/assets/images/federation-settings/config-key-create.png)

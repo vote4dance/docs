@@ -29,6 +29,8 @@ Closing can happen days after the competition. Until then, your points and class
 
 The full mechanism is on [Promotion points](/federation/progression/).
 
+If your federation closes a class at a number of points per season, the app shows where each of your teams stands and tells you when one moves up: see [Your season points in the app](/dancer/season-points/).
+
 ## Points belong to the couple
 
 Promotion points and class belong to the **couple or team**, not to each dancer. If you start
@@ -40,6 +42,9 @@ class when it registers. Higher classes stay closed to it until the federation p
 there, or its points in the class below allow it to move up. If you think your new couple should
 start higher, for example because you both danced in a higher class before, ask your federation
 before you register.
+
+The other way round, a couple that already holds a higher class can't register for the
+entry-level class of the same ladder.
 
 ## Manual changes
 

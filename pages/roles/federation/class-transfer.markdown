@@ -14,7 +14,7 @@ Vote4Dance applies them each time an organizer closes a competition. You step in
 ## Set the rules once
 
 Promotion points are federation rules, usually set per **class level**:
-`Federation → Structure → (division) → Class Levels → Rules`.
+`Federation → Structure → (division) → Class Levels → Federation rules`.
 
 | Rule | Decides |
 |---|---|

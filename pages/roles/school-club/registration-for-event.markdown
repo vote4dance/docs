@@ -6,6 +6,7 @@ parent: School/Club
 nav_order: 5
 help:
   public.organization.registrations.change-class: moving-an-entry-to-another-class
+  public.organization.registrations.signing: signing-your-members-entries
 ---
 
 # Registering your club's dancers for an event
@@ -62,7 +63,7 @@ Some federations only let the club register a competitor, or only a member of th
 list says so.
 
 **The rules are checked on the lineup that dances**, with the team's skipped and replacement
-dancers applied. This covers the federation's class rules and licences and the organizer's own class
+dancers applied. This covers the federation's rules and licences and the organizer's own class
 and period rules (age, team size, dance roles), and they are checked again when the registration is
 sent, not only on the page. So:
 
@@ -89,20 +90,53 @@ to members who register themselves.
 and payment.
 
 - **Only Approved entries dance.** Preliminary means the organizer has not accepted it yet.
+- **To sign** lists entries your members registered that wait for your signature. See [Signing your members' entries](#signing-your-members-entries).
 - **Get cost** shows the price. **Pay now** pays online, when the event takes online payment.
   Once paid, the registration is final. With manual payment you see the amount and the
   organizer's payment details instead.
-- If the organizer invoices the club, the invoice appears under **Pay your registrations**.
+- When the club pays, the payment is billed to the club, and the club gets a receipt and an invoice.
+  Find your paid invoices under **View invoice**.
 - The receipt or invoice the club gets after paying has one line per team or dancer. Each line
   names the team, its dancers and its classes, so you can match every amount to a team.
 - **Edit lineup** changes the dancers while the period is open. Some events lock the lineup once
-  paid. The new lineup is checked against the class rules again. Where the federation counts your
+  paid. The new lineup is checked against the federation rules again. Where the federation counts your
   club's dancers, a swap is free and an extra dancer is paid for: see
   [Changing a group's lineup after paying](#changing-a-groups-lineup-after-paying).
 - **Change class**, the swap icon next to **Edit lineup**, moves an entry to another class while the
   period is open. See [Moving an entry to another class](#moving-an-entry-to-another-class).
 
 See [Registration](/school-club/club-admin/#registration) for every column and button.
+
+### Signing your members' entries
+
+Some events ask the organization to sign the entries its dancers register themselves. When the organizer has switched this on, a dancer's entry waits for your organization: it does not count, and nothing is paid, until a coach, manager or administrator signs it. You can also have the organization pay all the signed entries together, in one payment.
+
+Open `Organization → Administration → Registration` and the event's card. The top of the list shows **To sign (n)** with every entry that waits for you: the class, the dancers, when they registered and the price. The card also says when to sign by: **Sign before registration closes on …**. The organizer may also send you an email reminder to sign.
+
+![The To sign card with Sign all, Decline and Sign on each entry](/assets/images/organization-signing/3a-to-sign.png)
+
+**Sign one entry or all of them**
+
+1. Check the class and the dancers on the row.
+2. Press **Sign** to sign that entry, or **Decline** to refuse it.
+3. To sign everything at once, press **Sign all (n)**. The button shows the total when the event takes payment.
+4. In the confirmation, for example **Sign 1 entry?**, read what the organization commits to, and press **Sign** (**Sign 1** for a single entry). **Cancel** stops.
+
+![The confirmation before signing, with the amount the organization commits to pay and the reference](/assets/images/organization-signing/3b-sign-confirm.png)
+
+**Decline an entry.** Press **Decline** and confirm **Decline the entry in …?**. The entry is withdrawn, and its dancers get an email asking them to contact the organization. It moves to **Declined** at the bottom of the list, tagged **Declined by the organization**. Declining cannot be undone from here: if it was a mistake, the dancers register again, and you sign the new entry. An entry that is already paid cannot be declined, because the organizer has the money: ask the organizer to withdraw it and refund the payment.
+
+![A declined entry tagged Declined by the organization](/assets/images/organization-signing/6b-declined-club.png)
+
+**What happens next depends on how the organizer takes payment.** The text above the list says which:
+
+- **Online payment, the organization pays:** the button is **Sign and pay** with the amount. You pay by card in the next step. A receipt and an invoice are sent to the organization. Payment alone approves the signed entries. Afterwards the list says how many signed entries are paid by card.
+- **Manual payment, the organization pays:** after you sign, **Signed** shows a payment card with **To pay to the organizer**, the amount, a **Reference** (your organization's short name and the event number) and the **Organizer's payment instructions**. Pay the organizer as described and give the reference, so the organizer finds the payment. Press **Copy payment details** to copy the amount, reference and instructions. The card keeps count: for example **1 signed entry · SEK 0 paid so far**. The organizer marks you as paid when the money has arrived, and the entries become **Approved**.
+- **Each dancer pays:** you only sign. The page says **The dancers pay themselves once you have signed.**
+
+![The payment card with the amount, reference, the organizer's instructions and Copy payment details](/assets/images/organization-signing/3c-signed-payment.png)
+
+When a dancer registers with no organization, nothing waits for you. Those dancers skip signing and pay themselves.
 
 ### Moving an entry to another class
 
@@ -254,6 +288,7 @@ Manager.
 | A class says **This team is already in …** | Your federation lets each group or formation dance one class per category. The team is already in another class of that category; its dancers may still dance in your other teams, in any class. To switch, remove or withdraw the other class first. |
 | Wrong class | Press **Change class** on the entry while the period is open, and pick the right class. If the class you want is not offered, it is registered separately: cancel the entry and register again. After registration closes, ask the organizer. See [Moving an entry to another class](#moving-an-entry-to-another-class). |
 | The lineup must change after registering | **Edit lineup** while the period is open. After that, ask the organizer. If the federation counts your club's dancers, a swap is free and a new dancer is paid for: see [Changing a group's lineup after paying](#changing-a-groups-lineup-after-paying). |
+| A member says the entry is **Waiting for the organization** | Open the event on your **Registration** list and sign it under **To sign**. See [Signing your members' entries](#signing-your-members-entries). |
 | An entry was cancelled on the day | The club did not confirm it at check-in. Talk to the organizer. |
 
 ## Next step

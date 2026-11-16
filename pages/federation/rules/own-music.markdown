@@ -22,7 +22,7 @@ Nothing changes until you set a rule: without **Own music required**, no class a
 | **Track length tolerance (seconds)** | How many seconds a track may run over the maximum or under the minimum and still be accepted. Leave it empty for none. |
 | **Keep music after the competition (days)** | How many days after the competition ends the uploaded tracks are kept before they are deleted. Whole days, from 1 to 365. Leave it empty for 8 days: a week for complaints, plus one. |
 
-The music length in the class rules is something else: it is the time the schedule reserves for the heat, and has nothing to do with the uploaded track.
+The music length in the round setup is something else: it is the time the schedule reserves for the heat, and has nothing to do with the uploaded track.
 
 ## Set the rules
 

@@ -19,12 +19,12 @@ It builds on [Closing a class at points](/federation/class-point-limits/), which
 These rules are set on a **competition level**, so they apply whenever a competition runs at that level, for example a championship.
 
 1. Go to **Structure**, choose the division and open **Competition Levels**.
-2. Choose the competition level and open its **Rules** tab.
+2. Open the **Federation rules** tab and pick the competition level.
 3. Fill in the rules you need:
    - **Points needed to enter**: for each class level, **At least** and **At most**. A team with exactly that number can enter. A class level left empty has no range. "At least" cannot be higher than "At most".
    - **Winners who may enter anyway**: choose a **Competition level** and a **Class level**. A team that placed 1st at that competition level, in that class level, earlier this season in the same discipline and category may enter with too few points. It lifts only the minimum: it does not lift the upper limit or the number of competitions.
    - **Competitions danced before entering**: how many earlier competitions this season, in the same discipline and category, a team must have danced. Leave it empty for no minimum.
-4. Press **Save competition level rules**.
+4. Press **Save rules**.
 
 ![Points needed to enter and Winners who may enter anyway on a competition level](/assets/images/season-ranking/entry-rules.png)
 
@@ -43,6 +43,23 @@ A team that does not meet a rule cannot add the class, and the reason says why:
 Event staff get a warning instead of being stopped and may still add or move the team. Entries made before a team's points changed stay, and show under **Entries to check** on **Season points**, with the reason, for example "Too few points for this event: 10, at least 15".
 
 The rule counts how many competitions a team has danced. It does not check who was invited to a championship, so a selection by invitation list stays with the federation. The ranking and its CSV help you pick the teams.
+
+### Licences that don't count at a level
+
+Some licences are meant for smaller events only. A single-competition licence, for example, may be fine at a regional competition but not at a championship. A competition level can say which licences don't count at its events.
+
+1. Go to **Structure**, choose the division and open **Competition Levels**.
+2. Open the **Federation rules** tab and choose the competition level.
+3. Under **Licences not valid at this level**, choose the licences. The list offers the federation's active dancer licences.
+4. Press **Save rules**.
+
+![Licences not valid at this level, with a single-competition licence chosen](/assets/images/season-ranking/licences-not-valid.png)
+
+At an event of that level, those licences are left out of what a class accepts. A dancer who holds only such a licence can't register for the class there, and sees "This licence is not valid at this competition level." A dancer who also holds a licence the level accepts registers as usual. Leave the field empty to accept every licence the class takes.
+
+This only matters for classes that require a licence at registration (see [Step 3: Decide which classes accept which items](/federation/getting-a-license/#step-3-decide-which-classes-accept-which-items)).
+
+If you delete a licence item that a level lists, it shows as **Removed licence** on the level's rules. Saving the level takes it off the list.
 
 ## How results count in the ranking
 

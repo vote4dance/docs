@@ -27,12 +27,12 @@ what brings your rules into their event.
 |---|---|
 | **Licences:** which licence items a class requires | The class's **License rules**. See [Divisions](/federation/divisions/#licenses). |
 | **Age:** whether the competitor fits the class's age group | Age groups and [age category rules](/federation-rules/age-category-rules/) |
-| **Team size and dance roles** | Category rules. See [How class rules work](/federation-rules/reference/). |
-| **Who may register a competitor:** anyone, a member of the team, or the club | The rules editor, in the layer's **Rules** section under `Federation → Structure` |
-| **Custom team names** allowed or not | The rules editor, in the layer's **Rules** section under `Federation → Structure` |
-| **Which club a dancer represents**, if dancers must choose | The rules editor, in the layer's **Rules** section under `Federation → Structure` |
-| **Lineup changes that follow the club's dancer count**, for small groups and formations | The rules editor, in the layer's **Rules** section under `Federation → Structure`. See [Lineup changes that follow the club's dancer count](#lineup-changes-that-follow-the-clubs-dancer-count). |
-| **One class per category:** one age group and one level, per dancer or per team | The rules editor, in the category's **Rules** section under `Federation → Structure`. See [One class per category](#one-class-per-category). |
+| **Team size and dance roles** | Category rules. See [Federation Rules](/federation-rules/). |
+| **Who may register a competitor:** anyone, a member of the team, or the club | The rules editor, in the layer's **Federation rules** section under `Federation → Structure` |
+| **Custom team names** allowed or not | The rules editor, in the layer's **Federation rules** section under `Federation → Structure` |
+| **Which club a dancer represents**, if dancers must choose | The rules editor, in the layer's **Federation rules** section under `Federation → Structure` |
+| **Lineup changes that follow the club's dancer count**, for small groups and formations | The rules editor, in the layer's **Federation rules** section under `Federation → Structure`. See [Lineup changes that follow the club's dancer count](#lineup-changes-that-follow-the-clubs-dancer-count). |
+| **One class per category:** one age group and one level, per dancer or per team | The rules editor, in the category's **Federation rules** tab under `Federation → Structure`. See [One class per category](#one-class-per-category). |
 
 A class a competitor cannot enter is shown to them as locked, with the reason, before checkout.
 Check the combined result of all your rules in `Federation → Rulebook`.
@@ -51,7 +51,7 @@ event: one age group and one level. You choose who it applies to, per category:
 
 1. Open `Federation → Structure`, the discipline (for example Hip Hop) and the category (for
    example Solo).
-2. In the category's **Rules** section, set **One class per category** to **Per dancer**, **Per
+2. On the category's **Federation rules** tab, set **One class per category** to **Per dancer**, **Per
    team** or **Off**, and save the rules.
 3. Do this for each category, in each discipline that uses it.
 
@@ -84,7 +84,7 @@ without asking the organizer each time.
 
 1. Open `Federation → Structure`, the discipline, category or federation class where it should
    apply.
-2. In the **Rules** section, turn on **Allow lineup change after registration**, and then
+2. In the **Federation rules** section, turn on **Allow lineup change after registration**, and then
    **Lineup changes follow the club's dancer count**. Save the rules.
 
 What you need to know:

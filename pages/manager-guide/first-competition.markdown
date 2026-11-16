@@ -29,7 +29,7 @@ Read it once from top to bottom. Every step links to the page with the details.
 | Who | Responsibility |
 |---|---|
 | **You (organizer)** | Creates the event and the competition, sets classes, rounds, schedule, judges, registration and prices, staffs the functionary positions, runs the day. |
-| **Federation** (if any) | Approves clubs and licences, and owns the rules: licenses, age and class rules, ranking points. See [Federation](/federation/). |
+| **Federation** (if any) | Approves clubs and licences, and owns the rules: licenses, age and level rules, ranking points. See [Federation](/federation/). |
 | **Clubs and dancers** | Register themselves, pay, hold valid licenses, confirm their roster at check-in. |
 | **Judges** | Open the Judging app on their own device and mark. They need an invitation from you, a device and Wi-Fi; the PIN they set themselves. |
 | **Venue** | Projector, sound, light, power and internet. Your Vote4Dance display computer plugs into their projector — nothing more. |
@@ -43,7 +43,7 @@ You can enter all of this later, but the setup goes much faster if you have deci
 3. **Classes** — which classes dancers can enter: discipline, age group, level/class, team size.
 4. **Round structure per class** — is it a final only, or qualification → semifinal → final, and how many go through each time.
 5. **Judges** — who judges, how many per panel, which classes each panel takes.
-6. **Registration** — when it opens and closes, what it costs, and whether payment is online (Stripe), invoice or free.
+6. **Registration** — when it opens and closes, what it costs, and whether payment is online (Stripe), manual or free.
 7. **Functionaries** — who sits at the desk, who runs the screens, who is the speaker, who lets dancers on to the floor.
 8. **Devices** — count them: one computer for Manager, one computer per projector/TV, one tablet per judge, one tablet or phone each for check-in, lineup and speaker. See [Technical requirements](/requirements/).
 9. **Awards** — medals/diplomas per class, and whether you print diplomas on site.
