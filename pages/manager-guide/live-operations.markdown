@@ -174,6 +174,14 @@ While a round is **In progress**, the round page shows a **Stuck?** link next to
 - Use round add/copy/clear tools in open or ready state
 - Re-run send-through after correction
 
+### A dancer withdraws before the first round
+
+When you withdraw an entry that is only in the first round of its class, and no judge has marked it there yet, it is taken out of that round as well. It gets no place in the result, and the results file shows it as withdrawn (**S**). This works the same from the entry form, the round's menu and check-in.
+
+An entry that has already been marked, or that is in a round that is closed or confirmed, stays in the round and is placed last, struck through.
+
+If you withdrew the wrong entry, take back the withdrawal and add the entry to the round again.
+
 ### Wrong judging type on a round in progress
 
 You can change a round's judging type while it is **In progress** until the first judge gives a mark. After that the type is locked, so marks are never counted under a type they weren't given for. If you notice the type is wrong once judging has begun, for example a chance round set to 1–5 marks that should have been judged by placement, clear the marks and change the type. The couples, their heats and their starting order stay as they are, including a drawn order.
