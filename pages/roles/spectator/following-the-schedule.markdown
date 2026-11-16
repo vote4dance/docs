@@ -38,21 +38,42 @@ On the website:
 
    ![The Organizations panel on the Competitors tab, with one club followed](/assets/images/spectator-schedule/web-follow-club.png)
 
-4. Open the **Schedule** tab and pick **Favorites** above the schedule. Open a block: the rounds with dancers from the clubs and dancers you follow have a heart and a coloured bar, and the other rounds are greyed out. Pick **All** to go back.
+4. Open the **Schedule** tab and pick **Favorites** above the schedule. The schedule becomes your timetable for the day. **Following** at the top names what you follow and how many rounds they are in; **Change** takes you back to **Organizations**.
 
-   ![The schedule with Favorites picked: the club's rounds are marked with a heart, the others are greyed out](/assets/images/spectator-schedule/web-favorites-club.png)
+   ![The schedule with Favorites picked: each of the club's rounds lists its dancers, the other rounds are greyed out](/assets/images/spectator-schedule/web-club-timetable.png)
+
+What the timetable shows:
+
+- Every round with dancers you follow lists them under the round: start number, name and club. A group or formation shows its team name and start number. A round with many of your entries shows the first six; click **+ more** to see the rest.
+- Each round shows its number, floor, class, round (such as **Semifinal**), and the number and names of its dances. The time is shown when the organizer publishes times.
+- Your dancers are named at their class's first round. A later round of the class says **if through from round** and the round number until that round is done. Then it lists who got through, or says **None through**.
+- The other rounds stay in the list, greyed out, so you can see how much is danced in between. Pick **Only followed** to fold them away: a short row then says how many rounds are in between and lists them. **All rounds** shows them again.
+
+### Print the timetable
+
+To take the timetable on paper or as a PDF, for example to the team leaders' meeting:
+
+1. Pick **Favorites** on the **Schedule** tab, and **All rounds** or **Only followed**.
+2. When the event has more than one day, pick the day. You print one day at a time.
+3. Click **Print** (**Print day** on an event with several days). Your browser's print window opens; choose a printer, or **Save as PDF**.
+
+The printout lists the event, the day, what you follow and when you printed it, then each block of the schedule as a table with round, floor, class, dances and your dancers.
+
+![The printed timetable: the event and day at the top, then each block as a table with the club's dancers](/assets/images/spectator-schedule/print-club-timetable.png)
+
+The schedule can change on the day, with late withdrawals or rounds run ahead of plan, so check the live schedule at the event.
 
 In the app:
 
 1. Open the competition and the **Competitors** tab.
 2. Unfold **Organizations at this event** and tap the heart next to your club.
-3. Open the **Schedule** tab and pick **Favorites**. The app marks the same rounds.
+3. Open the **Schedule** tab and pick **Favorites**. The app marks the same rounds with a heart; open a round to see who dances. Printing is done on the website.
 
 The **Competitors** tab has a **Favorites** switch too: it lists only the classes your club's dancers are in.
 
 You follow a club for one event at a time, so follow it again at the next event. The app's **Favorites** tab collects what you follow, grouped by competition: see [Follow dancers and clubs with Premium](/dancer/following-in-the-app/#follow-dancers-and-clubs-with-premium).
 
-Without Premium, the heart and **Favorites** open the Premium offer instead. When you are not signed in, the heart cannot be clicked.
+Without Premium, the heart, **Favorites** and printing open the Premium offer instead. When you are not signed in, the heart cannot be clicked.
 
 To see which of your club's dancers are entered, and download the list, open the club's **Administration → Registration**: see [Registration](/school-club/club-admin/#registration).
 
