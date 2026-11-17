@@ -85,6 +85,17 @@ On **Season points** (see [Closing a class at points](/federation/class-point-li
 
 When **Publish the season ranking** is on for a division, its public page has a **Season ranking** button. It opens a page with the same lists as **Season points**, for everyone, with **Season**, **Ranked by**, an age group filter and a search for a team or club.
 
+Dancers and clubs also find it from your federation's own page:
+
+- **Season ranking** in the federation menu, next to **Divisions**. With one published division it opens that ranking; with more it opens a list with one line per division and the current season. On a phone the menu is a row you can swipe, and **Season ranking** opens the same list.
+- A **Season ranking** button next to **Explore** on each published division under **Divisions**.
+
+![Season ranking in the federation menu](/assets/images/season-ranking/federation-menu.png)
+
+![The Season ranking button on a published division](/assets/images/season-ranking/divisions-button.png)
+
+To link the ranking from your own website, use the address of the ranking page itself, for example `https://vote4dance.com/public/federation/<your federation>/divisions/<division>/points`, or your federation's **Divisions** page for all of them.
+
 ![The public Season ranking page](/assets/images/season-ranking/public-ranking.png)
 
 The public page shows less than **Season points**:
