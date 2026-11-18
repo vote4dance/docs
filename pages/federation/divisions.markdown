@@ -100,7 +100,7 @@ Age Groups, Categories, Class Levels and Competition Levels each have two tabs, 
 | **Name** | Yes | |
 | **Description** | No | Shown under the name |
 | **State** | Yes | **Draft**, **Active** or **Retired**. New divisions start as **Active**. |
-| **Image** | No | Shown in the page header |
+| **Image** | No | Shown in the page header and behind the division's card on the federation's public **Divisions** page. A wide landscape photo works best, about 1600 × 900 pixels or larger; the bottom of the card is darkened behind the name |
 
 3. Press **Save changes**. The new division opens.
 
