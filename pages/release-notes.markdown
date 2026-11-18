@@ -8,6 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-11-18
  🛠️ **Improvements**
+* Scrutineer (Beta): In **Arrange by dragging** on a live round, a starter who is alone in a heat and is dragged to another heat now stays where they are with a message saying why: the heat would be empty. You can still change the order within a heat, and **−** next to **Heat** gives fewer heats. Before, the start number just jumped back without a word, which looked like dragging didn't work
 * Website: On a phone, the division cards on a federation's **Divisions** page now show **Season ranking** and **Explore** under the division's name. Before, the name was squeezed to a few letters per line
 * Website: A division's image now shows on its card on the federation's **Divisions** page, also when it was added before March 2026. Before, those cards stayed black. Images added back then were saved small, so upload them again for a sharp card (see [Add a division](/federation/divisions/#add-a-division))
 ## 2026-11-16
