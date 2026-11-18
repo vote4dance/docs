@@ -6,6 +6,10 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-18
+ 🛠️ **Improvements**
+* Website: On a phone, the division cards on a federation's **Divisions** page now show **Season ranking** and **Explore** under the division's name. Before, the name was squeezed to a few letters per line
+* Website: A division's image now shows on its card on the federation's **Divisions** page, also when it was added before March 2026. Before, those cards stayed black. Images added back then were saved small, so upload them again for a sharp card (see [Add a division](/federation/divisions/#add-a-division))
 ## 2026-11-16
  ⭐ **New**
 * Website: A federation that publishes its season ranking now has **Season ranking** in its menu, next to **Divisions**, opening the ranking of each published division, and a **Season ranking** button next to **Explore** on those divisions. On a phone the federation menu is a row you can swipe instead of folding away (see [The public season ranking](/federation/season-ranking/#the-public-season-ranking))
