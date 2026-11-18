@@ -9,6 +9,7 @@ nav_order: 10
 ## 2026-11-18
  🛠️ **Improvements**
 * App and website: Searching for a dancer or start number now shows the class the entry is in after the organizer moves it to another class, by the class's full name. Before, the search kept showing the class the entry was first entered in
+* Manager: The **Class** column on check-in and in the check-in report now shows the class the entry is in, by its full name. Before, it showed the class from the import, which could be out of date after a class change or empty
 ## 2026-11-18
  🛠️ **Improvements**
 * Website: On a phone, the division cards on a federation's **Divisions** page now show **Season ranking** and **Explore** under the division's name. Before, the name was squeezed to a few letters per line
