@@ -159,6 +159,7 @@ A configuration key can:
 - read the federation's divisions, disciplines, dances, classes, categories, age groups and class levels
 - change the round setup: edit several rules at once, add a rule at a chosen place in the list, merge two rules into one, or delete a rule
 - create and change classes, age groups and categories, and change or retire a discipline
+- add a dance to a discipline, and change a dance's name, its place in the list or its settings, for example which place a bronze battle starts from. A dance is never deleted this way, because class rules and rounds refer to it
 - read the rules set at each place in the structure (the federation, a division, a discipline, a category, an age group, a class level, a class or a competition level), and change one rule there, keeping the others
 - read the rules a class ends up with, and where each one comes from, also as at an event of a chosen competition level
 - list, create and change competition levels with their rules. A code that another competition level already uses is refused
@@ -166,7 +167,7 @@ A configuration key can:
 
 It cannot reach members, the licenses dancers hold, clubs, competitions, rankings or points, and it cannot create or change the license items themselves. A change is refused when someone else changed the same thing since the script read it, so nothing is overwritten by mistake.
 
-For the person writing the script, these are the addresses for rules, competition levels, license items and new categories, below `/public/v1/federation`:
+For the person writing the script, these are the addresses for rules, competition levels, license items, new categories and dances, below `/public/v1/federation`:
 
 | Method | Path | What it does |
 |---|---|---|
@@ -181,6 +182,20 @@ For the person writing the script, these are the addresses for rules, competitio
 | `GET` | `/classes/:id/license-items` | the license items a class accepts |
 | `PUT` | `/classes/:id/license-items` | set the license items a class accepts; needs `If-Match` |
 | `POST` | `/categories` | create a category |
+| `GET` | `/disciplines/:id/dances` | a discipline's dances, each with its `etag` |
+| `GET` | `/dances/:id` | one dance with its `etag` |
+| `POST` | `/disciplines/:id/dances` | add a dance; without `dance_order` it goes last |
+| `PATCH` | `/dances/:id` | change a dance; needs `If-Match` |
+
+A dance's settings are a list, as in a class rule. To change one setting and keep the others, send it in `changes_set`; to remove one, name it in `changes_unset`. Sending `dance_changes` replaces the whole list instead. For example, to make a bronze battle start from 3rd place, read the dance, then send its `etag` with:
+
+```
+PATCH /public/v1/federation/dances/:id
+If-Match: <etag>
+Content-Type: application/json
+
+{"changes_set": [{"key": "round_position", "value": 3}]}
+```
 
 The full reference, with every address, is at `/public/v1/openapi.json`.
 

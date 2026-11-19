@@ -14,6 +14,8 @@ help:
 
 Everyone who works at a competition uses one of the Vote4Dance apps. Access is given **per app**: a person is added under `Manager → Event → Users` and ticked for exactly the apps they need. A shared device that runs one app without a personal login is a **station** (`Manager → Event → Stations`). Judges are neither: they are set up under `Manager → Competition → Judges`.
 
+The classic Manager calls the page **Users**; Scrutineer (Beta) calls the same page **People & access** (on the overview, under **Everything else**), and its tick box for the Manager app reads **Runs the event**.
+
 ## The apps
 
 | App | Also shown as | Who uses it | What it does |
@@ -33,7 +35,7 @@ The event overview page shows one tile per app the signed-in person has access t
 Two naming traps:
 
 - **"Scrutineer" is the Manager app.** The tick box under Users and the tile on the event page are both labelled Scrutineer in English; this page calls it Manager. The federation-level [Scrutineer](/scrutineer/) role in this documentation is a description of a job, not a tick box in the competition.
-- **Manager does not automatically open the other apps.** A person with only Manager can do everything from the Manager app, but the Speaker, Screens, Lineup, Check-in, Cafe and Organizer apps each check for their own tick. Give the head of scrutineering Manager plus the apps they will actually open. The last Scrutineer (Manager) on a competition cannot be removed.
+- **Manager does not automatically open the other apps.** A person with only Manager can do everything from the Manager app, but the Speaker, Screens, Lineup, Check-in and Cafe apps each check for their own tick. The Organizer app is the exception: Manager opens it too. Give the head of scrutineering Manager plus the apps they will actually open. The last Scrutineer (Manager) on a competition cannot be removed.
 
 ## Classic Manager and the new Manager
 
@@ -54,7 +56,7 @@ Each user can also be given a free-text **role title** (for example "Chairperson
 
 A helper at the check-in desk or the cafe counter does not need the Manager app, and does not need to wait for the event to open. Their tile is on the event page as soon as they have been given access:
 
-1. Under `Manager → Event → Users`, add the helper and tick **Check-in** (for the check-in desk) or **Café & sales** (for the cafe counter), then press **Save changes**.
+1. Under `Manager → Event → Users`, add the helper. Click the pencil on their row, choose **Check-in** (for the check-in desk) or **Café & sales** (for the cafe counter) under **Apps**, and press **Save**. In Scrutineer (Beta), press **Edit access** on their row, tick the app and press **Save changes**.
 2. Ask the helper to sign in to Vote4Dance and open your event page.
 3. Under **Functions** they tap **Registration** for check-in, or **Café & sales** for the cafe.
 

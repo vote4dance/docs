@@ -66,13 +66,11 @@ The QR code does not replace [organization check-in](/manager-guide/registration
 
 Do not confuse it with the two other QR codes in the product: the **registration poster** QR on the Registration page ("Scan to register", it opens the public registration form), and the **station** QR that connects a shared device.
 
-## How to test the emails
+## If an email does not arrive
 
-The test environment sends real emails the same way as the live site, so you can test end-to-end with your own address:
+- Check that the dancer's account has an email address. A team with no linked user accounts gets no email.
+- Ask the dancer to look in their spam folder. Emails come from `noreply@vote4dance.com`.
+- Wait a minute or two. A status change is sent about a minute after the last change to that dancer.
+- Check that **Send email on status change** was ticked when you changed the status. If it was not, no email was sent.
 
-1. Create a test dancer with an email address you can read, and register them for a competition on the test site.
-2. Open `Manager → Competition → Registration → Registrations`, change the filter to show the registration, and make sure **Send email on status change** is ticked.
-3. Set the status to **Approved**. The email with the QR code arrives a minute or two later.
-4. To test the desk side, open the Check-in app on the test site and scan the code — with the **Scan** button in the app, the phone camera, or by opening the link the code contains.
-
-If no email arrives, check the dancer's account has an email address, and look in spam. Emails come from `noreply@vote4dance.com`. A status change is sent about a minute after the last change to that dancer.
+The dancer does not need the email to check in: their QR code is also in the app under **Profile → Vote4Dance ID**, and on their account page on the website.
