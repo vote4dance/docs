@@ -10,6 +10,9 @@ child_nav_order: reversed
 # Release notes
 ## 2026-11-19
  🛠️ **Improvements**
+* Website, Judging, Federation and Scrutineer (Beta): When a page can't load its information, or you aren't allowed to see it, the page now says so straight away instead of showing a spinner or an empty page until it gives up. Opening an event you can't manage shows **You don't have access to manage this event** at once, and a ticket order that isn't yours says "This order belongs to another account, or the link is no longer valid." immediately. When loading failed because of a passing problem on our side, the page tries again by itself and fills in once it works
+## 2026-11-19
+ 🛠️ **Improvements**
 * Manager, Scrutineer (Beta) and Supervisor: Removing a judge from a competition now asks **Remove … from this competition?** and names the panels the judge leaves, since adding them again later does not put the seats back. A judge who sits on a panel that already has scores can no longer be removed, also when they have given no marks themselves; a message names the panels and says how to let someone else judge the remaining rounds. Before, the question did not mention the panels, and only the judge's own marks stopped the removal (see [Removing a judge](/manager-guide/judges/#removing-a-judge))
 ## 2026-11-19
  🛠️ **Improvements**
