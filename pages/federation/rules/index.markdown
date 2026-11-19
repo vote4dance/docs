@@ -22,9 +22,9 @@ generated, and how battles are built. Promotion points, license requirements
 and rankings are also federation rules, but each has its own guide, linked
 under *Related* below.
 
-Rules work as a **hierarchy of layers**. The broadest setting sits at the
-federation level; narrower layers override it for that specific scope. Only set a
-rule where it genuinely differs from the layer above — empty fields inherit.
+Rules are set on **levels**. The widest level is the federation; a narrower
+level overrides it for its own classes. Only set a rule where it genuinely
+differs from the level above — empty fields inherit.
 
 ```
 Federation
@@ -38,13 +38,15 @@ Federation
 Competition level: applies at events of that level, whichever class is dancing
 ```
 
-The most specific layer that sets a value wins. Not every rule can be set at
-every layer; the **Rulebook** lists the layers each rule accepts.
+The most specific level that sets a value wins. Not every rule can be set at
+every level; the **Rulebook** lists the levels each rule accepts.
 
-Each layer has its own **Federation rules** editor under **Federation →
-Structure**, and the federation itself has **Structure → Federation rules**. See
-[Setting federation rules](/federation-rules/editor/). Check the result in
-**Federation → Rulebook** before going live: for one class it says in plain
+Rules are set in one place and read in another. Each level has its own
+**Federation rules** editor under **Federation → Structure**, and the federation
+itself has **Structure → Federation rules**. See
+[Setting federation rules](/federation-rules/editor/). The **Rulebook** changes
+nothing: it shows what applies and takes you to the level where a rule is set.
+Check the result in **Federation → Rulebook** before going live: for one class it says in plain
 sentences what applies and which level set each rule. Rules nobody has set use
 the platform default.
 
@@ -58,12 +60,12 @@ the platform default.
   shares: the level strip, finding a rule, inherited and set-here values, and
   saving.
 - [How the round setup works](/federation-rules/reference/) — **read this first.**
-  The thinking behind the round setup, a worked example, a step-by-step method, and
-  a reference of every condition, action and setting.
+  The thinking behind the round setup, a worked example, a step-by-step method, the
+  common mistakes and a glossary.
 - [Age category rules](/federation-rules/age-category-rules/) — how the age
   category is decided for solos, duos, and groups, and where to set the rules.
 - [Battle round setup](/federation-rules/battle-class-rules/) — how to configure
-  the round setup so the Round Guide auto-generates the correct skeleton for each
+  the round setup so the Round guide auto-generates the correct skeleton for each
   competitor count in a 1v1 battle discipline.
 - [Battle sub-rounds](/federation-rules/battle-sub-rounds/) — battles danced in
   several rounds with a tie-break, and a final made of a bronze and a gold

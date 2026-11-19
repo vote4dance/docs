@@ -41,13 +41,13 @@ Switch between the two views with the buttons above the list:
 
 - **Grouped** (the default) shows one row per group: "Same rule, several scopes
   is shown once. Edit the row and every copy changes."
-- **Flat list** shows every rule as it is stored, in the order the Round Guide
+- **Flat list** shows every rule as it is stored, in the order the Round guide
   reads them. Use it to see a single copy.
 
 The choice is remembered in your browser. The tab itself says how many rows the
 list has: **14 distinct, 19 saved** means 14 rows for 19 switched-on rules.
 
-Rows are numbered in the order the Round Guide reads them, and the list is
+Rows are numbered in the order the Round guide reads them, and the list is
 divided into four sections by what the rule changes: **Ladder · how many
 rounds** (round sizes and round names), **Floor and music**, **Hidden results**
 and **Other**. Order decides which rule wins when two rules set the same value.
@@ -100,7 +100,7 @@ changes with the people who write your rulebook, download them:
    **class-rules-(discipline)-(date).csv**.
 3. Open it in Excel, Numbers or Google Sheets.
 
-The file has one row per saved rule, in the order the Round Guide reads them,
+The file has one row per saved rule, in the order the Round guide reads them,
 switched-off rules included:
 
 - **Rule ID**, **Order** and **On** (Yes or No).
@@ -221,7 +221,7 @@ in plain words from then on.
 
 Some classes dance a round before the competition starts that is not judged,
 such as a presentation where every couple is shown, or a warm-up. A rule
-adds it to the classes it is for, so organizers get it from the Round Guide
+adds it to the classes it is for, so organizers get it from the Round guide
 without adding it by hand.
 
 1. Press **Add rule** and, under **Applies to**, pick the classes the
@@ -301,7 +301,7 @@ discipline, with the reason in words:
 **Nothing else changes.** The table is a new way to show and edit the same
 settings as before: saving stores the round names, the round sizes, and the
 round sizes for small classes as three lists, exactly as rules have always been
-stored, so the Round Guide creates the same rounds and the **Download CSV** file
+stored, so the Round guide creates the same rounds and the **Download CSV** file
 keeps its **Round name(s)**, **Round sizes** and **Round sizes (2)** columns.
 Press **Show the stored lists** to see them, and **Hide the stored lists** to
 close them again:

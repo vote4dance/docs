@@ -200,7 +200,7 @@ The rule **Team represents** decides what is shown under each competitor's name 
 | **Club and city** | Club and city, without the country |
 | **Country only** | Only the competitor's country, without the club |
 
-1. Set the value most of your competitions need for the whole federation in `Federation → Rulebook`, or on a division's or discipline's **Federation rules** tab.
+1. Set the value most of your competitions need for the whole federation in **Federation rules**, at the top of the list on the left under `Federation → Structure`, or in a division's or discipline's **Federation rules** section.
 2. Open **Competition Levels**, go to the **Federation rules** tab of a level that needs something else (for example your international level) and set **Team represents** there.
 3. Save. Pages that are already open update right away for events that have not ended yet. Older events show the change the next time the page is opened.
 

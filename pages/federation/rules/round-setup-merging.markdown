@@ -22,7 +22,7 @@ so read how its check works before you start. Copies and groups are explained in
 ## Merging copies
 
 When a group has two or more copies that are switched on, **Merge 5** replaces
-them with one rule that applies to all their classes. The Round Guide keeps
+them with one rule that applies to all their classes. The Round guide keeps
 giving every class exactly the rounds it gave before. **A merge cannot be
 undone**: the copies are removed. What makes it safe is the check Vote4Dance runs
 first, and it merges nothing if the check finds a difference.
@@ -32,7 +32,7 @@ first, and it merges nothing if the check finds a difference.
    categories it will name. Press **Choose copies** to leave a copy out. Press
    **Make it any** for an axis when the rule should apply to every value of it,
    including ones added later.
-3. Wait for the check. Vote4Dance runs the Round Guide on every active and draft
+3. Wait for the check. Vote4Dance runs the Round guide on every active and draft
    class the merge could touch, for 1 to 200 competitors, with the old rules and
    with the merged rule, using the options of each class, and finds the place in
    the reading order where the merged rule gives the same rounds. When it passes,
