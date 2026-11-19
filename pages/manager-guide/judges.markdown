@@ -308,7 +308,7 @@ Competitors the chief judge marked the same stay tied. When the panel has more t
 Which chief judge type to use depends on the rules:
 
 - **Chief judge (in)** marks like the other judges and counts in the result. Use it when the head judge sits on the panel, as in DSF West Coast Swing, where the head judge breaks ties in prelims.
-- **Chief judge (out)** does not count in the result; only their marks break ties. Use it when the chief judge sits outside the panel, as in WSDC Jack & Jill, where the chief judge gives every competitor a raw score in prelims. See [Jack & Jill](/formats/jack-n-jill/#5-judges-and-run-time-execution).
+- **Chief judge (out)** does not count in the result; only their marks break ties. Use it when the chief judge sits outside the panel, as in WSDC Jack & Jill, where the chief judge gives every competitor a raw score in prelims. See [Jack & Jill](/jack-n-jill/#5-judges-and-run-time-execution).
 - Where the rules settle a tie by dancing again, as in Norwegian (ND) semifinals, use **Redance** instead.
 
 **To redo a chief judge decision**, open the **Chief judge** round. If it is **Closed**, use **Previous status** until it is **Not started**. Click **Remove participants**, then **Delete round**, and click **Chief judge** on the main round again. A tie separated before the fix in the [2026-10-03 release](/release-notes/#2026-10-03) keeps the order it got then, which could rank the chief judge's lower mark first, so redo those.

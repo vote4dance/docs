@@ -37,8 +37,11 @@ side, including what blocks a move: [Age moves](/federation/age-moves/).
 **Before each registration closes:**
 
 1. Look over your club's entries on `Organization → Administration → Registration`.
-2. An entry in the wrong age group: cancel it and register again in the right class, while the
-   period is open. After that, ask the organizer.
+2. An entry in the wrong age group: move it to the right class with **Change class** while the
+   period is open, see
+   [Moving an entry to another class](/school-club/registration-for-event/#moving-an-entry-to-another-class).
+   If the right class is not offered there, cancel the entry and register again. After the period
+   closes, ask the organizer.
 
 ## If the federation has a couple in the wrong age group
 
