@@ -9,6 +9,7 @@ help:
   manager.comp.judges.judges: judge-list
   manager.comp.judges.earlier: judges-from-earlier-events
   manager.comp.judges.types: judge-types
+  manager.comp.judges.cantRemove: when-a-judge-cant-be-removed
   supervisor.judges: ""
   supervisor.judges.judges: judge-list
 ---
@@ -256,10 +257,13 @@ To take a judge off one panel and keep them on the list, don't remove them here.
 
 ### When a judge can't be removed
 
-| The judge | What you see | What to do |
-|---|---|---|
-| Has given marks in this competition | "Cannot change judge with results" | The judge stays on the list. To let someone else judge the rest of their rounds, see [Judges on the day](/manager-guide/judges-on-the-day/). |
-| Sits on a panel that already has scores, also when they have given no marks themselves | **… can't be removed** opens instead of the question. It names the panels, for example "They sit on Panel 1, which already has scores, and a panel with scores keeps its judges." | The judge stays on the list and on that panel. To let someone else judge the panel's remaining rounds, give those rounds their own panel on the [Classes](/manager-guide/judge-panels/#classes) tab. |
+A judge who sits on a panel that already has scores can't be removed. That is every judge who has given marks, and also a judge who has given none while others on the panel have.
+
+**… can't be removed** then opens instead of the question. It names the panels, for example "They sit on Panel 1, which already has scores, and a panel with scores keeps its judges."
+
+The judge stays on the list and on that panel. To let someone else judge the panel's remaining rounds, give those rounds their own panel on the [Classes](/manager-guide/judge-panels/#classes) tab; see [Judges on the day](/manager-guide/judges-on-the-day/).
+
+A page that has been open since before the scores came in may still ask the question. The removal is then refused with one of the messages under [Troubleshooting](#troubleshooting), and nothing is removed. Reload the page to see the panels as they are now.
 
 A panel with scores keeps its judges so that marks are not given by a panel that has changed since; see [When assignment locks](/manager-guide/judge-panels/#when-assignment-locks).
 
@@ -279,8 +283,8 @@ The judge's app also has the schedule, the café and the results.
 | "A user with this email already exists — pick them from the list." | You tried to create a new account with an email that already has one. | Press the name under the message, or pick them under **Possible existing accounts**. |
 | "Already a judge in this competition" | You tried to add someone who is on the judge list already. | Nothing; find them in the list. |
 | "This judge has no email address on file." | The judge's account has no email. | Invitations cannot be sent; give the judge the link yourself. |
-| "Cannot change judge with results" | You tried to remove a judge who has given marks. | The judge stays on the list. To let someone else judge the rest of their rounds, see [Judges on the day](/manager-guide/judges-on-the-day/). |
-| "This judge sits on a panel that already has scores, so they can't be removed from the competition." | One of the judge's panels got scores before the page showed it, for example while the question was open. | The judge stays on the list. See [When a judge can't be removed](#when-a-judge-cant-be-removed). |
+| "Cannot change judge with results" | You confirmed removing a judge who has given marks, on a page that had not shown the marks yet. | The judge stays on the list. Reload the page. To let someone else judge the rest of their rounds, see [Judges on the day](/manager-guide/judges-on-the-day/). |
+| "This judge sits on a panel that already has scores, so they can't be removed from the competition." | You confirmed removing a judge whose panel has scores, on a page that had not shown the scores yet. | The judge stays on the list. Reload the page, and see [When a judge can't be removed](#when-a-judge-cant-be-removed). |
 
 ## Not in this version
 
