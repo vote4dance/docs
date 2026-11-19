@@ -18,18 +18,25 @@ date or expecting your club to be a member. Ask them before you announce the eve
 
 ## How to choose the federation
 
-When you create the event, the first question is **How do you want to start?**
+**When you create the event.** The **Create event** form asks **What kind of event?** and has the
+field **Use classes from** for the federation:
 
-| Choice | What it means |
+| Kind of event | What you choose in **Use classes from** |
 |---|---|
-| **Training competition with default settings** | No federation. No federation classes or license checks. Good for a first event or a test. |
-| **Competition for a specific federation** | You pick the federation. Its rules, classes and license checks apply, and the event appears on the federation's Competitions list. |
+| **Practice event** | The federation is optional. Leave **No federation (I make my own classes)**, or pick a federation to try out its classes. No points are given. Good for a first event or a test. |
+| **Live competition** | You must pick the federation. Its rules, classes and license checks apply, and the event appears on the federation's Competitions list. |
 
-You can change the federation later on the event's details page, and the event moves to the new
-federation's list at once. **Do it before you build classes and open registration**: classes map
-to the federation's classes, so changing federation afterwards means redoing them.
+The form belongs to Scrutineer (Beta), the new version of Manager. For the whole form, see
+[Create a new event](/manager-guide/event-setup/#step-1-create-a-new-event).
 
-See [Event setup](/manager-guide/event-setup/).
+**To change it later.** On **Event overview**, press **Edit event**. The federation is on the
+**Federation** step, under **Select a federation**. Go to **Finalize** and press **Save changes**.
+In Scrutineer (Beta) the field is **Federation**, under **Classes from** on **Event details**. See
+[Event details page](/manager-guide/event-setup/#step-3-event-details-page).
+
+The event moves to the new federation's list at once. **Do it before you build classes and open
+registration**: classes map to the federation's classes, so changing federation afterwards means
+redoing them.
 
 ## What the federation decides for your event
 
@@ -55,7 +62,7 @@ class list shows the dancer why, before checkout.
 - Pending and expired licenses do not count. A dancer who is blocked has to sort it out with
   their club or federation, not with you. Point them to
   [Getting a license](/dancer/getting-a-license/).
-- A training competition (no federation) checks no licenses.
+- An event with no federation checks no licenses.
 - For DSF competitions, [Problems](/manager-guide/validator/) in Manager also checks for
   conflicting license numbers among your participants.
 
@@ -81,6 +88,6 @@ officials need one. See [Licenses for officials](/scrutineer/#licenses-for-offic
 
 | Problem | Fix |
 |---|---|
-| The event was created as a training competition, but it should count for a federation | Change the federation on the event's details page, then check every class's Federation Class. |
+| The event was created as a practice event with no federation, but it should count for a federation | On **Event overview**, press **Edit event**. Choose the federation on the **Federation** step, and set **Event mode** to **Live competition** on the **Event** step: a practice event gives no points. Then check every class's Federation Class. See [Event details page](/manager-guide/event-setup/#step-3-event-details-page). |
 | A class dancers expect is missing | The federation may not have that Federation Class, or it is inactive. Ask the federation. |
 | Dancers are blocked by a rule you did not expect | The rule comes from the federation. Check the class's Federation Class, and ask the federation if it is wrong. |

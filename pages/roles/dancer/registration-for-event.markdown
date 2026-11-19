@@ -184,7 +184,9 @@ In the Vote4Dance app, the same registrations are under **Profile → Registrati
 
 Some organizers take entries their own way, for example through a league or federation list, and
 add the dancers to Vote4Dance themselves. Those starts are not registrations in Vote4Dance, so
-they are not listed under your registrations, on the website or in the app. In the Vote4Dance app,
+they are not listed under your registrations, on the website or in the app. The event's
+**My registration** page still finds your starts when the Federation ID on your license is the
+one on the organizer's list: see [My registration](/dancer/my-registration/). In the Vote4Dance app,
 such an event's **Overview** shows a **Registration** card that says **Handled by the
 organizer**. Look for yourself under the event's **Competitors** tab once the organizer has
 added the dancers, and [ask the organizer](/getting-help/#reaching-the-organizer) about anything
