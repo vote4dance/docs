@@ -50,7 +50,9 @@ For the organizer's side of this, see [Event setup](/manager-guide/event-setup/)
 ### What is left out
 
 - **Practice events.** An event whose **Event mode** is **Practice event** is never listed, and it
-  is not counted in any number on this screen.
+  is not counted in any number on this screen. That is so even when the organizer has picked your
+  federation for it. Your federation's checks still run when dancers register for such an event;
+  see [Rankings and rules](#rankings-and-rules).
 - **Single days of a multi-day event.** A multi-day event is one row. Its entries, classes, judges
   and clubs are counted across all its days.
 
@@ -178,6 +180,9 @@ The same link between an event and your federation is what your rankings and rul
   linked to your federation. The rules for a tier of events, such as whether a championship awards
   promotion points, are set on its **Competition level**. See
   [Federation rules](/federation-rules/) and [Promotion points](/federation/progression/).
+- **Practice events.** A practice event that names your federation is treated like any other
+  event at registration: in a class linked to one of your federation classes, the license checks
+  and your other registration rules apply. Its results do not count towards season points.
 
 ## Not in this version
 

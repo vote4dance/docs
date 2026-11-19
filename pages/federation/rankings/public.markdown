@@ -22,6 +22,8 @@ A ranking is listed on the public page when all of this is true:
 - **Rankings** is turned on under `Federation → Settings → Public page` (see [Federation settings](/federation/settings/#public-page))
 - the federation is visible in the public federation list
 
+A ranking whose **Privacy** is **Coach** is never listed, for anyone: coaches and clubs get no list of their own, on the website or in the phone app. It is not locked either. Its address opens for anyone who has it, without signing in, so **Coach** keeps a ranking off the list but does not keep it secret. See [Who can see a ranking](/federation-rankings/federation-admin/#who-can-see-a-ranking).
+
 A ranking that has no classes, or has never been calculated, is listed but empty. Press **Import** on it first: see [Recalculate a ranking](/federation-rankings/federation-admin/#recalculate-a-ranking).
 
 ## How visitors find a ranking

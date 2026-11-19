@@ -106,6 +106,8 @@ So a rulebook that promotes on the best N results of a season cannot be set as a
 
 The worklist only lists competitors with an active class membership that is not locked, in classes that have a **Target Class**, and it reads rankings that are **Active**. It needs the **Administrator** role. Nothing is changed until you apply.
 
+The worklist is the only way a ranking promotes anyone. Setting a class's **Advance By** to **Ranking** does not: nothing promotes its competitors automatically, and the worklist lists the same candidates whatever **Advance By** says.
+
 You can also promote one competitor at a time: see [Manual moves and corrections](#manual-moves-and-corrections).
 
 ## A team that already holds a higher class

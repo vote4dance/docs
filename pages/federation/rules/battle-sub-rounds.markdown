@@ -215,6 +215,10 @@ The round position makes the bronze battle award places 3–4. This is the same 
 1. Open the **By class** tab of the **Round setup** section, pick a battle class and try 4, 6 and 8 competitors: it shows the rounds the class gets at each size ([Check a class](/federation-rules/round-setup-checks/#check-a-class)).
 2. To see the battles and their rounds, open the **Round guide** for a class in a test competition, enter the **Number of Participants** and click **Preview**. Sub-rounds are shown as tags on their round, and a battle with rounds of its own lists them in parentheses, such as "Battle 1/2 (Runda 1/2, Runda 2/2, (Tie-Break))". The tree should look like the ones above at all three sizes.
 3. In Manager, create the rounds with the Round guide before any competitors are added; it refuses otherwise.
-4. For the final with a gold and a bronze battle, run the semifinal in the test competition and check that its winners land in the gold battle and its losers in the bronze battle.
+4. For the final with a gold and a bronze battle, run the semifinal in the test competition. Confirming the semifinal sends all four dancers on to the final, but it does not put them in the two battles. The organizer does that on the final's page, and the final cannot be started while a dancer is in neither battle.
+   - In Scrutineer (Beta), press **Place in battles**. With the battles named as in Setup 2, **Seeded** proposes the two semifinal winners for Guldbattle and the two losers for Bronsbattle. Check the proposal, then press **Place in battles** in the dialog to save.
+   - In the classic Manager, set each dancer's **Match** in the final's list of participants, the two winners to the gold battle and the two losers to the bronze battle, and click **Send participants to match**. **Assign from round** does not tell winners from losers for this final, so do not rely on it here.
+
+   See [Battle bracket](/battle-bracket/) for both tools.
 5. Rules apply per discipline and can be narrowed to categories, class levels and age groups under **Applies to**. If the discipline already has a battle rule for the semifinal, edit that one instead of adding another.
 6. A dance that lists itself through another dance is cut off at the repeat: a dance is never nested under itself.

@@ -39,7 +39,7 @@ There is no single way of working that you choose once for the whole federation.
 - **The federation rules.** **Who applies for a license** is **Dancer**, **Club** or **Dancer or club**, and **Who pays for a license** is **Dancer pays**, **Club pays** or **Dancer or club pays**. Two more rules, **Dancers in a club may apply for their own license** and **Dancers without a club may apply for their own license**, say which dancers may apply themselves. These rules are set for the federation and can be different for a division or a discipline. See [Setting federation rules](/federation-rules/editor/).
 - **The license item's own Organization mode.** It says whether the license needs a club, may have one, or may not have one.
 
-With **Who applies for a license** set to **Club**, a dancer cannot apply for the license themselves.
+With **Who applies for a license** set to **Club**, a dancer cannot apply for the license themselves. With **Dancer**, it is the other way round: a club cannot apply for its members, and is not offered the license item. With **Dancer or club**, which also applies when the rule is not set, both can. Federation staff can add a license by hand in every case.
 
 So one federation can offer, at the same time, a dancer license that dancers buy themselves, a coach license that only the club applies for, and a judge license that only the federation issues. The settings are described in [Setting up licenses](/federation/getting-a-license/).
 

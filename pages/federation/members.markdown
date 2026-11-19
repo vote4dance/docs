@@ -174,6 +174,20 @@ The summary has four parts:
 
 This tab only reads. To act on a license, use the license pages; see [Federation admin licenses](/federation-licenses/federation-admin/).
 
+### When a dancer deletes their account
+
+A dancer can delete their own account ([Delete your account](/signing-in/#delete-your-account)). The federation's own records stay as they are:
+
+| What | After the account is deleted |
+|---|---|
+| The account | It can no longer be signed in to. Its email address and ID photo are removed; the name stays. The dancer no longer comes up in the search on this tab, and their summary no longer opens. Their public dancer page is gone. |
+| Licenses | Unchanged. They stay in `Federation → Licenses` with the dancer's name and the status they had, so an **active** license stays **active** until you change it. |
+| Club memberships | Removed: the dancer is taken off every club's member list. |
+| Competitors and class memberships | Unchanged. The couples and teams the dancer was in keep the dancer as a member, and keep their class memberships, points and history. |
+| Results and rankings | Unchanged. |
+
+A deleted account cannot be brought back. If the dancer later makes a new account, it starts without the old one's licenses and competitors.
+
 ---
 
 ## Organizations
