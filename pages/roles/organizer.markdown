@@ -88,7 +88,7 @@ event with the [Quickstart](/quickstart/).
 
 | Page | What it covers |
 |---|---|
-| [Post-event and exports](/manager-guide/post-event/) | Results, rankings, exports, archiving. |
+| [Post-event and exports](/manager-guide/post-event/) | Publishing every round, closing the competition, the result files and prints, and correcting a result afterwards. |
 | [Results, points and rankings](/organizer/creating-and-getting-a-ranking/) | Closing the competition, and what the federation does with your results. |
 | [Customizing diplomas](/manager-guide/diploma-customization/) | Diploma layout and printing. |
 
