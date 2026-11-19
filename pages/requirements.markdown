@@ -82,7 +82,7 @@ Before doors open:
 2. Verify judging devices can reach the judging app and that each judge can enter their own PIN
 3. Verify Speaker and Screens can load event data
 4. Verify the projector picture fills the screen and is readable from the back row
-5. Run one full test round (ready -> closed -> confirmed -> published)
+5. Run one full test round (Not started -> In progress -> Closed -> Confirmed -> Published)
 
 Do this properly, once, well before the event: [Test run and venue
 rehearsal](/manager-guide/test-run/) is the full rehearsal script, including what to test at

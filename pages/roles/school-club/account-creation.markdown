@@ -74,7 +74,7 @@ the one below it (see [Club admin screens](/school-club/club-admin/) for the scr
 | **Member** | Belongs to the club, with no administrative permissions. Represents the club and can be entered by its coaches; cannot register on the club's behalf or manage members. |
 | **Coach** | The day-to-day work: create and update the club's competitors, register them and pay for the club's registrations, and see the member list. |
 | **Manager** | Everything a coach can do, plus approving and rejecting membership applications, buying and managing the club's federation licences, and approving members' licence applications before the federation activates them. |
-| **Administrator** | Everything a manager can do, plus adding members directly and setting the role of everyone below administrator, applying to federations and detaching from them, editing the club's details and embed key, and deleting the club. |
+| **Administrator** | Everything a manager can do, plus setting the role of everyone below administrator, applying to federations and detaching from them, editing the club's details and embed key, and deleting the club. |
 
 A role only counts once the membership is approved. Where a page has an action your role can't use,
 it says which role is needed. Administrators can't remove or change another Administrator; if one

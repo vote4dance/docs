@@ -7,8 +7,11 @@ nav_order: 10
 
 # Release notes
 ## 2026-11-19
+ ⭐ **New**
+* Scrutineer (Beta): **Let autopilot do it** on a round in **Live** lets autopilot run just that round, so you can try it without switching it on for the whole event. A short window says what autopilot will do in the round and lets you choose whether it confirms after the countdown or waits for you to press Confirm. When autopilot has run a round, the class's next round offers **Run the … on autopilot** or **Whole class from here…** (see [Let autopilot run a round](/manager-guide/live-operations/#let-autopilot-run-a-round))
  🛠️ **Improvements**
 * Manager: A final made of a gold battle and a bronze battle that starts from 3rd now places its dancers 1–4 from the two battles, also when the final itself is judged as battles, and a final with three dancers (a gold battle and a 3rd place) places them 1–3. Before, such a final gave the gold battle's winner 1st and the other three 2nd until its judging was switched to placement. The round page now also marks the bronze battle's winner with an **x**, as it does the gold battle's (see [Final with a bronze battle and a gold battle](/federation-rules/battle-sub-rounds/#setup-2--final-with-a-bronze-battle-and-a-gold-battle))
+* Manager: In **Update/import participants** and a file import, you can now untick the new classes in the preview together with the participants in them, and the rest is imported. If a ticked participant is in a class you unticked, nothing is imported and a message says to tick the class or untick the participant. Before, the import failed with "Class Not Found", and classes it had already added stayed (see [Update/import participants](/manager-guide/registration-checkin/#updateimport-participants))
 * Federation: Moving a competitor's class membership on **Members** to a class they had a retired membership in now works. The old membership becomes the active one with your changes, and the one you edited is retired. If the competitor is still active in that class, you see "This competitor already has an active membership in that class". Before, saving showed "Internal Error" (see [Editing a membership](/federation/members/#editing-a-membership))
 ## 2026-11-18
  🛠️ **Improvements**

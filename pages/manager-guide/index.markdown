@@ -31,8 +31,10 @@ Follow the pages in order for a new event, or jump straight to the part you are 
 | [Floors](/manager-guide/floors/) | The places rounds are danced, and running several at once. |
 | [Screens, projectors and venue technology](/manager-guide/screens/) | Projectors, TVs, screen views and the venue's equipment. |
 | [Sponsors](/manager-guide/sponsors/) | Sponsor offers and sales. |
+| [Sponsor videos and spots](/manager-guide/sponsor-videos/) | Sponsor videos on the venue screens and as speaker spots. |
 | [Competition setup](/manager-guide/competition-setup/) | Classes, rounds, teams, judges and panels. |
 | [Judges](/manager-guide/judges/) | Adding and inviting judges, PINs, panels and when assignment locks. |
+| [WDSF competitions](/manager-guide/wdsf/) | Importing competitions and couples from WDSF, and sending the results back. |
 | [Schedule and conflicts](/manager-guide/schedule/) | The running order, times, publishing, printing and dancer conflicts. |
 
 ## Before and during the event
@@ -40,12 +42,15 @@ Follow the pages in order for a new event, or jump straight to the part you are 
 | Page | What it covers |
 |---|---|
 | [Registration and check-in](/manager-guide/registration-checkin/) | Registrations, statuses, participants and the desk. |
+| [Music from the dancers](/manager-guide/music/) | Following up on the dancers' own tracks and handing them to the DJ. |
 | [Emails and the check-in QR code](/manager-guide/emails/) | What participants are emailed, and the QR code they bring. |
 | [Notifications](/manager-guide/notifications/) | Event updates and push notifications to followers. |
 | [Shop](/manager-guide/shop/) | Tickets, meals and merch, sold by card. |
 | [At the door](/manager-guide/the-door/) | Scanning IDs and tickets, arrivals, selling at the desk. |
+| [Tap to Pay on iPhone](/manager-guide/tap-to-pay/) | Taking card payments at the desk on an iPhone, without a card reader. |
 | [Problems (setup checks)](/manager-guide/validator/) | The automatic checks on your setup, and how to fix what they find. |
 | [Live operations](/manager-guide/live-operations/) | The event-day runbook. |
+| [Running a quiz from the speaker app](/manager-guide/speaker-quiz/) | The audience quiz, run by the speaker. |
 | [Statistics](/manager-guide/statistics/) | Event size, dressing rooms, schedule load, medals. |
 
 ## After the event

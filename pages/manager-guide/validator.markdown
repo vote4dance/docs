@@ -156,7 +156,7 @@ Two floor sections of the same floor count as two floors. If one panel judges bo
 
 ## Severity
 
-Problems has no severity levels. Every failed check is shown the same way and counts as one in the sidebar badge, however many rows it has.
+Problems has two levels. Most checks fail; a few only warn, see [Reading the page](#reading-the-page). Each check counts as one in the sidebar badge, however many rows it has, and warnings are counted there only when nothing is failing.
 
 Problems also does not block anything. You can publish the event and start rounds while checks are failing. Whether a failure matters is up to you. For example, a start-number conflict in a class that has already finished may be harmless.
 
@@ -181,7 +181,7 @@ The checks run by themselves. The page updates when participants, classes, round
 ## Not in this version
 
 - Hiding or accepting a single failed check. A check stays on the list until the setup is changed.
-- Severity levels, or a way to mark a check as a warning only.
+- Choosing a check's level yourself. Which checks are warnings is fixed.
 
 ## Related pages
 

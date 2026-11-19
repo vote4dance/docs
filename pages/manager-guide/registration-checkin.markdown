@@ -215,7 +215,7 @@ The club shown here is the one **Update/import participants** gives the particip
 On the `Registrations` tab, press **Update/import participants**.
 
 1. The button collects **every Approved registration in the competition**, regardless of the filter you have set in the table. A message tells you how many matched.
-2. A preview opens with four groups: **Added**, **Changed**, **Removed** and **Warnings**. Every row is pre-ticked. Untick anything you do not want applied.
+2. A preview opens with four groups: **Added**, **Changed**, **Removed** and **Warnings**. Every row is pre-ticked. Untick anything you do not want applied. New classes the import would create are listed too. If you untick a new class, untick the participants in it as well: otherwise nothing is imported, and a message tells you to tick the class or untick those participants.
 3. Press OK to apply.
 
 What the import does:

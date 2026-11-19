@@ -63,7 +63,7 @@ Rules the screen follows:
 - You cannot change your own role or remove yourself. To leave, use **Leave organization** on **Home**. The last administrator cannot leave ("You are the only administrator. Promote another member to administrator before leaving."). Despite the wording, an administrator cannot make someone else Administrator: ask Vote4Dance support to add a second Administrator first.
 - An administrator can change and remove anyone below **Administrator**, up to **Manager**. The **Administrator** role is not offered. Only Vote4Dance support can make someone an Administrator of an existing club, or change or remove another administrator.
 - Making someone a **Coach**, **Manager** or **Administrator** also approves their membership.
-- A manager sees this screen, but the selectors and delete buttons are disabled. **Add** is shown to managers too, but the server refuses it.
+- A manager sees this screen, but the selectors and delete buttons are disabled, with the note "Changing roles needs a club Administrator."
 
 ## Members
 
@@ -106,7 +106,7 @@ People only wait to join when **Member approval** is on in the club's details. W
 | Reject one applicant | **Reject** on their row, then confirm. The application is deleted, and the person can apply again. | Manager, Administrator |
 | Approve everyone waiting | **Approve all**, then confirm | Manager, Administrator |
 
-Coaches do not see the **Requires your action** box. To add someone directly or change a role, use [Permissions](#permissions). For the full joining flow, see [Applying for a school/club](/school-club/applying-for-a-school-club/).
+Coaches do not see the **Requires your action** box. To change a role, use [Permissions](#permissions). For the full joining flow, see [Applying for a school/club](/school-club/applying-for-a-school-club/).
 
 ## Competitors
 
@@ -270,9 +270,9 @@ Coaches do not see this screen. The full flow, including the federation's checks
 
 **Export CSV** and **Download list (CSV)** use the list separator that goes with your browser's language: a semicolon where numbers are written with a decimal comma, as in Belgium, the Netherlands or Sweden, and a comma elsewhere. When your computer's Excel is set up for a different country than your browser, open the file in Excel with **Data → From Text/CSV** and choose the separator there.
 
-### "Add does nothing on Permissions"
+### "I cannot find a way to add someone on Permissions"
 
-Only an administrator can add people. The search needs at least three letters. The person must already have a Vote4Dance account, and adding someone who is already in the club (approved or waiting) fails.
+There is none. People join by pressing **Join organization** on the club's page, and show up here once they have joined. See [Permissions](#permissions).
 
 ### "I cannot change someone's role"
 
