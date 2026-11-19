@@ -10,6 +10,9 @@ child_nav_order: reversed
 # Release notes
 ## 2026-11-19
  🛠️ **Improvements**
+* Scrutineer (Beta): In the **Marks** card, each judge's column is now headed with the judge's own letter, or the start of their name when the letters are names, such as **And…**. Before, letters that were names were replaced by A, B, C… in seat order, so with several panels **A** could be a different judge in each panel (see [The Marks card in Scrutineer (Beta)](/manager-guide/reading-the-marks/#the-marks-card-in-scrutineer-beta))
+## 2026-11-19
+ 🛠️ **Improvements**
 * Website, Judging, Federation and Scrutineer (Beta): When a page can't load its information, or you aren't allowed to see it, the page now says so straight away instead of showing a spinner or an empty page until it gives up. Opening an event you can't manage shows **You don't have access to manage this event** at once, and a ticket order that isn't yours says "This order belongs to another account, or the link is no longer valid." immediately. When loading failed because of a passing problem on our side, the page tries again by itself and fills in once it works
 ## 2026-11-19
  🛠️ **Improvements**
