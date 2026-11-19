@@ -17,8 +17,8 @@ Because the same file has to work as a wide banner, an almost-square card and a
 tiny round thumbnail, the picture is always **cropped from the centre**. Choosing
 the right file once saves you from a logo that is cut in half on phones.
 
-An event image is required before you can switch an event from **private** to
-**public**.
+An event needs its image before it can go from **Hidden** to **Published**:
+until it has one, the **Publish competition** button is greyed out.
 
 ## The short answer
 
@@ -89,13 +89,16 @@ Photos taken sideways on a phone are turned the right way up automatically.
 
 ## Uploading
 
-1. In Manager, open your event and go to **Overview**.
+1. In Manager, open your event and go to **Event overview**.
 2. Click the image box and choose **Upload**.
 3. Pick your file. The picture appears immediately when it has been processed.
 4. To change it, remove the current picture and upload a new one.
 
 Everything that shows the picture — the app, the event page, emails — updates
 automatically.
+
+In Scrutineer (Beta) the image box is on **Event details**, under **Event page**,
+and is labelled **Event image**.
 
 ## Checklist
 
@@ -126,5 +129,12 @@ leave the bottom quarter of the picture empty, then re-upload.
 
 ### I cannot make the event public
 
-An event needs both an event image and billing details before it can be
-published. See [Event setup](/manager-guide/event-setup/).
+**Publish competition** on **Event overview** asks for two things:
+
+- **An event image.** Without one the button is greyed out, and pointing at it
+  shows "Competition needs an image before it can be published."
+- **Billing information.** Without it, pressing the button answers "Competition
+  needs billing information before it can be published." Billing information
+  belongs to live competitions; a practice event has none.
+
+See [Event status](/manager-guide/event-setup/#step-2-event-status) for both.

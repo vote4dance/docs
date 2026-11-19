@@ -14,7 +14,7 @@ help:
 
 # At the door
 
-Everybody who comes to your event shows one of two QR codes: a dancer shows their **Vote4Dance ID**, an audience member shows a **ticket**. The check-in station resolves both, tells the desk in one line whether to let the person in, and records that they arrived.
+Everybody who comes to your event shows one of two QR codes: a dancer shows their **Vote4Dance ID**, an audience member shows a **ticket**. The Check-in app reads both, tells the desk in one line whether to let the person in, and records that they arrived.
 
 Selling the tickets is on [Shop](/manager-guide/shop/). The organization check-in, which is a different thing entirely, is on [Registration and check-in](/manager-guide/registration-checkin/).
 
@@ -26,11 +26,24 @@ Selling the tickets is on [Shop](/manager-guide/shop/). The organization check-i
 
 The station's sign-in survives a new tab, so a QR opened with the phone's camera app lands on the same station instead of a login screen.
 
+## When someone arrives
+
+For each person who comes to the desk:
+
+1. Ask for their QR code. A dancer shows their **Vote4Dance ID**, an audience member shows a **ticket**.
+2. Press **Scan** next to the box and hold the code up to the camera. With a USB scanner, scan the code. If they have no code with them, type their name, e-mail address or ticket code in the box and pick them from the list.
+3. Read the band at the top of the screen that opens:
+   - **A Vote4Dance ID, green *Admitted*:** press **Arrived** and let them in.
+   - **A Vote4Dance ID, amber *Ticket needed*:** the line under it says why. If they have an unused ticket, press **Admit** on it under **Tickets**. If they have none, press **Sell** to sell them one, or let them buy one on their own phone.
+   - **A ticket that is valid today:** it is used as soon as it opens, and the band says **Admitted**. Let them in and press **Next person**. Press **Undo** if it was the wrong code.
+   - **A ticket with any other band** (**Already used**, **Wrong day**, **Cancelled**, **Not paid yet**): see [Tickets](#tickets).
+4. Scan the next person. The camera keeps running, so you do not have to go back first.
+
 ## One box for everything
 
-![Desk lookup](/assets/images/door/event-lookup.png)
+![The event page of the Check-in app: the Scan or search box, the links under it, among them Sell, and the list of dancers](/assets/images/door/event-lookup.png)
 
-The event page in the check-in app has a single box: **scan a Vote4Dance ID or ticket, or type a name, e-mail or ticket code**. It resolves whatever it is given:
+The event page in the Check-in app has a single box, **Scan or search**. Scan a Vote4Dance ID or a ticket into it, or type a name, an e-mail address or a ticket code. It opens the right screen for whatever it is given:
 
 | What is scanned or typed | What happens |
 |---|---|
@@ -42,9 +55,9 @@ The event page in the check-in app has a single box: **scan a Vote4Dance ID or t
 
 ## The person screen
 
-![Person screen](/assets/images/door/person-screen.png)
+![The person screen of a dancer: a green Admitted band with the Arrived button, then the name and birth date, the registration and the partner](/assets/images/door/person-screen.png)
 
-The screen reads top-down as a verdict, then the detail:
+The screen shows the answer first, then the detail:
 
 1. **The band**: green *Admitted* or amber *Ticket needed*, with the reasons on one line under it — which classes they dance today, whether a ticket is needed and why (not dancing today, no approved registration, or the event admits dancers by ticket only), how many unused tickets are on their own orders, and whether the organization check-in is still pending. The **Arrived** button sits in the band, and turns into the arrival time with **Undo** once pressed.
 2. **Photo, name and birth date**, so the desk can see it is the right person. Somebody with no photo shows "No photo on file" — ask them to add one in the app.
@@ -53,9 +66,9 @@ The screen reads top-down as a verdict, then the detail:
 
 A scan box sits at the top of the screen and takes focus back after **Arrived**, so a desk with a scanner never has to touch the screen: the next ID or ticket opens the next person.
 
-![A ticket holder at the desk](/assets/images/door/person-tickets.png)
+![The person screen of an audience member: an amber Ticket needed band, and three unused tickets under it, each with an Admit button](/assets/images/door/person-tickets.png)
 
-*An audience member with no registration: the verdict asks for a ticket, and the three tickets on their own order are right underneath.*
+*An audience member with no registration: the band asks for a ticket, and the three tickets on their own order are right underneath.*
 
 ## Registrations paid at the door
 
@@ -83,7 +96,7 @@ A dancer who wants to dance one more class can be entered at the desk. **Add cla
 
 The Manager's registration list gains an **Arrived** column once anybody has arrived, showing `n/m` members per registration with a filter for everyone, some or nobody. That is the list to watch from the office while the desk works.
 
-Arrival is recorded for every dancer, whatever the admission policy says, and it never gates anybody: a dancer who is admitted is admitted whether or not the desk pressed the button.
+Arrival is recorded for every dancer, whatever the admission policy says, and it never stops anybody: a dancer who is admitted is admitted whether or not the desk pressed the button.
 
 ### Working through a queue
 
@@ -95,7 +108,7 @@ When it's busy, the desk can scan the next dancer as soon as it has pressed **Ar
 
 The camera keeps reading while a dancer's screen is open. If the next code opens before you pressed **Arrived**, the desk gets a warning naming the dancer you skipped:
 
-![A dancer left without Arrived](/assets/images/door/arrival-left-unmarked.png)
+![The warning that a dancer was not marked arrived, with the buttons Mark arrived and Open](/assets/images/door/arrival-left-unmarked.png)
 
 - **Mark arrived** marks them without going back.
 - **Open** goes back to their screen.
@@ -104,7 +117,7 @@ The warning only comes for a dancer who was **Admitted**. Moving on from someone
 
 If an arrival can't be saved, for example because the hall's Wi-Fi dropped for a moment, a message with the dancer's name stays on screen until you deal with it. Press **Try again** once the connection is back.
 
-![An arrival that wasn't saved](/assets/images/door/arrival-save-failed.png)
+![The message that a dancer's arrival was not saved, with the Try again button](/assets/images/door/arrival-save-failed.png)
 
 Families who show every child's ID on one phone (**My family's IDs**) work the same way: scan a child, press **Arrived**, then scan the next child.
 
@@ -114,9 +127,9 @@ If a dancer you know is entered gets **Not on this event** when you scan their I
 
 ## Tickets
 
-![A scanned ticket](/assets/images/door/redeem.png)
+![A scanned ticket: a green Admitted band with Next person and Undo, and under it the ticket's name, buyer, ticket code, order and when it was used](/assets/images/door/redeem.png)
 
-**Scanning a ticket admits on the spot.** A ticket that is valid today is used the moment its code opens, so the desk reads the verdict instead of tapping for it; **Undo** sits next to it on the band for the wrong QR, and **Next person** goes back to the box. Below the band is the detail: what the ticket is, who bought it, the order it belongs to, and when it was used.
+**Scanning a ticket admits on the spot.** A ticket that is valid today is used the moment its code opens, so the desk reads the answer instead of tapping for it; **Undo** sits next to it on the band for the wrong QR, and **Next person** goes back to the box. Below the band is the detail: what the ticket is, who bought it, the order it belongs to, and when it was used.
 
 A ticket for another day is *not* used automatically — it asks first (see below). Tickets opened from a person's screen have an **Admit** button each, because the desk is choosing which one to use.
 
@@ -128,13 +141,13 @@ A ticket for another day is *not* used automatically — it asks first (see belo
 | **Cancelled** | Voided or refunded. |
 | **Not paid yet** | The buyer's checkout was never completed. |
 
-One ticket admits one person, once per day it is valid for. Tickets are bearer objects: a buyer can hand one to a friend without an account, and the code is what counts.
+One ticket admits one person, once per day it is valid for. Whoever shows the ticket's code gets in on it: a buyer can hand a ticket to a friend who has no account, and the code is what counts.
 
 ## Selling at the desk
 
-The desk sells the same catalog — `Check-in → Sell` — and can hand the ticket over immediately, e-mail a receipt, or put it straight onto a scanned person's account. The receipt e-mail has a language picker that starts on the language of the event's country, so a visitor from abroad can get theirs in English or another app language. Customers pay in cash, or by card on a staff member's iPhone with Tap to Pay on iPhone (see [Tap to Pay on iPhone](/manager-guide/tap-to-pay/)); a customer can also scan the QR on the page and buy on their own phone. See [Shop](/manager-guide/shop/).
+The desk sells the same products as the shop. Press **Sell** under the box on the event page of the Check-in app. The desk can hand the ticket over immediately, e-mail a receipt, or put it straight onto a scanned person's account. The receipt e-mail has a language picker that starts on the language of the event's country, so a visitor from abroad can get theirs in English or another app language. Customers pay in cash, or by card on a staff member's iPhone with Tap to Pay on iPhone (see [Tap to Pay on iPhone](/manager-guide/tap-to-pay/)); a customer can also scan the QR on the page and buy on their own phone. See [Shop](/manager-guide/shop/).
 
-![The desk sell page](/assets/images/shop/desk-sell.png)
+![The Sell page at the desk: tickets, meals and merch with plus and minus buttons, the cart with its total and Paid in cash, and a QR code for a customer who buys on their own phone](/assets/images/shop/desk-sell.png)
 
 ## Check-in on a phone
 

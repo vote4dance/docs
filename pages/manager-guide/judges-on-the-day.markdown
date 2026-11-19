@@ -19,7 +19,7 @@ Replacing a judge is done on `Manager → Competition → Judges`, or on the **J
 
 When a judge is ill, delayed or has to leave:
 
-1. On the **Panels** tab, click the **Judge absent** button on the judge's row.
+1. On the **Judging panels** tab, click the **Judge absent** button on the judge's row.
 2. Set **Absent from**. It starts at the current time, or at the first round if the event hasn't started yet.
 3. Set **Back at**, or leave it empty for the rest of the event. Add a **Reason** if you like.
 4. The dialog lists each of the judge's seats in rounds from then on and who would take it: the best free judge for the same seat. "nobody is free" means you'll have to find someone yourself.
@@ -31,9 +31,9 @@ A panel that already has scores keeps the judge; the dialog lists those panels. 
 
 ## A judge who can't judge one class
 
-Sometimes a judge can still judge, just not one class, for example because their own student dances in it. You can swap the judge out of that class's rounds and leave everything else as it is:
+Sometimes a judge can still judge, just not one class, for example because their own student dances in it. In Scrutineer (Beta), the new version of the Manager app, you can swap the judge out of that class's rounds and leave everything else as it is:
 
-1. On the **Panels** tab, click the **Can't judge a class…** button on the judge's row, the circle with a line through it next to **Judge absent**. If the problems list already says the judge **Must not judge** a class in a round still to come, you can also click **Swap out…** on that problem; the judge and the class are then filled in for you.
+1. On the **Judging panels** tab, click the **Can't judge a class…** button on the judge's row, the circle with a line through it next to **Judge absent**. If the problems list already says the judge **Must not judge** a class in a round still to come, you can also click **Swap out…** on that problem; the judge and the class are then filled in for you.
 2. Choose the **Class**. Only classes where the judge has rounds still to come are listed.
 3. Under **Replaced by**, the judge Vote4Dance suggests is chosen and marked **Suggested**, picked by the same rules as **Judge absent**. Choose someone else, or **Nobody** to just take the judge off. Add a **Reason** if you like.
 4. The table lists the class's rounds the judge sits in, with the time, the panel judging it now and the panel that will judge it. A round that already has scores, or is closed, keeps the judge and shows **Scores in, stays as it is**.
@@ -46,17 +46,25 @@ When every round of the class already has scores or is closed, nothing can be sw
 
 Your panels are not changed. Each panel the judge sits on in those rounds gets a copy named after it with **(substitute)** at the end, with the replacement in the judge's seat, and the class's rounds are given that copy as their own panel. Other classes that use the same panel, and the judge's rounds in other classes and competitions, keep the judge. On the [Classes](/manager-guide/judge-panels/#classes) tab the rounds are then tagged **Own panel**. To undo it for a round that has no scores yet, choose **Class panel** for it again.
 
+The classic Manager and the Supervisor app do not have this button. There, add the replacement to a new panel yourself and give the class's rounds that panel in the **Rounds** column of the **Classes** tab.
+
 ## Replacing a judge who has already given marks
 
-Sometimes a judge has to leave after judging has started, for example because they fall ill. When you change a round's panel or a class's panel so that a judge who has already given marks leaves the round, Vote4Dance asks first:
+Sometimes a judge has to leave after judging has started, for example because they fall ill. Once a round of the class has started, the class's own **Judging panel** is greyed out, and a panel with scores keeps its seats. What you can still change is the panel of each round, on the **Classes** tab of the Judges page. This works the same in Manager, in Scrutineer (Beta) and in the Supervisor app.
 
-1. Choose the new panel for the round, or for the class, on the **Classes** tab.
+When the change means that a judge who has already given marks leaves the round, Vote4Dance asks first:
+
+1. On the **Classes** tab, find the class and choose the new panel for the round in the **Rounds** column. The new panel must be another panel than the one the round has now, with the replacement seated on it; add one with **New panel** on the **Judging panels** tab if you need to.
 2. **Remove the leaving judge's marks?** opens. It names the judge and how many marks they have in the round.
 
    ![Asked whether to remove the leaving judge's marks](/assets/images/judges/remove-leaving-marks.png)
 
 3. Choose **Remove marks and change** to remove that judge's marks and change the panel. The marks can't be restored. The other judges' marks stay, and the round's result is worked out again without the removed marks.
 4. Choose **Cancel** to keep the panel and the marks as they are.
+
+A judge who sits on both the old and the new panel stays in the round and keeps their marks. Rounds of the class that have not been judged yet change the same way, without the question.
+
+The round's own **Judging panel** setting, in the round's settings, is greyed out once the round has marks, so use the **Classes** tab.
 
 ## Separating tied positions
 
@@ -100,7 +108,7 @@ Which chief judge type to use depends on the rules:
 
 | Message | Cause | What to do |
 |---|---|---|
-| "Cannot change panel with results" | The panel or class already has marks. | Leave the panel as it is. |
+| "Cannot change panel with results" | The change would take a judge who has given marks out of a round. | Change the round's panel on the **Classes** tab, where you are asked about the marks first; see [Replacing a judge who has already given marks](#replacing-a-judge-who-has-already-given-marks). |
 | "A panel already has scores, so its seats can't change." | The panel has marks. | Give the remaining rounds their own panel on the **Classes** tab. |
 | "Assign a judging panel to this class or round before starting judging." | The class has no panel and the round no override. | Choose a panel on the [Classes](/manager-guide/judge-panels/#classes) tab. |
 
