@@ -143,7 +143,19 @@ The **API keys** tab is only shown to Administrators, Owners and Vote4Dance syst
 
 ### API keys for your website
 
-An API key lets an outside system, such as the federation's own website, read the federation's public events from Vote4Dance. Keep keys secret: they belong on a server, never in a web page.
+An API key lets an outside system, such as the federation's own website, read the federation's public events from Vote4Dance, for example to show them in the website's own calendar. Keep keys secret: they belong on a server, never in a web page.
+
+With a key, the website can read:
+
+- the federation's public events: name, dates, place, country, image, short description, organizer and a link to the event's page on Vote4Dance
+- which of the federation's divisions and disciplines each event has classes in, so the website can label or filter the events by them
+- the list of the federation's divisions and disciplines, so the website's own categories can be matched to them once
+
+A key reads this federation only, and nothing else of it: no registrations, dancers, results, classes or rules. It cannot change anything. Events that are not public are never included, and neither are practice competitions.
+
+An event gets its divisions and disciplines from its classes. A class counts when it has a **Division** and a **Discipline**, which it gets when the organizer creates it from the federation's classes or links it to a **Federation Class** (see [Step 1: Create classes](/manager-guide/competition-setup/#step-1-create-classes)). An event whose classes are not linked comes without any. If an event is missing its labels on your website, ask its organizer to link the classes.
+
+To create a key:
 
 1. Press **Create key**.
 2. Under **Label**, write what the key is for, for example the name of the website.
@@ -151,6 +163,8 @@ An API key lets an outside system, such as the federation's own website, read th
 4. Press **Create key**. The key is shown once: copy it and give it to whoever runs the website.
 
 To stop a key, press **Revoke key** on its row, then **OK**. Systems using it stop working right away, and this cannot be undone.
+
+The addresses the website uses are at the end of this page, for the person who builds the connection: see [For the person building the website](#for-the-person-building-the-website).
 
 ### Personal configuration keys
 
@@ -226,6 +240,31 @@ The **Guide** tab is a short map of where federation work is done. It has three 
 - **Manual operations guide** says which page to use when a rule is not automated: ranking corrections for selection exceptions and ties, membership edits for manual promotion, demotion and class changes, representation history for moving a competitor between clubs, and the enforcement log to check the result afterwards.
 
 The tab has nothing to set.
+
+## For the person building the website
+
+This section is for whoever connects the federation's website to Vote4Dance. Nothing here is needed to use the Settings screen.
+
+An [API key for your website](#api-keys-for-your-website) works on two addresses on `https://api.vote4dance.com`. Send the key in the `Authorization` header as `Bearer <key>`, from a server. Never put it in the address.
+
+| Method | Path | What it gives |
+|---|---|---|
+| `GET` | `/public/v1/events` | the federation's public events, each with its `divisions` and `disciplines` |
+| `GET` | `/public/v1/divisions` | the federation's divisions, each with its disciplines: id, name, code and state |
+
+**Labels.** Read `/public/v1/divisions` once and match the `id` of each division and discipline to a category on the website. Every event then lists the ids it has, so its labels can be set without anyone doing it by hand. Both lists are empty for an event whose classes are not placed in a division or a discipline.
+
+**Ids are stable.** The `id` of an event, of a division and of a discipline never changes and is never given to another one, so store what you import under it. Names and dates can change, and so can an event's `slug` and `url`.
+
+**Events that were deleted.** There is no list of deleted events. An event that is deleted, or made private again, is simply no longer in the answer. To find those:
+
+1. Send the same fixed `from` every time: the first day you keep events from, for example `?from=2026-01-01`. Without it the list starts today, so an event leaves it the day after its last day although nothing was deleted.
+2. Read every page, following `next_cursor` until it is `null`.
+3. Remove the events you hold from that day on that were not in the answer. If you also send `to`, look no further than that day. Leave every event outside the dates you asked for alone.
+
+**Reading often.** The answer to `/public/v1/events` carries an `ETag`. Send it back as `If-None-Match` and you get `304` without a body when nothing changed. If you ask too often you get `429` with `Retry-After`: wait that many seconds.
+
+The full reference is at `https://api.vote4dance.com/public/v1/openapi.json`.
 
 ## For the person writing the script
 
