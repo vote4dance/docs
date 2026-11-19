@@ -80,8 +80,8 @@ Four cards at the top count the club's members. Click a card to show only those 
 | Card | Shows |
 |---|---|
 | **Members** | Everyone (click to clear the filter) |
-| **No licence this season** | Members without an active or pending license through your club for the current season |
-| **Licence pending** | Members whose license is applied for but not active yet |
+| **No license this season** | Members without an active or pending license through your club for the current season |
+| **License pending** | Members whose license is applied for but not active yet |
 | **Not entered this season** | Members with no entry in a competition this season |
 
 Each row shows:
@@ -89,15 +89,15 @@ Each row shows:
 | Column | Shows |
 |---|---|
 | **Dancer** | The name, the birth year, and the role if it is not **Member** |
-| **Licence this season** | **Active**, **Pending** or **No licence with this club** |
+| **License this season** | **Active**, **Pending** or **No license with this club** |
 | **Competitors this season** | The dancer's competitors this season, such as **Solo**, **Duo with** *name* or a group's name |
 | **Entries this season** | How many competitions and entries the dancer has this season, such as **5 competitions · 12 entries**, the **Next** competition they are entered in, and how many entries are unpaid. Click the name to see every entry. |
 
-Click a name to open the dancer on the right: their license, all their competitors (marked **Entered**, **This season** or **Earlier seasons**) and each entry with its status and payment. When the dancer has no license, **Apply for a licence** takes you to [Licenses](#licenses).
+Click a name to open the dancer on the right: their license, all their competitors (marked **Entered**, **This season** or **Earlier seasons**) and each entry with its status and payment. When the dancer has no license, **Apply for a license** takes you to [Licenses](#licenses).
 
 Use **Search members** to find someone, and **Export CSV** to download the list as it is filtered, for example to tick off dancers in a spreadsheet. The list shows 50 members per page.
 
-The license column only counts licenses issued through your club. A dancer licensed through another club shows **No licence with this club**.
+The license column only counts licenses issued through your club. A dancer licensed through another club shows **No license with this club**.
 
 People only wait to join when **Member approval** is on in the club's details. With it off, anyone who presses **Join organization** becomes a member straight away.
 
@@ -249,7 +249,7 @@ The page has these parts:
 |---|---|
 | The application form | Choose a **Member**, a **License item**, the **Season year** (or a **Federation ID** or **Competition ID** when the item needs one) and an optional **Note**, then press **Apply for license**. |
 | Season, search and export | Pick the season to show, or **All seasons**. **Search by member name** narrows the list, and **Export CSV** downloads it as shown. |
-| Summary cards | **Needs your action**, **Active**, **In progress** and **Members without a licence**. The **Needs your action** card and tab only show when your federation asks clubs to approve licenses or something waits for your club. Click a card to open that tab. **Members without a licence** opens [Members](#members), where the **No licence this season** card lists them. |
+| Summary cards | **Needs your action**, **Active**, **In progress** and **Members without a license**. The **Needs your action** card and tab only show when your federation asks clubs to approve licenses or something waits for your club. Click a card to open that tab. **Members without a license** opens [Members](#members), where the **No license this season** card lists them. |
 | Status tabs | **Needs your action**, **Active**, **In progress**, **Expired or cancelled** and **All**, each with its count |
 
 The list opens on **Needs your action** when something waits for your club, and on **Active** otherwise, so you see straight away who holds a license. **Needs your action** shows applications waiting for your club to approve or pay, from every season, so nothing waiting on you is hidden by the season. The **What's needed** column says **Awaiting your approval** or **Payment due**. The other tabs follow the season you picked. The list is sorted by member and shows 50 licenses per page.
@@ -288,9 +288,9 @@ You cannot change your own role, and on this screen nobody can change or remove 
 
 They come from dancers claiming results from earlier competitions. They are not entered in anything. They sit under **Earlier seasons** once they have not competed this season, and **This season** leaves them out.
 
-### "A dancer shows No licence with this club"
+### "A dancer shows No license with this club"
 
-**Members** only counts licenses issued through your club. A dancer licensed through another club, or who has not applied yet, shows **No licence with this club**. Check **Licenses**, or ask the dancer.
+**Members** only counts licenses issued through your club. A dancer licensed through another club, or who has not applied yet, shows **No license with this club**. Check **Licenses**, or ask the dancer.
 
 ### "I cannot remove a license application"
 

@@ -47,7 +47,7 @@ A Viewer does not see **Licenses** in the federation bar, but can open a link to
 | For this | Go to |
 |---|---|
 | Connect Stripe, so that licenses can be paid online. Payments go to the federation's own Stripe account and Vote4Dance keeps a 5% fee. | `Federation → Settings → Federation`; see [Stripe payout account](/federation/settings/#stripe-payout-account) |
-| Decide whether the club, the federation or both must approve a license | The rules **Club must approve a licence** and **Federation must approve a licence**; see [Setting federation rules](/federation-rules/editor/) |
+| Decide whether the club, the federation or both must approve a license | The rules **Club must approve a license** and **Federation must approve a license**; see [Setting federation rules](/federation-rules/editor/) |
 | Decide which classes accept which license items | The class's **License rules**; see [4. Map license items to classes](#4-map-license-items-to-classes) |
 | Approve a club, or allow it to issue licenses | The club's page; see [6. Manage issuer role on organizations](#6-manage-issuer-role-on-organizations) |
 | See everything about one dancer: licenses, class memberships and rule decisions | `Federation → Members`, [Dancers tab](/federation/members/#dancers) |

@@ -85,7 +85,7 @@ The public page only shows what was calculated. Check the ranking in the federat
 - the classes added to it
 - its corrections
 - its **State** and **Privacy**
-- the rule **Ranking needs a licence** for its classes
+- the rule **Ranking needs a license** for its classes
 
 Then press **Import** and reload the public page. See [Common problems](/federation-rankings/federation-admin/#common-problems) on Federation Admin.
 

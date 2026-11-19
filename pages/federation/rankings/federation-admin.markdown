@@ -144,7 +144,7 @@ A competition counts when:
 
 Two rules, set in the [federation rules](/federation-rules/editor/), also decide whose results count:
 
-- **Ranking needs a licence**: with **Required**, a result counts only when every dancer of the competitor holds a valid license. A result that is left out is written to the [Enforcement log](/federation/members/#enforcement-log).
+- **Ranking needs a license**: with **Required**, a result counts only when every dancer of the competitor holds a valid license. A result that is left out is written to the [Enforcement log](/federation/members/#enforcement-log).
 - **Team points when a dancer changes**: decides whether a competitor keeps its earlier results when a partner or another dancer changes.
 
 ## Make it public
@@ -205,7 +205,7 @@ The competition is still hidden, its classes are not linked to the ranking's fed
 
 ### A competitor is left out
 
-Check the [Enforcement log](/federation/members/#enforcement-log) for a `ranking` entry. A missing ranking license is a common reason: the rule **Ranking needs a licence** is **Required** for the class, and a dancer has no valid license.
+Check the [Enforcement log](/federation/members/#enforcement-log) for a `ranking` entry. A missing ranking license is a common reason: the rule **Ranking needs a license** is **Required** for the class, and a dancer has no valid license.
 
 A competitor with fewer counted competitions than **Minimum count** is listed without a position.
 

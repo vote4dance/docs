@@ -83,7 +83,7 @@ which one you are editing.
 
 ## Find a rule
 
-The rules are grouped by topic: **Licences & approval**, **Teams & ages**, **Points & promotion**,
+The rules are grouped by topic: **Licenses & approval**, **Teams & ages**, **Points & promotion**,
 **Season & ranking**, **Music** and **Public lists**. The list on the left shows each topic with
 the number of rules in it, and a badge such as **5 set** when some of them are set on this level.
 Click a topic to jump to it.
@@ -156,7 +156,7 @@ bottom of the editor lists your changes in words, with the value before and afte
 ![The save bar with one change](/assets/images/federation-rules-editor/save-bar.png)
 
 1. Change one or more rules on the level.
-2. Read the bar, for example **1 change: Club must approve a licence inherited → Yes**.
+2. Read the bar, for example **1 change: Club must approve a license inherited → Yes**.
 3. Press **Save rules**, or **Discard** to undo every change since you last saved.
 
 Save before you leave the page or pick another level in the strip.
@@ -168,11 +168,11 @@ Save before you leave the page or pick another level in the strip.
 Your federation lets the dancer or the club apply for a license, but in one discipline only the
 dancer may apply.
 
-1. Open **Structure** → **Federation rules** and check **Who applies for a licence**. It shows
+1. Open **Structure** → **Federation rules** and check **Who applies for a license**. It shows
    **Dancer or club**, from the federation or the platform default.
 2. Click **Disciplines** in the level strip, or open **Structure** → (division) → **Disciplines** →
    (discipline) → **Federation rules**.
-3. In **Licences & approval**, set **Who applies for a licence** to **Dancer**. The line below now
+3. In **Licenses & approval**, set **Who applies for a license** to **Dancer**. The line below now
    says what it replaces.
 4. Press **Save rules**.
 5. Open **Rulebook** → **Rules**, pick a class in that discipline and check that it says **Only the
