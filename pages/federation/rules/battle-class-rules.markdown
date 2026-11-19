@@ -3,7 +3,7 @@ layout: page
 title: Battle round setup
 permalink: /federation-rules/battle-class-rules/
 parent: Federation Rules
-nav_order: 2
+nav_order: 9
 ---
 
 # Battle round setup

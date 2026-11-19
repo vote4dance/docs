@@ -3,7 +3,7 @@ layout: page
 title: What your rules do at event registration
 permalink: /federation/registration-for-event/
 parent: Federation Rules
-nav_order: 7
+nav_order: 13
 ---
 
 # What your rules do at event registration

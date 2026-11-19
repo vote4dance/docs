@@ -3,7 +3,7 @@ layout: page
 title: Battle sub-rounds
 permalink: /federation-rules/battle-sub-rounds/
 parent: Federation Rules
-nav_order: 3
+nav_order: 10
 ---
 
 # Battle sub-rounds
