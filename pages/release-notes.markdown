@@ -10,6 +10,9 @@ child_nav_order: reversed
 # Release notes
 ## 2026-11-19
  🛠️ **Improvements**
+* Scrutineer (Beta): A point summary is easier to find and run in **Live**. In **Classes** it always has its own link, and the **+** number on a class with many rounds now opens the rounds that don't fit. **Next** points to the summary once every round it adds up is closed, and says how many rounds it waits for until then. A summary opened too early names the rounds it doesn't count yet, and it no longer asks for a judging panel. At the end of the day the run sheet names an unpublished point summary as what is left before the competition can be closed (see [Running it in Scrutineer (Beta)](/point-summary/#running-it-in-scrutineer-beta))
+## 2026-11-19
+ 🛠️ **Improvements**
 * Website, Judging, Federation and Scrutineer (Beta): When a page can't load its information, or you aren't allowed to see it, the page now says so straight away instead of showing a spinner or an empty page until it gives up. Opening an event you can't manage shows **You don't have access to manage this event** at once, and a ticket order that isn't yours says "This order belongs to another account, or the link is no longer valid." immediately. When loading failed because of a passing problem on our side, the page tries again by itself and fills in once it works
 ## 2026-11-19
  🛠️ **Improvements**
