@@ -1,0 +1,482 @@
+---
+layout: page
+title: "Release notes, January to August 2026"
+permalink: /release-notes/2026-01-08/
+parent: Release notes
+nav_order: 202608
+search_exclude: true
+---
+
+# Release notes, January to August 2026
+
+The newest changes are on [Release notes](/release-notes/).
+
+## 2026-08-18
+ ⭐ **New**
+* Federation: Promotion points now live on the competition entry — every entry carries the U-points earned at that competition, whether computed from judged results at final confirmation, imported with a result file's "UP" column, or entered by an official; the new "Points on the competition entry" source sums them per class membership
+* Federation: Closing a competition runs progression automatically — couples are created from person numbers, class memberships are registered for everyone who received points (and only them), balances update, and promotions at the class threshold are applied with the reason recorded; re-close a competition to reprocess it after imports or corrections
+* Federation: Opening balances need no manual step — a couple's first processed entry seeds their balance (imported first entries may carry their current total), and a carryover action on the Status tab covers corrections
+* Federation: Competitor profile page — click any couple in the division history to see their classes with current points, membership details and full class history
+* Speaker: The prize ceremony placement list shows a "moving up" badge for couples whose result earns a promotion, switching to past tense ("Moved up to …") once the promotion is applied
+* Manager: The teams table shows a points column wherever entries carry promotion points, and a rise icon with the target class for couples moving up; the team editor has a U-points field for corrections
+
+ 🛠️ **Improvements**
+* Federation: Machine-written membership reasons ("Automatic promotion — point threshold reached", auto-enrollment, age transitions) are now localized; free-text reasons render exactly as written
+* Federation: Name search on the division Status tab works without selecting a class first
+* Federation: The control log no longer records the steady state — being below a promotion threshold is not an event; only promotions applied, promotions blocked by a disabled rule, and other consequential decisions are logged
+## 2026-08-05
+ 🛠️ **Improvements**
+* Federation: New Progression tab per division — the class ladder (advance by, target class, threshold, points source) is shown in one place with the scope each value was resolved from, and settings that silently do nothing are reported as warnings
+* Federation: Promotion points can be derived from competition results — a team's placements are scored into progress points counted against the class threshold; expand a class in the Progression tab to inspect its points table and test a placement against it
+* Judging: Practice mode builds demo heats from the real round — team and heat counts now follow the round instead of always showing 20 teams per heat
+* Registration: New optional dance-role rule — require that every member of a registering team has a role, or that the roster carries both a leader and a follower; set it from the same rules editor as the other class and registration-period requirements
+* Registration: A class a team can't enter only because a dance role is missing now stays in the list, locked with the reason and an edit button that opens the team's roles, instead of silently disappearing from the class list
+* Registration: Correcting a dance role is treated as team information rather than a roster change — it saves in place, so a registered team keeps its id and its registrations instead of being copied to a new version, and a locked roster no longer blocks it
+* Public: The leader/follower selector now appears for any couple, including in club, coach and organization flows — a solo team that gained a partner there previously saved with no roles at all — and trios can record roles too
+* Public: Roles are optional to save everywhere; a federation's role requirement is still checked at registration
+* Public: Club, coach and organization team flows start with the same use-participant-names / custom-name choice as the personal flows, instead of going straight to a name box, and the new-version warning on a registered team is shown only when the edit actually versions it
+* Federation: Promotion points can be awarded from a placement-to-points table banded by the number who started (DSF 7.3, SLT T7.3) — points reach every placed dancer rather than only finalists, and disqualified entries count toward the field size without claiming points
+* Federation: Competition level rules are editable, so a federation can withhold promotion points at a championship
+* Federation: Rule panels holding a structured value, such as a promotion-points table, now save correctly — the save previously failed and took every other rule edited in the same panel with it
+
+## 2026-07-27
+ 🛠️ **Improvements**
+* Manager: Jack'n'Jill partner rounds now preview the qualified leaders and followers before you draw, and the final-class round hierarchy shows separate leader and follower trees
+* Judging: Jack'n'Jill finals now produce a correct fast/slow summary — final couples are created on the main round so the summary has the data it needs
+* Manager: Creating a competition shows the country field with a populated dropdown, and surfaces validation errors instead of failing silently
+* App: Subscription validation modernized to the latest Apple (StoreKit 2) and Google (Play subscriptions v2) APIs for more reliable purchase and restore
+* Public: Country names and flags now localize correctly in the production build — some previously appeared blank
+
+## 2026-07-15
+ 🛠️ **Improvements**
+* Registration: A coach can now register several teams that share dancers into the same class — the second team was previously blocked by mistake; a new optional federation rule can still restrict each dancer to one team per class (e.g. small-group and formation categories)
+* Registration: Per-entry tier pricing ("2 or more = 400") is billed as a cumulative total instead of tier price × entry count, so a team with two entries is charged the tier once rather than double
+* Registration: Deleting a competitor is correctly blocked when it still has a registration after the team was edited (which clones it to a new version)
+* Public: Managers can approve all pending organization members at once from the requires-action alert
+* Judging: Battle groups of three or more are now seeded by placement so top-placed competitors meet weaker opposition
+* App: Fixed an Android startup crash carried over from a previous update, and updated the app to the latest framework (Expo SDK 57)
+
+## 2026-07-06
+ 🛠️ **Improvements**
+* Manager: Per-app access for functionaries — instead of one access level, each competition user is now given access to exactly the apps they need (Cafe, Check-in, Lineup, Screens, Speaker, Supervisor, Manager), with an optional custom role title shown in user lists
+* Manager: Stations — shared devices such as check-in desks, cafe tills, venue screens and speaker booths now sign in as named device stations instead of a personal account: activate by QR or link, revoke at any time, and follow each device's presence and battery from Manager, which also suggests stations on the event users page
+* Check-in: Walk-up registration — register new dancers on site directly from a check-in station, including taking payment, so late entries no longer need a separate manager step
+* Registration: Age and eligibility overhaul — team age rules use the championship year when a federation's season doesn't start on January 1, classes a team can't enter show a clear age-composition explanation already at class selection, and "older member" allowances are applied correctly
+* Registration: Roster control for organizers — team rosters can be locked automatically once a registration is paid (opt-in per event), roster changes can be allowed per class, and every roster change is re-validated against age and team-size rules
+* Check-in: Find participants by full name with accent-insensitive search, and see a dancer's partners directly on their event check-in page
+* Public: The account page shows your competitors in a clearer card layout, and the licenses page lists your existing licenses above the application form
+* Platform: Refreshed UI component library across all apps, plus many smaller fixes in Manager, Speaker and round results
+* App and Public: Per-user push notification settings — independently mute results for teams you've favorited or updates for competitions you follow, from Settings → Notifications (app) or Account → Notification preferences (web). Both are on by default; registration and other emails are always sent.
+* School/Club: Embeddable website widgets — show your club's upcoming registrations and results on your own website via a read-only iframe; generate, rotate, or disable the embed key from your organization profile (see [Embed widgets](/school-club/embed-widgets/))
+
+## 2026-06-15
+ 🛠️ **Improvements**
+* Judging: New audience judge type — audience hearts-votes are aggregated into a single equal-weight panel judge, live during voting and finalized when all judges have submitted; also supported on match rounds
+* Public and App: Audience hearts-voting now works in the public schedule on the web, not just the app
+* Manager: Audience voting is now a per-competition toggle in the live section, instead of a single event-level setting
+* App: Audience voting is a premium feature in the app — non-subscribers see an upgrade prompt in place of the voting control
+* Manager: A round can no longer be started until it has a judging panel — the Start button is disabled with a warning explaining why
+* Registration: Each team's federation eligibility is now shown in the class list, instead of only failing at checkout
+* Registration: A federation license is only required when the class actually includes a registration license item — fixes federation events that blocked registration against an unseeded license list
+* Registration: Any user can set the dance team name when editing a team; the team name is only imported when the registration form asks for it
+* Judging: Correct handling of partial participation in multi-dance rounds, and removing a competitor now cascades cleanly across the whole round
+* App: Restoring an Apple or Google subscription now moves it to the account performing the restore instead of failing to load
+* Manager: Judging-panel lock state stays live when the round status changes
+* Public: The vote control is hidden for logged-out viewers
+* Public and App: Override-round participants stay hidden in the schedule heats view when marks are hidden
+* Screens: Federation logo is hidden on green-screen and blank displays
+
+## 2026-06-08
+ 🛠️ **Improvements**
+* Public: Schedule now opens on today's day instead of always showing the first day
+* Manager: Customizable diploma printing — edit live CSS with a diploma-scoped preview, semantic field classes, all print settings are now remembered
+* Registration: Show a visible error when reCAPTCHA is blocked (Firefox Strict ETP, ad blockers) instead of the Create-account button silently doing nothing
+* Screens: New "Schedule (no heats)" venue screen — one card per schedule block with the block's rounds and their live estimated start times, honoring the public schedule-times setting
+* Manager: Reorder schedule page tabs by drag-and-drop
+* Cafe: New orders show product name, customer and timestamps immediately, and the order form resets after submit to avoid accidental duplicates
+
+## 2026-06-03
+ 🛠️ **Improvements**
+* Federation: Configurable age-composition rules — set per category/class how members' ages decide team eligibility
+* Sponsors: Offer emails are now sent from the server, with a shared preview before sending
+* Registrations: Per-person pricing fixes — single price tier, adding classes after payment, and coupons no longer zero out the tier difference
+* Registrations: Already-paid items are credited and cancelled rows ignored when calculating per-person cost
+* Public: Coach tab now shows only your own organizations
+* Judging: Faster round submit — score recompute no longer blocks while saving
+* Manager: Large team imports are faster and more reliable
+* App: Older `/<app>/#…` deep links now open the correct modern page
+
+## 2026-05-30
+ 🛠️ **Improvements**
+* App: Fix blank screen on launch when a font fails to load
+* App: More reliable reconnection after the app briefly loses its connection
+* Manager: Adding a competition user no longer errors when the search matches no one
+
+## 2026-05-29
+ 🛠️ **Improvements**
+* Federation: Extended license setup
+* Manager: Photo column on the Judges list — upload, preview and delete a judge picture per competition
+* Manager: Send-invitation flow for judges with a 3-state activation badge (Active / Not invited / Invited – pending) and a Resend action
+* Manager: New Hide flags in Live Results — Teams, Judges and Schedule times can be hidden from public viewers per competition
+* Manager: Age-group eligibility basis — choose whether each member, oldest, youngest or the average age decides team eligibility
+* Manager: Dance role is only shown/required on teams with more than one dancer
+* Manager: WSDC export file updated
+* Screens: New big-screen Judges view — cycle through panel judges, or pin one
+* Speaker: "Show on Screen" per judge in the Judges overview; header button to cycle all judges
+* Public: Hidden Teams tab now renders an empty-state message instead of disappearing
+* Public: Org and federation flows surface approval status; create-from-federation entry point added
+* Registrations: Per-person registration periods now credit individual dancers' payment status
+* Registrations: Each registration gets a short code surfaced in the confirmation email and the manager registrations list
+* App: Birthdate validation no longer false-positives on registration when birthdate is already on file
+* Judges: Show comments in none rating
+* Manager: "Add registration" now opens the streamlined check-in registration flow
+* Check-in: Register dancers by email — missing accounts are created on the spot with nationality and language prefilled, birthdate optional, and a failed welcome email no longer blocks creation
+* Check-in: Partner role defaults to follower; an existing dance team with the same dancers is reused instead of erroring
+* Check-in: Selected classes are kept when switching registration period, and one flow can register into any of an event's competitions
+* Check-in: Free registration periods no longer show a payment warning
+* Check-in: Quick "Add start number" on a participant, with an option to apply the same number to all their registrations
+* Check-in & Public: Consistent competition tabs to switch between an event's competitions across the team, results, organization and registration views
+* Public: Team and results lists no longer show favorites/organization filters unless favorites are enabled
+* App: Fixed registration and check-in pages sometimes loading empty on first visit
+
+## 2026-05-26
+ 🛠️ **Improvements**
+* Screens: Sort through-round results by team start number
+* Manager: Hide floor label on round/class hierarchy when all rounds share one floor
+* Manager: Separating positions in paper redance defaults the override round to hide partial results
+* Manager: Registration list sorted newest-first; registration timestamps render in browser-local time
+* Manager: Registration period start/end round-trip correctly in browser-local timezone
+* Public: Partial-result expand chevron now visible on team rows for non-coach viewers
+* Public: Distinguish "results not published for this competition" from "shown after the competition is closed" in the judge-marks notice
+* Registrations: Stripe payment webhook finalizes registrations whose line items live on child events
+* App: Restore missing acrobatics in results
+* Speaker: Animate up when all heats are done to minimize scroll pop
+
+## 2026-05-25
+ 🛠️ **Improvements**
+* Public: Registration fix for periods bound to a different scope in multi event competitions
+
+## 2026-05-23
+ 🛠️ **Improvements**
+* Cafe: Keep customer name in "Deliver to" after order is claimed
+
+## 2026-05-22
+ 🛠️ **Improvements**
+* Judging: Allow same placements in preliminary rounds without conflict warning
+
+## 2026-05-16
+ 🛠️ **Improvements**
+* App: Fix class labels on favorites tab for sibling events
+* App: Show update-available prompt regardless of subscription mode
+
+## 2026-05-15
+ 🛠️ **Improvements**
+* Manager: Display round comment as icon
+* Manager: Make sure "Add teams" buttons is visible if teams are missing in any child round
+* Manager: Dont store submitted time on close round unless some judges have submitted results
+* Manager: Show round comment as icon
+* Manager: Allow editing of sponsor quantity on available slots
+* Manager: Allow delete of sponsors
+* Manager: Round table info wrap tweaks
+* Manager: Teams table removed federation status
+* Public and App: Favorites with dancers from different clubs show up in both lists
+* App: Fix for results list being clipped when out of screen height
+* Judging: Partial rating display names in final rounds
+* Judging: Fix for android devices showing native menu on slider hold
+* Screens: Voting screen fix for hearts not being displayed
+* Speaker: Add Show on Screen buttons to all teams list in lineup
+
+## 2026-05-14
+ 🛠️ **Improvements**
+* Public: Favorites fix for multi event competitions
+* Public: New registrations are now redirected to landing page
+* Manager: Display hint when user tries to unlock judge with wrong button
+ 
+## 2026-05-13
+ 🛠️ **Improvements**
+* Manager: Adding teams to round now forces team start number as order
+* Public: Favorites fixed when using child competitions
+* Public: Schedule fix for closing heats modal on updates
+* Judging: Corrected TCI input problem with ties
+
+## 2026-05-10
+ 🛠️ **Improvements**
+* Sponsor adjustments for both screens and app/web
+
+## 2026-05-06
+ 🛠️ **Improvements**
+* Login: Forgot password no longer fails with captcha error
+* Manager: Block delete-teams on non-private competitions
+* Manager: Orientation control for round result printing
+* Manager: Heat position estimates for undrawn rounds in conflict report
+* Public: Date order for upcoming and results event lists
+* Screens: Floating-hearts indicator on live voting heat screen
+* Judging: New slider mode in placement
+
+## 2026-05-04
+ 🛠️ **Improvements**
+* Judging: New smiley and dancer-style pickers
+* Judging: Reworked partial rating, full rating step controls and placement extras
+* Speaker: New "Show all" toggle on lineup round
+* Manager: Safer round-status flow with unsaved-changes guard and heat count validation
+* Public: CSV result downloads opened to org-filtered exports and child events
+* Registrations: Initial support for organization payment
+
+## 2026-04-30
+ 🛠️ **Improvements**
+* Judging: Cross-heat ranked view
+* Judging: Highlight qualifying sliders green in non-final rounds
+* Judging: Round submit always uses the quick-confirm dialog
+* Federation: Group licenses by required action
+* Federation: Organization approval step before payment
+* Public: Group organization licenses by required action
+* Public: Show favorite/total count and placement in favorites class table
+* Manager: Schedule conflict detection handles breaks at start of day
+* Manager: Estimated round times follow scheduled day
+
+## 2026-04-28
+ 🛠️ **Improvements**
+* Public: Show event date on competition hub overview
+* Public: Open competitions on overview tab from results and recently viewed
+* Public: Show city, country and choreographer on class teams list
+* Public: Strike through cancelled teams on class teams list
+* Public: Team share modal shows organization, city, country, show name and choreographer
+* Screens: Strike through cancelled teams on result and announcer screens
+* Manager: CSV import supports team city and choreographer columns (max 128 chars)
+* Manager: Detect scheduling conflicts across sibling competitions in the same event
+* Federation: Show overlapping season years (e.g. 2026/2027) for seasons not starting Jan 1
+* Federation: Always allow current and upcoming season license purchases
+
+## 2026-04-26
+ 🛠️ **Improvements**
+* Lineup and Speaker: Can move dancers between heats
+* Supervisor: Fixed so trainee judge scores are shown
+* Supervisor: Warn partial values outside median
+* Speaker: Clarify dancer info to fit on screen
+* Manager: Allow city and choregrapher in team edit
+* Manager: Judging demo available for managers
+* Manager: Keep Upcoming menu items text when collapsed
+
+## 2026-04-23
+ 🛠️ **Improvements**
+* Manager: Fix problem with schedule drag and drop
+
+## 2026-04-22
+ 🛠️ **Improvements**
+* Public: Favorites by organization
+* Screens: Heat with 1 only can show dancer picture
+
+## 2026-04-20
+ 🛠️ **Improvements**
+* Manager: Print start number toggle child competition name
+* Screens: Spotlight duration can be set for both podium and others
+* Public: Filter competition teams by organization
+* Public: Download organization teams as csv-file
+* Federation platform update
+
+## 2026-04-14
+ 🛠️ **Improvements**
+* Judging: Show component multiplier
+* Supervisor: Show partial results regardless of hide setting
+* Screens: Price ceremony with spotlight overlay
+* Screens: Setting for winner country only
+* Manager: Print results should ignore any hide settings
+* Manager: Clear beats now refresh better
+* Manager: Moving round with children should keep order
+* Manager: Upcoming list should always update round beat
+* Manager: Multi edit changes should deselect after operation
+* Manager: Fixed problem with judging panels name not updating
+
+## 2026-04-02
+ 🛠️ **Improvements**
+* App: Font size scaling for accessibility
+* App: Show team show name for participants
+* App: Fixed problem with team favorite list being cut off
+* Manager: Block class switch when there are results
+* Sponsors: Corrected problem with payment for functionary
+
+## 2026-03-31
+ 🛠️ **Improvements**
+* Judging: DSF - Show acro level name when they differ
+* Judging: Partial judging summary take multiplier factor into account
+* Judging: Fixed so judges can order cafe products
+* Home: Show icon for unpublished in my competition
+* Home: Result sort teams by number or plac take hide marks into account
+* Screens: Pop when fading between screens fixed
+* Manager: Improved battery indicator
+* Manager: Print schedule remove duplicated round name
+* Cockie consent banner
+
+## 2026-03-24
+ 🛠️ **Improvements**
+* Should show marks exception for ND in results
+
+## 2026-03-23
+ 🛠️ **Improvements**
+* Sponsor support now released
+
+## 2026-03-19
+ 🛠️ **Improvements**
+* Public results fix for cancelled teams not being strike through
+* Public redirect for older links restored
+* Public detailed schedule times restored toggle
+* Judging DEMO did not update placements for TCI correctly
+
+## 2026-03-16
+ 🛠️ **Improvements**
+* Session timeout is now 30 days
+* Support Paper redance
+* App/web display target round in schedule
+* App/web can search teams by org or city
+* App/web collect stars results hidden
+* App/web display judging panels
+* Manager can see battery status of judges (when supported)
+* Manager support judging panels in redance and sub rounds
+* Manager fix for accidentally sending teams to wrong class
+* Judging partial (TCI) performance improvment
+* Jack'n'Jill support multiple child rounds
+
+## 2026-03-11
+ 🛠️ **Improvements**
+* Manager display judges and screens connectivity
+* Connectivity update (core)
+* Upgrade frontend library
+* API remove unused code from legacy apps
+
+## 2026-03-09
+ 🛠️ **Improvements**
+* Event pages fixed problem where some judges could not see button
+* Fix for judge PIN sometimes not being accepted
+
+## 2026-03-08
+ 🛠️ **Improvements**
+* Live results are now available without subscription
+* Notifications for premium favorites and results
+* Screens with flags fix for invalid country codes
+* Judges now see all trainee judge scores
+* Public web users can help bug report from menu
+
+## 2026-03-07
+ 🛠️ **Improvements**
+* Schedule heats are now available without subscription
+* Judge pin code timout changed from 5 to 10 minutes
+* Supervisor fix for marks not being visible during round
+* Manager round result footer show mark summary below correct judge
+* Public schedule show team org
+
+## 2026-03-05
+ 🛠️ **Improvements**
+* New public page
+* App support for favorites and premium subscription
+* Team images can be set on registrations and from manager
+* Registration team import will now show what changes will be made
+* Added documentation for team image upload in manager and check-in flows: [Registration and check-in guide](/manager-guide/registration-checkin/#team-image-upload)
+* Added recommended "photo booth" workflow for functionaries (green screen and transparent PNG background)
+
+## 2026-03-03
+ 🛠️ **Improvements**
+* Can show team on screen with portrait
+* Speaker and supervisor schedule navigate to round fixed
+* Screens fade between all screens
+* Screens moved federation logo to bottom
+* Screens schedule text tries to fit
+* Screens for match/battle now supports images
+* Manager result footer show correct judges when summarizing marks preview
+* Judging partial with sliders performance fix
+
+## 2026-02-24
+ 🛠️ **Improvements**
+* Updated documentation
+* Competition creation guide
+* Fixed crashing sliders
+* Judge PIN code keyboard
+
+## 2026-02-18
+ 🛠️ **Improvements**
+* Judging with partial components can now be expanded
+* Judging sliders snap to minimum 0.5 step when click on track
+* Judging buttons with improved performance
+* Manager updated schedule times for battles
+* Manager round results for TCI summarize component scores
+* Manager heat table columns have the same width
+* Manager assign round beat take into account sub round floor group
+* Supervisor can sort teams by number or placement
+* Supervisor show judge mark count in footer
+* Sponsors available for beta-testing
+* Checkin fix for error when trying to sign pre-cancelled teams
+* Ranking correction for empty lists
+
+## 2026-02-05
+ 🛠️ **Improvements**
+* Judging faster buttons for one to five judging
+* Judging remove tie handling from one to five rating
+* Manager fix problems with saving round settings
+
+## 2026-02-03
+ 🛠️ **Improvements**
+* Use animated video background for screens
+* Display message for unsupported browsers
+* TCI judging can show marks but hide components
+
+## 2026-01-26
+ 🛠️ **Improvements**
+* Login captcha for improved security against abuse
+* Speaker fix background and icons restored
+* Competition owners can adjust administrator roles
+* Team show names listed
+
+## 2026-01-22
+ 🛠️ **Improvements**
+* Manager fix for round settings not being set correctly
+
+## 2026-01-21
+ 🛠️ **Improvements**
+* Judges fix for preliminary TCI auto assign cut
+* Judges show tie warning for placement rounds
+* Manager dont show trainee judges in result view
+* Manager round guide how shows correct num heats for child rounds
+* Manager round hierarchy show more info
+* Jack'n'jill fix for no couples in direct final
+
+## 2026-01-16
+ 🛠️ **Improvements**
+* Manager fix for round start times not being shared properly
+* Manager fix for new rounds names not being possible to enter
+* Manager remove generate start times button, not needed now
+
+## 2026-01-13
+ 🛠️ **Improvements**
+* Manager automatically update round start time 
+* Registration fix for emails not being sent properly
+
+## 2026-01-10
+ 🛠️ **Improvements**
+* Speaker warning if publish final without presenting teams
+* Speaker show why rounds are empty when unpublished
+* Judge and functionary schedule now expandable
+* Manager round settings, ask when leave without saving
+* Registration button for functionary to add teams on site
+* Manager printable schedule - PDF and CSV
+* Registration edit can use more organization fields
+
+## 2026-01-07
+ 🛠️ **Improvements**
+* Import registrations check for existing data better
+* Import csv formatting improvement
+* Round start time correction to show estimated value
+
+## 2026-01-01
+ 🛠️ **Improvements**
+* Removed legacy version 1
+* Manager use judging panels
+* Manager publish schedule
+* Manager fix so we can copy to class with alternates priority
+* Manager use estimated round times
+* Cafe products can be re-ordered
+* Competition country must be specified
+* Registration date corrected
+* Judges will only validate ChiefJudge unique points when we are using slider
+* Connection issues now keep page without reload
+* Printable judging sheets
+* Improved user search
+* Jack'n'jill heat lineup show slots with both roles
