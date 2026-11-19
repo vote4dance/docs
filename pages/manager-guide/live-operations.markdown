@@ -185,7 +185,7 @@ the result again.
 
 When participants share a place in a closed round, the **Judge results** card offers **Redance**,
 **Side skating**, **Chief judge** or **Paper redance**, depending on the round and its panel. See
-[Separating tied positions](/manager-guide/judges/#separating-tied-positions).
+[Separating tied positions](/manager-guide/judges-on-the-day/#separating-tied-positions).
 
 In a closed final, a participant that shares a place has a warning icon next to the place:
 **Shared placement**. If you press **Confirm round** while places are still shared, Manager asks
@@ -324,7 +324,7 @@ submitted: their padlock is open. Then check, in this order:
 2. **Is the judge on the round's panel?** A judge only gets the rounds of the panels they sit
    on. If the round has no panel at all, **Start judging** is greyed out and Manager says
    "Assign a judging panel to this class or round before starting judging." The warning links to
-   **Judges**. See [Classes](/manager-guide/judges/#classes) on the Judges page.
+   **Judges**. See [Classes](/manager-guide/judge-panels/#classes) on the Judges page.
 3. **Is the judge's tablet connected?** The small dot, or battery, next to the padlock shows it.
    Hover over it: **Connected**, **Connected, battery 80%** (with the tablet's own level) or
    **Disconnected**. See
@@ -344,7 +344,7 @@ Other cases:
   the judge as submitted, with the marks the judge has given so far. Manager does not check that
   the marks are complete.
 - **A judge has to leave.** See
-  [Replacing a judge who has already given marks](/manager-guide/judges/#replacing-a-judge-who-has-already-given-marks).
+  [Replacing a judge who has already given marks](/manager-guide/judges-on-the-day/#replacing-a-judge-who-has-already-given-marks).
 
 ### A judge's tablet loses the network
 
