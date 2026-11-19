@@ -39,31 +39,49 @@ the hall.
 
 Do not rehearse in your real event. Create a separate event for testing:
 
-1. In Manager, create a new event.
-2. On **How do you want to start?**, choose **Training competition with default settings**
-   ("Best for your first event"). No federation rules, licenses or rankings get in the way.
-3. If you take the longer path instead, set **Event mode** to `Practice event`. Practice
-   events are not billed and are excluded from federation reporting, so nothing you do here
-   shows up anywhere real.
+1. On the Vote4Dance home page, open the **My competitions** tab and click **Create a
+   competition**. The **Create event** form opens. See
+   [Event setup](/manager-guide/event-setup/#step-1-create-a-new-event).
+2. Fill in **Event name** and the date.
+3. Under **What kind of event?**, keep **Practice event**. Practice events are not billed
+   and are excluded from federation reporting, so nothing you do here shows up anywhere real.
+4. Under **Use classes from**, keep **No federation (I make my own classes)** and no
+   federation rules, licenses or rankings get in the way. To rehearse with your federation's
+   classes, pick the federation instead; no points are given.
+5. Press **Create event**. The event opens in Scrutineer (Beta). To follow this page in the
+   classic Manager, press **Classic manager** at the top of the overview.
 
 The new event already contains a **Main floor**, one screen, default cafe products and a
-schedule for the day with **Doors open** and **Competition start**. Classes, rounds and
-judges you add yourself — which is part of what you are rehearsing.
+schedule for the day with **Doors open** and **Competition start**. It has no classes, rounds,
+judges or participants: you add those yourself, which is part of what you are rehearsing. See
+[Competition setup](/manager-guide/competition-setup/).
 
-**For test dancers, use Generate random competitors.** On `Manager → Competition → Participants`
-there is a **Generate random competitors** action that exists only for practice events. That
-is how you fill a round with enough entries to see real heats, lineups and results.
+**For test dancers, use Generate random competitors.** It exists only in practice events:
+
+1. Create at least one class first.
+2. Open `Manager → Competition → Participants`.
+3. Under the class's list, press the arrow next to **Register new competitor** and choose
+   **Generate random competitors**.
+4. A window shows the made-up competitors it is about to add: eight entries of two dancers
+   each, with a club and a country. You can change it to between 1 and 100 entries, and to
+   one, two or three dancers per entry.
+5. Press **Create**. The competitors are added to that class.
+
+Then give them start numbers and put them in a round, as you would with real participants.
+That is how you get enough entries to see real heats, lineups and results. In Scrutineer
+(Beta) the same action is called **Generate test dancers**.
 
 Name the event so nobody mistakes it for the real thing, for example
-"TEST – Altira Cup (rehearsal, do not register)", and keep it non-public.
+"TEST – Altira Cup (rehearsal, do not register)", and leave it **Hidden**.
 
 **One thing to expect at the venue:** a practice event shows a warning in every app,
 including on the projector — *"Practice events have limitations! Only for practice and should
 not be used for live competitions."* That is normal and only appears in practice mode. Tell
 the venue's technician in advance so nobody thinks something is broken.
 
-**Alternative:** you can also rehearse one round inside your real event with random test
-teams, then clear them. That proves your real classes, panels and printouts. Do it only
+**Alternative:** you can also rehearse one round inside your real event with a few made-up
+participants that you enter by hand, then clear them. That proves your real classes, panels
+and printouts. A live competition has no **Generate random competitors**. Do it only
 before real registrations are imported, and use `Competition → Registration → Data transfer` carefully —
 reset and delete are destructive.
 
@@ -142,7 +160,7 @@ If the network fails here, stop and solve it with the venue. Nothing downstream 
 1. Connect your display computer to the venue's input and get a picture.
 2. Set the output to a 16:9 resolution — 1920 × 1080 is a safe choice for a modern projector.
 3. Join the device to the **Screens** station — open the station in Manager on your laptop and
-   scan its QR from the screen — then press **Show** on the card for this screen. The floor and what it shows come from `Manager → Event → Screens`.
+   scan its QR from the screen — then press **Show** on the card for this screen. The floor and what it shows come from `Manager → Audience → Screens`.
 4. Go fullscreen, and use the **browser zoom hotkey (Ctrl +/-)** to fit the picture — nothing
    cut off at the edges.
 5. **Walk to the back row and read it.** Start numbers and names must be legible from the
@@ -163,7 +181,8 @@ If the network fails here, stop and solve it with the venue. Nothing downstream 
 
 ### D. Run a full round for real (30 min)
 
-Use the bootstrap practice classes and random teams, and run it as if the hall were full:
+Use the classes you built in the practice event and its random competitors, and run it as if
+the hall were full:
 
 1. Press **Start judging**.
 2. Lineup calls the heat; watch the lineup and heat displays on the projector.
