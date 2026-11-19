@@ -37,7 +37,7 @@ The newest changes are on [Release notes](/release-notes/).
 * Manager: Each failed check on Problems says in one line what is wrong and what to do, and links to the page that fixes it and to its section of the guide; while a round is in progress, a Stuck? link on the round page opens the common event-day problems (see [Problems](/manager-guide/validator/))
 * Manager: Problems flags majority-decided rounds whose panel has an even number of judges, and judges on the panels of two rounds running at the same time on different floors
 * Manager, Federation and Organizer: The Docs link in the header opens the guide section for the screen you are on instead of the docs home
-* Manager: Start numbers can begin at 1 (with a warning that numbers below 10 can be mistaken for placements), the gap between classes is a new Free numbers between classes field, and turning off Start each class on an even ten numbers the whole competition in one unbroken series (see [Registration and check-in](/manager-guide/registration-checkin/))
+* Manager: Start numbers can begin at 1 (with a warning that numbers below 10 can be mistaken for placements), the gap between classes is a new Free numbers between classes field, and turning off Start each class on an even ten numbers the whole competition in one unbroken series (see [Registration and check-in](/manager-guide/start-numbers/))
 * All apps: A page left open across a new release shows "There is a newer version" with a Reload button; it never reloads by itself, so work in progress is kept
 
  🛠️ **Improvements**

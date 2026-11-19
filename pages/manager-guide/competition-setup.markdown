@@ -156,7 +156,7 @@ Do not delete participants in bulk once judging has started.
 
 ### Assign start numbers
 
-1. On `Competition → Participants`, click **Assign start numbers** to number the whole competition. The same button under a class's list numbers only that class. The choices in the dialog are explained in [After the import](/manager-guide/entries-and-participants/#after-the-import).
+1. On `Competition → Participants`, click **Assign start numbers** to number the whole competition. The same button under a class's list numbers only that class. The choices in the dialog are explained in [Start numbers](/manager-guide/start-numbers/).
 2. To set one number by hand, click the participant's name and change **Start number**.
 3. Click **Print start number** to print the numbers.
 

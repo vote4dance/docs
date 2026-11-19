@@ -103,7 +103,7 @@ child_nav_order: reversed
 * Federation: A dancer whose licence you suspended can no longer get it back by applying again, and a licence item you set to inactive can no longer be applied for (see [Step 2: Define the licence items](/federation/getting-a-license/#step-2-define-the-license-items))
 ## 2026-11-11
  ⭐ **New**
-* Manager: **Assign start numbers** in the new Manager has a **Numbers to skip** field. Type the numbers that must not be given out, separated by commas, with ranges such as `100-104`, and numbering leaves them out. Useful when clubs keep gaps in their number series. Type the list each time you number (see [After the import](/manager-guide/entries-and-participants/#after-the-import))
+* Manager: **Assign start numbers** in the new Manager has a **Numbers to skip** field. Type the numbers that must not be given out, separated by commas, with ranges such as `100-104`, and numbering leaves them out. Useful when clubs keep gaps in their number series. Type the list each time you number (see [Start numbers](/manager-guide/start-numbers/))
 ## 2026-11-11
  🛠️ **Improvements**
 * Manager: Printed start numbers are easier to print. A long event name no longer runs into the club name above the number, the club pages follow **Show name of competition** and **Show child competition name** like the other sheets, and the fold line stays in the middle of the A4 page. A club's name now keeps its short name in brackets, such as "Dala Dansförening (Dala)", also in the participant list, check-in and live heats. Before, the short name was left out whenever the full name contained it
