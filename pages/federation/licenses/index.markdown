@@ -9,82 +9,75 @@ has_children: true
 
 # Federation Licenses
 
-Use this section only for the actual federation license workflow.
+A license says that a person may compete, judge or do another job in your federation, for a season or for one competition. Your federation decides which licenses exist, who applies for each one, how it is paid and which classes ask for one.
 
-Use the role pages when you need to decide who should perform the step:
-
-- dancer context: [Dancer](/dancer/)
-- school or club context: [School/Club](/school-club/)
-- federation setup context: [Federation](/federation/)
+On the license screens a club is called an **Organization**.
 
 ## Start here
 
-Choose the page by task, not by role label alone:
+| You want to | Read |
+|---|---|
+| Decide whether you need licenses at all, and set them up: Stripe, license items, classes, clubs that may issue | [Setting up licenses](/federation/getting-a-license/) |
+| Work with licenses day to day: approve what is waiting, issue, correct, suspend or cancel a license, keep the license items | [Federation admin](/federation-licenses/federation-admin/) |
+| Get ready for the next season | [Starting a new license season](/federation/renew-license/) |
 
-1. [Federation admin](/federation-licenses/federation-admin/)  
-   Use this to configure the license system, connect Stripe, map license items to classes, and review or approve licenses.
-2. [Organization admin](/federation-licenses/organization-admin/)  
-   Use this when a school or club submits a license application for a member.
-3. [Dancer self-service](/federation-licenses/dancer-self-service/)  
-   Use this when the dancer is allowed to apply and pay directly.
+For the people who apply:
 
-## What is shared across all license workflows
+- a club applying for its members: [Licenses for your members](/school-club/getting-a-license/) and [Organization admin](/federation-licenses/organization-admin/)
+- a dancer applying for their own license: [Getting a license](/dancer/getting-a-license/) and [Dancer self-service](/federation-licenses/dancer-self-service/)
 
-All three pages use the same core objects:
+## The words used
 
-- `Issued license`: one person, one season, optionally one competition
-- `License item`: the product a federation sells or approves
-- `Class license mapping`: which items are accepted for which classes
-- `Payer type`: whether payment is started by the dancer or the organization
-- `Approval flow`: whether payment is enough or extra approval is still required
+- **License item**: a license your federation offers, with its price. You keep the list on `Federation → Licenses → License items`.
+- **License**: one license item held by one person, for one season or one competition.
+- **License rules** of a class: the license items that class accepts.
 
-## End-to-end license path
+## Who applies and who pays
 
-Every successful license workflow follows this order:
+There is no single way of working that you choose once for the whole federation. Two things decide it, for each license item:
 
-1. Federation sets up license items and payment flow.
-2. Federation approves the organization if organization context is required.
-3. Dancer or organization creates the application.
-4. The correct payer completes payment if payment is required.
-5. Federation or organization approval completes if the workflow requires it.
-6. The license becomes active and can be used in downstream workflows.
+- **The federation rules.** **Who applies for a licence** is **Dancer**, **Club** or **Dancer or club**, and **Who pays for a licence** is **Dancer pays**, **Club pays** or **Dancer or club pays**. Two more rules, **Dancers in a club may apply for their own licence** and **Dancers without a club may apply for their own licence**, say which dancers may apply themselves. These rules are set for the federation and can be different for a division or a discipline. See [Setting federation rules](/federation-rules/editor/).
+- **The license item's own Organization mode.** It says whether the license needs a club, may have one, or may not have one.
+
+With **Who applies for a licence** set to **Club**, a dancer cannot apply for the license themselves.
+
+So one federation can offer, at the same time, a dancer license that dancers buy themselves, a coach license that only the club applies for, and a judge license that only the federation issues. The settings are described in [Setting up licenses](/federation/getting-a-license/).
+
+## From application to active license
+
+Every license goes the same way:
+
+1. The federation adds the license items, and connects Stripe if any of them has a price.
+2. The federation approves the club, when the license names a club, and allows it to issue licenses when the license item requires that.
+3. The dancer or the club applies.
+4. Whoever pays, pays, if the license has a price.
+5. The club, the federation or both approve, when the rules **Club must approve a licence** and **Federation must approve a licence** ask for it.
+6. The license becomes **Active**, and counts where a class asks for it.
 
 ## How payment works
 
-All Stripe payments go to the federation's connected Stripe account.
+All Stripe payments go to the federation's connected Stripe account. That means:
 
-That means:
+- the federation must connect Stripe before a license can be paid online (see [Stripe payout account](/federation/settings/#stripe-payout-account))
+- the payer can be the dancer or the club
+- a license can be paid while its approval is still waiting
 
-- the federation must connect Stripe before checkout works
-- the payer may still be the dancer or the organization
-- payment can be complete even while approval is still pending
+## Licenses from another system
 
-## Supported workflow patterns
+The federation console cannot import licenses from a file. A license gets into Vote4Dance in one of these ways:
 
-The product supports three license workflow patterns:
+- a dancer or a club applies for it
+- federation staff add it by hand: see [Add a license manually](/federation-licenses/federation-admin/#add-a-license-manually)
 
-- `organization-managed`: the organization applies first, and payment may also be organization-paid
-- `self-service`: the dancer applies first and pays themselves
-- `hybrid`: the organization applies or approves, while payment may still be self-paid
-
-Use the role pages to decide which pattern applies.
-
-Use the pages in this section to complete the actual task once the pattern is known.
+If your federation checks member numbers against its own member register when a license is applied for, you can look a number up yourself: see [9. Check a member number](/federation-licenses/federation-admin/#9-check-a-member-number).
 
 ## Common blockers
 
-Most license problems still come from one of these:
+Most license problems come from one of these:
 
-- Stripe was not connected before testing payment
-- the wrong workflow was used: self-service vs organization-managed
-- the organization was not approved yet
-- the wrong license item was selected
-- the class mapping was never configured
-- payment finished but approval is still pending
-
-## Recommended use of this section
-
-1. Start on this page only if you need shared license context.
-2. Open [Federation admin](/federation-licenses/federation-admin/) for setup and approval work.
-3. Open [Organization admin](/federation-licenses/organization-admin/) for club-submitted applications.
-4. Open [Dancer self-service](/federation-licenses/dancer-self-service/) for dancer-submitted applications.
+- Stripe was not connected before a payment was tried
+- the dancer tried to apply for a license that only the club may apply for
+- the club was not approved yet, or may not issue licenses
+- the wrong license item was chosen
+- no class accepts the license item, because the class's **License rules** were never set
+- the license is paid, but its approval is still waiting

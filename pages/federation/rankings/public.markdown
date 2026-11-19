@@ -10,97 +10,57 @@ help:
 
 # Public Rankings
 
-Use this page to understand how federation rankings are shown on the public website.
+Your federation's rankings are shown on its public page on the Vote4Dance website, under **Rankings**. Anyone can open them without signing in. This page shows what visitors see, and what to check when a ranking is missing or looks wrong.
 
-Use this page after federation staff have already completed the ranking setup or manual workflow. This page is for verification, not for configuring the ranking itself.
-
-Location:
-
-- `Public -> Federation -> Ranking`
+Nothing is set up on the public page itself. Rankings are created and corrected in the federation console: see [Federation Admin](/federation-rankings/federation-admin/).
 
 ## Before you start
 
-The public ranking page depends on the federation admin setup already being correct:
+A ranking is listed on the public page when all of this is true:
 
-- the ranking must exist
-- the ranking must belong to a division
-- the ranking must be public
-- the ranking must have the correct classes and standings
+- the ranking's **State** is **Active** and its **Privacy** is **Public**
+- **Rankings** is turned on under `Federation → Settings → Public page` (see [Federation settings](/federation/settings/#public-page))
+- the federation is visible in the public federation list
 
-## How the public flow works
+A ranking that has no classes, or has never been calculated, is listed but empty. Press **Import** on it first: see [Recalculate a ranking](/federation-rankings/federation-admin/#recalculate-a-ranking).
 
-### 1. Open the federation ranking page
+## How visitors find a ranking
 
-Steps:
+1. They open your federation's public page.
+2. They choose **Rankings** in the federation's menu. The menu item is there once the federation has at least one active ranking and **Rankings** is turned on.
+3. The page lists your divisions, each with its rankings underneath. A division is only listed when it has at least one ranking that is **Active** and **Public**. There is no single list for the whole federation.
+4. They click a ranking's name to open it.
 
-1. Open `Public`
-2. Open `Federation`
-3. Select the federation
-4. Open `Ranking`
+A division's own public page, under **Divisions**, also has a **Rankings** button that opens the same list.
 
-What happens:
+The address of a ranking contains both the division and the ranking:
+`https://vote4dance.com/public/federation/<your federation>/division/<division>/ranking/<ranking>`.
+Use that address to link to a ranking from your own website. The name of each ranking in the division's **Ranking** section is a link to it.
 
-- visitors first see the federation ranking page
-- the page groups rankings under divisions
-- the page does not show a federation-wide flat ranking list
+## What a ranking shows
 
-### 2. Choose a division
+The ranking opens as one list:
 
-Only divisions that currently have public rankings are shown.
+- the ranking's name, and **Last updated** with how long ago the standings were calculated
+- one row per competitor: the position, the competitor's name (or the names of its dancers), and the total
+- under the name, the results that were counted. Point at a result to see the competition and the date; click it to open that class's results.
+- a trophy beside the total when the ranking is split into leagues. Point at it to see the league's name.
 
-This means:
+A competitor without a position has too few counted competitions, or no points.
 
-- a division with at least one public ranking is shown
-- a division with no public rankings is hidden from the ranking list page
+The page shows the standings as they were last calculated. It does not show which classes the ranking counts, or its settings.
 
-### 3. Open a ranking inside that division
-
-When a ranking is opened, the page uses the division and ranking together.
-
-The page then shows:
-
-- ranking name
-- published standings
-- included federation classes
-- ranking license policy if available
-- the last calculated timestamp for the snapshot
-
-The ranking link always uses the division together with the ranking id.
-
-### 4. Verify the ranking content
-
-If something looks wrong in public view, the usual cause is not the public page itself. The usual cause is that the ranking setup inside that division is wrong.
-
-### 5. Check whether a manual decision also applies
-
-Some final federation outputs are published from the base ranking together with a manual decision.
-
-Typical examples:
-
-- a championship selection list with federation exceptions
-- an approved team identity exception
-- a manually resolved tie
-
-When that happens, public viewers should be able to understand that the final published outcome includes an administrative decision and is not only the raw automated ranking output.
+A correction with **Override value** shows as one more result of the competitor, and pointing at it shows the correction's description. A competitor left out with **Exclude from ranking** is simply not on the list. If your federation has published a decision that differs from the ranking, such as a selection list or a decided tie, it is not shown here: publish it yourself, as described in [Manual Workflows](/federation-rankings/manual-workflows/).
 
 ## Checking the public view
 
-The public view is correct when:
+Open the public page after you set up or change a ranking, and after every correction. The public view is correct when:
 
-- the ranking is listed under the right division
-- the standings match the intended ranking
-- only the correct division shows that ranking
-- the policy tag and included classes match the federation admin setup
-- any manual exception note is published where federation staff expect it
+- the ranking is listed under the right division, and only there
+- the standings are the ones you expect, and **Last updated** is recent
+- a correction you made shows as you intended
 
-## What this page does not fix
-
-If the public page is wrong, the usual fix is not on the public page itself.
-
-Go back to:
-
-- [Federation Admin](/federation-rankings/federation-admin/) for setup or correction issues
-- [Manual Workflows](/federation-rankings/manual-workflows/) for approved exceptions
+To look before the public can: a ranking's address opens for anyone who has it, also while the ranking is a **Draft**, when it carries a **Draft** tag. Click the ranking's name in the division's **Ranking** section to open it. Staff who are signed in also get a **Rankings** button in the admin box on the federation's public home page while the **Rankings** section is still turned off.
 
 ## Common problems
 
@@ -108,27 +68,25 @@ Go back to:
 
 Check:
 
-- that the ranking is in the expected division
-- that the ranking is public
-- that the division has at least one public ranking
+- that you are looking under the right division
+- that the ranking's **State** is **Active** and its **Privacy** is **Public**
+- that **Rankings** is turned on under **Public page**
 
-If a division has no public rankings, that division is not shown on the public ranking list page at all.
+If a division has no ranking that is both **Active** and **Public**, the division is not listed on the ranking page at all.
 
-### I opened a ranking link with the wrong division
+### A ranking link opens an empty page
 
-That link is invalid for the ranking. Rankings must be opened with the correct division in the URL.
+The address must name the ranking's own division. A link with another division shows nothing. Copy the address again from the ranking's name in the division's **Ranking** section.
 
-### The public page shows the wrong teams
+### The public page shows the wrong competitors
 
-Check the ranking setup in federation admin:
+The public page only shows what was calculated. Check the ranking in the federation console:
 
-- included classes
-- manual corrections
-- ranking state and privacy
-- ranking license policy
+- the classes added to it
+- its corrections
+- its **State** and **Privacy**
+- the rule **Ranking needs a licence** for its classes
 
-Also check whether federation staff published a manual exception outcome separately from the raw ranking:
+Then press **Import** and reload the public page. See [Common problems](/federation-rankings/federation-admin/#common-problems) on Federation Admin.
 
-- selection exception
-- identity exception
-- manual tie resolution
+Also check whether your federation published a manual decision apart from the ranking: a selection exception, an exception after a partner change, or a decided tie.

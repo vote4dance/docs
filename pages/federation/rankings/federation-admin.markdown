@@ -10,212 +10,230 @@ redirect_from:
 
 # Federation Admin
 
-A ranking is a list your federation publishes, for example "Season ranking, Adults Standard". It is built from competition results, using a formula you set per ranking. Rankings need the **Administrator** role.
+A ranking is a list your federation publishes, for example "Season ranking, Adults Standard". It is built from competition results, using a formula you set per ranking. This page shows how to create a ranking, add its classes, set how it is scored, recalculate it, make it public and correct it.
 
-## Set up a ranking
-
-The division and its federation classes must exist first: see [Before you start](#before-you-start).
-
-1. **Create the ranking in its division.** A ranking belongs to one division. Open the division in `Federation → Structure` and use its **Ranking** section. A ranking cannot span several divisions: create one per division.
-2. **Add the classes.** A ranking only counts results from the federation classes you add to it. Add every class that should count, and none that serve another purpose.
-3. **Set the formula:** **Purpose**, **Season start (MM-DD)**, **Window mode**, **Ranking by** and **Update daily**. Each setting is explained, with an example, under [3b. Set the scoring and the time window](#3b-set-the-scoring-and-the-time-window).
-4. **Check it.** Open the ranking and check the standings against a competition you know.
-
-## Make it public
-
-1. Make the ranking public, and turn on **Rankings** under `Federation → Settings → Public page`. A new federation has every public section off. See [Federation settings](/federation/settings/#public-page).
-2. Open the public page and check what dancers will see. See [Public Rankings](/federation-rankings/public/).
-
-## Corrections and exceptions
-
-- **Corrections** (adding or removing points, removing a team) are made on the ranking itself. Press **Import** afterwards. See [5. Apply manual corrections carefully](#5-apply-manual-corrections-carefully).
-- **Exceptions** where the published outcome must differ from the formula, such as a selection decision or a tie resolved by the committee, follow [Manual workflows](/federation-rankings/manual-workflows/).
-
-## One formula per ranking
-
-The current model assumes one automated ranking formula per ranking artifact. If the federation needs a different published outcome in a specific case, use the documented manual workflow instead of trying to encode a hidden secondary formula inside the same ranking.
+Rankings are in the division's **Ranking** section: `Federation → Structure → (division) → Ranking`. Adding, changing, recalculating and correcting a ranking need the **Administrator** role.
 
 ## Before you start
 
 Make sure these are already correct:
 
 - the federation has the right divisions
-- the federation classes already exist in the correct division
+- the federation classes already exist in the correct division (see [Divisions and disciplines](/federation/divisions/#classes))
 - you know which division the ranking belongs to
 
-## Do this
+A ranking belongs to one division and cannot span several. For a list that covers the whole federation, create one ranking per division.
 
-### 1. Open the correct division first
+## Set up a ranking
 
-Rankings are division-specific.
+1. Open `Federation → Structure`, choose the division in the menu on the left and open **Ranking**.
+2. Press **Add** under the list. In a division with no rankings yet, the button is in the middle of the page. **Ranking details** opens.
+3. Under **Basics**, type the **Name** and choose the **State**, **Privacy** and **Purpose**. See [Set the scoring and the time window](#set-the-scoring-and-the-time-window) for every field.
+4. Fill in **Time window**, **Thresholds** and **Scoring**.
+5. Press **Save changes**. The ranking is added to the list.
+6. Click the ranking's row to open it, and choose the classes that count in the class field. See [Add the classes](#add-the-classes).
+7. Press **Import** on the row, then **Import** in the dialog. The standings are calculated and shown. Check them against a competition you know, then press **Close**.
 
-Do not start by thinking "federation-wide ranking". Start by choosing the correct division, because every ranking must belong to one division.
+A new ranking starts as **Active** and **Public**, looks 365 days back, ranks by **Placement** and is not updated daily. If **Rankings** is already turned on for your public page, it is listed there as soon as you save it. Choose the state **Draft** in step 3 to keep it off the list until you have checked it.
 
-### 2. Create or review the ranking inside that division
+To change a ranking later, press **Edit** on its row. **Delete** in the same dialog removes the ranking after you confirm. Drag the rows to change the order of the list; the public page lists the rankings in the same order.
 
-When you create or edit a ranking, the division defines the scope of that ranking.
+### The ranking's row
 
-Use the division ranking page when you need to:
+Each ranking is one row in the list:
 
-- create a new ranking
-- rename a ranking
-- change ranking settings
-- change ranking order
-- import or refresh ranking data for that ranking profile
+| Part | What it shows |
+|---|---|
+| Name | The ranking's name. It is a link to the ranking's public page. |
+| State tag | **Draft**, **Active** or **Retired** |
+| **Update daily** | Shown when the ranking is recalculated every night |
+| **Coach** | Shown when **Privacy** is **Coach** |
+| **Calculated** | When the standings were last calculated |
+| Under the name | The description, the ranking time, and the **Recommended limit** when one is set |
+| Download button | Saves the standings as a CSV file: **Position**, **Competitor**, **Score**, **Competitions**, **Counted results** and **Counted competitions** |
+| **Import** | Recalculates the ranking now. See [Recalculate a ranking](#recalculate-a-ranking). |
+| **Edit** | Opens **Ranking details** |
 
-Current rule simplification:
+Click the row to open it. An open row shows **Open rule review** (the Rulebook) and **Open enforcement log**, the ranking's leagues when it has any, its classes, and its corrections.
 
-- one ranking should have one automated formula
-- public and selection outputs should not depend on hidden purpose-specific overrides inside the same ranking
-- if the federation needs a second stable formula, create a separate ranking
+## Add the classes
 
-### 3. Add the right federation classes
+A ranking only counts results from the federation classes you add to it.
 
-A ranking only reflects the federation classes linked to it.
+1. Click the ranking's row to open it.
+2. Click in the class field and choose the classes. Type to search. Each class you choose or remove is saved at once.
 
-Check that:
+Only the classes of the ranking's own division are offered. Add every class that should count, and none that serve another purpose. If the class list is wrong, the standings are wrong even though the ranking exists.
 
-- all intended classes are included
-- no class from another division is included
-- the classes belong to the same ranking purpose
+While a ranking has no class, the row says **No classes assigned**: "This ranking will not calculate results until at least one class is added."
 
-If the class list is wrong, the standings will be wrong even if the ranking itself exists.
+## Set the scoring and the time window
 
-### 3b. Set the scoring and the time window
+**Ranking details** decides how the standings are calculated. It has five parts.
 
-The ranking editor decides how standings are calculated. The settings that matter most:
+### Basics
 
-- **Purpose** — Public, Selection, Progression or Championship invitation. Everything except Public is limited to the **current season** automatically.
-- **Season start (MM-DD)** — the first day of the federation's season. The season ends the day before the next start. Set it whenever the purpose is not Public, or when the window mode accumulates the season.
-- **Window mode** — which results are looked at:
-  - *Use ranking time type* — a calendar date or a number of days back.
-  - *Best of latest results* — the N most recent events, counting the best M of them.
-  - *Best results overall* — the best M results in the window.
-  - *Accumulate full season* — every result since the season start. Best-N does **not** apply in this mode.
-- **Take best count** — the M above. Shown only for the two "best" modes.
-- **Ranking by** — *Placement*, *Summary* (the judges' score), *Points* or *Head-to-head*. With *Points*, a **Ranking Points** table appears: from place, to place, points. This table belongs to the ranking, not to the class, so if two class levels award different points they need two rankings.
-- **Update daily** — recalculated every night at 03:00. The **Import** button on the ranking row recalculates it immediately (the button is also how you refresh after a correction).
+- **Name** and **Description**.
+- **State**: **Draft**, **Active** or **Retired**. Only an **Active** ranking is listed on the public page.
+- **Privacy**: **Public** or **Coach**. A **Coach** ranking is left off the public list.
+- **Purpose**: **Public ranking**, **Selection ranking**, **Progression ranking** or **Championship invitation**. Everything except **Public ranking** is limited to the **current season** automatically.
 
-Example: a season ranking on the best three results, with points per placement, is *Purpose: Selection ranking*, *Window mode: Best results overall*, *Take best count: 3*, *Season start* set, *Ranking by: Points* with the points table filled in.
+### Time window
 
-Ranking points are separate from [promotion points](/federation/progression/). Promotion points are earned per competition entry, follow the class level's table and move dancers up a class. Ranking points are recomputed from placements each time the ranking runs and only produce the standings. A federation whose rulebook uses one points scale for both configures both: the promotion points table on the class levels, and the same scale in each ranking's Ranking Points table.
+- **Ranking time**: how far back the ranking looks. **Calendar date** takes a **Start date** and an **End date**. **Number of days back** takes a **Number of days**, 365 to begin with. **No date limit** looks at every result.
+- **Window mode**: which of those results are counted:
+  - **Use ranking time type**: the results in the ranking time. With a **Best count**, only that many of the best.
+  - **Best of latest results**: the N most recent events (**Take latest count**), counting the best M of them (**Take best count**).
+  - **Best results overall**: the best M results in the window (**Take best count**).
+  - **Accumulate full season**: every result in the window is added up. Best-N does **not** apply in this mode. Choose a purpose other than **Public ranking** to limit it to the season.
+- **Season start (MM-DD)**: the first day of the season for this ranking, for example `08-01` for 1 August. The season ends the day before the next start. The field is only shown when **Window mode** is **Accumulate full season**. Without it, the season is the calendar year.
 
-### 4. Review the federation ranking summary page
+A box, **Current window summary**, repeats what you chose in words, for example "Configured to keep the best 3 results from the full set."
 
-The federation ranking admin page is a review page.
+### Thresholds
 
-Use it to:
+- **Minimum count** and **Minimum counted events**: a competitor needs at least this many counted competitions to get a position. When both are filled in, **Minimum counted events** is used.
+- **Best count**: how many of the best results count when **Window mode** is **Use ranking time type**.
+- **Last competitions**: only this many of the most recent competitions in the window are looked at.
+- **Take best count** and **Take latest count**: the M and N above. They are shown only for the two "best" modes.
 
-- filter by division
-- select a ranking profile
-- inspect included classes
-- inspect published standings
-- inspect the resolved ranking license policy
-- inspect existing corrections
+### Scoring
 
-The page now requires a division selection before a ranking profile can be opened.
+- **Recommended limit**: a number shown on the ranking's row. It does not change the standings.
+- **Update daily**: **Enable** recalculates the ranking every night at 03:00.
+- **Assign position**: with **Disabled**, the list is ordered but nobody gets a position number.
+- **Ranking by**: **Placement** (the placements are added up, and the lowest total is first), **Summary** (the judges' score), **Points** or **Head-to-head** (each pair of competitors is compared on the latest event they both danced).
+- **Ranking Points**: shown when **Ranking by** is **Points**. Press **Add** for each row and fill in the first place (**Min**), the last place (**Max**) and the points. Leave **Min** or **Max** empty for no limit on that side. This table belongs to the ranking, not to the class, so if two class levels award different points they need two rankings.
 
-### 5. Apply manual corrections carefully
+Competitors with the same total share a position, and the next position is skipped: 1, 1, 3. The dialog has no tie-break setting.
 
-Manual corrections are still made against the ranking in its division.
+### Advanced
 
-Use corrections for cases such as:
+- **Ranking league**: **Disabled**, or **Divided by percent** to split the ranking into leagues.
+- **Normalization**: **None**, **Average shared placements**, **Split points** or **Custom**. It adjusts how shared placements or tied points are counted before the ranking is calculated.
+
+### Example
+
+A season ranking on the best three results, with points per placement, is **Purpose**: **Selection ranking**, **Window mode**: **Best results overall**, **Take best count**: 3, **Ranking by**: **Points**, with the **Ranking Points** table filled in.
+
+### Ranking points are not promotion points
+
+Ranking points are separate from [promotion points](/federation/progression/). Promotion points are earned per competition entry, follow the class level's table and move competitors up a class. Ranking points are worked out again from the placements each time the ranking is calculated, and only produce the standings. A federation whose rulebook uses one points scale for both sets up both: the promotion points table on the class levels, and the same scale in each ranking's **Ranking Points** table.
+
+## One formula per ranking
+
+A ranking has one formula, and its public page shows that result. It cannot show one order to the public and another for selection, and one ranking cannot break ties from another ranking.
+
+- If your federation needs a second list every season, such as a selection ranking with its own formula, create a second ranking.
+- If one published outcome must differ in a single case, use a correction or follow [Manual Workflows](/federation-rankings/manual-workflows/).
+
+## Recalculate a ranking
+
+A ranking does not change by itself when a competition ends. It is calculated:
+
+- **every night at 03:00**, when **Update daily** is on and the ranking is **Active** or **Draft**
+- **when you press Import** on the ranking's row and then **Import** in the dialog. The dialog then lists the standings under **Imported**, with any results that were **Skipped** and the number of competitors that were **Removed** from the ranking.
+
+A recalculation also brings the promotion points of the ranking's classes up to date and applies the promotions that are due, as **Sync federation progress** does on [Members](/federation/members/#sync-federation-progress).
+
+A competition counts when:
+
+- it is linked to your federation, and is published, closed or archived (see [Competitions](/federation/competitions/#rankings-and-rules))
+- its date is in the ranking's time window
+- its class is linked to one of the ranking's federation classes
+
+Two rules, set in the [federation rules](/federation-rules/editor/), also decide whose results count:
+
+- **Ranking needs a licence**: with **Required**, a result counts only when every dancer of the competitor holds a valid license. A result that is left out is written to the [Enforcement log](/federation/members/#enforcement-log).
+- **Team points when a dancer changes**: decides whether a competitor keeps its earlier results when a partner or another dancer changes.
+
+## Make it public
+
+1. Press **Edit** on the ranking, set **State** to **Active** and **Privacy** to **Public**, and press **Save changes**.
+2. Turn on **Rankings** under `Federation → Settings → Public page`. A new federation has every public section off. See [Federation settings](/federation/settings/#public-page).
+3. Click the ranking's name on its row. Its public page opens, so you can check what dancers will see. See [Public Rankings](/federation-rankings/public/).
+
+Repeat the setup in the next division if the same list is needed there.
+
+## Corrections and exceptions
+
+A correction changes one competitor's result in one ranking. Use it for cases such as:
 
 - adding or removing points
-- removing a team from the published list
-- handling administrative adjustments
+- leaving a competitor out of the published list
+- an administrative adjustment the committee has decided
 
-Always confirm you are editing the correct division ranking before saving a correction.
+A correction never changes the competition's own results.
 
-A **Value** correction is dated, and it counts only while its date is inside the ranking's time
+### Add a correction
+
+1. Open `Federation → Structure → (division) → Ranking` and click the ranking's row. Check that it is the right ranking in the right division: a correction applies to this ranking only.
+2. Under the corrections table, write why the correction is needed. A description is required: say what was decided, and who approved it.
+3. In the search box below it, type at least three characters of the competitor's name and choose the competitor. The correction is added to the table with today's date.
+4. Set the **Action**:
+   - **Override value** adds the number under **Set value** to the competitor's results, as one more result dated on the correction's **Date**. It is counted like a result from a competition, so in a ranking that counts the best results it only counts when it is among them.
+   - **Exclude from ranking** leaves the competitor out of this ranking.
+5. Set the **Date** and the **Set value**. After typing a value or a description, press the save button beside the field, or Enter.
+6. Press **Import** on the ranking's row to recalculate it.
+
+To remove a correction, press the delete button on its row and confirm, then press **Import** again.
+
+An **Override value** correction is dated, and it counts only while its date is inside the ranking's time
 window, like a result danced on that date. Once the date falls outside the window, the correction
-drops out of the ranking on the next run. A **Remove** correction has no such limit.
+drops out of the ranking on the next run. An **Exclude from ranking** correction has no such limit.
+
+### After an age move
 
 Do not use corrections to move a competitor's results after an age move. When a competitor moves
 up or down an age group, through the age-up batch or by editing a class membership into another
-age group, the ranking job drops the results danced in the old class from the old ranking and
+age group, the ranking drops the results danced in the old class from the old ranking and
 carries them into the new age group's ranking. The share carried is set by the rules **Ranking
-carry on age move up (%)** and **Ranking carry on age move down (%)**. Carried results keep their
-dates, so they leave the window like any other result. With neither rule set, the rankings ignore
-the move.
+kept when moving up an age group** and **Ranking kept when moving down an age group**. Carried
+results keep their dates, so they leave the window like any other result. With neither rule set,
+the rankings ignore the move.
 See [Age moves](/federation/age-moves/).
 
-### 6. Run a manual exception workflow when needed
+### When a correction is not enough
 
-Use a manual workflow instead of hidden federation rule overrides when:
-
-- the final selection list must differ from the published ranking
-- a team identity case needs an approved exception
-- a tie must be resolved from committee guidance or another published list
-
-Required actions:
-
-1. Record the source ranking or source decision basis.
-2. Record the affected teams and exact difference from the raw result.
-3. Record the reason and approver.
-4. Publish the final outcome in the right place.
-5. Archive the decision for audit.
-
-Use the detailed procedure here:
-
-- [Manual workflows](/federation-rankings/manual-workflows/)
-
-### 7. Check the public result in the same division
-
-After changes, open the public ranking page for the same division and verify:
-
-- the ranking appears in the correct division list
-- the standings look correct
-- the ranking license policy tag is correct
-- any correction is reflected as expected
-
-## What to do next
-
-After the ranking is working:
-
-1. repeat the same setup for the next division if needed
-2. use the public page to validate what dancers and organizations will see
-
-## What this page does not decide
-
-This page does not decide:
-
-- whether a recurring exception should become a separate ranking policy
-- whether a federation governance decision should override the normal ranking outcome
-- how a public-facing explanation should be written when a manual exception exists
-
-Use [Manual workflows](/federation-rankings/manual-workflows/) when the published outcome must intentionally differ from the automated ranking result.
+When the list you publish must differ from the calculated one, such as a selection decision, an approved exception after a partner change or a tie the committee has decided, follow [Manual Workflows](/federation-rankings/manual-workflows/).
 
 ## Common problems
 
 ### A competition is missing from the ranking
 
-It is not closed yet, or its classes are not on this ranking, or the ranking has not recalculated. Press **Import**.
+The competition is still hidden, its classes are not linked to the ranking's federation classes, its date is outside the ranking's time window, or the ranking has not recalculated. Press **Import**.
 
-### A dancer is left out
+### A competitor is left out
 
-Check the **Enforcement log** for a `ranking` entry. A missing ranking license is a common reason.
+Check the [Enforcement log](/federation/members/#enforcement-log) for a `ranking` entry. A missing ranking license is a common reason: the rule **Ranking needs a licence** is **Required** for the class, and a dancer has no valid license.
+
+A competitor with fewer counted competitions than **Minimum count** is listed without a position.
 
 ### The ranking is not on the public page
 
-The ranking is not public, or **Rankings** is off under **Public page**.
+The ranking is not **Active**, its **Privacy** is not **Public**, or **Rankings** is off under **Public page**.
 
-### I cannot open a ranking profile until I choose a division
+### I expected one ranking to span several divisions
 
-This is expected. Rankings now require division context everywhere.
-
-### I expected one ranking to span multiple divisions
-
-That is no longer supported. Create one ranking per division instead.
+A ranking belongs to one division. Create one ranking per division.
 
 ### I expected one ranking to calculate public and selection results differently
 
-Do not rely on hidden purpose-specific ranking overrides. Keep one automated formula per ranking and publish a separate selection decision or separate ranking when needed.
+One ranking has one formula. Create a second ranking for the selection list, or publish a separate selection decision. See [Manual Workflows](/federation-rankings/manual-workflows/).
 
 ### I expected another ranking to act as a tie-break source
 
-That is no longer part of the documented ranking model. Use the ranking's own tie logic for normal cases and use the manual tie-resolution workflow for exceptional cases.
+A ranking cannot read another ranking. Tied competitors share a position. For a tie your committee has decided, see [Manual tie resolution](/federation-rankings/manual-workflows/#3-manual-tie-resolution).
 
 ### A correction affected the wrong ranking
 
-Re-check the division and ranking before saving. Corrections are applied to division-scoped rankings.
+Corrections belong to one ranking in one division. Delete the correction, add it on the right ranking, and press **Import** on both.
+
+## Related pages
+
+- [Federation Rankings](/federation-rankings/)
+- [Manual Workflows](/federation-rankings/manual-workflows/)
+- [Public Rankings](/federation-rankings/public/)
+- [Points and rankings](/federation/points-and-rankings/): how rankings differ from promotion points and season points
+- [Age moves](/federation/age-moves/)
+- [Federation staff roles](/federation/staff-roles/)
