@@ -10,6 +10,9 @@ child_nav_order: reversed
 # Release notes
 ## 2026-11-19
  🛠️ **Improvements**
+* Manager and Scrutineer (Beta): Numbering one class with **Assign start numbers** now gives a couple the number it already has in another class when **Reuse numbers** is on, so a couple with 16 in Juniors also gets 16 in Juniors Slow. A number another couple holds in another class is no longer given out, and keeping numbers no longer gives two couples the same number. In Scrutineer (Beta), **Only entries without a number** leaves every other number as it is, and **Everyone, from scratch** keeps a couple's number from its other classes when **Keep a dancer's number across classes** is on. Before, numbering one class ignored the other classes and gave such a couple a new number (see [Numbering one class at a time](/manager-guide/start-numbers/#numbering-one-class-at-a-time))
+## 2026-11-19
+ 🛠️ **Improvements**
 * Website, Judging, Federation and Scrutineer (Beta): When a page can't load its information, or you aren't allowed to see it, the page now says so straight away instead of showing a spinner or an empty page until it gives up. Opening an event you can't manage shows **You don't have access to manage this event** at once, and a ticket order that isn't yours says "This order belongs to another account, or the link is no longer valid." immediately. When loading failed because of a passing problem on our side, the page tries again by itself and fills in once it works
 ## 2026-11-19
  🛠️ **Improvements**
