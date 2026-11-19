@@ -31,6 +31,8 @@ A registration period is one window in which dancers and clubs can register. It 
 
 Each period in the list has a mark after its name: an orange clock while it has not started, a green check while it is open, and a red cross when it has ended.
 
+**A period is open by its dates alone.** The event does not have to be **Published**. On a **Hidden** event, anyone who has the link to the registration page, or the **Scan to register** QR code, can register while the period is open. A hidden event is not in the public lists of events, so publish the event when dancers should find it by themselves.
+
 ## What each choice means
 
 | Field | Choices |
@@ -45,6 +47,8 @@ Each period in the list has a mark after its name: an orange clock while it has 
 **Online payment needs Stripe.** If the event's Stripe account is not connected, the dialog shows a **Connect Stripe account** warning and **Save changes** stays greyed out. Connect the account under the list of periods on the **Registration period** tab, then save the period.
 
 A club that registers entries pays them with **Pay now** on its registration list.
+
+**Manual acceptance with online payment.** The dancer does not pay when registering. The button is **Send registration**, the dancer reads "Registration completed - pay later", and the entry is **Preliminary** and unpaid. When you have set it to **Approved**, the dancer's own page for the event has a button to pay, **Pay for your classes** or **Pay** with the amount, and the dancer pays by card there. Until then that page says "Waiting for the organizer to approve your registration", and a payment is refused with "Registration must be approved before payment".
 
 ## Choose the classes
 
@@ -63,6 +67,24 @@ The classes are listed under **Select classes**, each with its own rules. The pe
 - **Requested information**: questions the dancer answers when registering. A question is a **Text**, **Textarea**, **Number** or **Checkbox** field with a label you write, or one of the **Participants** fields: **Participant name**, **Name of show** and the two **Organizations** fields. Each is **Required** or **Optional**.
 
 Press **OK** to save the period's rules, or **Save changes** when you edit one class.
+
+### What each condition checks
+
+A condition is one of the names below, a comparison such as **Less Than** or **Equal To**, and a value. A class's own rules are added to the rules of its period.
+
+| Condition | What is compared with your value |
+|---|---|
+| **Age** | The age of each dancer on the competition date. Every dancer of the entry has to pass, and a dancer without a date of birth does not. |
+| **Birth year** | The year each dancer was born. Every dancer has to pass. |
+| **Age span in years** | The difference in age between the oldest and the youngest dancer of the entry. |
+| **Registration count** | The number of registrations the class already has, whatever their status. With **Less Than** and 20, the class takes registrations until it has 20. This one is checked on the registration page, when the dancer picks classes. |
+| **Competitor size** | The number of dancers in the entry. |
+| **Country** | The country on each dancer's profile. Every dancer has to pass, and a dancer without a country does not. |
+| **Level** | The level the class is for, written as the federation's own registry writes it. The registration page looks the dancer up in that registry, for example WSDC's, and does not let a dancer enter whose level there requires or allows another level. |
+| **Dance role** | With **All have a role**: every dancer of the entry has a dance role. With **Leader and follower**: the entry has both a leader and a follower. |
+| **Organization selection** | With **Required**: each dancer has to choose the organization they represent in the class, among the organizations where they are an approved member. |
+
+An entry has to pass every condition, also the ones you add with **+ OR**. An entry that does not pass is refused, and nothing is saved. The dancer reads why, for example "A dancer in this lineup doesn't meet the class's age requirements. Edit the lineup to skip or replace them.", "This lineup has more dancers than the class allows. Edit the lineup to skip dancers for this competition." or "This team doesn't meet the organizer's requirements for this class."
 
 ## Team names
 

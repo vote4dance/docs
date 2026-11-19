@@ -52,8 +52,24 @@ publish them all at once. See step 5 under [Close the competition](#close-the-co
   | **Only show marks after competition is closed** | Only after you close the competition. |
   | **Disabled** | No, never. |
 
-- **A hidden event** shows nothing. Nobody outside your team can see an event with the status
-  **Hidden**, and that includes its results.
+  While the marks are held back, the public results page holds back more than each judge's marks:
+
+  - **What is worked out from the marks:** each participant's sum, the majority columns and the
+    scores for each part of the judging. The places are still shown.
+  - **The order of the list:** a round's participants are listed by start number, not by place.
+  - **In a battle bracket,** the judges' votes.
+  - **A paper redance:** the round, and the mark that a place was decided by it.
+
+  The page says why: "Judge marks will only be shown after the competition is closed." or, with
+  **Disabled**, "Judge marks are not published for this competition."
+
+  With **Disabled**, a dancer's own page for the event does not show the dancer's results either:
+  a finished round is shown as waiting for its results, and the dancer gets no result card to
+  share and no diploma there.
+
+- **A hidden event** is in no public list, and nobody outside your team can see its results.
+  Its registration page still opens for someone who has the link while a registration period is
+  open: see [Registration periods](/manager-guide/registration-periods/).
 - **A practice event** never has public results.
 
 The settings on **Live results** cannot be changed once the competition is closed.
@@ -117,7 +133,7 @@ Download after the last round is confirmed, so every class has its final placing
 | Button | What you get |
 |---|---|
 | **Download .csv file** | The result list: one row per participant, class by class. |
-| **Download partial average** | The average mark of each participant for each part the judges score, with one decimal. Columns: **Startnr**, **Name**, **Org**, **Class**, then one column per part. |
+| **Download partial average** | The average mark of each participant for each part the judges score, with one decimal. Columns: **Startnr**, **Name**, **Org**, **Class**, then one column per part. See [What is in the partial average file](#what-is-in-the-partial-average-file). |
 
 ### What is in the result file
 
@@ -135,6 +151,46 @@ The columns are separated by semicolons, and the file opens in Excel with accent
 intact. The column names are Swedish (**Klassrubrik**, **Namn 1**, and **S** for withdrawn) when
 you use Manager in Swedish, and always for a DSF or SDO event. For a WSDC event the button
 downloads a results file for WSDC instead.
+
+### What is in the WSDC results file
+
+For an event of the federation WSDC, **Download .csv file** gives a file laid out like WSDC's
+event form. It is still a `.csv` file with semicolons between the columns. Its parts follow one
+another, each under a line such as `=== Sheet: Info Summary ===`:
+
+| Part | What it holds |
+|---|---|
+| **Info Summary** | The event's name, date and location, and the name, e-mail and phone of the event owner, the chief judge and the scoreperson. The event owner and the scoreperson are taken from the people with Manager access to the event. **Scoring Software** is Vote4Dance. |
+| **WSDC Jack & Jill Contestants Recap** | One row for each WSDC division: Newcomer, Novice, Intermediate, Advanced, All-Stars, Champions, Masters, Juniors and Sophisticated. It gives the number of leaders and followers, the total, whether there were prelims, quarters and semis, and the number of couples in the final. |
+| **Judges** | The names of the judges, without the chief judge. |
+| **Competitions / Divisions Offered (In addition to WSDC J&J)** | The titles of the classes that belong to no WSDC division. |
+| One part for each division | The couples of the final, by place: **Place**, the leader's and the follower's first name, last name and **WSDC ID**, and **Leader Points** and **Follower Points**. |
+| **Competitors List** | The name of every leader and follower. |
+| **Dual / Multiple Roles List** | The dancers who danced both as leader and as follower. |
+
+A class counts for a division when its **Class title** contains the division's name, for example
+"Novice Jack & Jill". The **WSDC ID** is the dancer's person ID on the participant.
+
+### What is in the partial average file
+
+**Download partial average** is for rounds where the judges score each participant in parts.
+
+- **One row for each round a participant danced**, when the round has something to average. A
+  participant who danced three such rounds has three rows. The file has no column that names the
+  round.
+- **One column for each part**, with the average of the judges' scores for that part, to one
+  decimal. A part a judge left empty or scored 0 is left out of that average.
+- **Other judging types can add columns of their own.** A round with full judging has the
+  average of the judges' marks in a column named **Default**, and a round judged by placement can
+  add a column named **Slider**. A row has an empty cell in a column its round does not use.
+- **Only the ordinary judges of the class's panel are counted.** A chief judge is not, and
+  neither is a judge who sits only on a panel set on the round itself.
+- **Name** holds the dancers' names with " & " between them, **Org** the club and **Class** the
+  class title.
+
+The columns are separated by semicolons. The decimal sign follows your browser's language: a
+comma where numbers are written with a decimal comma, a point elsewhere. While no participant is
+in any round, there is nothing to download and the button gives an error.
 
 For placements 1 to 6 per club, open `Competition → Statistics`, the **Medals** tab, and press
 **Export CSV**. Until the competition is closed the tab says "Results are provisional". See
@@ -187,6 +243,22 @@ competition. They are for test data, before a real event.
 
 Do not leave a finished federation event **Hidden**. A hidden event does not count towards the
 federation's rankings. See [Rankings and rules](/federation/competitions/#rankings-and-rules).
+
+### Change a judge's mark
+
+Manager cannot change a mark, not even in a round that is **Closed**. Only the judge can, in the
+Judging app, and only while the round is **In progress**:
+
+1. Open the round and press **Previous status** until it is **In progress**. From **Closed**
+   that is one press.
+2. In **Judge results**, hover over the judge's letter and click the judge's name. The padlock
+   opens, and the judge has the round in the Judging app again. The other judges stay locked.
+3. The judge changes the mark and presses **Submit results**.
+4. Press **Close round**, check **Qualified participants**, then **Confirm round** and
+   **Publish results online** as before.
+
+To take away all the marks of a round instead, see
+[Wrong judging type on a round in progress](/manager-guide/live-operations/#wrong-judging-type-on-a-round-in-progress).
 
 ### What a correction affects
 

@@ -94,7 +94,10 @@ With just your own computer, and a phone or tablet beside it:
 2. Open the **Judging app's demo** to see exactly what the judges see, and mark a round
    yourself. The demo builds heats from the real round, so the heat and team counts match
    what you have set up. The same demo link goes out in the judges' invitation email, so your
-   judges can practise the marking interface at home before the competition.
+   judges can practise the marking interface at home before the competition. The demo shows
+   made-up teams and saves nothing, so it puts no marks in your round. To get marks into the
+   round from step 1, mark it as a judge: see
+   [Run one rehearsal round](/manager-guide/competition-setup/#run-one-rehearsal-round).
 3. Open **Screens** in a second browser window and step through lineup, heat, live placement,
    result and prize ceremony as you run the round — one view at a time, which is all a screen
    device shows.

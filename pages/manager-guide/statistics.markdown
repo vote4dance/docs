@@ -80,6 +80,8 @@ Organizers use these numbers for insurance, fire safety, the venue or city, cate
 - **Coaches, team staff, judges, volunteers and spectators are not included.** Add them yourself if your insurance or venue needs the full number of people in the building.
 - **Organizations** is the number of **different clubs** these dancers dance for. A club with several registration periods is still one club, so this can be lower than the number of rows on the **Organizations** tab of `Competition → Registration`, which lists a club once per registration period.
 
+The line-up for each class is followed in Scrutineer (Beta). The classic Manager does not follow it once the participants are imported: an entry of a registered team then counts everyone on the team, also a dancer the club left out of that class. The team's dancers are listed under the entry's club when the entry names one club, and under "No organization" when it names several or none.
+
 In Scrutineer (Beta) the same explanation is shown above the numbers on the **Dressing rooms** tab, under **What these numbers count**.
 
 ![The Dressing rooms tab explaining what Dancers and Organizations count](/assets/images/statistics/dressing-rooms-what-counts.png)
@@ -88,7 +90,7 @@ If a yellow box in Scrutineer (Beta) says **Dancer numbers may be off**, Vote4Da
 
 ### How it counts
 
-- **A dancer is counted once.** A dancer entered in four classes is one person. Dancers in Vote4Dance are recognized by their account. A participant imported from a file is recognized by their federation id or name; when the name is exactly that of one dancer in the event's teams, it is that dancer, so they are not counted twice.
+- **A dancer is counted once.** A dancer entered in four classes is one person. Dancers in Vote4Dance are recognized by their account. A participant imported from a file is recognized by their federation id or name; when the name is exactly that of one dancer in the event's teams, it is that dancer, so they are not counted twice. The classic Manager does not match names to accounts: there, a dancer who is in a registered team and also in an entry that only has names is counted twice.
 - **A dancer is listed on every day one of their classes is scheduled.** A class with a heat on Saturday and the final on Sunday puts its dancers on both days.
 - **The club is the club the dancer represents in that class.** A dancer who represents two clubs in different classes appears in both club rows, but once in the total.
 - Cancelled participants are left out.
