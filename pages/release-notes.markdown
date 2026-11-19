@@ -9,6 +9,9 @@ child_nav_order: reversed
 
 # Release notes
 ## 2026-11-19
+ 🛠️ **Improvements**
+* Check-in: In **Organization check-in**, an organization whose entries were registered through Vote4Dance is answered and signed for by its own people: a dancer on one of its entries, an approved member of the organization, or the person who registered the entries. Another account gets a message that says so and points to the check-in desk. Managers, check-in staff and check-in stations can still check in any organization (see [Confirming who dances on the day](/school-club/registration-for-event/#confirming-who-dances-on-the-day))
+## 2026-11-19
  ⭐ **New**
 * Federation: A website API key can now read which divisions and disciplines each public event has classes in, and the list of the federation's divisions and disciplines, so your website can label and filter the events by them. The guide now also says how the website finds events that were deleted (see [API keys for your website](/federation/settings/#api-keys-for-your-website))
 * Federation: The configuration API can now read and change dances: add a dance to a discipline, or change a dance's name, order or a single setting, such as the place a bronze battle starts from, without resending the others (see [Personal configuration keys](/federation/settings/#personal-configuration-keys))
