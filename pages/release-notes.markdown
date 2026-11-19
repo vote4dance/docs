@@ -10,6 +10,9 @@ child_nav_order: reversed
 # Release notes
 ## 2026-11-19
  🛠️ **Improvements**
+* Scrutineer (Beta): A point summary is easier to find and run in **Live**. In **Classes** it always has its own link, and the **+** number on a class with many rounds now opens the rounds that don't fit. **Next** points to the summary once every round it adds up is closed, and says how many rounds it waits for until then. A summary opened too early names the rounds it doesn't count yet, and it no longer asks for a judging panel. At the end of the day the run sheet names an unpublished point summary as what is left before the competition can be closed (see [Running it in Scrutineer (Beta)](/point-summary/#running-it-in-scrutineer-beta))
+## 2026-11-19
+ 🛠️ **Improvements**
 * Scrutineer (Beta): In the **Marks** card, each judge's column is now headed with the judge's own letter, or the start of their name when the letters are names, such as **And…**. Before, letters that were names were replaced by A, B, C… in seat order, so with several panels **A** could be a different judge in each panel (see [The Marks card in Scrutineer (Beta)](/manager-guide/reading-the-marks/#the-marks-card-in-scrutineer-beta))
 ## 2026-11-19
  🛠️ **Improvements**

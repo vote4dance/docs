@@ -4,6 +4,8 @@ title: Point summary
 permalink: /point-summary/
 parent: Classes, rounds and judges
 nav_order: 11
+help:
+  manager.comp.live.point-summary: running-it-in-scrutineer-beta
 ---
 
 # Point summary
@@ -140,3 +142,38 @@ other round, ending with **Publish results online**. See
 [Run a round](/manager-guide/live-operations/#run-a-round).
 
 ![Judge results of a point summary, with a column per bonus and the Sum](/assets/images/point-summary/results.png)
+
+### Running it in Scrutineer (Beta)
+
+In **Live**, Scrutineer (Beta) helps you find the point summary on the day and tells you when it
+can be calculated. The summary counts a round's points once that round's judging is closed, so run
+it after every round it adds up.
+
+1. Open **Classes**. The summary always has its own link under the class's **Rounds**, after the
+   other rounds. When a class has more rounds than fit on its row, click the **+** number to open
+   the rounds that don't fit, and pick one.
+
+   ![The Classes list: the point summary has its own link, and +2 is open on the Semifinal and Final](/assets/images/point-summary/live-classes-summary-link.png)
+
+2. Wait for the rounds the summary adds up, in every class it covers. Until their judging is
+   closed, the class's **Next** says how many rounds the summary waits for, for example "Point
+   summary waits for 3 rounds". Point at it to see which. Once they are closed or confirmed,
+   **Next** shows **Go to Point summary**.
+
+   ![Next shows Go to Point summary once every round the summary adds up is confirmed](/assets/images/point-summary/live-classes-next-summary.png)
+
+3. Open the summary. If you open it too early, its card names the rounds it doesn't count yet,
+   for example "Doesn't count Disco Youth A · Semifinal yet: its points come in once it is
+   closed." A point summary has no judges, so it never asks for a judging panel.
+
+   ![The summary's card names the three rounds it doesn't count yet](/assets/images/point-summary/live-summary-waiting.png)
+
+4. Click **Add participants** if the summary has none yet, then **Start judging** and
+   **Close & confirm**. Check each couple's points under **Marks**, then click
+   **Publish results…**.
+
+5. At the end of the day, the competition can only be closed once every result is published. If
+   the point summary isn't, the last card on the run sheet says so, for example "Left before the
+   competition can close: Disco Youth A · Point summary.", with a button that takes you there.
+
+   ![The run sheet's last card names the point summary that isn't published yet](/assets/images/point-summary/live-run-sheet-summary-left.png)
