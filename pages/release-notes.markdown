@@ -10,6 +10,9 @@ child_nav_order: reversed
 # Release notes
 ## 2026-11-19
  🛠️ **Improvements**
+* Manager, Scrutineer (Beta) and Supervisor: Removing a judge from a competition now asks **Remove … from this competition?** and names the panels the judge leaves, since adding them again later does not put the seats back. A judge who sits on a panel that already has scores can no longer be removed, also when they have given no marks themselves; a message names the panels and says how to let someone else judge the remaining rounds. Before, the question did not mention the panels, and only the judge's own marks stopped the removal (see [Removing a judge](/manager-guide/judges/#removing-a-judge))
+## 2026-11-19
+ 🛠️ **Improvements**
 * Check-in: In **Organization check-in**, an organization whose entries were registered through Vote4Dance is answered and signed for by its own people: a dancer on one of its entries, an approved member of the organization, or the person who registered the entries. Another account gets a message that says so and points to the check-in desk. Managers, check-in staff and check-in stations can still check in any organization (see [Confirming who dances on the day](/school-club/registration-for-event/#confirming-who-dances-on-the-day))
 ## 2026-11-19
  ⭐ **New**
