@@ -3,7 +3,7 @@ layout: page
 title: Age category rules
 permalink: /federation-rules/age-category-rules/
 parent: Federation Rules
-nav_order: 1
+nav_order: 8
 ---
 
 # Age category rules
