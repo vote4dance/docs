@@ -69,7 +69,11 @@ event with the [Quickstart](/quickstart/).
 | Page | What it covers |
 |---|---|
 | [Setting up registration for your event](/organizer/registration-for-event/) | Opening a registration period, approving what comes in, and importing it as participants. |
-| [Registration and check-in](/manager-guide/registration-checkin/) | Registration periods, statuses, participants and the desk. |
+| [Registration and check-in](/manager-guide/registration-checkin/) | The whole path from a registration period to check-in on the day, and the Registration page with its tabs. |
+| [Registration periods](/manager-guide/registration-periods/) | Creating a period: its dates, payment, prices, classes, rules and team names. |
+| [Entries and participants](/manager-guide/entries-and-participants/) | Statuses, approving, organizations that sign their dancers' entries, and importing the approved entries as participants. |
+| [Start numbers](/manager-guide/start-numbers/) | Assigning and printing start numbers, before the participants go into rounds. |
+| [Organization check-in](/manager-guide/organization-check-in/) | The organizations say who dances on the day and sign, and you apply their answers. |
 | [Music from the dancers](/manager-guide/music/) | Following up on the dancers' own tracks and handing them to the DJ. |
 | [Emails and the check-in QR code](/manager-guide/emails/) | What participants are emailed, and the QR code they bring. |
 | [Notifications](/manager-guide/notifications/) | Event updates and push notifications to followers. |

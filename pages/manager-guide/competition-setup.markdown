@@ -145,7 +145,7 @@ One participant row can be a single dancer, a couple or a group. Some buttons st
 
 Participants get there in one of these ways:
 
-- **From approved registrations.** This is the normal way. On `Competition → Registration`, click **Update/import participants**. See [Update/import participants](/manager-guide/registration-checkin/#updateimport-participants).
+- **From approved registrations.** This is the normal way. On `Competition → Registration`, click **Update/import participants**. See [Update/import participants](/manager-guide/entries-and-participants/#updateimport-participants).
 - **From a file**, for a competition without online registration. See [Data transfer](#data-transfer).
 - **By hand**, for a participant who did not register. Click **Add participants**. In **Competitor information**, pick the class in **Starting in**, type the names and click **Save changes**. **Register new competitor**, under a class's list, opens the same dialog.
 - **Test participants**, in a practice event only. Under a class's list, the arrow next to **Register new competitor** has **Generate random competitors**. See [Test run and venue rehearsal](/manager-guide/test-run/).
@@ -156,7 +156,7 @@ Do not delete participants in bulk once judging has started.
 
 ### Assign start numbers
 
-1. On `Competition → Participants`, click **Assign start numbers** to number the whole competition. The same button under a class's list numbers only that class. The choices in the dialog are explained in [After the import](/manager-guide/registration-checkin/#after-the-import).
+1. On `Competition → Participants`, click **Assign start numbers** to number the whole competition. The same button under a class's list numbers only that class. The choices in the dialog are explained in [Start numbers](/manager-guide/start-numbers/).
 2. To set one number by hand, click the participant's name and change **Start number**.
 3. Click **Print start number** to print the numbers.
 
@@ -247,7 +247,7 @@ A round goes through these statuses, in this order:
 
 **Reset results** and **Delete registrations** cannot be undone. Use them for test data. Both work only while the event is **Hidden**. Do not delete all participants when online check-in has started.
 
-Do not mix participants from a file and participants from registrations in the same competition. See [Update/import participants](/manager-guide/registration-checkin/#updateimport-participants).
+Do not mix participants from a file and participants from registrations in the same competition. See [Update/import participants](/manager-guide/entries-and-participants/#updateimport-participants).
 
 ## Troubleshooting
 

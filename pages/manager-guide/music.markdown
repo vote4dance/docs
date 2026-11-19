@@ -3,7 +3,7 @@ layout: page
 title: Music from the dancers
 permalink: /manager-guide/music/
 parent: Registration and sales
-nav_order: 3
+nav_order: 7
 help:
   manager.event.music: ""
 ---
@@ -75,7 +75,7 @@ Dancers normally upload their own music, and they are reminded on **My registrat
 
 ## Download the music for the DJ
 
-1. **Assign start numbers first.** The files are named by start number, so the DJ can sort them in the running order. See [After the import](/manager-guide/registration-checkin/#after-the-import). Until then the page says **no start numbers yet**.
+1. **Assign start numbers first.** The files are named by start number, so the DJ can sort them in the running order. See [Start numbers](/manager-guide/start-numbers/). Until then the page says **no start numbers yet**.
 2. Press **Download class** on a class to get that class, or **Download all** at the top to get every class.
 3. Chrome and Edge first ask where to save the file. Then wait while the download is put together: a window shows the progress, for example **File 3 of 12**. Keep the page open until it says **The zip is saved**.
 
@@ -120,5 +120,5 @@ After that, the entry says **Deleted after the competition**, with the date, and
 
 - [Your music](/dancer/my-registration/#your-music): how a dancer uploads their track
 - [Own music](/federation-rules/own-music/): how a federation decides which classes ask for own music, and the limits
-- [Registration and check-in](/manager-guide/registration-checkin/#after-the-import): assigning start numbers
+- [Start numbers](/manager-guide/start-numbers/): assigning start numbers
 - [Users, apps and stations](/manager-guide/users-and-stations/): access for the people who work at your event

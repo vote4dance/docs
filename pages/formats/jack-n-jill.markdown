@@ -121,7 +121,7 @@ registry, with the federation ID on the dancer's account. A dancer the rule keep
 *The picture is from an earlier version of Manager. Its first rule, **Personal ID**, is no longer
 in the list of conditions. The **Level** rule is set the same way today.*
 
-See [Registration rules and requested information](/manager-guide/registration-checkin/#registration-rules-and-requested-information).
+See [Registration rules and requested information](/manager-guide/registration-periods/#registration-rules-and-requested-information).
 For a WSDC competition, **Verify** on the participants compares each leader's and follower's
 level with the class they entered: see [Verify entries](/manager-guide/competition-setup/#verify-entries).
 

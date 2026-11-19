@@ -39,7 +39,7 @@ period at different prices. For each period, set:
 |---|---|
 | **Name and dates** | When it opens and closes. |
 | **Payment mode** | **Free of charge**, **Manual payment**, or **Online payment** with Stripe. A club that registers entries pays them with **Pay now** on its registration list, and gets a receipt and an invoice made out to the club. |
-| **The organization signs the entries** | Optional. Dancers' entries wait until their club or organization has signed them, and the organization can pay them together. See [Organizations sign their dancers' entries](/manager-guide/registration-checkin/#organizations-sign-their-dancers-entries). |
+| **The organization signs the entries** | Optional. Dancers' entries wait until their club or organization has signed them, and the organization can pay them together. See [Organizations sign their dancers' entries](/manager-guide/entries-and-participants/#organizations-sign-their-dancers-entries). |
 | **Acceptance mode** | **Manual**: you approve each registration. **Direct**: registrations are approved automatically (with online payment, once paid). |
 | **Currency and prices** | The price ladder. |
 | **Rules and form** | What the registration asks for, and which rules apply. |
@@ -86,7 +86,7 @@ registration into a participant, and lists anything that changed or should be re
 again after late approvals or cancellations.
 
 Then assign start numbers and add participants to the first rounds. See
-[From registrations to participants](/manager-guide/registration-checkin/#from-registrations-to-participants).
+[From registrations to participants](/manager-guide/entries-and-participants/#from-registrations-to-participants).
 
 ## Common problems
 
@@ -95,8 +95,8 @@ Then assign start numbers and add participants to the first rounds. See
 | Nobody can register | Check that the event is published **and** that a registration period is open today. You need both. |
 | A dancer cannot see or enter a class | Check the period's **allowed classes**. Then check the class's Federation Class: the dancer's age, license or dance role may not fit. The class list shows the dancer the reason. |
 | Entries stay on **Waiting for the organization** | The organization has not signed them. On the **Organizations** tab press **Send reminder to all**. Dancers without an organization are not held up. |
-| A club says it paid, but the entry is still **Signed** | With manual payment, press **Mark paid** on the club's row on the **Organizations** tab once the money has arrived. See [Mark an organization as paid](/manager-guide/registration-checkin/#mark-an-organization-as-paid-manual-payment). |
+| A club says it paid, but the entry is still **Signed** | With manual payment, press **Mark paid** on the club's row on the **Organizations** tab once the money has arrived. See [Mark an organization as paid](/manager-guide/entries-and-participants/#mark-an-organization-as-paid-manual-payment). |
 | A registration is stuck on Preliminary | With manual acceptance you approve it yourself. With manual payment, approve it once you have received the payment. |
 | An online payment was abandoned | The registration is removed automatically. The dancer starts again. |
 | An approved registration is not in the lineup | Run **Update/import participants** again. The **Imported** check shows which registrations are in. |
-| A dancer wants a refund after cancelling | Cancelling does not refund. You refund from Manager. If the dancer registered again and paid twice, see [Paid twice after cancelling](/manager-guide/registration-checkin/#paid-twice-after-cancelling). |
+| A dancer wants a refund after cancelling | Cancelling does not refund. You refund from Manager. If the dancer registered again and paid twice, see [Paid twice after cancelling](/manager-guide/entries-and-participants/#paid-twice-after-cancelling). |
