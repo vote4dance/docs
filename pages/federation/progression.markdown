@@ -22,7 +22,7 @@ A competition entry's promotion points ("U-points") can be written three ways, a
 
 1. **Computed** — when a judged round is confirmed, the system scores the class through the federation's points table: by place, by field size and, if your table says so, by the round each dancer reached. Revoking a round's confirmation retracts its points.
 2. **Imported** — the "UP" / "Points" column of a result file. **This column means *points earned at this competition***, not the couple's running total. The one exception is a couple's very first appearance: see *Opening balances* below.
-3. **Entered** — an official can edit the value on any entry in Manager (the U-points field in the team editor). The computed value wins again if results are re-confirmed, so make manual corrections after the competition is closed.
+3. **Entered** — an official can edit the value on any entry in Manager (the U-points field in the team editor). The computed value wins again when results are confirmed again or the competition is closed again, and Manager does not save the field while the event is **Closed**. For a number that has to stay, correct the result's points on the federation side: see [Correct a result's points](/federation/class-point-limits/#correct-a-results-points).
 
 ## Everything happens at competition close
 
@@ -43,7 +43,7 @@ A couple's first processed entry opens their balance:
 - On a **judged** first entry, a pre-loaded value is preserved as their carried-in balance, and the entry itself ends up showing what they earned at that competition.
 - The federation can also set or correct a carried-in balance directly (the carryover action on the division Status tab); it is added on top of everything the couple earns and survives recalculation.
 
-**Correction rule for officials:** changes to a first-time couple's points are made *after* the competition is closed — before close, a value on a judged debut entry is read as their carried-in total, not as an earned override.
+**Correction rule for officials:** do not type a first-time couple's earned points on the entry before the competition is closed. Before close, a value on a judged debut entry is read as their carried-in total, not as an earned override. Correct their points after closing, on the federation side: see [Correct a result's points](/federation/class-point-limits/#correct-a-results-points).
 
 ## Setting it up
 
