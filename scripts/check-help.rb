@@ -15,13 +15,15 @@ require "cgi"
 
 ROOT = File.expand_path("..", __dir__)
 SITE = File.expand_path(ARGV[0] || "_site", ROOT)
-KEY_FORMAT = /\A[a-z][a-z0-9-]*(\.[a-z0-9-]+)+\z/
+# Segments below the app name may carry capitals: a tab or section key is the value the app
+# itself uses, such as `manager.comp.judges.cantJudgeClass`.
+KEY_FORMAT = /\A[a-z][a-z0-9-]*(\.[A-Za-z0-9-]+)+\z/
 
 errors = []
 declared = {}
 
 Dir.glob(File.join(ROOT, "{*.markdown,*.md,pages/**/*.markdown,pages/**/*.md}")).sort.each do |file|
-  text = File.read(file)
+  text = File.read(file, encoding: "UTF-8")
   next unless text =~ /\A---\s*\n(.*?)\n---\s*\n/m
   front = YAML.safe_load(Regexp.last_match(1)) || {}
   help = front["help"]
@@ -45,7 +47,7 @@ map_file = File.join(SITE, "help.json")
 abort "#{map_file} not found; build the site first" unless File.exist?(map_file)
 
 begin
-  map = JSON.parse(File.read(map_file))
+  map = JSON.parse(File.read(map_file, encoding: "UTF-8"))
 rescue JSON::ParserError => e
   abort "help.json is not valid JSON: #{e.message}"
 end
@@ -63,7 +65,7 @@ keys.each do |key, entry|
     next
   end
   next if anchor.nil? || anchor.empty?
-  ids = File.read(html_file).scan(/\sid="([^"]+)"/).flatten.map { |id| CGI.unescapeHTML(id) }
+  ids = File.read(html_file, encoding: "UTF-8").scan(/\sid="([^"]+)"/).flatten.map { |id| CGI.unescapeHTML(id) }
   errors << "#{key}: #{path} has no section ##{anchor}" unless ids.include?(anchor)
 end
 

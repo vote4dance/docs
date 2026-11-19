@@ -61,7 +61,7 @@ role under **Permissions**.
 | A member joined the wrong club | They leave it and join yours. Check their licence names your club too: an active licence's club can only be changed by the federation, by reissuing it. |
 | Applications are waiting and nobody approves them | Only managers and administrators can approve. Coaches do not see the waiting list. There is no reminder. |
 | There are two profiles for your club | Do not add members to both. Ask your federation which one is the real club; moving competitors and licences between clubs is done by the federation. See [Club transfers](/federation/club-transfers/). |
-| **Add** does nothing | Only an administrator can add people, the search needs at least three letters, and the person needs an account. |
+| You cannot find a way to add someone | Nobody is added from the club's side. Send them the club's page and ask them to press **Join organization**. |
 
 ## Next step
 
