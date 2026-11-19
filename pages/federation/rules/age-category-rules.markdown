@@ -16,7 +16,7 @@ group). On top of the band you choose **how the band is applied** when a team ha
 more than one dancer — for example "the oldest dancer decides" for a duo, or a
 tolerance such as "up to 50% may be younger" for a group.
 
-> Age is calculated from the **birth year**: `competition year − birth year`.
+> Age is counted from the **birth year**: the reference year minus the birth year. The reference year is the year the federation's season ends when a **Season start** is set (see [Season start](/federation/age-moves/#season-start-mm-dd)), and otherwise the year of the competition. An age group with **Allow participant birthday instead of calendar year born** switched on uses the full birth date instead.
 > A dancer born in 2011 is 15 for any competition held in 2026, regardless of
 > their exact birthday (unless the age group is set to use the exact birthday).
 

@@ -182,7 +182,8 @@ rules do, and registration checks them: a dancer or couple that does not fit a c
 cannot register for it, and a couple can only register for the class it is in. So a participant
 who looks wrong at an event is usually a data problem, not a rule problem.
 
-- Age is counted by **birth year**, for the year the season ends, not by birthday.
+- Age is counted by **birth year**, for the year the season ends, not by birthday. A federation
+  with no season start set counts for the year of the competition.
 - For a couple or group, the federation's rules decide whose age counts: for example the oldest
   member, or every member. See [Age category rules](/federation-rules/age-category-rules/).
 - At the start of each season the federation moves competitors up an age group in one batch. See
