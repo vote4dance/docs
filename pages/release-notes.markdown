@@ -10,6 +10,9 @@ child_nav_order: reversed
 # Release notes
 ## 2026-11-19
  🛠️ **Improvements**
+* Scrutineer (Beta): In the **Marks** card, each judge's column is now headed with the judge's own letter, or the start of their name when the letters are names, such as **And…**. Before, letters that were names were replaced by A, B, C… in seat order, so with several panels **A** could be a different judge in each panel (see [The Marks card in Scrutineer (Beta)](/manager-guide/reading-the-marks/#the-marks-card-in-scrutineer-beta))
+## 2026-11-19
+ 🛠️ **Improvements**
 * Manager and Scrutineer (Beta): Numbering one class with **Assign start numbers** now gives a couple the number it already has in another class when **Reuse numbers** is on, so a couple with 16 in Juniors also gets 16 in Juniors Slow. A number another couple holds in another class is no longer given out, and keeping numbers no longer gives two couples the same number. In Scrutineer (Beta), **Only entries without a number** leaves every other number as it is, and **Everyone, from scratch** keeps a couple's number from its other classes when **Keep a dancer's number across classes** is on. Before, numbering one class ignored the other classes and gave such a couple a new number (see [Numbering one class at a time](/manager-guide/start-numbers/#numbering-one-class-at-a-time))
 ## 2026-11-19
  🛠️ **Improvements**
