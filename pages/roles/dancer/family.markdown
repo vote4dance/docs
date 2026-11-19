@@ -3,7 +3,7 @@ layout: page
 title: Family
 permalink: /dancer/family/
 parent: Dancer
-nav_order: 1.6
+nav_order: 3
 help:
   public.account.family: ""
   public.account.family.add: add-a-child

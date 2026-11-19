@@ -3,7 +3,7 @@ layout: page
 title: My registration
 permalink: /dancer/my-registration/
 parent: Dancer
-nav_order: 5.5
+nav_order: 5
 help:
   public.event.me: ""
   public.event.me.music: your-music
@@ -97,7 +97,7 @@ If you have no organization, your entry skips signing and you pay yourself. The 
 Rounds after one you did not go through from are not listed: they are not yours any more.
 
 If the event you are at started from a start list the organizer imported, instead of
-registrations in Vote4Dance, your entries are found by the Federation ID on your licence, so they
+registrations in Vote4Dance, your entries are found by the Federation ID on your license, so they
 are listed here too.
 
 ### The buttons at the top
@@ -139,7 +139,7 @@ What you can move to:
   side when you register, for example the other levels or regions of the same group of classes.
   They cost the same, so nothing is charged and nothing is refunded.
 - **Only classes you are allowed to dance.** A class you do not qualify for, for example because of
-  your age, your level or your licence, is shown greyed out with the reason. A class where you
+  your age, your level or your license, is shown greyed out with the reason. A class where you
   already dance another level of the same category is greyed out too, when the federation allows
   only one class per category.
 - **Not the classes you are already in**, and not a class you withdrew from earlier.
@@ -334,8 +334,3 @@ Under a class you have finished, **Share result** opens your phone's share sheet
 the result, and **Diploma** opens your diploma as a PDF. The same two buttons are on a team's own
 page (tap a couple or team anywhere in the app): everyone can share a published result there, and
 the diploma button appears when you are in the team.
-
-## Next step
-
-Continue to [Results, points and rankings](/dancer/creating-and-getting-a-ranking/) to see how
-competing affects your rankings.

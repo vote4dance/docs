@@ -1,28 +1,25 @@
 ---
 layout: page
-title: Account creation
+title: Creating your club
 permalink: /school-club/account-creation/
 parent: School/Club
 nav_order: 1
 ---
 
-# School or club account creation
+# Creating your club
 
-This is the first step for an organization in Vote4Dance. Unlike a personal dancer account, this creates an organizational entity that can have multiple admins, members, and teams.
+Your school or club is an organization in Vote4Dance. Unlike a personal account, it can have several administrators, and it holds:
 
-## What this step is for
-
-A school or club account (organization) is the container for:
-- Your team's members (dancers and staff)
-- Teams you enter in competitions
-- Licenses you apply for on behalf of members
-- Your federation membership status if applicable
+- Your members (dancers and staff)
+- The teams you enter in competitions
+- The licenses you apply for on behalf of members
+- Your federation membership, if you have one
 
 ## Who does this step
 
-A school or club administrator (often a coach, director, or designated staff member) creates this organization.
+You create the club if you are the one who will administer it: often a coach, a director or another member of staff.
 
-**Note:** Individual dancers do NOT create this. They create personal dancer accounts instead (see [Dancer account creation](/dancer/account-creation/)).
+Dancers do not create a club. They create a personal account instead, see [Creating your account](/dancer/account-creation/).
 
 ## Where to go
 
@@ -73,7 +70,7 @@ the one below it (see [Club admin screens](/school-club/club-admin/) for the scr
 |---|---|
 | **Member** | Belongs to the club, with no administrative permissions. Represents the club and can be entered by its coaches; cannot register on the club's behalf or manage members. |
 | **Coach** | The day-to-day work: create and update the club's competitors, register them and pay for the club's registrations, and see the member list. |
-| **Manager** | Everything a coach can do, plus approving and rejecting membership applications, buying and managing the club's federation licences, and approving members' licence applications before the federation activates them. |
+| **Manager** | Everything a coach can do, plus approving and rejecting membership applications, buying and managing the club's federation licenses, and approving members' license applications before the federation activates them. |
 | **Administrator** | Everything a manager can do, plus setting the role of everyone below administrator, applying to federations and detaching from them, editing the club's details and embed key, and deleting the club. |
 
 A role only counts once the membership is approved. Where a page has an action your role can't use,
@@ -82,7 +79,7 @@ leaves, they leave the club themselves, or Vote4Dance support removes them. Only
 make someone an Administrator of an existing club.
 
 Pick deliberately: a coach who registers dancers does not need Administrator, and the person who
-approves licences needs at least **Manager**. The person who creates the club becomes its first
+approves licenses needs at least **Manager**. The person who creates the club becomes its first
 Administrator. **A second Administrator can only be added by Vote4Dance support**, so ask for one
 early: then the club is never one forgotten password away from being stuck.
 
@@ -109,18 +106,18 @@ If they see nothing, their role has not been set — go back to step 3.
 **People**
 - ✓ At least two Administrators (ask Vote4Dance support for the second)
 - ✓ Nobody who has left still holds a role
-- ✓ The person who handles licences is at least a Manager
+- ✓ The person who handles licenses is at least a Manager
 
 **Federation, if you have one**
 - ✓ The federation shows on the club
-- ✓ The club's own approval status is visible — until the federation approves the club, no licence it holds can be issued. See [Joining a federation](/school-club/joining-a-federation/).
+- ✓ The club's own approval status is visible — until the federation approves the club, no license it holds can be issued. See [Joining a federation](/school-club/joining-a-federation/).
 
 ## A club is not an event organizer
 
 Running a club and running an event are separate in Vote4Dance, but you use **one personal
 account** for both.
 
-- **Club work** (members, competitors, licences) is done in the club, with a club role.
+- **Club work** (members, competitors, licenses) is done in the club, with a club role.
 - **Event work** (classes, judges, rounds) is done in Manager, with **Manager** ticked for you on
   that event.
 
@@ -130,7 +127,7 @@ See [Organizer](/organizer/).
 ## If your club was created by your federation
 
 Federations often create their clubs themselves. In that case do not create a second one with the
-same name — duplicates split the club's dancers, results and licences.
+same name — duplicates split the club's dancers, results and licenses.
 
 1. Sign in and look for the club on your account
 2. If it is not there, ask Vote4Dance support to make you its **Administrator**. Only support can
@@ -146,7 +143,7 @@ two it is before creating one, so you do not end up with a duplicate.
 
 ### "The person I gave a role to cannot do what they need"
 
-Check the ladder above: registering dancers needs **Coach**, approving members and licences needs
+Check the ladder above: registering dancers needs **Coach**, approving members and licenses needs
 **Manager**, changing the club or its federations needs **Administrator**. An Administrator can
 set the role of everyone below Administrator.
 
@@ -154,8 +151,3 @@ set the role of everyone below Administrator.
 
 With **Member approval** on, applications wait for a Manager. They appear under **Members** as
 "Requires your action", and **Approve all** handles a batch.
-
-## Next step
-
-Continue to [Applying for a school/club](/school-club/applying-for-a-school-club/) to let members
-join, then [Joining a federation](/school-club/joining-a-federation/).

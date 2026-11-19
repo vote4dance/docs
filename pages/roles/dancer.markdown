@@ -2,47 +2,56 @@
 layout: page
 title: Dancer
 permalink: /dancer/
-nav_order: 6
+nav_order: 4
 has_children: true
+redirect_from:
+  - /dancer/retiring/
 ---
 
 # Dancer
 
-**You are a dancer if** you are a competitor or performer who participates in dance competitions and events, or who is registered as part of a school/club team.
+For dancers who compete, and for parents who look after a child's account.
 
-This role hub covers:
-- Getting your account set up and licensed
-- Managing your children's accounts from your own ([Family](/dancer/family/))
-- Joining a school/club as a member
-- Registering for events
-- Tracking your rankings and results
-- Handling transfers and renewals
+You sign in with your e-mail address and a code, with no password: see [Signing in](/signing-in/).
+Coming to watch, not to dance? See [Spectator](/spectator/).
 
-**Not sure if you're a dancer?** Start with [Finding Your Role](/understanding-vote4dance/finding-your-role/).
+## Get started
 
-## Dancer steps
+- [Creating your account](/dancer/account-creation/): make your own account and fill in your profile.
+- [Your Vote4Dance ID](/dancer/vote4dance-id/): the QR code the entrance scans when you arrive.
+- [Family](/dancer/family/): add your children and open their accounts from your own.
 
-1. [Account creation](/dancer/account-creation/)
-2. [Getting a license](/dancer/getting-a-license/)
-3. [Applying for a school/club](/dancer/applying-for-a-school-club/)
-4. [Federation status through school/club](/dancer/federation-status/)
-5. [Registration for event](/dancer/registration-for-event/)
-6. [Results, points and rankings](/dancer/creating-and-getting-a-ranking/)
-7. [Age transfer](/dancer/age-transfer/)
-8. [Class transfer](/dancer/class-transfer/)
-9. [Renew license](/dancer/renew-license/)
-10. [Retiring](/dancer/retiring/)
+## Register and compete
 
-## Dedicated feature sections
+- [Registering for an event](/dancer/registration-for-event/): enter on your own or with a partner, and what to do if you cannot register.
+- [My registration](/dancer/my-registration/): your own page for each event you are registered for.
+- [Following results in the app](/dancer/following-in-the-app/): see when you dance and follow the results at the venue.
 
-1. [Your Vote4Dance ID](/dancer/vote4dance-id/)
-2. [My registration](/dancer/my-registration/): your own page for each event you are registered for
-3. [Dancer self-service](/federation-licenses/dancer-self-service/)
-4. [Public Rankings](/federation-rankings/public/)
+## Club and license
 
-## How to use this hub
+- [Joining your club](/dancer/applying-for-a-school-club/): find your club and become a member.
+- [Getting a license](/dancer/getting-a-license/): which license you need, who applies for it, and applying again for a new season.
+- [Dancer self-service](/federation-licenses/dancer-self-service/): applying and paying for a license yourself.
 
-1. Start on the dancer step that matches your current blocker.
-2. Open [Dancer self-service](/federation-licenses/dancer-self-service/) only when the step requires the dancer to create or pay for a license directly.
-3. Open [Public Rankings](/federation-rankings/public/) only when you need to verify what was published.
-4. Use [Getting Started](/getting-started/) and [Quickstart](/quickstart/) only if you are new to the platform itself.
+## Results and moving up
+
+- [Results, points and rankings](/dancer/creating-and-getting-a-ranking/): where your result, your promotion points and your ranking show, and when.
+- [Your season points in the app](/dancer/season-points/): how many points each of your teams has this season.
+- [Moving up a class](/dancer/class-transfer/): what happens when your couple or team reaches the points limit of its class.
+- [Moving to a new age group](/dancer/age-transfer/): which age group you are in when a new season starts.
+
+## If you stop competing
+
+There is no "retire" button on your account. Retiring is a change of your membership status
+at the federation, and the federation sets it. Your part is to tell your club and your
+federation, and to tidy up what is still open:
+
+1. Finish or cancel the registrations you still have. See
+   [Cancelling a registration](/dancer/registration-for-event/#cancelling-a-registration).
+2. Tell your club, so they stop entering you and can sort out your team.
+3. Stop applying for a new license. The one you have turns **Expired** by itself when its
+   validity window closes.
+
+Your results, rankings and class memberships stay. Keep your account, too. If you come back
+later and create a new one, your results are split over two accounts, and someone has to merge
+them by hand.

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Season points in the app
+title: Your season points in the app
 permalink: /dancer/season-points/
 parent: Dancer
-nav_order: 8.5
+nav_order: 11
 ---
 
 # Your season points in the app

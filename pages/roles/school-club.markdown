@@ -2,54 +2,35 @@
 layout: page
 title: School/Club
 permalink: /school-club/
-nav_order: 7
+nav_order: 5
 has_children: true
 ---
 
 # School/Club
 
-**You are a school/club administrator if** you represent or manage a school dance team, independent studio, or dance club that has members, registers for events, and interacts with a federation.
+For the people who run a dance school, studio or club: its administrators, managers and coaches.
 
-This role hub covers:
-- Setting up your organization account
-- Managing your organization's federation membership and licenses
-- Managing your dancer/member roster
-- Applying for licenses on behalf of members
-- Supporting members' event registrations
-- Managing team rankings and transfers
-- Embedding results and registrations on your club's website
+Some of these pages only apply when your club is part of a federation.
 
-**Not sure if you're a school/club admin?** Start with [Finding Your Role](/understanding-vote4dance/finding-your-role/).
+## Set up your club
 
-**Note:** Some of these steps may not apply if your organization is not part of a federation.
+- [Creating your club](/school-club/account-creation/): create the club from your own account and give other people a role.
+- [Club admin screens](/school-club/club-admin/): each screen in turn (Permissions, Members, Competitors, Registration, Federation and Licenses) and which club role can do what.
+- [How members join](/school-club/applying-for-a-school-club/): how dancers and staff find the club, and how you approve them.
 
-## School or club steps
+## Federation and licenses
 
-1. [Account creation](/school-club/account-creation/)
-2. [Applying for a school/club](/school-club/applying-for-a-school-club/): how members join
-3. [Joining a federation](/school-club/joining-a-federation/)
-4. [Getting a license](/school-club/getting-a-license/) for your members
-5. [Registration for event](/school-club/registration-for-event/)
-6. [Results, points and rankings](/school-club/creating-and-getting-a-ranking/)
-7. [Age transfer](/school-club/age-transfer/)
-8. [Class transfer](/school-club/class-transfer/)
-9. [Renew license](/school-club/renew-license/)
-10. [Retiring members or teams](/school-club/retiring/)
-11. [Embed widgets](/school-club/embed-widgets/)
+- [Joining a federation](/school-club/joining-a-federation/): apply to your federation and check that the club is approved.
+- [Licenses for your members](/school-club/getting-a-license/): apply for a member, approve, pay, and apply again for a new season.
+- [Organization admin](/federation-licenses/organization-admin/): the club's license screens.
 
-## Club admin screens
+## Register and compete
 
-[Club admin screens](/school-club/club-admin/) is a screen-by-screen reference: Permissions, Members, Competitors, Registration, Federation and Licenses, and which club role can do what on each.
+- [Registering your dancers for an event](/school-club/registration-for-event/): set up competitors, register them, pay, and follow every entry.
+- [Class and age moves](/school-club/class-transfer/): what moves automatically, and what to check before you register.
+- [Your club's results, points and rankings](/school-club/creating-and-getting-a-ranking/): when each one updates, and which club a result counts for.
 
-## Dedicated feature sections
+## Changes and your website
 
-1. [Organization admin](/federation-licenses/organization-admin/)
-2. [Federation Licenses](/federation-licenses/)
-3. [Registration and check-in](/manager-guide/registration-checkin/)
-
-## How to use this hub
-
-1. Start on a school or club step when you are deciding readiness or fixing a blocked workflow.
-2. Switch to [Organization admin](/federation-licenses/organization-admin/) when you are actually creating organization-managed license applications.
-3. Switch to [Registration and check-in](/manager-guide/registration-checkin/) when you are supporting event entry and check-in readiness.
-4. Use [Manager Guide](/manager-guide/) only when the task is really organizer-side event management.
+- [When members, teams or the club stop](/school-club/retiring/): what to do when a member, a team or an administrator leaves, or the club closes.
+- [Embed widgets](/school-club/embed-widgets/): show your club's registrations and results on your own website.
