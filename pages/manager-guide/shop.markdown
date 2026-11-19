@@ -31,13 +31,18 @@ Scanning at the door, arrivals and the Vote4Dance ID are on [At the door](/manag
 
 ## Opening the shop
 
-`Manager → Audience → Shop`, or go straight to `/organizer/event/<event id>/shop`. The shop is part of the Organizer app, so the person opening it needs the **Organizer** capability — see [Users, apps and stations](/manager-guide/users-and-stations/).
+There are two ways in:
+
+- In Manager, open `Audience → Shop`. In Scrutineer (Beta), press **Shop** on the overview, under **Everything else**.
+- On your event page, tap the **Organizer** tile under **Functions**.
+
+The shop is part of the Organizer app, so the person opening it needs **Organizer** or Manager ticked — see [Users, apps and stations](/manager-guide/users-and-stations/).
 
 The page has two tabs, **Products** and **Orders**. Above the product list sit two cards that belong to the day itself: **Dancer admission** and **The door**.
 
 ## Products
 
-![Products tab](/assets/images/shop/products-tab.png)
+![The Products tab: one row per product with its kind, price now, how many are sold and held, the capacity and the status; the meal and the T-shirt each have two variants under one row](/assets/images/shop/products-tab.png)
 
 **New product** opens a short list of templates — spectator ticket, meal, table seat, T-shirt or a blank product — so the usual things are two clicks away. Each row shows the price now, how many are sold and held, the capacity left and the status; variants fold under one row (*2 variants · shared picture*) that carries the group's picture and its summed counts.
 
@@ -57,7 +62,7 @@ The page has two tabs, **Products** and **Orders**. Above the product list sit t
 | **Status** | Draft, Active, Paused or Archived. Only **Active** is on sale; **Paused** is "off sale for now" without archiving. |
 | **Image** | Shown on the tickets page. Variants in a group share the first picture among them. Save the product first, then add the picture. |
 
-![Product editor](/assets/images/shop/product-editor.png)
+![The Edit product form for a day ticket: Kind, Visibility, Name, Description, Price incl. VAT, VAT rate, Quantity, Max per order, Group, Valid on, Zone / table and Status](/assets/images/shop/product-editor.png)
 
 A product that has been sold is never deleted — it is archived, so the tickets already out there keep their name, price and VAT rate as they were sold.
 
@@ -67,7 +72,7 @@ A product that has been sold is never deleted — it is archived, so the tickets
 
 ## Orders
 
-![Orders tab](/assets/images/shop/orders-tab.png)
+![The Orders tab: three orders with the buyer, the items, the total and the status; two are Paid, one of them sold at the desk, and one is Awaiting payment](/assets/images/shop/orders-tab.png)
 
 Every order, online and desk, with the buyer, the items, the total and how many of its tickets have been used. Search by buyer name, e-mail or ticket code, and filter by status or channel.
 
@@ -89,7 +94,7 @@ When a buyer deletes their Vote4Dance account, their orders stay but lose the bu
 
 ## The door
 
-![The door card](/assets/images/shop/door-readiness.png)
+![The door card: green ticks for Stripe, admission products on sale, dancer admission and check-in stations; warnings for a ticket with no day set and for dancers with no photo; and the counts Arrived today and Tickets used today](/assets/images/shop/door-readiness.png)
 
 A pre-flight check for the day itself. It tells you, in one card, whether Stripe is connected, how many admission products are actually on sale, which days the schedule has, whether any pass or ticket is missing a day, how many check-in stations exist, and how many registered dancers still have no photo on their Vote4Dance ID. It also counts arrivals and tickets used today once the day is running.
 
@@ -97,7 +102,7 @@ Work down the card the week before the event; a red line here is a queue at the 
 
 ## Dancer admission
 
-![Dancer admission](/assets/images/shop/dancer-admission.png)
+![The Dancer admission card with its three choices; Only on the days they dance is selected](/assets/images/shop/dancer-admission.png)
 
 What a registration admits a dancer to, chosen per event:
 
@@ -113,7 +118,7 @@ Dancers never need a ticket to compete under the first two choices — their Vot
 
 The check-in station sells too: `Check-in → Sell`. It is the same catalog, with a cart, a total and **Paid in cash**. A customer can also pay by card on a staff member's iPhone: the staff member sells from the Vote4Dance app with Tap to Pay on iPhone — see [Tap to Pay on iPhone](/manager-guide/tap-to-pay/). A customer who prefers to pay on their own phone scans the QR on the page and buys there; passes are sold that way only.
 
-![The desk sell page](/assets/images/shop/desk-sell.png)
+![The Sell page at the desk: tickets, meals and merch with plus and minus buttons, the cart with its total and Paid in cash, and a QR code for a customer who buys on their own phone](/assets/images/shop/desk-sell.png)
 
 - Tickets sold at the desk are handed over on the spot (**Use now**) or given as a code the buyer photographs.
 - A receipt can be e-mailed from the sale, in the language picked next to the address. It starts on the language of the event's country, so a visitor from abroad can get theirs in English.

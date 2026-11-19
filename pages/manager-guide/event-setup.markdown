@@ -12,100 +12,114 @@ help:
 
 # Event setup
 
-Before you can run any competition, you need to create and configure the Event in Manager. This page guides you through setting up the foundational event details.
+This page is for the organizer who is about to create an event in Vote4Dance, often for the first or second time. At the end you have an event with the right name, dates, place and timezone, its picture uploaded, and you know how to publish it when you are ready. Classes, rounds and judges come after that, in [Competition setup](/manager-guide/competition-setup/).
 
-## Important: Prerequisites
+## Before you start
 
-Before starting event setup, confirm:
-- ✓ You have an Organizer account signed in to Vote4Dance
-- ✓ You have Manager access (you can see the Manager link in the menu)
-- ✓ Your organization is already created and approved (if required by your federation)
-
-If any of these is missing, see [Your organizer account](/organizer/account-creation/) first.
+- **A Vote4Dance account, signed in.** There is no separate organizer account and no approval step: whoever creates the event gets Manager on it. See [Your organizer account](/organizer/account-creation/).
+- **The name, the date or dates and the venue** of the event.
+- **Practice or live.** A practice event is for trying things out and is not billed. A live competition is a real one, and needs billing information before it can be published.
+- **Which federation, if any.** Its classes, rules and license checks follow from that choice. See [Running an event under a federation](/organizer/joining-a-federation/).
 
 ## What you create
 
-You'll create the basic Event record that will hold all your competition data:
-- Event name, location, date
-- Visibility (public or private)
-- Basic event settings
-- Upload event branding (logo, images)
+An event holds one or more competitions. Classes, participants, judges and rounds all belong to a competition, not to the event. The event itself carries:
 
-This is mostly one-time setup. After this, you'll configure competitions, rounds, and judging.
+- the name, the dates, the venue, the country and the timezone
+- the status, which decides whether the public can see it
+- the event image and the descriptions shown on the public event page
+- for a live competition, who Vote4Dance invoices
+
+You do this once per event.
 
 ## Where to go
 
-1. Sign in to Vote4Dance
-2. Look for **Manager** in the navigation menu (top or sidebar)
-3. Click **Manager**
-4. You should see an **Events** page or a "Create Event" button
-
-If you have already organized or taken part in a competition, there is a shortcut on the Vote4Dance home page: open the **My competitions** tab and click **Create a competition** at the top right. It takes you straight to the new event form.
+1. Sign in on the Vote4Dance home page.
+2. Open the **My competitions** tab.
+3. Click **Create a competition** at the top right.
 
 ![The Create a competition link on the My competitions tab](/assets/images/event-setup/my-competitions-create-link.png)
+
+The link is there once you have organized or taken part in a competition. If your tab is still empty, open **About** in the menu at the top of the home page and press **Create a competition** there.
+
+Both open the **Create event** form. It belongs to Scrutineer (Beta), the new version of Manager. See [Classic Manager and the new Manager](/manager-guide/users-and-stations/#classic-manager-and-the-new-manager).
+
+To get back to an event you have already created, open it from the **My competitions** tab.
 
 ## Step-by-step: Create your event
 
 ### Step 1: Create a new event
 
-In Manager, create a new event. The form is a short wizard.
+1. In **Event name**, type the name the audience will see. It is "Shown on the event page, tickets, prints and screens."
+2. Under **When**, choose **One day** or **Several days**, then pick the date or the first and last day.
+3. Under **What kind of event?**, choose one:
 
-**First question: How do you want to start?**
+   | Choice | When to pick it |
+   |---|---|
+   | **Practice event** | "Try it out with test dancers. It's free, and results don't give federation points." The right choice for a first look and for a rehearsal. It is chosen for you when the form opens. |
+   | **Live competition** | "A real competition, with federation rules, levels and points." Vote4Dance invoices you per dancer, and you add the billing details later, before you publish. |
+
+4. In **Use classes from**, choose the federation.
+   - For a practice event this is optional. Leave **No federation (I make my own classes)**, or pick a federation to try out its classes. No points are given.
+   - For a live competition you must pick the federation. Its rules, classes and license checks apply. There is no approval step: picking the federation is what puts the event on the federation's [Competitions](/federation/competitions/) list.
+5. For a live competition, fill in **Live competition details**:
+   - **Level**: optional, a reusable level from that federation.
+   - **Organizer**: the organizing club or company, as it should be shown.
+   - **Contact email**: optional. "Dancers' replies to their registration emails go to this address."
+   - **Venue**: where the event is held.
+6. Check **Country** and **Timezone**. Both are taken from the device you are using. The timezone drives every time shown in schedules, on screens and in the app, so check it even for a local event.
+7. Press **Create event**.
+
+A **Setting up your event** window shows the event being built. Then the event opens in Scrutineer (Beta), on its overview, with a checklist of what to set up next. This guide describes the classic Manager: press **Classic manager** at the top of that overview to open the same event there.
+
+If the form answers "Couldn't create the event", it lists the fields to check. If the window says "The event was created, but its main floor, screen or schedule could not be set up", press **Open the event anyway** and add them from the event. Do not fill in the form again: the event already exists.
+
+**What gets created with it.** A new event does not arrive empty. You get:
+
+- a floor called **Main floor**. See [Floors](/manager-guide/floors/).
+- one screen
+- four cafe products: Water, Coffee, Fruit and Candy
+- a schedule with a heading for each day and the items **Doors open** and **Competition start**. On the first day they are set to 08:00 and 09:00.
+
+Classes, rounds, judges and participants are yours to add. See [Competition setup](/manager-guide/competition-setup/).
+
+**The classic Manager's form.** The classic Manager has a new-event form of its own, at the address `/manager-react/new`. It asks for the same things in four steps, **Federation**, **Event**, **Location** and **Finalize**, and creates the same floor, screen, cafe products and schedule. Its first question is **How do you want to start?**
 
 | Choice | When to pick it |
 |---|---|
-| **Training competition with default settings** | "Best for your first event." Skips the questions you do not need yet and sets the event up with defaults. This is the right choice for a first-time organizer and for anything you are only testing. |
-| **Competition for a specific federation** | "Use this if you already know which federation setup and classes you need." You then pick the federation, and its rules, classes and license checks apply. There is no approval step: picking the federation is what puts the event on the federation's [Competitions](/federation/competitions/) list. |
+| **Training competition with default settings** | "Best for your first event." You only give the name, the date and the country. The questions about organizer, duration, contact email, description, mode, location and billing are skipped and filled in with defaults, and the event becomes a practice event. You can change all of them afterwards on the event's details page. |
+| **Competition for a specific federation** | "Use this if you already know which federation setup and classes you need." You pick the federation and go through all four steps, which have the fields described under [Step 3](#step-3-event-details-page). |
 
-**Then the event details:**
-
-| Field | What it is |
-|---|---|
-| **What is the name of your event** | The name the audience sees. Note that *an event can contain several competitions*. |
-| **Competition organizer** | The organizing club or company, as it should be shown. |
-| **Event duration** | `Single day` or `Multiple days`, then the date or date range. |
-| **Country** | Used for formats and public presentation. |
-| **Contact email** | Optional, shown publicly. |
-| **Short description** | Maximum 150 characters. |
-| **Event mode** | `Practice event` or `Live competition`. Practice mode keeps the lightweight setup; live competition enables reusable competition profiles and billing. |
-| **Competition level** | Optional, and only for a federation event that is not a practice event: a reusable level from that federation. Retired levels are not offered, unless the competition already uses one. |
-| **Location** | The venue. There is a **Verify on Google Maps** link next to it — use it, because this is what people navigate by. |
-| **Timezone** | Drives every time shown in schedules, on screens and in the app. |
-| **Billing information** | Only for live competitions; not asked for practice events. Who Vote4Dance invoices for the competition; see below. |
-
-**Billing information.** The step is filled in on the page itself. Your own recent customers are shown as cards, with the competition each was last used for; pick one. For anybody else's customer, search by name (type at least 4 letters; if more customers match, type more of the name). If the customer does not exist yet, choose **New customer**: pick **Club or company** or **Private person**, and fill in name, email and country. The form starts from the organizer, contact email and country you entered above, and an address can be added. **Create** saves the new customer and the competition in one press. A live competition cannot be created without a customer, and cannot be published without billing information.
-
-The quick "training competition" path hides the organizer, duration, description, mode and
-billing questions and fills them in for you. You can change all of them afterwards on the
-event's details page.
-
-**What gets created with it.** A new event does not arrive empty. You get a floor called
-**Main floor** (see [Floors](/manager-guide/floors/)), one screen, a set of default cafe products, and a starting schedule for the
-day with **Doors open** and **Competition start** blocks. Classes, rounds, judges and teams
-are yours to add — see [Competition setup](/manager-guide/competition-setup/).
+**Create** makes the event and opens its **Competitions** page with the **Setup guide**, a panel that takes you through **Event structure**, **Schedule**, **Classes**, **Participants**, **Rounds**, **Judges** and **Finish**. On a practice event you can open it again with **Open setup guide** on **Event overview**.
 
 ### Step 2: Event status
 
-An event has four statuses, and **Change status** moves it between them:
+An event is **Hidden**, **Published** or **Closed**. You change the status on **Event overview**, the first item in the left menu, with one button that always offers the next status:
 
-| Status | What it means | Action that gets you there |
+| Status | What it means | Button you see in this status |
 |---|---|---|
-| **Hidden** | The event exists but nobody outside your team can see it. This is where it starts and where you build it. | **Revert to hidden** |
-| **Published** | The event is public: it can be found, and registration can open. | **Publish competition** |
-| **Closed** | The competition is over. For a federation event, closing is what triggers promotion-point processing — see [Post-event and exports](/manager-guide/post-event/). | **End competition** |
-| **Archived** | Put away for good. | **Archive competition** |
+| **Hidden** | Only the people who manage the event can see it. This is where it starts and where you build it. | **Publish competition** |
+| **Published** | The event page is public and dancers can find the event. | **End competition** |
+| **Closed** | The competition is over and Manager is read-only. For a federation event, closing is what triggers promotion-point processing. See [What closing does](/manager-guide/post-event/#what-closing-does). | **Revert to hidden** |
 
-Two guards stop you publishing too early, and both are worth knowing before you promise a
-date:
+To change the status:
 
-- "Competition needs an image before it can be published." — upload the event image, see
-  [Event image](/manager-guide/event-image/).
-- "Competition needs billing information before it can be published." — only for live
-  competitions; practice events are never billed.
+1. Open **Event overview**.
+2. Press the button. A **Change status** dialog asks "Are you sure you want to change competition to published" (or closed, or hidden).
+3. Confirm.
 
-Registration is **not** a status. Whether people can register is decided by the registration
-periods you set up, independently of the event being published — see
-[Registration and check-in](/manager-guide/registration-checkin/).
+Two things stop **Publish competition**, and both are worth knowing before you promise a date:
+
+- **No event image.** The button is greyed out, and pointing at it shows "Competition needs an image before it can be published." Upload the image first. See [Event image](/manager-guide/event-image/).
+- **No billing information.** Pressing the button answers "Competition needs billing information before it can be published." While it is missing, **Event overview** has a **Billing information** button that opens the step where you add it. See [Step 3](#step-3-event-details-page).
+
+A practice event has no billing information, so the classic Manager gives a practice event the same answer. Scrutineer (Beta) publishes a practice event without billing information.
+
+In Scrutineer (Beta) the statuses have the same names. You change them on the overview: **Publish event…** is a button, and the status tag at the top of the page offers **Close the competition** and **Make hidden**.
+
+There is a fourth status, **Archived**. Neither version of Manager has a button that archives an event: only Vote4Dance's own administrators can set it. An archived event is read-only, and its status button is greyed out.
+
+Registration is **not** a status. Dancers can register while one of your registration periods is open, and they have to be able to find the event, so publish it before the period opens. See [Registration and check-in](/manager-guide/registration-checkin/).
 
 **Timeline example:**
 
@@ -114,73 +128,77 @@ Today:              Hidden (you are building)
 8 weeks before:     Published, registration period opens
 Competition day:    Published (rounds run, results publish per round)
 After the event:    Closed (ends the competition, triggers promotion points)
-Much later:         Archived
 ```
 
 ### Step 3: Event details page
 
-You'll see several sections on your Event page:
+**Event overview** shows the event's name, dates, venue and country at the top. To change any of them:
 
-**Overview**
-- Event name, dates, location
-- Status and visibility
-- Edit button to change any of these
+1. On **Event overview**, press **Edit event**. The **Competition details** page opens.
+2. Click the step that holds the field: **Federation**, **Event**, **Location** or **Finalize**. **Next** and **Previous** move one step at a time.
+3. Change the field.
+4. Go to **Finalize** and press **Save changes**. You are back on **Event overview**.
 
-**Competitions**
-- An event holds one or more competitions. Classes, participants, judges and rounds all belong
-  to a competition, not to the event.
+| Step | Field | What it is |
+|---|---|---|
+| **Federation** | **Select a federation** | The federation whose rules, classes and license checks apply. |
+| **Event** | **What is the name of your event** | The name the audience sees. "An event can contain multiple competitions". |
+| | **Competition organizer** | The organizing club or company, as it should be shown. |
+| | **Event duration** | `Single day` or `Multiple days`, then the date or date range. |
+| | **Country** | Used for formats and public presentation. |
+| | **Contact email** | Optional. "Dancers' replies to their registration emails go to this address." |
+| | **Short description** | Maximum 150 characters. Shown on the public event page. |
+| | **Event mode** | `Practice event` or `Live competition`. "Practice mode keeps the lightweight setup. Live competition mode enables reusable competition profiles and billing." |
+| | **Competition level** | Optional, and only for a federation event that is not a practice event: a reusable level from that federation. Retired levels are not offered, unless the competition already uses one. |
+| **Location** | **Location** | The venue. There is a **Verify on Google Maps** link under it. Use it, because this is what people navigate by. |
+| | **Timezone** | Drives every time shown in schedules, on screens and in the app. |
+| **Finalize** | **Billing information** | Only for live competitions; not asked for practice events. Who Vote4Dance invoices for the competition. |
 
-**Public info**
-- The short description (max 150 characters) shown on the public event page
+**Billing information.** The step is filled in on the page itself. Your own recent customers are shown as cards, with the competition each was last used for; pick one. For anybody else's customer, search by name (type at least 4 letters; if more customers match, type more of the name). If the customer does not exist yet, choose **New customer**: pick **Club or company** or **Private person**, and fill in name, email and country. The form starts from the organizer, contact email and country of the event, and an address can be added with **Add address**. **Save changes** saves the new customer and the event in one press. A live competition cannot be saved without a customer, and cannot be published without billing information.
 
-**Location**
-- The venue, with a **Verify on Google Maps** link — use it, this is what people navigate by
+To turn a practice event into a live competition, change **Event mode** on the **Event** step. **Finalize** then asks for the billing information.
+
+**Event overview** itself also holds:
+
+- the status button. See [Step 2](#step-2-event-status).
+- **Delete event**. See [Can I delete an event?](#can-i-delete-an-event)
+- the event image. See [Step 4](#step-4-upload-the-event-image).
+- the long description, with its own **Save changes** button. It is "Shown on the event page and linked from registration emails. A good place for your FAQ."
+
+In Scrutineer (Beta) the same page is called **Event details**.
 
 ### Step 4: Upload the event image
 
 Your event needs one picture. It is used on the public event page, on the event
-cards, in the mobile app and in the emails sent to judges and sponsors — and an
-event cannot be made public without it.
+cards, in the mobile app and in the emails sent to judges and sponsors, and an
+event cannot be published without it.
 
-1. Go to the event **Overview** section
-2. Click the image box and choose **Upload**
-3. Select the image from your computer
+1. Open **Event overview**.
+2. Click the image box and choose **Upload**.
+3. Select the image from your computer.
 
 **What image to use:** a landscape **1600 × 900 JPG or PNG** with the important
-part in the middle. Do not upload HEIC photos straight from an iPhone — they
+part in the middle. Do not upload HEIC photos straight from an iPhone: they
 cannot be processed.
 
 See [Event image](/manager-guide/event-image/) for the full guidance, including
 what gets cropped on each screen and how to convert an iPhone photo.
 
-## Common sections in event setup
+## Where the rest is set up
 
-### Overview
+The other items in Manager's left menu each have their own page in this guide:
 
-The event's own details: name, organizer, dates, country, contact email, short description,
-event mode, location, timezone and — for live competitions — billing information, chosen on the page the same way as when the event was created. This is also
-where the event image and the status live.
-
-### Classes
-
-Classes belong to a competition, not to the event, and each one maps to a **Federation Class**
-that carries its age and level rules.
-
-**You'll set up classes in [Competition setup](/manager-guide/competition-setup/).**
-
-### Rounds and judging panels
-
-Rounds live inside a class, and each round is placed on a **schedule item** and, if you use them, a [**floor**](/manager-guide/floors/).
-That is what gives the public schedule, the speaker and the screens their times. See
-[Schedule and conflicts](/manager-guide/schedule/) and [Floors](/manager-guide/floors/).
-
-**You'll set up rounds in [Competition setup](/manager-guide/competition-setup/).**
-
-### Registration & Payment Settings
-
-Fees are not set on the event. They belong to the **registration period**, which also decides
-the payment mode (free of charge, manual, or online through Stripe), the currency and the price ladder.
-See [Registration and check-in](/manager-guide/registration-checkin/).
+| In the menu | What you do there | Read |
+|---|---|---|
+| `Event → Competitions` | Split the event into several competitions, when each part has its own classes, judges and results. | [Competition setup](/manager-guide/competition-setup/) |
+| `Event → Floor` | Add floors when you run rounds in parallel. | [Floors](/manager-guide/floors/) |
+| `Event → Users` and `Event → Stations` | Decide who works the competition and which app each of them gets, and set up the shared devices. | [Users, apps and stations](/manager-guide/users-and-stations/) |
+| `Event → Schedule` | Build the day. Each round is placed on a **schedule item** and, if you use them, a [**floor**](/manager-guide/floors/). That is what gives the public schedule, the speaker and the screens their times. | [Schedule and conflicts](/manager-guide/schedule/) |
+| `Competition → Classes` | Create classes and their rounds. Classes belong to a competition, not to the event, and each one maps to a **Federation Class** that carries its age and level rules. Rounds live inside a class. | [Competition setup](/manager-guide/competition-setup/) |
+| `Competition → Registration` | Set up registration periods. Fees are not set on the event: they belong to the **registration period**, which also decides the payment mode (free of charge, manual, or online through Stripe), the currency and the price ladder. | [Registration and check-in](/manager-guide/registration-checkin/) |
+| `Audience → Screens` | Decide which views the projectors and TVs show, and in which order. | [Screens, projectors and venue technology](/manager-guide/screens/) |
+| `Audience → Sponsors` | Set up sponsors and sponsor sales. | [Sponsors](/manager-guide/sponsors/) |
+| `Audience → Live results` | Decide what the public sees: **Show live placement on web**, **Show judges marks on web**, **Audience voting** and **Show competitor list publicly**. | [What the audience sees](/manager-guide/live-operations/#what-the-audience-sees) |
 
 ## What you can print
 
@@ -190,78 +208,60 @@ Manager prints from the round and participant pages:
 - Heat lists
 - Judging sheets
 - Results
-- Diplomas — see [Customizing diplomas](/manager-guide/diploma-customization/)
+- Diplomas. See [Customizing diplomas](/manager-guide/diploma-customization/).
 - The schedule
-- Dressing-room lists — see [Statistics](/manager-guide/statistics/)
+- Dressing-room lists. See [Statistics](/manager-guide/statistics/).
 - The registration QR poster ("Scan to register")
 
 ## Verifying your event is set up correctly
 
-After creating the event:
-
-1. **The event is listed** in Manager, and opens to its details page
-2. **Dates, location and timezone are correct** — the timezone drives every time shown to
-   everyone, so check it even for a local event
-3. **The event image is uploaded** — without it the event cannot be published
-4. **Status is Hidden** while you build, and **Published** when it should be public
-5. **Problems shows no failed tests**
+1. **The event opens on Event overview** from your **My competitions** tab, with the right name, dates, venue and country at the top.
+2. **The timezone is correct.** It drives every time shown to everyone, so check it even for a local event.
+3. **The event image is uploaded.** Without it the event cannot be published.
+4. **The status is what you intend:** **Hidden** while you build, **Published** when it should be public.
+5. **Competitions, floors and users are complete.**
+6. **The schedule is built**, and it is published only if you mean it to be.
+7. **Live results** and the other pages under **Audience** are set the way you want the public to see the event.
+8. **Problems is not in the left menu.** It appears under **Event overview** while a check fails. See [Problems](/manager-guide/validator/).
 
 ## Troubleshooting
 
-### "I don't see a Create Event button"
+### "I cannot find Create a competition"
 
-1. Verify you're in Manager (click Manager link)
-2. Look for **Events** page or section
-3. Button might be labeled **+ New Event** or **Create Event**
-4. If still not visible, you might not have organizer permissions (see [Organizer setup](/organizer/account-creation/))
+1. Check that you are signed in.
+2. On the home page, open the **My competitions** tab. The **Create a competition** link is at the top right of the tab, and only while the tab lists at least one competition.
+3. If the tab is empty, open **About** in the menu at the top and press **Create a competition** there.
 
-### "I created the event but it's not showing up"
+### "I created the event but cannot find it"
 
-1. Refresh the page (Ctrl+R or Cmd+R)
-2. Go to Manager → Events → find your event in the list
-3. If it's not in the list, try creating it again (previous create might have had an error)
+Open the **My competitions** tab on the home page. Your event is listed there, also while it is **Hidden**, and it opens from there.
+
+Do not create it a second time. If the **Setting up your event** window stopped with an error, the event exists: press **Open the event anyway**.
 
 ### "I need to change the event name"
 
-1. Go to the event in Manager
-2. Look for **Edit** button next to the event name
-3. Change the name
-4. Click **Save**
+1. Open **Event overview** and press **Edit event**.
+2. Click the **Event** step.
+3. Change **What is the name of your event**.
+4. Go to **Finalize** and press **Save changes**.
 
 ### "I set the wrong date"
 
-1. Go to event details
-2. Find **Overview** or **Event Details** section
-3. Click **Edit**
-4. Change the dates
-5. Click **Save**
+1. Open **Event overview** and press **Edit event**.
+2. Click the **Event** step.
+3. Change the date. To go between one day and several, change **Event duration** first.
+4. Go to **Finalize** and press **Save changes**.
+
+Changing the date does not move the schedule. Check the day headings on `Event → Schedule` afterwards.
+
+### "Publish competition is greyed out, or answers with a message"
+
+The event has no image, or no billing information. See [Step 2](#step-2-event-status).
 
 ### "Can I delete an event?"
 
-It depends on your federation's rules:
-- If no dancers have registered: Usually yes, click **Delete** (if shown)
-- If dancers have registered: Usually no — the event is locked. Contact federation admin if you really need to delete it.
+Yes. **Delete event** on **Event overview** removes the event for good, with its classes, participants, rounds and results. Manager first asks "Are you sure you want to delete" with the event's name.
 
-## Other event modules
-
-The event page has further sections you may want to configure:
-
-- `Users` and `Stations`: who works the competition and which app each of them gets, plus the shared devices. See [Users, apps and stations](/manager-guide/users-and-stations/).
-- `Screens`: which views the projectors and TVs show, and in which order. See [Screens, projectors and venue technology](/manager-guide/screens/).
-- `Voting`: enable/disable audience voting.
-- `Live`: control public live/result visibility behaviour.
-- `Sponsors`: sponsor setup and sales if enabled for your environment. See [Sponsors guide](/manager-guide/sponsors/).
-
-## Event setup done checklist
-
-1. Event name, dates and location are correct
-2. Event image is uploaded and the status/visibility is what you intend
-3. Competitions, floors and users are complete
-4. Schedule pages are built and the published state is intentional
-5. **Problems** shows no failed tests
-6. Public-facing modules are configured as intended
-7. No error messages on the event page
-
-## When you're ready
-
-Next: [Competition setup](/manager-guide/competition-setup/) — define classes, rounds and judges.
+- While the event is split into competitions on `Event → Competitions`, Manager answers "You must delete all child competitions before the event can be deleted". Delete those first.
+- An event with paid shop orders cannot be deleted: "The event has paid shop orders and cannot be deleted".
+- The button is greyed out on a closed event.

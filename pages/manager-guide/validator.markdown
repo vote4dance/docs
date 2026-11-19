@@ -17,13 +17,15 @@ help:
 
 # Problems (setup checks)
 
-**Problems** runs a set of automatic checks on your competition setup: participants, start numbers, classes, rounds, judge panels and the schedule. It lists every check that fails, together with the participants or rounds that caused it. The checks run on the server and update by themselves while you work, so you never have to start them.
+For organizers and scrutineers who want to know that the setup is sound before the first round. **Problems** checks your competition setup by itself: participants, start numbers, classes, rounds, judge panels and the schedule. It lists every check that fails, together with the participants, rounds or panels that caused it, and says what to do about each.
+
+The checks update by themselves while you work, so you never have to start them.
 
 ## Where to find it
 
 **Problems** is at the top of the Manager sidebar, under **Event overview**, marked with a red warning icon. A badge shows how many checks are failing. When only [warnings](#reading-the-page) are left, the link stays, without the red icon, and its badge is orange and counts the warnings.
 
-The link only appears while at least one check fails. When everything passes it disappears from the sidebar. You can still open the page directly at `/manager/event/<event id>/validator`, where each competition shows an empty result.
+The link only appears while at least one check fails. When everything passes it disappears from the sidebar. If you still have the page open then, each competition shows an empty result.
 
 You need the Manager app for the event to see Problems.
 
@@ -59,8 +61,8 @@ These checks run for every competition. The name is the text shown after **Valid
 | no start number is used by different entries in different classes (warning) | Two entries in different classes share a start number but are different dancers. | Give one of them another **Start number** on the Participants page. |
 | participants without a placement have an existing class set to start in | A participant has no class at all, or their class has been deleted. A participant whose class was deleted is not flagged if they are cancelled or already have a placement. | Open the participant and pick a class in **Starting in**, or cancel the participant. See [Participants](/manager-guide/competition-setup/#step-3-add-participants). |
 | the same person ID is always used with the same name | One **Person ID** appears on participants under two different names, for example a typo in one registration. For a group entry (a crew name with members' IDs), the crew name is not compared. | Correct the name or the **Person ID** on the listed participants. If the data came from an import, fix the source file and import again. See [Update/import participants](/manager-guide/registration-checkin/#updateimport-participants). |
-| finales have no participants through | The last round of a class has **Number to advance** above 0 and no **Round priority setting**. A sub-round of the final with **Number to advance** above 0 also fails. | Set **Number to advance** to `0` on the final and its sub-rounds. See [Build rounds](/manager-guide/competition-setup/#step-2-build-rounds-from-classes). |
-| rounds before the finale has participants through | A round before the final has **Number to advance** set to `0`, so nobody would move on. Rounds with **Best placement** set, rounds with no judging, sub-rounds of the final and battles inside a round are not checked. Neither is a B-final or bronze, or the dances inside it, when it takes the losers of another round or sits in a battle bracket: it places its dancers and sends nobody on. A second chance round at `0` is still listed, because it should send dancers on. | Set **Number to advance** on the round. See [Build rounds](/manager-guide/competition-setup/#step-2-build-rounds-from-classes). |
+| finales have no participants through | The last round of a class has a **Number to advance** and no **Round priority setting**. A sub-round of the final with a **Number to advance** also fails. | Open the final and click **Disable** next to **Number to advance**, so the field is empty and reads "Disabled". Do the same on its sub-rounds. The field does not take `0`. In Scrutineer (Beta) the field is **How many go through**, with the hint "Leave empty for the final." See [Build rounds](/manager-guide/competition-setup/#step-2-build-rounds-from-classes). |
+| rounds before the finale has participants through | A round before the final has no **Number to advance** (the field reads "Disabled"), so nobody would move on. Rounds with **Best placement** set, rounds with no judging, sub-rounds of the final and battles inside a round are not checked. Neither is a B-final or bronze, or the dances inside it, when it takes the losers of another round or sits in a battle bracket: it places its dancers and sends nobody on. A second chance round with no **Number to advance** is still listed, because it should send dancers on. | Click **Enable** next to **Number to advance** on the round and type how many go through. See [Build rounds](/manager-guide/competition-setup/#step-2-build-rounds-from-classes). |
 | main rounds should share the same schedule group as the last sub round | A main round with sub-rounds is on a different **Schedule item** from its last sub-round. The summary round would then appear in the schedule at the wrong time. Match-judged rounds are not checked. | Put the main round on the same **Schedule item** as its last sub-round. See [Build rounds](/manager-guide/competition-setup/#step-2-build-rounds-from-classes). |
 | classes with rounds have judges added | A judged round has no judging panel, or nobody on its panel whose marks count: a **Judge**, **Chief judge (in)** or **Audience**. The panel is the round's own panel if it has one, otherwise the class's panel. Rounds of a **Group** whose child classes have no **Class role** are not checked, since their judges sit on the child classes. | Choose a panel for the class or the round, and seat at least one **Judge** on it. See [Classes](/manager-guide/judge-panels/#classes). |
 | group classes have no judges added | A **Group** class (whose child classes have no **Class role**) has a round whose panel has judges on it. In such a group the judges belong on the child classes, not the group. | Remove the panel from the group class and its rounds, or remove the judges from that panel. Put the judges on the child classes' panels instead. See [Judges and panels](/manager-guide/judge-panels/#classes). |
@@ -73,12 +75,14 @@ These checks run for every competition. The name is the text shown after **Valid
 | the last round of each leader/follower class marks Through and Alt (warning) | The last round of a leader or follower class does not mark its dancers Through and Alt, so nobody can be drawn into the final. | Set **Round priority setting** to **Alternates** on the round's **Priority** tab. |
 | no dancer is scheduled in two overlapping rounds at the same time | A dancer is in two rounds whose estimated times overlap. See [Schedule conflicts](#schedule-conflicts). | Move one of the rounds in the schedule, or put both on the same floor. See [Several floors at once](/manager-guide/floors/#several-floors-at-once). |
 | rounds decided by majority have an odd number of judges | A round placed by a majority of the judges has an even number of judges on its panel. Often a judge who should be a **Trainee judge** is on the panel as **Judge**. See [Even judge panels](#even-judge-panels). | On the panel, change the extra judge to **Trainee judge**, or add or remove a judge. See [Judge types](/manager-guide/judges/#judge-types). |
-| panels have all the seats they ask for (warning) | A panel used by a round has fewer judges, chief judges, trainees or observers than its **Seats wanted**. See [Panels short of seats](#panels-short-of-seats). | **Fill open seats** in the panel's pop-up, seat someone yourself, or lower **Seats wanted**. See [A panel's settings](/manager-guide/judge-panels/#a-panels-settings). |
+| panels have all the seats they ask for (warning) | A panel used by a round has fewer judges, chief judges or trainees than its **Seats wanted**. See [Panels short of seats](#panels-short-of-seats). | **Fill open seats** in the panel's pop-up, seat someone yourself, or lower **Seats wanted**. See [A panel's settings](/manager-guide/judge-panels/#a-panels-settings). |
 | no judge is on two floors at the same time | A judge is on the panels of two rounds that run at the same time on different floors. See [Judges on two floors](#judges-on-two-floors). | Put a different judge on one of the panels, or run the rounds one after the other. See [Panels](/manager-guide/judge-panels/#panels). |
 
 ## Panels short of seats
 
-A warning, not a failure. On the Judges page each panel can say how many judges, which chief judge, and how many trainees and observers it wants (**Seats wanted** in the panel's pop-up). This check lists the panels used by a round that have fewer seated than that, for example "2 × Judge, 1 × Observer" under **Open seats**. A **Chief judge (in)** counts as one of the judges wanted, a **Chief judge (out)** does not. Panels without **Seats wanted** are not checked.
+A warning, not a failure. On the Judges page each panel can say how many judges, which chief judge and how many trainees it wants (**Seats wanted** in the panel's pop-up). This check lists the panels used by a round that have fewer seated than that, for example "2 × Judge, 1 × Trainee judge" under **Open seats**. A **Chief judge (in)** counts as one of the judges wanted, a **Chief judge (out)** does not. Panels without **Seats wanted** are not checked.
+
+The line under the check's heading also names observers. There is no observer seat to choose on a panel, so no panel asks for one; the seats are the [judge types](/manager-guide/judges/#judge-types).
 
 Click the panel to open it on the Judges page. The same warning shows above the tabs there, in orange.
 
@@ -101,7 +105,7 @@ These run only when the competition's federation is WDSF.
 |---|---|---|
 | parent round summarizing checkmarks | A main round that sums checkmarks (**Sum marks**) has a sub-round with a different judging type. | Give every sub-round checkmark judging, or change the main round. See [Build rounds](/manager-guide/competition-setup/#step-2-build-rounds-from-classes). |
 | parent round summarizing placements | A main round that sums placements (**Sum placements**) has a sub-round with a different judging type. | Give every sub-round placement judging, or change the main round. See [Build rounds](/manager-guide/competition-setup/#step-2-build-rounds-from-classes). |
-| finale is not using checkmarks | A main round with **Number to advance** `0` (a final) uses checkmark judging. | Change the final's **Judging type** to placement judging. See [Build rounds](/manager-guide/competition-setup/#step-2-build-rounds-from-classes). |
+| finale is not using checkmarks | A main round with no **Number to advance** (a final) uses checkmark judging. | Change the final's **Judging type** to placement judging. See [Build rounds](/manager-guide/competition-setup/#step-2-build-rounds-from-classes). |
 
 ## Schedule conflicts
 
@@ -125,12 +129,12 @@ Some rounds are placed by a majority of the judges: a participant gets a place w
 The check looks at rounds judged with:
 
 - placement judging, where the judges place the participants
-- full or partial judging, where the judges' scores are turned into places and skated, unless the judging type has skating turned off (`disableSkating` in the federation's judging settings)
-- partial-input judging in a final (a round with **Number to advance** `0`)
+- full or partial judging, where the judges' scores are turned into places and skated, unless skating is turned off for that judging type in the federation's judging settings
+- partial-input judging in a final (a round with no **Number to advance**)
 
 Rounds that add up marks, points or scores instead are not checked, whatever the number of judges.
 
-**Who counts.** Only judges whose marks decide the result: **Judge**, **Chief judge (in)** and **Audience**. **Trainee judge**, **Chief judge (out)** and observers are left out, as they are when the result is calculated. A panel of four judges and one trainee judge therefore has four, and fails.
+**Who counts.** Only judges whose marks decide the result: **Judge**, **Chief judge (in)** and **Audience**. **Trainee judge** and **Chief judge (out)** are left out, as they are when the result is calculated. A panel of four judges and one trainee judge therefore has four, and fails.
 
 **Which panel.** The round's own panel if it has one (see [Round override](/manager-guide/judge-panels/#round-override)), otherwise the class's panel. A round without a panel, or whose panel has no judge that counts, is not listed by this check.
 

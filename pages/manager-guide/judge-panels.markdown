@@ -18,13 +18,13 @@ help:
 
 For organizers and scrutineers who build the judging panels of a competition. Here you seat the judges on panels, record what each judge can and can't judge, let Vote4Dance suggest seats, and give every class and round its panel.
 
-You do this on the **Panels** and **Classes** tabs of `Manager → Competition → Judges`, or of the **Judges** tab of the Supervisor app, once the judges are on the list. To add and invite them, see [Judges](/manager-guide/judges/).
+You do this on the **Judging panels** and **Classes** tabs of `Manager → Competition → Judges`, or of the **Judges** tab of the Supervisor app, once the judges are on the list. To add and invite them, see [Judges](/manager-guide/judges/).
 
 ## Panels
 
 A panel is a named group of judges. Classes and rounds are judged by a panel, not by individual judges. A round cannot be started until its class or the round has a panel. **Start judging** is refused with "Assign a judging panel to this class or round before starting judging."
 
-The **Panels** tab shows every judge as a row and every panel as a column. Each cell is that judge's seat on that panel. The judges are listed by letter, then by name, as on the **Judges** tab. To group judges while you build the panels, for example by hall, you can give them a temporary letter per hall on the **Judges** tab and set their real letters afterwards.
+The **Judging panels** tab shows every judge as a row and every panel as a column. Each cell is that judge's seat on that panel. The judges are listed by letter, then by name, as on the **Judges** tab. To group judges while you build the panels, for example by hall, you can give them a temporary letter per hall on the **Judges** tab and set their real letters afterwards.
 
 You can seat judges on a panel before it judges any class. A panel that isn't used yet has a grey column and says "Not used by any round". Set up all your panels first if you like, then give each class its panel on the [Classes](#classes) tab.
 
@@ -34,7 +34,7 @@ At the top of each column, under the panel's name, is how many judges the panel 
 
 ### Seating a judge
 
-In the **Supervisor** app, one click is enough:
+In the **Supervisor** app and in Scrutineer (Beta), one click is enough:
 
 1. Click the empty cell where the judge's row meets the panel's column. The judge is seated as **Judge** straight away. A judge whose **Seat** need is **Trainee** gets **Trainee judge** instead (see [Judge needs](#judge-needs)).
 2. To give them another seat, click the seat, or right-click the cell, and choose **Judge**, **Chief judge (out)**, **Chief judge (in)**, **Trainee judge** or **Audience**. See [Judge types](/manager-guide/judges/#judge-types).
@@ -42,7 +42,7 @@ In the **Supervisor** app, one click is enough:
 
 A striped cell still opens the list first, so you see why the judge can't sit there before you decide. If a list is open, clicking an empty cell only closes the list.
 
-In **Manager**, each click opens the list:
+In the classic **Manager**, each click opens the list:
 
 1. Click the cell where the judge's row meets the panel's column.
 2. Choose the seat: **Judge**, **Chief judge (out)**, **Chief judge (in)**, **Trainee judge** or **Audience**.
@@ -50,7 +50,7 @@ In **Manager**, each click opens the list:
 
 To take a judge off a panel, click their seat and choose **Remove from panel**.
 
-The cell shows the seat's letter: **J** for judge, **C** for chief judge, **T** for trainee and **A** for audience. Under the grid, a legend explains the colours:
+The cell shows the seat's letter: **J** for judge, **C** for chief judge, **T** for trainee and **A** for audience. Above the grid, a legend lists these letters and explains the marks on a cell:
 
 | Look | Meaning |
 |---|---|
@@ -59,7 +59,7 @@ The cell shows the seat's letter: **J** for judge, **C** for chief judge, **T** 
 | Striped cell | **Can't sit here**: seating the judge would break a need. You can still seat them. |
 | Dashed outline | **Not saved yet**: a suggested seat in a [preview](#letting-vote4dance-suggest-seats). |
 
-Click or hover over a seat to see why it is marked. The reasons are also listed at the top of the seat's menu, so they can be read on a tablet.
+Hover over a letter in the legend to read what that [judge type](/manager-guide/judges/#judge-types) does. Click or hover over a seat to see why it is marked. The reasons are also listed at the top of the seat's menu, so they can be read on a tablet.
 
 Under each judge's name is how much they judge in this competition, for example "6 rounds · 45 min". Rounds in the event's other competitions are not counted here. The search box finds a judge by name or letter, and **Only judges with problems** hides everyone whose seats are fine.
 
@@ -111,7 +111,7 @@ The speaker can see the judges grouped by panel, which helps when presenting the
 1. Open the speaker app for the event and go to **Overview**.
 2. In the **Judges** card, choose **By panel**.
 
-Each panel is listed under its competition, in the same order as on the **Panels** tab, with the judges seated on it. A judge on several panels appears under each of them. Judges who are not on any panel are listed last, under **Not in a panel**. Audience seats are not shown.
+Each panel is listed under its competition, in the same order as on the **Judging panels** tab, with the judges seated on it. A judge on several panels appears under each of them. Judges who are not on any panel are listed last, under **Not in a panel**. Audience seats are not shown.
 
 Choose **All judges** to go back to one list per competition. The speaker app remembers the choice on that device.
 
@@ -119,7 +119,7 @@ Choose **All judges** to go back to one list per competition. The speaker app re
 
 ## Judge needs
 
-Each judge can have needs that Vote4Dance checks every seat against. Open them with the needs button on the judge's row on the **Panels** tab, or click **Needs** on the **Judges** tab.
+Each judge can have needs that Vote4Dance checks every seat against. Open them with the needs button on the judge's row on the **Judging panels** tab, or click **Needs** on the **Judges** tab.
 
 ![A judge's needs](/assets/images/judges/judge-needs.png)
 
@@ -135,7 +135,7 @@ Each judge can have needs that Vote4Dance checks every seat against. Open them w
 | **Split leader/follower classes** | Whether the judge prefers to judge **Leaders**, **Followers** or **Either**. |
 | **What they judge** | **Can only judge** limits the judge to some divisions, disciplines, levels, categories or age groups; other classes show as **Can't sit here**. **Wants to judge** is a wish that Suggest follows when it can. Only the kinds where your classes differ are shown. |
 | **Note** | Anything else. |
-| **Supervisor note** | Only supervisors see this, never the judge. |
+| **Note for organizers** | Only organizers see this, never the judge. |
 
 Choose **Save and mark reviewed**. Seats on the grid are checked again straight away.
 
@@ -170,7 +170,7 @@ Above the tabs, the page lists what is wrong with the judging, in the order it n
 
 ![Problems listed above the tabs](/assets/images/judges/problems.png)
 
-Red problems need fixing; orange ones are warnings. **Show** takes you to the problem: a panel opens on the **Panels** tab, a round without a panel is highlighted on the **Classes** tab, and a judge is found in the grid.
+Red problems need fixing; orange ones are warnings. **Show** takes you to the problem: a panel opens on the **Judging panels** tab, a round without a panel is highlighted on the **Classes** tab, and a judge is found in the grid.
 
 | Problem | What to do |
 |---|---|
@@ -193,7 +193,7 @@ The **Classes** tab says which panel judges each class and round.
 
 ![Each class with its panel, and each round's own panel](/assets/images/judges/classes-rounds.png)
 
-Choose a panel in the **Judge panel** column. The panel judges every round of that class, unless a round has its own. To give several classes the same panel, tick them first, then choose the panel on any of the ticked rows.
+Choose a panel in the **Judging panel** column. The panel judges every round of that class, unless a round has its own. To give several classes the same panel, tick them first, then choose the panel on any of the ticked rows.
 
 ### Round override
 
@@ -203,7 +203,7 @@ A single round can be judged by a different panel, for example a final with a la
 - Any other panel gives the round its own. It is tagged **Own panel**.
 - A round whose class has no panel and that has none of its own is tagged **No panel** in red.
 
-The change is saved at once. A problem with a round is marked next to it. You can also set a round's panel in the round's own **Judge panel** setting ("Replaces class judging panel for this round") in `Manager → Competition → Classes`.
+The change is saved at once. A problem with a round is marked next to it. You can also set a round's panel in the round's own **Judging panel** setting ("Replaces class judging panel for this round") in `Manager → Competition → Classes`, as long as the round has no marks.
 
 On a tablet or a smaller screen, each class shows its panel and its rounds stacked under its name.
 
@@ -214,8 +214,10 @@ Panels lock when judging starts, so marks are not given by a panel that has chan
 | What | Locked when | What you see |
 |---|---|---|
 | A panel's seats | Any round that uses the panel, from its class or as its own panel, has scores | The panel's cells can't be changed and its name shows a lock. |
-| A class's panel | Any round of the class has been started | The class's **Judge panel** and tick box are greyed out. |
-| A round's own panel | Judges who would leave the round have given marks in it | You're asked whether to remove their marks (see [Replacing a judge who has already given marks](/manager-guide/judges-on-the-day/#replacing-a-judge-who-has-already-given-marks)). |
+| A class's panel | Any round of the class has been started | The class's **Judging panel** and tick box on the **Classes** tab are greyed out. |
+| A round's own panel, in the round's settings | The round has marks | The round's **Judging panel** setting is greyed out. |
+
+A round's panel in the **Rounds** column of the **Classes** tab does not lock. There you can still change who judges a round after judging has started, in Manager, in Scrutineer (Beta) and in the Supervisor app. If a judge who would leave the round has given marks in it, you're asked whether to remove those marks; see [Replacing a judge who has already given marks](/manager-guide/judges-on-the-day/#replacing-a-judge-who-has-already-given-marks).
 
 A panel cannot be deleted while any round uses it.
 

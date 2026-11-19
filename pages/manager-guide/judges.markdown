@@ -15,7 +15,9 @@ help:
 
 # Judges
 
-The Judges page is where you decide who judges a competition, which panel each judge sits on, and which panel judges each class and round. Open it from `Manager → Competition → Judges`. People with the **Supervisor** app get the same page as the **Judges** tab of the Supervisor app.
+For organizers and scrutineers who set up the judging of a competition. On the Judges page you decide who judges, which panel each judge sits on, and which panel judges each class and round.
+
+Open it from `Manager → Competition → Judges`. People with the **Supervisor** app get the same page as the **Judges** tab of the Supervisor app.
 
 The guide to it is on four pages:
 
@@ -31,7 +33,7 @@ The page has four tabs:
 | Tab | What you do there |
 |---|---|
 | **Judges** | Add and invite judges, give them letters, reset PINs, see each judge's needs, and, in Scrutineer (Beta), print each judge's schedule. |
-| **Panels** | Seat judges on panels in one grid, let Vote4Dance suggest seats, and handle a judge who can't come. See [Panels](/manager-guide/judge-panels/#panels). |
+| **Judging panels** | Seat judges on panels in one grid, let Vote4Dance suggest seats, and handle a judge who can't come. See [Panels](/manager-guide/judge-panels/#panels). |
 | **Classes** | Choose the panel for each class, and give single rounds a panel of their own. See [Classes](/manager-guide/judge-panels/#classes). |
 | **Tablets** | Shared judging tablets, when they are switched on for your event. |
 
@@ -43,7 +45,7 @@ Judges are not users in `Manager → Event → Users`, and they need no app tick
 
 ## Who can change judges
 
-You need the **Manager** or **Supervisor** app on the event. The page is read-only once the event is **Closed** or **Archived**.
+You need the **Manager** or **Supervisor** app on the event. Either one lets you add and remove judges, seat them on panels and choose the panel of a class or a round. The page is read-only once the event is **Closed** or **Archived**.
 
 ## Adding judges
 
@@ -101,7 +103,7 @@ To add judges:
 
 ![A panel from an earlier event selected](/assets/images/judges/add-earlier-judges-panel.png)
 
-The judges get the next free letters, as when you add them one at a time, and no email is sent; see [Invitations](#invitations). If someone could not be added, the dialog stays open, names them with the reason, and keeps them ticked so you can try again.
+The judges get the next free [letters](#letters), as when you add an existing account, and no email is sent; see [Invitations](#invitations). If someone could not be added, the dialog stays open, names them with the reason, and keeps them ticked so you can try again.
 
 Someone who is not in the lists, such as a judge new to your events, is found with the search below the judge list, or invited with **Invite new judge**.
 
@@ -124,15 +126,26 @@ Each row has:
 
 ### Letters
 
-Every new judge starts with the letter **A**, so give each judge their own letter before the competition. The letter is shown before the name on the panels, for example `B) Anna Berg`.
+Each judge has a letter. It is shown before the name on the panels, for example `B) Anna Berg`.
 
-**Assign letters** sets every judge's letter in one go:
+How a new judge gets a letter depends on how you add them:
+
+| You add the judge | Letter |
+|---|---|
+| From an existing account: with **Search users**, with **Use this account**, or from earlier events | The first letter from A to Z that no judge in the competition has. After Z it goes on with AA, AB, AC… |
+| With **Create new judge account** | **A**, even when another judge already has it. |
+
+So after you create new accounts, check that no two judges share a letter. Type a letter in the **Letter** column, or set them all at once.
+
+**Set letters A, B, C…** under the judge list sets every judge's letter in one go:
 
 | Option | What it does |
 |---|---|
 | **By firstname** | Sorts judges by first name, then last name, and gives them A, B, C… After Z it goes on with AA, BB, CC… |
 | **By lastname** | The same, sorted by last name first. |
 | **Use as firstname** | Sets each judge's letter to their first name. |
+
+In Scrutineer (Beta) you are asked first: "This replaces the letters of all judges."
 
 ## Statuses
 
@@ -185,7 +198,7 @@ If a judge forgets their PIN, press **Reset PIN** on their row and confirm. The 
 
 ## Demo
 
-The judge demo is at `/judging3/event/<event id>/demo`. It lets a judge practise before the competition:
+The judge demo lets a judge practise before the competition:
 
 - It shows one practice round for each judging system used in the competition's rounds, filled with made-up couples. **Reset** starts a round again and **Next** moves to the next one. Nothing is saved.
 - It needs a signed-in Vote4Dance account, but not a PIN.
@@ -195,20 +208,21 @@ Open it yourself to see what your judges will see for the systems you have set u
 
 ## Judge types
 
-The legend lists the roles a judge can have on a panel. **Not judging** is only in the legend; you cannot choose it on a panel.
+A judge sits on a panel as one of five types. You choose the type when you seat the judge.
 
 | Type | What it means |
 |---|---|
-| **Not judging** | No judging duties assigned. |
 | **Judge** | Marks the dancers; the marks count in the result. |
 | **Trainee judge** | Practises by marking; the marks don't count in the result. |
 | **Chief judge (in)** | Marks like the other judges and counts in the result; also breaks ties. |
 | **Chief judge (out)** | Doesn't count in the result; their marks only break ties. |
-| **Audience** | Scores come from public audience voting; counts toward final placements. Can be chosen on a panel, but is not shown in the legend. |
+| **Audience** | Scores come from public audience voting; counts toward final placements. |
 
 The **Audience** judge follows the votes while the round is being judged and hands in by itself when the last of the other judges hands in; votes after that no longer change its result. It then shows as handed in with the other judges in the round's results. If you re-open the round and want the votes to count again, unlock the **Audience** judge there the same way as any other judge.
 
-When you seat a judge on the **Panels** tab, the seat menu says what each type does, and hovering over a type in the legend under the grid shows the same. **How it works** in the menu and the legend opens this section.
+There is no observer type to choose.
+
+When you seat a judge on the **Judging panels** tab, the seat menu says what each type does. The legend above the grid lists the letters used in the grid: **J** Judge, **C** Chief judge, **T** Trainee judge and **A** Audience. Hover over one of them to read what the type does. **How it works** in the menu and the legend opens this section.
 
 The type is set per panel, so the same person can be a **Judge** on one panel and a **Trainee judge** on another.
 
@@ -236,7 +250,7 @@ Removing a judge does not delete their account, and it does not send them an ema
 
 ## What the judge sees
 
-1. The judge opens the event page and taps the **Judges** tile, or goes straight to `/judging3/event/<event id>`. They must be signed in with the account you added. Anyone else gets an access-denied page.
+1. The judge opens the event page and taps the **Judges** tile. They must be signed in with the account you added. Anyone else gets an access-denied page.
 2. The first time, they set a PIN and confirm it ("Keep this PIN private. Supervisors can reset it if needed."). After that, they enter it.
 3. They see the rounds that are open for judging and that their panel judges. With nothing to judge, the screen says "Great job! Waiting for a round..." and shows their next round and their schedule; see [In the Judging app](/manager-guide/judge-schedules/#in-the-judging-app).
 4. The toolbar has **Theme Light/Dark**, **Lock** (asks for the PIN again) and **Hide screen** (blanks the screen between heats).
@@ -248,9 +262,9 @@ The judge's app also has the schedule, the café and the results.
 | Message | Cause | What to do |
 |---|---|---|
 | "A user with this email already exists — pick them from the list." | You tried to create a new account with an email that already has one. | Press the name under the message, or pick them under **Possible existing accounts**. |
-| An error reading `judges.exists` | The person is already a judge in this competition. | Nothing; find them in the list. |
+| "Already a judge in this competition" | You tried to add someone who is on the judge list already. | Nothing; find them in the list. |
 | "This judge has no email address on file." | The judge's account has no email. | Invitations cannot be sent; give the judge the link yourself. |
-| "Cannot change judge with results" | The judge has given marks. | The judge must stay. |
+| "Cannot change judge with results" | You tried to remove a judge who has given marks. | The judge stays on the list. To let someone else judge the rest of their rounds, see [Judges on the day](/manager-guide/judges-on-the-day/). |
 
 ## Not in this version
 
