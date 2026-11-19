@@ -45,7 +45,7 @@ register themselves.
 | **Competitors** (couples, groups, formations) | `Organization → Administration → Competitors` | Coach and up |
 | **New registrations** | The event's own registration page | Coach and up, or the dancers themselves |
 | **Your club's entries, payment and cancelling** | `Organization → Administration → Registration` | Coach and up |
-| **Confirming who dances on the day** | **Organization check-in**, when the organizer opens it | The club |
+| **Confirming who dances on the day** | **Organization check-in**, when the organizer opens it | The person the club has agreed on, for example the team leader |
 
 ## Setting up competitors
 
@@ -58,6 +58,16 @@ beforehand on the **Competitors** screen (`Organization → Administration → C
 - **Couples** can be created by the dancers themselves, or by you. A couple is normally
   independent, not owned by the club. If you give it a custom name when creating it, you can
   choose to make the club its owner.
+- **Solo dancers** create their own competitor. You cannot create one for a member:
+  **Create competitors** needs at least two dancers before you can save. The member opens the
+  event's **Registration** tab, stays on **As myself**, presses **Create competitor** and then
+  **Save changes**. See
+  [Registering on your own](/dancer/registration-for-event/#registering-on-your-own-solo). A
+  parent does it from the child's account.
+- **A member's solo competitor is in your list.** Once it exists and the member's membership in
+  your club is approved, it shows under **Select competitors** on **As coach**, like the couples
+  of your members, and you can register it. It is left out when the event has no open class for
+  one dancer, or when those classes may only be registered by the dancers themselves.
 - **Groups and formations** are created by the club. Keep **Owned by organization** ticked: a
   group must be owned by the club. Only the club's coaches, managers and administrators can then
   change or cancel it.
@@ -218,6 +228,9 @@ Manager.
 Some organizers use **Organization check-in**. Your club then tells the organizer which of its
 entries dance, and signs. Agree beforehand who in the club does it.
 
+The person who does it needs a Vote4Dance account. Next to each club, the list shows who signed
+and when, and the organizer also sees the phone number that person typed.
+
 1. Open the event on vote4dance.com while the organizer's check-in window is open. On the event's
    **Overview**, under **Check-in**, it says **Checkin is open**. Press the **Check-in** button
    there.
@@ -250,6 +263,7 @@ To reach the organizer, see [Reaching the organizer](/getting-help/#reaching-the
 |---|---|---|
 | Your club is not in **Search organization** | The list only has clubs where you are an approved coach, manager or administrator. | Ask an administrator of your club for the Coach role. See [Permissions](/school-club/club-admin/#permissions). |
 | A competitor is not in **Select competitors** | The list only has your club's competitors whose size fits a class that is open for registration. | Check the team size the classes ask for, or press **Create competitors**. |
+| A solo dancer is not in **Select competitors** | The member has no solo competitor yet, their membership in your club is not approved, or the event has no open class for one dancer that a club may register. | Ask the member to create their competitor under **As myself**: see [Setting up competitors](#setting-up-competitors). Approve the membership under **Members**. |
 | A class is missing or locked for a competitor | A rule stops this competitor: license, age, dance role or team size. A class the team is too big for is not shown. | Read the reason in the class list. |
 | "Edit the lineup in the cart before registering" | A lineup change can make the team fit the class. | Add the class, then use **Edit lineup** in the cart to skip or replace the dancers who do not fit. |
 | A dancer's license is Pending | Pending does not count. | See [Getting a license](/school-club/getting-a-license/). |

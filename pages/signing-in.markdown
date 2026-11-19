@@ -234,6 +234,12 @@ If you only want to stop competing, keep the account: see [If you stop competing
 
 **The device does not offer a passkey.** Not every browser or device supports them. Sign in with a code. Nothing else is lost.
 
-**You no longer have access to your e-mail address.** If you can still sign in with a passkey or a password, sign in and [change your e-mail address](#change-your-e-mail-address). If you cannot sign in at all, Vote4Dance has no way for you to change the address yourself: [write to Vote4Dance](/getting-help/#writing-to-vote4dance) from an address you can read, and say which address the account has.
+**You no longer have access to your e-mail address.** An account has one e-mail address: there is no second, recovery address. What still works:
+
+- **You are still signed in on a phone or computer.** [Change your e-mail address](#change-your-e-mail-address) there. No code is sent to the old address.
+- **You have a passkey or a password.** [Sign in with the passkey](#sign-in-with-a-passkey) or [your password](#use-your-password), then change the address. **Forgot your password?** does not help: its link is mailed to the old address.
+- **It is your child's account, and you added the child under Family yourself.** In your own account, open **Family**, press **···** on the child's card, choose **Let Anna take over** (with your child's name) and **At an address of their own**. The code goes to the new address. See [Let your child take over](/dancer/family/#let-your-child-take-over). For an account you brought in with **My child already has an account**, the code goes to the old address, so this does not work.
+
+If none of these works, Vote4Dance has no way for you to change the address yourself: [write to Vote4Dance](/getting-help/#writing-to-vote4dance) from an address you can read, and say which address the account has.
 
 **"This account has been disabled."** [Write to Vote4Dance](/getting-help/#writing-to-vote4dance).

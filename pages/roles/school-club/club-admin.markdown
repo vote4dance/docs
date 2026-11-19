@@ -64,6 +64,7 @@ Rules the screen follows:
 
 - You cannot change your own role or remove yourself. To leave, use **Leave organization** on **Home**. The last administrator cannot leave ("You are the only administrator. Promote another member to administrator before leaving."). Despite the wording, an administrator cannot make someone else Administrator: [write to Vote4Dance](/getting-help/#writing-to-vote4dance) and ask for a second Administrator first.
 - An administrator can change and remove anyone below **Administrator**, up to **Manager**. The **Administrator** role is not offered. Only Vote4Dance can make someone an Administrator of an existing club, or change or remove another administrator.
+- **A club can end up with no Administrator.** The only administrator cannot leave the club, but deleting their own account is not stopped, and it removes them from the club. The club, its members and its entries stay, and its coaches and managers keep working. Nobody can change roles, edit the club's details, or apply to or detach from a federation until Vote4Dance has made someone Administrator: [write to Vote4Dance](/getting-help/#writing-to-vote4dance) and name the club and the person.
 - Making someone a **Coach**, **Manager** or **Administrator** also approves their membership.
 - A manager sees this screen, but the selectors and delete buttons are disabled, with the note "Changing roles needs a club Administrator."
 

@@ -96,7 +96,10 @@ Good to know:
   another administrator. Only Vote4Dance can do that for a club that already exists:
   [write to Vote4Dance](/getting-help/#writing-to-vote4dance) and name the club and the person.
 - **Ask for a second Administrator early.** You sign in with a code to your e-mail address, so a
-  club with one administrator is stuck the day that person leaves or loses that address.
+  club with one administrator is stuck the day that person loses that address. The only
+  administrator cannot leave the club, but can delete their own account: the club then stays,
+  with no Administrator, until Vote4Dance makes someone Administrator. See
+  [Permissions](/school-club/club-admin/#permissions).
 
 ### Step 4: Verify the setup
 
