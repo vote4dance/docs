@@ -2,8 +2,8 @@
 layout: page
 title: Entry rules and the season ranking
 permalink: /federation/season-ranking/
-parent: Federation
-nav_order: 9.6
+parent: Points and rankings
+nav_order: 3
 ---
 
 # Entry rules and the season ranking
@@ -44,22 +44,22 @@ Event staff get a warning instead of being stopped and may still add or move the
 
 The rule counts how many competitions a team has danced. It does not check who was invited to a championship, so a selection by invitation list stays with the federation. The ranking and its CSV help you pick the teams.
 
-### Licences that don't count at a level
+### Licenses that don't count at a level
 
-Some licences are meant for smaller events only. A single-competition licence, for example, may be fine at a regional competition but not at a championship. A competition level can say which licences don't count at its events.
+Some licenses are meant for smaller events only. A single-competition license, for example, may be fine at a regional competition but not at a championship. A competition level can say which licenses don't count at its events.
 
 1. Go to **Structure**, choose the division and open **Competition Levels**.
 2. Open the **Federation rules** tab and choose the competition level.
-3. Under **Licences not valid at this level**, choose the licences. The list offers the federation's active dancer licences.
+3. Under **Licences not valid at this level**, choose the licenses. The list offers the federation's active dancer licenses.
 4. Press **Save rules**.
 
-![Licences not valid at this level, with a single-competition licence chosen](/assets/images/season-ranking/licences-not-valid.png)
+![Licenses not valid at this level, with a single-competition license chosen](/assets/images/season-ranking/licences-not-valid.png)
 
-At an event of that level, those licences are left out of what a class accepts. A dancer who holds only such a licence can't register for the class there, and sees "This licence is not valid at this competition level." A dancer who also holds a licence the level accepts registers as usual. Leave the field empty to accept every licence the class takes.
+At an event of that level, those licenses are left out of what a class accepts. A dancer who holds only such a license can't register for the class there, and sees "This licence is not valid at this competition level." A dancer who also holds a license the level accepts registers as usual. Leave the field empty to accept every license the class takes.
 
-This only matters for classes that require a licence at registration (see [Step 3: Decide which classes accept which items](/federation/getting-a-license/#step-3-decide-which-classes-accept-which-items)).
+This only matters for classes that require a license at registration (see [Step 3: Decide which classes accept which items](/federation/getting-a-license/#step-3-decide-which-classes-accept-which-items)).
 
-If you delete a licence item that a level lists, it shows as **Removed licence** on the level's rules. Saving the level takes it off the list.
+If you delete a license item that a level lists, it shows as **Removed licence** on the level's rules. Saving the level takes it off the list.
 
 ## How results count in the ranking
 

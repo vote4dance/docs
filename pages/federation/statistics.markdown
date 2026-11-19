@@ -3,7 +3,7 @@ layout: page
 title: Federation statistics
 permalink: /federation/statistics/
 parent: Federation
-nav_order: 8
+nav_order: 7
 help:
   federation.statistics: ""
   federation.statistics.licences: licenses
@@ -15,7 +15,7 @@ help:
 # Federation statistics
 
 This page is for **federation staff**. The Statistics screen shows how your federation's season
-stands: licences, members, who is competing, how the competition calendar is going, and which
+stands: licenses, members, who is competing, how the competition calendar is going, and which
 organizations carry it. It only shows numbers; nothing can be changed from it.
 
 Open it with **Statistics** at the right end of the bar at the top of the federation console:
@@ -34,14 +34,14 @@ page. See [Federation staff roles](/federation/staff-roles/).
 ## The season
 
 "This season" follows your federation's **Season start (MM-DD)** rule (see
-[Before the season: set the rules](/federation/age-transfer/#before-the-season-set-the-rules)). With
+[Season start (MM-DD)](/federation/age-moves/#season-start-mm-dd)). With
 a season starting 1 September, the season that started on 1 September 2026 runs until 31 August 2027,
 and it is written **2026/2027**. Without a season start, the season is the calendar year. You cannot
 choose another season.
 
 | Kind of number | How the season is applied |
 |---|---|
-| Licences | A licence for the current season counts. A licence with no season, such as one checked against your federation's own member register, counts in every season it is valid for. Its price and the month it was issued count only once, in the season it was paid or issued. |
+| Licenses | A license for the current season counts. A license with no season, such as one checked against your federation's own member register, counts in every season it is valid for. Its price and the month it was issued count only once, in the season it was paid or issued. |
 | Competitions, entries and competitors | The competition's date must be in the current season. For a multi-day event, each day's own date is used for the entries danced that day. |
 | Members, organizations, classes and class memberships | No season. These are counts of how things stand today. |
 
@@ -55,24 +55,24 @@ Eight headline numbers.
 | Number | How it is counted |
 |---|---|
 | **Active competitors** | Competitors (couples, solos and teams) with at least one active class membership in your federation. Each competitor counts once, however many classes they are in. |
-| **Licensed people** | People who hold at least one active licence for this season. A person with two licences counts once. |
-| **Active licenses** | Licences for this season with the status **Active**. A person with two licences counts twice. |
+| **Licensed people** | People who hold at least one active license for this season. A person with two licenses counts once. |
+| **Active licenses** | Licenses for this season with the status **Active**. A person with two licenses counts twice. |
 | **Organizations** | Organizations approved into your federation. Organizations still waiting for approval are not counted. |
 | **Members** | People who are approved members of at least one of those approved organizations. Each person counts once. |
 | **Active classes** | Federation classes whose state is active. |
 | **Competitions this season** | Events linked to your federation and dated this season. A multi-day event counts once. |
-| **License revenue** | The sum of the price paid on this season's licences whose payment status is **Paid**. A licence with no season counts in the season it was paid. If you have taken payments in more than one currency, only the currency with the largest total is shown and the others are not added in. |
+| **License revenue** | The sum of the price paid on this season's licenses whose payment status is **Paid**. A license with no season counts in the season it was paid. If you have taken payments in more than one currency, only the currency with the largest total is shown and the others are not added in. |
 
 ## Licenses
 
-All the charts on this tab, except **Members by role**, count this season's licences.
+All the charts on this tab, except **Members by role**, count this season's licenses.
 
 | Chart | What it shows |
 |---|---|
-| **Licenses by status** | Licences per status: **Draft**, **Pending**, **Active**, **Expired**, **Suspended**, **Cancelled**. |
-| **Licenses by category** | Licences per category: **Dancer**, **Judge**, **Coach**, **Scrutineer**, **Supervisor**, **Music**, **Organizer**, **Other**. |
-| **Licenses by payment** | Licences per payment status: **Unpaid**, **Paid**, **Invoiced**, **Waived**, **Refunded**. |
-| **Licenses issued per month** | This season's licences by the month the licence record was created. A licence with no season shows only in the season it was created. |
+| **Licenses by status** | Licenses per status: **Draft**, **Pending**, **Active**, **Expired**, **Suspended**, **Cancelled**. |
+| **Licenses by category** | Licenses per category: **Dancer**, **Judge**, **Coach**, **Scrutineer**, **Supervisor**, **Music**, **Organizer**, **Other**. |
+| **Licenses by payment** | Licenses per payment status: **Unpaid**, **Paid**, **Invoiced**, **Waived**, **Refunded**. |
+| **Licenses issued per month** | This season's licenses by the month the license record was created. A license with no season shows only in the season it was created. |
 | **Members by role** | Members of your approved organizations per role in their organization: **Member**, **Coach**, **Manager**, **Administrator**. A person with different roles in two organizations counts once in each role. |
 
 For what the statuses mean, see [Federation licenses](/federation-licenses/).
@@ -134,7 +134,7 @@ For the event-by-event view behind these numbers, see [Competitions](/federation
 
 | List | What it shows |
 |---|---|
-| **Top organizations by licensed members** | Up to 10 organizations with the most people holding an active licence for this season, using the organization named on the licence. |
+| **Top organizations by licensed members** | Up to 10 organizations with the most people holding an active license for this season, using the organization named on the license. |
 | **Active classes without competitors** | Active federation classes that nobody has an active class membership in. The tag shows how many there are. |
 
 ## Filters and exports
@@ -146,7 +146,7 @@ also no export. For a list of competitions you can download, use **Download CSV*
 ## When the numbers update
 
 The numbers are worked out when you open the page. The **Overview**, **Licenses**, **Participation**
-and **Organizations** figures refresh on their own when a licence, organization or class
+and **Organizations** figures refresh on their own when a license, organization or class
 membership changes while the page is open. The **Competitions** tab does not refresh on its own when a
 competition or its entries change; reload the page to see the latest figures.
 
@@ -156,7 +156,7 @@ competition or its entries change; reload the page to see the latest figures.
 |---|---|
 | **Could not load statistics** | The headline numbers or the charts could not be loaded. The message underneath gives the reason. Reload the page. The server only answers Managers, Administrators, Owners and system administrators, so check your role if it keeps failing. |
 | **Failed to load data** | Shown in place of the competitor numbers at the top of the **Competitions** tab when only that part failed. The rest of the tab still works. |
-| **No data yet** | Shown on a chart or list that has nothing to count, for example the licence charts before any licence has been issued for this season. |
+| **No data yet** | Shown on a chart or list that has nothing to count, for example the license charts before any license has been issued for this season. |
 
 ## Not in this version
 

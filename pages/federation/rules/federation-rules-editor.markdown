@@ -10,7 +10,7 @@ help:
 
 # Setting federation rules
 
-Federation rules decide how your federation works: who applies and pays for a licence, how big a
+Federation rules decide how your federation works: who applies and pays for a license, how big a
 team may be and whose age decides its age group, how promotion points are earned, when the season
 starts, whether dancers bring their own music, and what the public lists show next to a team.
 
@@ -92,7 +92,7 @@ Click a topic to jump to it.
 
 To find one rule:
 
-1. Type a word in **Find a rule**, such as *licence*, *music* or *points*. Only the rules that
+1. Type a word in **Find a rule**, such as *license*, *music* or *points*. Only the rules that
    match stay in the list.
 2. Use **All** to see every rule this level accepts, or **Set here** to see only the rules this
    level sets itself. The numbers tell you how many there are of each.
@@ -165,7 +165,7 @@ Save before you leave the page or pick another level in the strip.
 
 ## Example: one discipline is different
 
-Your federation lets the dancer or the club apply for a licence, but in one discipline only the
+Your federation lets the dancer or the club apply for a license, but in one discipline only the
 dancer may apply.
 
 1. Open **Structure** → **Federation rules** and check **Who applies for a licence**. It shows
@@ -176,7 +176,7 @@ dancer may apply.
    says what it replaces.
 4. Press **Save rules**.
 5. Open **Rulebook** → **Rules**, pick a class in that discipline and check that it says **Only the
-   dancer can apply for a licence.** See [What applies to one class](/federation-rules/#what-applies-to-one-class).
+   dancer can apply for a license.** See [What applies to one class](/federation-rules/#what-applies-to-one-class).
 
 ---
 

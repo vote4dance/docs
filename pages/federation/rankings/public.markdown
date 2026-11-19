@@ -83,7 +83,7 @@ Typical examples:
 
 When that happens, public viewers should be able to understand that the final published outcome includes an administrative decision and is not only the raw automated ranking output.
 
-## What success looks like
+## Checking the public view
 
 The public view is correct when:
 

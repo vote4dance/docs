@@ -2,8 +2,8 @@
 layout: page
 title: Closing a class at points
 permalink: /federation/class-point-limits/
-parent: Federation
-nav_order: 9.5
+parent: Points and rankings
+nav_order: 2
 help:
   federation.division.points: season-points
   federation.division.points.all-seasons: points-that-never-expire
@@ -69,7 +69,7 @@ With **Never**:
 
 ![A class closed by points, with the Closed tag and the next level up still open](/assets/images/class-point-limits/class-locked.png)
 
-A class that fails an earlier check, such as age or licence, shows that reason instead of the points.
+A class that fails an earlier check, such as age or license, shows that reason instead of the points.
 
 ## Season points
 
