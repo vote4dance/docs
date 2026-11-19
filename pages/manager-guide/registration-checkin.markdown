@@ -434,7 +434,7 @@ In Scrutineer (Beta), each organization is shown with its full name and its shor
 
 The line under the dates says "Checkin is open" or "Checkin is closed". To move the window, press **Edit**, change the dates and press **Save changes**. **Disable check-in** removes the window.
 
-While the window is open, each organization's team leader answers and signs in the Check-in app, under **Organization check-in**. There, **Mark all** sets every participant that is not cancelled to **Participating** at once, and **Sign** asks for a phone number. The club's own guide is [Confirm your roster on the day](/school-club/registration-for-event/#step-5-confirm-your-roster-on-the-day). Outside the window, only managers and check-in staff can answer and sign.
+While the window is open, each organization's team leader answers and signs in the Check-in app, under **Organization check-in**. There, **Mark all** sets every participant that is not cancelled to **Participating** at once, and **Sign** asks for a phone number. The club's own guide is [Confirm your roster on the day](/school-club/registration-for-event/#confirming-who-dances-on-the-day). Outside the window, only managers and check-in staff can answer and sign.
 
 ### Check an organization in yourself
 
