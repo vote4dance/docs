@@ -8,6 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-11-19
  🛠️ **Improvements**
+* Manager: A final made of a gold battle and a bronze battle that starts from 3rd now places its dancers 1–4 from the two battles, also when the final itself is judged as battles, and a final with three dancers (a gold battle and a 3rd place) places them 1–3. Before, such a final gave the gold battle's winner 1st and the other three 2nd until its judging was switched to placement. The round page now also marks the bronze battle's winner with an **x**, as it does the gold battle's (see [Final with a bronze battle and a gold battle](/federation-rules/battle-sub-rounds/#setup-2--final-with-a-bronze-battle-and-a-gold-battle))
 * Federation: Moving a competitor's class membership on **Members** to a class they had a retired membership in now works. The old membership becomes the active one with your changes, and the one you edited is retired. If the competitor is still active in that class, you see "This competitor already has an active membership in that class". Before, saving showed "Internal Error" (see [Editing a membership](/federation/members/#editing-a-membership))
 ## 2026-11-18
  🛠️ **Improvements**
