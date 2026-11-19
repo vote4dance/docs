@@ -8,6 +8,10 @@ nav_order: 10
 # Release notes
 ## 2026-11-18
  🛠️ **Improvements**
+* App and website: Searching for a dancer or start number now shows the class the entry is in after the organizer moves it to another class, by the class's full name. Before, the search kept showing the class the entry was first entered in
+* Manager: The **Class** column on check-in and in the check-in report now shows the class the entry is in, by its full name. Before, it showed the class from the import, which could be out of date after a class change or empty
+## 2026-11-18
+ 🛠️ **Improvements**
 * Website: On a phone, the division cards on a federation's **Divisions** page now show **Season ranking** and **Explore** under the division's name. Before, the name was squeezed to a few letters per line
 * Website: A division's image now shows on its card on the federation's **Divisions** page, also when it was added before March 2026. Before, those cards stayed black. Images added back then were saved small, so upload them again for a sharp card (see [Add a division](/federation/divisions/#add-a-division))
 ## 2026-11-16
