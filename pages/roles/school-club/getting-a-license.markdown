@@ -22,7 +22,7 @@ the club is the payer.
 first — without that it just says "Connect this organization to a federation first."
 
 Summary cards at the top count what **Needs your action**, what is **Active**, what is **In
-progress**, and the **Members without a licence**. Below them, the licenses are split into tabs. The
+progress**, and the **Members without a license**. Below them, the licenses are split into tabs. The
 list opens on **Needs your action** when something waits for your club, and on **Active** otherwise.
 When your federation does not ask clubs to approve licenses and nothing waits for you, the **Needs
 your action** card and tab are left out.
@@ -73,8 +73,8 @@ Pick the season at the top of the list, or **All seasons**.
 7. Press **Apply for license**
 
 Repeat for each member. A club with twenty dancers makes twenty applications: you cannot apply
-for several members at once. To find who still needs one, click **Members without a licence**: it opens
-[Members](/school-club/club-admin/#members), where the **No licence this season** card lists them.
+for several members at once. To find who still needs one, click **Members without a license**: it opens
+[Members](/school-club/club-admin/#members), where the **No license this season** card lists them.
 
 ## Approving what members applied for themselves
 

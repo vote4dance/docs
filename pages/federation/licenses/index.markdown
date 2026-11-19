@@ -36,10 +36,10 @@ For the people who apply:
 
 There is no single way of working that you choose once for the whole federation. Two things decide it, for each license item:
 
-- **The federation rules.** **Who applies for a licence** is **Dancer**, **Club** or **Dancer or club**, and **Who pays for a licence** is **Dancer pays**, **Club pays** or **Dancer or club pays**. Two more rules, **Dancers in a club may apply for their own licence** and **Dancers without a club may apply for their own licence**, say which dancers may apply themselves. These rules are set for the federation and can be different for a division or a discipline. See [Setting federation rules](/federation-rules/editor/).
+- **The federation rules.** **Who applies for a license** is **Dancer**, **Club** or **Dancer or club**, and **Who pays for a license** is **Dancer pays**, **Club pays** or **Dancer or club pays**. Two more rules, **Dancers in a club may apply for their own license** and **Dancers without a club may apply for their own license**, say which dancers may apply themselves. These rules are set for the federation and can be different for a division or a discipline. See [Setting federation rules](/federation-rules/editor/).
 - **The license item's own Organization mode.** It says whether the license needs a club, may have one, or may not have one.
 
-With **Who applies for a licence** set to **Club**, a dancer cannot apply for the license themselves.
+With **Who applies for a license** set to **Club**, a dancer cannot apply for the license themselves.
 
 So one federation can offer, at the same time, a dancer license that dancers buy themselves, a coach license that only the club applies for, and a judge license that only the federation issues. The settings are described in [Setting up licenses](/federation/getting-a-license/).
 
@@ -51,7 +51,7 @@ Every license goes the same way:
 2. The federation approves the club, when the license names a club, and allows it to issue licenses when the license item requires that.
 3. The dancer or the club applies.
 4. Whoever pays, pays, if the license has a price.
-5. The club, the federation or both approve, when the rules **Club must approve a licence** and **Federation must approve a licence** ask for it.
+5. The club, the federation or both approve, when the rules **Club must approve a license** and **Federation must approve a license** ask for it.
 6. The license becomes **Active**, and counts where a class asks for it.
 
 ## How payment works

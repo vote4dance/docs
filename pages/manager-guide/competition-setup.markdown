@@ -177,7 +177,7 @@ After you have imported participants, **Verify** checks all of them and warns yo
 
 It has these checks:
 
-- **Licence number**: when the participants have license numbers (for example after an import from the federation's system), it lists every participant where a dancer has no license number. It tells you which dancer (dancer 1, 2 or 3) and their birth year. It only checks that a number is there. Whether a license is valid is still checked in the federation's own system.
+- **License number**: when the participants have license numbers (for example after an import from the federation's system), it lists every participant where a dancer has no license number. It tells you which dancer (dancer 1, 2 or 3) and their birth year. It only checks that a number is there. Whether a license is valid is still checked in the federation's own system.
 - **WSDC level** (WSDC competitions only): looks up each Jack & Jill leader and follower in the WSDC registry and compares their level with the class they entered. A dancer's points decide the lowest level they must dance, and the registry also says how far up they may go. Verify lists every dancer who is below their level ("Leader must dance Intermediate or higher · 22 points in Novice") or above it ("Follower may dance up to Novice"). A dancer the registry doesn't know may dance Newcomer and Novice. Participants without a WSDC id, and dancers the registry didn't answer for, are listed under **Not checked**. The registry shows today's points, so run it before the event.
 
 To run it:

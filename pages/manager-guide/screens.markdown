@@ -86,14 +86,14 @@ display. A single window cannot feed two projectors with different content.
 ### The Show setting in Manager
 
 `Manager → Audience → Screens → Show` has seven options. Six of them the screen displays on its
-own, without anyone touching it. **Result** is the exception:
+own, without anyone touching it. **Result (sent by the speaker)** is the exception:
 
 | Show | Shows |
 |---|---|
 | **Heat** | The running heat. Names appear when the field is small, and a single-couple heat can show a picture. |
 | **Lineup** | Who is on the floor next, per heat, with start numbers. |
 | **Schedule (no heats)** | One card per schedule block with its rounds and their live estimated start times — good for a foyer TV. |
-| **Result** | The result of one round, with podium, advancement marking and the prize-ceremony spotlight. It needs a round, and only the speaker can give it one: chosen here, the screen stays empty until the speaker sends a result. |
+| **Result (sent by the speaker)** | The result of one round, with podium, advancement marking and the prize-ceremony spotlight. It is greyed out and cannot be picked here: a result needs a round, and only the speaker gives it one, from the **Results** page of the Speaker app. |
 | **Round number** | The round number only, large. |
 | **Results (last 6)** | The six most recently published rounds, for the hall between rounds. |
 | **Judge presentation** | The panel: judges one at a time, or one pinned. |

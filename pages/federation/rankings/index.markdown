@@ -42,6 +42,6 @@ A ranking only orders a list. It moves nobody between classes and closes no clas
 
 - The ranking was created in the wrong division. It cannot be moved: create it again in the right one.
 - A class that should count was never added to the ranking.
-- The rule **Ranking needs a licence** is **Required** for a class, and nobody checked that the dancers hold a license. Their results are then left out. See [A competitor is left out](/federation-rankings/federation-admin/#a-competitor-is-left-out).
+- The rule **Ranking needs a license** is **Required** for a class, and nobody checked that the dancers hold a license. Their results are then left out. See [A competitor is left out](/federation-rankings/federation-admin/#a-competitor-is-left-out).
 - One ranking was expected to give a public result and a different selection result. One ranking has one result.
 - A correction was added on the ranking of another division.

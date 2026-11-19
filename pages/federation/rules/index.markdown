@@ -153,7 +153,7 @@ The whole federation as one picture: a column per division and a block per
 discipline, sized by its number of classes. Pick what to colour the blocks by:
 **Draft levels**, **Promotion** (classes that advance but have no class to move
 into), **Progression warnings**, **Team size** (no member limit anywhere in the
-rules), **Licence** (no license item) or **Draft classes**. Each block shows how
+rules), **License** (no license item) or **Draft classes**. Each block shows how
 many of its classes are affected. Click a block to open its classes, or a
 division name to open the division. **Most affected disciplines** lists the
 worst ones.
