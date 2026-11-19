@@ -245,7 +245,7 @@ A round goes through these statuses, in this order:
 | **Reset results** | Removes all results and takes the participants out of the rounds. Participants, rounds and judges are kept. |
 | **Delete registrations** | Deletes all participants. Rounds and judges are kept. |
 
-**Reset results** and **Delete registrations** cannot be undone. Use them for test data. Both are disabled once the competition has been made public. Do not delete all participants when online check-in has started.
+**Reset results** and **Delete registrations** cannot be undone. Use them for test data. Both work only while the event is **Hidden**. Do not delete all participants when online check-in has started.
 
 Do not mix participants from a file and participants from registrations in the same competition. See [Update/import participants](/manager-guide/registration-checkin/#updateimport-participants).
 

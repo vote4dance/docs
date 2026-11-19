@@ -54,9 +54,9 @@ This is the minimum. Everything else is optional polish.
 
 | # | What | Where | Why it must be there |
 |---|---|---|---|
-| 1 | Event (name, dates, location, description) | `Manager → Events → Create event` | Holds everything else. See [Event setup](/manager-guide/event-setup/). |
-| 2 | How you start, and the event mode | Event creation | The first question is **How do you want to start?** — `Training competition with default settings` ("Best for your first event") or `Competition for a specific federation`. Further in, **Event mode** is `Practice event` or `Live competition`; live competitions enable reusable competition profiles and billing. Both shape everything after them. |
-| 3 | Event image | `Manager → Event → Overview` | The event **cannot be made public without it**. 1600 × 900 JPG/PNG, not HEIC. See [Event image](/manager-guide/event-image/). |
+| 1 | Event (name, dates, location, description) | **Create a competition** on the **My competitions** tab of the Vote4Dance home page | Holds everything else. See [Event setup](/manager-guide/event-setup/). |
+| 2 | The kind of event, and the federation | Event creation | **What kind of event?** is `Practice event` or `Live competition`; live competitions enable reusable competition profiles and billing. **Use classes from** is the federation whose classes and rules apply: optional for a practice event, required for a live competition. Both shape everything after them. |
+| 3 | Event image | `Manager → Event overview` | The event **cannot be published without it**. 1600 × 900 JPG/PNG, not HEIC. See [Event image](/manager-guide/event-image/). |
 | 4 | Floor | `Manager → Event → Floor` | A round can be placed on a floor, so the Speaker, the Supervisor and each screen can follow one floor. A new event already has a **Main floor**, which is enough for most competitions. See [Floors](/manager-guide/floors/). |
 | 5 | Competition and classes | `Manager → Event → Competitions`, then `Competition → Classes` | What dancers register into. Each class maps to a Federation Class, which carries its age and level rules. See [Competition setup](/manager-guide/competition-setup/). |
 | 6 | Rounds per class | Inside each class, under `Manager → Competition → Classes` | What you actually run on the day. Use the **Round guide** to generate them rather than building each one by hand. |
@@ -66,7 +66,7 @@ This is the minimum. Everything else is optional polish.
 | 10 | Registration period | `Manager → Competition → Registration → Registration period` | Without an open period nobody can register. See [Registration and check-in](/manager-guide/registration-checkin/). |
 | 11 | Users and stations | `Manager → Event → Users` and `→ Stations` | Each functionary gets exactly the apps they need; shared devices join as stations. See [Users, apps and stations](/manager-guide/users-and-stations/). |
 | 12 | Screens | `Manager → Event → Screens` | One screen per projector or TV, each with a label, a floor and what it shows. One device drives one screen, so count your displays. See [Screens, projectors and venue technology](/manager-guide/screens/). |
-| 13 | Event status | `Manager → Event → Overview` | An event starts **Hidden**. **Publish competition** makes it public — which needs the event image, and billing information for a live competition. See [Event setup](/manager-guide/event-setup/). |
+| 13 | Event status | `Manager → Event overview` | An event starts **Hidden**. **Publish competition** makes it **Published**, which needs the event image and, for a live competition, billing information. See [Event status](/manager-guide/event-setup/#step-2-event-status). |
 
 Before the day, open [**Problems**](/manager-guide/validator/) in Manager and resolve everything it flags. Problems runs a
 set of automatic tests over your setup — start-number conflicts, participants scheduled in two
@@ -78,13 +78,13 @@ conflicts — and re-runs them whenever you change something.
 | When | Do this |
 |---|---|
 | **8–10 weeks before** | Create the event, under your federation if it has one. Ask the federation whether it needs anything from you. Upload the event image. Decide classes. |
-| **6–8 weeks before** | Build classes, rounds and the schedule. Set prices and the registration period. Make the event public and announce it. |
+| **6–8 weeks before** | Build classes, rounds and the schedule. Set prices and the registration period. Publish the event with **Publish competition** and announce it. |
 | **4 weeks before** | Book functionaries and judges. Count the devices you need and borrow what is missing. Send the [venue questions](/manager-guide/screens/#what-to-ask-the-venue-technician) to the venue's technician. |
 | **2–3 weeks before** | Add judges and panels. Do a desk rehearsal on your own computer with a practice event. See [Test run and venue rehearsal](/manager-guide/test-run/). |
 | **1–2 weeks before** | Book the venue rehearsal: projector, Wi-Fi and the real devices. Registration closes. |
 | **Registration closed** | Approve registrations, import participants, assign start numbers, check licenses. |
 | **2–3 days before** | Final schedule. Print heat lists and judging sheets as backup. Charge every tablet. Create the stations — the devices scan their QR codes off your screen on the day, so there is nothing to print. |
-| **Day before / morning** | Set up screens and devices, run one live round with test data if you still can, clear **Problems**, then set the event to its live status. |
+| **Day before / morning** | Set up screens and devices, run one live round with test data if you still can, clear **Problems**, and check that the event is **Published**. |
 | **On the day** | Follow [Live operations](/manager-guide/live-operations/). |
 | **After** | Confirm and publish all rounds, then [Post-event and exports](/manager-guide/post-event/). |
 

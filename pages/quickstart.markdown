@@ -16,25 +16,36 @@ This page is for organizers. If that is not you, find your section on [Start her
 
 ## 1. Create an event in Manager
 
-Manager is the app you set up and run the event in. Open it and create a new event.
+Manager is the app you set up and run the event in. To create an event:
 
-### How do you want to start?
+1. On the Vote4Dance home page, open the **My competitions** tab.
+2. Click **Create a competition**. The **Create event** form opens.
+3. Fill it in as described below and press **Create event**.
 
-The first question decides how much the wizard asks you:
+The form, and the page the new event opens on, belong to Scrutineer (Beta), the new version of Manager. The rest of this guide describes the classic Manager: press **Classic manager** at the top of the event's overview to open the event there. [Event setup](/manager-guide/event-setup/) has every step.
 
-- **Training competition with default settings** — "Best for your first event." No federation rules, and the questions you do not need yet are filled in for you.
-- **Competition for a specific federation** — "Use this if you already know which federation setup and classes you need." You pick the [federation](/understanding-vote4dance/key-terminology/), and its licenses, classes and rules apply.
+### What kind of event?
 
-**Not sure?** Take the training competition. Everything can be changed afterwards, and a practice event costs nothing and is excluded from federation reporting.
+This choice decides how much the form asks you:
+
+- **Practice event** — "Try it out with test dancers. It's free, and results don't give federation points." Under **Use classes from** you can leave **No federation (I make my own classes)**.
+- **Live competition** — "A real competition, with federation rules, levels and points." Under **Use classes from** you pick the [federation](/understanding-vote4dance/key-terminology/), and its licenses, classes and rules apply.
+
+**Not sure?** Take the practice event. You can change the kind afterwards, and a practice event costs nothing and is excluded from federation reporting.
 
 ### Event details
 
 - **Event name** — note that one event can contain several competitions
-- **Competition organizer**, **Event duration** (single or multiple days) and the date
-- **Country**, optional **contact email**, and a **short description** (max 150 characters)
+- **When** — **One day** or **Several days**, and the date
+- **Country** and **Timezone** — taken from your device, so check them
+- For a live competition also **Organizer**, an optional **Contact email**, an optional **Level** and the **Venue**
+
+The rest is filled in afterwards, with **Edit event** on **Event overview** in the classic Manager:
+
+- A **Short description** (max 150 characters)
+- **Location** (with a *Verify on Google Maps* link)
 - **Event mode** — `Practice event` or `Live competition`. Live competition enables reusable competition profiles and billing
-- **Location** (with a *Verify on Google Maps* link) and **Timezone**
-- **Billing information** — live competitions only. Pick one of your recent customers, search for another by name, or fill in a **New customer** (club or company, or private person; name, email and country are prefilled from what you entered). **Create** saves both, and a live competition cannot be published without billing information. See [Event setup](/manager-guide/event-setup/)
+- **Billing information** — live competitions only. Pick one of your recent customers, search for another by name, or fill in a **New customer** (club or company, or private person; name, email and country are prefilled from the event). A live competition cannot be published without billing information. See [Event setup](/manager-guide/event-setup/#step-3-event-details-page)
 
 ## 2. What you get with a new event
 
@@ -45,7 +56,7 @@ A new event is not empty. It comes with:
 - Default cafe products
 - A schedule for the day with **Doors open** and **Competition start**
 
-Classes, rounds, judges and teams are yours to add. On a **practice event** you can fill a round quickly with **Generate random competitors** on the Teams page — an action that exists only in practice mode.
+Classes, rounds, judges and participants are yours to add: a practice event starts without them too. On a **practice event** you can fill a class with made-up participants: on `Competition → Participants`, the arrow next to **Register new competitor** has **Generate random competitors**, an action that exists only in practice events. See [Test run and venue rehearsal](/manager-guide/test-run/#step-1-create-a-practice-event).
 
 ## 3. Build your event structure
 
@@ -60,9 +71,9 @@ On top of what the new event already contains, work through these in order:
 Run a full test with your team:
 
 1. Take one round to **In progress** with **Start judging**
-2. Have someone test the [Judging app](/building-blocks/) and enter sample scores — each judge sets their own PIN on their own device the first time
+2. Have someone test the [Judging app](/manager-guide/judges/) and enter sample scores — each judge sets their own PIN on their own device the first time
 3. Close, confirm, and publish results in Manager
-4. Verify that [Screens](/building-blocks/), [Speaker](/building-blocks/), and check-in work as expected
+4. Verify that [Screens](/manager-guide/screens/), [Speaker](/manager-guide/screens/), and check-in work as expected
 
 Then do it at the venue, with the projector and the real tablets: [Test run and venue
 rehearsal](/manager-guide/test-run/).
@@ -85,11 +96,12 @@ Repeat for each round.
 
 ## 6. After the event
 
-From the [Post-event and exports](/manager-guide/post-event/) section, run:
-- Result exports
-- Ranking updates
-- Award generation
-- Data archival
+Follow [Post-event and exports](/manager-guide/post-event/):
+
+1. Publish every round.
+2. Close the competition with **End competition** on **Event overview**. For a federation event, this is what works out promotion points.
+3. Download the result files.
+4. Print results and diplomas.
 
 ---
 
