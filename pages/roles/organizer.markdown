@@ -80,6 +80,7 @@ event with the [Quickstart](/quickstart/).
 | [Test run and venue rehearsal](/manager-guide/test-run/) | Simulating a whole competition beforehand, at the venue, with the real devices. |
 | [Problems (setup checks)](/manager-guide/validator/) | The automatic checks on your setup, and how to fix what they find. |
 | [Live operations](/manager-guide/live-operations/) | The event-day runbook. |
+| [Reading the marks](/manager-guide/reading-the-marks/) | How to read the judges' marks of a round, and how a place follows from them. |
 | [Running a quiz from the speaker app](/manager-guide/speaker-quiz/) | The audience quiz, run by the speaker. |
 | [Statistics](/manager-guide/statistics/) | Event size, dressing rooms, schedule load, medals. |
 
