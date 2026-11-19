@@ -33,6 +33,7 @@ the task in front of you.
 ## For everyone
 
 - [Signing in](/signing-in/): one account for everything, with your e-mail address and a code.
+- [Get the app](/get-the-app/): the Vote4Dance app for iPhone and Android.
 - [Which app is which](/building-blocks/): the apps you will hear named, and who uses each.
 - [Glossary](/understanding-vote4dance/key-terminology/): the words these pages use.
 - [Getting help](/getting-help/): who to ask about what.

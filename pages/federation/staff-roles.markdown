@@ -27,7 +27,7 @@ opens the **Guide to permissions**, a short list of what each role can do, with 
 | Role | Label in UI | What they can do |
 |---|---|---|
 | `normal` | Viewer | Read-only access to all federation data |
-| `manager` | Manager | Day-to-day work: licenses, organizations, class memberships |
+| `manager` | Manager | Day-to-day work: licenses (issue, approve, edit, suspend, remove), organizations, class memberships |
 | `administrator` | Administrator | Everything a Manager does, plus structure (divisions, classes, rules, rankings), decisions that move competitors, federation settings, Stripe |
 | `owner` | Owner | Governance: promoting users to Administrator and Owner |
 

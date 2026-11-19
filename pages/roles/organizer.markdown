@@ -19,6 +19,10 @@ check-in desk and the screens each have their own app, which you hand out from M
 
 Follow the groups in order for a new event, or jump to the part you are working on.
 
+Manager comes in two versions, classic and new. These pages describe the classic one unless they
+say Scrutineer (Beta): see
+[Classic Manager and the new Manager](/manager-guide/users-and-stations/#classic-manager-and-the-new-manager).
+
 **First competition?** Start with
 [Planning your first competition](/manager-guide/first-competition/), then make a practice
 event with the [Quickstart](/quickstart/).
@@ -48,7 +52,8 @@ event with the [Quickstart](/quickstart/).
 
 | Page | What it covers |
 |---|---|
-| [Competition setup](/manager-guide/competition-setup/) | Classes, rounds, participants, judges and panels. |
+| [Competition setup](/manager-guide/competition-setup/) | Classes, rounds, participants and start numbers, in four steps. |
+| [Adding rounds by hand](/manager-guide/rounds-by-hand/) | Single rounds, a second chance and a B-final, when the Round guide is not enough. |
 | [Judges](/manager-guide/judges/) | Adding and inviting judges, PINs, panels and when assignment locks. |
 | [Schedule and conflicts](/manager-guide/schedule/) | The running order, times, publishing, printing and dancer conflicts. |
 | [WDSF competitions](/manager-guide/wdsf/) | Importing competitions and couples from WDSF, and sending the results back. |
