@@ -52,7 +52,8 @@ event with the [Quickstart](/quickstart/).
 
 | Page | What it covers |
 |---|---|
-| [Competition setup](/manager-guide/competition-setup/) | Classes, rounds, participants, judges and panels. |
+| [Competition setup](/manager-guide/competition-setup/) | Classes, rounds, participants and start numbers, in four steps. |
+| [Adding rounds by hand](/manager-guide/rounds-by-hand/) | Single rounds, a second chance and a B-final, when the Round guide is not enough. |
 | [Judges](/manager-guide/judges/) | Adding and inviting judges, PINs, panels and when assignment locks. |
 | [Schedule and conflicts](/manager-guide/schedule/) | The running order, times, publishing, printing and dancer conflicts. |
 | [WDSF competitions](/manager-guide/wdsf/) | Importing competitions and couples from WDSF, and sending the results back. |

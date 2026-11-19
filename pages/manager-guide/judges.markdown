@@ -3,7 +3,7 @@ layout: page
 title: Judges
 permalink: /manager-guide/judges/
 parent: Classes, rounds and judges
-nav_order: 2
+nav_order: 3
 help:
   manager.comp.judges: ""
   manager.comp.judges.panels: panels
