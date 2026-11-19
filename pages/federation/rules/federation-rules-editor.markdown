@@ -3,7 +3,7 @@ layout: page
 title: Setting federation rules
 permalink: /federation-rules/editor/
 parent: Federation Rules
-nav_order: 0.5
+nav_order: 7
 help:
   federation.structure.federation-rules: ""
 ---

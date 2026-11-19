@@ -3,7 +3,7 @@ layout: page
 title: Schedule and conflicts
 permalink: /manager-guide/schedule/
 parent: Classes, rounds and judges
-nav_order: 3
+nav_order: 7
 help:
   manager.event.schedule: pages
   manager.event.schedule.page: schedule-items

@@ -35,6 +35,11 @@ Who has access, and the federation's own details. [Set up your federation](/fede
 - [Federation Rules](/federation-rules/): the rules Vote4Dance enforces automatically, with a page for each area:
   - [Setting federation rules](/federation-rules/editor/): the editor every level shares.
   - [How the round setup works](/federation-rules/reference/): how a class's rounds are generated.
+  - [Adding and editing round setup rules](/federation-rules/round-setup-rules/): the rules list of a discipline and the rule editor.
+  - [Checking the round setup](/federation-rules/round-setup-checks/): findings in the rules, and why a class gets the rounds it gets.
+  - [Merging and linking round setup rules](/federation-rules/round-setup-merging/): one rule instead of copies, in a discipline and across disciplines.
+  - [Setting the default ladder](/federation-rules/default-ladder/): the ladder for classes no other rule gives one.
+  - [Round setup conditions, actions and settings](/federation-rules/round-setup-settings/): what each one matches, does or controls.
   - [Age category rules](/federation-rules/age-category-rules/): which age category a solo, duo or group belongs to.
   - [Battle round setup](/federation-rules/battle-class-rules/) and [Battle sub-rounds](/federation-rules/battle-sub-rounds/): how battles are built.
   - [Round templates](/federation-rules/round-setups/): describe a ladder of rounds as a table.

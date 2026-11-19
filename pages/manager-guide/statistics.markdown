@@ -3,7 +3,7 @@ layout: page
 title: Statistics
 permalink: /manager-guide/statistics/
 parent: Rehearsal and event day
-nav_order: 5
+nav_order: 6
 help:
   manager.comp.statistics: ""
   manager.comp.statistics.dressing-rooms: dressing-rooms
@@ -33,7 +33,7 @@ Organizers use these numbers for insurance, fire safety, the venue or city, cate
 - **Everyone in a group or formation counts.** A formation of 24 brings 24 dancers. The count follows the line-up the club sent for each class: a dancer the club left out of a class does not count for it, and a replacement or an added dancer does. A couple put together on the start list, such as a Jack & Jill final couple, counts its two dancers.
 - **Participants imported from a file** only have the names on the start list, at most three per entry, so a group imported from a file counts at most three dancers.
 - **Coaches, team staff, judges, volunteers and spectators are not included.** Add them yourself if your insurance or venue needs the full number of people in the building.
-- **Organizations** is the number of **different clubs** these dancers dance for. A club with several registration periods is still one club, so this can be lower than the number of rows on the **Registrations → Clubs** tab, which lists a club once per registration period.
+- **Organizations** is the number of **different clubs** these dancers dance for. A club with several registration periods is still one club, so this can be lower than the number of rows on the **Organizations** tab of `Competition → Registration`, which lists a club once per registration period.
 
 The same explanation is shown above the numbers on the **Dressing rooms** tab.
 

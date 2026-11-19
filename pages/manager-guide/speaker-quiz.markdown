@@ -3,7 +3,7 @@ layout: page
 title: Running a quiz from the speaker app
 permalink: /manager-guide/speaker-quiz/
 parent: Rehearsal and event day
-nav_order: 4
+nav_order: 5
 help:
   speaker.event.audience: ""
   speaker.event.audience.voting: the-voting-tab

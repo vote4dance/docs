@@ -8,7 +8,6 @@ help:
   manager.event.competitions: ""
   manager.comp.classes: step-1-create-classes
   manager.comp.classes.round: step-2-build-rounds-from-classes
-  manager.comp.classes.round.place: add-a-round-between-two-rounds
   manager.comp.teams: step-3-add-participants
   manager.comp.teams.participants-verify: verify-entries
   manager.comp.data: data-transfer
@@ -16,53 +15,43 @@ help:
 
 # Competition setup
 
-This page is your execution workflow after Event setup. You will configure classes, rounds, teams, judges, and publishing readiness in the order that prevents rework.
+This page is for the organizer who sets up a competition in Manager. When you have done the four steps, every class has its rounds, the participants are in their classes with start numbers, and the setup is checked.
+
+Do the steps in order: classes, then rounds, then participants, then the check. Judges and panels have their own page, [Judges](/manager-guide/judges/).
 
 ## Before you start
 
-Confirm these prerequisites:
+- You can sign in, open **Manager** and select your event.
+- The event's basics are done: name, date, venue and visibility. If not, do [Event setup](/manager-guide/event-setup/) first.
+- You know your federation's rules for the competition: which classes it has and who needs a license.
+- At least one more person can manage the event, as a backup.
 
-- You can open Manager and access your event
-- Event basics are complete (name, date, venue, visibility)
-- Federation rules are known (license requirements, class structure)
-- You have at least one backup admin in the event
-
-If not, complete [Event setup](/manager-guide/event-setup/) first.
-
-## Where to go
-
-1. Sign in to Vote4Dance
-2. Open **Manager**
-3. Select your event
+## Where the work is done
 
 Manager's sidebar is grouped the way the work is:
 
 | Group | Contains |
 |---|---|
-| **Event overview** | The event's start page, and **Problems** (the automatic tests over your setup) while any test fails. See [Problems](/manager-guide/validator/). |
+| **Event overview** | The event's start page, and **Problems** (the automatic checks of your setup) while any check fails. See [Problems](/manager-guide/validator/). |
 | **Event** | Competitions, Floor, Users, Stations, Café, Schedule |
 | **Competition** | Registration, Classes, Participants, Judges, Check-in, Statistics |
 | **Audience** | Notifications, Screens, Sponsors, Live results, Shop |
 
-This page works in the **Competition** group. Rounds live inside a class.
+All four steps are done in the **Competition** group. Rounds have no sidebar item of their own: you find them inside their class, on `Competition → Classes`.
 
-## Recommended build order
-
-Use this order to avoid broken links between sections:
-
-1. Create classes
-2. Create round trees
-3. Add participants
-4. Assign start numbers and class entries
-5. Add judges and build panels
-6. Rehearse one full round
-7. Take rounds from Not started to In progress
+An event can hold several competitions. They are listed on `Event → Competitions`, and each one has its own classes, rounds and participants. When the event has several, choose the competition in the tabs at the top of the page before you start.
 
 ## Step 1: Create classes
 
-Go to **Competitions -> Classes**.
+A class is what participants enter. Create every class of the competition before you build rounds.
 
-Create every class participants can enter.
+1. Go to `Competition → Classes`.
+2. While the competition has no classes, the page offers two ways to start:
+   - **Create classes** opens **Create classes from federation**, which lists your federation's classes by division and discipline. Tick the classes you want. Ticking a division or a discipline ticks every class in it. Then click **Create selected classes**. Each class gets the federation's name and code, and is linked to that Federation Class.
+   - **Go to import**, under **Import from file**, opens [Data transfer](#data-transfer). A file of participants creates their classes too.
+3. To add one more class later, click **Add class**, fill in the fields below and click **Save changes**.
+
+To change a class, click the pencil next to its name.
 
 A class has these fields:
 
@@ -70,324 +59,213 @@ A class has these fields:
 |---|---|
 | **Division** | The federation's division the class belongs to. |
 | **Discipline** | The dance discipline within that division. |
-| **Federation Class** | The federation's class this maps to — this is what carries the age and level rules, so you do not enter ages on the class yourself. |
+| **Single class** or **Jack & Jill** | Shown only when you add a class. **Jack & Jill** creates three classes in one go: one for leaders, one for followers and one for the final. See [Jack'n'Jill](/jack-n-jill/). |
+| **Federation Class** | The federation's class this maps to. It carries the age and level rules, so you do not enter ages on the class yourself. |
 | **Class title** | The name people read: on the public page, in registration and on printouts. |
 | **Class short letter** | The short form used where space is tight, such as on screens and lists. |
 | **Class role** | Only for leader/follower classes: `Leader` or `Follower`. Each such class needs exactly one partner class, and **Problems** checks that. |
 
-Group classes and merged classes add their own fields (class group, merge target).
+Buttons at the bottom of the dialog change how classes belong together:
 
-If the class's short letter is one of the federation's class codes, such as `BJITT`, the class is linked to that
-**Federation Class** by itself when you save it, and its division, discipline and category are filled in from the
-federation. This also works for older codes the federation still lists, and for each class when you split a
-merged class such as `BJITT/BVITT`. If two of the federation's classes share the code, set the **Discipline**
-first so the right one is picked. A Federation Class you chose yourself is never changed.
+- **Group** shows **Group under**, where you pick the class this one belongs under, and **Class role**.
+- **Merge class** shows **Merge with**, where you pick the class to merge this one with. It is refused while the other class has rounds.
+- **Separate classes** splits a merged class again. It shows on a class whose short letter contains `/`, such as `BJITT/BVITT`.
+- **Delete** removes the class. It is refused while the class has participants or rounds, or is part of a registration period.
 
-Tips:
+If the class's short letter is one of the federation's class codes, such as `BJITT`, the class is linked to that **Federation Class** by itself when you save it, and its division, discipline and category are filled in from the federation. This also works for older codes the federation still lists, and for each class when you split a merged class such as `BJITT/BVITT`. If two of the federation's classes share the code, set the **Discipline** first so the right one is picked. A Federation Class you chose yourself is never changed.
 
-- Keep the class title human-readable for registrations and printouts
-- Prefer federation naming if the competition is federation-governed
-- Pick the Federation Class carefully; the rules follow from it
+Good to know:
 
-If your system has **Round guide**, use it after classes are finalized. For battle disciplines, the Round Guide generates the complete skeleton (placing round, bracket layers, B‑final) automatically — see [Battle bracket setup](/battle-bracket/) for the seeding steps that follow.
-
-To create a class's rounds with the Round guide:
-
-1. Open the class under **Classes** and click **Round guide**.
-2. Check the **Federation Class**, pick the **Schedule item**, and enter the **Number of Participants**.
-3. Click **Preview** to see the rounds you will get. A point summary from the federation's rules is
-   marked **Unscheduled · calculated after the final**.
-
-   ![The Round guide preview with a semifinal, a final and a point summary](/assets/images/round-guide/round-guide-point-summary.png)
-
-4. Click **Create rounds**. The rounds are placed on the schedule item you picked; the point summary
-   is placed last in the class, in the unscheduled block, so it takes no floor time.
-
-   ![The created rounds, with the semifinal and final on the schedule](/assets/images/round-guide/round-guide-created.png)
-
-The Round guide also fills in each round's **Round for those that qualify** and **Round for
-non-qualified participants** (the next round, a B-final or a second chance), so the class is ready
-to advance as soon as results are in. You can change a link in the round's settings before the round
-starts (see [Send the rest to a second chance or a B-final](#send-the-rest-to-a-second-chance-or-a-b-final)),
-or under **Qualified participants** when the round is closed. If the rounds are created but some links
-could not be set, the Round guide says so and you set those by hand.
+- Keep the class title easy to read. It is what dancers see when they register, and it is on the printouts.
+- In a competition that follows a federation's rules, use the federation's names.
+- Pick the Federation Class with care. The rules follow from it.
 
 ## Step 2: Build rounds from classes
 
-Go to **Competitions -> Rounds** or open a class and click **Create Round**.
+Every class needs its rounds, for example a semifinal and a final. The **Round guide** creates all rounds of a class in one go, from your federation's rules for the Federation Class and the number of participants. Use it for every class.
 
-For each class, define:
+1. Go to `Competition → Classes` and click the class. Its rounds open under it.
+2. Click **Round guide**.
+3. Check **Division**, **Discipline** and **Federation Class**. They are filled in from the class.
+4. Pick the **Schedule item** the rounds go on, and the **Floor**. See [Schedule and conflicts](/manager-guide/schedule/) for schedule items.
+5. Enter the **Number of Participants**. If the class already has participants, their number is filled in. If not, enter the number you expect.
+6. Click **Preview** to see the rounds you will get: for each round its name, how many participants dance in it, its judging type, its heats and how many go on. A point summary from the federation's rules is marked **Unscheduled · calculated after the final**.
 
-| Setting group | Key settings | Example |
-|---|---|---|
-| Basic | Round label, method, through count | Quarterfinal, 24 through |
-| Heat setup | Heat count and timing | 4 heats, 90 seconds each |
-| Schedule | Day, floor, time block | Day 1, Floor A, 10:00 |
-| Results | Qualifier and placement behavior | Top 12 to semifinal |
+   ![The Round guide preview with a semifinal, a final and a point summary](/assets/images/round-guide/round-guide-point-summary.png)
 
-A new round goes after the class's last round. To add an extra round in front instead, for example a
-preliminary when more entries came in than the first round can take:
+7. Click **Create rounds**. The rounds are placed on the schedule item you picked. The point summary is placed last in the class, in the unscheduled block, so it takes no floor time.
 
-1. Open the class and click **Add round**.
-2. Under **Place in class**, choose **Before the first round**. The form then takes its values from the first round:
-   **Number to advance** is twice what the first round sends on (at least 6), and the round goes in the first round's
-   schedule block, just before the first round.
-3. Check the values and click **Save changes**.
+   ![The created rounds, with the semifinal and final on the schedule](/assets/images/round-guide/round-guide-created.png)
 
-The new round becomes the class's first round, where entries without a starting round begin. Its **Round for those
-that qualify** is the round it was placed in front of.
+**Setup** is only for a federation that has more than one round setup for the class. Otherwise leave it empty.
 
-A round can't be added in front of a first round that has started. If the first round already has participants, set
-it back to **Not started** and use **Remove participants** on it first, so nobody ends up in both rounds.
-
-![Place in class on the Add Round form](/assets/images/round-guide/add-round-place.png)
-
-### Add a round between two rounds
-
-When a class needs an extra round in the middle, for example a quarterfinal between the preliminary and the
-semifinal, add it in its place instead of at the end:
-
-1. Open the class and click **Add a single round**.
-2. Enter the **Round name**, for example "Quarterfinal".
-3. Under **Place in class**, choose **After** and the round it should follow, for example **After Preliminary**. The
-   form then takes its values from the round it goes in front of, so it is not set up as a final.
-4. Check the values and click **Save changes**.
-
-![Place in class with After choices for each round of the class](/assets/images/round-guide/add-round-after.png)
-
-The new round takes over the link of the round before it: the preliminary now sends its qualifiers to the
-quarterfinal, and the quarterfinal sends them on to the semifinal. If the preliminary has a second chance round, that
-round now leads to the quarterfinal as well.
-
-Good to know:
-
-- If the round before sends its qualifiers somewhere other than the next round, for example straight to the final,
-  that link stays as it is. Check its **Round for those that qualify** afterwards if it should go to the new round.
-- An **After** choice is greyed out when the round before would not send anyone to the new round, with the reason
-  under it: the round has started, it sends nobody on (a final), or it sends its qualifiers to a round picked for it.
-- When you delete a round, the round before it now sends its qualifiers to the round after it.
-- A second chance round can only be added **After the last round**. Where it sits in the class doesn't change where
-  its participants go.
-
-### Send the rest to a second chance or a B-final
-
-When a round sends only some of its participants on, you can decide during setup where the others go: to a second
-chance round that leads back into the next round, or to a B-final that gives them their places. The Round guide
-sets this up for the rounds it creates. For a round you add yourself, set it when you add the round, in the new
-Manager:
-
-1. Open the class and click **Add a single round**.
-2. Enter the **Round name**, for example "Second chance".
-3. Under **Takes the rest from**, choose the round whose non-qualified participants dance here, for example the
-   semifinal. The list holds the class's rounds that send participants on, whose judging is not yet closed and
-   that have no round for the rest yet.
-4. Set **How many go through** to the number that go on from the new round. Leave it empty for a B-final, which
-   sends nobody on.
-5. If you set a number, the form fills in the rest from the round you chose. **Round for those that qualify**
-   becomes the round the semifinal sends its own qualifiers to, usually the final, so both rounds lead to the same
-   next round. **Judging type**, **Schedule item** and **Floor** become the semifinal's, so the second chance is
-   judged the same way and dances in the same block. A B-final keeps the values of the class's last round instead.
-6. Check the values, change any that do not fit your class, and click **Save changes**.
-
-   ![The Add Round form with Takes the rest from set to the semifinal](/assets/images/round-guide/add-round-rest-from.png)
-
-The class's rounds now show the link on the round you chose, for example "4 go through, the rest to Second chance".
-That round keeps sending its qualifiers to the same round as before.
-
-![The rounds of a class, where the semifinal sends the rest to the second chance](/assets/images/round-guide/rounds-rest-to-second-chance.png)
-
-To change where a round you already have sends its participants:
-
-1. Open the class and click the round.
-2. Under **How many go through**, set **Round for those that qualify** and **Round for non-qualified
-   participants**. **Not going through** means the rest get their places from this round and do not dance again.
-3. Click **Save changes**.
-
-Good to know:
-
-- The two fields show only while **How many go through** is set, so not on a final.
-- When **Round for those that qualify** reads **The next round**, followed by a round's name, the round has no
-  link of its own: its qualifiers go to the round after it in the class when it starts, passing over its own second
-  chance round or B-final. A second chance round without a link goes to the round after the round it takes the
-  rest from. Once you choose a round for
-  the non-qualified, saving also fills in the round for those that qualify, so the two groups can never end up in
-  the same round by accident.
-- You can change both until the round's judging is closed. After that, use **Qualified participants** on the closed
-  round.
-- When you confirm the round on the day, the rest are sent to the round you chose, and that round's **Best
-  placement** is set to the first place after those who went through unless you choose otherwise.
-
-Typical round tree:
+A class with three rounds can look like this:
 
 ```
 Class: Junior Solo - Contemporary
-	Round 1: Quarterfinal (24 through)
-	Round 2: Semifinal (12 through)
-	Round 3: Final (0 through)
+	Quarterfinal: 24 go on
+	Semifinal: 12 go on
+	Final: nobody goes on
 ```
+
+The Round guide also fills in each round's **Round for those that qualify** and **Round for non-qualified participants** (the next round, a B-final or a second chance), so the class is ready to advance as soon as results are in. If the rounds are created but some of these links could not be set, the Round guide says so, and you set those under **Qualified participants** when the round is closed. See [Check where the round sends its participants](/manager-guide/live-operations/#check-where-the-round-sends-its-participants).
+
+For battle disciplines, the Round guide creates the whole structure: the placing round, the bracket layers and the B-final. See [Battle bracket](/battle-bracket/) for the seeding steps that follow.
+
+In Scrutineer (Beta), the new version of the Manager app, the button is **Create rounds**, or **Create rounds again…** when the class already has rounds.
+
+### Run the Round guide again
+
+The Round guide replaces the rounds the class already has. So you can run it again when the number of participants has changed, for example after registration closes.
+
+It works until participants have been put in one of the class's rounds. After that it answers "Cannot create rounds from guide if participants are already present". Then change the rounds one at a time: see [Adding rounds by hand](/manager-guide/rounds-by-hand/).
+
+### Round settings
+
+Click a round's name to open it. Its settings are in **Round information**, in four tabs:
+
+| Tab | Settings |
+|---|---|
+| **Basic** | **Round name**, **Judging type**, **Number to advance**, **Number of heats**, **Schedule item**, **Round number** |
+| **Schedule** | **Heat length**, **Lock per heat**, **Floor**, **Round comment** |
+| **Results** | **Best placement**, **Hide results from position**, **What to hide**, **No placement for non-qualified**, **Judging panel** |
+| **Priority** | **Round priority setting**, **Submit rules**, **Weight**, **Tolerance** |
+
+**Number to advance** is how many participants go on to the next round. On a final it is disabled. In Scrutineer (Beta) the same field is called **How many go through**.
+
+Change what you need and click **Save changes**. You can change a round while it is **Not started** or **In progress**. After that the form says "Round can not be edited when closed".
+
+When a class needs a round the Round guide did not create, such as an extra round before the first round, a second chance or a B-final, see [Adding rounds by hand](/manager-guide/rounds-by-hand/).
 
 ## Step 3: Add participants
 
-Go to **Competition → Participants**. (The page is called Participants in Manager; "teams" is
-the older internal word, and one participant row can be a single dancer, a couple or a group.)
+Participants are on `Competition → Participants`, listed class by class. Click a class to open its list.
 
-Participants get there three ways:
+One participant row can be a single dancer, a couple or a group. Some buttons still say "competitor", and Scrutineer (Beta) says "entry". They all mean a participant.
 
-- **Imported from approved registrations** — the normal route. See [Registration and check-in](/manager-guide/registration-checkin/).
-- **Added by hand**, for entries that never went through registration.
-- **Generate random competitors** — a practice-event-only action that fills a round with test
-  entries, for rehearsals. See [Test run and venue rehearsal](/manager-guide/test-run/).
+Participants get there in one of these ways:
 
-Each participant's club shows by its full name, with its short code in brackets when the name
-doesn't already contain it, for example Dansstudio Shake Vzw (SHAKE). A participant with no full
-club name on file shows the short code instead.
+- **From approved registrations.** This is the normal way. On `Competition → Registration`, click **Update/import participants**. See [Update/import participants](/manager-guide/registration-checkin/#updateimport-participants).
+- **From a file**, for a competition without online registration. See [Data transfer](#data-transfer).
+- **By hand**, for a participant who did not register. Click **Add participants**. In **Competitor information**, pick the class in **Starting in**, type the names and click **Save changes**. **Register new competitor**, under a class's list, opens the same dialog.
+- **Test participants**, in a practice event only. Under a class's list, the arrow next to **Register new competitor** has **Generate random competitors**. See [Test run and venue rehearsal](/manager-guide/test-run/).
 
-CSV import lives on `Competition → Registration → Data transfer`, together with the reset and
-delete tools.
+Each participant's club shows by its full name, with its short code in brackets when the name doesn't already contain it, for example Dansstudio Shake Vzw (SHAKE). A participant with no full club name on file shows the short code instead.
 
-Do not bulk delete participants once judging is underway.
+Do not delete participants in bulk once judging has started.
+
+### Assign start numbers
+
+1. On `Competition → Participants`, click **Assign start numbers** to number the whole competition. The same button under a class's list numbers only that class. The choices in the dialog are explained in [After the import](/manager-guide/registration-checkin/#after-the-import).
+2. To set one number by hand, click the participant's name and change **Start number**.
+3. Click **Print start number** to print the numbers.
+
+Assign the numbers before you put participants in rounds. Once a participant is in a round, **Assign start numbers** refuses.
+
+### Put the participants in their first round
+
+1. Go to `Competition → Classes` and click the class.
+2. Click **Add participants** on the class's first round.
+
+The button shows only when the class has participants who are not in the round yet. A participant starts in the class's first round, unless **First round** in their details names a later round.
 
 ### Verify entries
 
-After you have imported an entry list, **Verify** checks all entries of the competition and warns you about what looks wrong, so you can fix it before the event. It only warns: nothing is changed.
+**Verify** is in Scrutineer (Beta), the new version of the Manager app. The classic Manager does not have it. To get there from the classic Manager, press **Try new version** at the top.
+
+After you have imported participants, **Verify** checks all of them and warns you about what looks wrong, so you can fix it before the event. It only warns: nothing is changed.
 
 It has these checks:
 
-- **Licence number**: when the entry list has license numbers (for example a list imported from the federation's system), it lists every entry where a dancer has no license number. It tells you which dancer (dancer 1, 2 or 3) and their birth year. It only checks that a number is there. Whether a license is valid is still checked in the federation's own system.
-- **WSDC level** (WSDC competitions only): looks up each Jack&Jill leader and follower in the WSDC registry and compares their level with the class they entered. A dancer's points decide the lowest level they must dance, and the registry also says how far up they may go. Verify lists every dancer who is below their level ("Leader must dance Intermediate or higher · 22 points in Novice") or above it ("Follower may dance up to Novice"). A dancer the registry doesn't know may dance Newcomer and Novice. Entries without a WSDC id, and dancers the registry didn't answer for, are listed under **Not checked**. The registry shows today's points, so run it before the event.
+- **Licence number**: when the participants have license numbers (for example after an import from the federation's system), it lists every participant where a dancer has no license number. It tells you which dancer (dancer 1, 2 or 3) and their birth year. It only checks that a number is there. Whether a license is valid is still checked in the federation's own system.
+- **WSDC level** (WSDC competitions only): looks up each Jack & Jill leader and follower in the WSDC registry and compares their level with the class they entered. A dancer's points decide the lowest level they must dance, and the registry also says how far up they may go. Verify lists every dancer who is below their level ("Leader must dance Intermediate or higher · 22 points in Novice") or above it ("Follower may dance up to Novice"). A dancer the registry doesn't know may dance Newcomer and Novice. Participants without a WSDC id, and dancers the registry didn't answer for, are listed under **Not checked**. The registry shows today's points, so run it before the event.
 
-1. Go to **Competition → Participants**.
-2. Click **Verify**, next to **Print start numbers**. The **Verify entries** panel opens. Each row shows the start number, what is missing and the classes of the entry.
+To run it:
+
+1. Go to `Competition → Participants`.
+2. Click **Verify**, next to **Print start numbers**. The **Verify entries** panel opens. Each row shows the start number, what is missing and the participant's classes.
 
    ![The Verify entries panel listing dancers without a license number](/assets/images/verify-entries/verify-entries-panel.png)
 
-3. Click **Open entry** on a row to open that entry and fix it, for example by adding the license number.
-4. To work through all findings in one go, click **Show these N in the list**. The participants list then shows only those entries, and a **Verify findings** tag appears next to the filter buttons. Click **×** on the tag to show all participants again.
+3. Click **Open entry** on a row to open that participant and fix it, for example by adding the license number.
+4. To work through all findings in one go, click **Show these N in the list**. The participants list then shows only those participants, and a **Verify findings** tag appears next to the filter buttons. Click **×** on the tag to show all participants again.
 
-   ![The participants list showing only the entries Verify found, with the Verify findings tag](/assets/images/verify-entries/verify-entries-filter.png)
+   ![The participants list showing only the participants Verify found, with the Verify findings tag](/assets/images/verify-entries/verify-entries-filter.png)
 
-5. When you have fixed entries, click **Verify again** to run the checks again. When nothing is found, the panel says "No problems in the N entries that could be checked".
+5. When you have fixed them, click **Verify again** to run the checks again. When nothing is found, the panel says "No problems in the N entries that could be checked".
 
-## Step 4: Assign start numbers and class entries
+## Step 4: Check the setup
 
-Still in **Participants**:
+1. On `Competition → Participants`, open each class and check that the right participants are in it, and that nobody is missing a class or a start number.
+2. Add the judges and give every class a panel. See [Judges](/manager-guide/judges/).
+3. Open [**Problems**](/manager-guide/validator/). It checks the setup for you: start-number conflicts, invalid start numbers, the same person ID used with two different names, and participants without a placement who have no class to start in. For DSF competitions it also checks conflicting license numbers. **Problems** is in the sidebar only while a check fails.
+4. [Run one rehearsal round](#run-one-rehearsal-round) from start to finish.
 
-1. Assign start numbers (manually or automatically)
-2. Check every participant is entered in the right class
-3. Verify nobody is missing a class assignment
+The setup is done when:
 
-Then open [**Problems**](/manager-guide/validator/), which checks exactly this for you: start-number conflicts, invalid
-start numbers, the same person ID used with two different names, and participants without a
-placement who have a class set to start in. For DSF competitions it also checks conflicting
-license numbers.
+- All classes exist, with a title, a short letter and the right Federation Class.
+- All rounds exist, with a schedule item, a floor and the right number to advance.
+- Participants are imported, numbered and in their classes.
+- Judges are `Active`, and every class has a panel.
+- One rehearsal round has been run from start to finish.
+- **Problems** shows no failed checks.
 
-## Step 5: Add judges and build panels
+### Run one rehearsal round
 
-Go to **Competition → Judges**. The full reference is [Judges](/manager-guide/judges/).
+Run one round at your desk before the event day. For the full rehearsal at the venue, with projector and tablets, see [Test run and venue rehearsal](/manager-guide/test-run/).
 
-Process:
+1. Pick a test class and open its first round.
+2. Click **Start judging**. The round goes to **In progress**.
+3. Enter marks as the judges would.
+4. Close the round, confirm it and publish the test results.
+5. Check the printouts: heat list, judging sheet and results.
 
-1. Invite each judge by email, or link an existing account. **Invite new judge** checks for
-   existing accounts first, so you do not create a duplicate person.
-2. Assign judge letters (A, B, C…)
-3. Enter each judge's needs: times away, limits, and classes or dancers they must not judge
-4. On the **Panels** tab, create panels and seat judges, or let **Suggest** seat them for you
-5. On the **Classes** tab, assign a panel to each class — a round can have its own panel
+If anything fails, fix it before you start the real rounds.
 
-Each judge's row shows `Not invited`, `Invited` or `Active`, and lets you resend the invitation
-in any of the app's languages, or **Reset PIN** if a judge has forgotten theirs. Judges set
-their own PIN on their own device; there is no event-wide code. A judge's PIN is shared by all
-competitions in the event, so **Reset PIN** clears it event-wide. **Reset PIN** is disabled
-until the judge has set a PIN.
+A round goes through these statuses, in this order:
 
-Fix anything listed above the tabs before the event. A panel locks once a round that uses it
-has scores, and a panel that a round uses cannot be deleted. A judge who already has marks cannot be removed.
+| Status | What it means | Button that takes the round there |
+|---|---|---|
+| **Not started** | Setup. The round's settings can be changed. | |
+| **In progress** | Judges can mark. | **Start judging** |
+| **Closed** | Judging has ended. | **Close round** |
+| **Confirmed** | Results are checked and approved for presentation. | **Confirm round** |
+| **Published** | Results are visible online. | **Publish results online** |
 
-## Step 6: Run one rehearsal round
-
-Before event day, execute one full dry run. This is the desk version; for the full rehearsal
-at the venue with projector and tablets, see
-[Test run and venue rehearsal](/manager-guide/test-run/).
-
-1. Pick a test class
-2. Open the first round
-3. Press **Start judging** (the round goes to **In progress**)
-4. Simulate judging input
-5. Close, confirm, and publish test results
-6. Verify printouts (heat list, judging sheet, results)
-
-If anything fails, fix before opening real rounds.
-
-## Round lifecycle you should enforce
-
-Use this exact sequence:
-
-1. **Not started**: setup stage, round settings editable
-2. **In progress**: judges can mark (button: **Start judging**)
-3. **Closed**: judge input ended (button: **Close round**)
-4. **Confirmed**: results reviewed, approved for presentation (button: **Confirm round**)
-5. **Published**: results visible externally (button: **Publish results online**)
-
-**Previous status** steps a round back.
-
-Do not skip statuses unless your federation explicitly allows it.
+**Previous status** steps a round back. See [Live operations](/manager-guide/live-operations/) for running rounds on the day.
 
 ## Data transfer
 
-`Competition → Registration → Data transfer`, only when needed.
+`Competition → Registration`, tab **Data transfer**. Use it only when you need it. It has four parts:
 
-Use cases:
+| Part | What it does |
+|---|---|
+| **Import registrations** | Imports participants, and their classes, from a CSV file. A preview shows what will be added, changed and removed before anything is saved. You can upload the same file again: participants already there are updated, participants no longer in the file are removed, and new ones are added. |
+| **Download results** | **Download .csv file** downloads the results. **Download partial average** downloads the partial averages. |
+| **Reset results** | Removes all results and takes the participants out of the rounds. Participants, rounds and judges are kept. |
+| **Delete registrations** | Deletes all participants. Rounds and judges are kept. |
 
-- CSV import of participants
-- Result downloads
-- Reset and delete tools for test data
+**Reset results** and **Delete registrations** cannot be undone. Use them for test data. Both are disabled once the competition has been made public. Do not delete all participants when online check-in has started.
 
-High risk actions:
-
-- Reset and delete are destructive
-- Never reset active competition data without a backup
+Do not mix participants from a file and participants from registrations in the same competition. See [Update/import participants](/manager-guide/registration-checkin/#updateimport-participants).
 
 ## Troubleshooting
 
-### "Start judging is refused"
+| What you see | Why | What to do |
+|---|---|---|
+| A round has no **Start judging** button. | The round has no participants yet. | Click **Add participants** on the round. See [Put the participants in their first round](#put-the-participants-in-their-first-round). |
+| **Start judging** is greyed out, with "Assign a judging panel to this class or round before starting judging." | Neither the class nor the round has a judging panel. | Give the class a panel on the **Classes** tab of `Competition → Judges`. See [Judges](/manager-guide/judge-panels/#classes). |
+| A participant is not in the class. | The registration is not **Approved**, or it was approved after the last import. | Approve it and click **Update/import participants** again. For a participant added by hand, check **Starting in**. |
+| A participant is in the class but not in the round. | Participants are put in the first round with a button, not by themselves. | Click **Add participants** on the round. |
+| The Round guide says "Cannot create rounds from guide if participants are already present". | A round of the class already has participants. | Change the rounds one at a time. See [Adding rounds by hand](/manager-guide/rounds-by-hand/). |
+| A panel cannot be changed. | A panel locks once a round that uses it has scores. | See [When assignment locks](/manager-guide/judge-panels/#when-assignment-locks). |
+| A file import put participants in the wrong class. | The file names the wrong class for them. | Correct the file and upload it again on **Data transfer**. The preview shows what will change. |
 
-Usually caused by missing judges, a missing schedule item, or unassigned participants. With no
-panel, Manager says "Assign a judging panel to this class or round before starting judging."
+## Related pages
 
-Fix:
-
-1. Open round validation
-2. Resolve all blocking errors
-3. Retry status change
-
-### "Participants are not appearing in a class"
-
-1. Confirm the registration is **Approved** and was imported
-2. Confirm the class entry was saved
-3. Confirm eligibility (the Federation Class's age and level rules, licenses)
-
-### "Judge assignment is locked"
-
-This often happens after results started.
-
-1. Check round status
-2. If Closed/Confirmed, use approved correction workflow
-3. Log reason for any panel change
-
-### "CSV import created wrong mappings"
-
-1. Stop further imports
-2. Export current state for audit
-3. Correct mapping template
-4. Re-import only corrected rows
-
-## Competition setup done checklist
-
-- All classes exist with a title, short letter and the right Federation Class
-- All rounds exist with a schedule item, floor and advancement plan
-- Participants are loaded, numbered and entered in classes
-- Judges are `Active`, and every active class has a panel
-- One full rehearsal round completed successfully
-- **Problems** shows no failed tests
-
-Prove the setup with real devices before the day: [Test run and venue rehearsal](/manager-guide/test-run/).
+- [Adding rounds by hand](/manager-guide/rounds-by-hand/): single rounds, second chance and B-final
+- [Judges](/manager-guide/judges/): judges, panels and which panel judges each class
+- [Schedule and conflicts](/manager-guide/schedule/): when each round is danced
+- [Registration and check-in](/manager-guide/registration-checkin/): registrations, importing participants and start numbers
+- [Problems](/manager-guide/validator/): every setup check and how to fix it
+- [Test run and venue rehearsal](/manager-guide/test-run/): proving the setup with real devices

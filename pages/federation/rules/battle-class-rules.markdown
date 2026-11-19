@@ -3,14 +3,14 @@ layout: page
 title: Battle round setup
 permalink: /federation-rules/battle-class-rules/
 parent: Federation Rules
-nav_order: 2
+nav_order: 9
 ---
 
 # Battle round setup
 
 This page explains how to configure the round setup so that the **Round Guide** automatically generates the correct round skeleton — placing round, battle layers, B‑final — for each competitor count in a 1v1 battle discipline.
 
-New to the round setup? Read [How the round setup works](/federation-rules/reference/) first — this page builds on its ladder, stage and exception thinking, and its reference lists every condition, action and setting used below.
+New to the round setup? Read [How the round setup works](/federation-rules/reference/) first — this page builds on its ladder, stage and exception thinking, and [Round setup conditions, actions and settings](/federation-rules/round-setup-settings/) lists every condition, action and setting used below.
 
 > **Competition operators:** see [Battle bracket setup](/battle-bracket/) for how to seed and run battles once the skeleton exists.
 

@@ -3,7 +3,7 @@ layout: page
 title: Point summary
 permalink: /point-summary/
 parent: Classes, rounds and judges
-nav_order: 7
+nav_order: 11
 ---
 
 # Point summary

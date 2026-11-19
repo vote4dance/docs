@@ -42,14 +42,11 @@ The settings that decide the route, per item:
 
 | Setting | Effect |
 |---|---|
-| **Organization mode** | `Not allowed` — no club on the license. `Optional` — either route. `Required` — the item needs a club, and that club must be an approved issuer. |
+| **Organization mode** | `disallowed` (**Not allowed** in the list of items) — no club on the license. `optional` — either route. `required` — the item needs a club, and that club must be an approved issuer. |
 | Self-application | Whether a member, or a non-member, may apply for the item themselves. An item that forbids it tells the applicant "This license can't be applied for directly. Apply through your organization." |
-| **Competition scope** | `Full season`, or `Single competition` (the applicant then supplies a competition). |
+| **Competition scope** | `season` (**Full season** in the list of items), or `single_competition` (**Single competition**; the applicant then supplies a competition). |
 | **Kind** | `standard`, or `external` for licenses verified against another federation's system — the applicant enters their MIN / WSCID / lidnummer, and external licenses are lifetime, with your federation owning validity. |
 | **Maximum uses per season** | Caps how many times the item can be applied for. Once reached, applicants see "This license item is no longer available — it has reached its maximum number of applications." |
-
-Every license records which route it came through as **Applied via: Self, Club or Federation
-admin**, so you can always see how it arrived.
 
 ## Setting it up
 
@@ -65,7 +62,7 @@ Contact the federation to complete your license."
 
 ### Step 2: Define the license items
 
-`Admin → Federation → Licenses → License items`, which is where you "define the license products
+`Federation → Licenses → License items`, which is where you "define the license products
 the federation offers". Adding or editing items requires the **Administrator** role.
 
 Each item has:
@@ -74,11 +71,11 @@ Each item has:
 |---|---|
 | **Name** | What applicants see. |
 | **Code** | Your short identifier. |
-| **Category** | `Dancer`, `Judge`, `Coach`, `Organizer`, `Scrutineer`, `Supervisor`, `Music` or `Other`. |
-| **Kind** | `standard`, or `external` for licenses verified against another federation's system. External items are lifetime: neither scope nor season applies, and the federation owns validity. |
+| **Category** | `dancer`, `judge`, `coach`, `scrutiny`, `supervisor`, `music`, `organizer` or `other`. |
+| **Kind** | `standard`, `guest`, `first_start`, `one_off`, `membership`, or `external` for licenses verified against another federation's system. External items are lifetime: neither scope nor season applies, and the federation owns validity. |
 | **Division** and **Discipline** | Which part of your structure the item belongs to. |
-| **Competition scope** | `Full season` or `Single competition`. |
-| **Organization mode** | `Required`, `Optional` or `Not allowed` — see above. |
+| **Competition scope** | `season` or `single_competition`. |
+| **Organization mode** | `required`, `optional` or `disallowed` — see above. |
 | **Price** and **Currency** | Leave the price at zero for a free license. A free license has nothing to pay: it becomes **Active** as soon as it is applied for, unless you require club or federation approval, in which case it waits as **Pending** for that approval only. |
 | **Maximum uses per season** | Optional cap. |
 | **Status** | Whether the item is available at all. |
@@ -96,27 +93,29 @@ single-competition license can be refused at championships. Set that on the comp
 
 ### Step 4: Decide which clubs may issue
 
-For items with organization mode `Required`, the club must be an **approved issuer**. Grant that
+For items with organization mode `required`, the club must be an **approved issuer**. Grant that
 on the club's page under `Federation → Members → Organizations` with **Allow license issuing**,
 which needs the **Manager** role or higher. A club that is itself
 still pending federation approval blocks every license it holds.
 
 ### Step 5: Review the applications
 
-Applications arrive in **Needs your approval**, with a banner counting them. Each one shows four
-checks, and you can only approve when they pass:
+Applications arrive in **Needs your approval**. The tab, and **Licenses** in the federation bar,
+show how many are waiting. Each one shows four checks:
 
 | Check | Fails when |
 |---|---|
-| **Club has approved this license** | The club has not approved it yet: "A manager or administrator there has to approve it." |
-| **Club approved by the federation** | The club itself is still pending — the application is *Blocked*. |
+| **Organization has approved this license** | The club has not approved it yet: "A manager or administrator there has to approve it." |
+| **Organization approved by the federation** | The club itself is still pending — the application is *Blocked*. |
 | **Payment received** | Payment is outstanding. |
 | **Within the license window** | The window has not opened, or has closed. |
 
 All four passing shows "All four checks pass · ready to approve". The queue tags each row
 **Ready**, **Waiting** or **Blocked**, and blocked applications are shown rather than hidden.
+**Approve** is unavailable only for a **Blocked** application: a **Waiting** one can still be
+approved, for example before its payment has arrived.
 
-You can approve in bulk — "Approve all (*n*)", or a selection — and licenses held by clubs the
+You can approve a selection in one go with **Approve *n***, and licenses held by clubs the
 federation has not approved are skipped rather than forced through, with a count of what was
 left alone. Payment status can also be set in bulk.
 
@@ -124,7 +123,7 @@ Statuses a license moves through: **Draft**, **Pending**, **Active**, **Expired*
 **Cancelled**, with payment status tracked separately. Issuing, approving, suspending and
 revoking need the **Manager** role.
 
-Full detail, field by field: [Federation admin](/federation-licenses/federation-admin/).
+The Licenses screen day to day, task by task: [Federation admin](/federation-licenses/federation-admin/).
 
 ### Step 6: Test the whole thing before you announce it
 
@@ -149,7 +148,7 @@ Test with test accounts, in the routes you actually offer.
 **The blocked case, which is worth seeing once**
 
 Leave a test club *unapproved* and apply for one of its members. The application should appear in
-your queue tagged **Blocked**, with "Approve the club first" — and a bulk approve should skip it
+your queue tagged **Blocked**, with "Approve the organization first" — and a bulk approve should skip it
 rather than issue it. Knowing what this looks like saves confusion in the first real season.
 
 ### Step 7: Tell your community
@@ -178,7 +177,7 @@ License rules` will not count where it matters.
 
 ### "Payment will not go through"
 
-Stripe must be connected to the federation (Owner role). Applicants are also blocked by an
+Stripe must be connected to the federation (an Administrator or an Owner does that). Applicants are also blocked by an
 invalid price, an invalid currency or an invalid application fee on the item — each has its own
 message telling them to contact the federation, so if applicants report those, the item is
 misconfigured rather than the payment broken.

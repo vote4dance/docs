@@ -60,8 +60,11 @@ See [Post-event and exports](/manager-guide/post-event/) and
 
 ## Corrections after closing
 
-- **Promotion points on an entry:** edit the U-points field in the team editor in Manager,
-  after the competition is closed.
+- **A wrong result:** correct the round, then close the competition again. The points follow
+  the result. A closed event cannot be edited, so it has to be opened first: see
+  [Correct a result](/manager-guide/post-event/#correct-a-result).
+- **Right result, wrong promotion points:** ask the federation. A federation administrator can
+  set the points of one result so that the number stays.
 - **A couple's class or points balance:** the federation handles it, not you.
 - **Rankings:** the federation corrects rankings. Tell them what changed.
 
