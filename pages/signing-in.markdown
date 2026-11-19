@@ -2,8 +2,8 @@
 layout: page
 title: Signing in
 permalink: /signing-in/
-parent: Getting Started
-nav_order: 4
+parent: Start here
+nav_order: 1
 help:
   base.sign-in: ""
   public.account.sign-in-methods: manage-how-you-sign-in
@@ -57,7 +57,7 @@ You do not need a separate step to sign up. Use the same screen as for signing i
 
 In the app, choose **Join Vote4Dance** on the first screen; the steps are the same. There is no password to invent. Use the name your federation and organizers know you by, not a nickname: it is how you are found in entry lists. What to do next, for example filling in your profile and joining a club, is described for each role, for example [Dancer account creation](/dancer/account-creation/).
 
-**One account per person.** If you already have an account, use the same e-mail address and you are signed in to it. Do not create a second account with another address: your results, licences and registrations would be split across two accounts. Children need their own accounts too, see [Children's accounts on a parent's phone](#childrens-accounts-on-a-parents-phone).
+**One account per person.** If you already have an account, use the same e-mail address and you are signed in to it. Do not create a second account with another address: your results, licenses and registrations would be split across two accounts. Children need their own accounts too, see [Children's accounts on a parent's phone](#childrens-accounts-on-a-parents-phone).
 
 **Accounts made for you at the check-in desk.** When the desk creates an account for you on the spot, it does not get a password. You sign in with your e-mail address and a code, exactly as above.
 
