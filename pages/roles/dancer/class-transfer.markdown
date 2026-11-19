@@ -29,7 +29,7 @@ Closing can happen days after the competition. Until then, your points and class
 
 The full mechanism is on [Promotion points](/federation/progression/).
 
-If your federation closes a class at a number of points per season, the app shows where each of your teams stands and tells you when one moves up: see [Your season points in the app](/dancer/season-points/).
+Some federations also close a class at a number of points per season. Those season points are a separate count, and they can show before the competition is closed. The app shows where each of your teams stands and tells you when one moves up: see [Your season points in the app](/dancer/season-points/).
 
 ## Points belong to the couple
 
@@ -37,8 +37,7 @@ Promotion points and class belong to the **couple or team**, not to each dancer.
 dancing with a new partner, you are a new couple, with no points yet.
 
 In a federation that requires class membership, a new couple can register for the **entry-level**
-classes, and is placed in the
-class when it registers. Higher classes stay closed to it until the federation places the couple
+classes, and is placed in the class when it registers. Higher classes stay closed to it until the federation places the couple
 there, or its points in the class below allow it to move up. If you think your new couple should
 start higher, for example because you both danced in a higher class before, ask your federation
 before you register.
@@ -56,5 +55,5 @@ example as an approved exception. Both are recorded in your history.
 | What you see | What to do |
 |---|---|
 | You expected to move up, but have not | Check that the competition is closed. If it is, ask your federation to check your points. |
-| Your points are split over two couples | A wrong person number on an entry created a duplicate couple. Tell your federation. |
+| Your points are split over two couples | A wrong federation ID on an entry created a duplicate couple. Tell your federation. See [Your federation ID](/dancer/getting-a-license/#your-federation-id). |
 | Your club and federation disagree about your class | Get a confirmed answer from the federation before you register. |

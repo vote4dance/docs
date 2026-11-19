@@ -12,7 +12,7 @@ redirect_from:
 
 For dancers who compete, and for parents who look after a child's account.
 
-You sign in with your e-mail address and a code, with no password: see [Signing in](/signing-in/).
+You sign in with your e-mail address and a code, with no password to remember: see [Signing in](/signing-in/). The same page says how to [change your e-mail address](/signing-in/#change-your-e-mail-address).
 Coming to watch, not to dance? See [Spectator](/spectator/).
 
 ## Get started
@@ -50,9 +50,10 @@ federation, and to tidy up what is still open:
 1. Finish or cancel the registrations you still have. See
    [Cancelling a registration](/dancer/registration-for-event/#cancelling-a-registration).
 2. Tell your club, so they stop entering you and can sort out your team.
-3. Stop applying for a new license. The one you have turns **Expired** by itself when its
-   validity window closes.
+3. Stop applying for a new license. The one you have turns **Expired** by itself when the
+   period it is valid for ends.
 
 Your results, rankings and class memberships stay. Keep your account, too. If you come back
 later and create a new one, your results are split over two accounts, and someone has to merge
-them by hand.
+them by hand. If you still want the account gone, see
+[Delete your account](/signing-in/#delete-your-account).

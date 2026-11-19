@@ -14,6 +14,8 @@ In some federations a team earns points with its results, and once it has enough
 
 How the federation sets the limits is on [Closing a class at points](/federation/class-point-limits/).
 
+Season points are not the same as promotion points. Promotion points are added when the organizer closes a competition, and move a couple up when it reaches the points limit of its class: see [Results, points and rankings](/dancer/creating-and-getting-a-ranking/). A federation can use one, both or neither.
+
 ## See where your teams stand
 
 1. Open the **Profile** tab.
@@ -49,7 +51,7 @@ Tap a row to open the team's season.
 
 Good to know:
 
-- Points from a competition count once its results are published.
+- Points from a competition count once its results are public. That is when the organizer closes the competition, or earlier if the organizer publishes results while the competition runs. The app says "Points from a competition count once its results are published."
 - A new partner starts again at 0.
 - Everyone starts again at 0 when a new season begins, unless your federation's points never expire.
 
@@ -63,7 +65,7 @@ The teams you dance in, your children's teams and the teams you follow are highl
 
 ## When a team moves up
 
-When a competition's results are published and one of your teams has reached a limit, you get a message on your phone, for example:
+When a competition's results are public and one of your teams has reached a limit, you get a message on your phone, for example:
 
 > **Your duo moves up to Ultimate Talent**
 > Lena & Noor now have 18 points. From the next competition you dance Ultimate Talent in Hip Hop Duo.
@@ -86,7 +88,7 @@ In the app:
 
 ![The two switches in the notification settings](/assets/images/season-points/notification-settings.png)
 
-On the website, open your account and choose **Notification settings**. The same two switches are there.
+On the website, open **My account** and choose **Notification Preferences**. The same two switches are there.
 
 ## Who can see your points
 
@@ -100,6 +102,6 @@ On the website, open your account and choose **Notification settings**. The same
 
 | What you see | What to do |
 |---|---|
-| A result is missing | Check that the competition's results are published. Points count from then on. |
+| A result is missing | The competition's results are not public yet. They are at the latest when the organizer closes the competition, which can be some days after the event. Points count from then on. |
 | The points do not match what you expected | Tap the row and check which results count. If a result is wrong, ask your federation. |
 | You cannot find **Ranking and progression** | You need to be signed in, and your federation needs to use season points. |

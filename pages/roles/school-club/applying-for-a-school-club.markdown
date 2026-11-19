@@ -12,25 +12,18 @@ Dancers and staff join your club themselves. Your part is to make the club easy 
 
 ## The mechanics on your side
 
-**Member approval** is a switch on the club: "New users need to be approved before becoming
-members". With it on, applications queue on the members list as **Requires your action**, and you
-approve them one by one or with **Approve all**. With it off, anybody who applies is in.
+**Member approval** is a setting in the club's details: "New users need to be approved before
+becoming members". With it on, the people who ask to join wait under **Members** as **Requires
+your action**, and you approve them one by one or with **Approve all**. With it off, anybody who
+asks is a member at once. You change it with **Edit organization** on the club's **Home** page.
 
-Approving takes at least the **Manager** role. What you give people afterwards matters more than
-the approval itself:
-
-| Role | Give it to |
-|---|---|
-| **Member** | Dancers. They represent the club and coaches can enter them; they cannot register on the club's behalf or manage members. |
-| **Coach** | Whoever creates competitors, registers them and pays for the club's registrations. |
-| **Manager** | Whoever approves memberships and handles the club's federation licenses. |
-| **Administrator** | Whoever runs the club: invites people, sets roles below administrator, applies to federations, edits or deletes the club. |
-
-A dancer left on **Member** is correct, not a mistake to fix.
+Approving takes at least the **Manager** role. Everyone joins as a **Member**. That is the right
+role for a dancer. Give **Coach**, **Manager** or **Administrator** only to the people who do
+that work: what each role can do is listed under [Roles](/school-club/club-admin/#roles).
 
 ## How members find and join the club
 
-1. The dancer creates their own personal account. See [Account creation](/dancer/account-creation/).
+1. The dancer creates their own personal account. See [Creating your account](/dancer/account-creation/).
 2. They find the club and press **Join organization**.
 3. With **Member approval** on, they wait under **Members** until a manager or administrator
    approves them. With it off, they are members at once.
@@ -49,8 +42,8 @@ role under **Permissions**.
 
 ## Before you tell members to join
 
-- At least two people have the **Administrator** role. Only Vote4Dance support can add the
-  second one, so ask early.
+- At least two people have the **Administrator** role. Only Vote4Dance can add the
+  second one, so [ask early](/getting-help/#writing-to-vote4dance).
 - Someone with **Manager** or higher will approve applications, if **Member approval** is on.
 - The club's details are complete.
 

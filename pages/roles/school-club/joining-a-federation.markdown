@@ -12,24 +12,27 @@ Your club applies to its federation in Vote4Dance, and the federation approves i
 
 ## Where to do it
 
-- federation application and prerequisites: [Organization admin](/federation-licenses/organization-admin/)
-- federation licensing model reference: [Federation Licenses](/federation-licenses/)
+On the club's **Federation** screen: `Organization → Administration → Federation`. What the
+screen lists is described under [Federation](/school-club/club-admin/#federation). How a
+federation sets up its licenses is on [Federation Licenses](/federation-licenses/).
 
 ## What the flow actually is
 
-It is three clicks and a wait, not a paperwork exchange. Any documents or fees your federation
-wants are arranged outside Vote4Dance; the product only carries the link and its approval state.
+You apply in Vote4Dance and wait for the federation to approve. Any documents or fees your
+federation wants are arranged with the federation, outside Vote4Dance.
 
 1. Open `Organization → Administration → Federation`. Applying needs the club's
    **Administrator** role.
-2. Select yours in the selector and press **Apply**
-3. The federation shows as **Pending** until a federation manager approves it, then **Approved**
+2. Pick your federation in the selector below the list and press **Apply**.
+3. The federation shows as **Pending** until someone at the federation approves it, then as
+   **Approved**.
 
-**A club belongs to one federation at a time.** Applying to a second is refused — "The organization
-already belongs to a federation" — so detach from the first if you are genuinely moving. A club
-attached to a federation also cannot be deleted until it is detached.
+**A club belongs to one federation at a time.** Applying to a second is refused with "The
+organization already belongs to a federation". Detach from the first if the club is really
+moving. A club that is linked to a federation also cannot be deleted until it is detached.
 
-You can cancel your own application, or detach later, from the same page.
+You can cancel your own application, or detach later, with the delete button on the federation's
+row on the same screen.
 
 ## Why the approval matters so much
 
@@ -40,42 +43,43 @@ however early those dancers applied for their licenses.
 
 ## Issuing is a separate permission
 
-Approval and license issuing are two different things. A federation can approve your club and
-still leave it unable to issue: "This organization is linked to the federation but cannot issue
-licenses." **Allow license issuing** is a separate switch on the federation's side, and it is what
-license items with organization mode `Required` need.
+Approving the club and letting it issue licenses are two different things. A federation can
+approve your club and still not let it issue licenses: "This organization is linked to the
+federation but cannot issue licenses." **Allow license issuing** is a separate switch that the
+federation sets, and license items that require a club need it.
 
-If your club is approved but license applications still will not go through, this is usually why —
-ask the federation for the issuer role rather than re-applying.
+If your club is approved but license applications still do not go through, this is usually why.
+Ask the federation to allow license issuing. Do not apply to the federation again.
 
 ## After approval, check
 
-1. The federation shows on the club with an **Approved** tag
-2. `Organization → Administration → Licenses` offers that federation
-3. If you need to apply for members on items that require a club, that the federation has also
-   given you **license issuing**
+1. The federation shows on the club's **Federation** screen with an **Approved** tag.
+2. `Organization → Administration → Licenses` offers that federation.
+3. If you apply for members on license items that require a club: the federation has also
+   allowed the club to issue licenses.
 
 ## Verify it with one real application
 
-Before you open the floodgates, apply for **one** member's license and watch it move. That proves
-the club link, the issuer role and the item settings in one go. See
-[Getting a license](/school-club/getting-a-license/).
+Before you apply for everyone, apply for **one** member's license and follow it until it is
+active. That shows that the club's link, the permission to issue and the license item all work.
+See [Licenses for your members](/school-club/getting-a-license/).
 
 ## Common blockers and fixes
 
 ### "We have been Pending for a long time"
 
-There is nothing to upload and no application ID — the federation simply has not pressed approve
-yet. Contact them directly. Meanwhile nobody's licenses can be issued, so it is worth chasing.
+There is nothing to upload and no application number. The federation has not approved the club
+yet. Contact them directly. Until they do, no license naming your club can be issued, so do not
+wait long.
 
 ### "We are Approved but license applications still will not go through"
 
-Almost always the **issuer role**: approval and "Allow license issuing" are separate. Ask the
-federation to enable issuing. Failing that, check the license item's **organization mode** — an
-item set to `Not allowed` cannot carry a club at all.
+Almost always because the club may not issue licenses yet: approval and **Allow license issuing**
+are separate. Ask the federation to switch it on. If that is not it, ask the federation whether
+the license item allows a club at all. Some items are for dancers to apply for themselves.
 
 ### "A member cannot be selected when we apply for them"
 
-They are either not a member of the club yet, or they have no **date of birth** on their account —
-the form blocks on that and shows "No birthdate". They have to add it themselves in account
-settings.
+They are either not a member of the club yet, or they have no **birth date** on their account.
+The form then shows "No birthdate" and you cannot apply. They add it themselves under
+**My account** → **Settings**.

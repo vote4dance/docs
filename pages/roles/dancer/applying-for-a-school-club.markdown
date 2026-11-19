@@ -20,8 +20,8 @@ there approves you.
 Make sure you know:
 
 - the exact name of the school or club
-- whether your dancer license is supposed to be self-service or club-managed
-- whether the club must already be approved by the federation for your path
+- whether you apply for your license yourself, or the club applies for you
+- whether the club has been approved by its federation, if you need a license through the club
 
 ## How it works
 
@@ -38,13 +38,13 @@ Make sure you know:
    one at a time or use **Approve all**. With the setting off, you are a member straight away.
    Open the club's page again to check: once approved, it says "You are a member of this
    organization".
-3. You join as a **Member** — the bottom of the club's four-level ladder. That is the right level
+3. You join as a **Member**, the first of the club's four roles. That is the right role
    for a dancer: you represent the club and its coaches can enter you, but you cannot register on
-   the club's behalf or manage its members. Only ask for **Coach** or above if you actually do
-   that work.
-4. Check the club appears on your account before anyone tries to use it for a license or an entry
+   the club's behalf or manage its members. Only ask for **Coach** or above if you do
+   that work. What each role can do is listed under [Roles](/school-club/club-admin/#roles).
+4. Check that the club shows on **My account** before anyone uses it for a license or an entry.
 
-Your club also matters *inside* a class, and that is recorded separately: mostly through the club on
+Which club you dance for in a class is recorded separately: mostly through the club on
 your license, and for groups and formations through the club that owns the team. Changing club
 membership moves neither. The federation reissues your license to the new club, and a club-owned
 team moves when the federation moves it or approves the owning club's request. See
@@ -52,28 +52,28 @@ team moves when the federation moves it or approves the owning club's request. S
 
 ## Why it matters
 
-Some federations require organization context for:
+Some federations ask you to be a member of a club before you can:
 
-- license application
-- class participation
-- team management
-- club representation
+- apply for a license
+- enter a class
+- be put in one of the club's teams
+- represent the club in results
 
 ## Common blockers
 
-- **Nobody approved the application.** It sits on the club's members list until a manager or
-  administrator looks. Nudge them; there is no reminder.
-- **Wrong club.** Fix it before anyone creates a license or a registration naming it — an active
-  license's club cannot be edited afterwards, only cancelled and reissued.
+- **Nobody approved the application.** It waits on the club's members list until a manager or
+  administrator looks. Ask them: Vote4Dance sends no reminder.
+- **Wrong club.** Fix it before anyone creates a license or a registration naming it. The club on
+  an active license cannot be edited afterwards. The federation has to cancel the license and
+  issue a new one.
 - **The club is not approved by its federation**, so licenses naming it cannot be issued. Club
   membership does not substitute for that. See
   [Your club and the federation](/dancer/getting-a-license/#your-club-and-the-federation).
-- **No date of birth on your account.** The club cannot apply for a license for you without it.
+- **No birth date on your account.** The club cannot apply for a license for you without it.
 
 ## Practical advice
 
 - Join the school or club before event registration week.
 - You can join more than one club. If you do, registration asks which club you dance for in that
   event.
-- If you dance in more than one context, confirm which club should be used for the next license or event.
-- If the wrong club was selected, fix that before asking anyone to create a license or submit a registration.
+- If you are a member of more than one club, agree with your coaches which club your next license and your next entry should name.

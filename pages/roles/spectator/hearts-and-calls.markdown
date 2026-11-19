@@ -8,22 +8,22 @@ nav_order: 3
 
 # Hearts and Call it
 
-While a round is on the floor you can take part from your seat, in the Vote4Dance app: give hearts to the couples you like, and call who you think goes through or wins. Both are free, you need to be signed in, and neither changes the judges' results.
+While a round is on the floor you can take part from your seat, in the Vote4Dance app: give hearts to the couples you like, and call who you think goes through or wins. You need to be signed in, and neither changes the judges' results. Calling is free. Giving hearts is part of Premium: see [What is free](#what-is-free).
 
 ## Give hearts
 
 ![A heat on the floor with the Call it card at the top and a Vote button next to each couple](/assets/images/audience/heat-vote-and-call.png)
 
-Hearts are open while a round is on the floor, and close when the judges are done. If the organizer has not switched voting off for the event, you find **Vote** next to the couples in a heat.
+You can give hearts while a round is being judged: from when the round starts until the organizer closes it, when the judges are done. It does not wait for the results to be published. If the organizer has not switched voting off for the event, you find **Vote** next to the couples in a heat. You can give a couple up to five hearts.
 
 1. Open the event in the app and open the heat on the floor.
-2. Tap **Vote** next to a couple. The hearts card opens.
+2. Tap **Vote** next to a couple. The hearts card opens. Without Premium, the Premium offer opens instead.
 3. Press and **hold** the big heart. The ring fills while your finger is down; each time it is full you earn a heart. Lift your finger and it stops where it is.
 4. Tap **Clear** to start over, or **Save** to give your hearts.
 
 ![The hearts card: press and hold the big heart, then Save](/assets/images/audience/hearts-dialog.png)
 
-The heat shows how many people have voted, for example "143 have voted". After the round is published, the couple the room liked most is shown as the **Audience favourite** on the results.
+The heat shows how many people have voted, for example "143 have voted". After the round is published, the couple the room liked most is shown as the **Audience favourite** on the results. Hearts only count towards the result itself where the organizer has seated an **Audience** judge.
 
 On the website the heat only shows a card, **Give hearts in the Vote4Dance app**, with an **Open in the app** button. Hearts are given in the app and are not shown on the web.
 
@@ -88,7 +88,7 @@ In a final the winner is marked **Winner**, and the couple the room liked most *
 
 | | Free | Premium |
 |---|---|---|
-| Hearts | Give hearts, see how many have voted, the audience favourite after the round | The live hearts ranking during the round, where the organizer shows it |
+| Hearts | See how many have voted, and the audience favourite after the round | Give hearts. The live hearts ranking during the round, where the organizer shows it |
 | Call it | Call every round, see your points and your standing | |
 
-Taking part is free; Premium follows the event more closely. See also [Quizzes](/spectator/quizzes/) and [The Audience page](/spectator/audience-page/).
+The free welcome gift counts as Premium, so you can give hearts while you have it: see [If you have the free welcome gift](/dancer/following-in-the-app/#if-you-have-the-free-welcome-gift). See also [Quizzes](/spectator/quizzes/) and [The Audience page](/spectator/audience-page/).

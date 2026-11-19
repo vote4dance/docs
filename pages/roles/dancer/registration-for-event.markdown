@@ -35,7 +35,7 @@ Good to know:
 - **A competitor** is who dances: you alone, you and a partner, or a group. You set it up once
   and use it again at every event.
 - **When registration is open.** The event's **Registration** tab says when it opens and closes.
-- **In the Dancer app**, the event's **Overview** shows the same in a **Registration** card.
+- **In the Vote4Dance app**, the event's **Overview** shows the same in a **Registration** card.
   Registering happens on the website: tap the card to open the event's registration there.
 - **Your birth date must be on your account.** Classes often depend on age. If it is missing,
   the page says **Age missing**: press **User details** and add it.
@@ -178,13 +178,13 @@ registering, and you can open it from the event page, from the confirmation emai
 account: open your name at the top right → **My account**, and press the event under
 **Registration**. See [My registration](/dancer/my-registration/).
 
-In the Dancer app, the same registrations are under **Profile → Registrations**.
+In the Vote4Dance app, the same registrations are under **Profile → Registrations**.
 
 ### When the organizer handles entries
 
 Some organizers take entries their own way, for example through a league or federation list, and
 add the dancers to Vote4Dance themselves. Those starts are not registrations in Vote4Dance, so
-they are not listed under your registrations, on the website or in the app. In the Dancer app,
+they are not listed under your registrations, on the website or in the app. In the Vote4Dance app,
 such an event's **Overview** shows a **Registration** card that says **Handled by the
 organizer**. Look for yourself under the event's **Competitors** tab once the organizer has
 added the dancers, and [ask the organizer](/getting-help/#reaching-the-organizer) about anything

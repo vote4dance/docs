@@ -12,7 +12,7 @@ nav_order: 1
 
 Open the event from the start page or the organizer's link, and pick the **Tickets** tab. If the tab is not there, the organizer does not sell tickets through Vote4Dance for that event.
 
-![The Tickets page](/assets/images/shop/tickets-public.png)
+![The Tickets page of an event: passes, day tickets, meals and merch with prices, and Your order on the right](/assets/images/shop/tickets-public.png)
 
 What is on sale is grouped as passes, day tickets, meals, tables and merch. Each line shows the price including VAT, how many are left when the organizer set a limit, and until when it is on sale. Sizes and variants — a T-shirt size, a vegetarian meal — sit together under one heading.
 
@@ -20,21 +20,21 @@ What is on sale is grouped as passes, day tickets, meals, tables and merch. Each
 
 Add what you want; the order sums up as you go.
 
-1. **Log in** (or create a free account) — the tickets are kept on the account, so this is how you get them back on any device.
+1. Sign in, or create a free account. When you are not signed in, the button under **Your order** reads **Log in and pay** with the total: press it and sign in. The tickets are kept on the account, so this is how you get them back on any device.
 2. Check the e-mail address the tickets and receipt should go to. It is suggested from your account and you can change it.
 3. Pay by card. The payment goes to the **organizer**, not to Vote4Dance; the seller's name is on the order and on the receipt.
 
-![The order](/assets/images/shop/order.png)
+![Your order with three items, the total, the seller's name and the button Log in and pay](/assets/images/shop/order.png)
 
 Your order is held for 30 minutes while you pay. If you close the page mid-payment, the order waits on the Tickets page and updates itself as soon as the payment goes through.
 
 ## Your tickets
 
-![Your tickets](/assets/images/shop/wallet.png)
+![My tickets: a weekend pass marked Valid, with its QR code and the code written under it](/assets/images/shop/wallet.png)
 
 Once paid, each ticket becomes its own QR code, in three places:
 
-- the event's **Tickets** page, under *Your tickets*
+- the event's **Tickets** page, under **Your tickets**
 - the app, under **Profile → My tickets**
 - the e-mail you got when you paid
 

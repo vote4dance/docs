@@ -15,7 +15,7 @@ help:
 
 # Club admin screens
 
-This page is a reference for the club's admin screens: what each one lists, what you can do there, and which club role you need to do it. For the longer flows, follow the links to the task pages.
+The club's admin screens, one by one: what each one lists, what you can do there, and which club role you need to do it.
 
 Open your club from your account, then open **Administration** in the club's sidebar. It holds **Permissions**, **Members**, **Competitors**, **Registration**, **Federation** and **Licenses**. **Administration** is only there for a club's coaches, managers and administrators. A plain member sees only **Home**.
 
@@ -23,12 +23,14 @@ Open your club from your account, then open **Administration** in the club's sid
 
 A club has four roles, and each one includes everything the role below it can do. You set roles on [Permissions](#permissions).
 
-| Role | In short |
-|---|---|
-| **Member** | Belongs to the club, with no admin access. Coaches can put a member on a competitor. |
-| **Coach** | Day-to-day work: competitors, registrations and payment. |
-| **Manager** | Everything a coach does, plus membership approval and the club's licenses. |
-| **Administrator** | Everything a manager does, plus roles, federations and the club's own details. |
+| Role | What they can do | Give it to |
+|---|---|---|
+| **Member** | Belongs to the club, with no admin access. Represents the club, and its coaches can put a member on a competitor and enter them. Cannot register on the club's behalf or manage members. | Dancers. A dancer left on **Member** is correct. |
+| **Coach** | The day-to-day work: create and update the club's competitors, register them, pay for the club's registrations, and see the member list. | Whoever enters the club's dancers. |
+| **Manager** | Everything a coach can do, plus approving and rejecting people who ask to join, applying and paying for the club's licenses, and approving members' license applications where the federation asks clubs to approve them. | Whoever approves members and handles licenses. |
+| **Administrator** | Everything a manager can do, plus setting the role of everyone below administrator, applying to a federation and detaching from it, editing the club's details and its website embeds, and deleting the club. | Whoever runs the club. Have at least two. |
+
+A role only counts once the person's membership is approved.
 
 Which screens each role sees in the sidebar:
 
@@ -41,9 +43,9 @@ Which screens each role sees in the sidebar:
 | [Federation](#federation) | No | No | Yes | Yes |
 | [Licenses](#licenses) | No | No | Yes | Yes |
 
-A hidden screen can still be opened by typing its address, but the server refuses anything your role does not allow. Vote4Dance system administrators can do everything on every screen.
+Typing the address of a screen your role does not show does not get you further: what your role does not allow is refused. Vote4Dance's own staff can do everything on every screen.
 
-The club's details and its website embeds are not under **Administration**. They are on the club's **Home** page, and only administrators see them: **Edit organization** opens the **Organization details** form, and the **Website embeds** card sits below it. See [Account creation](/school-club/account-creation/) and [Embed widgets](/school-club/embed-widgets/).
+The club's details and its website embeds are not under **Administration**. They are on the club's **Home** page, and only administrators see them: **Edit organization** opens the **Organization details** form, and the **Website embeds** card sits below it. See [Creating your club](/school-club/account-creation/) and [Embed widgets](/school-club/embed-widgets/).
 
 ## Permissions
 
@@ -60,8 +62,8 @@ You cannot add people to the club yourself. Dancers, coaches and other staff joi
 
 Rules the screen follows:
 
-- You cannot change your own role or remove yourself. To leave, use **Leave organization** on **Home**. The last administrator cannot leave ("You are the only administrator. Promote another member to administrator before leaving."). Despite the wording, an administrator cannot make someone else Administrator: ask Vote4Dance support to add a second Administrator first.
-- An administrator can change and remove anyone below **Administrator**, up to **Manager**. The **Administrator** role is not offered. Only Vote4Dance support can make someone an Administrator of an existing club, or change or remove another administrator.
+- You cannot change your own role or remove yourself. To leave, use **Leave organization** on **Home**. The last administrator cannot leave ("You are the only administrator. Promote another member to administrator before leaving."). Despite the wording, an administrator cannot make someone else Administrator: [write to Vote4Dance](/getting-help/#writing-to-vote4dance) and ask for a second Administrator first.
+- An administrator can change and remove anyone below **Administrator**, up to **Manager**. The **Administrator** role is not offered. Only Vote4Dance can make someone an Administrator of an existing club, or change or remove another administrator.
 - Making someone a **Coach**, **Manager** or **Administrator** also approves their membership.
 - A manager sees this screen, but the selectors and delete buttons are disabled, with the note "Changing roles needs a club Administrator."
 
@@ -106,7 +108,7 @@ People only wait to join when **Member approval** is on in the club's details. W
 | Reject one applicant | **Reject** on their row, then confirm. The application is deleted, and the person can apply again. | Manager, Administrator |
 | Approve everyone waiting | **Approve all**, then confirm | Manager, Administrator |
 
-Coaches do not see the **Requires your action** box. To change a role, use [Permissions](#permissions). For the full joining flow, see [Applying for a school/club](/school-club/applying-for-a-school-club/).
+Coaches do not see the **Requires your action** box. To change a role, use [Permissions](#permissions). How people find and join the club is on [How members join](/school-club/applying-for-a-school-club/).
 
 ## Competitors
 
@@ -150,7 +152,7 @@ In the edit window:
 
 | Field | Notes |
 |---|---|
-| **Search by name or email** | Finds the club's members. If you type an email address that is not a member's, a **Create account for partner** section appears. Fill in first name, last name, country, language and, optionally, birthdate to create an account for that dancer and add them. |
+| **Search by name or email** | Finds the club's members. If you type an email address that is not a member's, a **Create account for partner** section appears. Fill in first name, last name, country, language and, if you know it, the birth date to create an account for that dancer and add them. |
 | **Dance role** | **Leader**, **Follower** or **No role**, per dancer. Shown when the competitor has two or three dancers. |
 | **Participant name** | **Use participant name** (the dancers' names) or **Assign custom name**. |
 | **Owned by organization** | Only when creating, and only once there are more than two dancers or you choose a custom name. It is ticked by default and makes the club the owner. |
@@ -218,7 +220,7 @@ To see when your dancers dance during the day, follow the club in the schedule: 
 | See the price | **Get cost**, for approved entries not yet paid | Coach, Manager, Administrator |
 | Pay online | **Get cost**, then **Pay now** with the amount, when the event takes online payment. The payment is billed to the club, which gets a receipt and an invoice. With manual payment you see the amount and the organizer's payment information instead. | Coach, Manager, Administrator |
 
-Cancelling does not refund a payment by itself. New registrations are made from the event's own registration page. See [Registration for event](/school-club/registration-for-event/).
+Cancelling does not refund a payment by itself. New registrations are made from the event's own registration page. See [Registering your dancers for an event](/school-club/registration-for-event/).
 
 ## Federation
 
@@ -231,7 +233,7 @@ This screen lists the federation your club is linked to, tagged **Approved** or 
 | Apply to a federation | Pick the federation in the selector below the list, then press **Apply**. The link starts as **Pending** until the federation approves it. | Administrator |
 | Cancel an application, or detach | The delete button on the row, then confirm "Are you sure you want to cancel *federation*?" | Administrator |
 
-A club belongs to one federation at a time. Applying while any link exists, approved or pending, fails with "The organization already belongs to a federation". Managers see the screen and the **Apply** button, but the server refuses the application. The full flow is on [Joining a federation](/school-club/joining-a-federation/).
+A club belongs to one federation at a time. Applying while any link exists, approved or pending, fails with "The organization already belongs to a federation". Managers see the screen and the **Apply** button, but an application is only accepted from an administrator. The steps are on [Joining a federation](/school-club/joining-a-federation/).
 
 ## Licenses
 
@@ -262,7 +264,7 @@ The list opens on **Needs your action** when something waits for your club, and 
 | Pay | **Pay** on an unpaid row. It stays disabled until the license is approved, and when the federation has not connected Stripe. | Manager, Administrator |
 | Remove an application | The delete button on a pending or draft row, then confirm "Remove application for *name*?" | Manager, Administrator |
 
-Coaches do not see this screen. The full flow, including the federation's checks, is on [Getting a license](/school-club/getting-a-license/).
+Coaches do not see this screen. The steps, and what the federation checks before a license is active, are on [Licenses for your members](/school-club/getting-a-license/).
 
 ## Troubleshooting
 
@@ -280,7 +282,7 @@ You cannot change your own role, and on this screen nobody can change or remove 
 
 ### "There is no Approve button on a license"
 
-**Approve** only appears when your federation asks clubs to approve licenses. Without that, an application your club does not have to approve waits under **In progress**: on the federation, or on the dancer's payment. See [Getting a license](/school-club/getting-a-license/).
+**Approve** only appears when your federation asks clubs to approve licenses. Without that, an application your club does not have to approve waits under **In progress**: on the federation, or on the dancer's payment. See [Licenses for your members](/school-club/getting-a-license/).
 
 ### "Competitors lists old duos"
 
@@ -307,10 +309,10 @@ They come from dancers claiming results from earlier competitions. They are not 
 
 ## Related pages
 
-- [Account creation](/school-club/account-creation/)
-- [Applying for a school/club](/school-club/applying-for-a-school-club/)
+- [Creating your club](/school-club/account-creation/)
+- [How members join](/school-club/applying-for-a-school-club/)
 - [Joining a federation](/school-club/joining-a-federation/)
-- [Getting a license](/school-club/getting-a-license/)
-- [Registration for event](/school-club/registration-for-event/)
+- [Licenses for your members](/school-club/getting-a-license/)
+- [Registering your dancers for an event](/school-club/registration-for-event/)
 - [Embed widgets](/school-club/embed-widgets/)
 - [Club transfers](/federation/club-transfers/)

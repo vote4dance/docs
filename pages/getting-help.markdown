@@ -22,6 +22,7 @@ and the federation decides classes, age groups and licenses.
 | Joining a club, or your role in it | An administrator of the club | The club's page in Vote4Dance |
 | Which class or age group you belong in | Your federation | Through your club, or the federation's own contact |
 | A license: whether you need one, why it is held or suspended | Your federation, or your club if it applies for you | Through your club, or the federation's own contact |
+| Changing the e-mail address of your account, or deleting the account | You do it yourself | [Change your e-mail address](/signing-in/#change-your-e-mail-address), [Delete your account](/signing-in/#delete-your-account) |
 | Signing in, your account, or something that does not work | Vote4Dance | [info@vote4dance.com](mailto:info@vote4dance.com) |
 
 ## Reaching the organizer
@@ -42,4 +43,10 @@ Write to [info@vote4dance.com](mailto:info@vote4dance.com). It helps to include:
 - what you did, what you expected, and what happened instead, with a screenshot if you have one
 
 If the problem is getting into your account, start with
-[If something goes wrong](/signing-in/#if-something-goes-wrong) on the Signing in page.
+[If something goes wrong](/signing-in/#if-something-goes-wrong) on the Signing in page. If you no
+longer have access to the e-mail address of your account, write from an address you can read and
+say which address the account has.
+
+A club needs Vote4Dance for one thing it cannot do itself: making someone an **Administrator** of
+a club that already exists. Write to the same address, and name the club and the person. See
+[Roles](/school-club/club-admin/#roles).

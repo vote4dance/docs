@@ -21,7 +21,7 @@ This is the same for everybody: dancers, parents, judges, organizers, desk staff
 
 Use this the first time, on a new device, or whenever you have no passkey.
 
-1. Go to [vote4dance.com](https://vote4dance.com) and choose **Sign in**.
+1. Go to [vote4dance.com](https://vote4dance.com) and choose **Sign in / Create account** at the top of the page.
 2. Type your e-mail address and press **Continue**.
 
    ![The sign-in screen asking for an e-mail address](/assets/images/sign-in/sign-in-email.png)
@@ -128,7 +128,7 @@ To read more about passkeys, choose **What is a passkey?** on the sign-in screen
 
 Once a passkey is saved, signing in takes a few seconds.
 
-1. Go to [vote4dance.com](https://vote4dance.com) and choose **Sign in**.
+1. Go to [vote4dance.com](https://vote4dance.com) and choose **Sign in / Create account**.
 2. Tap in the e-mail field. Your device offers your passkey.
 3. Choose it and confirm with your face, fingerprint or phone code.
 
@@ -140,7 +140,7 @@ You are signed in, with no code and no password.
 
 You can use the passkey on your phone to sign in on a computer that is not yours. Nothing is saved on that computer. This choice is shown on computers and tablets, not on phones.
 
-1. On the computer, go to [vote4dance.com](https://vote4dance.com) and choose **Sign in**.
+1. On the computer, go to [vote4dance.com](https://vote4dance.com) and choose **Sign in / Create account**.
 2. Choose **Use a passkey from your phone**.
 3. A code appears on the screen. Point your phone's camera at it and confirm on the phone.
 
@@ -177,6 +177,48 @@ It has three parts:
 
 ![How you sign in in the app](/assets/images/sign-in/app-how-you-sign-in.png)
 
+## Change your e-mail address
+
+Your e-mail address is your sign-in name, and the sign-in code is sent to it. You change it yourself.
+
+On the website:
+
+1. Sign in, open your name at the top right and choose **My account**, then **Settings**.
+2. Under **User details**, type the new address in **Email**.
+3. Press **Save changes**.
+
+In the app, open the **Profile** tab, choose **Settings**, then **Account**. Change **Email** and press **Save**.
+
+Good to know:
+
+- **Check the spelling before you save.** Vote4Dance does not send a mail to check the new address. From then on you sign in with the new address, and the code goes there.
+- **The address cannot be used by another account.** If it is, you are told "Email already exists" (in the app: "An account already exists with that email."). Do not create a second account to get around it: see [Create an account](#create-an-account).
+- **Your passkeys keep working**, and you stay signed in on your devices.
+- **A parent cannot change a child's address from the parent's own login.** See [Let your child take over](/dancer/family/#let-your-child-take-over) for moving a child's account to an address of their own.
+
+## Delete your account
+
+You can delete your own account. It cannot be undone.
+
+- **On the website:** open **My account**, then **Settings**, and press **Delete my account** at the bottom of the page. You are asked to confirm: "WARNING! This action cannot be undone. Be careful."
+- **In the app:** open the **Profile** tab, choose **Settings**, and tap **Delete my account**. Confirm with **Delete my account**.
+
+What deleting does:
+
+- You are signed out on all your devices, and the e-mail address can no longer sign in to the account.
+- Your passkeys, your ID photo and your club memberships are removed.
+- If you are in a [family](/dancer/family/), the links to your children or parents are removed. Your children's accounts stay.
+- Your name and e-mail address are removed from your ticket orders. Nothing is refunded.
+- Your public dancer page is no longer shown.
+
+What it does not do:
+
+- It does not cancel your registrations. Cancel them first: see [Cancelling a registration](/dancer/registration-for-event/#cancelling-a-registration).
+- It does not remove the results of competitions you have danced.
+- It does not cancel a paid Premium subscription. Cancel that first: see [Cancel Premium](/dancer/following-in-the-app/#cancel-premium).
+
+If you only want to stop competing, keep the account: see [If you stop competing](/dancer/#if-you-stop-competing).
+
 ## If something goes wrong
 
 **The code does not arrive.**
@@ -192,4 +234,6 @@ It has three parts:
 
 **The device does not offer a passkey.** Not every browser or device supports them. Sign in with a code. Nothing else is lost.
 
-**"This account has been disabled."** Contact Vote4Dance support.
+**You no longer have access to your e-mail address.** If you can still sign in with a passkey or a password, sign in and [change your e-mail address](#change-your-e-mail-address). If you cannot sign in at all, Vote4Dance has no way for you to change the address yourself: [write to Vote4Dance](/getting-help/#writing-to-vote4dance) from an address you can read, and say which address the account has.
+
+**"This account has been disabled."** [Write to Vote4Dance](/getting-help/#writing-to-vote4dance).

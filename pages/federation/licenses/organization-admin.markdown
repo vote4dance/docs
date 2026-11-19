@@ -8,195 +8,129 @@ nav_order: 6
 
 # Organization admin
 
-Location:
+On `Organization → Administration → Licenses`, headed **License Applications**, a club's manager or administrator applies for licenses for the club's members, pays the ones the club pays for, and removes an application that is wrong.
 
-- `Public -> Organization -> Licenses`
-
-This page is for a club, school, or organization manager who applies for licenses on behalf of members.
-
-Use it when the federation expects the organization to start the license process.
-
-Use [School/Club](/school-club/) if you first need to decide whether the club is ready for this workflow.
+The steps are below. [Licenses for your members](/school-club/getting-a-license/) explains approving, the federation's checks and a new season, and [Club admin screens](/school-club/club-admin/#licenses) describes every part of the screen.
 
 ## Before you start
 
-Make sure all of this is true before you try to apply:
+Check all of this before you apply:
 
-1. The organization is linked to the federation
-2. The organization is approved in that federation
-3. The person is already a member of the organization in Vote4Dance
-4. If the selected license item requires an issuer organization, the organization is already an approved issuer
-5. The federation has already connected its Stripe account if organization-paid Stripe checkout will be used
-6. The organization federation connection was already created from `Organization -> Federation`
+1. The club has applied to the federation on `Organization → Administration → Federation`. Without that, the license screen only says "Connect this organization to a federation first."
+2. The federation has approved the club. The club shows as **Approved** on the **Federation** screen.
+3. The person is a member of the club in Vote4Dance, and has a birth date on their account.
+4. For a license item that requires a club, the federation has also allowed the club to issue licenses.
+5. The federation can take payments online, if the club is going to pay by card.
 
-If any of these are missing, stop and ask federation admin to fix them first.
+If one of these is missing, ask the federation to put it right first.
 
 ## How the organization gets here
 
-This page should not be the first page you open in the overall process.
+The club joins the federation before it can use this screen:
 
-The organization should already have completed the federation-join step before using this page:
+1. Open the club and open **Administration**, then **Federation**.
+2. Pick the federation and press **Apply**.
+3. Wait until the federation has approved the club.
+4. If the licenses you need require a club, wait until the federation has also allowed the club to issue licenses.
+5. Then open **Licenses**.
 
-1. Open `Organization`
-2. Open `Federation`
-3. Apply the organization to the federation
-4. Wait for federation approval
-5. Wait for separate issuer approval if the federation requires the organization to issue licenses
-6. Only then continue on `Licenses`
-
-If the federation connection is missing or still pending, the organization license flow is not ready yet.
+See [Joining a federation](/school-club/joining-a-federation/).
 
 ## 1. Submit a license application
 
-Steps:
+1. Open the club, then **Administration** → **Licenses**.
+2. Choose the federation in **Select federation**.
+3. Choose the person in **Member**.
+4. Choose the **License item**.
+5. Set the **Season year**.
+6. Fill in **Federation ID** or **Competition ID** if the item shows one of them.
+7. Add a **Note** if there is something the federation should know.
+8. Press **Apply for license**.
 
-1. Open the organization
-2. Open `Licenses`
-3. Select the federation in `Federation`
-4. Select the member in `Member`
-5. Select the product in `License item`
-6. Set `Season year`
-7. If the item is competition-scoped, enter `Competition ID`
-8. Optionally fill `Note`
-9. Press `Apply for license`
+The application now shows in the list under the form. It starts as **Pending** or **Draft**. The list opens on **Needs your action** when something waits for your club, and on **Active** otherwise, so look under **In progress** or **All** if you do not see it.
 
-What success looks like:
+Then:
 
-- a new license row appears in the lower list
-- the row normally starts as `pending` or `draft`
-- the row shows the correct `payer type`
-- the row shows the correct `payment status`
-- the row may still require federation-side approval after payment
-
-What to do next:
-
-- if `payer type = organization`, continue to the payment step below
-- if the row stays pending, wait for the federation approval flow
-- if the row looks wrong, delete it only if it is still draft or pending and unpaid
+- If the club pays, go on to [Pay when the organization is the payer](#2-pay-when-the-organization-is-the-payer).
+- If the application stays pending, it waits for an approval or a payment. See [Following the license to Active](/school-club/getting-a-license/#following-the-license-to-active).
+- If the application is wrong, [remove it](#3-remove-a-pending-or-draft-application) and apply again. Do not try to correct it by applying a second time.
 
 ### What each field means
 
-- `Federation`: which federation this organization is applying in
-- `Member`: the member who will own the license
-- `License item`: the exact product the federation configured
-- `Season year`: target season
-- `Competition ID`: only required for `single_competition` items
-- `Note`: comment for federation admin or internal tracking
+| Field | Meaning |
+|---|---|
+| **Select federation** | The federation the club applies in. |
+| **Member** | The member the license is for. The license belongs to that person, not to the club. |
+| **License item** | The license the federation offers. |
+| **Season year** | The season the license is for. |
+| **Federation ID** | Shown instead of the season year for an item that asks for the member's number in the federation's own register. |
+| **Competition ID** | Shown for an item that covers a single competition. |
+| **Note** | Optional. A message to the federation, or a note for your own club. |
 
 ### What the page hides automatically
 
-The organization page already filters invalid choices.
+The **License item** list only holds the items your club can apply for. An item is left out when:
 
-A license item is hidden when:
+- the federation only lets dancers apply for it themselves
+- the federation does not let clubs apply for it
+- the item requires a club that may issue licenses, and the federation has not allowed your club to
 
-- the federation rules only allow self-service in that scope
-- the organization is not allowed to apply for that item
-- the item requires an approved issuer and the organization is not an approved issuer
+If the item you expected is missing:
 
-This filtering is there to stop the organization from applying for products it should not use.
-
-If you cannot find the item you expected:
-
-1. Check that you selected the correct federation
-2. Check that the member belongs to the organization
-3. Check with federation admin whether:
-   - the item is self-service only
-   - the item requires approved issuer status
-   - the item is not active
-
-If the wrong person was selected, do not try to repurpose the row. Delete it and create a new application for the correct member.
+1. Check that you chose the right federation.
+2. Check that the person is a member of the club.
+3. Ask the federation whether the item is for dancers to apply for themselves, whether your club needs to be allowed to issue licenses, or whether the item is switched off.
 
 ## 2. Pay when the organization is the payer
 
-After an application is created, the lower table shows the current rows.
-
-The table shows:
-
-- member
-- selected license item
-- season
-- competition
-- status
-- payment status
-- payer type
-
-If `payer type = organization` and `payment status = unpaid`, the row shows a `Pay` button.
+A license the club has to pay for shows under **Needs your action** with **Payment due** in the **What's needed** column, and has a **Pay** button.
 
 ### Organization payment steps
 
-1. Find the application row
-2. Confirm that:
-   - it is the correct member
-   - the correct item was selected
-   - the payer type is `organization`
-3. Press `Pay`
-4. Complete the Stripe checkout
-5. Return to Vote4Dance
+1. Find the application.
+2. Check that it is the right member and the right license item.
+3. Press **Pay**.
+4. Pay by card on the payment page.
+5. You come back to Vote4Dance.
 
-What success looks like:
+After the payment:
 
-- payment status changes from `unpaid` to `paid`
-- the row may become `active` immediately
-- or the row may remain `pending` if approval is still required
+- The license is marked as paid.
+- The money goes to the federation. The club cannot choose where it goes.
+- The license becomes **Active** straight away, unless the federation approves licenses itself. Then it stays pending but paid until the federation has approved it.
 
-What happens after payment:
+**Pay** stays switched off:
 
-- payment is recorded on the license row
-- the Stripe payment is sent to the federation connected Stripe account
-- the license may become `active` automatically if no extra approval is required
-- otherwise it stays pending but paid until federation or workflow approval is completed
+- until the license is approved, where the federation asks for an approval first: "Payment will be available once this license has been approved."
+- while the federation has not set up online payments. Ask the federation how to pay instead.
 
-If the federation has not connected Stripe yet, the `Pay` action cannot complete.
+Good to know:
 
-What to do if payment is recorded but the license is not active:
-
-- do not create a second application
-- check whether the federation requires organization or federation approval after payment
-- contact federation admin if the row remains paid but pending
-
-When **not** to pay from this page:
-
-- if `payer type` is not `organization`
-- if the row is already paid
-- if the license application is clearly wrong and should be deleted instead
+- You pay one license at a time.
+- A license the member pays for has no **Pay** button for the club. The member pays on their own **My account** → **Licenses**. See [Dancer self-service](/federation-licenses/dancer-self-service/).
+- If the license is paid but still not active, do not apply again. Ask the federation.
+- Do not pay an application that is wrong. Remove it and apply again.
 
 ## 3. Remove a pending or draft application
 
-Current action support:
+You can remove an application while it is **Pending** or **Draft**. An active, expired, suspended or cancelled license cannot be removed here: "Only pending license applications can be deleted."
 
-- `pending` and `draft` applications can be removed from this page
-- active, expired, suspended, and cancelled licenses cannot be removed here
+1. Find the application.
+2. Press the delete button on its row.
+3. Confirm "Remove application for *name*?"
 
-Steps:
-
-1. Find the row
-2. Press the delete button
-3. Confirm the removal
-
-Use delete only when the application is wrong and should be removed entirely.
-
-Do not delete a paid application. Ask federation admin to correct it instead.
+Do not remove an application that is already paid. Ask the federation to correct it instead.
 
 ## Common problems
 
-- the correct license item is not visible
-- the member is not available in the selector
-- the row is paid but still pending
-- the federation has not connected Stripe yet
+| What you see | What to do |
+|---|---|
+| The license item you need is not in the list | See [What the page hides automatically](#what-the-page-hides-automatically). |
+| The member is not in **Member**, or shows "No birthdate" | They are not an approved member of the club yet, or they have no birth date on their account. They add it themselves under **My account** → **Settings**. |
+| The license is paid but still pending | The federation has not approved it yet. Do not apply again. |
+| **Pay** cannot be pressed | The license waits for an approval, or the federation has not set up online payments. |
 
 ## Current limitation
 
-- the page supports Stripe payment for organization-paid rows
-- invoice-style or fallback-liability handling still needs admin process outside this page
-- the organization does not choose which Stripe account receives funds; payout always goes to the federation connected account
-- if a hybrid workflow produces a self-paid row, that payment must be completed from the dancer side instead
-
-## What this page does not decide
-
-This page does not tell the organization:
-
-- which license item policy the federation wants
-- whether self-service should be used instead
-- whether a federation exception should bypass the normal payment path
-
-Use the federation or school/club role guides for those decisions. Use this page only to execute the organization-managed application flow.
+- The club can pay by card on this screen. Paying by invoice is arranged with the federation outside Vote4Dance.
+- You apply for one member at a time, and pay one license at a time. You can approve or decline several applications at once.

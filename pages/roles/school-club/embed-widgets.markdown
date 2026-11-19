@@ -8,16 +8,16 @@ nav_order: 11
 
 # Embed widgets
 
-Embed widgets let your club display its upcoming competition registrations and results directly on your own website — your club site, a Facebook page, or anywhere else that accepts an `<iframe>`.
+Embed widgets show your club's upcoming competition registrations and its results on your own website: your club site, or anywhere else that accepts an `<iframe>`.
 
-Widgets are read-only and require no login from your visitors.
+Your visitors only read the widget. They do not need to sign in.
 
 ---
 
 ## Before you start
 
-- You need organization admin access on your club's Vote4Dance profile.
-- Your club must have a published organization profile (name, logo, tag set).
+- You are an **Administrator** of the club. See [Roles](/school-club/club-admin/#roles).
+- The club's **State** is **Active**. A club in **Draft** or **Retired** shows nothing in a widget. You set it with **Edit organization** on the club's **Home** page.
 
 ---
 
@@ -26,57 +26,51 @@ Widgets are read-only and require no login from your visitors.
 1. Open your club in Vote4Dance and stay on its **Home** page.
 2. Find the **Website embeds** card. It is only shown to the club's administrators.
 3. Click **Enable website embeds**.
-4. Copy the key with **Copy key** — it starts with `pk_embed_`. **Copy embed code** copies a ready-made snippet instead.
+4. The card now shows your key. It starts with `pk_embed_`. **Copy key** copies the key alone.
 
-You can rotate the key (**Rotate key**) or turn embeds off (**Disable**) at any time. Rotating immediately stops the old key from working.
+You can make a new key with **Rotate key**, or turn the widgets off with **Disable**, at any time. With a new key, the widgets that use the old key stop working until you put the new one in. With **Disable**, all your widgets stop working.
 
 ---
 
 ## Step 2: Add the widget to your site
 
-Paste this snippet where you want the widget to appear on your club's website:
+1. On the **Website embeds** card, choose what the widget shows: **Registrations** or **Results**.
+2. Click **Copy embed code**.
+3. Paste the code into your website where you want the widget.
+
+The code is one `<iframe>` with your key in its address:
 
 ```html
-<script src="https://vote4dance.com/embed/loader.js"></script>
-<div
-  data-v4d-widget="results"
-  data-v4d-key="pk_embed_YOUR_KEY_HERE"
-></div>
+<iframe src="https://vote4dance.com/embed/?widget=results&key=pk_embed_YOUR_KEY_HERE" style="width:100%;border:0;height:600px" title="Vote4Dance"></iframe>
 ```
 
-The widget resizes automatically to fit its content.
+The widget is 600 pixels high. Change `height:600px` in the code if your page needs more or less.
 
-Change `data-v4d-widget` to choose what to show:
+The `widget` part of the address decides what is shown:
 
 | Value | Shows |
 |---|---|
-| `results` | Your club's recent competition results, grouped by event, newest first |
+| `results` | Your club's competition results, grouped by event, newest first |
 | `registrations` | Your club's upcoming competition entries, grouped by event, soonest first |
 
 ---
 
 ## Step 3: Match the widget to your site's style
 
-Add extra attributes to the `<div>` to control the look:
+Add options to the address in the code, each one after an `&`:
 
-| Attribute | Example | What it does |
+| Option | Example | What it does |
 |---|---|---|
-| `data-v4d-locale` | `sv` | Widget language: `en`, `sv`, or `es`. Defaults to the visitor's browser language. |
-| `data-v4d-mode` | `dark` | `light`, `dark`, or `auto` (follows visitor's OS setting). |
-| `data-v4d-color` | `#1a73e8` | Accent color for badges and links. Defaults to Vote4Dance pink. |
-| `data-v4d-radius` | `4` | Corner radius in pixels (`0`–`16`). |
-| `data-v4d-font` | `Inter` | Font family. The font must already be loaded on your page. |
+| `locale` | `locale=sv` | Widget language: `en`, `sv` or `es`. Without it, the visitor's browser language is used, and English for any other language. |
+| `mode` | `mode=dark` | `light`, `dark` or `auto` (follows the visitor's device). Without it, the widget is light. |
+| `color` | `color=%23003366` | Accent color for badges and links, as a hex color. Write the `#` as `%23`. Without it, the widget is Vote4Dance pink. |
+| `radius` | `radius=4` | Corner radius in pixels, a whole number. |
+| `font` | `font=Inter` | Font family. |
 
 Example:
 
 ```html
-<div
-  data-v4d-widget="results"
-  data-v4d-key="pk_embed_YOUR_KEY_HERE"
-  data-v4d-locale="sv"
-  data-v4d-color="#003366"
-  data-v4d-radius="4"
-></div>
+<iframe src="https://vote4dance.com/embed/?widget=results&key=pk_embed_YOUR_KEY_HERE&locale=sv&color=%23003366&radius=4" style="width:100%;border:0;height:600px" title="Vote4Dance"></iframe>
 ```
 
 ---
@@ -85,22 +79,22 @@ Example:
 
 ### Results widget
 
-Grouped by event, each group shows the event image, name, date, and venue (with a link to Google Maps). For each placed team: placement, names, and the class — clicking the class opens the full public results for that class on Vote4Dance.
+Grouped by event, each group shows the event image, name, date, and venue (with a link to Google Maps). For each placed team: placement, names, and the class. Clicking the class opens the full public results for that class on Vote4Dance.
 
-If a team includes a dancer from a different club, their club tag is shown in parentheses, e.g. `Anna Andersson (ABC)`.
+If a team includes a dancer from a different club, their club tag is shown in parentheses, for example `Anna Andersson (ABC)`.
 
 ### Registrations widget
 
-Same grouping. Each row shows the class and team name. The class name links to the public entry list for that class on Vote4Dance.
+The same grouping. Each row shows the class and the team's name. The class name links to the public entry list for that class on Vote4Dance.
 
 ---
 
 ## What controls which competitions appear
 
-The widget only shows competitions that organizers have marked as public with visible teams. If a competition does not appear in the widget, the organizer of that event has restricted public team visibility — contact the organizer, not Vote4Dance support.
+The widget only shows competitions that are published and whose organizer shows the participants publicly. The registrations widget shows competitions from today on. If a competition is missing from the widget, its organizer has hidden the participants or has not published the competition yet: [ask the organizer](/getting-help/#reaching-the-organizer), not Vote4Dance.
 
 ---
 
 ## Security
 
-The embed key is **safe to publish in public HTML** — it can only read your club's public data and cannot modify anything. Rotate it if you believe it has been misused.
+The embed key is **safe to publish in public HTML**. It can only read your club's public data and cannot change anything. Make a new one with **Rotate key** if you believe it has been misused.

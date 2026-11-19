@@ -15,9 +15,10 @@ Removing a member from the club does not delete their results, rankings or class
 Club members have **no retired or inactive state**. A member is either in the club or not.
 
 1. **Cancel their open registrations** on `Organization → Administration → Registration`, while
-   the registration period is open. After that, ask the organizer.
-2. **Stop applying for their license.** It turns **Expired** by itself when its validity window
-   closes.
+   the registration period is open. After that,
+   [ask the organizer](/getting-help/#reaching-the-organizer).
+2. **Stop applying for their license.** It turns **Expired** by itself when the period it is
+   valid for ends.
 3. **If they had a role** (Coach, Manager, Administrator), give that work to someone else first.
 4. **Remove them from the club**, if they are leaving: the delete button on their row on
    **Permissions**. Only an administrator can do it. A member can also leave on their own with
@@ -37,15 +38,17 @@ the federation is set by the federation. See [If you stop competing](/dancer/#if
 
 ## An administrator leaves
 
-1. Make sure another Administrator is in place first. Only Vote4Dance support can make someone
-   an Administrator, and the last administrator cannot leave the club.
-2. Check the license approvals and payments they handled have a new owner (**Manager** or higher).
-3. They leave with **Leave organization**. Another administrator cannot remove them; if they
-   cannot do it themselves, Vote4Dance support can.
+1. Make sure another Administrator is in place first. Only Vote4Dance can make someone
+   an Administrator, and the last administrator cannot leave the club:
+   [write to Vote4Dance](/getting-help/#writing-to-vote4dance) in good time.
+2. Check that someone else, with the **Manager** role or higher, now approves and pays the
+   licenses they handled.
+3. They leave with **Leave organization**. Another administrator cannot remove them. If they
+   cannot do it themselves, Vote4Dance can.
 
 ## The club itself stops
 
-Set the club's **State** to `Retired` in **Edit organization** on the club's **Home**. Before you
+Set the club's **State** to **Retired** in **Edit organization** on the club's **Home**. Before you
 do:
 
 - cancel open registrations

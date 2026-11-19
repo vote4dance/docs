@@ -10,7 +10,7 @@ nav_order: 2
 
 Your Vote4Dance ID is the QR code the entrance scans when you arrive at a competition. It is not a new number to remember — it is your own account, shown as a code. The same ID works at every event you go to, year after year.
 
-![The Vote4Dance ID card](/assets/images/id/id-card.png)
+![The Vote4Dance ID card with the name, birth date, nationality and the QR code for checking in](/assets/images/id/id-card.png)
 
 *The card before a photo has been added — tap the circle to add one.*
 
@@ -19,7 +19,7 @@ Your Vote4Dance ID is the QR code the entrance scans when you arrive at a compet
 | Where | How |
 |---|---|
 | **In the app** | Profile tab → **Vote4Dance ID** |
-| **On the website** | Log in → your account page → **Vote4Dance ID** |
+| **On the website** | Sign in → **My account** → **Vote4Dance ID** |
 | **In your e-mail** | The QR is also in the e-mail you get when a registration is approved |
 
 The app is the practical one at a venue: two taps from the Profile tab, and your tickets are in the same place.

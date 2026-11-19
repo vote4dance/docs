@@ -10,164 +10,121 @@ help:
 
 # Dancer self-service
 
-Location:
+On **My account** → **Licenses** you apply for your own federation license, pay for it when you are the one who pays, and follow it until it is active.
 
-- `Public -> Account -> Licenses`
+You can only use it for the licenses your federation lets dancers apply for. If your club applies for you, there is nothing for you to do here except look at the status. [Getting a license](/dancer/getting-a-license/) explains which route is yours.
 
-This page is for dancers who apply for their own federation license.
-
-Use it only when the federation allows direct self-service or a hybrid flow where the dancer is still the payer.
-
-Use [Dancer](/dancer/) first if you still need to decide whether the dancer or the school/club should start the license process.
+The page has two parts: **Your current licenses** at the top, and **Apply for a license** under it.
 
 ## Before you start
 
-Make sure this is the correct flow for you:
-
-1. The federation allows self-service
-2. You know which license item you need
-3. You know the correct season year
-4. If it is a one-time or competition-scoped license, you know the competition id
-5. If the item needs organization context, you already belong to the correct organization
-6. The federation has connected Stripe if you expect a direct `Pay` button after application
+- You know which license item you need, and for which season. Ask your club or your federation if you do not.
+- Your birth date is on your account. Without it the form says "A date of birth is required before applying for a license." Press **Add it in account settings** to add it.
+- If the license has to name a club, you are already an approved member of that club. See [Joining your club](/dancer/applying-for-a-school-club/).
+- If the license asks for your federation ID, you have the number at hand. See [Your federation ID](/dancer/getting-a-license/#your-federation-id).
 
 ## 1. Submit your own application
 
-Steps:
+1. Sign in, open your name at the top right and choose **My account**.
+2. Press **Licenses**.
+3. Under **Apply for a license**, choose your federation in **Select federation**.
+4. Choose the **License item**.
+5. Check the **Season year**.
+6. Fill in the other fields the item shows. See [What each field means](#what-each-field-means).
+7. Press **Apply for license**. You see "License application submitted".
 
-1. Open `Account`
-2. Press `Licenses`
-3. Select `Federation`
-4. Select `License item`
-5. Set `Season year`
-6. If required, fill `Competition ID`
-7. If the license item requires an organization, select `Organization`
-8. Optionally fill `Note`
-9. Press `Apply for license`
+The license now shows under **Your current licenses**. Check there that:
 
-What success looks like:
+- the **License** and the **Season** are the ones you meant
+- the **Payment** column says who pays: **self** means you
 
-- your license row appears in the lower list
-- the row shows the expected season
-- the row shows the correct item
-- the row shows `payer type = self` if you are the payer
-- the row may still stay `pending` until required approval is complete
+Then:
 
-What to do next:
-
-- if the row shows `payer type = self`, continue to payment
-- if the row stays pending after payment, wait for approval or contact federation admin
-- if the row is wrong and unpaid, contact federation admin before creating another row
+- If you pay, go on to [Pay when you are the payer](#2-pay-when-you-are-the-payer).
+- If the **Status** stays **pending**, the license waits for an approval or a payment. See [Step 4: Wait for approval](/dancer/getting-a-license/#step-4-wait-for-approval).
+- If you chose the wrong item, do not apply again on top of it. See ["I applied for the wrong item"](/dancer/getting-a-license/#i-applied-for-the-wrong-item).
 
 ### What each field means
 
-- `Federation`: the federation you are applying in
-- `License item`: the exact product the federation has exposed for self-service
-- `Season year`: target season or calendar year
-- `Competition ID`: required for one-time or competition-scoped items
-- `Organization`: only use this when the item requires or allows organization-connected self-service
-- `Note`: optional comment
+| Field | Meaning |
+|---|---|
+| **Select federation** | The federation you apply in. Only federations that use licenses are listed. |
+| **License item** | The license you apply for. The list holds the items this federation lets you apply for yourself. |
+| **Season year** | The season the license is for. |
+| **Competition ID** | Shown for a license that covers a single competition. |
+| **Organization** | Shown when the item requires or allows a club. Choose one of your clubs. A club where your membership is not approved yet is marked "awaiting approval" and cannot be chosen. |
+| **Federation ID** | Shown when the item asks for your number in the federation's own register. Type it and press **Verify**. |
+| **Note** | Optional. A message to the federation or your club. |
 
 ### What the page hides automatically
 
-The self-service page only shows items the backend says you can apply for.
+The **License item** list only holds what you can apply for yourself. An item is left out when:
 
-An item is hidden when:
+- the federation wants your club to apply for it
+- the item needs a club, and you are not an approved member of a club the federation has approved to issue licenses
 
-- the federation requires organization-managed application in that scope
-- the item requires organization membership or approved issuer membership that you do not have
-- the item is not valid for self-service in the current federation workflow
+When nothing is left, the page says "No licenses available for self-application".
 
-This filtering is there to stop you from applying for products that are not available in your flow.
+If the item you expected is missing:
 
-If you cannot find the item you expected:
-
-1. Check that you selected the correct federation
-2. Check whether the federation expects organization-managed application instead
-3. Check whether the item requires an organization or approved issuer
-4. Contact federation admin or your organization if you still cannot find the correct item
+1. Check that you chose the right federation.
+2. Ask your club whether it applies for this license for you.
+3. If the item needs a club, check that you are an approved member of it.
+4. Ask your club or the federation if you still cannot find it.
 
 ## 2. Pay when you are the payer
 
-Your current license rows are shown in the lower table.
+**Your current licenses** lists your licenses with these columns: **Federation**, **Organization**, **License**, **Season**, **Status**, **Payment** and **Actions**.
 
-The table shows:
-
-- federation
-- selected license item
-- season
-- status
-- payment status
-- payer type
-
-If `payer type = self` and `payment status = unpaid`, the row shows a `Pay` button.
+The **Payment** column shows two things: whether the license is **unpaid** or **paid**, and who pays, **self** or **organization**. When you pay and the license is unpaid, **Actions** has a **Pay** button.
 
 ### Self-payment steps
 
-1. Find the correct row
-2. Confirm the item and season
-3. Press `Pay`
-4. Complete Stripe checkout
-5. Return to Vote4Dance
+1. Find the license in the list.
+2. Check the **License** and the **Season**.
+3. Press **Pay**.
+4. Pay by card on the payment page.
+5. You come back to Vote4Dance.
 
-What success looks like:
+After the payment:
 
-- payment status changes to `paid`
-- the license may become `active` immediately
-- or it may stay `pending` if approval is still required
+- **Payment** changes to **paid**.
+- The money goes to the federation.
+- The license becomes **active** straight away, unless the federation approves licenses itself, or asks your club to approve first. Then it stays **pending** but paid until they have approved it.
 
-What happens after payment:
+**Pay** can be switched off:
 
-- payment is written to the license row
-- the Stripe payment is sent to the federation connected Stripe account
-- the license may auto-activate if the federation rules allow it
-- otherwise it stays pending but paid until any required approval is complete
+- "Payment will be available once this license has been approved." The license waits for an approval the federation asks for.
+- The federation has not set up online payments yet. Contact the federation.
 
-If the federation has not connected Stripe yet, self-payment checkout cannot complete.
-
-If the row shows `payer type = organization`, do not expect a self-payment button on this page. The organization must continue the workflow from its own license page.
+If **Payment** says **organization**, your club pays. There is no **Pay** button for you. The club pays from its own license page.
 
 If you paid but the license is still not active:
 
-- do not create a second application
-- wait a moment and refresh the page
-- if it is still paid but pending, contact federation admin or your organization
+- do not apply a second time
+- wait a moment and reload the page
+- if it is still paid but pending, contact the federation or your club
 
-When **not** to pay:
-
-- if `payer type` is not `self`
-- if the row is already paid
-- if the license item or season is clearly wrong
+Do not pay when the license item or the season is wrong. Sort that out first.
 
 ## 3. Organization-linked self-service
 
-Some federations allow self-service only when you are connected to an approved organization.
+Some license items can be applied for by the dancer, but have to name a club.
 
-In that case:
+1. Choose the **License item**.
+2. Choose your club under **Organization**.
+3. Press **Apply for license**.
 
-1. Choose the correct license item
-2. Select one of your organizations
-3. Submit the application
+The club must be one the federation has approved and allowed to issue licenses. If it is not, the application is refused with "This organization isn't an approved issuer for this federation." Ask your club: see [Issuing is a separate permission](/school-club/joining-a-federation/#issuing-is-a-separate-permission).
 
-If the selected item requires an approved issuer and your organization is not approved, the backend rejects it.
-
-Use this only when the federation specifically allows self-service together with organization context.
-
-In a hybrid federation, this is one of the most common reasons a dancer can see a product but still not complete the full workflow alone.
+Where the federation asks clubs to approve licenses, your application then waits for a manager or administrator of the club.
 
 ## Common problems
 
-- the expected license item is missing
-- the payment button does not appear
-- payment succeeded but the row is still pending
-- the organization selector does not contain the expected organization
-
-## What this page does not decide
-
-This page does not decide:
-
-- which license item the federation expects you to buy
-- whether the school or club should manage the application instead
-- whether a federation approval is still required after payment
-
-Use the dancer and school/club role guides for that decision-making. Use this page only to execute the self-service application and payment steps.
+| What you see | What to do |
+|---|---|
+| The license item you expected is missing | See [What the page hides automatically](#what-the-page-hides-automatically). |
+| There is no **Pay** button | The license is paid by your club, is already paid, or is cancelled. Look at the **Payment** column. |
+| **Pay** is there but cannot be pressed | See [Pay when you are the payer](#2-pay-when-you-are-the-payer). |
+| The payment went through but the license is still **pending** | It waits for an approval. Do not apply again. |
+| Your club is not in the **Organization** list, or cannot be chosen | You are not a member of it yet, or your membership is not approved. See [Joining your club](/dancer/applying-for-a-school-club/). |
