@@ -7,6 +7,8 @@ nav_order: 10
 
 # Release notes
 ## 2026-11-19
+ ⭐ **New**
+* Scrutineer (Beta): **Let autopilot do it** on a round in **Live** lets autopilot run just that round, so you can try it without switching it on for the whole event. A short window says what autopilot will do in the round and lets you choose whether it confirms after the countdown or waits for you to press Confirm. When autopilot has run a round, the class's next round offers **Run the … on autopilot** or **Whole class from here…** (see [Let autopilot run a round](/manager-guide/live-operations/#let-autopilot-run-a-round))
  🛠️ **Improvements**
 * Federation: Moving a competitor's class membership on **Members** to a class they had a retired membership in now works. The old membership becomes the active one with your changes, and the one you edited is retired. If the competitor is still active in that class, you see "This competitor already has an active membership in that class". Before, saving showed "Internal Error" (see [Editing a membership](/federation/members/#editing-a-membership))
 ## 2026-11-18

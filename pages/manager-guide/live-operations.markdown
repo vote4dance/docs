@@ -10,6 +10,7 @@ help:
   manager.comp.live.wrong-teams-in-round: wrong-teams-in-round
   manager.comp.live.schedule-drift: schedule-drift
   manager.comp.live.send-through: check-where-the-round-sends-its-participants
+  manager.comp.live.autopilot-try: let-autopilot-run-a-round
 ---
 
 # Live operations
@@ -149,6 +150,53 @@ Press **Place in battles** in the dialog to save. See [Battle bracket setup](/ba
 for how battle rounds are built.
 
 When you change the panel of a battle round, its battles get the same panel.
+
+## Let autopilot run a round
+
+In Scrutineer (Beta), autopilot can take the routine steps of a round off your hands: starting
+it, closing judging, confirming who goes through and publishing the results. You don't have to
+switch it on for the whole event to try it. Start with one round, see how it goes, and let it
+run more rounds once you trust it.
+
+1. Open the round in **Live**. Under the round's buttons, where the round page says what comes
+   next, press **Let autopilot do it**.
+
+   ![The round's status card with Let autopilot do it under the Start judging button](/assets/images/autopilot/try-offer-ready.png)
+
+2. A short window says what autopilot will still do in this round, for example "It starts the
+   round when its couples and floor are ready, closes judging when the last judge is in, sends 8
+   on, and publishes the results".
+3. Under **Confirm who goes through**, choose how the round is confirmed:
+   - **After 60 s countdown**: autopilot confirms by itself once the countdown runs out (the
+     event's own countdown, 60 seconds unless you changed it). You can hold it before then.
+   - **When I press Confirm**: autopilot does everything up to Confirm and then waits for you.
+     A good choice for your first try.
+4. Press **Turn on**. The round now has an **Autopilot** tag at the top of the page.
+
+   ![Autopilot takes over this round: what it will do, Confirm who goes through, and Turn on](/assets/images/autopilot/try-confirm.png)
+
+You stay in control: press any of the round's buttons yourself whenever you want. At a tie it
+can't settle, autopilot stops and asks you. **How autopilot works** opens the **Autopilot** tab,
+with everything autopilot is doing and has done.
+
+**Let autopilot do it** isn't shown for a round autopilot can't start by itself: the first round
+on a floor that day or after a break (a person starts it), a round that isn't on the schedule, or
+a round without a judge panel. Once you have started such a round, the offer comes back for
+the next steps.
+
+### Let it run the next round
+
+When autopilot has run a round of a class, the class's next round says so, with when the round
+was closed and confirmed, and that there was nothing for you to settle.
+
+![Autopilot ran the Preliminary, with Run the Semifinal on autopilot and Whole class from here…](/assets/images/autopilot/try-class-row.png)
+
+- **Run the Semifinal on autopilot** (with the name of this round) opens the same short window
+  for this round.
+- **Whole class from here…** lists this round and the rest of the class, says step by step what
+  autopilot will do in them, and switches them all on with **Switch on for 2 rounds** (with the
+  number of rounds). Tick **Wait for me to press Confirm in these rounds** to keep confirming
+  yourself.
 
 ## Round comment
 
