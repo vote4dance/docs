@@ -35,7 +35,7 @@ as "Available online".
 3. Press the button for the next step until the round is published: **Close round**, then
    **Confirm round**, then **Publish results online**.
 
-For what each step does, see [Running rounds](/manager-guide/live-operations/#running-rounds).
+For what each step does, see [Run a round](/manager-guide/live-operations/#run-a-round).
 
 If you close the competition with rounds that are **Confirmed** but not published, you can still
 publish them all at once. See step 5 under [Close the competition](#close-the-competition).
