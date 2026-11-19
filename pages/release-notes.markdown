@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-19
+ 🛠️ **Improvements**
+* Federation: Moving a competitor's class membership on **Members** to a class they had a retired membership in now works. The old membership becomes the active one with your changes, and the one you edited is retired. If the competitor is still active in that class, you see "This competitor already has an active membership in that class". Before, saving showed "Internal Error" (see [Editing a membership](/federation/members/#editing-a-membership))
 ## 2026-11-18
  🛠️ **Improvements**
 * App and website: Searching for a dancer or start number now shows the class the entry is in after the organizer moves it to another class, by the class's full name. Before, the search kept showing the class the entry was first entered in
