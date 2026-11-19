@@ -170,7 +170,8 @@ run more rounds once you trust it.
    - **After 60 s countdown**: autopilot confirms by itself once the countdown runs out (the
      event's own countdown, 60 seconds unless you changed it). You can hold it before then.
    - **When I press Confirm**: autopilot does everything up to Confirm and then waits for you.
-     A good choice for your first try.
+     A good choice for your first try. The sentence above then says it "waits for you to press
+     Confirm".
 4. Press **Turn on**. The round now has an **Autopilot** tag at the top of the page.
 
    ![Autopilot takes over this round: what it will do, Confirm who goes through, and Turn on](/assets/images/autopilot/try-confirm.png)
@@ -180,9 +181,11 @@ can't settle, autopilot stops and asks you. **How autopilot works** opens the **
 with everything autopilot is doing and has done.
 
 **Let autopilot do it** isn't shown for a round autopilot can't start by itself: the first round
-on a floor that day or after a break (a person starts it), a round that isn't on the schedule, or
-a round without a judge panel. Once you have started such a round, the offer comes back for
-the next steps.
+on a floor that day or after a break (a person starts it), a round that isn't on the schedule, a
+round without a judge panel, or any round when the event's autopilot settings leave starting
+rounds to you. Once you have started such a round, the offer comes back for the next steps. It
+isn't shown either while there is something for you to decide, such as a tie, because autopilot
+would hand that straight back to you.
 
 ### Let it run the next round
 
