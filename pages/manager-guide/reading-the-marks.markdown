@@ -29,7 +29,7 @@ one table for each heat:
 - **A participant that withdrew or was disqualified** has its start number, sum and place struck
   through.
 - **A badge with a letter next to a place** shows that the place was decided by separating a tie.
-  See [Separating tied positions](/manager-guide/judges/#separating-tied-positions).
+  See [Separating tied positions](/manager-guide/judges-on-the-day/#separating-tied-positions).
 - **Advance to** shows the round the participant goes to. It is there once the round is
   **Closed**, in every round but a final.
 
