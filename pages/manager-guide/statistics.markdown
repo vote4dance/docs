@@ -39,7 +39,7 @@ The same explanation is shown above the numbers on the **Dressing rooms** tab.
 
 ![The Dressing rooms tab explaining what Dancers and Organizations count](/assets/images/statistics/dressing-rooms-what-counts.png)
 
-If a yellow box says **Dancer numbers may be off**, Vote4Dance could not read the registrations for you. The entries are then counted with everyone on their team, including dancers the club left out of a class, and an entry whose team is not known only counts the names on the start list. Ask the organizer for **Check-in** access under **People & access** to see the exact numbers.
+If a yellow box says **Dancer numbers may be off**, Vote4Dance could not read the registrations for you. The entries are then counted with everyone on their team, including dancers the club left out of a class, and an entry whose team is not known only counts the names on the start list. Ask the organizer for **Check-in** access to see the exact numbers; they give it under **Users** in the classic Manager, which Scrutineer (Beta) calls **People & access**.
 
 ### How it counts
 
