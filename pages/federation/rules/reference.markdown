@@ -270,37 +270,3 @@ then the exceptions.
 | **Crosses** | Heats of three instead of pairs; **Max on floor** 3. |
 | **Round guide** | The Manager tool that builds a competition's rounds from these rules. |
 | **Rulebook** | The federation view that shows the value each federation rule ends up with, and which level set it. |
-
----
-
-## Sections that have moved
-
-These sections were on this page before. Each is on a page of its own now.
-
-### Rounds: round names and round sizes
-
-This is now on [Adding and editing round setup rules](/federation-rules/round-setup-rules/#rounds-round-names-and-round-sizes).
-
-### Findings
-
-This is now on [Checking the round setup](/federation-rules/round-setup-checks/#findings).
-
-### Across the federation
-
-This is now on [Checking the round setup](/federation-rules/round-setup-checks/#across-the-federation).
-
-### Check a class
-
-This is now on [Checking the round setup](/federation-rules/round-setup-checks/#check-a-class).
-
-### Merging copies
-
-This is now on [Merging and linking round setup rules](/federation-rules/round-setup-merging/#merging-copies).
-
-### Linked rules
-
-This is now on [Merging and linking round setup rules](/federation-rules/round-setup-merging/#linked-rules).
-
-### Default ladder
-
-This is now on [Setting the default ladder](/federation-rules/default-ladder/#default-ladder).
