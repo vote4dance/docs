@@ -115,3 +115,10 @@ Tell the DJ to download again if you change start numbers after their download.
 The tracks are not kept for ever. Vote4Dance deletes them automatically some days after the competition has ended. The federation decides how many days; without a number from the federation it is 8 days. Download what you want to keep before then.
 
 After that, the entry says **Deleted after the competition**, with the date, and the top of the page counts how many were **deleted after the competition**.
+
+## Related pages
+
+- [Your music](/dancer/my-registration/#your-music): how a dancer uploads their track
+- [Own music](/federation-rules/own-music/): how a federation decides which classes ask for own music, and the limits
+- [Registration and check-in](/manager-guide/registration-checkin/#after-the-import): assigning start numbers
+- [Users, apps and stations](/manager-guide/users-and-stations/): access for the people who work at your event

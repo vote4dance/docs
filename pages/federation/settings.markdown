@@ -57,6 +57,8 @@ Press **Save changes** to save. The images are uploaded when you save, not when 
 
 If a required field is empty, the form shows "This is required" and does not save.
 
+The day your season starts is not on this form. It is the federation rule **Season start**, set under `Federation → Structure → Federation rules`: see [Season start](/federation/age-moves/#season-start).
+
 ### Stripe payout account
 
 License payments are paid to the federation's connected Stripe account. Vote4Dance keeps a 5% application fee. The field shows a **Connected** or **Not connected** tag and, once one exists, the Stripe account ID.
@@ -108,7 +110,7 @@ Press the red delete button on the row and confirm. The same limits apply: an Ad
 | **Rankings** | The rankings menu item and page. It only appears once the federation has at least one active ranking. |
 | **Divisions** | The divisions menu item and page. |
 | **Getting started** | The getting started page. |
-| **Organizations** | The list of approved organizations. |
+| **Organizations** | The list of approved clubs. Vote4Dance calls a club an organization. |
 | **Licenses** | The public license catalog. It only appears once the federation has at least one active license item. |
 
 A disabled section is hidden for all visitors. Signed-in federation staff still see buttons for the hidden sections in the admin box on the public federation home page, so you can check a section before you turn it on.
@@ -152,13 +154,16 @@ To stop a key, press **Revoke key** on its row, then **OK**. Systems using it st
 
 ### Personal configuration keys
 
-A personal configuration key lets a script change this federation's configuration through the Vote4Dance API, instead of you clicking through the federation pages. It is useful for big, repetitive changes, such as entering a new season's round setup for every discipline. Vote4Dance support may also ask you for a key to make such a change for you.
+A personal configuration key lets a script change this federation's configuration through the Vote4Dance API, instead of you clicking through the federation pages. It is useful for big, repetitive changes, such as entering a new season's round setup for every discipline. [Vote4Dance support](/getting-help/#writing-to-vote4dance) may also ask you for a key to make such a change for you.
+
+You create the key yourself, as described below. The script that uses it is written by your federation's technical contact, or by Vote4Dance.
 
 A configuration key can:
 
 - read the federation's divisions, disciplines, dances, classes, categories, age groups and class levels
 - change the round setup: edit several rules at once, add a rule at a chosen place in the list, merge two rules into one, or delete a rule
 - create and change classes, age groups and categories, and change or retire a discipline
+- add a dance to a discipline, and change a dance's name, its place in the list or its settings, for example which place a bronze battle starts from. A dance is never deleted this way, because class rules and rounds refer to it
 - read the rules set at each place in the structure (the federation, a division, a discipline, a category, an age group, a class level, a class or a competition level), and change one rule there, keeping the others
 - read the rules a class ends up with, and where each one comes from, also as at an event of a chosen competition level
 - list, create and change competition levels with their rules. A code that another competition level already uses is refused
@@ -166,23 +171,7 @@ A configuration key can:
 
 It cannot reach members, the licenses dancers hold, clubs, competitions, rankings or points, and it cannot create or change the license items themselves. A change is refused when someone else changed the same thing since the script read it, so nothing is overwritten by mistake.
 
-For the person writing the script, these are the addresses for rules, competition levels, license items and new categories, below `/public/v1/federation`:
-
-| Method | Path | What it does |
-|---|---|---|
-| `GET` | `/rule-profiles` | every stored set of rules |
-| `GET` | `/rule-profiles/:scope_type/:scope_id` | the rules set at one place in the structure |
-| `PATCH` | `/rule-profiles/:scope_type/:scope_id` | set or remove one rule there; needs `If-Match` |
-| `GET` | `/classes/:id/rules` | the rules a class resolves to, optionally `?competition_level_id=` |
-| `GET` | `/competition-levels` | competition levels with their rules, optionally `?division_id=` |
-| `POST` | `/competition-levels` | create a competition level; a code already in use answers 409 |
-| `PATCH` | `/competition-levels/:id` | change a competition level; needs `If-Match` |
-| `GET` | `/license-items` | the federation's license items |
-| `GET` | `/classes/:id/license-items` | the license items a class accepts |
-| `PUT` | `/classes/:id/license-items` | set the license items a class accepts; needs `If-Match` |
-| `POST` | `/categories` | create a category |
-
-The full reference, with every address, is at `/public/v1/openapi.json`.
+The addresses a script uses are at the end of this page, for the person who writes it: see [For the person writing the script](#for-the-person-writing-the-script).
 
 The key is your own:
 
@@ -234,9 +223,47 @@ The **Guide** tab is a short map of where federation work is done. It has three 
 
 - **Federation-wide** links to **Organizations** (approving clubs, issuer role and representation), **Licenses** (issued licenses and license items), **Rulebook** (the shared rules and what is still automated) and **Enforcement log** (why rules allowed, blocked, skipped or promoted someone). **Organizations** and **Enforcement log** open the matching tabs under **Members**.
 - **Division work** links to **Division**, the **Structure** page, where rankings, class state, history and class license rules are handled per division, and each discipline holds its classes and class-level license rules.
-- **Manual operations guide** says which page to use when a rule is not automated: ranking corrections for selection exceptions and ties, membership edits for manual promotion, demotion and class changes, representation history for moving a competitor between organizations, and the enforcement log to check the result afterwards.
+- **Manual operations guide** says which page to use when a rule is not automated: ranking corrections for selection exceptions and ties, membership edits for manual promotion, demotion and class changes, representation history for moving a competitor between clubs, and the enforcement log to check the result afterwards.
 
 The tab has nothing to set.
+
+## For the person writing the script
+
+This section is for the federation's technical contact. Nothing here is needed to use the Settings screen.
+
+A [personal configuration key](#personal-configuration-keys) works on the addresses below `/public/v1/federation`. These are the ones for rules, competition levels, license items, new categories and dances:
+
+| Method | Path | What it does |
+|---|---|---|
+| `GET` | `/rule-profiles` | every stored set of rules |
+| `GET` | `/rule-profiles/:scope_type/:scope_id` | the rules set at one place in the structure |
+| `PATCH` | `/rule-profiles/:scope_type/:scope_id` | set or remove one rule there; needs `If-Match` |
+| `GET` | `/classes/:id/rules` | the rules a class resolves to, optionally `?competition_level_id=` |
+| `GET` | `/competition-levels` | competition levels with their rules, optionally `?division_id=` |
+| `POST` | `/competition-levels` | create a competition level; a code already in use answers 409 |
+| `PATCH` | `/competition-levels/:id` | change a competition level; needs `If-Match` |
+| `GET` | `/license-items` | the federation's license items |
+| `GET` | `/classes/:id/license-items` | the license items a class accepts |
+| `PUT` | `/classes/:id/license-items` | set the license items a class accepts; needs `If-Match` |
+| `POST` | `/categories` | create a category |
+| `GET` | `/disciplines/:id/dances` | a discipline's dances, each with its `etag` |
+| `GET` | `/dances/:id` | one dance with its `etag` |
+| `POST` | `/disciplines/:id/dances` | add a dance; without `dance_order` it goes last |
+| `PATCH` | `/dances/:id` | change a dance; needs `If-Match` |
+
+A dance's settings are a list, as in a class rule. To change one setting and keep the others, send it in `changes_set`; to remove one, name it in `changes_unset`. Sending `dance_changes` replaces the whole list instead. For example, to make a bronze battle start from 3rd place, read the dance, then send its `etag` with:
+
+```
+PATCH /public/v1/federation/dances/:id
+If-Match: <etag>
+Content-Type: application/json
+
+{"changes_set": [{"key": "round_position", "value": 3}]}
+```
+
+The full reference, with every address, is at `/public/v1/openapi.json`.
+
+A change is refused when someone else changed the same thing since the script read it. That is what `If-Match` is for.
 
 ## Not in this version
 
@@ -251,3 +278,5 @@ The tab has nothing to set.
 - [Public rankings](/federation-rankings/public/)
 - [Federation rules](/federation-rules/)
 - [Club transfers](/federation/club-transfers/)
+- [Age moves](/federation/age-moves/#season-start): where the season start is set
+- [Getting help](/getting-help/#writing-to-vote4dance)

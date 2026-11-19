@@ -28,20 +28,23 @@ what brings your rules into their event.
 | **Licenses:** which license items a class requires | The class's **License rules**. See [Divisions](/federation/divisions/#licenses). |
 | **Age:** whether the competitor fits the class's age group | Age groups and [age category rules](/federation-rules/age-category-rules/) |
 | **Team size and dance roles** | Category rules. See [Federation Rules](/federation-rules/). |
-| **Who may register a competitor:** anyone, a member of the team, or the club | The rules editor, in the layer's **Federation rules** section under `Federation → Structure` |
-| **Custom team names** allowed or not | The rules editor, in the layer's **Federation rules** section under `Federation → Structure` |
-| **Which club a dancer represents**, if dancers must choose | The rules editor, in the layer's **Federation rules** section under `Federation → Structure` |
-| **Lineup changes that follow the club's dancer count**, for small groups and formations | The rules editor, in the layer's **Federation rules** section under `Federation → Structure`. See [Lineup changes that follow the club's dancer count](#lineup-changes-that-follow-the-clubs-dancer-count). |
-| **One class per category:** one age group and one level, per dancer or per team | The rules editor, in the category's **Federation rules** tab under `Federation → Structure`. See [One class per category](#one-class-per-category). |
+| **Who may register a competitor:** anyone, a member of the team, or the club | **Who may register**, in the **Federation rules** editor of the discipline, category or class |
+| **Custom team names** allowed or not | **Allow custom competitor names**, in the **Federation rules** editor of the discipline, category or class |
+| **Which club a dancer represents**, if dancers must choose | **Ask which organization each dancer represents**, in the **Federation rules** editor of the discipline, category or class |
+| **Lineup changes that follow the club's dancer count**, for small groups and formations | **Lineup changes follow the club's dancer count**, in the **Federation rules** editor of the discipline, category or class. See [Lineup changes that follow the club's dancer count](#lineup-changes-that-follow-the-clubs-dancer-count). |
+| **One class per category:** one age group and one class level, per dancer or per team | **One class per category**, in the category's **Federation rules** editor. See [One class per category](#one-class-per-category). |
+
+Every **Federation rules** editor is under `Federation → Structure`; [Where to find each editor](/federation-rules/editor/#where-to-find-each-editor) lists them per level.
 
 A class a competitor cannot enter is shown to them as locked, with the reason, before checkout.
-Check the combined result of all your rules in `Federation → Rulebook`.
+Check the combined result of all your rules in `Federation → Rulebook`, which shows what applies
+to a class and the level that set each rule.
 
 ## One class per category
 
-When competitors choose their own level, for example Rising Talent or Ultimate Talent, set **One
+When competitors choose their own class level, for example Rising Talent or Ultimate Talent, set **One
 class per category**. A competitor can then be registered in only one class per category at an
-event: one age group and one level. You choose who it applies to, per category:
+event: one age group and one class level. You choose who it applies to, per category:
 
 | Setting | Use it for | What it means |
 |---|---|---|
@@ -49,11 +52,12 @@ event: one age group and one level. You choose who it applies to, per category:
 | **Per team** | Small groups, Formations | Each team may be in only one class of the category. Its dancers may still dance in other teams, in any class. |
 | **Off** | Categories without the rule | No limit. |
 
-1. Open `Federation → Structure`, the discipline (for example Hip Hop) and the category (for
-   example Solo).
-2. On the category's **Federation rules** tab, set **One class per category** to **Per dancer**, **Per
-   team** or **Off**, and save the rules.
-3. Do this for each category, in each discipline that uses it.
+1. Open `Federation → Structure`, the division, and **Categories**.
+2. On the **Federation rules** tab, pick the category (for example Solo).
+3. Set **One class per category** to **Per dancer**, **Per team** or **Off**, and press **Save
+   rules**.
+4. Do this for each category that uses it. The rule can also be set on a discipline or on a single
+   class, in their **Federation rules** editors.
 
 What dancers, clubs and organizers then see:
 
@@ -82,10 +86,11 @@ the club for another dancer.
 Use it when a club pays per dancer for a group, and you want it to be able to change who dances
 without asking the organizer each time.
 
-1. Open `Federation → Structure`, the discipline, category or federation class where it should
-   apply.
-2. In the **Federation rules** section, turn on **Allow lineup change after registration**, and then
-   **Lineup changes follow the club's dancer count**. Save the rules.
+1. Open the **Federation rules** editor of the discipline, category or class where it should
+   apply, under `Federation → Structure`
+   ([Where to find each editor](/federation-rules/editor/#where-to-find-each-editor)).
+2. Turn on **Allow lineup change after registration**, and then **Lineup changes follow the
+   club's dancer count**. Press **Save rules**.
 
 What you need to know:
 
@@ -96,7 +101,7 @@ What you need to know:
   nothing.
 - **It applies to teams that belong to a club.** Independent teams are not counted.
 - **The price comes from the period.** The organizer sets it. You do not set an amount here.
-- **It is off by default.** The most specific scope that sets it wins, so you can switch it on for
+- **It is off by default.** The most specific level that sets it wins, so you can switch it on for
   small groups and formations and leave duos and solos off.
 - **A club pays the extra dancers itself.** In the club's **Edit lineup**, an **Add dancer** button
   appears and a pop-up takes the payment. See [Changing a group's lineup after

@@ -52,7 +52,7 @@ For the organizer's side of this, see [Event setup](/manager-guide/event-setup/)
 - **Practice events.** An event whose **Event mode** is **Practice event** is never listed, and it
   is not counted in any number on this screen.
 - **Single days of a multi-day event.** A multi-day event is one row. Its entries, classes, judges
-  and organizations are counted across all its days.
+  and clubs are counted across all its days.
 
 ## Ranges
 
@@ -83,7 +83,7 @@ bookmark or share one range.
 | **Dates** | The first and last day. A one-day event shows one date. |
 | **Organiser** | The organizer named on the event, or the name of the person who created it if none is set. The event's contact email is shown underneath. |
 | **State** | Where the event is in its own life. See [State](#state). While an event is **Live**, the line underneath says **Check-in open** or **Check-in closed**. |
-| **Entries** | Entries that are not cancelled, with the number of organizations they come from underneath. |
+| **Entries** | Entries that are not cancelled, with the number of clubs they come from underneath. The screen calls a club an organization. |
 | **Classes** | Classes on the event, with how many have finished underneath. A class has finished when it has rounds and none of them is still open or being danced. A class without rounds never counts as finished. |
 | **Federation** | What the event still owes the federation. See [Federation standing](#federation-standing). |
 
@@ -101,7 +101,7 @@ Click the arrow at the start of a row to see more about that event:
 | **Contact** | The event's contact email. |
 | **Check-in window** | When check-in opens and closes. |
 | **Judges** | Judges on the event, across all its days. |
-| **Organizations** | Distinct organizations with entries, counted once across all days. |
+| **Organizations** | Distinct clubs with entries, counted once across all days. |
 | **Results** | **Not published** when the organizer has turned results off. Both other results settings, publish now and hold until the event is closed, show **Published**; the **Federation** column tells you whether results can actually be seen. |
 | **Live placement** | **Enabled** or **Disabled**. |
 

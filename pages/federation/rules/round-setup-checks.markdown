@@ -168,8 +168,8 @@ now.
 ### Across the federation
 
 **Federation → Structure → Round setup findings** checks the round setup of every
-discipline in turn. This is not the Rulebook: the federation's rule profiles live
-there, and this page only reads the round setup. Open it from the **Round setup
+discipline in turn. This is not the Rulebook, which shows the federation rules:
+this page only reads the round setup. Open it from the **Round setup
 findings** card on a division's Structure page, or from the Structure menu. It
 reads the round setup of the whole federation, so it runs when you press **Check all
 disciplines**; **Check again** runs it again after you have made changes. The
@@ -202,7 +202,7 @@ class at one number of competitors.
 
 ![The By class check](/assets/images/class-rules/by-class-check.png)
 
-On the left, **Rules, in reading order** lists every rule the Round Guide reads,
+On the left, **Rules, in reading order** lists every rule the Round guide reads,
 with what it did:
 
 - **Applied** — the rules that fired. A rule that fired but whose changes were
@@ -219,7 +219,7 @@ with what it did:
   and names, in the language of whoever creates the rounds.
 - A **Finding** label on a row that a finding is about, which opens its review.
 
-On the right, **Rounds the manager will create** shows the rounds the Round Guide
+On the right, **Rounds the manager will create** shows the rounds the Round guide
 would make, with how many dance, how many go through and the floor size. How
 many go through is what the round's **Num to advance** says, and the next round
 shows that many dancers, even when its round size is larger: a final that holds

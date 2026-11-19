@@ -18,6 +18,8 @@ help:
 
 **Members** is where federation staff answer "who belongs here": which competitors are in which class, the dancers behind them, the clubs, how classes changed over time, and what the automatic rule checks decided. Open it from `Federation → Members`.
 
+A competitor is whoever enters a class together: a couple, a solo dancer, a duo or a group. A club is called an **Organization** on these screens.
+
 The page has five tabs. Each one has its own address, so you can bookmark or share a tab:
 
 | Tab | Address |
@@ -45,9 +47,9 @@ Every change on this page is checked by the server. Class memberships and club a
 | **Sync federation progress** | Competitors | Administrator |
 | Preview and run the **Age-up batch transition** | Competitors | Administrator |
 | Search for a dancer | Dancers | Administrator |
-| Approve an organization or mark it pending, allow or revoke license issuing | Organization page | Manager |
-| Remove an organization from the federation | Organization page | Administrator |
-| Assign or change a competitor's organization, rename a competitor | Organization page, **Transfers** tab | Administrator |
+| Approve a club or mark it pending, allow or revoke license issuing | The club's page | Manager |
+| Remove a club from the federation | The club's page | Administrator |
+| Assign or change a competitor's club, rename a competitor | The club's page, **Transfers** tab | Administrator |
 
 The History and Enforcement log tabs are read-only for everyone.
 
@@ -148,7 +150,7 @@ Below the roster is the **Age-up batch transition**: set an **Effective date**, 
 
 ### Organization changes
 
-Do not use the roster to change which club a competitor represents. Use the organization's page, reached from the [Organizations](#organizations) tab, so the transfer history stays in one place. See [Club transfers](/federation/club-transfers/).
+Do not use the roster to change which club a competitor represents. Use the club's page, reached from the [Organizations](#organizations) tab, so the transfer history stays in one place. See [Club transfers](/federation/club-transfers/).
 
 ---
 
@@ -185,7 +187,7 @@ Click a club to open its page. There:
 - an Administrator can also **Remove from federation**, and on the **Transfers** tab use
   **Assign organization**, **Change organization** and **Rename competitor**
 
-What each of these does to licenses, teams and representation is covered in [Club transfers](/federation/club-transfers/) and [Federation admin licenses](/federation-licenses/federation-admin/).
+What each of these does to licenses, competitors and representation is covered in [Club transfers](/federation/club-transfers/) and [Federation admin licenses](/federation-licenses/federation-admin/).
 
 ---
 

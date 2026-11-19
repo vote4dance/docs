@@ -10,219 +10,297 @@ help:
 
 # Sponsors
 
-Use `Sponsors` at the event level to create sponsor products, sell them through Vote4Dance, and control where purchased sponsors are shown.
+On the **Sponsors** page of an event you set up what companies can buy as sponsors, and you follow who has bought. A sponsor pays by card through Vote4Dance. After the payment, the sponsor's name and logo are shown on the event page, in the Vote4Dance app and on the venue screens.
+
+One thing a company can buy is called a **sponsor offer**, for example **Main Sponsor**. Some buttons in Manager call it a sponsor item. It is the same thing.
 
 ## How sponsors work
 
-- An organizer creates sponsor offers in Manager.
-- Each offer defines a slot type, title, description, price, currency, visibility, capacity, and optional image.
-- Sponsors buy through the public sponsor page for the event or through a direct public checkout link for a specific sponsor item.
-- Purchased sponsors are then shown automatically in the placements connected to that slot.
-- These placements are purchase-driven only. Manual or external sponsors are not supported for the built-in sponsor surfaces.
+1. You create the sponsor offers in Manager and set a price for each.
+2. You send a company the link to the sponsor page, or to one offer.
+3. The company fills in its details and pays by card.
+4. The sponsor is shown in the places that belong to the offer it bought. You do not place sponsors by hand.
+
+A sponsor is shown only when the sponsorship was bought through Vote4Dance. You cannot add a sponsor yourself without a purchase. The **Offers** tab repeats this in the box **Important sponsor rules**.
 
 ## Before you start
 
-- Stripe Connect must be connected before you can create paid sponsor offers.
-- All sponsor prices exclude VAT.
-- Each purchase includes a 5% Vote4Dance fee plus Stripe processing fees.
-- Supported currencies in Manager are `SEK`, `EUR`, `USD`, and `NOK`.
-- Minimum amount is `500 SEK` or `50` in the other supported currencies.
+| You need to know | Details |
+|---|---|
+| Stripe must be connected | You cannot create sponsor offers until the event has a connected Stripe account. The **Offers** tab shows **Connect Stripe account** until it is connected, and **Connected to Stripe!** when it is. |
+| Prices are without VAT | The page says **All prices exclude VAT.** The sponsor sees the same text. |
+| Fees | Each purchase includes a 5% Vote4Dance fee, plus Stripe's own fees. |
+| Currency | SEK, EUR, USD or NOK. You choose it for each offer. |
+| Lowest price | 500 SEK, or 50 in EUR, USD or NOK. |
 
-## Default creation flow
+## Create the sponsor offers
 
-1. Open `Event > Sponsors` in Manager.
-2. Click `Create sponsor items` to seed the standard event-wide offers.
-3. Edit each offer to set the final title, commercial description, price, quantity, and image.
-4. Use `Add class sponsor` when you need class-specific sponsorship.
-5. For class sponsors, assign the relevant classes before saving.
-6. Let functionaries open the public sponsor page for the event and use `Sell sponsor` on the specific offer they are selling.
-7. Functionaries can copy the direct payment link, show the QR code, or open the prefilled email draft for that package.
-8. Follow incoming purchases in the `Purchases` tab.
+1. In Manager, open **Sponsors**. It is under **Audience** in the menu.
+2. On the **Offers** tab, if you see **Connect Stripe account**, click it and finish the steps at Stripe. If the tab says **Your event need billing information to connect**, the event has no billing details yet, and they must be added before Stripe can be connected.
+3. Click **Create sponsor items**. You see the message **Default sponsor items created**.
 
-## Selling sponsor items as a functionary
+Manager creates these four offers. Each one is created **Active**, which means it can be bought at once.
 
-1. Open the public sponsor page for the event while signed in as functionary.
-2. Find the sponsor offer you want to sell.
-3. Use the QR icon in the item title when you want to show a large QR code for that exact package.
-4. Use `Sell sponsor` to open the sales actions for that package.
-5. From that dialog, you can copy the public checkout link, let the sponsor scan the QR code, or open a prefilled email draft.
-6. The email draft includes the event name, the invited sponsor package, and the direct payment link for that exact item.
-7. The sponsor-item checkout page is public, so the sponsor can open it directly without auth, enter company details, and pay.
-8. After payment, the sponsor receives a claim link where they can upload their logo and finish their sponsor profile later.
+| Offer | Total slots | Starting price |
+|---|---|---|
+| **Main Sponsor** | 1 | 8000 SEK |
+| **Featured Sponsor** | 2 | 4000 SEK |
+| **Competition Sponsor** | 99 | 1000 SEK |
+| **Bonus Sponsor** | 99 | 500 SEK |
 
-## What is created by default
+**Total slots** is how many sponsors can buy the offer.
 
-The standard seed creates these event-wide offers:
+The starting prices are only a suggestion. Change them to fit your event, for example higher for a large event with many screens and lower for a small local one. If you are not ready to sell an offer yet, switch **Active** off on it, as described under [Hide or delete an offer](#hide-or-delete-an-offer).
 
-- `Main Sponsor`
-- `Featured Sponsor`
-- `Competition Sponsor`
-- `Bonus Sponsor`
+In Scrutineer (Beta), **Create sponsor items** creates four more offers for the venue screens. See [What the venue screens show for sponsors](#what-the-venue-screens-show-for-sponsors).
 
-`Class Sponsor` is added separately on purpose, because each class sponsor item must be linked to one or more classes before it can be used correctly.
+## Edit an offer
 
-## Default price starting points
+1. On the **Offers** tab, click **Edit** on the offer. The **Edit offer** window opens.
+2. Change the fields in the table below.
+3. Click **OK**. You see the message **Offer updated**. In Scrutineer (Beta) the button is **Save changes**.
 
-If you create the default offers in `SEK`, the current starting amounts are:
+| Field | What to fill in |
+|---|---|
+| **Title** | The name the sponsor sees. |
+| **Description** | A text about the offer. The sponsor sees it under the title. |
+| **Classes** | Only on a class sponsor offer. The classes the sponsor is shown with. |
+| **Currency** | SEK, EUR, USD or NOK. |
+| **Amount** | The price without VAT. The window shows the lowest price you can set, for example **Minimum amount is 500 SEK**. |
+| **Total slots** | How many sponsors can buy the offer. You can change it for **Competition Sponsor** and **Bonus Sponsor**. It is locked at 1 for **Main Sponsor**, 2 for **Featured Sponsor** and 2 for **Class Sponsor**. |
+| **Active** | On: the offer is on the sponsor page and can be bought. Off: see [Hide or delete an offer](#hide-or-delete-an-offer). |
+| **Offer image** | A picture for the offer. The sponsor sees it at the top of the page where they fill in their details. |
 
-- `Main Sponsor`: `8000 SEK`
-- `Featured Sponsor`: `4000 SEK`
-- `Class Sponsor`: `2000 SEK`
-- `Competition Sponsor`: `1000 SEK`
-- `Bonus Sponsor`: `500 SEK`
+To change the order of the offers, drag them in the list. The sponsor page shows them in the same order.
 
-These are starting points only. Organizers are expected to adjust pricing to match their event size, audience, and sponsor package strategy.
+## Add a class sponsor
 
-## Slot summary
+A class sponsor is shown together with one or more classes, for example on the class's result page. It is not created by **Create sponsor items**, because you must choose the classes first.
+
+1. On the **Offers** tab, find the **Class sponsors** box and click **Add class sponsor**.
+2. In **Classes**, choose the classes this offer is for. You must choose at least one.
+3. Set **Title**, **Description**, **Currency** and **Amount**. The starting price is 2000 SEK.
+4. Click **OK**. You see the message **Offer created**.
+5. To add a picture, click **Edit** on the new offer and upload it under **Offer image**. A new offer has to be saved before it can have a picture.
+
+Add as many class sponsor offers as you need. One offer has 2 slots, and a class can have at most 2 class sponsors in total. If you put a class in a second class sponsor offer, Manager does not save it and shows **Slot Class Sponsor only allows 2 sponsors for class** followed by the name of the class.
+
+## Hide or delete an offer
+
+| You want to | Do this | What happens |
+|---|---|---|
+| Stop selling an offer | Click **Edit**, switch **Active** off and click **OK**. | The offer gets the tag **Inactive**. It leaves the sponsor page and cannot be bought. |
+| Remove an offer nobody has bought | Click **Delete offer** and confirm. | The offer is deleted. |
+| Remove an offer that has been bought | Click **Delete offer** and confirm. | The offer is not deleted. It becomes **Inactive**, and its purchases stay on the **Purchases** tab. |
+| Get a deleted standard offer back | Choose it in **Select sponsor item to add back** and click **Add back sponsor item**. | The offer is created again with its starting price. |
+
+Sponsors of an inactive offer are no longer shown on the event page, with their classes or as sponsor cards on the heat, result and schedule screens. Keep an offer **Active** for as long as its sponsors should be shown. When all slots of an offer are bought, the offer gets the tag **Sold out** and stays on the sponsor page, where it can no longer be bought.
+
+## What the sponsor sees and buys
+
+The sponsor page lists all active offers. To open it, click **Open public sponsor site** at the top of the **Sponsors** page. In Scrutineer (Beta) the button is called **Open sponsor page**. The page has the heading **Sponsor Opportunities**.
+
+Each offer on the sponsor page shows:
+
+- the title and the description
+- **Price**
+- **Available slots**, as the number left and the total, for example 1 / 2
+- the sponsors who have already bought it, with logo and company name
+- **See coverage**, which opens drawings of where the sponsor is shown. They are the same drawings as under [Where each sponsor is shown](#where-each-sponsor-is-shown). The four extra offers in Scrutineer (Beta) have no drawings.
+
+A sold-out offer shows **This sponsor offer is sold out.**
+
+This is how a sponsor buys:
+
+1. The sponsor clicks **Continue** on an offer. The page **Sponsor Signup** opens. It can be opened without signing in.
+2. The sponsor fills in **Company name** and **Contact email**, and can add **Company website**.
+3. The sponsor clicks **Continue to payment** and pays by card at Stripe.
+4. After the payment the sponsor comes to the page **Sponsor Profile**. Here the sponsor can correct the company details, upload a logo under **Company logo**, and add a video under **Sponsor video**.
+
+Ask the sponsor to save the address of the **Sponsor Profile** page, for example as a bookmark. It is the sponsor's own page for changing the logo and the details later. If the sponsor cannot do it, you can fill in the details yourself, as described under [After a purchase](#after-a-purchase).
+
+A sponsor's video has to be approved before the screens play it. See [Sponsor videos and spots](/manager-guide/sponsor-videos/).
+
+## Sell an offer to a sponsor yourself
+
+You and your staff can send one offer straight to a company, or let the company pay on its own phone at the venue.
+
+1. Open the sponsor page. From Manager, click **Open public sponsor site**. Staff who are signed in also find it as the **Sponsors** tile under **Functions** on the event's page, when there is at least one offer to buy.
+2. Find the offer and click **Send information**. The window **Sell sponsor package** opens. It shows the payment link for this offer and a QR code with the heading **Scan to pay**.
+3. Choose how the sponsor gets the link:
+
+| You want to | Do this |
+|---|---|
+| Send the link yourself, for example in a chat | Click **Copy payment link** and paste it into your message. |
+| Let the sponsor pay on their own phone | Let them scan the QR code in the window. For a large QR code, close the window and click the QR icon next to the offer's title. |
+| Let Vote4Dance send an e-mail | Type the address in **Recipient email**, read the text under **Email preview** and click **Send offer email**. The e-mail has the event name, the name of the offer and the payment link. Only people with Manager access to the event see this part of the window. |
+
+The link opens **Sponsor Signup** for that offer, and the sponsor continues from step 2 under [What the sponsor sees and buys](#what-the-sponsor-sees-and-buys).
+
+## After a purchase
+
+Open **Sponsors** in Manager and go to the **Purchases** tab. Each purchase is one row.
+
+| Column | What it shows |
+|---|---|
+| **Company** | The company name, the contact e-mail and the company's link. |
+| **Image** | The sponsor's logo, or a dash if the sponsor has not uploaded one. |
+| **Offer** | The offer the sponsor bought. |
+| **Amount** | The amount of the purchase. The **Total** row at the bottom adds up all purchases, one sum for each currency. |
+| **Actions** | **Edit sponsor info** and **Delete purchase**. |
+
+A sponsor is shown with the company name and the logo. On the event page, a sponsor with a link also gets a button that opens the company's website. Check before the event day that every sponsor has a correct name, link and logo.
+
+| You want to | Do this |
+|---|---|
+| Correct a sponsor's name, e-mail or link | Click **Edit sponsor info**, change **Company name**, **Contact email** or **Company link** and click **Save changes**. |
+| Upload or change the logo for a sponsor | Click **Edit sponsor info** and upload the picture under **Company image**. |
+| Move a sponsor to another offer | Click **Edit sponsor info** and choose the other offer in **Sponsor offer**. The other offer must be active and have a free slot. The amount of the purchase does not change. |
+| Remove a sponsor | Click **Delete purchase** and confirm. The sponsor is no longer shown anywhere, and the slot is free again. This cannot be undone. |
+
+**Delete purchase** does not pay the money back. Manager has no refund button for sponsor purchases. The payment is in your own Stripe account, so make the refund there.
+
+In Scrutineer (Beta), the **Purchases** tab also has a **Sponsor info** column with **Filled in** or **Waiting for sponsor**, and **Edit sponsor info** has a **Sponsor video** part where you approve the sponsor's video. See [Approving a sponsor's video](/manager-guide/sponsor-videos/#approving-a-sponsors-video).
+
+## Where each sponsor is shown
+
+Where a sponsor is shown depends on the offer it bought. The drawings below are the ones the sponsor sees under **See coverage**. They are drawings of the layout, with "Sponsor Name" where the company's name will be.
+
+| Offer | Event page and app | Venue screens |
+|---|---|---|
+| **Main Sponsor** | Large card at the top of the **Sponsors** part of the event page | Card at the bottom of the result and schedule screens, and a page of its own on the Sponsors screen |
+| **Featured Sponsor** | Highlighted card under the main sponsor | Card at the bottom of the heat screen, and a wide row on the Sponsors screen |
+| **Class Sponsor** | In the sponsor list, and with its classes on the result page, the list of participants and the heat list | Card at the bottom of the heat screen while its class is danced, and a row in the list on the Sponsors screen |
+| **Competition Sponsor** | In the sponsor list | A row in the list on the Sponsors screen |
+| **Bonus Sponsor** | In the sponsor list | A row in the list on the Sponsors screen |
+
+The Sponsors screen loops through the event's sponsors. The speaker puts it on a screen with **Show sponsors** in the **Sponsors** card of the speaker app. See [What the speaker pushes](/manager-guide/screens/#what-the-speaker-pushes).
 
 ### Main Sponsor
 
-- Capacity: 1 total across the event
-- Best for: headline sponsor package
-- Typical commercial value: premium event-wide visibility across public pages and live venue screens
+One sponsor for the whole event.
 
-Current usage:
+On the event page, the main sponsor has a large card under the event's banner, with the logo, the title of the offer and the company name.
 
-- Public event page hero sponsor placement
-- Result screen sponsor placement
-- Schedule/text screen sponsor placement
-- Dedicated sponsor screen placement
+![Drawing of the event page with the main sponsor card under the event banner](/assets/images/sponsors/main-sponsor-preview.svg)
 
-![Main sponsor on public event page](/assets/images/sponsors/main-sponsor-preview.svg)
+In the Vote4Dance app, the same card is on the event's first page.
 
-![Main sponsor in native app](/assets/images/sponsors/native-main-sponsor-preview.svg)
+![Drawing of a phone with the main sponsor card on the event's first page](/assets/images/sponsors/native-main-sponsor-preview.svg)
 
-![Main sponsor on result screen](/assets/images/sponsors/result-screen-main-sponsor-preview.svg)
+On the **Result** screen, the main sponsor's card comes up along the bottom edge for a few seconds.
 
-![Main sponsor on schedule screen](/assets/images/sponsors/schedule-screen-main-sponsor-preview.svg)
+![Drawing of the result screen with the main sponsor card along the bottom edge](/assets/images/sponsors/result-screen-main-sponsor-preview.svg)
 
-![Main sponsor on sponsor screen](/assets/images/sponsors/sponsor-screen-main-sponsor-preview.svg)
+The schedule screen shows the same card along the bottom edge.
+
+![Drawing of the schedule screen with the main sponsor card along the bottom edge](/assets/images/sponsors/schedule-screen-main-sponsor-preview.svg)
+
+On the Sponsors screen, the main sponsor fills a page of its own, with a large logo and the company name.
+
+![Drawing of the Sponsors screen filled by the main sponsor's logo and name](/assets/images/sponsors/sponsor-screen-main-sponsor-preview.svg)
 
 ### Featured Sponsor
 
-- Capacity: 2 total across the event
-- Best for: strong secondary sponsor package
-- Typical commercial value: highlighted placements without full exclusivity
+At most two sponsors for the whole event.
 
-Current usage:
+On the event page, the featured sponsors have highlighted cards side by side, under the main sponsor.
 
-- Highlighted featured placement on public event surfaces
-- Live screen placement on heat-related screens
-- Dedicated sponsor screen split between the featured sponsors
+![Drawing of the event page with two featured sponsor cards side by side](/assets/images/sponsors/featured-sponsor-preview.svg)
 
-![Featured sponsor on public event page](/assets/images/sponsors/featured-sponsor-preview.svg)
+The Vote4Dance app shows the two cards in the same way.
 
-![Featured sponsor in native app](/assets/images/sponsors/native-featured-sponsor-preview.svg)
+![Drawing of a phone with two featured sponsor cards](/assets/images/sponsors/native-featured-sponsor-preview.svg)
 
-![Featured sponsor on live screen](/assets/images/sponsors/live-screen-sponsor-preview.svg)
+On the heat screen, a card with the featured sponsor's logo and name comes up along the bottom edge while a heat is shown. A class sponsor is shown with the same kind of card.
 
-![Featured sponsor on sponsor screen](/assets/images/sponsors/sponsor-screen-featured-sponsor-preview.svg)
+![Drawing of the heat screen with a sponsor card along the bottom edge](/assets/images/sponsors/live-screen-sponsor-preview.svg)
+
+On the Sponsors screen, the two featured sponsors share one page, each with logo and name.
+
+![Drawing of the Sponsors screen with two featured sponsors, one above the other](/assets/images/sponsors/sponsor-screen-featured-sponsor-preview.svg)
 
 ### Class Sponsor
 
-- Capacity: up to 2 sponsors per class
-- Best for: targeted exposure tied to specific classes or age groups
-- Important setup rule: each class sponsor item must be assigned to one or more classes before saving
+At most two sponsors for each class.
 
-Current usage:
+On the event page, a class sponsor is one row in the sponsor list. Competition sponsors and bonus sponsors are shown in the same list.
 
-- Public sponsor list placement
-- Sponsor list / sponsor screen list placement
-- Live class-related screen placement
+![Drawing of the event page with a sponsor as one row in the sponsor list](/assets/images/sponsors/public-sponsor-list-preview.svg)
 
-![Class sponsor in public sponsor list](/assets/images/sponsors/public-sponsor-list-preview.svg)
+On the result page of the class, the class sponsors are shown above the results, side by side.
 
-![Class sponsor on web result page](/assets/images/sponsors/class-sponsor-results-preview.svg)
+![Drawing of a class result page with two class sponsors above the results](/assets/images/sponsors/class-sponsor-results-preview.svg)
 
-![Class sponsor in native app](/assets/images/sponsors/native-public-sponsor-list-preview.svg)
+In the Vote4Dance app, the sponsor list shows each sponsor as a row with logo and name.
 
-![Class sponsor on native result page](/assets/images/sponsors/native-class-sponsor-results-preview.svg)
+![Drawing of a phone with the sponsor list, one sponsor per row](/assets/images/sponsors/native-public-sponsor-list-preview.svg)
 
-![Class sponsor in sponsor list](/assets/images/sponsors/sponsor-list-preview.svg)
+The app also shows the class sponsors above the results of the class.
 
-![Class sponsor on live screen](/assets/images/sponsors/live-screen-sponsor-preview.svg)
+![Drawing of a phone with two class sponsor rows above the class results](/assets/images/sponsors/native-class-sponsor-results-preview.svg)
+
+On the Sponsors screen, class sponsors are rows in a list. Competition sponsors and bonus sponsors are shown in the same kind of list.
+
+![Drawing of the Sponsors screen with a list of sponsors, one per row](/assets/images/sponsors/sponsor-list-preview.svg)
+
+While the class is danced, the heat screen shows the class sponsor's card along the bottom edge, as in the drawing of the heat screen under [Featured Sponsor](#featured-sponsor).
 
 ### Competition Sponsor
 
-- Capacity: no global slot cap in the catalog
-- Best for: broad event-wide visibility at a more accessible package level
-- Important setup rule: set the total slots you want on the offer itself
+As many sponsors as you set in **Total slots**.
 
-Current usage:
-
-- Public sponsor list placement
-- Sponsor list / sponsor screen list placement
-
-![Competition sponsor in public sponsor list](/assets/images/sponsors/public-sponsor-list-preview.svg)
-
-![Competition sponsor in native app](/assets/images/sponsors/native-public-sponsor-list-preview.svg)
-
-![Competition sponsor in sponsor list](/assets/images/sponsors/sponsor-list-preview.svg)
+A competition sponsor is a row in the sponsor list on the event page and in the app, and a row in the list on the Sponsors screen. The drawings of these lists are under [Class Sponsor](#class-sponsor).
 
 ### Bonus Sponsor
 
-- Capacity: no global slot cap in the catalog
-- Best for: add-on or lower-tier sponsor exposure
-- Important setup rule: set the total slots you want on the offer itself
+As many sponsors as you set in **Total slots**.
 
-Current usage:
-
-- Public sponsor list placement
-
-![Bonus sponsor in public sponsor list](/assets/images/sponsors/public-sponsor-list-preview.svg)
-
-![Bonus sponsor in native app](/assets/images/sponsors/native-public-sponsor-list-preview.svg)
-
-## Pricing guidance
-
-Use the slot type to decide how premium the package should be:
-
-- `Main Sponsor`: highest price and strongest exclusivity
-- `Featured Sponsor`: premium, but below the main package
-- `Class Sponsor`: targeted package that can be sold per class group
-- `Competition Sponsor`: broader support package with list-style exposure
-- `Bonus Sponsor`: entry or add-on package for extra sponsor volume
-
-In practice, most organizers start with the default prices, then adjust:
-
-- up for large events, strong attendance, or high screen coverage
-- down for local events or sponsor bundles
-- per slot if some placements are more valuable for the audience you are selling to
+A bonus sponsor is a row in the sponsor list on the event page and in the app, and a row in the list on the Sponsors screen. The drawings of these lists are under [Class Sponsor](#class-sponsor).
 
 ## What the venue screens show for sponsors
 
-Besides the sponsor offers above, three placements put a sponsor on the venue screens. The screens are set up as described in [Screens](/manager-guide/screens/). Each placement shows the sponsor's logo and company name, and only one sponsor can hold it. If nobody has bought a placement, the screens show nothing extra for it.
+Four more offers put a sponsor on the venue screens at a certain moment. They exist only in Scrutineer (Beta). The classic Manager does not create them, but once they exist you see them in its **Offers** list and can edit them there.
 
-You can add these placements to the sponsor catalog as standard items: **Results presented by**, **Final intro** and **Break screen**.
+To add them, open the event's **Sponsors** page in Scrutineer (Beta):
+
+- If the event has no offers yet, click **Create sponsor items**. The four offers are created together with the others.
+- If the event already has offers, find **Add a standard item**, choose the offer in **Select a standard sponsor item** and click **Add sponsor item**.
+
+How to open Scrutineer (Beta) is described under [Classic Manager and the new Manager](/manager-guide/users-and-stations/#classic-manager-and-the-new-manager).
+
+| Offer | Total slots | Starting price |
+|---|---|---|
+| **Results presented by** | 1 | 4000 SEK |
+| **Final intro** | 1 | 2000 SEK |
+| **Break screen** | 99 | 1000 SEK |
+| **Speaker spot** | 99 | 2000 SEK |
+
+Each of these shows the sponsor's logo and company name. If nobody has bought the offer, the screens show nothing extra for it. A sponsor with an approved video is shown as a video clip instead of the logo. See [Sponsor videos and spots](/manager-guide/sponsor-videos/). The screens are set up as described in [Screens](/manager-guide/screens/).
 
 ### Results presented by
 
-When the result of a final comes up on the **Result** screen, the sponsor with the **Results presented by** placement covers the screen with a card headed **Results presented by**. The card shows once per final, for a few seconds, and then the results are in view.
+When the result of a final comes up on the **Result** screen, the sponsor with the **Results presented by** offer covers the screen with a card headed **Results presented by**. The card shows once per final, for a few seconds, and then the results are in view.
 
-![The Results presented by card on a final's result screen](/assets/images/sponsors/screen-results-presented-by.png)
+![The Result screen covered by a card with the heading Results presented by and the sponsor's name](/assets/images/sponsors/screen-results-presented-by.png)
 
 ### Final intro
 
-When a final goes live, the sponsor with the **Final intro** placement is shown in a card at the bottom of the heat screen for a few seconds, on the first dance of the final. The heat stays visible behind it. It is shown once per final, not for every dance of it, and the class sponsor follows after it.
+When a final goes live, the sponsor with the **Final intro** offer is shown in a card at the bottom of the heat screen for a few seconds, on the first dance of the final. The heat stays visible behind it. It is shown once per final, not for every dance of it, and the class sponsor follows after it.
 
 ### Break screen
 
-The **Sponsors** screen loops through the event's sponsors. A sponsor with the **Break screen** placement gets a full card of its own in that loop, which runs during breaks.
+The Sponsors screen loops through the event's sponsors. A sponsor with the **Break screen** offer gets a full page of its own in that loop, which runs during breaks.
 
-## Purchases and operations
+### Speaker spot
 
-- The `Purchases` tab shows purchased sponsors, contact details, and amount totals.
-- Sold-out state on the public sponsor page is based on the offer capacity fields returned by the API. Functionary sell actions and QR entry points follow the same sold-out rules.
-- Purchased sponsors can update company details, link, and logo through the sponsor flow supported by the product.
-- If a sponsor image is important for delivery, make sure the sponsor completes their company name, link, and logo after purchase.
-- Sponsors can also add a short video on the same page. See [Sponsor videos and spots](/manager-guide/sponsor-videos/).
+The speaker plays a sponsor with the **Speaker spot** offer on the screens when it fits, for example in a break. It fills the whole screen, and afterwards the screen goes back to what it showed before. See [Playing and skipping a sponsor spot](/manager-guide/sponsor-videos/#playing-and-skipping-a-sponsor-spot).
 
-## Recommended organizer checklist
+## Before you share the sponsor page
 
-1. Connect Stripe first.
-2. Create the default sponsor offers.
-3. Review titles, descriptions, and price points before sharing the page.
-4. Add class sponsors only for the classes you actually plan to sell.
-5. Upload good offer images where relevant.
-6. Test both the public sponsor page and the functionary `Sell sponsor` flow before using it on site.
-7. Monitor purchases and confirm sponsor company details before event day.
+1. Check that Stripe is connected.
+2. Read the title, the description and the price of every offer.
+3. Add class sponsor offers only for the classes you plan to sell.
+4. Upload an offer image where it helps the sponsor understand the offer.
+5. Open the sponsor page and try **Send information** on one offer, so that you know how it works at the venue.
+6. Before the event day, check on the **Purchases** tab that every sponsor has a correct company name, link and logo.

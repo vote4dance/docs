@@ -23,7 +23,7 @@ Open it from the top of the Structure tree: `Federation → Structure → Judgin
 | See which competitions use a setup | Administrator, Owner |
 | Add, edit, delete or reorder setups | Vote4Dance system administrator only |
 
-The **Structure** item in the federation bar is shown to Administrators and Owners. For everyone except a Vote4Dance system administrator the list is read only: there is no **Add** button, no **Edit** button and no drag handle. Contact Vote4Dance support to add a judging setup or change one.
+The **Structure** item in the federation bar is shown to Administrators and Owners. For everyone except a Vote4Dance system administrator the list is read only: there is no **Add** button, no **Edit** button and no drag handle. To add a judging setup or change one, write to Vote4Dance: see [Asking for a new or changed setup](#asking-for-a-new-or-changed-setup).
 
 ## The list
 
@@ -58,24 +58,20 @@ The info button on a row opens **Judging details**: a list of every competition 
 
 Check this before you ask for a setup to be changed or retired: a change applies to every competition in the list.
 
-## Add or edit a setup
+## Asking for a new or changed setup
 
-This section is for Vote4Dance system administrators. **Add** is under the list; **Edit** is on each row. Both open **Judging details**.
+Vote4Dance adds and changes judging setups for you. [Write to Vote4Dance](/getting-help/#writing-to-vote4dance) and say:
 
-| Field | Required | What it does |
-|---|---|---|
-| **Division** | No | Leave empty for a federation-wide setup, listed on this page. Pick a division to make the setup belong to it; it then moves to that division's **Judging** list and is only offered to classes in that division. |
-| **State** | Yes | **Draft**, **Active** or **Retired**. See [States](#states). |
-| **Name** | Yes | The name as JSON with one entry per language and a `default`, for example `{"default": "Points", "sv": "Poäng"}`. Plain text is saved but shows as an empty name in this list. |
-| **Judging type** | Yes | The scoring method: `Select`, `OneToFive`, `Points`, `Placement`, `Match`, `Full`, `Partial`, `PartialInput`, `Ajs`, `CollectStars` or `None`. |
-| **Judging components** | No | JSON describing the components judges score. |
-| **Judging settings** | No | JSON with the type's settings: comments, remarks, point entries, presets and switches. |
+- **Whether the setup is for the whole federation or for one division.** A federation-wide setup is listed on this page. A setup that belongs to a division is listed in that division's **Judging** section and is only offered to classes in that division.
+- **Its name**, in each language you use.
+- **The judging type**, which is the scoring method: `Select`, `OneToFive`, `Points`, `Placement`, `Match`, `Full`, `Partial`, `PartialInput`, `Ajs`, `CollectStars` or `None`.
+- **What the judges score**: each component, with its lowest value, its highest value and its step, and anything else the judges need, such as comments or remarks.
+- **The state it should have**: **Draft**, **Active** or **Retired**. See [States](#states).
+- **Where it should come in the list**, because the list's order is the order rounds are offered the setups in.
 
-The two JSON fields are checked before saving and show "Invalid JSON format" if they cannot be read.
+The quickest way to describe a new setup is to name an existing one and say what should differ.
 
-The dialog also has **Copy** and **Paste**. **Copy** remembers the form's current values in this browser, and **Paste** fills them into another setup's form, which is the quickest way to make a variant of an existing setup.
-
-Drag rows to change the order. The new order saves when you drop the row.
+Before you ask for a change, open [Usage](#usage) on the setup: the change applies to every competition listed there.
 
 ### Rules for setups in use
 
@@ -89,7 +85,7 @@ A setup is in use when at least one round in any competition uses it.
 
 - There is no register of federation judges and no judge education in the federation app.
 - Federation Administrators and Owners cannot add or edit judging setups themselves.
-- There is no form editor for components and settings; they are entered as JSON.
+- You cannot enter components and settings yourself. Vote4Dance enters them for you.
 
 ## Related pages
 
@@ -98,3 +94,4 @@ A setup is in use when at least one round in any competition uses it.
 - [Competition setup](/manager-guide/competition-setup/)
 - [Federation licenses](/federation-licenses/federation-admin/)
 - [Promotion points](/federation/progression/)
+- [Getting help](/getting-help/#writing-to-vote4dance)

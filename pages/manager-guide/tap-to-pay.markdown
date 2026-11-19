@@ -112,3 +112,9 @@ Tap to Pay on iPhone works like the rest of the shop:
 - **Platform fee:** Vote4Dance takes 5 % of each card payment. Cash sales have no fee. Stripe's own fees are separate and charged by Stripe.
 - **Payouts:** the money goes to your Stripe account and is paid out on its own schedule.
 - **Refunds:** made by you in Stripe; the order shows the refund.
+
+## Related pages
+
+- [Shop — tickets, meals and merch](/manager-guide/shop/): the products you sell, the orders and connecting Stripe
+- [At the door](/manager-guide/the-door/): scanning tickets and selling at the desk
+- [Users, apps and stations](/manager-guide/users-and-stations/): giving your desk staff access

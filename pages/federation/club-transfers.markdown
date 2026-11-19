@@ -425,9 +425,9 @@ the time it is the license.
 A dancer who is an approved member of several clubs can be asked, per registration, which club
 they represent.
 
-- **Your side:** the rule **Ask which organization each dancer represents**, under
-  `Federation → Rulebook`, at discipline, category or federation class scope. The most specific
-  scope wins.
+- **Your side:** the rule **Ask which organization each dancer represents**, in the **Federation
+  rules** editor of a discipline, a category or a single class under `Federation → Structure`. The
+  most specific level wins.
 - **Organizer side:** **Organization selection = Required** on a registration period or class.
 
 The choice is stored on that registration and shown to you and the organizer. It does not change

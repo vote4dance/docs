@@ -12,11 +12,13 @@ help:
 
 The round setup answers one question: **"This class has N competitors — which rounds
 does it dance?"** The federation writes the rules once per discipline, and the
-**Round Guide** in Manager applies them to every competition, so organizers get
-the right rounds without building them by hand. The round setup is not the
-federation's rule profiles (licenses, progression, age composition and the
-like): those are set under **Rulebook**, while the round setup lives per discipline
-under **Structure**.
+**Round guide** in Manager applies them to every competition, so organizers get
+the right rounds without building them by hand. The round setup is not one of
+the federation rules (licenses, promotion, age composition and the like): those
+are set in the **Federation rules** editors under **Structure** and read in the
+**Rulebook** ([Setting federation rules](/federation-rules/editor/)), while the
+round setup is set on each discipline's **Round setup**, also under
+**Structure**.
 
 This page starts with the thinking behind the round setup, walks through one
 example and gives a step-by-step way to build a rule set. It ends with the
@@ -63,7 +65,7 @@ something else". It describes a **pattern**:
 > first round is a placing round judged 10-0. Semifinal losers dance a B-final
 > for third place.*
 
-The round setup is written the same way, in three layers of thought:
+The round setup is written the same way, by asking three questions:
 
 | Ask yourself | Goes into | Example |
 |---|---|---|
@@ -96,13 +98,14 @@ The same idea runs through the whole federation structure. A rule set on the
 discipline covers every class in it; a category, age group, class level or
 single federation class only overrides what is truly different for it. You
 state the common case once and keep exceptions small and visible — and the
-**Rulebook** shows, for any class, which value won and where it came from.
+**By class** tab shows, for any class, which rules applied and what each one
+did ([Check a class](/federation-rules/round-setup-checks/#check-a-class)).
 
 ---
 
 ## The four steps in practice
 
-Every time the Round Guide builds a class, the same four steps run:
+Every time the Round guide builds a class, the same four steps run:
 
 ```
   1. Count        How many competitors are in the class?          → 10
@@ -148,6 +151,12 @@ A size is the round's **capacity**, not how many dance in it — all 10
 competitors dance the 16-size round. Read the ladder as "how big a field each
 round can take": 10 is too many for a quarterfinal of 8, so the class needs a
 round before it. (When no size is large enough, the largest size is used.)
+
+A class that is exactly one of the sizes starts in the round of that size: 8
+competitors start in the quarterfinal of 8. There is one exception. When a rule
+gives the first round a **Num to advance** of 100 **Percent** (or more), and
+the size is neither the smallest nor the largest of the ladder, the class starts
+one size higher: all 8 then dance a first round and go on to the quarterfinal.
 
 **Step 3 — the rounds, and how they are numbered.** Each round can be counted
 from either end:
@@ -208,8 +217,8 @@ then the exceptions.
 1. **Write the base rule.** Press **Add rule** in the **Round setup** section.
    Leave **When** on **Every round**, and under **Change** pick **Rounds** and fill
    in one row per round, from the final outward ([Rounds: round names and round
-   sizes](/federation-rules/round-setup-rules/#rounds-round-names-and-round-sizes)). For a 1v1 battle discipline, set **Round type** to
-   **Brackets** instead and let the generator build the bracket
+   sizes](/federation-rules/round-setup-rules/#rounds-round-names-and-round-sizes)). For a 1v1 battle discipline, also add **Round type**
+   **Brackets** to this rule and let the generator build the bracket
    ([Battle round setup](/federation-rules/battle-class-rules/)).
 2. **Check it.** Open the **By class** tab ([Check a class](/federation-rules/round-setup-checks/#check-a-class)),
    pick a class, and try a few numbers of competitors — a small one, a typical
@@ -224,8 +233,8 @@ then the exceptions.
 5. **Only then handle special numbers of competitors.** If one size genuinely
    needs a different shape (six competitors dancing trios, for example), add a
    rule limited with **And only when the class has between … competitors**.
-6. **Check again** at every size you touched, open the **Findings** tab, and
-   look at the merged result in **Federation → Rulebook**.
+6. **Check again** at every size you touched on the **By class** tab, and open
+   the **Findings** tab. The **Rulebook** does not show the round setup.
 
 ---
 
@@ -239,7 +248,7 @@ then the exceptions.
 | Two rules fight over the same round | A second rule was added for a round another rule already targets | Edit the existing rule instead; **Also sets "…" for these classes** shows who wins |
 | Brackets and per-size rules give odd results | Both approaches are on the same class | Use one approach per class |
 | A class gets the app's own round names at some size | No rule gives the ladder there (a **Ladder gap**) | Open the **Findings** tab, or **By class** and look for **Fallback** |
-| The Round Guide refuses to create rounds | The class already has competitors | Create the rounds before competitors are added |
+| The Round guide refuses to create rounds | The class already has competitors | Create the rounds before competitors are added |
 | A dance list stops partway | A dance lists itself, directly or through another dance | The generator cuts off at the repeat; remove the loop |
 
 ---
@@ -259,8 +268,8 @@ then the exceptions.
 | **Placing round** | The first round, which ranks everyone before the bracket or later rounds. |
 | **B-final** | An extra round beside the semifinal where the semifinal losers dance for 3rd and 4th place. |
 | **Crosses** | Heats of three instead of pairs; **Max on floor** 3. |
-| **Round Guide** | The Manager tool that builds a competition's rounds from these rules. |
-| **Rulebook** | The federation view that shows the value each rule ends up with, and which layer set it. |
+| **Round guide** | The Manager tool that builds a competition's rounds from these rules. |
+| **Rulebook** | The federation view that shows the value each federation rule ends up with, and which level set it. |
 
 ---
 
