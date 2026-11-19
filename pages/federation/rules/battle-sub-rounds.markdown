@@ -10,7 +10,7 @@ nav_order: 10
 
 This page explains how to configure dances and the round setup so that the **Round Guide** generates battles that are themselves split into rounds — a semifinal whose battles run in two rounds plus a tie-break, and a final made up of a bronze battle and a gold battle, each danced in three rounds.
 
-> **Prerequisite:** read [Battle round setup](/federation-rules/battle-class-rules/) first for how the round skeleton (placing, quarter, semi, final) is produced. This page only covers what hangs *under* a battle. Rule syntax is listed in [How the round setup works](/federation-rules/reference/).
+> **Prerequisite:** read [Battle round setup](/federation-rules/battle-class-rules/) first for how the round skeleton (placing, quarter, semi, final) is produced. This page only covers what hangs *under* a battle. The conditions, actions and settings a rule can use are listed in [Round setup conditions, actions and settings](/federation-rules/round-setup-settings/).
 
 ---
 

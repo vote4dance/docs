@@ -109,7 +109,7 @@ screen** buttons. The speaker picks which screen to drive, then sends it:
 | Schedule | A specific schedule item |
 | Lineup | A round, its teams, a single team in a heat, a group's dancers, a redance/rotation draw |
 | Results | A round's result, or the open judging for one team |
-| Judges | One judge, or all judges in turn. The speaker can list the judges [by panel](/manager-guide/judges/#panels-in-the-speaker-app) |
+| Judges | One judge, or all judges in turn. The speaker can list the judges [by panel](/manager-guide/judge-panels/#panels-in-the-speaker-app) |
 | Sponsors | A sponsor, or the sponsor rotation |
 
 The screen fades over about a second when it changes. Audience voting and the live-placement
