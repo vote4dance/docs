@@ -25,33 +25,41 @@ tolerance such as "up to 50% may be younger" for a group.
 ## The two pieces
 
 1. **Age band** — the min/max age, set on the age group
-   (`Federation → Structure → (division) → Age groups`).
-2. **Age composition rule** — how the band is applied to a team. Configured in
-   the rule editor as the **Age composition rules** field. It supersedes the age
-   group's basic basis for whatever scope you set it on.
+   (**Structure** → (division) → **Age Groups**).
+2. **Age composition rule** — how the band is applied to a team. It is the
+   federation rule **Age composition rules**, set in the **Federation rules**
+   editor of a level ([Setting federation rules](/federation-rules/editor/)). It
+   replaces the age group's own basis for the level you set it on.
 
 ---
 
 ## Decide where to set the rule
 
-This is the most important decision. **Set the rule at the scope where it
-actually applies**, and let everything else inherit it.
+This is the most important decision. **Set the rule on the level where it
+actually applies**, and let everything else inherit it. The rule can be set on
+the federation, a division, a category, an age group or a single class; the
+three you will use most are in the table. All of them are under **Structure**.
 
-| If the rule…                                                                       | Set it on…           | Where in admin                                                                 |
+| If the rule…                                                                       | Set it on…           | Where                                                                          |
 | ---------------------------------------------------------------------------------- | -------------------- | ------------------------------------------------------------------------------ |
 | is the same for a whole category across all its age groups (e.g. all small groups) | **Category**         | Structure → (division) → **Categories** → **Federation rules** → pick the category |
 | differs per age band, the same way for every category (e.g. the older partner decides up to Adults, but both must reach Senior) | **Age group** | Structure → (division) → **Age Groups** → **Federation rules** → pick the group |
-| applies to one concrete class only (discipline + category + age group + level)     | **Federation class** | Structure → (division) → **Discipline** → **Classes** → the row's **Federation rules** button |
-| changes on a specific date (e.g. a new season)                                     | **Timed profile**    | Federation → **Rules** → **Add rule profile** (set Effective from / to)        |
+| applies to one concrete class only (discipline + category + age group + class level) | **Federation class** | Structure → (division) → **Disciplines** → (discipline) → **Classes** → the row's **Federation rules** button |
 
 **Rule of thumb:** set the baseline on the **Category**, override the exceptions
 on the **Federation class**.
 
-**Know what the Age group scope does before you use it.** An age group is shared
+**A rule that changes on a date** (a new season, for example) is a timed
+profile. The editors under **Structure** have no dates, and the Federation app
+has no screen to add a timed profile. The ones a federation has are listed under
+**Rulebook** → **Timed profiles**, a tab that is only there when it has any, with
+the level each one is for, **Effective from**, **Effective to** and its status.
+
+**Know what the Age group level does before you use it.** An age group is shared
 by every category that uses it (a duo *and* a small group can both be "Juniors
-2"), and it is *more* specific than the category in the merge — so a composition
+2"), and it is *more* specific than the category — so a composition
 rule placed there hits every one of those categories and overrides the
-category-level setting.
+rule set on the category.
 
 That is wrong when the rule really belongs to a category, and right when it
 really belongs to the band. The clearest case is a federation whose couples move
@@ -64,16 +72,16 @@ the category instead would loosen Senior too.
 ### Precedence reminder
 
 Most specific wins: Federation → Division → Discipline → **Category** → Age group
-→ Class level → **Federation class**. Verify the merged result in
-**Federation → Rulebook**, which shows the value that applies and the layer
+→ Class level → **Federation class**. Check the result in
+**Federation → Rulebook**, which shows the value that applies and the level
 that set it.
 
 ---
 
 ## Filling in the Age composition rules field
 
-In the rule editor (on a Category, Age group or Federation class) the **Age composition
-rules** field has:
+In the **Federation rules** editor of the level you chose, **Age composition
+rules** has:
 
 - **Application preset** — a shortcut for the common cases:
   - *Each member in band* — every dancer must be inside the band.

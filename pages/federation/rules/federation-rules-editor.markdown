@@ -71,8 +71,8 @@ here**.
   or **none set**. These are the rules your level inherits.
 - The levels **below** yours show how many rules are set further down, and where, such as
   **4 rules set** on the disciplines.
-- Click a level to open its editor. This is the quickest way to go from a rule you see to the place
-  it is set.
+- Click a level to open its editor. This is the quickest way to go from a rule you see to the level
+  it is set on.
 
 On a category, age group, class level or competition level, the picker above the strip chooses
 which one you are editing.

@@ -16,7 +16,7 @@ Nothing changes until you set a rule: without **Own music required**, no class a
 
 | Rule | What it does |
 |---|---|
-| **Own music required** | When it is on, every entry in this scope dances to its own music. Off when no scope sets it. |
+| **Own music required** | When it is on, every entry in the classes of that level dances to its own music. Off when no level sets it. |
 | **Track max length (seconds)** | The longest track accepted, in seconds: 90 is 1:30. A longer upload is refused. Leave it empty for no maximum. |
 | **Track min length (seconds)** | The shortest track accepted, in seconds. A shorter upload is refused. Leave it empty for no minimum. |
 | **Track length tolerance (seconds)** | How many seconds a track may run over the maximum or under the minimum and still be accepted. Leave it empty for none. |
@@ -26,10 +26,13 @@ The music length in the round setup is something else: it is the time the schedu
 
 ## Set the rules
 
-1. Choose where the rule should apply. These rules can be set for the whole federation (`Federation → Rulebook`) or on a division, a discipline, a category, an age group or a single class. The most specific place that sets a value wins, and an age group beats a category. See [Where rules are set](/federation/divisions/#rules).
-2. Open the **Rules** of that place and find the five rules above.
-3. Turn on **Own music required**, and fill in the lengths you need.
-4. Save.
+1. Choose the level the rule should apply to. These rules can be set for the whole federation or on a division, a discipline, a category, an age group or a single class. The most specific level that sets a value wins, and an age group beats a category.
+2. Open the **Federation rules** editor of that level under **Structure**: **Structure** → **Federation rules** for the whole federation, and for the other levels see [Where to find each editor](/federation-rules/editor/#where-to-find-each-editor).
+3. Click the topic **Music**, or type *music* in **Find a rule**, to find the five rules above.
+4. Turn on **Own music required**, and fill in the lengths you need.
+5. Press **Save rules**.
+
+To check the result, open **Rulebook** → **Rules** and pick a class: it shows the music rules that apply to the class and the level that set each one ([What applies to one class](/federation-rules/#what-applies-to-one-class)).
 
 For example, to ask for a track of at most 1:30 in every solo class, turn on **Own music required** and type 90 under **Track max length (seconds)** on the solo discipline or category.
 
@@ -45,4 +48,4 @@ Dancers see the result before they register: the class shows a tag such as **Own
 
 Vote4Dance deletes the tracks automatically after the competition, so music is not kept longer than needed. The number of days counts from the end of the competition. Tell organizers to download the files before then. After deletion the entry says **The track was removed after the competition.**
 
-The days apply to the class the entry is in, and you can set **Keep music after the competition (days)** at any of the places listed above.
+The days apply to the class the entry is in, and you can set **Keep music after the competition (days)** on any of the levels listed above.
