@@ -19,6 +19,10 @@ check-in desk and the screens each have their own app, which you hand out from M
 
 Follow the groups in order for a new event, or jump to the part you are working on.
 
+Manager comes in two versions, classic and new. These pages describe the classic one unless they
+say Scrutineer (Beta): see
+[Classic Manager and the new Manager](/manager-guide/users-and-stations/#classic-manager-and-the-new-manager).
+
 **First competition?** Start with
 [Planning your first competition](/manager-guide/first-competition/), then make a practice
 event with the [Quickstart](/quickstart/).
@@ -76,6 +80,7 @@ event with the [Quickstart](/quickstart/).
 | [Test run and venue rehearsal](/manager-guide/test-run/) | Simulating a whole competition beforehand, at the venue, with the real devices. |
 | [Problems (setup checks)](/manager-guide/validator/) | The automatic checks on your setup, and how to fix what they find. |
 | [Live operations](/manager-guide/live-operations/) | The event-day runbook. |
+| [Reading the marks](/manager-guide/reading-the-marks/) | How to read the judges' marks of a round, and how a place follows from them. |
 | [Running a quiz from the speaker app](/manager-guide/speaker-quiz/) | The audience quiz, run by the speaker. |
 | [Statistics](/manager-guide/statistics/) | Event size, dressing rooms, schedule load, medals. |
 

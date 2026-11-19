@@ -74,8 +74,9 @@ receive the confirmation and status emails.
    **Create account for partner** section appears. Fill in their first and last name, country and
    language, and their birth date if you know it, and press **Create account for partner**. They
    are added to the couple straight away, so your partner does not need to sign up first. Use their
-   real email address: it is where their emails go. They get a welcome email with a link to the
-   sign-in page, and choose a password with **Forgot your password?** the first time they sign in.
+   real email address: it is where their emails go. They get a welcome email with a **Sign in**
+   button, and sign in with their email address and a code sent to it. There is no password to
+   choose. See [Signing in](/signing-in/).
 5. Choose the couple's name: **Use participant name** (your two names) or, if it is offered,
    **Assign custom name**.
 6. Save the couple.

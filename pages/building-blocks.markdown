@@ -3,7 +3,7 @@ layout: page
 title: Which app is which
 permalink: /building-blocks/
 parent: Start here
-nav_order: 2
+nav_order: 3
 ---
 
 # Which app is which
@@ -17,7 +17,7 @@ apps by the organizer.
 | Where | What you do there | Read more |
 |---|---|---|
 | **The website**, vote4dance.com | Find events, register, pay, manage your club, buy tickets, see results and rankings | [Dancer](/dancer/), [School/Club](/school-club/), [Spectator](/spectator/) |
-| **The Vote4Dance app** on your phone | Follow dancers and clubs, see the schedule and live results, show your Vote4Dance ID at the entrance, vote and play the quiz | [Following results in the app](/dancer/following-in-the-app/), [Your Vote4Dance ID](/dancer/vote4dance-id/) |
+| **The Vote4Dance app** on your phone | Follow dancers and clubs, see the schedule and live results, show your Vote4Dance ID at the entrance, vote and play the quiz | [Get the app](/get-the-app/), [Following results in the app](/dancer/following-in-the-app/) |
 
 ## For the people working at a competition
 

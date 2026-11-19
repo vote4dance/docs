@@ -3,7 +3,7 @@ layout: page
 title: Statistics
 permalink: /manager-guide/statistics/
 parent: Rehearsal and event day
-nav_order: 5
+nav_order: 6
 help:
   manager.comp.statistics: ""
   manager.comp.statistics.dressing-rooms: dressing-rooms
