@@ -3,7 +3,7 @@ layout: page
 title: Own music
 permalink: /federation-rules/own-music/
 parent: Federation Rules
-nav_order: 6
+nav_order: 12
 ---
 
 # Own music

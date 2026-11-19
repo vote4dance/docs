@@ -3,7 +3,7 @@ layout: page
 title: Round templates
 permalink: /federation-rules/round-setups/
 parent: Federation Rules
-nav_order: 4
+nav_order: 11
 help:
   federation.discipline.setup: ""
 ---
