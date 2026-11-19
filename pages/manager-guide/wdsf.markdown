@@ -117,7 +117,7 @@ While you work on **Participants**, Vote4Dance keeps WDSF in step for the classe
 
 - **Check in** marks the couple **Present** on WDSF, and **Withdraw** marks them **Excused**. Undoing it puts them back.
 - A new **start number**, typed or assigned with **Assign start numbers**, goes to WDSF too. When WDSF refuses a number because another couple already has it there, Vote4Dance says which number is taken.
-- In **Assign start numbers**, **World ranking** orders the class by WDSF's world ranking instead. **Sort by world ranking…** shows each couple's world rank and what they become, and can give the best ranked the first start numbers or spread the top couples across the first round's heats. Couples that are not on the ranking go last, in their current order.
+- In **Assign start numbers**, **World ranking** orders the class by WDSF's world ranking instead. **Sort by world ranking…** shows each couple's world rank and what they become, and can give the best ranked the first start numbers or spread the top couples across the first round's heats. Couples that are not on the ranking go last, in their current order. Numbers that couples hold in other classes are skipped.
 
 To add a couple that registered late, click the class on **Participants** and then **Add from WDSF** below its entries:
 
