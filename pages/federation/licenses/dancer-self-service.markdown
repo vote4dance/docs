@@ -78,6 +78,16 @@ If the item you expected is missing:
 
 The **Payment** column shows two things: whether the license is **unpaid** or **paid**, and who pays, **self** or **organization**. When you pay and the license is unpaid, **Actions** has a **Pay** button.
 
+### Approval comes before payment
+
+Where the federation asks for an approval, **Pay** is switched off until it is given. The order is:
+
+1. Your club approves the application, where the federation asks clubs to approve.
+2. The federation approves it, where the federation approves licenses itself. The **Status** turns **active**.
+3. **Pay** switches on, and you pay.
+
+Where the federation asks for neither approval, you can pay straight after you apply.
+
 ### Self-payment steps
 
 1. Find the license in the list.
@@ -90,11 +100,11 @@ After the payment:
 
 - **Payment** changes to **paid**.
 - The money goes to the federation.
-- The license becomes **active** straight away, unless the federation approves licenses itself, or asks your club to approve first. Then it stays **pending** but paid until they have approved it.
+- A license that was still **pending** becomes **active** straight away. Where the federation approves licenses itself, it was already **active** when **Pay** switched on.
 
 **Pay** can be switched off:
 
-- "Payment will be available once this license has been approved." The license waits for an approval the federation asks for.
+- "Payment will be available once this license has been approved." The license waits for an approval the federation asks for: see [Approval comes before payment](#approval-comes-before-payment). Come back and pay when it has been approved.
 - The federation has not set up online payments yet. Contact the federation.
 
 If **Payment** says **organization**, your club pays. There is no **Pay** button for you. The club pays from its own license page.
@@ -117,7 +127,7 @@ Some license items can be applied for by the dancer, but have to name a club.
 
 The club must be one the federation has approved and allowed to issue licenses. If it is not, the application is refused with "This organization isn't an approved issuer for this federation." Ask your club: see [Issuing is a separate permission](/school-club/joining-a-federation/#issuing-is-a-separate-permission).
 
-Where the federation asks clubs to approve licenses, your application then waits for a manager or administrator of the club.
+Where the federation asks clubs to approve licenses, your application then waits for a manager or administrator of the club. **Pay** stays switched off until they have approved it.
 
 ## Common problems
 
@@ -126,5 +136,6 @@ Where the federation asks clubs to approve licenses, your application then waits
 | The license item you expected is missing | See [What the page hides automatically](#what-the-page-hides-automatically). |
 | There is no **Pay** button | The license is paid by your club, is already paid, or is cancelled. Look at the **Payment** column. |
 | **Pay** is there but cannot be pressed | See [Pay when you are the payer](#2-pay-when-you-are-the-payer). |
-| The payment went through but the license is still **pending** | It waits for an approval. Do not apply again. |
+| The license is **active**, but **Payment** says **unpaid** | The federation has approved it, and now you can pay. Press **Pay**. |
+| The payment went through but the license is still **pending** | Reload the page: **Pay** only switches on after the approvals, so a paid license turns **active** by itself. If it stays pending, contact the federation. Do not apply again. |
 | Your club is not in the **Organization** list, or cannot be chosen | You are not a member of it yet, or your membership is not approved. See [Joining your club](/dancer/applying-for-a-school-club/). |

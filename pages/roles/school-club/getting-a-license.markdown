@@ -101,7 +101,9 @@ card. The money goes to the **federation**.
 Two things to expect:
 
 - **You cannot pay before approval.** The row says "Payment will be available once this license
-  has been approved."
+  has been approved." That means your club's own approval, where the federation asks clubs to
+  approve, and then the federation's approval, where the federation approves licenses itself. A
+  member who pays for their own license waits for the same approvals.
 - **A license the member pays has no button for you.** Who pays, the member or the club, is
   set on the license. You do not choose it when you pay.
 
@@ -116,14 +118,16 @@ license:
 |---|---|
 | **Organization has approved this license** | Your approval, above. |
 | **Organization approved by the federation** | The club itself must be approved by the federation. |
-| **Payment received** | The license is paid. Until then the federation sees "Approval opens once payment lands". |
+| **Payment received** | The license is paid. Until then the federation sees "Approval opens once payment lands", but it can still approve, and for a license paid online it has to: **Pay** only switches on after its approval. |
 | **Within the license window** | The period the license is valid for has started and has not ended. |
 
-When all four pass, the federation sees "All four checks pass · ready to approve", and a
-person at the federation approves it. There is no fixed waiting time.
+A person at the federation approves the license. When all four pass, they see "All four checks
+pass · ready to approve". Their approval makes the license **Active** and switches on **Pay** for
+a license that is still unpaid. There is no fixed waiting time.
 
 Statuses you will see: **Draft**, **Pending**, **Active**, **Expired**, **Suspended**,
-**Cancelled**. Payment status is separate, so a license can be paid and still pending.
+**Cancelled**. Payment status is separate, so a license can be paid and still pending, or
+**Active** and still unpaid.
 
 ## What members see
 
@@ -219,6 +223,6 @@ so keep your own list of who is still waiting.
 | Problem | Fix |
 |---|---|
 | You applied for the wrong season | A pending application can be removed with the delete button on its row. Then apply again. |
-| Paid, but still Pending | Payment and approval are separate. The federation still has to approve it. Do not apply again. |
+| Paid, but still Pending | Reload the page: **Pay** only switches on after the approvals, so a paid license turns **Active** by itself. If it stays pending, ask the federation. Do not apply again. |
 | You cannot apply for a member | They have no birth date on their account, or are no longer a member of the club. |
 | You started too late | Apply first for the members with the nearest competitions, and tell the others when to expect theirs. |

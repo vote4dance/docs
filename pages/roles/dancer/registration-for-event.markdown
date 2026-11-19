@@ -35,6 +35,10 @@ Good to know:
 - **A competitor** is who dances: you alone, you and a partner, or a group. You set it up once
   and use it again at every event.
 - **When registration is open.** The event's **Registration** tab says when it opens and closes.
+  Before it opens, the tab says **Registration opens** and the date, for example
+  **Registration opens 15 Sep 2026**. After it has closed, it says **Registration closed** and the
+  date it closed, for example **Registration closed 1 Nov 2026**. **How registration works** is
+  shown above it both times.
 - **In the Vote4Dance app**, the event's **Overview** shows the same in a **Registration** card.
   Registering happens on the website: tap the card to open the event's registration there.
 - **Your birth date must be on your account.** Classes often depend on age. If it is missing,
@@ -147,6 +151,8 @@ competitor for a couples class: open **With partner** and pick or create your co
   automatically. Nothing is left half-done; just start again.
 - **Nothing is refunded automatically.** See
   [Cancelling a registration](#cancelling-a-registration).
+- **The receipt comes by e-mail**, to the account that paid. See
+  [Your receipt](/dancer/my-registration/#your-receipt).
 
 What you still have to pay, and the **Pay now** button after you have registered, are on
 [My registration](/dancer/my-registration/#what-you-still-have-to-do).
@@ -234,7 +240,8 @@ To reach the organizer, see [Reaching the organizer](/getting-help/#reaching-the
 
 | What you see | What it means | What to do |
 |---|---|---|
-| Registration is closed, or not open yet | The organizer decides when registration is open. | Check the dates on the event's **Registration** tab. Late entries are up to the organizer. |
+| **Registration opens** and a date | Registration has not opened yet. The date is the day it opens. | Come back on that day. |
+| **Registration closed** and a date | Registration is over. The date is the day it closed. | Late entries are up to the organizer: ask the organizer. |
 | **You must first select/create competitors to register** | Nobody is picked yet, so no classes are shown. | Pick yourself under **Select competitor**, or press **Create competitor**. With a partner, open **With partner**. |
 | **Age missing** | A dancer has no birth date on their account. | Press **User details** and add your birth date. Your partner adds theirs on their own account. |
 | **No classes fit this competitor right now** | Classes your competitor cannot enter are hidden to keep the list short. | Press **Show more**. The classes that do not fit are listed there, each with the reason it is locked. |

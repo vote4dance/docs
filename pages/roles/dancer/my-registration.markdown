@@ -60,6 +60,25 @@ The card at the top tells you what is left, and counts it (**1 thing left**). It
 Below the card you see until when you can change your classes online (**You can change classes
 online until…**). After that, changes are made at the desk.
 
+### Your receipt
+
+The receipt for an online payment comes by e-mail, to the account that paid. **My registration**
+has no receipt link, so keep the e-mail.
+
+- **You dance in the entry you paid for.** When your payment turns the class **Approved**, as it
+  does when you pay while you register, the e-mail that confirms the registration says
+  **Your payment is complete.** and has a **View receipt** link. Your partner gets the e-mail too,
+  but without the receipt.
+- **You paid from inside your child's account.** The e-mail with the receipt goes to your child's
+  e-mail address.
+- **You paid for an entry you do not dance in.** The receipt is mailed to you on its own.
+- **No receipt came.** This happens when you pay for a class the organizer had already approved:
+  no e-mail follows that payment. [Ask the organizer](/getting-help/#reaching-the-organizer) for
+  a receipt. The payment went to the organizer.
+
+A payment you made the organizer's own way, for example by bank transfer or at the desk, has no
+receipt in Vote4Dance. Ask the organizer.
+
 ## When your organization signs your entry
 
 At some events, your club or organization has to sign your entry before it counts. Then:

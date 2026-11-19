@@ -102,9 +102,20 @@ pays: you (**self**) or your club (**organization**).
   to the federation.
 - **Your club pays:** there is no button for you. The club pays from its own page.
 
+**Approval comes before payment.** Where the federation asks for an approval, you cannot pay until
+it is given. The order is:
+
+1. Your club approves the application, where the federation asks clubs to approve.
+2. The federation approves it, where the federation approves licenses itself. That makes the
+   license **Active**.
+3. **Pay** switches on, and you pay.
+
+Where the federation asks for neither approval, you can pay straight after you apply, and the
+payment makes the license **Active**.
+
 Two things can keep **Pay** switched off:
 
-- The license waits for an approval the federation asks for, from your club or from the federation itself: "Payment will be available once this license has been approved."
+- The license waits for an approval the federation asks for, from your club or from the federation itself: "Payment will be available once this license has been approved." Come back and pay when it has been approved.
 - The federation cannot take payments online yet: "This federation hasn't set up online payments
   yet. Contact the federation to complete your license."
 
@@ -122,11 +133,12 @@ license. Nearly every "why is my license still not active" is one of them:
 |---|---|
 | **The club has approved the license** | Where the federation asks clubs to approve, a manager or administrator at your club has to approve your application. |
 | **The federation has approved the club** | While your club itself waits for the federation's approval, no license naming it can be issued. |
-| **The payment is in** | The license is paid, by you or by the club. |
+| **The payment is in** | The federation sees whether the license is paid. A license that you or your club pay online is still unpaid here, because **Pay** only switches on after the approval. This check does not stop the federation from approving. |
 | **The license window is open** | The period the license is valid for has started and has not ended. |
 
-When all four are in place, a person at the federation approves the license. There is
-no fixed waiting time.
+A person at the federation then approves the license. There is no fixed waiting time. Their
+approval makes the license **Active**. If you are the payer and the **Payment** column still says
+unpaid, go back to [Step 3](#step-3-pay-if-you-are-the-payer) and press **Pay**.
 
 ### Step 5: Check the status
 
@@ -142,7 +154,9 @@ no fixed waiting time.
 | **Suspended** | Held by the federation. Contact them. |
 | **Cancelled** | Withdrawn or replaced. |
 
-Payment is separate from status: a license can be paid and still **Pending**.
+Payment is separate from status: a license can be paid and still **Pending**, and where the
+federation approves licenses itself, a license is **Active** before it is paid. Look at both
+columns.
 
 Do not apply twice because a license is slow.
 
@@ -187,16 +201,19 @@ your club first. Member numbers are checked against each club's member list."
 
 ### "My license is still Pending"
 
-Go through the four checks in [Step 4](#step-4-wait-for-approval), in that order: has the club
-approved it, has the federation approved the club, is it paid, is the license window open. Your
-own list shows the status and the payment. For the other checks, ask your club. If all four are
-in place, the license is waiting for the federation to approve it.
+First look at **Pay** on the license. If you can press it, pay: where the federation does not
+approve licenses itself, the payment is what makes the license **Active**. If **Pay** is switched
+off, the license waits for an approval, and you pay after it.
+
+Then go through the checks in [Step 4](#step-4-wait-for-approval): has the club approved it, has
+the federation approved the club, is the license window open. Ask your club about these. If they
+are in place, the license is waiting for the federation to approve it.
 
 ### "I paid but it is still not active"
 
-Payment and approval are separate. Where the federation approves licenses itself, a paid license
-stays **Pending** until it does. Do not apply again. Reload the page, and if the license stays
-paid and pending, contact the federation.
+**Pay** only switches on when every approval has been given, so a license you have paid for turns
+**Active** by itself. Do not apply again. Reload the page, and if the license stays paid and
+pending, contact the federation.
 
 ### "I applied for the wrong item"
 
@@ -264,8 +281,9 @@ How to do it:
    ([Dancer self-service](/federation-licenses/dancer-self-service/)) or through your club
    ([Licenses for your members](/school-club/getting-a-license/#a-new-season)).
 4. Check the **Season year** before you press **Apply for license**.
-5. Pay, if you are the payer.
-6. Wait until the new license is **Active**. Pending does not count at registration.
+5. Pay, if you are the payer, as soon as **Pay** switches on. Where the federation asks for an
+   approval, that is after the approval.
+6. Check that the new license is **Active** and paid. Pending does not count at registration.
 
 **Do it before the first registration of the new season opens.** Where a person at the federation
 approves each license, there is no fixed waiting time. If you wait until registration day,

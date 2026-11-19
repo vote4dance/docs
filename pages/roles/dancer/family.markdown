@@ -209,6 +209,11 @@ and nothing more is hidden, because of the child's age.
 | **Staff at an event the child is registered for** | The child's Vote4Dance ID when it is scanned: name, photo, birth date and club. See [What the desk sees](/dancer/vote4dance-id/#what-the-desk-sees). |
 | **You, as the parent** | The whole account. You do everything the child could do, except the things listed under [Open your child's account](#open-your-childs-account). |
 
+**You cannot hide any of this.** There is no setting that hides a dancer's name, public dancer
+page or results, for a child or for an adult. Deleting the account takes away the public dancer
+page, but not the results of competitions already danced: see
+[Delete your account](/signing-in/#delete-your-account).
+
 Season points have their own rules: see [Who can see your points](/dancer/season-points/#who-can-see-your-points).
 
 ## If something does not work

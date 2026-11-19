@@ -20,7 +20,7 @@ What is on sale is grouped as passes, day tickets, meals, tables and merch. Each
 
 Add what you want; the order sums up as you go.
 
-1. Sign in, or create a free account. When you are not signed in, the button under **Your order** reads **Log in and pay** with the total: press it and sign in. The tickets are kept on the account, so this is how you get them back on any device.
+1. Sign in, or create a free account. When you are not signed in, the button under **Your order** reads **Log in and pay** with the total: press it and sign in. The tickets are kept on the account, so this is how you get them back on any device. You cannot buy on the website without an account. At the event, the organizer's desk can sell you a ticket without one.
 2. Check the e-mail address the tickets and receipt should go to. It is suggested from your account and you can change it.
 3. Pay by card. The payment goes to the **organizer**, not to Vote4Dance; the seller's name is on the order and on the receipt.
 
@@ -40,7 +40,7 @@ Once paid, each ticket becomes its own QR code, in three places:
 
 At the entrance, show the QR. One ticket admits one person, once per day it is valid for. Staff scan it, or type the code under it.
 
-**You can pass a ticket on.** Whoever holds the code can use it, so a ticket for a friend without an account is simply forwarded to them.
+**You can pass a ticket on.** Whoever holds the code can use it, so a ticket for a friend without an account is simply forwarded to them: send them the QR code or the code written under it. The ticket is not moved to their account. It stays in your order, under **Your tickets** and in your app, and there is no way to transfer it to another account. Do not send the same ticket to two people: it admits one person.
 
 ## Meals, tables and merch
 
