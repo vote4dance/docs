@@ -370,7 +370,7 @@ The newest changes are on [Release notes](/release-notes/).
 * App support for favorites and premium subscription
 * Team images can be set on registrations and from manager
 * Registration team import will now show what changes will be made
-* Added documentation for team image upload in manager and check-in flows: [Registration and check-in guide](/manager-guide/registration-checkin/#team-image-upload)
+* Added documentation for team image upload in manager and check-in flows: [Registration and check-in guide](/manager-guide/entries-and-participants/#team-image-upload)
 * Added recommended "photo booth" workflow for functionaries (green screen and transparent PNG background)
 
 ## 2026-03-03

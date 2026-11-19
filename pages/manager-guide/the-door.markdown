@@ -3,7 +3,7 @@ layout: page
 title: At the door
 permalink: /manager-guide/the-door/
 parent: Registration and sales
-nav_order: 7
+nav_order: 11
 help:
   checkin.event: ""
   checkin.redeem: tickets
@@ -88,7 +88,7 @@ A dancer who wants to dance one more class can be entered at the desk. **Add cla
 - **The class list warns but does not block.** A class whose round has started, or whose heats are drawn, says so under its name: *Already started* or *Heats are drawn*, with the note that the organizer adds late entries to the start list by hand. The desk can still register the dancer; tell the organizer so they can place the entry.
 - **The review collects everything still owed.** The new classes are priced together with the dancer's entries that are still unpaid from before, and the review says how much of the amount is earlier: "Includes … still unpaid from earlier entries". **Payment collected** marks both paid; **Register without payment** registers the new classes and leaves them owed.
 - If the earlier entries cannot be marked paid, the new classes are still registered and paid, and the desk goes back to the dancer with a warning; what is still owed shows on the person screen as before.
-- The desk's registration does not reach the start lists by itself. On the person screen an approved entry is tagged **Not imported** once that competition's participants have been imported but this entry has not; the organizer runs **Update/import participants** again (see [Registration and check-in](/manager-guide/registration-checkin/#updateimport-participants)).
+- The desk's registration does not reach the start lists by itself. On the person screen an approved entry is tagged **Not imported** once that competition's participants have been imported but this entry has not; the organizer runs **Update/import participants** again (see [Registration and check-in](/manager-guide/entries-and-participants/#updateimport-participants)).
 
 ## Arrivals
 

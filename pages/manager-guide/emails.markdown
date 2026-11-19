@@ -3,7 +3,7 @@ layout: page
 title: Emails and the check-in QR code
 permalink: /manager-guide/emails/
 parent: Registration and sales
-nav_order: 4
+nav_order: 8
 ---
 
 # Emails and the check-in QR code
@@ -62,7 +62,7 @@ What happens when it is scanned:
 - The desk sees the dancer's photo and name, whether their registration admits them today, their organization check-in, any tickets on their account, and their registrations for the event with status and payment; start numbers are assigned and printed from there, and the person is marked **Arrived**. See [At the door](/manager-guide/the-door/).
 - A dancer scanning their own code lands on a login page. The code identifies the dancer to the desk; it is not a ticket.
 
-The QR code does not replace [organization check-in](/manager-guide/registration-checkin/#check-in). The club still confirms its roster; the QR code speeds up the desk.
+The QR code does not replace [organization check-in](/manager-guide/organization-check-in/). The club still confirms its roster; the QR code speeds up the desk.
 
 Do not confuse it with the two other QR codes in the product: the **registration poster** QR on the Registration page ("Scan to register", it opens the public registration form), and the **station** QR that connects a shared device.
 

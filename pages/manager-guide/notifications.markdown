@@ -3,7 +3,7 @@ layout: page
 title: Notifications
 permalink: /manager-guide/notifications/
 parent: Registration and sales
-nav_order: 5
+nav_order: 9
 help:
   manager.event.notifications: ""
 ---

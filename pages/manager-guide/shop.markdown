@@ -3,7 +3,7 @@ layout: page
 title: Shop — tickets, meals and merch
 permalink: /manager-guide/shop/
 parent: Registration and sales
-nav_order: 6
+nav_order: 10
 help:
   organizer.shop: ""
   organizer.shop.products: products
