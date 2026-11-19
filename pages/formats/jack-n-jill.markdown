@@ -3,7 +3,7 @@ layout: page
 title: "Jack'n'Jill"
 permalink: /jack-n-jill/
 parent: Classes, rounds and judges
-nav_order: 6
+nav_order: 7
 ---
 
 # Jack'n'Jill

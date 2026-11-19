@@ -3,7 +3,7 @@ layout: page
 title: WDSF competitions
 permalink: /manager-guide/wdsf/
 parent: Classes, rounds and judges
-nav_order: 4
+nav_order: 5
 help:
   manager.event.edit.wdsf: connect-to-wdsf
   manager.comp.classes.wdsf-import: import-competitions-from-wdsf

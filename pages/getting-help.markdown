@@ -3,7 +3,7 @@ layout: page
 title: Getting help
 permalink: /getting-help/
 parent: Start here
-nav_order: 4
+nav_order: 5
 ---
 
 # Getting help

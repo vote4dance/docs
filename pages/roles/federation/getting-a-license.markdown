@@ -178,7 +178,7 @@ License rules` will not count where it matters.
 
 ### "Payment will not go through"
 
-Stripe must be connected to the federation (Owner role). Applicants are also blocked by an
+Stripe must be connected to the federation (an Administrator or an Owner does that). Applicants are also blocked by an
 invalid price, an invalid currency or an invalid application fee on the item — each has its own
 message telling them to contact the federation, so if applicants report those, the item is
 misconfigured rather than the payment broken.

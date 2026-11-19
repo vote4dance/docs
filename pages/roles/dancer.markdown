@@ -18,6 +18,7 @@ Coming to watch, not to dance? See [Spectator](/spectator/).
 ## Get started
 
 - [Creating your account](/dancer/account-creation/): make your own account and fill in your profile.
+- [Get the app](/get-the-app/): the Vote4Dance app for iPhone and Android.
 - [Your Vote4Dance ID](/dancer/vote4dance-id/): the QR code the entrance scans when you arrive.
 - [Family](/dancer/family/): add your children and open their accounts from your own.
 
