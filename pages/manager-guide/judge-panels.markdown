@@ -221,6 +221,8 @@ A round's panel in the **Rounds** column of the **Classes** tab does not lock. T
 
 A panel cannot be deleted while any round uses it.
 
+A judge who sits on a panel with scores can't be removed from the competition either, also when they have given no marks themselves; see [When a judge can't be removed](/manager-guide/judges/#when-a-judge-cant-be-removed).
+
 A panel used on several days locks as soon as its first round has scores. To change who judges its later rounds, give those rounds their own panel on the **Classes** tab.
 
 ## Troubleshooting
