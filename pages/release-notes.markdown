@@ -10,6 +10,9 @@ child_nav_order: reversed
 # Release notes
 ## 2026-11-19
  🛠️ **Improvements**
+* Federation: **Assign organization** on an organization's **Transfers** tab now works. Choosing a **Competitor** and an **Organization** and pressing **OK** assigns the competitor to the club and shows **Organization assigned**. Before, pressing **OK** always ended in an error and nothing was assigned (see [Assign organization](/federation/club-transfers/#assign-organization))
+## 2026-11-19
+ 🛠️ **Improvements**
 * All apps: A page now shows that it is loading until its information arrives, instead of first showing "No data" or an empty list for a moment. Going back to a page you just had open shows it straight away. Without a connection, a page you have not opened yet keeps loading under the **Disconnected, retrying connection…** message and fills in once you are back online. The phone app gets this with its next update
 ## 2026-11-19
  🛠️ **Improvements**
