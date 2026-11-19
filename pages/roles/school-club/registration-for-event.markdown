@@ -228,8 +228,15 @@ Manager.
 Some organizers use **Organization check-in**. Your club then tells the organizer which of its
 entries dance, and signs. Agree beforehand who in the club does it.
 
-The person who does it needs a Vote4Dance account. Next to each club, the list shows who signed
-and when, and the organizer also sees the phone number that person typed.
+The person who does it signs in with their own Vote4Dance account. When the club's entries were
+registered through Vote4Dance, that account must be tied to the club in this competition:
+
+- a dancer on one of the club's entries,
+- an approved member of the club, or
+- the person who registered the entries.
+
+Next to each club, the list shows who signed and when, and the organizer also sees the phone
+number that person typed.
 
 1. Open the event on vote4dance.com while the organizer's check-in window is open. On the event's
    **Overview**, under **Check-in**, it says **Checkin is open**. Press the **Check-in** button
@@ -274,6 +281,7 @@ To reach the organizer, see [Reaching the organizer](/getting-help/#reaching-the
 | An entry is in the wrong class | You do not have to cancel and register again. | Press **Change class** on the entry while the period is open, and pick the right class. If the class you want is not offered, it is registered separately: cancel the entry and register again. After registration closes, ask the organizer. See [Moving an entry to another class](#moving-an-entry-to-another-class). |
 | The lineup must change after registering | You can change it yourself while the period is open. | **Edit lineup** while the period is open. After that, ask the organizer. If the federation counts your club's dancers, a swap is free and a new dancer is paid for: see [Changing a group's lineup after paying](#changing-a-groups-lineup-after-paying). |
 | A member says the entry is **Waiting for the organization** | The organizer has your club sign the entries its members register. | Open the event on your **Registration** list and sign it under **To sign**. See [Signing your members' entries](#signing-your-members-entries). |
+| "This account is not tied to this organization in this competition, so it cannot check it in…" when you press **Participating**, **Cancelled**, **Sign** or **Unlock** | Your account is not a dancer on one of the club's entries, an approved member of the club or the person who registered the entries. | Sign in with such an account, or ask the check-in desk to check the club in. See [Confirming who dances on the day](#confirming-who-dances-on-the-day). |
 | An entry was cancelled on the day | It was marked **Cancelled** at Organization check-in and signed for, or the organizer cancelled it. | Talk to the organizer straight away. See [Confirming who dances on the day](#confirming-who-dances-on-the-day). |
 
 ## Rules that depend on your federation

@@ -74,6 +74,8 @@ The line under the dates says "Checkin is open" or "Checkin is closed". To move 
 
 While the window is open, each organization's team leader answers and signs in the Check-in app, under **Organization check-in**. There, **Mark all** sets every participant that is not cancelled to **Participating** at once, and **Sign** asks for a phone number. The club's own guide is [Confirm your roster on the day](/school-club/registration-for-event/#confirming-who-dances-on-the-day). Outside the window, only managers and check-in staff can answer and sign.
 
+When an organization's entries were registered through Vote4Dance, the app lets its own people answer and sign: a dancer on one of its entries, an approved member of the organization, or the person who registered the entries. An entry you or the desk registered for the organization does not make you one of them. Managers, check-in staff and check-in stations can answer and sign for any organization.
+
 ## Check an organization in yourself
 
 A manager can answer and sign for an organization at any time, also when the window is closed.
@@ -114,6 +116,7 @@ Whether an entry also lets a dancer *through the door* is a separate setting: ev
 | What you see | What it means | What to do |
 |---|---|---|
 | An organization cannot answer or sign, and the Check-in page says "Checkin is closed" | The check-in window is not open now. | Change the window under **Settings**, or [check the organization in yourself](#check-an-organization-in-yourself). |
+| An organization's team leader sees "This account is not tied to this organization in this competition, so it cannot check it in…" | Their account is not a dancer on one of the organization's entries, an approved member of it or the person who registered the entries. | Have them sign in with such an account, or [check the organization in yourself](#check-an-organization-in-yourself). |
 | An organization cannot change its answers | It has signed. | Press **Unlock** below its participants. After an import, use **Reset check-in** first. |
 | **Import check-in** is greyed out | No organization has signed since the last import. | Wait for an organization to sign, or sign for it. |
 | "Different status" when you press **Import check-in** | Two organizations gave different answers for the same couple. Nothing was changed. | Find the couple in **Cancellations**, unlock one of the organizations, correct the answer, sign and import again. |
