@@ -65,7 +65,7 @@ This is the minimum. Everything else is optional polish.
 | 9 | Judge invitations | `Manager → Competition → Judges` | Judges are invited by email and show as `Not invited`, `Invited` or `Active`. Each judge sets their own PIN on their own device the first time they open the Judging app — there is no event-wide code for you to hand out, and you can reset a forgotten PIN from the judge's row. |
 | 10 | Registration period | `Manager → Competition → Registration → Registration period` | Without an open period nobody can register. See [Registration and check-in](/manager-guide/registration-checkin/). |
 | 11 | Users and stations | `Manager → Event → Users` and `→ Stations` | Each functionary gets exactly the apps they need; shared devices join as stations. See [Users, apps and stations](/manager-guide/users-and-stations/). |
-| 12 | Screens | `Manager → Event → Screens` | One screen per projector or TV, each with a label, a floor and what it shows. One device drives one screen, so count your displays. See [Screens, projectors and venue technology](/manager-guide/screens/). |
+| 12 | Screens | `Manager → Audience → Screens` | One screen per projector or TV, each with a label, a floor and what it shows. One device drives one screen, so count your displays. See [Screens, projectors and venue technology](/manager-guide/screens/). |
 | 13 | Event status | `Manager → Event overview` | An event starts **Hidden**. **Publish competition** makes it **Published**, which needs the event image and, for a live competition, billing information. See [Event status](/manager-guide/event-setup/#step-2-event-status). |
 
 Before the day, open [**Problems**](/manager-guide/validator/) in Manager and resolve everything it flags. Problems runs a

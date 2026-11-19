@@ -160,7 +160,7 @@ If the network fails here, stop and solve it with the venue. Nothing downstream 
 1. Connect your display computer to the venue's input and get a picture.
 2. Set the output to a 16:9 resolution — 1920 × 1080 is a safe choice for a modern projector.
 3. Join the device to the **Screens** station — open the station in Manager on your laptop and
-   scan its QR from the screen — then press **Show** on the card for this screen. The floor and what it shows come from `Manager → Event → Screens`.
+   scan its QR from the screen — then press **Show** on the card for this screen. The floor and what it shows come from `Manager → Audience → Screens`.
 4. Go fullscreen, and use the **browser zoom hotkey (Ctrl +/-)** to fit the picture — nothing
    cut off at the edges.
 5. **Walk to the back row and read it.** Start numbers and names must be legible from the
