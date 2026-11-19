@@ -2,8 +2,8 @@
 layout: page
 title: Divisions and disciplines
 permalink: /federation/divisions/
-parent: Federation
-nav_order: 6
+parent: Structure and rules
+nav_order: 1
 help:
   federation.structure: finding-your-way
   federation.division: disciplines

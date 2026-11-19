@@ -2,8 +2,8 @@
 layout: page
 title: Live operations
 permalink: /manager-guide/live-operations/
-parent: Manager Guide
-nav_order: 4
+parent: Rehearsal and event day
+nav_order: 3
 help:
   manager.comp.live: ""
   manager.comp.live.judges-not-finishing: judges-not-finishing   # the round page's "Stuck?" links

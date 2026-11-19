@@ -2,8 +2,8 @@
 layout: page
 title: Judging
 permalink: /federation/judging/
-parent: Federation
-nav_order: 8.5
+parent: Structure and rules
+nav_order: 2
 help:
   federation.judging: ""
   federation.division.judging: ""
@@ -11,7 +11,7 @@ help:
 
 # Judging
 
-**Judging** is the federation's catalog of judging setups: the scoring methods that competition rounds under your federation can use. Each setup has a judging type (for example points, placement or AJS), the components the judges score, and settings for how marks are entered and totalled. It is not a judge register or judge education. Judges are added per competition in the Manager app, and judge licences are licence items with the category **Judge** under `Federation → Licenses` (see [Federation licenses](/federation-licenses/federation-admin/)).
+**Judging** is the federation's catalog of judging setups: the scoring methods that competition rounds under your federation can use. Each setup has a judging type (for example points, placement or AJS), the components the judges score, and settings for how marks are entered and totalled. It is not a judge register or judge education. Judges are added per competition in the Manager app, and judge licenses are license items with the category **Judge** under `Federation → Licenses` (see [Federation licenses](/federation-licenses/federation-admin/)).
 
 Open it from the top of the Structure tree: `Federation → Structure → Judging`. **Judging** sits above the divisions, because the setups listed here belong to the federation, not to one division. Setups that belong to a single division are listed under `Federation → Structure → [division] → Judging` instead, in the same format.
 

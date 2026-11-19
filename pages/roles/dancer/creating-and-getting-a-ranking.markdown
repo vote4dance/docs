@@ -3,7 +3,7 @@ layout: page
 title: Results, points and rankings
 permalink: /dancer/creating-and-getting-a-ranking/
 parent: Dancer
-nav_order: 6
+nav_order: 10
 ---
 
 # Results, points and rankings
@@ -20,7 +20,7 @@ different times and by different people, which is why one can be visible while a
 | **Ranking** | Your position in a federation ranking list, built from several competitions. | When the federation recalculates the ranking: often every night, or when staff refresh it. | `Federation → Ranking` on vote4dance.com. |
 
 You do not create a ranking or apply for one. The federation sets rankings up. Your part is to
-compete in the right class, with the right licence, as the right couple or team.
+compete in the right class, with the right license, as the right couple or team.
 
 ## 1. Your result
 
@@ -35,7 +35,7 @@ are published. Closing can happen days after the event.
 
 - Points belong to the **couple or team**, not to each dancer on their own.
 - When the couple reaches the class's points limit, it moves up a class automatically.
-  See [Class transfer](/dancer/class-transfer/).
+  See [Moving up a class](/dancer/class-transfer/).
 - The couple is identified by the **person numbers** on the entry. A wrong person number can put
   your points on a second, duplicate couple. If your points look split, tell your federation.
 
@@ -55,7 +55,7 @@ Each ranking has its own rules, set by the federation:
 - **Which competitions count.** For example the current season only, or your best three
   results.
 - **How it scores.** By placement, by points per placement, or by the judges' scores.
-- **Licence rules.** Some rankings only include dancers with an active licence.
+- **License rules.** Some rankings only include dancers with an active license.
 
 Many rankings are recalculated every night, so a result can take a day to appear even after
 the competition is closed.
@@ -71,12 +71,8 @@ Work down this list:
 | Points are shared with a couple you do not recognise | A wrong person number on an entry created a duplicate couple. Tell your federation. |
 | Result is there, but not in the ranking | The ranking has not been recalculated yet (wait a day), or that competition or class does not count for this ranking. |
 | Your ranking position changed with no new competition | An older result left the time window, or federation staff made a correction. |
-| You are not in the ranking at all | Your licence was not active, or you are looking in the wrong division. |
+| You are not in the ranking at all | Your license was not active, or you are looking in the wrong division. |
 | An old result shows your name as text only, not linked to you | Claim it in the app: on **Profile**, tap **Claim past results**, or use the dancer page that opens when you tap the name. A result can only be claimed once the competition has closed. The claim joins the couple that already has the result, so its points and ranking follow. Once every place in the team is claimed, it is shown by its members' names, unless someone chose a name for it; a group or formation keeps its own name. A result the archive spells differently from your search shows **Spelling differs** and starts unticked. Tick it only if it's yours: an accent can be all that separates two dancers. A result entered with a member number that isn't yours, often a number from the organizer's own system, shows **Check this is you** and also starts unticked. You can claim it as long as no other dancer holds that number, and its birth year, if it has one, is the one on your account. |
 
 If none of these explains it, contact your federation. Include the competition, the class and
 the name of the ranking.
-
-## Next step
-
-Continue to [Age transfer](/dancer/age-transfer/) if you are about to move into a new age group.

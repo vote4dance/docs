@@ -3,7 +3,7 @@ layout: page
 title: Club admin screens
 permalink: /school-club/club-admin/
 parent: School/Club
-nav_order: 1.5
+nav_order: 2
 help:
   public.organization.admin: permissions
   public.organization.member: members
@@ -27,7 +27,7 @@ A club has four roles, and each one includes everything the role below it can do
 |---|---|
 | **Member** | Belongs to the club, with no admin access. Coaches can put a member on a competitor. |
 | **Coach** | Day-to-day work: competitors, registrations and payment. |
-| **Manager** | Everything a coach does, plus membership approval and the club's licences. |
+| **Manager** | Everything a coach does, plus membership approval and the club's licenses. |
 | **Administrator** | Everything a manager does, plus roles, federations and the club's own details. |
 
 Which screens each role sees in the sidebar:
@@ -49,7 +49,7 @@ The club's details and its website embeds are not under **Administration**. They
 
 `Organization → Administration → Permissions`
 
-This screen lists the club's approved members, each with name, email address and a role selector. Next to the list, the **Guide to permissions** panel describes each role. Some lines in the panel only appear when they apply, for example the licence approval line for managers, which only shows when the club's federation asks clubs to approve licences.
+This screen lists the club's approved members, each with name, email address and a role selector. Next to the list, the **Guide to permissions** panel describes each role. Some lines in the panel only appear when they apply, for example the license approval line for managers, which only shows when the club's federation asks clubs to approve licenses.
 
 | Action | How | Who |
 |---|---|---|
@@ -78,8 +78,8 @@ Four cards at the top count the club's members. Click a card to show only those 
 | Card | Shows |
 |---|---|
 | **Members** | Everyone (click to clear the filter) |
-| **No licence this season** | Members without an active or pending licence through your club for the current season |
-| **Licence pending** | Members whose licence is applied for but not active yet |
+| **No licence this season** | Members without an active or pending license through your club for the current season |
+| **Licence pending** | Members whose license is applied for but not active yet |
 | **Not entered this season** | Members with no entry in a competition this season |
 
 Each row shows:
@@ -91,11 +91,11 @@ Each row shows:
 | **Competitors this season** | The dancer's competitors this season, such as **Solo**, **Duo with** *name* or a group's name |
 | **Entries this season** | How many competitions and entries the dancer has this season, such as **5 competitions · 12 entries**, the **Next** competition they are entered in, and how many entries are unpaid. Click the name to see every entry. |
 
-Click a name to open the dancer on the right: their licence, all their competitors (marked **Entered**, **This season** or **Earlier seasons**) and each entry with its status and payment. When the dancer has no licence, **Apply for a licence** takes you to [Licenses](#licenses).
+Click a name to open the dancer on the right: their license, all their competitors (marked **Entered**, **This season** or **Earlier seasons**) and each entry with its status and payment. When the dancer has no license, **Apply for a licence** takes you to [Licenses](#licenses).
 
 Use **Search members** to find someone, and **Export CSV** to download the list as it is filtered, for example to tick off dancers in a spreadsheet. The list shows 50 members per page.
 
-The licence column only counts licences issued through your club. A dancer licensed through another club shows **No licence with this club**.
+The license column only counts licenses issued through your club. A dancer licensed through another club shows **No licence with this club**.
 
 People only wait to join when **Member approval** is on in the club's details. With it off, anyone who presses **Join organization** becomes a member straight away.
 
@@ -165,7 +165,7 @@ Moving a competitor to another club is done by the federation. See [Club transfe
 
 `Organization → Administration → Registration`
 
-This screen shows your club's event registrations for the season. It includes registrations for competitors the club owns, and for independent competitors whose dancers' licences (or, without a licence, their club membership) point at your club.
+This screen shows your club's event registrations for the season. It includes registrations for competitors the club owns, and for independent competitors whose dancers' licenses (or, without a license, their club membership) point at your club.
 
 ![The Registration screen with the season's events and entries folded per class](/assets/images/club-admin/registrations.png)
 
@@ -237,7 +237,7 @@ A club belongs to one federation at a time. Applying while any link exists, appr
 
 `Organization → Administration → Licenses`
 
-This screen is headed **License Applications**. It shows the licences your club has applied for or holds, for the federation chosen in **Select federation**. Without a federation link it only says "Connect this organization to a federation first." The **Licenses** item in the sidebar shows a badge with the number of applications that need you.
+This screen is headed **License Applications**. It shows the licenses your club has applied for or holds, for the federation chosen in **Select federation**. Without a federation link it only says "Connect this organization to a federation first." The **Licenses** item in the sidebar shows a badge with the number of applications that need you.
 
 ![The Licenses screen opened on Active, with the summary cards and status tabs](/assets/images/club-admin/licenses.png)
 
@@ -247,19 +247,19 @@ The page has these parts:
 |---|---|
 | The application form | Choose a **Member**, a **License item**, the **Season year** (or a **Federation ID** or **Competition ID** when the item needs one) and an optional **Note**, then press **Apply for license**. |
 | Season, search and export | Pick the season to show, or **All seasons**. **Search by member name** narrows the list, and **Export CSV** downloads it as shown. |
-| Summary cards | **Needs your action**, **Active**, **In progress** and **Members without a licence**. The **Needs your action** card and tab only show when your federation asks clubs to approve licences or something waits for your club. Click a card to open that tab. **Members without a licence** opens [Members](#members), where the **No licence this season** card lists them. |
+| Summary cards | **Needs your action**, **Active**, **In progress** and **Members without a licence**. The **Needs your action** card and tab only show when your federation asks clubs to approve licenses or something waits for your club. Click a card to open that tab. **Members without a licence** opens [Members](#members), where the **No licence this season** card lists them. |
 | Status tabs | **Needs your action**, **Active**, **In progress**, **Expired or cancelled** and **All**, each with its count |
 
-The list opens on **Needs your action** when something waits for your club, and on **Active** otherwise, so you see straight away who holds a licence. **Needs your action** shows applications waiting for your club to approve or pay, from every season, so nothing waiting on you is hidden by the season. The **What's needed** column says **Awaiting your approval** or **Payment due**. The other tabs follow the season you picked. The list is sorted by member and shows 50 licences per page.
+The list opens on **Needs your action** when something waits for your club, and on **Active** otherwise, so you see straight away who holds a license. **Needs your action** shows applications waiting for your club to approve or pay, from every season, so nothing waiting on you is hidden by the season. The **What's needed** column says **Awaiting your approval** or **Payment due**. The other tabs follow the season you picked. The list is sorted by member and shows 50 licenses per page.
 
 | Action | How | Who |
 |---|---|---|
 | Apply for a member | The form, then **Apply for license** | Manager, Administrator |
-| Approve an application | **Approve** on the row. It only appears when your federation asks clubs to approve licences. | Manager, Administrator |
+| Approve an application | **Approve** on the row. It only appears when your federation asks clubs to approve licenses. | Manager, Administrator |
 | Approve several | On **Needs your action** or **In progress**, tick the applications, then press **Approve** | Manager, Administrator |
-| Decline an application | **Decline**, then confirm "Decline license application for *name*?" The licence becomes cancelled. | Manager, Administrator |
+| Decline an application | **Decline**, then confirm "Decline license application for *name*?" The license becomes cancelled. | Manager, Administrator |
 | Decline several | Tick the applications, press **Decline** and confirm | Manager, Administrator |
-| Pay | **Pay** on an unpaid row. It stays disabled until the licence is approved, and when the federation has not connected Stripe. | Manager, Administrator |
+| Pay | **Pay** on an unpaid row. It stays disabled until the license is approved, and when the federation has not connected Stripe. | Manager, Administrator |
 | Remove an application | The delete button on a pending or draft row, then confirm "Remove application for *name*?" | Manager, Administrator |
 
 Coaches do not see this screen. The full flow, including the federation's checks, is on [Getting a license](/school-club/getting-a-license/).
@@ -278,9 +278,9 @@ There is none. People join by pressing **Join organization** on the club's page,
 
 You cannot change your own role, and on this screen nobody can change or remove an administrator. Managers can only look.
 
-### "There is no Approve button on a licence"
+### "There is no Approve button on a license"
 
-**Approve** only appears when your federation asks clubs to approve licences. Without that, an application your club does not have to approve waits under **In progress**: on the federation, or on the dancer's payment. See [Getting a license](/school-club/getting-a-license/).
+**Approve** only appears when your federation asks clubs to approve licenses. Without that, an application your club does not have to approve waits under **In progress**: on the federation, or on the dancer's payment. See [Getting a license](/school-club/getting-a-license/).
 
 ### "Competitors lists old duos"
 
@@ -288,11 +288,11 @@ They come from dancers claiming results from earlier competitions. They are not 
 
 ### "A dancer shows No licence with this club"
 
-**Members** only counts licences issued through your club. A dancer licensed through another club, or who has not applied yet, shows **No licence with this club**. Check **Licenses**, or ask the dancer.
+**Members** only counts licenses issued through your club. A dancer licensed through another club, or who has not applied yet, shows **No licence with this club**. Check **Licenses**, or ask the dancer.
 
-### "I cannot remove a licence application"
+### "I cannot remove a license application"
 
-"Only pending license applications can be deleted." Once a licence is active or cancelled, it stays.
+"Only pending license applications can be deleted." Once a license is active or cancelled, it stays.
 
 ### "The competitor has too many dancers"
 
@@ -301,8 +301,8 @@ They come from dancers claiming results from earlier competitions. They are not 
 ## Not in this version
 
 - The **Guide to permissions** mentions moving a club-owned competitor to another club. There is no button for this on the club's screens. The federation does it, see [Club transfers](/federation/club-transfers/).
-- There is no bulk licence application. Apply for one member at a time. You can approve or decline several applications at once.
-- Several licences cannot be paid in one checkout. Pay them one at a time.
+- There is no bulk license application. Apply for one member at a time. You can approve or decline several applications at once.
+- Several licenses cannot be paid in one checkout. Pay them one at a time.
 - Members cannot be retired or suspended in the club. They can only be removed.
 
 ## Related pages

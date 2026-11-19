@@ -3,7 +3,7 @@ layout: page
 title: Federation admin
 permalink: /federation-licenses/federation-admin/
 parent: Federation Licenses
-nav_order: 1
+nav_order: 2
 help:
   federation.license: ""
   federation.license.items: 3-manage-license-items
@@ -385,9 +385,9 @@ Use the `Rename team` button on any representation row to change the team name w
 
 ### Changing the organization on an active license
 
-You cannot change the organization field on an active license directly. Pick the new organization in the licence's `Edit` dialog and confirm `Change organization`: the licence is reissued under the new organization from today, and the old one is cancelled and kept for history.
+You cannot change the organization field on an active license directly. Pick the new organization in the license's `Edit` dialog and confirm `Change organization`: the license is reissued under the new organization from today, and the old one is cancelled and kept for history.
 
-Once the federation has approved a licence, whether it is still active or not, only an Administrator or Owner can move it to another organization or remove its organization. For a Manager the field is locked, with the note "Moving a license the federation has approved to another organization needs a federation Administrator." A Manager can still correct the organization on an application that was never approved, and add an organization to a licence that names none. See [Moving a dancer's licence to a new club](/federation/club-transfers/#moving-a-dancers-licence-to-a-new-club).
+Once the federation has approved a license, whether it is still active or not, only an Administrator or Owner can move it to another organization or remove its organization. For a Manager the field is locked, with the note "Moving a license the federation has approved to another organization needs a federation Administrator." A Manager can still correct the organization on an application that was never approved, and add an organization to a license that names none. See [Moving a dancer's license to a new club](/federation/club-transfers/#moving-a-dancers-license-to-a-new-club).
 
 This applies to individual license rows. It does not affect explicit representation assignments made through the `Assign organization` workflow.
 
@@ -444,7 +444,7 @@ For a new federation setup, verify this sequence:
 
 ## 9. Check a member number
 
-Some federations check each dancer's member number against their own member register when a licence is applied for. Dansport Vlaanderen does this. When a dancer or club tells you a number "is not recognised", the **Member check** tab shows you why, without contacting Vote4Dance support. It only looks things up: nothing is changed, and nothing is sent to the dancer.
+Some federations check each dancer's member number against their own member register when a license is applied for. Dansport Vlaanderen does this. When a dancer or club tells you a number "is not recognised", the **Member check** tab shows you why, without contacting Vote4Dance support. It only looks things up: nothing is changed, and nothing is sent to the dancer.
 
 The tab is only there when your federation has a member register connected, and you need the Manager role or higher.
 
@@ -459,7 +459,7 @@ The tab is only there when your federation has a member register connected, and 
 
 You see the register's answer for that club: the **Name in register**, the **Member number**, the **Birth date in register** and the **Membership status**. A short text under it says what it means.
 
-Below that, **Vote4Dance accounts** lists the accounts that have a licence with this number or the same name as in the register, with each account's **Birth date in Vote4Dance** and how it **Compared with register**. Click a name to open the dancer.
+Below that, **Vote4Dance accounts** lists the accounts that have a license with this number or the same name as in the register, with each account's **Birth date in Vote4Dance** and how it **Compared with register**. Click a name to open the dancer.
 
 ### What the result tells you
 

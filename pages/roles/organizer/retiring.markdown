@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Retiring and handover
+title: Handing over your events
 permalink: /organizer/retiring/
-parent: Organizer
-nav_order: 10
+parent: Federations and seasons
+nav_order: 4
 ---
 
 # Handing over your events
@@ -50,7 +50,3 @@ last Manager on a competition cannot be removed, so an event is never left with 
 In a club, use **Leave organization** on the club's **Home**.
 
 Your personal account stays yours. Keep it: your own results and history are attached to it.
-
-## Next step
-
-Return to [Organizer](/organizer/) to see all the steps.

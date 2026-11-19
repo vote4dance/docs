@@ -1,18 +1,14 @@
 ---
 layout: page
-title: Account creation
+title: Creating your account
 permalink: /dancer/account-creation/
 parent: Dancer
 nav_order: 1
 ---
 
-# Dancer account creation
+# Creating your account
 
-This is the first real step in the dancer journey. If the account is wrong, every later step becomes slower and more manual.
-
-## What this step is for
-
-A dancer account stores your identity, federation affiliation, licensing status, registrations, and rankings in Vote4Dance. You must create this account yourself (personal, not shared).
+Your account holds your identity, your federation affiliation, your licenses, your registrations and your rankings in Vote4Dance. You create it yourself, and it is personal, not shared.
 
 ## Where to go
 
@@ -59,13 +55,13 @@ You are **signed in immediately**. There is **no password to invent**. If you al
 
 After signing in on a phone or computer that supports it, Vote4Dance offers to save a **passkey**, so your face or fingerprint signs you in next time. See [Save a passkey](/signing-in/#save-a-passkey).
 
-There is no birth date, club or licence on this form. Those come next.
+There is no birth date, club or license on this form. Those come next.
 
 ### Step 2: Complete your profile
 
 Open your name at the top right → **My account** → **Settings**, and fill in:
 
-- **Birth date**: classes depend on age, and licences cannot be applied for without it
+- **Birth date**: classes depend on age, and licenses cannot be applied for without it
 - **Gender**
 - **Nationality**
 
@@ -78,7 +74,7 @@ check these too.
 - You can sign in anytime at vote4dance.com with your email and a code (or a passkey, if you saved one)
 - Your name appears in the top-right corner after signing in
 - Your **Account** page holds your details, your **Vote4Dance ID** card (the QR code the check-in desk scans) and your profile photo
-- If your federation requires a licence, you need one before you can register for its events. Add your birth date first: licences and age groups need it.
+- If your federation requires a license, you need one before you can register for its events. Add your birth date first: licenses and age groups need it.
 
 ## Choosing your language
 
@@ -96,9 +92,9 @@ The Dancer app has all of them except Spanish.
 
 | What you see | What to do |
 |---|---|
-| **You already have an account, but are not sure which email it used** | Try the addresses you may have used. A code sent to the right one signs you in. Do not create a second account with another email: your results, licences and registrations would be split across two accounts. |
+| **You already have an account, but are not sure which email it used** | Try the addresses you may have used. A code sent to the right one signs you in. Do not create a second account with another email: your results, licenses and registrations would be split across two accounts. |
 | **The code does not arrive** | Look in Spam, wait for **Send again** and use it once, and check the address. See [If something goes wrong](/signing-in/#if-something-goes-wrong). |
-| **Your name is misspelled** | Sign in, open your **Account** page, correct the name and save. Do this before you join a club or apply for a licence. |
+| **Your name is misspelled** | Sign in, open your **Account** page, correct the name and save. Do this before you join a club or apply for a license. |
 | **An error says the captcha is blocked** | A browser privacy setting or ad blocker is blocking it. Allow it for vote4dance.com, or try another browser. |
 | **Your school, club or organizer cannot find you later** | You are probably signed in with a different account than the one they know. |
 
@@ -107,7 +103,3 @@ The Dancer app has all of them except Spanish.
 - You can sign out and sign back in.
 - Your name is spelled the way your federation knows it.
 - You have only **one** Vote4Dance account.
-
-## Next step
-
-Continue to [Getting a license](/dancer/getting-a-license/).

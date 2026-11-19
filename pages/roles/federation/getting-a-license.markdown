@@ -1,24 +1,14 @@
 ---
 layout: page
-title: Getting a license model in place
+title: Setting up licenses
 permalink: /federation/getting-a-license/
-parent: Federation
-nav_order: 2
+parent: Federation Licenses
+nav_order: 1
 ---
 
-# Federation getting a license model in place
+# Setting up licenses
 
-For the federation, this step is not about buying one personal license. It's about **defining how licenses will work for everyone else** — your dancers, schools, and officials.
-
-## What this step is for
-
-You'll:
-- Decide whether licenses are required at all for your federation
-- Define what license items and categories you offer (if needed)
-- Decide, per item, who applies: the dancer, the club, or you
-- Set up payment (if required) via Stripe
-- Map licenses to competition classes
-- Test the complete workflow before going live with competitors
+Here you define how licenses work for your dancers, clubs and officials: whether your federation requires them at all, which license items you offer, who applies for each one (the dancer, the club, or you), how they are paid for, and which classes accept them. Test the whole workflow before you announce it.
 
 ## Who does this step
 
@@ -27,46 +17,38 @@ Different parts need different [staff roles](/federation/staff-roles/):
 | Task | Role |
 |---|---|
 | Connect Stripe | Administrator or Owner |
-| Add licence items and map them to classes | Administrator or Owner |
-| Approve clubs, and allow them to issue licences | Manager and up |
-| Issue, approve, suspend or revoke a licence | Manager and up |
+| Add license items and map them to classes | Administrator or Owner |
+| Approve clubs, and allow them to issue licenses | Manager and up |
+| Issue, approve, suspend or revoke a license | Manager and up |
 
 ## Important: Do you actually need licenses?
 
-**Before starting this step, decide:**
+Decide this before you set anything up:
 
-| Question | Answer | Path |
-|---|---|---|
-| Do your dancers need formal approval/vetting before competing? | Yes → License model | No → Skip this |
-| Do you need to collect payment or fees centrally? | Yes → License model | No → Skip |
-| Do you need to track who's eligible for each competition? | Yes → License model | No → Skip |
+- Do your dancers need formal approval or vetting before competing?
+- Do you need to collect payment or fees centrally?
+- Do you need to track who is eligible for each competition?
 
-**If you answered NO to all:**
-- You don't need formal licenses
-- Dancers can register without approval
-- Skip to next federation setup steps
-
-**If you answered YES to any:**
-- Continue with licensing setup below
+If the answer to all three is no, you don't need formal licenses: dancers can register without approval, and there is nothing to set up here. If any answer is yes, set up licenses as described below.
 
 ## There is no federation-wide "model"
 
 It is tempting to think of self-service versus organization-managed as a choice you make once.
-Vote4Dance does not work that way: **each licence item carries its own settings**, so one
-federation can offer a dancer licence dancers buy themselves, a coach licence only the club can
-apply for, and a judge licence only you issue — at the same time.
+Vote4Dance does not work that way: **each license item carries its own settings**, so one
+federation can offer a dancer license dancers buy themselves, a coach license only the club can
+apply for, and a judge license only you issue — at the same time.
 
 The settings that decide the route, per item:
 
 | Setting | Effect |
 |---|---|
-| **Organization mode** | `Not allowed` — no club on the licence. `Optional` — either route. `Required` — the item needs a club, and that club must be an approved issuer. |
+| **Organization mode** | `Not allowed` — no club on the license. `Optional` — either route. `Required` — the item needs a club, and that club must be an approved issuer. |
 | Self-application | Whether a member, or a non-member, may apply for the item themselves. An item that forbids it tells the applicant "This license can't be applied for directly. Apply through your organization." |
 | **Competition scope** | `Full season`, or `Single competition` (the applicant then supplies a competition). |
-| **Kind** | `standard`, or `external` for licences verified against another federation's system — the applicant enters their MIN / WSCID / lidnummer, and external licences are lifetime, with your federation owning validity. |
+| **Kind** | `standard`, or `external` for licenses verified against another federation's system — the applicant enters their MIN / WSCID / lidnummer, and external licenses are lifetime, with your federation owning validity. |
 | **Maximum uses per season** | Caps how many times the item can be applied for. Once reached, applicants see "This license item is no longer available — it has reached its maximum number of applications." |
 
-Every licence records which route it came through as **Applied via: Self, Club or Federation
+Every license records which route it came through as **Applied via: Self, Club or Federation
 admin**, so you can always see how it arrived.
 
 ## Setting it up
@@ -81,7 +63,7 @@ needs the **Administrator** or **Owner** role. Vote4Dance keeps a 5% application
 Until it is connected, applicants are told "This federation hasn't set up online payments yet.
 Contact the federation to complete your license."
 
-### Step 2: Define the licence items
+### Step 2: Define the license items
 
 `Admin → Federation → Licenses → License items`, which is where you "define the license products
 the federation offers". Adding or editing items requires the **Administrator** role.
@@ -93,11 +75,11 @@ Each item has:
 | **Name** | What applicants see. |
 | **Code** | Your short identifier. |
 | **Category** | `Dancer`, `Judge`, `Coach`, `Organizer`, `Scrutineer`, `Supervisor`, `Music` or `Other`. |
-| **Kind** | `standard`, or `external` for licences verified against another federation's system. External items are lifetime: neither scope nor season applies, and the federation owns validity. |
+| **Kind** | `standard`, or `external` for licenses verified against another federation's system. External items are lifetime: neither scope nor season applies, and the federation owns validity. |
 | **Division** and **Discipline** | Which part of your structure the item belongs to. |
 | **Competition scope** | `Full season` or `Single competition`. |
 | **Organization mode** | `Required`, `Optional` or `Not allowed` — see above. |
-| **Price** and **Currency** | Leave the price at zero for a free licence. A free licence has nothing to pay: it becomes **Active** as soon as it is applied for, unless you require club or federation approval, in which case it waits as **Pending** for that approval only. |
+| **Price** and **Currency** | Leave the price at zero for a free license. A free license has nothing to pay: it becomes **Active** as soon as it is applied for, unless you require club or federation approval, in which case it waits as **Pending** for that approval only. |
 | **Maximum uses per season** | Optional cap. |
 | **Status** | Whether the item is available at all. |
 | **Note** | Internal. |
@@ -106,18 +88,18 @@ Each item has:
 
 Defining items is not enough on its own. Open the relevant
 `Division → Discipline → Class → License rules` and map the products a class accepts. This is
-what makes a licence count at registration, and it needs the **Administrator** role.
+what makes a license count at registration, and it needs the **Administrator** role.
 
-A licence that a class accepts can still be turned away at some events. For example, a
-single-competition licence can be refused at championships. Set that on the competition level: see
-[Licences that don't count at a level](/federation/season-ranking/#licences-that-dont-count-at-a-level).
+A license that a class accepts can still be turned away at some events. For example, a
+single-competition license can be refused at championships. Set that on the competition level: see
+[Licenses that don't count at a level](/federation/season-ranking/#licenses-that-dont-count-at-a-level).
 
 ### Step 4: Decide which clubs may issue
 
 For items with organization mode `Required`, the club must be an **approved issuer**. Grant that
 on the club's page under `Federation → Members → Organizations` with **Allow license issuing**,
 which needs the **Manager** role or higher. A club that is itself
-still pending federation approval blocks every licence it holds.
+still pending federation approval blocks every license it holds.
 
 ### Step 5: Review the applications
 
@@ -134,11 +116,11 @@ checks, and you can only approve when they pass:
 All four passing shows "All four checks pass · ready to approve". The queue tags each row
 **Ready**, **Waiting** or **Blocked**, and blocked applications are shown rather than hidden.
 
-You can approve in bulk — "Approve all (*n*)", or a selection — and licences held by clubs the
+You can approve in bulk — "Approve all (*n*)", or a selection — and licenses held by clubs the
 federation has not approved are skipped rather than forced through, with a count of what was
 left alone. Payment status can also be set in bulk.
 
-Statuses a licence moves through: **Draft**, **Pending**, **Active**, **Expired**, **Suspended**,
+Statuses a license moves through: **Draft**, **Pending**, **Active**, **Expired**, **Suspended**,
 **Cancelled**, with payment status tracked separately. Issuing, approving, suspending and
 revoking need the **Manager** role.
 
@@ -153,7 +135,7 @@ Test with test accounts, in the routes you actually offer.
 1. Sign in as a test dancer with a date of birth on the account
 2. `Account → Licenses`, select the federation, and check the item you expect is listed — if it
    is not, the item's organization mode or self-application settings are keeping it out
-3. Apply, pay if priced, and check the licence appears with the status you expect
+3. Apply, pay if priced, and check the license appears with the status you expect
 4. Approve it from federation admin and confirm it turns **Active**
 
 **Club application**
@@ -174,7 +156,7 @@ rather than issue it. Knowing what this looks like saves confusion in the first 
 
 Document for the people who have to use it:
 
-- Which licences your federation requires, per category
+- Which licenses your federation requires, per category
 - For each one, who applies: the dancer, the club, or you
 - The price and currency
 - Links to the applying pages: [dancers](/dancer/getting-a-license/), [clubs](/school-club/getting-a-license/)
@@ -183,7 +165,7 @@ Document for the people who have to use it:
 
 ## Troubleshooting
 
-### "I added licence items but applicants do not see them"
+### "I added license items but applicants do not see them"
 
 Work down the item's own settings: is its **Status** available, does its **Organization mode**
 allow the route the applicant is using, does it allow self-application, has it hit **Maximum uses
@@ -209,21 +191,17 @@ the application.
 
 ### "I need to change an item after people have applied"
 
-Existing licences keep the terms they were issued under. Take care with anything that changes
-eligibility mid-season, and remember that an **active** licence's organization cannot be edited
+Existing licenses keep the terms they were issued under. Take care with anything that changes
+eligibility mid-season, and remember that an **active** license's organization cannot be edited
 at all: cancel it and issue a new one, which is what the **Change organization** flow does — the
 new club represents the dancer from that day, valid through the same end date. See
-[Club transfers](/federation/club-transfers/#moving-a-dancers-licence-to-a-new-club).
+[Club transfers](/federation/club-transfers/#moving-a-dancers-license-to-a-new-club).
 
 ## When you're ready
 
-Your licensing model is ready to go live when:
-- ✓ All license items are configured
-- ✓ Payment (Stripe) is connected (if charging)
-- ✓ End-to-end test completed successfully
-- ✓ Dancers/schools know which license item to apply for
-- ✓ You've communicated the process to your community
+Your licenses are ready to go live when:
 
-## Next step
-
-Continue to [School/club application model](/federation/applying-for-a-school-club/).
+- all license items are configured
+- Stripe is connected, if you charge for any item
+- you have tested each route you offer from application to **Active**
+- dancers and clubs know which license item to apply for, and how

@@ -2,7 +2,7 @@
 layout: page
 title: Spectator
 permalink: /spectator/
-nav_order: 8
+nav_order: 6
 has_children: true
 ---
 

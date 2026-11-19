@@ -2,8 +2,8 @@
 layout: page
 title: Federation Rules
 permalink: /federation-rules/
-parent: Federation
-nav_order: 4
+parent: Structure and rules
+nav_order: 3
 has_children: true
 help:
   federation.rules: ""
@@ -85,7 +85,7 @@ plain sentences, with the level that set it.
    level from the federation down to the class, with how many of the rules each
    level sets.
 4. Each rule is one sentence, such as *Only the dancer can apply for a
-   licence.*, grouped by topic. Under it you see the rule's name and value, and
+   license.*, grouped by topic. Under it you see the rule's name and value, and
    on the right the level that set it, such as **Discipline · FDJ**.
 5. Click **Where it comes from** to see which levels can set the rule and the
    value each of them sets. The level that wins is highlighted.
@@ -141,7 +141,7 @@ It checks for:
   divisions that are set up differently. Often deliberate.
 - active classes that sit on a division, discipline, category, age group or
   class level that is still a draft or already retired
-- classes with no licence item. This only matters if dancers need a licence to
+- classes with no license item. This only matters if dancers need a license to
   register.
 - classes that are still drafts
 
@@ -151,7 +151,7 @@ The whole federation as one picture: a column per division and a block per
 discipline, sized by its number of classes. Pick what to colour the blocks by:
 **Draft levels**, **Promotion** (classes that advance but have no class to move
 into), **Progression warnings**, **Team size** (no member limit anywhere in the
-rules), **Licence** (no licence item) or **Draft classes**. Each block shows how
+rules), **Licence** (no license item) or **Draft classes**. Each block shows how
 many of its classes are affected. Click a block to open its classes, or a
 division name to open the division. **Most affected disciplines** lists the
 worst ones.

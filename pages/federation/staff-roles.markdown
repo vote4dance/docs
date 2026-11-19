@@ -2,11 +2,15 @@
 layout: page
 title: Federation Staff Roles
 permalink: /federation/staff-roles/
-parent: Federation
-nav_order: 11
+parent: Set up your federation
+nav_order: 1
+redirect_from:
+  - /federation/account-creation/
 ---
 
 # Federation Staff Roles
+
+Everyone who works for the federation in Vote4Dance uses their own personal account, with a role in the federation. There are no shared federation logins.
 
 Federation staff access is granted per-federation. Each person you invite to a federation receives one of four roles. The role controls what they can see and do inside the federation admin.
 
@@ -150,3 +154,24 @@ You need the Administrator or Owner role to see the staff list and add staff; Vi
 5. Change the role using the dropdown next to their name
 
 The current user's role is shown as a tag next to their email address. The role dropdown shows a summary of what each level can do.
+
+The person must already have an account before you can add them. Everyone creates their own account at vote4dance.com, with their own email address. The form is the same for everybody: see [Account creation](/dancer/account-creation/).
+
+When you have set the role, ask the person to sign in with their own account, open the federation, and check that they see what their role should see.
+
+---
+
+## Make sure you are not the only one
+
+- Have **at least two Owners**. Nobody can change or remove their own role, and there is no one-step ownership transfer.
+- Have at least one other person who can approve licenses, for holidays and the season rush.
+
+---
+
+## Common problems
+
+| Problem | Fix |
+|---|---|
+| **Add** fails | The person has no Vote4Dance account with that email, or is already on the list. |
+| Someone cannot find a button, or the page says an action needs a federation Administrator | Their role is too low. Managers do not see Administrator-only buttons. To check what a role allows, click the role name in the federation bar. |
+| You cannot change someone's role | An Administrator can only change Viewers and Managers. Ask an Owner. |

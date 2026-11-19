@@ -2,8 +2,8 @@
 layout: page
 title: Organization admin
 permalink: /federation-licenses/organization-admin/
-parent: Federation Licenses
-nav_order: 2
+parent: School/Club
+nav_order: 6
 ---
 
 # Organization admin

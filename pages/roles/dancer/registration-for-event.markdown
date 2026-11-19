@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Registration for event
+title: Registering for an event
 permalink: /dancer/registration-for-event/
 parent: Dancer
-nav_order: 5
+nav_order: 4
 ---
 
 # Registering for an event
@@ -178,7 +178,7 @@ you.
 
 | Only if… | What it means for you |
 |---|---|
-| **…the event requires a licence** | You, and your partner, need an **Active** licence from the event's federation before you can enter. Pending and expired licences do not count. See [Getting a license](/dancer/getting-a-license/). |
+| **…the event requires a license** | You, and your partner, need an **Active** license from the event's federation before you can enter. Pending and expired licenses do not count. See [Getting a license](/dancer/getting-a-license/). |
 | **…a class requires dance roles** | Set **Leader** and **Follower** on your couple. The locked class has a button that opens the couple's roles. |
 | **…only certain people may register** | Some events let only a member of the team, or only the club, register a competitor. If you are not allowed, ask your club to register you. |
 | **…the event asks which club you represent** | Pick the club from your approved club memberships. If you belong to more than one club, you are asked for every class you add, since you can dance for a different club in each class; the club you picked last is already filled in. |
@@ -198,7 +198,7 @@ you.
 | A class says **A dancer in this team is already in …** or **This team is already in …** | Your federation allows only one class per category at an event: one age group and one level, for each dancer (solo, duo…) or each team (groups, formations). If you are in Solo Juniors 1 Rising Talent, you cannot also enter Solo Juniors 1 Ultimate Talent or Solo Children. Other categories, such as Duo or Clipdance, are not affected. To switch, remove the other class from your cart, or withdraw from it on **My registration**, and add the one you want. See [One class per category](#one-class-per-category). |
 | A class says **Closed** and "This team has … points this season" | Your team has too many points this season for that class level, so it moves up. Enter the next level up instead. See [A class closed by your season points](#a-class-closed-by-your-season-points). |
 | A class you expected is missing | The organizer may not offer it in this registration period. Ask the organizer. |
-| Your partner blocks the registration | Something is missing on your partner's account, such as a birth date or a licence. They fix it on their own account. |
+| Your partner blocks the registration | Something is missing on your partner's account, such as a birth date or a license. They fix it on their own account. |
 | You are not allowed to register this competitor | Ask your club to register you. |
 | "This team does not belong to a club, and only club teams can enter this class." | The class only takes teams owned by a club, and this team is independent even if its dancers are club members. A coach registers it under **As coach**: choose the club, create the team there and register that team. See [Registering your club's dancers](/school-club/registration-for-event/#step-1-set-up-the-competitors). |
 | A class says "Edit the lineup in the cart before registering", or the cart refuses a team entry | The rules are checked on the lineup that dances, with skipped and replacement dancers applied. Use **Edit lineup** in the cart to skip or replace the dancer who does not fit, for example one who is too old. Your club usually does this. |
@@ -268,8 +268,3 @@ you paid, contact the organizer, who refunds from the Manager app.
 
 You can delete a competitor (such as an old couple) from your account only when it has no active
 registrations. Cancel those first.
-
-## Next step
-
-Continue to [Results, points and rankings](/dancer/creating-and-getting-a-ranking/) to see how
-competing affects your rankings.

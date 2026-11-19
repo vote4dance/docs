@@ -1,0 +1,147 @@
+---
+layout: page
+title: "Release notes, September 2026"
+permalink: /release-notes/2026-09/
+parent: Release notes
+nav_order: 202609
+---
+
+# Release notes, September 2026
+
+The newest changes are on [Release notes](/release-notes/).
+
+## 2026-09-29
+ ⭐ **New**
+* Registration: One email per dancer and event instead of one per class — every email lists the whole registration as it stands, with what changed highlighted and a cancelled class crossed out. Changes a manager makes are gathered for a minute and sent together; the email comes from "‹event› via Vote4Dance", a reply goes to the organizer's contact email, and it links the dancer's registrations for the event, the event info and the registration guide (see [Emails](/manager-guide/emails/))
+* Registration: A dancer paying by card gets the receipt link in their registration email instead of a separate receipt from Stripe; a club paying for its registrations also gets a link to the invoice made out to the club
+* School/Club: The club's registrations page lists the invoices the club paid for each event, with a View invoice link, for coaches, managers and administrators
+
+ 🛠️ **Improvements**
+* Registration: Cancelling a class from your own account now sends an email, and when the class was paid it says that cancelling does not refund the payment and how to reach the organizer
+* Registration: The registration code is no longer shown in registration emails
+* Registration: Only the competition's managers can read a registration's log, which includes the emails sent to its dancers
+* Public: The registration guide sits above the competitor picker as links instead of a button, a dancer with a single solo competitor sees the classes on As myself straight away, and the cart stays on screen, telling you to choose who is dancing, when you switch tabs
+* Public: Going back to As myself after picking a club as coach shows the classes for your own competitor again — every class stayed disabled
+* Manager: A Manager can connect a Stripe account that is already connected to another event they manage, and connecting explains why it was refused instead of Permission denied
+* Judging: The event page has one Judges tile for judges and Managers — a judge goes to their rounds, a Manager to the judge demo; the demo is also in the Judging app's menu and in the invitation email
+* Dancer app: This release requires the latest version from the App Store or Google Play
+## 2026-09-28
+ ⭐ **New**
+* Check-in: Add classes at the door — an Add classes button on the person screen opens the desk's registration with the dancer filled in; the total includes what the dancer still owes from earlier entries, and Payment collected settles both. The class list warns, but does not block, when a class has started or its heats are drawn, and entries the organizer has not imported yet are tagged Not imported (see [At the door](/manager-guide/the-door/))
+* Manager: The registration list shows a banner counting approved registrations that are not imported yet, with the import button beside it
+* All apps: Vote4Dance is now also in Finnish, Norwegian (Bokmål), Dutch, German and French, on the web and in the Dancer app, with each federation's own terms. Every web app has a language picker in the header that switches at once and is saved to your account; until you pick, your browser's language list decides. The Dancer app picks from the phone's language list and has a language picker on the Login screen
+* Registration: Emails and push notifications arrive in the reader's own language, in any of the eight languages — they were only in English or Swedish. A receipt emailed from the desk can be sent in a language the buyer picks, and payment invitations to a club are written in the language of the club's country
+* Federation: The Rulebook gains four views of the whole federation — Setup check (duplicate codes, missing or draft levels, retired or misplaced rules, rules set for only some divisions, licence items, each with how to fix it), Setup map, Age bands (every division's age groups on one axis with overlaps and gaps flagged) and Where rules are set — and Export setup downloads the classes and their rules as CSV (see [Rules](/federation-rules/))
+* Federation: A federation can write its own registration help under Settings → Public page; it appears at the top of the Registration tab of its competitions, above the Vote4Dance guide (see [Settings](/federation/settings/#public-page))
+* Federation: Click your role name in the federation bar to see what each role can do, with your own role marked; Settings → Roles & access shows the same guide (see [Staff roles](/federation/staff-roles/))
+* Manager: Each failed check on Problems says in one line what is wrong and what to do, and links to the page that fixes it and to its section of the guide; while a round is in progress, a Stuck? link on the round page opens the common event-day problems (see [Problems](/manager-guide/validator/))
+* Manager: Problems flags majority-decided rounds whose panel has an even number of judges, and judges on the panels of two rounds running at the same time on different floors
+* Manager, Federation and Organizer: The Docs link in the header opens the guide section for the screen you are on instead of the docs home
+* Manager: Start numbers can begin at 1 (with a warning that numbers below 10 can be mistaken for placements), the gap between classes is a new Free numbers between classes field, and turning off Start each class on an even ten numbers the whole competition in one unbroken series (see [Registration and check-in](/manager-guide/registration-checkin/))
+* All apps: A page left open across a new release shows "There is a newer version" with a Reload button; it never reloads by itself, so work in progress is kept
+
+ 🛠️ **Improvements**
+* Check-in: A check-in station can mark registrations paid at the door — Payment collected failed with Permission denied on a station, so cash was taken but the entries stayed unpaid. A station can only mark entries paid, not undo it, and entries being paid online are left out so they cannot be paid twice
+* Registration: Class rules are checked against the lineup that actually dances, with skipped and replacement dancers applied, and the organizer's own class and period rules are enforced by the server, not only the page. A class that a lineup change can fix, such as a dancer too old, is offered with a hint, and the cart offers Edit lineup on a refused entry; classes a team is too big for stay hidden. Staff and check-in stations can still register outside the rules
+* Registration: A group or formation class that only accepts club teams is shown locked with the reason — register the team as a coach under the club — instead of being hidden
+* Public: The registration cart is kept in your browser for a day, so a reload or a closed tab no longer empties it, and it stays on screen when you switch between As myself, With partner and As coach
+* Federation: Managers can issue, approve, edit and remove licences, approve clubs and their right to issue licences, and manage class memberships; class rules, transfers, moving an approved licence to another club, age-ups, promotions, progress sync and structure stay with Administrators, and the page says when an action needs one
+* Federation: Club transfers — Assign organization and Change organization refuse a club that is not linked to the federation, errors are readable messages, pending licences no longer show up among pending transfers, and the Action Center counter opens the club list
+* Federation: An age move carries into the rankings — the competitor's counted results follow into the new class's ranking at the federation's carry rules — and dated ranking corrections drop out with the ranking window. Registration age checks were a year too strict for federations whose season starts 1 January
+* Federation: The age-up batch lets staff tick which competitors to move, finds couples outgrowing an age group with no maximum age, moves a couple forced out of an age group together, groups the preview by class and hides the rows that cannot move until asked
+* Federation: Structure lists show whether each item is Draft, Active or Retired, new items start as Active, and editing one item after another no longer saves the first item's name and code onto the second; a division or discipline still in use can no longer be deleted
+* Manager: The billing step when creating a competition is inline — your recent customers as cards, a name search for others and a New customer form prefilled from what you entered earlier
+* Manager: The event's competition level list no longer offers retired levels, and a duplicate level code in the federation gets a clear message
+* Manager: After copying a participant to another class, saving the original row no longer creates a second entry
+* School/Club: Club screens show each role only what it can do, and club roles count only once the membership is approved; the registration page says a club manager or administrator approves memberships and licence requests
+* Dancer app: Results and schedules stay on screen when the venue wifi drops, and the app opens without a network with the results already saved on the phone, showing when they were last updated
+* Dancer app: Once every place in a claimed team is claimed, the team is named after its members instead of the imported archive name; a group keeps its name
+* All apps: English screens say organization instead of club (Organization check-in, Owning organization) and Check-in instead of Checkin, the Manager app is called Scrutineer under Users, a team's dancers are its lineup, and the Swedish screens are retranslated with consistent terms
+* Public: A shared Vote4Dance link shows a preview picture, and links to an event or competition show its name, dates and place
+* Public: A web page opened without a network shows a translated hint instead of a technical error
+* Dutch: "coach" is used instead of "trainer" throughout the web apps, the dancer app and the store listing
+## 2026-09-27
+ ⭐ **New**
+* Check-in: The person screen shows what a dancer owes for registrations paid at the door — a red or green payment tag on each registration, the amount to pay with the organizer's payment note, and a Payment collected button that marks the dancer's unpaid registrations paid once the desk confirms the amount. Rejected registrations and free periods are left out, and for a couple or group the amount covers the whole entry, so either dancer's scan settles it (see [At the door](/manager-guide/the-door/))
+* Public: The registration cart shows the total to pay and the organizer's payment note when registration is paid manually, for example at the door or by Swish
+* Public: The Registration tab points first-timers and couples to the [registration guide](/dancer/registration-for-event/), and a class that cannot be picked links to [If you cannot register](/dancer/registration-for-event/#if-you-cannot-register)
+
+ 🛠️ **Improvements**
+* Registration: The confirmation email is sent for every registration when it is made — registrations paid at the door, invoiced, awaiting the organizer's approval or entered by staff on a dancer's behalf previously got no email until their status changed. Registrations paid online still get theirs once the payment goes through
+## 2026-09-21
+ ⭐ **New**
+* Organizer: New Organizer app with a Shop — sell passes, tickets, meals and merchandise for an event: products from templates with stock, per-order caps, sales windows and a VAT rate; a Tickets tab on the public event page; and an Orders tab with search, status and channel filters, resend, receipt link and per-ticket void after a partial refund. Payments run on the organizer's connected Stripe account with the 5 % platform fee. A new Organizer role is granted from the Users page; managers have it already (see [Shop](/manager-guide/shop/))
+* Public: Buy tickets — a signed-in buyer builds a cart on the event's Tickets tab and pays in Stripe Checkout; the order page under the event and "My tickets" on the account hold one QR per ticket, the ticket email arrives in the buyer's language, and a refund made in Stripe is mirrored onto the order (see [Buying tickets](/spectator/buying-tickets/))
+* Check-in: Vote4Dance ID — every account has a QR card with photo, name, birth date, nationality and club, opened from the account page on the website and from the Profile tab in the app; the desk scans it to open the person's screen (see [Your Vote4Dance ID](/dancer/vote4dance-id/))
+* Check-in: Person screen — one screen per scanned person with their registrations, their tickets (use / undo) and an Arrived button recorded per person and day, separately from tickets used and from the club check-in; the lookup box takes a scanned ID, a ticket code, or a name or email, and a Scan button opens the camera inside the app (see [At the door](/manager-guide/the-door/))
+* Check-in: Sell — cash sales at the desk with a receipt (lines, VAT per rate); a buyer who wants to pay by card is sent to the event's Tickets page on their own phone by QR; the desk may pause a product, adjust stock with a reason, keep a staff note and add a merchandise size
+* Check-in: Redeem tickets — the QR on a ticket opens its page with buyer, code, order and refund notice; use and undo, and a ticket bound to a day is refused on another day unless the desk overrides
+* Manager: Dancer admission — choose per event what a registration admits a dancer to: every day (default), only the days one of their classes dances (a ticket on other days), or a ticket for everyone; the desk is told whether to ask for a ticket, and arrival is recorded under every policy
+* Dancer app: My tickets screen with one QR per ticket, a Today card on event days, the Vote4Dance ID card and a profile photo taken with the camera or picked from the library — requires the app update from the store
+* Cafe: Menus and orders now live on the shop — the kitchen board works as before, a paid cafe item bought online lands on it as a pickup, and a judge can delete their own order while it is still waiting
+
+ 🛠️ **Improvements**
+* Judging: Confirming a partially marked skating round with shared positions no longer hangs result calculation — the tie-break re-compared groups it had already separated; a guard now stops a runaway recompute instead of letting it spin
+* Manager: Confirming a second-chance round keeps a team's placement when the team has no row in the source round, instead of failing with an error
+* Public: Result sums, group sums, majority counts and point-summary totals below the results cutoff stay hidden from a signed-in panel judge on the public results page; the judge's own marks are still shown
+* Judging: The popover on a judge's score cell opens only when it has partial scores, acrobatics, remarks or comments to show
+* Lineup: The landing page's button opens the lineup with the floor in the path — two taps previously landed on an empty "Waiting for participants"
+* Federation: Ranking corrections can be added again — the effective-date column was missing in production, so every new correction failed
+* Registration: A check-in station can approve a registration but no longer cancel, reject or delete one; the log and email name the participant
+* Admin: The Stripe audit links an active Stripe subscription even when a lapsed Google Play or App Store purchase started after it
+## 2026-09-15
+ ⭐ **New**
+* Federation: Battles can be split into rounds — a dance can carry dances of its own, so a battle generates its rounds and a tie-break underneath it, and a final can hold a bronze battle and a gold battle each danced in several rounds; `[N]` in a battle dance name expands to the number of battles (see [Battle sub-rounds](/federation-rules/battle-sub-rounds/))
+
+ 🛠️ **Improvements**
+* Manager: Rounds created from the Round Guide attach every sub-round to the right parent — a B-final or bronze battle with dances placed after rounds that already had sub-rounds was previously imported under the wrong round
+* Check-in: The QR code in the registration approval email opens the check-in page again — the check-in app now lives at `/checkin/`, and old `/checkin-react/` links and station home screens redirect there
+* Registration and Federation: Registration, sponsor and licence payments are only accepted from the Stripe account connected to that competition or federation, and connecting a Stripe account to a competition requires the Manager role
+## 2026-09-14
+ ⭐ **New**
+* Dancer app: New Profile tab — Settings moves inside it; tapping any dancer's name opens a public dancer page with their results across every team they have danced in and their progression standing, and dancers can claim historical results that exist only as text names. A claim joins the team the couple already has, so standings and class memberships follow the claim
+* Federation: WSDC Jack & Jill points — a couple final's placement is split onto the leader and follower entries in their own role classes, each scored against its own field size, on the same close-time pipeline as other progression points
+* Registration: A club paying for registrations receives a Stripe invoice made out to the club, in addition to the receipt; the receipt now goes to the person who paid. A club with no stored email or an unresolvable Stripe customer is still invoiced instead of falling back to a personal card receipt
+* Manager: "Create classes from federation" has select-all checkboxes per division and per block, and creates the classes in the order shown
+* Dancer app: Native birth-date and country pickers in registration and account settings, with the country suggested from locale and time zone
+
+ 🛠️ **Improvements**
+* Judging: Judge PINs are stored hashed; a judge can only read and save their own per-heat marks, per-team marks are limited to members of the competition, and the active registrations shown for a dancer no longer list reserved rows or private competitions
+* Registration: Only someone with a claim on the team — a member, or the club for a club-owned team — or a competition functionary may cancel or change a registration's status; any team member could previously withdraw a whole club team, and any signed-in user could cancel a stranger's entry
+* Registration: A club can edit the roster of a team it owns before the team has entered a competition — the editor came back empty and locked for club-owned teams
+* Federation: A second-chance percentage in class rules is a share of the next round's places, so the split no longer drifts with class size
+* Federation: A licence applied for by a club is auto-activated and waived on the same rules as the dancer's own application — it previously stayed pending and unpaid with nothing owed
+* Federation: A licence checkout can be retried after the amount or details change; the previous checkout session is reused or expired so a licence is never paid twice
+* School/Club: The licence page shows each member's name and birth date and warns when a roster member has none; the permissions guide describes what each role may actually do
+* Public: The Registration tab says when registration opens instead of showing a close date in the future
+* Public: "Hide results from position" applies to every row of a round without placements (star collection, point summary), not only the placed ones
+* Public: The Kontrollant tile shows for users who have the Supervisor app
+* Dancer app: A results class with nothing published shows that instead of a blank sheet, the schedule tab is localized, competition dates no longer read "Invalid Date", the Android launch screen shows the logo at its intended size, and the image picker no longer offers HEIC and states the correct size limit
+## 2026-09-01
+ ⭐ **New**
+* Federation: The console has been rebuilt — Overview shows what needs the federation today (work counters, season timeline, recent enforcement), Licences is a triage queue beside the pane that decides it, Members gathers roster, dancers, clubs, class history and the enforcement log into one page, and Structure replaces eleven tabs with a division and discipline tree beside a detail pane. Existing links into a tab still resolve
+* Federation: New Rulebook — every rule states the value that applies, the scope that set it and the value it displaced, with the scopes the rule can actually be set at; rules nobody has set are marked as the platform's default. A scope's Rules section in Structure now edits that scope's own overrides only
+* Federation: New Competitions destination — every competition run under the federation's rules, including ones still being prepared and excluding practice events, with entry, club, class and judge counts, Running / Upcoming / Completed / All tabs, search, a needs-attention filter, expandable sanctioning detail and CSV export
+* Federation: Statistics rebuilt around what a federation can act on — entries per season, competitions finished with results still not visible, classes that did not fill, and competitor growth (new, lapsed and returning competitors, how often people compete, and clubs losing competitors)
+* Manager: New Statistics page per competition — an overview (dancers, entries, teams, clubs, classes, days), dressing rooms counting unique dancers per club with a per-day split, charts, CSV and a print view, schedule load per day, and a medals table of placements 1–6 per club. Counts follow the imported lineup where there is one and cover the whole event, not a single day; medals are shown to organizers before the competition closes, marked provisional, and entries with no club are reported under a "No club" row instead of disappearing
+* Manager: New Finance tab on the registration page — expected, marked paid and outstanding totals per currency, a per-period breakdown, and a debtor list per payer sorted by what is owed, priced from the periods' ladders
+* School/Club: Club-owned competitors — groups and formations created in the club admin belong to the club: they stay out of the public competitor list and search, are hidden from other clubs, and their lineups are only visible to club staff, while a registered team still works normally in carts, manager, check-in and results. Ownership moves only through a recorded transfer the federation approves. Competitors created anywhere else stay independent and are capped at two members
+* Judging: New optional judging setting for the IDO 2-D system — the highest and the lowest score in each dimension are dropped before the point total is summed
+
+ 🛠️ **Improvements**
+* Speaker: The result badge now lights when an extrachans is confirmed, and the lineup and result badges follow the same floor and round rules as the pages they point at
+* Speaker and Check-in: A station device can publish a round and confirm check-ins again — a station has no personal user, and both writes were silently rejected
+* Screens: The podium spotlight no longer stays stuck on screen when the "other placements" duration is set to zero, and pointing a screen at another result round no longer re-spotlights a result the audience has already been shown
+* Manager: A manager can now edit their own capabilities — a competition creator started with the Manager bit alone and nobody able to grant the rest, so every operator app said Access Denied; removing the last manager is still blocked
+* School/Club: A club administrator can delete their own club when it is empty — no other members, no federation attachments and no licences — instead of being told permission denied
+* Registration: A club can line up two teams in the same class where the rules allow it; the cart previously blocked every other team for that class once one was added
+* Registration: Cancelling follows the registration's own period, so a registration made in a period that has closed is no longer cancellable just because another period is still open
+* Registration: A competitor whose only registration was cancelled can be deleted again
+* Registration: The coach team picker offers only competitors whose size fits a class open for registration, derived from the federation's team-size rules instead of a fixed size split
+* Registration: New optional federation rule for who may register a competitor — anyone (default), a member of the team, or the club — enforced by the registrant's actual relationship to the competitor and shown per class
+* Registration: New optional federation rule to disallow custom competitor names — the registration flow hides the custom-name option and the participant import names such competitors from their participants, so start lists and the speaker read real names at that federation's events; the same team keeps its stage name elsewhere
+* Registration: New optional federation rule to ask each dancer which of their clubs they represent — dancers with a single approved membership are attributed automatically, and organizers can require the selection per registration period
+* Registration: Imported teams show a readable club, and a custom name is cleared on re-import when the class does not allow one
+* Manager and Federation: The cancelled tag in the Organizations view names the entries behind it — class, the team name where one was given, the dancers, and whether the entry had been paid — and a registration paid before it was cancelled is no longer dropped from the view
+* Federation: A licence is not offered for approval when the club it names is not an approved organization of the federation — those rows say why, and bulk approve leaves them alone and reports how many it passed over
+* Federation: The age-up batch cannot be applied until a preview has run, and the preview is discarded whenever the set it was reviewed against changes

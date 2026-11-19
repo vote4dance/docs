@@ -2,8 +2,18 @@
 layout: page
 title: Scrutineer
 permalink: /scrutineer/
-nav_order: 4
+nav_order: 8
 has_children: true
+redirect_from:
+  - /scrutineer/account-creation/
+  - /scrutineer/getting-a-license/
+  - /scrutineer/applying-for-a-school-club/
+  - /scrutineer/federation-status/
+  - /scrutineer/creating-and-getting-a-ranking/
+  - /scrutineer/age-transfer/
+  - /scrutineer/class-transfer/
+  - /scrutineer/renew-license/
+  - /scrutineer/retiring/
 help:
   supervisor.lineup: ""
   supervisor.result: ""
@@ -16,6 +26,9 @@ help:
 
 **You are a scrutineer if** you are responsible for the integrity of the judging and the results:
 the chief scrutineer at an event, the chairperson of adjudicators, or a federation observer.
+
+To work at an event, somebody with Manager on it has to add you. See
+[Getting event access](/scrutineer/registration-for-event/).
 
 ## Your app is Supervisor
 
@@ -135,25 +148,107 @@ two overlapping rounds at once, finals with participants marked through, leader/
 without exactly one partner class, and the federation-specific rules (DSF, WDSF). Clear it before
 the doors open.
 
-## Scrutineer steps
+## Before results and rankings are final
 
-1. [Account creation](/scrutineer/account-creation/)
-2. [Getting a license](/scrutineer/getting-a-license/)
-3. [Applying for a school/club](/scrutineer/applying-for-a-school-club/)
-4. [Federation status through school/club](/scrutineer/federation-status/)
-5. [Event assignment](/scrutineer/registration-for-event/)
-6. [Creating and getting rankings](/scrutineer/creating-and-getting-a-ranking/)
-7. [Age transfer impacts](/scrutineer/age-transfer/)
-8. [Class transfer impacts](/scrutineer/class-transfer/)
-9. [Renew license](/scrutineer/renew-license/)
-10. [Retiring from active duty](/scrutineer/retiring/)
+You do not operate rankings. They follow from the results you have reviewed, in this order:
 
-## Dedicated feature sections
+1. **You review before publication.** Supervisor shows rounds that are not yet published, so
+   this is your window.
+2. **The organizer publishes the round.**
+3. **The organizer closes the competition.** For a federation event, closing identifies each
+   couple from its person numbers, registers class memberships, adds the promotion points and
+   moves couples that reach their class's limit up a class. See
+   [Promotion points](/federation/progression/).
+4. **The federation's ranking workflow processes the event.**
 
-1. [Users, apps and stations](/manager-guide/users-and-stations/) — how you get Supervisor access
-2. [Live operations](/manager-guide/live-operations/) — the event-day runbook you are overseeing
-3. [Manager Guide](/manager-guide/) — the operational event workflow
-4. [Special formats](/special-formats/) — when the format changes the normal flow
-5. [Manual Workflows](/federation-rankings/manual-workflows/) — only for federation-approved exceptions to a published outcome
+Check two things before the competition is closed, because both end up in the rankings:
 
-**Not sure if you're a scrutineer?** Start with [Finding Your Role](/understanding-vote4dance/finding-your-role/).
+- **Person numbers.** A wrong person number creates a duplicate couple, with the points split
+  between the two.
+- **Club tags.** A wrong club tag creates a duplicate club.
+
+If results are corrected after the competition is closed, the organizer sets it to **Closed**
+again. That runs the processing again safely.
+
+When the published outcome must differ from the results, that is the federation's decision, not
+one for the event day. It is done with
+[Manual workflows](/federation-rankings/manual-workflows/). Every manual change records a
+reason: write one that another person can check a season later.
+
+## Age and class questions at an event
+
+You do not decide age groups, and you do not move couples between classes. The federation's
+rules do, and registration checks them: a dancer or couple that does not fit a class's age group
+cannot register for it, and a couple can only register for the class it is in. So a participant
+who looks wrong at an event is usually a data problem, not a rule problem.
+
+- Age is counted by **birth year**, for the year the season ends, not by birthday.
+- For a couple or group, the federation's rules decide whose age counts: for example the oldest
+  member, or every member. See [Age category rules](/federation-rules/age-category-rules/).
+- At the start of each season the federation moves competitors up an age group in one batch. See
+  [Age moves](/federation/age-moves/).
+- A couple moves up a class when its promotion points reach the class's limit. The points are
+  added up when the organizer closes the competition, so a couple's class can change after an
+  event closes, not during it. See [Promotion points](/federation/progression/).
+
+If a participant looks wrong for their age group or class:
+
+1. **Before the event:** tell the organizer. They can correct the registration, or the dancer
+   can cancel and register again while the period is open.
+2. **On the day:** decide with the organizer, and the federation's representative if there is
+   one, before the class starts. Do not change results afterwards to fix an entry problem.
+3. **After the event:** age groups and class memberships belong to the federation. Report it to
+   them, with the participant, the class and the dancers' birth years. The federation can move a
+   couple by hand, and every change records a reason.
+
+## Licenses for officials
+
+Your license and your access to an event are separate. An organizer can give you Supervisor on
+an event while your license is still pending, and a valid license gives you no access to an
+event until somebody adds you to it.
+
+Ask your federation whether it requires a license for officials. If it does:
+
+1. **Find the right item.** Each of a federation's license items has a **Category**: Dancer,
+   Judge, Coach, Organizer, **Scrutineer**, Supervisor, Music or Other. The item you need is one
+   in the Scrutineer category, but your federation may also put you under Judge or Supervisor.
+   Ask them.
+2. **Look for it under that federation in `Account → Licenses`.** If nothing appears, the item
+   probably expects your club or the federation to apply. Officials' licenses are often issued
+   by the federation directly, which shows on the license as **Applied via: Federation admin**.
+3. **Pay if it is priced, and wait for approval.**
+   [Getting a license](/dancer/getting-a-license/) describes the application and what can hold
+   it up.
+4. **Confirm that it reads Active, not Pending,** before you accept an assignment.
+
+Check whether your license has a season:
+
+- **A license with no season is a lifetime license.** It does not expire and needs no renewal.
+  Officials' licenses are often this kind. If you stop officiating, ask the federation to cancel
+  or suspend it if that matters to them.
+- **A season license is not renewed in place.** You apply again for the new season, by the same
+  route, and approval and any payment are needed again. Check that you apply for the right
+  season. The old license stays in your history and turns **Expired** when its validity ends.
+
+## Your account, your club and your access
+
+- **Use one personal account, never a shared one.** Access is given per event to a person, and
+  the log of who did what follows the account. Use the name the federation and organizers know
+  you by, and tell the organizers which email address the account uses: they find you by name
+  or email.
+- **A club is not how you get event access.** Club membership is about representation and
+  licenses. Working an event means being added under `Manager → Event → Users` with
+  **Supervisor** ticked, every time. Many scrutineers belong to no club. If you do join one,
+  **Member** is enough to be represented and to hold a club-linked license; scrutineering needs
+  no admin rights in the club.
+- **Access does not lapse by itself.** When you stop working an event, ask the organizer to
+  remove you. An old Supervisor tick keeps showing you unpublished marks.
+- **Keep your account if you stop officiating.** Your history as an official is attached to it,
+  and a second account later splits it.
+
+## Related pages
+
+- [Users, apps and stations](/manager-guide/users-and-stations/): how you get Supervisor access
+- [Live operations](/manager-guide/live-operations/): the event-day runbook you are overseeing
+- [Classes, rounds and judges](/organizer/classes-rounds-judges/): the formats that change the normal flow
+- [Manual Workflows](/federation-rankings/manual-workflows/): federation-approved exceptions to a published outcome

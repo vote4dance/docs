@@ -2,8 +2,8 @@
 layout: page
 title: Registration and check-in
 permalink: /manager-guide/registration-checkin/
-parent: Manager Guide
-nav_order: 3
+parent: Registration and sales
+nav_order: 2
 help:
   manager.comp.registration: the-registration-page
   manager.comp.registration.periods: registration-periods

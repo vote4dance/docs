@@ -2,8 +2,8 @@
 layout: page
 title: Federation settings
 permalink: /federation/settings/
-parent: Federation
-nav_order: 7
+parent: Set up your federation
+nav_order: 2
 help:
   federation.admin: ""
   federation.admin.roles: roles--access
@@ -59,13 +59,13 @@ If a required field is empty, the form shows "This is required" and does not sav
 
 ### Stripe payout account
 
-Licence payments are paid to the federation's connected Stripe account. Vote4Dance keeps a 5% application fee. The field shows a **Connected** or **Not connected** tag and, once one exists, the Stripe account ID.
+License payments are paid to the federation's connected Stripe account. Vote4Dance keeps a 5% application fee. The field shows a **Connected** or **Not connected** tag and, once one exists, the Stripe account ID.
 
 - **Connect Stripe** creates a Stripe account for the federation and sends you to Stripe to complete onboarding. When you finish, Stripe sends you back to Settings.
 - **Manage Stripe connection** appears once an account exists. If onboarding is not finished, it sends you back to Stripe to finish it. If the account is already fully set up, you get the message "Stripe account is already connected".
 - The red clear button next to it disconnects the Stripe account from the federation after you confirm **Clear Stripe account**.
 
-The account counts as **Connected** only when Stripe reports that the details are submitted and charges are enabled. Vote4Dance checks this when you press **Manage Stripe connection**, so after finishing onboarding, open the dialog and press it once to update the tag. Licence checkout is refused until the account is **Connected**.
+The account counts as **Connected** only when Stripe reports that the details are submitted and charges are enabled. Vote4Dance checks this when you press **Manage Stripe connection**, so after finishing onboarding, open the dialog and press it once to update the tag. License checkout is refused until the account is **Connected**.
 
 See [Federation licenses](/federation-licenses/federation-admin/) for how payments are used.
 
@@ -109,7 +109,7 @@ Press the red delete button on the row and confirm. The same limits apply: an Ad
 | **Divisions** | The divisions menu item and page. |
 | **Getting started** | The getting started page. |
 | **Organizations** | The list of approved organizations. |
-| **Licenses** | The public licence catalog. It only appears once the federation has at least one active licence item. |
+| **Licenses** | The public license catalog. It only appears once the federation has at least one active license item. |
 
 A disabled section is hidden for all visitors. Signed-in federation staff still see buttons for the hidden sections in the admin box on the public federation home page, so you can check a section before you turn it on.
 
@@ -162,11 +162,11 @@ A configuration key can:
 - read the rules set at each place in the structure (the federation, a division, a discipline, a category, an age group, a class level, a class or a competition level), and change one rule there, keeping the others
 - read the rules a class ends up with, and where each one comes from, also as at an event of a chosen competition level
 - list, create and change competition levels with their rules. A code that another competition level already uses is refused
-- read the federation's licence items, and set which of them a class accepts
+- read the federation's license items, and set which of them a class accepts
 
-It cannot reach members, the licences dancers hold, clubs, competitions, rankings or points, and it cannot create or change the licence items themselves. A change is refused when someone else changed the same thing since the script read it, so nothing is overwritten by mistake.
+It cannot reach members, the licenses dancers hold, clubs, competitions, rankings or points, and it cannot create or change the license items themselves. A change is refused when someone else changed the same thing since the script read it, so nothing is overwritten by mistake.
 
-For the person writing the script, these are the addresses for rules, competition levels, licence items and new categories, below `/public/v1/federation`:
+For the person writing the script, these are the addresses for rules, competition levels, license items and new categories, below `/public/v1/federation`:
 
 | Method | Path | What it does |
 |---|---|---|
@@ -177,9 +177,9 @@ For the person writing the script, these are the addresses for rules, competitio
 | `GET` | `/competition-levels` | competition levels with their rules, optionally `?division_id=` |
 | `POST` | `/competition-levels` | create a competition level; a code already in use answers 409 |
 | `PATCH` | `/competition-levels/:id` | change a competition level; needs `If-Match` |
-| `GET` | `/license-items` | the federation's licence items |
-| `GET` | `/classes/:id/license-items` | the licence items a class accepts |
-| `PUT` | `/classes/:id/license-items` | set the licence items a class accepts; needs `If-Match` |
+| `GET` | `/license-items` | the federation's license items |
+| `GET` | `/classes/:id/license-items` | the license items a class accepts |
+| `PUT` | `/classes/:id/license-items` | set the license items a class accepts; needs `If-Match` |
 | `POST` | `/categories` | create a category |
 
 The full reference, with every address, is at `/public/v1/openapi.json`.
@@ -217,7 +217,7 @@ If you lose a key, revoke it and create a new one.
 
 The only integration on this tab is **NORRIQ MemberSport**, and it is only shown for the DSV federation. Every other federation sees "No integrations are configured for this federation."
 
-NORRIQ MemberSport is used to verify a licence holder's member number, and their birthdate, against the club's NORRIQ records.
+NORRIQ MemberSport is used to verify a license holder's member number, and their birthdate, against the club's NORRIQ records.
 
 | Field | What it is |
 |---|---|
@@ -232,8 +232,8 @@ The client credentials are not entered here. Each club has its own **NORRIQ Memb
 
 The **Guide** tab is a short map of where federation work is done. It has three cards:
 
-- **Federation-wide** links to **Organizations** (approving clubs, issuer role and representation), **Licenses** (issued licences and licence items), **Rulebook** (the shared rules and what is still automated) and **Enforcement log** (why rules allowed, blocked, skipped or promoted someone). **Organizations** and **Enforcement log** open the matching tabs under **Members**.
-- **Division work** links to **Division**, the **Structure** page, where rankings, class state, history and class licence rules are handled per division, and each discipline holds its classes and class-level licence rules.
+- **Federation-wide** links to **Organizations** (approving clubs, issuer role and representation), **Licenses** (issued licenses and license items), **Rulebook** (the shared rules and what is still automated) and **Enforcement log** (why rules allowed, blocked, skipped or promoted someone). **Organizations** and **Enforcement log** open the matching tabs under **Members**.
+- **Division work** links to **Division**, the **Structure** page, where rankings, class state, history and class license rules are handled per division, and each discipline holds its classes and class-level license rules.
 - **Manual operations guide** says which page to use when a rule is not automated: ranking corrections for selection exceptions and ties, membership edits for manual promotion, demotion and class changes, representation history for moving a competitor between organizations, and the enforcement log to check the result afterwards.
 
 The tab has nothing to set.

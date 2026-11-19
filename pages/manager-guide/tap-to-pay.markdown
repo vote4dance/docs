@@ -2,8 +2,8 @@
 layout: page
 title: Tap to Pay on iPhone
 permalink: /manager-guide/tap-to-pay/
-parent: Manager Guide
-nav_order: 3.75
+parent: Registration and sales
+nav_order: 8
 help:
   checkin.sell.card: taking-a-card-from-the-web-till
 ---

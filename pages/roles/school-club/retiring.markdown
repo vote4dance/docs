@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Retiring members or teams
+title: When members, teams or the club stop
 permalink: /school-club/retiring/
 parent: School/Club
 nav_order: 10
@@ -16,7 +16,7 @@ Club members have **no retired or inactive state**. A member is either in the cl
 
 1. **Cancel their open registrations** on `Organization → Administration → Registration`, while
    the registration period is open. After that, ask the organizer.
-2. **Stop applying for their licence.** It turns **Expired** by itself when its validity window
+2. **Stop applying for their license.** It turns **Expired** by itself when its validity window
    closes.
 3. **If they had a role** (Coach, Manager, Administrator), give that work to someone else first.
 4. **Remove them from the club**, if they are leaving: the delete button on their row on
@@ -24,7 +24,7 @@ Club members have **no retired or inactive state**. A member is either in the cl
    **Leave organization** on the club's **Home**.
 
 A dancer who retires from competing does not need to leave the club. Their dancer's status at
-the federation is set by the federation. See [Retiring](/dancer/retiring/).
+the federation is set by the federation. See [If you stop competing](/dancer/#if-you-stop-competing).
 
 ## A team stops
 
@@ -39,7 +39,7 @@ the federation is set by the federation. See [Retiring](/dancer/retiring/).
 
 1. Make sure another Administrator is in place first. Only Vote4Dance support can make someone
    an Administrator, and the last administrator cannot leave the club.
-2. Check the licence approvals and payments they handled have a new owner (**Manager** or higher).
+2. Check the license approvals and payments they handled have a new owner (**Manager** or higher).
 3. They leave with **Leave organization**. Another administrator cannot remove them; if they
    cannot do it themselves, Vote4Dance support can.
 
@@ -50,8 +50,4 @@ do:
 
 - cancel open registrations
 - tell the federation, and detach from it on **Federation**
-- tell members, so they join another club, and ask the federation to move their licences
-
-## Next step
-
-Return to [School/Club](/school-club/) to see all the steps.
+- tell members, so they join another club, and ask the federation to move their licenses

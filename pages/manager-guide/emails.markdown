@@ -2,8 +2,8 @@
 layout: page
 title: Emails and the check-in QR code
 permalink: /manager-guide/emails/
-parent: Manager Guide
-nav_order: 3.5
+parent: Registration and sales
+nav_order: 4
 ---
 
 # Emails and the check-in QR code

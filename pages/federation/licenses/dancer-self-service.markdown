@@ -2,8 +2,8 @@
 layout: page
 title: Dancer self-service
 permalink: /federation-licenses/dancer-self-service/
-parent: Federation Licenses
-nav_order: 3
+parent: Dancer
+nav_order: 9
 help:
   public.account.licenses: ""
 ---

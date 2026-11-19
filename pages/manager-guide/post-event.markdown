@@ -2,8 +2,8 @@
 layout: page
 title: Post-event and exports
 permalink: /manager-guide/post-event/
-parent: Manager Guide
-nav_order: 5
+parent: After the event
+nav_order: 1
 ---
 
 # Post-event and exports

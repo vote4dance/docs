@@ -104,9 +104,3 @@ The widget only shows competitions that organizers have marked as public with vi
 ## Security
 
 The embed key is **safe to publish in public HTML** — it can only read your club's public data and cannot modify anything. Rotate it if you believe it has been misused.
-
----
-
-## Next step
-
-If your members compete through a federation, continue to [Joining a federation](/school-club/joining-a-federation/) or review [Federation Licenses](/federation-licenses/).

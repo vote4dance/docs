@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Applying for a school/club
+title: How members join
 permalink: /school-club/applying-for-a-school-club/
 parent: School/Club
-nav_order: 2
+nav_order: 3
 ---
 
-# Applying for a school or club
+# How members join
 
-At organization level, this step means making your school/club profile clear, searchable, and ready for members to join without confusion.
+Dancers and staff join your club themselves. Your part is to make the club easy to find, and to approve the people who apply.
 
 ## The mechanics on your side
 
@@ -23,7 +23,7 @@ the approval itself:
 |---|---|
 | **Member** | Dancers. They represent the club and coaches can enter them; they cannot register on the club's behalf or manage members. |
 | **Coach** | Whoever creates competitors, registers them and pays for the club's registrations. |
-| **Manager** | Whoever approves memberships and handles the club's federation licences. |
+| **Manager** | Whoever approves memberships and handles the club's federation licenses. |
 | **Administrator** | Whoever runs the club: invites people, sets roles below administrator, applies to federations, edits or deletes the club. |
 
 A dancer left on **Member** is correct, not a mistake to fix.
@@ -58,11 +58,7 @@ role under **Permissions**.
 
 | Problem | Fix |
 |---|---|
-| A member joined the wrong club | They leave it and join yours. Check their licence names your club too: an active licence's club can only be changed by the federation, by reissuing it. |
+| A member joined the wrong club | They leave it and join yours. Check their license names your club too: an active license's club can only be changed by the federation, by reissuing it. |
 | Applications are waiting and nobody approves them | Only managers and administrators can approve. Coaches do not see the waiting list. There is no reminder. |
-| There are two profiles for your club | Do not add members to both. Ask your federation which one is the real club; moving competitors and licences between clubs is done by the federation. See [Club transfers](/federation/club-transfers/). |
+| There are two profiles for your club | Do not add members to both. Ask your federation which one is the real club; moving competitors and licenses between clubs is done by the federation. See [Club transfers](/federation/club-transfers/). |
 | You cannot find a way to add someone | Nobody is added from the club's side. Send them the club's page and ask them to press **Join organization**. |
-
-## Next step
-
-Continue to [Joining a federation](/school-club/joining-a-federation/).

@@ -2,8 +2,8 @@
 layout: page
 title: Notifications
 permalink: /manager-guide/notifications/
-parent: Manager Guide
-nav_order: 3.55
+parent: Registration and sales
+nav_order: 5
 help:
   manager.event.notifications: ""
 ---

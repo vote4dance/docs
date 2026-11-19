@@ -3,7 +3,7 @@ layout: page
 title: Following results in the app
 permalink: /dancer/following-in-the-app/
 parent: Dancer
-nav_order: 1.7
+nav_order: 6
 ---
 
 # Following results in the app

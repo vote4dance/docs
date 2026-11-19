@@ -2,59 +2,98 @@
 layout: page
 title: Organizer
 permalink: /organizer/
-nav_order: 5
+nav_order: 3
 has_children: true
+redirect_from:
+  - /manager-guide/
+  - /understanding-vote4dance/manager-intro/
 ---
 
 # Organizer
 
-**You are an event organizer if** you are the person (or team) responsible for setting up and running a dance competition or event using the Manager app.
+This section is for the person or team that sets up and runs a competition. You do it in
+**Manager**, the app where you create the event, build its classes and rounds, take
+registrations, run the rounds on the day and publish the results. The judges, the speaker, the
+check-in desk and the screens each have their own app, which you hand out from Manager: see
+[Users, apps and stations](/manager-guide/users-and-stations/).
 
-This hub covers:
-- **Getting set up:** your account, your club, and running under a federation
-- **Registration, results and rankings:** what you set up, and what the federation does with your results
-- **Between seasons:** a new season, and handing your events over
+Follow the groups in order for a new event, or jump to the part you are working on.
 
-**Not sure if you're an organizer?** Start with [Finding Your Role](/understanding-vote4dance/finding-your-role/).
+**First competition?** Start with
+[Planning your first competition](/manager-guide/first-competition/), then make a practice
+event with the [Quickstart](/quickstart/).
 
-**Just starting out?** Go to [Getting Started](/getting-started/) instead of jumping into the steps below.
+## Plan your competition
 
-## Organizer-owned steps
+| Page | What it covers |
+|---|---|
+| [Planning your first competition](/manager-guide/first-competition/) | What is required of you as organizer, what must be entered in Vote4Dance, and when. |
+| [Quickstart](/quickstart/) | From nothing to a runnable event. |
+| [Technical requirements](/requirements/) | Devices, network and browser. |
+| [Your organizer account](/organizer/account-creation/) | Your account and access to Manager. |
 
-1. [Account creation](/organizer/account-creation/)
-2. [Licences](/organizer/getting-a-license/)
-3. [Applying for a school/club](/organizer/applying-for-a-school-club/)
-4. [Joining a federation](/organizer/joining-a-federation/)
-5. [Registration for event](/organizer/registration-for-event/)
-6. [Results, points and rankings](/organizer/creating-and-getting-a-ranking/)
-7. [Age and class transfers](/organizer/age-transfer/)
-8. [Class transfer](/organizer/class-transfer/)
-9. [New season](/organizer/renew-license/)
-10. [Retiring and handover](/organizer/retiring/)
+## Set up the event
 
-**Running an event with no federation or club?** You only need Account creation and Registration
-for event. Use the Manager Guide for the rest.
+| Page | What it covers |
+|---|---|
+| [Event setup](/manager-guide/event-setup/) | Creating the event: details, status, visibility. |
+| [Event image](/manager-guide/event-image/) | The one picture every event needs. |
+| [Users, apps and stations](/manager-guide/users-and-stations/) | Which app each functionary gets, and shared devices. |
+| [Floors](/manager-guide/floors/) | The places rounds are danced, and running several at once. |
+| [Screens, projectors and venue technology](/manager-guide/screens/) | Projectors, TVs, screen views and the venue's equipment. |
+| [Sponsors](/manager-guide/sponsors/) | Sponsor offers and sales. |
+| [Sponsor videos and spots](/manager-guide/sponsor-videos/) | Sponsor videos on the venue screens and as speaker spots. |
 
-## Running a competition
+## Classes, rounds and judges
 
-1. [Planning your first competition](/manager-guide/first-competition/) — What is required of you, what must be entered in Vote4Dance, and when
-2. [Test run and venue rehearsal](/manager-guide/test-run/) — Simulate a whole competition beforehand, at the venue, with the real devices
-3. [Screens, projectors and venue technology](/manager-guide/screens/) — The projector, the TVs and what to ask the venue
-4. [Live operations](/manager-guide/live-operations/) — The event-day runbook
+| Page | What it covers |
+|---|---|
+| [Competition setup](/manager-guide/competition-setup/) | Classes, rounds, participants, judges and panels. |
+| [Judges](/manager-guide/judges/) | Adding and inviting judges, PINs, panels and when assignment locks. |
+| [Schedule and conflicts](/manager-guide/schedule/) | The running order, times, publishing, printing and dancer conflicts. |
+| [WDSF competitions](/manager-guide/wdsf/) | Importing competitions and couples from WDSF, and sending the results back. |
+| [Battle bracket](/battle-bracket/) | 1v1 elimination brackets: placing round, seeding, B-final. |
+| [Jack'n'Jill](/jack-n-jill/) | The random-partner format, with callbacks and finals. |
+| [Point summary](/point-summary/) | Combined point totals across rounds or classes. |
 
-## Dedicated feature sections
+## Registration and sales
 
-1. [Manager Guide](/manager-guide/) — The app where you configure and run events
-2. [Registration and check-in](/manager-guide/registration-checkin/) — Event participant registration and check-in workflows
-3. [Emails and the check-in QR code](/manager-guide/emails/) — What dancers are emailed, and the QR code they bring to the desk
-4. [Shop — tickets, meals and merch](/manager-guide/shop/) — Selling to the audience, with the money on your own Stripe account
-5. [At the door](/manager-guide/the-door/) — Scanning Vote4Dance IDs and tickets, and recording arrivals
-6. [Users, apps and stations](/manager-guide/users-and-stations/) — Which app each functionary gets, and shared devices
-7. [Statistics](/manager-guide/statistics/) — Event size, dressing rooms, schedule load and medals
+| Page | What it covers |
+|---|---|
+| [Setting up registration for your event](/organizer/registration-for-event/) | Opening a registration period, approving what comes in, and importing it as participants. |
+| [Registration and check-in](/manager-guide/registration-checkin/) | Registration periods, statuses, participants and the desk. |
+| [Music from the dancers](/manager-guide/music/) | Following up on the dancers' own tracks and handing them to the DJ. |
+| [Emails and the check-in QR code](/manager-guide/emails/) | What participants are emailed, and the QR code they bring. |
+| [Notifications](/manager-guide/notifications/) | Event updates and push notifications to followers. |
+| [Shop](/manager-guide/shop/) | Tickets, meals and merch, sold by card. |
+| [At the door](/manager-guide/the-door/) | Scanning IDs and tickets, arrivals, selling at the desk. |
+| [Tap to Pay on iPhone](/manager-guide/tap-to-pay/) | Taking card payments at the desk on an iPhone, without a card reader. |
 
-## How to use this hub
+## Rehearsal and event day
 
-1. **New to Vote4Dance?** Start with [Getting Started](/getting-started/).
-2. **Troubleshooting a specific step?** Find it in the steps above for context and prerequisites.
-3. **Ready to configure your event?** Switch to [Manager Guide](/manager-guide/) for detailed workflows.
-4. **Need platform-level setup help?** Use [Understanding Vote4Dance](/understanding-vote4dance/) to clarify system concepts.
+| Page | What it covers |
+|---|---|
+| [Test run and venue rehearsal](/manager-guide/test-run/) | Simulating a whole competition beforehand, at the venue, with the real devices. |
+| [Problems (setup checks)](/manager-guide/validator/) | The automatic checks on your setup, and how to fix what they find. |
+| [Live operations](/manager-guide/live-operations/) | The event-day runbook. |
+| [Running a quiz from the speaker app](/manager-guide/speaker-quiz/) | The audience quiz, run by the speaker. |
+| [Statistics](/manager-guide/statistics/) | Event size, dressing rooms, schedule load, medals. |
+
+## After the event
+
+| Page | What it covers |
+|---|---|
+| [Post-event and exports](/manager-guide/post-event/) | Results, rankings, exports, archiving. |
+| [Results, points and rankings](/organizer/creating-and-getting-a-ranking/) | Closing the competition, and what the federation does with your results. |
+| [Customizing diplomas](/manager-guide/diploma-customization/) | Diploma layout and printing. |
+
+## Federations and seasons
+
+| Page | What it covers |
+|---|---|
+| [Running an event under a federation](/organizer/joining-a-federation/) | What a federation's rules and licenses mean for your event. |
+| [Age and class transfers at your event](/organizer/age-transfer/) | What moves automatically, and what to do when a dancer is in the wrong class. |
+| [Getting ready for a new season](/organizer/renew-license/) | What to check before the first event of a season. |
+| [Handing over your events](/organizer/retiring/) | Giving your events and contacts to someone else. |
+
+**Running an event with no federation or club?** You can skip the last group.

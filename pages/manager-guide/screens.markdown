@@ -2,8 +2,8 @@
 layout: page
 title: Screens, projectors and venue technology
 permalink: /manager-guide/screens/
-parent: Manager Guide
-nav_order: 1.4
+parent: Set up the event
+nav_order: 5
 help:
   manager.event.screens: ""
   screens.event: ""

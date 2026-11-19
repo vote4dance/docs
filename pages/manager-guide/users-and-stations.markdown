@@ -2,8 +2,8 @@
 layout: page
 title: Users, apps and stations
 permalink: /manager-guide/users-and-stations/
-parent: Manager Guide
-nav_order: 1.3
+parent: Set up the event
+nav_order: 3
 help:
   manager.event.users: the-apps
   manager.event.stations: stations-shared-devices

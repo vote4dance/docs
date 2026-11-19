@@ -2,8 +2,8 @@
 layout: page
 title: Sponsors
 permalink: /manager-guide/sponsors/
-parent: Manager Guide
-nav_order: 1.5
+parent: Set up the event
+nav_order: 6
 help:
   manager.event.sponsors: ""
 ---

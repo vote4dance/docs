@@ -2,7 +2,7 @@
 layout: page
 title: Event setup
 permalink: /manager-guide/event-setup/
-parent: Manager Guide
+parent: Set up the event
 nav_order: 1
 help:
   manager.new: step-1-create-a-new-event
@@ -21,9 +21,9 @@ Before starting event setup, confirm:
 - ✓ You have Manager access (you can see the Manager link in the menu)
 - ✓ Your organization is already created and approved (if required by your federation)
 
-If any of these is missing, see [Organizer account creation](/organizer/account-creation/) first.
+If any of these is missing, see [Your organizer account](/organizer/account-creation/) first.
 
-## What this step is for
+## What you create
 
 You'll create the basic Event record that will hold all your competition data:
 - Event name, location, date
@@ -205,16 +205,6 @@ After creating the event:
 3. **The event image is uploaded** — without it the event cannot be published
 4. **Status is Hidden** while you build, and **Published** when it should be public
 5. **Problems shows no failed tests**
-
-## Next steps
-
-After event setup:
-
-1. **[Competition setup](/manager-guide/competition-setup/)** — Define classes, rounds, teams, judges and panels
-2. **[Users, apps and stations](/manager-guide/users-and-stations/)** — Give each functionary the app they need
-3. **[Registration and check-in](/manager-guide/registration-checkin/)** — Open registration for dancers
-4. **[Test run and venue rehearsal](/manager-guide/test-run/)** — Prove the setup before the day
-5. **[Live operations](/manager-guide/live-operations/)** — Run the competition
 
 ## Troubleshooting
 

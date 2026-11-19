@@ -3,7 +3,7 @@ layout: page
 title: Competitions
 permalink: /federation/competitions/
 parent: Federation
-nav_order: 7.5
+nav_order: 6
 help:
   federation.competition: ""
 ---
@@ -174,7 +174,7 @@ The same link between an event and your federation is what your rankings and rul
   classes and the event date falls in the ranking's time window. An event that shows
   **Not published** here does not count towards a ranking yet. See
   [Federation rankings](/federation-rankings/).
-- **Rules.** Your federation's rules, classes and licence checks apply to an event once it is
+- **Rules.** Your federation's rules, classes and license checks apply to an event once it is
   linked to your federation. The rules for a tier of events, such as whether a championship awards
   promotion points, are set on its **Competition level**. See
   [Federation rules](/federation-rules/) and [Promotion points](/federation/progression/).
