@@ -10,6 +10,7 @@ child_nav_order: reversed
 # Release notes
 ## 2026-11-19
  ⭐ **New**
+* Federation: The configuration API can now read and change dances: add a dance to a discipline, or change a dance's name, order or a single setting, such as the place a bronze battle starts from, without resending the others (see [Personal configuration keys](/federation/settings/#personal-configuration-keys))
 * Scrutineer (Beta): **Let autopilot do it** on a round in **Live** lets autopilot run just that round, so you can try it without switching it on for the whole event. A short window says what autopilot will do in the round and lets you choose whether it confirms after the countdown or waits for you to press Confirm. When autopilot has run a round, the class's next round offers **Run the … on autopilot** or **Whole class from here…** (see [Let autopilot run a round](/manager-guide/live-operations/#let-autopilot-run-a-round))
  🛠️ **Improvements**
 * Manager: A final made of a gold battle and a bronze battle that starts from 3rd now places its dancers 1–4 from the two battles, also when the final itself is judged as battles, and a final with three dancers (a gold battle and a 3rd place) places them 1–3. Before, such a final gave the gold battle's winner 1st and the other three 2nd until its judging was switched to placement. The round page now also marks the bronze battle's winner with an **x**, as it does the gold battle's (see [Final with a bronze battle and a gold battle](/federation-rules/battle-sub-rounds/#setup-2--final-with-a-bronze-battle-and-a-gold-battle))
