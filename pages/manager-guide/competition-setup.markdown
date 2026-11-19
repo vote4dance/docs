@@ -254,11 +254,11 @@ Do not mix participants from a file and participants from registrations in the s
 | What you see | Why | What to do |
 |---|---|---|
 | A round has no **Start judging** button. | The round has no participants yet. | Click **Add participants** on the round. See [Put the participants in their first round](#put-the-participants-in-their-first-round). |
-| **Start judging** is greyed out, with "Assign a judging panel to this class or round before starting judging." | Neither the class nor the round has a judging panel. | Give the class a panel on the **Classes** tab of `Competition → Judges`. See [Judges](/manager-guide/judges/#classes). |
+| **Start judging** is greyed out, with "Assign a judging panel to this class or round before starting judging." | Neither the class nor the round has a judging panel. | Give the class a panel on the **Classes** tab of `Competition → Judges`. See [Judges](/manager-guide/judge-panels/#classes). |
 | A participant is not in the class. | The registration is not **Approved**, or it was approved after the last import. | Approve it and click **Update/import participants** again. For a participant added by hand, check **Starting in**. |
 | A participant is in the class but not in the round. | Participants are put in the first round with a button, not by themselves. | Click **Add participants** on the round. |
 | The Round guide says "Cannot create rounds from guide if participants are already present". | A round of the class already has participants. | Change the rounds one at a time. See [Adding rounds by hand](/manager-guide/rounds-by-hand/). |
-| A panel cannot be changed. | A panel locks once a round that uses it has scores. | See [When assignment locks](/manager-guide/judges/#when-assignment-locks). |
+| A panel cannot be changed. | A panel locks once a round that uses it has scores. | See [When assignment locks](/manager-guide/judge-panels/#when-assignment-locks). |
 | A file import put participants in the wrong class. | The file names the wrong class for them. | Correct the file and upload it again on **Data transfer**. The preview shows what will change. |
 
 ## Related pages

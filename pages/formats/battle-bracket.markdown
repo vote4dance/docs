@@ -3,7 +3,7 @@ layout: page
 title: Battle bracket
 permalink: /battle-bracket/
 parent: Classes, rounds and judges
-nav_order: 6
+nav_order: 9
 ---
 
 # Battle bracket

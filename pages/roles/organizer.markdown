@@ -54,7 +54,10 @@ event with the [Quickstart](/quickstart/).
 |---|---|
 | [Competition setup](/manager-guide/competition-setup/) | Classes, rounds, participants and start numbers, in four steps. |
 | [Adding rounds by hand](/manager-guide/rounds-by-hand/) | Single rounds, a second chance and a B-final, when the Round guide is not enough. |
-| [Judges](/manager-guide/judges/) | Adding and inviting judges, PINs, panels and when assignment locks. |
+| [Judges](/manager-guide/judges/) | Adding and inviting judges, letters, PINs and judge types. |
+| [Judge panels](/manager-guide/judge-panels/) | Seating judges on panels, judge needs, the panel of each class and round, and when assignment locks. |
+| [Judge schedules](/manager-guide/judge-schedules/) | A schedule for each judge: printed, in the Judging app and in the invitation email. |
+| [Judges on the day](/manager-guide/judges-on-the-day/) | Replacing a judge who can't come or can't judge a class, and separating tied positions. |
 | [Schedule and conflicts](/manager-guide/schedule/) | The running order, times, publishing, printing and dancer conflicts. |
 | [WDSF competitions](/manager-guide/wdsf/) | Importing competitions and couples from WDSF, and sending the results back. |
 | [Battle bracket](/battle-bracket/) | 1v1 elimination brackets: placing round, seeding, B-final. |
