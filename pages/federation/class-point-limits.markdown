@@ -115,6 +115,8 @@ Use this when a result has the wrong points and you cannot fix it by changing th
 
 The corrected number stays until you remove the correction, even if the competition is closed again or [points are recalculated](/federation/progression/#recalculate-points). The result shows **Corrected**. Who changed it, and why, is saved in the [Enforcement log](/federation/members/#enforcement-log) on **Members**.
 
+This is also how the federation changes the points of a competitor that stays in its class. No screen sets a competitor's total directly: the total is always added up from its results. A carried-in balance can be set only while you move the competitor to another class; see [Manual moves and corrections](/federation/progression/#manual-moves-and-corrections).
+
 While a correction stands, the points on that entry cannot be changed by hand or by importing a file. To take it away, press **Correct points** again and choose **Remove correction**; the result goes back to the points the competition gave it.
 
 ## Good to know

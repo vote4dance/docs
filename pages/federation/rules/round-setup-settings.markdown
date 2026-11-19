@@ -77,14 +77,14 @@ Set under **Advanced** in the rule editor.
 | **Extra time** | A number of seconds (the guides use 40) | Seconds added to the **Music length** of the same rule. The sum is the heat length, which Manager describes as the total time for a heat, including transitions. The heat length is counted from the rule that sets either of them, so set both on the same rule. |
 | **Round comment** | Text | The round's comment: a short note shown on the judging sheets, in the public app and under the round's name on the round page ([Round comment](/manager-guide/live-operations/#round-comment)). |
 | **Randomize heats** | **Enable** or **Disabled** | For autopilot in Scrutineer (Beta), the new version of the Manager app: when autopilot sends the competitors on to this round, it draws the round's running order at random, unless the autopilot settings of the round they come from already decide it. Nothing else reads it. |
-| **Tempo** | One or two values | Stored on the rule only. The rounds the Round guide creates do not carry it. |
+| **Tempo** | One or two values | Stored on the rule only. The rounds the Round guide creates do not carry it, and nothing else reads it: not Manager, the judges' app, the schedule or the music. Setting it has no effect. |
 
 **Other round settings**
 
 | Setting | Values | Effect |
 |---|---|---|
 | **Round weight** | A number; 1 when no rule sets it | The round's **Weight** in Manager. When a round with an even number of sub-rounds is tied, the sub-round with the highest weight decides: weight 2 wins over weight 1. |
-| **Number of alternates** | A number | The round's **Number of alternates** in Manager, used by a round whose **Round priority setting** is **Alternates** ([Rounds that use priority](/manager-guide/live-operations/#rounds-that-use-priority)). |
+| **Number of alternates** | A number | The round's **Number of alternates** in Manager, used by a round whose **Round priority setting** is **Alternates** ([Rounds that use priority](/manager-guide/live-operations/#rounds-that-use-priority)). The number counts from the first place and includes the competitors who go through: for 10 through and 3 alternates, type 13. A number that is not higher than the number going through gives no alternates. |
 | **Acro** | An acrobatics level from the list | The round's **Acrobatics level** in Manager. Empty (**Disabled**) means the round has none. |
 
 The list under **Change** also has settings for brackets: **Bracket: placing round

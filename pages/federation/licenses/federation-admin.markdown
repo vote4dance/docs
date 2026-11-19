@@ -134,9 +134,9 @@ A license saved as **active** counts as approved by the federation from that mom
 | **Division**, **Discipline** | The part of the federation the license is for, when it is not for all of it. Taken from the license item when you chose one. |
 | **Organization** | The club the dancer holds the license with. The list offers only clubs that are allowed to issue licenses. |
 | **Payer organization** | The club that pays, when a club pays. |
-| **Competition** | For a license that is valid for one competition only: that competition's ID. The license then counts for that competition and no other. |
+| **Competition** | For a license that is valid for one competition only: that competition's ID, a number. It is the number after `/comp/` in the address of the competition's registration page on the Vote4Dance website, for example 1234 in `…/event/1234/comp/1234/registration`. Type the number, not the competition's name or its reference number. The license then counts for that competition and no other. Leave it empty for a season license. |
 | **Valid from**, **Valid to** | The dates the license is valid. It counts for a competition held between them. |
-| **Flags JSON** | Advanced settings that can limit what the license counts for. Leave it as it is: a wrong value can stop the license from counting at registration. |
+| **Flags JSON** | Extra limits on this one license, written as JSON. They can stop the license from counting at registration or for promotion, or tie it to a list of competitions. Vote4Dance never fills the field in, and nothing in a federation's normal setup needs it: what a license counts for is set on the license item and in the class's **License rules**. Leave it empty. |
 | **Note** | Your own comment. It shows in **Needs your approval** and in the CSV. |
 | **Payment reference**, **Invoice reference** | Your own references for the payment and the invoice. They are in the CSV. |
 

@@ -75,7 +75,7 @@ While a ranking has no class, the row says **No classes assigned**: "This rankin
 
 - **Name** and **Description**.
 - **State**: **Draft**, **Active** or **Retired**. Only an **Active** ranking is listed on the public page.
-- **Privacy**: **Public** or **Coach**. A **Coach** ranking is left off the public list.
+- **Privacy**: **Public** or **Coach**. See [Who can see a ranking](#who-can-see-a-ranking).
 - **Purpose**: **Public ranking**, **Selection ranking**, **Progression ranking** or **Championship invitation**. Everything except **Public ranking** is limited to the **current season** automatically.
 
 ### Time window
@@ -136,6 +136,8 @@ A ranking does not change by itself when a competition ends. It is calculated:
 
 A recalculation also brings the promotion points of the ranking's classes up to date and applies the promotions that are due, as **Sync federation progress** does on [Members](/federation/members/#sync-federation-progress).
 
+Those promotions are the ones on points: classes whose **Advance By** is **Points**, for competitors that have reached the threshold. A place in the ranking moves nobody by itself. Setting a class's **Advance By** to **Ranking** does nothing automatically: no recalculation, competition close or **Sync federation progress** promotes its competitors, and although the **Progression** tab shows the class's **Progression ranking threshold** as "Top *n*", no screen applies it. To promote from a ranking, generate the **Promotion worklist** and apply it yourself: see [Promotion on the best results of a season](/federation/progression/#promotion-on-the-best-results-of-a-season).
+
 A competition counts when:
 
 - it is linked to your federation, and is published, closed or archived (see [Competitions](/federation/competitions/#rankings-and-rules))
@@ -154,6 +156,15 @@ Two rules, set in the [federation rules](/federation-rules/editor/), also decide
 3. Click the ranking's name on its row. Its public page opens, so you can check what dancers will see. See [Public Rankings](/federation-rankings/public/).
 
 Repeat the setup in the next division if the same list is needed there.
+
+### Who can see a ranking
+
+| **Privacy** | On the website | In the phone app |
+|---|---|---|
+| **Public** | Listed under **Rankings** on the federation's public page when its **State** is **Active**. Anyone can open it, without signing in. | The app has no list of rankings. A dancer's profile can show the dancer's place in a **Public** ranking under **Ranking and progression**. |
+| **Coach** | Left off the list under **Rankings**. The ranking's own address still opens for anyone who has it, without signing in. | The place is not shown on the dancer's profile. |
+
+**Coach** only takes a ranking off the public list. It is not tied to a role: coaches, club administrators and dancers get no list of **Coach** rankings, and nobody has to sign in to open one from its address. In the Federation app, the division's **Ranking** section lists every ranking, whatever its **Privacy**.
 
 ## Corrections and exceptions
 

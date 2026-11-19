@@ -161,6 +161,13 @@ bottom of the editor lists your changes in words, with the value before and afte
 
 Save before you leave the page or pick another level in the strip.
 
+A saved rule applies from that moment and until you change it. The editors have no start or end
+date, and the Federation app has no screen that creates a rule which starts or stops on a given
+day. For a rule that changes with a new season, change it on the day it should start to apply. The
+same goes for a discipline's round setup rules, which have no dates either. The **Rulebook** has a
+**Timed profiles** tab for dated rules, shown only when the federation has any; see
+[Checking the whole setup](/federation-rules/#checking-the-whole-setup).
+
 ---
 
 ## Example: one discipline is different
