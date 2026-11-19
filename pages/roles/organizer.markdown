@@ -19,6 +19,10 @@ check-in desk and the screens each have their own app, which you hand out from M
 
 Follow the groups in order for a new event, or jump to the part you are working on.
 
+Manager comes in two versions, classic and new. These pages describe the classic one unless they
+say Scrutineer (Beta): see
+[Classic Manager and the new Manager](/manager-guide/users-and-stations/#classic-manager-and-the-new-manager).
+
 **First competition?** Start with
 [Planning your first competition](/manager-guide/first-competition/), then make a practice
 event with the [Quickstart](/quickstart/).

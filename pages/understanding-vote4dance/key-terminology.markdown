@@ -3,7 +3,7 @@ layout: page
 title: Glossary
 permalink: /understanding-vote4dance/key-terminology/
 parent: Start here
-nav_order: 3
+nav_order: 4
 ---
 
 # Glossary
