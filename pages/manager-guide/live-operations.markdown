@@ -53,6 +53,14 @@ Everything you do to a round, you do on its page. There are two ways to open it:
   list is not shown on a phone.
 - **`Manager → Event → Schedule`**, or `Manager → Competition → Classes`: click the round's name.
 
+In Scrutineer (Beta), a round danced as several dances, such as a bugg final in Slow and Quick,
+is one line in that list when its dances follow each other. When other rounds are danced
+between its dances, each part has its own line in its place in the schedule, named after the
+round and its dances, such as **Final – Slow** and **Final – Quick**. An earlier part is done
+once the judges have handed in its dances, and the round is closed and confirmed on its last
+part. Every line opens the same round page, and **You're on it** is shown on the part being
+danced.
+
 The round page has these parts, from the top:
 
 | Part | What it is for |

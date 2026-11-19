@@ -10,6 +10,7 @@ child_nav_order: reversed
 # Release notes
 ## 2026-11-19
  🛠️ **Improvements**
+* Scrutineer (Beta): In **Live**, a round danced as several dances at different places in the schedule, such as a bugg final with Slow early and Quick after other classes, now has a line for each part in the list on the right, in its place, such as **Final – Slow** and **Final – Quick**. The next part shows as coming up when its turn comes, and **You're on it** marks the part being danced. Before, the round was one line at its first dance, so the list never showed when the later dance was due (see [The round page](/manager-guide/live-operations/#the-round-page))
 * Scrutineer (Beta): A point summary is easier to find and run in **Live**. In **Classes** it always has its own link, and the **+** number on a class with many rounds now opens the rounds that don't fit. **Next** points to the summary once every round it adds up is closed, and says how many rounds it waits for until then. A summary opened too early names the rounds it doesn't count yet, and it no longer asks for a judging panel. At the end of the day the run sheet names an unpublished point summary as what is left before the competition can be closed (see [Running it in Scrutineer (Beta)](/point-summary/#running-it-in-scrutineer-beta))
 ## 2026-11-19
  🛠️ **Improvements**
