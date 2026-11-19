@@ -270,5 +270,3 @@ then the exceptions.
 | **Crosses** | Heats of three instead of pairs; **Max on floor** 3. |
 | **Round guide** | The Manager tool that builds a competition's rounds from these rules. |
 | **Rulebook** | The federation view that shows the value each federation rule ends up with, and which level set it. |
-
----
