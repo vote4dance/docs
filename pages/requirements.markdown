@@ -2,8 +2,8 @@
 layout: page
 title: Technical requirements
 permalink: /requirements/
-parent: Getting Started
-nav_order: 2
+parent: Plan your competition
+nav_order: 3
 ---
 
 # Technical requirements

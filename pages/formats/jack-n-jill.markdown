@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Jack'n'Jill
+title: "Jack'n'Jill"
 permalink: /jack-n-jill/
-parent: Special formats
-nav_order: 1
+parent: Classes, rounds and judges
+nav_order: 6
 ---
 
-# Jack'n'Jill setup
+# Jack'n'Jill
 
 Use this guide for formats where prelims are judged by role and finals are judged as couples.
 

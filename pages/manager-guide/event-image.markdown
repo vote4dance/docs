@@ -2,8 +2,8 @@
 layout: page
 title: Event image
 permalink: /manager-guide/event-image/
-parent: Manager Guide
-nav_order: 1.2
+parent: Set up the event
+nav_order: 2
 ---
 
 # Event image

@@ -2,8 +2,8 @@
 layout: page
 title: Shop — tickets, meals and merch
 permalink: /manager-guide/shop/
-parent: Manager Guide
-nav_order: 3.6
+parent: Registration and sales
+nav_order: 6
 help:
   organizer.shop: ""
   organizer.shop.products: products

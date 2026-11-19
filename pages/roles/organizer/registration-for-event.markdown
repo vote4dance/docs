@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Registration for event
+title: Setting up registration for your event
 permalink: /organizer/registration-for-event/
-parent: Organizer
-nav_order: 5
+parent: Registration and sales
+nav_order: 1
 ---
 
 # Setting up registration for your event
@@ -12,8 +12,7 @@ Dancers and clubs register themselves on your event's public page. Your job is t
 **registration period**, approve what comes in, and import the approved registrations as
 participants.
 
-This page is the overview. Every screen is described in detail on
-[Registration and check-in](/manager-guide/registration-checkin/).
+For every screen in detail, see [Registration and check-in](/manager-guide/registration-checkin/).
 
 ## Where it is
 
@@ -94,15 +93,10 @@ Then assign start numbers and add participants to the first rounds. See
 | Problem | Fix |
 |---|---|
 | Nobody can register | Check that the event is published **and** that a registration period is open today. You need both. |
-| A dancer cannot see or enter a class | Check the period's **allowed classes**. Then check the class's Federation Class: the dancer's age, licence or dance role may not fit. The class list shows the dancer the reason. |
+| A dancer cannot see or enter a class | Check the period's **allowed classes**. Then check the class's Federation Class: the dancer's age, license or dance role may not fit. The class list shows the dancer the reason. |
 | Entries stay on **Waiting for the organization** | The organization has not signed them. On the **Organizations** tab press **Send reminder to all**. Dancers without an organization are not held up. |
 | A club says it paid, but the entry is still **Signed** | With manual payment, press **Mark paid** on the club's row on the **Organizations** tab once the money has arrived. See [Mark an organization as paid](/manager-guide/registration-checkin/#mark-an-organization-as-paid-manual-payment). |
 | A registration is stuck on Preliminary | With manual acceptance you approve it yourself. With manual payment, approve it once you have received the payment. |
 | An online payment was abandoned | The registration is removed automatically. The dancer starts again. |
 | An approved registration is not in the lineup | Run **Update/import participants** again. The **Imported** check shows which registrations are in. |
 | A dancer wants a refund after cancelling | Cancelling does not refund. You refund from Manager. If the dancer registered again and paid twice, see [Paid twice after cancelling](/manager-guide/registration-checkin/#paid-twice-after-cancelling). |
-
-## Next step
-
-Continue to [Results, points and rankings](/organizer/creating-and-getting-a-ranking/) if your
-event runs under a federation.

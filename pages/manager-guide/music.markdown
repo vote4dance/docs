@@ -2,8 +2,8 @@
 layout: page
 title: Music from the dancers
 permalink: /manager-guide/music/
-parent: Manager Guide
-nav_order: 3.3
+parent: Registration and sales
+nav_order: 3
 help:
   manager.event.music: ""
 ---

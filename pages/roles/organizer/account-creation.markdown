@@ -1,16 +1,14 @@
 ---
 layout: page
-title: Account creation
+title: Your organizer account
 permalink: /organizer/account-creation/
-parent: Organizer
-nav_order: 1
+parent: Plan your competition
+nav_order: 4
+redirect_from:
+  - /organizer/applying-for-a-school-club/
 ---
 
-# Organizer account creation
-
-This is the first step in the organizer workflow. The goal is to make sure the right people can enter Manager, control event data, and avoid account ownership problems later.
-
-## What this step is for
+# Your organizer account
 
 An organizer uses the Manager app to set up and run events. There is no separate organizer
 account type: you create an ordinary personal Vote4Dance account, and then either create an event
@@ -56,7 +54,7 @@ Gather these details:
 
 You are **signed in immediately**. There is no password to invent, and no separate sign-up. If you already have an account with that e-mail address, the code signs you in to it rather than creating a second one. See [Signing in](/signing-in/) for the steps with screenshots, and for saving a **passkey** so your face or fingerprint signs you in next time.
 
-There is no birth year, club or licence on this form. Those come later, on your profile and
+There is no birth year, club or license on this form. Those come later, on your profile and
 through your federation.
 
 ### Part 2: Get access to an event
@@ -105,6 +103,22 @@ does.
 The last Manager on a competition cannot be removed, so you cannot accidentally lock everyone
 out — but one person who is ill on the day is still a single point of failure.
 
+## If you organize through a club
+
+Being in a club and running an event are two separate things. A role in the club does not give
+you Manager on the club's events, and Manager on an event does not give you a role in the club.
+For running an event you usually need no club role beyond **Member**.
+
+- **Joining:** open the club and apply to join. If the club has **Member approval** switched on,
+  a manager or administrator there approves you; otherwise you are a member straight away.
+  Nobody can add you from the club's side. An application waits on the club's **Members** screen
+  with no reminder, so ask them if it is not approved. See
+  [Joining your club](/dancer/applying-for-a-school-club/).
+- **Roles:** once you have joined, a club administrator gives you a role under
+  **Administration → Permissions**. You need **Coach** or higher only if you also register the
+  club's own dancers, and **Administrator** if you handle the club's federation membership. See
+  [Club admin](/school-club/club-admin/).
+
 ## Troubleshooting
 
 ### "I created an account but don't see Manager"
@@ -125,17 +139,3 @@ Lineup, Check-in, Cafe or Organizer. Ask for the app you actually need to be tic
 ### "I forgot my password"
 
 You do not need a password. Go to https://vote4dance.com, choose **Sign in**, type your email and press **Continue**, then type the code that arrives in your inbox. If you do have a password and want to reset it, choose **This account has a password · use it instead**, then **Forgot your password?**. See [Signing in](/signing-in/#use-your-password).
-
-## What success looks like
-
-- You can sign in with your email and a code, or a passkey
-- You can click **Manager** and see event configuration options
-- You can create a new event or open an existing one
-- You can edit the event's details
-- At least one other person has also been given **Manager** on the event
-
-## Next step
-
-Continue to [Planning your first competition](/manager-guide/first-competition/) to see what you
-need to set up, or to [Licences](/organizer/getting-a-license/) if your event runs under a
-federation.

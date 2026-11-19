@@ -2,8 +2,8 @@
 layout: page
 title: Floors
 permalink: /manager-guide/floors/
-parent: Manager Guide
-nav_order: 1.35
+parent: Set up the event
+nav_order: 4
 help:
   manager.event.floor: ""
 ---

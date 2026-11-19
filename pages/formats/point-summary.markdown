@@ -2,11 +2,11 @@
 layout: page
 title: Point summary
 permalink: /point-summary/
-parent: Special formats
-nav_order: 2
+parent: Classes, rounds and judges
+nav_order: 7
 ---
 
-# Point summary setup
+# Point summary
 
 Use this flow when qualification is done first and final ranking uses summarized group points.
 

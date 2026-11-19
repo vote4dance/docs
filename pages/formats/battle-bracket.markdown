@@ -2,11 +2,11 @@
 layout: page
 title: Battle bracket
 permalink: /battle-bracket/
-parent: Special formats
-nav_order: 3
+parent: Classes, rounds and judges
+nav_order: 5
 ---
 
-# Battle bracket setup
+# Battle bracket
 
 This guide walks competition organisers through running **battle rounds** (1‑vs‑1 elimination matches and trios) where competitors are seeded based on the results of a prior qualifying round. It assumes you have **administrator** role or higher on the competition.
 
