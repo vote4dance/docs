@@ -21,8 +21,8 @@ your couple is in, and register in that one.
 
 - By **birth year**, not by birthday: your age is the year the season ends minus your birth year.
   If the season runs August 2026 to July 2027, you count as the age you turn in 2027.
-- From the **birth date on your account**. If it is missing or wrong, fix it in your account
-  settings.
+- From the **birth date on your account**. If it is missing or wrong, fix it under
+  **My account** → **Settings**.
 
 ## When a couple moves up
 

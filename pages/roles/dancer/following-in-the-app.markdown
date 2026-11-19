@@ -63,7 +63,9 @@ When the gift has ended, tap **Upgrade to Premium** in Settings and then **Start
 
 ## Vote for a competitor
 
-When the organizer has switched on audience voting, you can give a competitor up to five hearts, until that round's results are published. Voting is free. See [Hearts and Call it](/spectator/hearts-and-calls/) for calling who goes through as well.
+You can give a competitor up to five hearts while their round is being judged: from when the round starts until the organizer closes it, when the judges are done. The organizer can switch audience voting off for an event.
+
+Giving hearts is part of Premium, and the [free welcome gift](#if-you-have-the-free-welcome-gift) counts. Without Premium, **Vote** opens the Premium offer. See [Hearts and Call it](/spectator/hearts-and-calls/) for calling who goes through as well, which is free.
 
 1. In the schedule, tap **Vote** next to the competitor. The voting card opens.
 2. Tap the big heart to fill the ring a little at a time, or **hold** it to fill the ring while your finger is down. Lift your finger and it stops where it is.

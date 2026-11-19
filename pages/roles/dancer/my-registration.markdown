@@ -18,7 +18,7 @@ Every event you are registered for has a page of its own: **My registration**. I
 still have to do, every class you are in with its rounds and results, and whether your start number
 has been picked up. You also pay, add a class, change class and withdraw from a class there.
 
-In the Dancer app the same page is called **My event**. See [In the Dancer app](#in-the-dancer-app).
+In the Vote4Dance app the same page is called **My event**. See [In the Vote4Dance app](#in-the-vote4dance-app).
 
 ![My registration on the day of an event](/assets/images/my-registration/page.png)
 
@@ -77,7 +77,7 @@ At some events, your club or organization has to sign your entry before it count
 
    ![My registration with a declined entry and the Contact your organization card](/assets/images/organization-signing/6c-my-event-declined.png)
 
-If you have no organization, your entry skips signing and you pay yourself. The same texts show in the Dancer app, on **My event**.
+If you have no organization, your entry skips signing and you pay yourself. The same texts show in the Vote4Dance app, on **My event**.
 
 ## Your classes
 
@@ -149,7 +149,7 @@ A duo or team moves as one: everyone on the entry moves to the new class.
 The **Change class** button is missing when:
 
 - **Registration has closed.** The class says **Registration has closed: changes only at the desk**:
-  ask the organizer.
+  [ask the organizer](/getting-help/#reaching-the-organizer).
 - **Your club owns the entry.** The club changes it: ask your club's coach or administrator. They
   change the class from the club's **Registration** page (see
   [Moving an entry to another class](/school-club/registration-for-event/#moving-an-entry-to-another-class)).
@@ -248,7 +248,7 @@ DJ**. Once every class has its music, the **Upload music** reminder at the top g
 
 ![A class with its music uploaded](/assets/images/my-registration/music-uploaded.png)
 
-The server checks the length once more after the upload. This is why a file can still be refused
+Vote4Dance checks the length once more after the upload. This is why a file can still be refused
 even though your browser accepted it (see [If your file is refused](#if-your-file-is-refused)).
 
 In a class danced by a couple or a team, anyone on the entry can upload. In a class your club has
@@ -283,7 +283,7 @@ Your browser tells you straight away when a file cannot be used, and you can pic
 | **0:55 is shorter than the class minimum of min 2:30** | The track is shorter than the class requires. | Use a longer track. |
 | **This file could not be read as an MP3** | The file is damaged or is not really an MP3. | Export it again as MP3. |
 
-If the server refuses a file after it was sent, the line says **Not accepted:** and the reason, and
+If the file is refused after it was sent, the line says **Not accepted:** and the reason, and
 **Fix the track and upload it again.** Press **Upload MP3** again.
 
 If the class already had a music file, nothing is lost: the line keeps **Music uploaded** and adds
@@ -322,7 +322,7 @@ Press an event to open its **My registration**. Paying and withdrawing happen th
 
 ![Your events on the account page](/assets/images/my-registration/account.png)
 
-## In the Dancer app
+## In the Vote4Dance app
 
 In the app, open **Profile → Registrations** and tap an event to open **My event**. It shows the
 same things to do, your Vote4Dance ID and your classes, including **Waiting for the organization** and **Declined by the organization** (see [When your organization signs your entry](#when-your-organization-signs-your-entry)). Inside an event, the **Mine** part lists

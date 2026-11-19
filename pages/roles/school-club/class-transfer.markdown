@@ -47,8 +47,8 @@ federation's side, including what blocks a move: [Age moves](/federation/age-mov
 
 ### Before the season
 
-1. Make sure every dancer has a **birth date** on their account. Dancers add it themselves in
-   their account settings. Without it, you also cannot apply for their license.
+1. Make sure every dancer has a **birth date** on their account. Dancers add it themselves under
+   **My account** → **Settings**. Without it, you also cannot apply for their license.
 2. Tell couples close to an age limit which age group they will be in, and to ask the federation
    if they are unsure.
 
@@ -69,7 +69,7 @@ federation's side, including what blocks a move: [Age moves](/federation/age-mov
    **Change class** while the period is open, see
    [Moving an entry to another class](/school-club/registration-for-event/#moving-an-entry-to-another-class).
    If the right class is not offered there, cancel the entry and register again. After the period
-   closes, ask the organizer.
+   closes, [ask the organizer](/getting-help/#reaching-the-organizer).
 
 ## If the federation has a couple in the wrong class
 
@@ -79,7 +79,7 @@ the competitions it danced, and the class you expect.
 | What you see | Most likely reason |
 |---|---|
 | A couple should have moved up, but has not | The last competition is not closed yet. |
-| A couple's points are split over two couples | A wrong person number on an entry created a duplicate couple. |
+| A couple's points are split over two couples | A wrong federation ID on an entry created a duplicate couple. The organizer sees this number as **Person ID**. |
 | The club and the federation disagree about a class | Go by the federation's answer before registering. |
 
 ### The wrong age group

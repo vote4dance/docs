@@ -16,7 +16,7 @@ has_children: true
 - Keep the tickets in your Vote4Dance account and in the app, as QR codes
 - Follow the competition live: schedule, live scores and results, on the web and in the app
 - Hand a ticket to somebody else — whoever shows the code gets in
-- Take part in the hall: give hearts to couples, call who goes through, and play the quiz in the app
+- Take part in the hall: call who goes through and play the quiz in the app, and give hearts to couples with Premium
 
 ## Start here
 
@@ -28,7 +28,7 @@ has_children: true
 
 ## Good to know
 
-You need a Vote4Dance account to buy: it is where the tickets live, on every device you sign in to. It is the same free account dancers and clubs use, and the same one you follow competitions with. You sign in, or create it, with your e-mail and a code mailed to you: there is no password. See [Signing in](/signing-in/).
+You need a Vote4Dance account to buy: it is where the tickets live, on every device you sign in to. It is the same free account dancers and clubs use, and the same one you follow competitions with. You sign in, or create it, with your e-mail and a code mailed to you, with no password to remember. See [Signing in](/signing-in/).
 
 Results in the app stay on screen when the venue wifi drops. The app also opens without a network and shows the results already saved on the phone; while it reconnects it says "Showing results as of" and the time they were last updated.
 

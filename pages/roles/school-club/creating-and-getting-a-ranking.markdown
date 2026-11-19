@@ -15,7 +15,8 @@ dancers' results end up in the right place, under the right club.
 |---|---|
 | **Results** | When the organizer publishes each round. |
 | **Promotion points and class moves** | When the organizer **closes** the competition. |
-| **Rankings** | When the federation recalculates them, often overnight after the competition is closed. |
+| **Season points**, where the federation closes a class at a number of points per season | When the competition's results are public: when the organizer closes the competition, or earlier if the organizer publishes results while it runs. They are a separate count from promotion points. |
+| **Rankings** | When the federation recalculates them, often overnight. |
 
 How each of these works for a dancer is explained on
 [Results, points and rankings](/dancer/creating-and-getting-a-ranking/). Send it to members who
@@ -44,7 +45,7 @@ So when a dancer moves to your club, the federation has to reissue the license t
 
 If your federation closes a class at a number of points per season, the club's coaches and managers can follow every team's points in the Vote4Dance app. Open a dancer's or team's public profile and look at **Ranking and progression** on **Overview**. In a class's results, each team's place is followed by the points it earned there.
 
-When results are published and some of the club's teams have reached a limit, the coaches get one message for all of them, for example **2 of your teams move up**, naming each team and its category. Entries already made stay. To stop these messages, switch off **My club's teams move up a class** under **Profile** → **Settings** → **Notifications**, or in **Notification settings** on the website.
+When a competition's results are public and some of the club's teams have reached a limit, the coaches get one message for all of them, for example **2 of your teams move up**, naming each team and its category. Entries already made stay. To stop these messages, switch off **My club's teams move up a class** under **Profile** → **Settings** → **Notifications** in the app, or under **My account** → **Notification Preferences** on the website.
 
 See [Your season points in the app](/dancer/season-points/) for what each line means.
 
@@ -52,9 +53,9 @@ See [Your season points in the app](/dancer/season-points/) for what each line m
 
 | What you see | Most likely reason |
 |---|---|
-| A result is not in the ranking yet | The competition is not closed, or the ranking has not been recalculated. Wait a day. |
+| A result is not in the ranking yet | The ranking has not been recalculated. Wait a day. |
 | A result counts for the wrong club | The dancer's license names another club. Ask the federation to reissue it. |
-| A couple's points are split over two couples | A wrong person number on an entry. Tell the federation. |
+| A couple's points are split over two couples | A wrong federation ID on an entry. The organizer sees this number as **Person ID**. Tell the federation. |
 | A class or competition does not count | Each ranking only includes the classes the federation links to it. |
 
 When you contact the federation, include the dancer or team, the competition, the class, and the

@@ -8,25 +8,33 @@ nav_order: 11
 
 # Point summary
 
-Use this flow when qualification is done first and final ranking uses summarized group points.
+Use a point summary when a class starts with a qualification round that splits the couples into
+levels, and the final ranking adds up points for the level and for how far each couple got.
 
 ## 1. Run qualification round
 
-Create a normal qualification round.
+Create the qualification round as an ordinary round. Open it, go to **Priority**, set
+**Round priority setting** to **Groups** and click **Edit**.
 
-![Qualification](/assets/images/point-summary/qualification.png)
+![The qualification round with Priority open, Round priority setting on Groups and the Edit button](/assets/images/point-summary/qualification.png)
 
-Set group-based priority settings.
+In the **Round priority setting** dialog, click **Add** for each level and fill in its
+**Class name**, its **Name**, and a **Percentage** or a **Max**. Click **Ok**, then
+**Save changes** on the round.
 
-![Groups](/assets/images/point-summary/groups.png)
+![The Round priority setting dialog with two levels, the first with Max 15](/assets/images/point-summary/groups.png)
 
-When qualification is complete, assign groups by ranges.
+When the qualification round is **Closed**, its page shows **Update priority**, with the
+placements that go to each level, for example "BSNA: Placement 1 - 12". Move the slider to change
+where one level ends and the next begins, then click **Update priority**. You see "Priorities
+updated, please confirm!". **Reset priority** takes the levels off the couples again.
 
-![Assign groups](/assets/images/point-summary/assign-groups.png)
+![Update priority: placements 1 to 12 go to the first level and 16 to 26 to the second](/assets/images/point-summary/assign-groups.png)
 
 ## 2. Create summarize points round
 
-Create a dedicated round configured for summarized points.
+The point summary is a round of its own. On a round's page, under **Class order**, click
+**Add round** and choose **Point summary**.
 
 If your federation's [round template](/federation-rules/round-setups/#point-summary) or round setup
 add a point summary, the **Round guide** creates it for you: last in the class, in the unscheduled
@@ -35,15 +43,16 @@ step 3 as usual.
 
 ![The Round guide marks the point summary as unscheduled](/assets/images/round-guide/round-guide-point-summary.png)
 
-![Create summary](/assets/images/point-summary/create-summary.png)
+![Add round opened under Class order, with Point summary at the bottom of the list](/assets/images/point-summary/create-summary.png)
 
 ## 3. Configure group points
 
-Set priority mode to groups and configure group point distribution.
+Open the summary round, go to **Priority**, keep **Round priority setting** on **Groups** and
+click **Edit**. Give each level its **Points** and its **Multiplier**.
 
-![Group points edit](/assets/images/point-summary/group-points-edit.png)
+![The summary round with Priority open and the Edit button next to Round priority setting](/assets/images/point-summary/group-points-edit.png)
 
-![Group points](/assets/images/point-summary/group-points.png)
+![The dialog with Points and Multiplier for four levels, and the Bonus per round table below](/assets/images/point-summary/group-points.png)
 
 ### How points are counted
 
@@ -91,7 +100,7 @@ the couples who end in it. Each class is read on its own format, so when classes
 name for different parts of their format, the name gets a row per class, with the class names below
 it. Those rows share one setting: changing one changes that round name in every class.
 
-![Bonus per round](/assets/images/point-summary/bonus-per-round.png)
+![The Bonus per round table: each round, what it counts as and the bonus for reaching it](/assets/images/point-summary/bonus-per-round.png)
 
 Each round starts from its name:
 
@@ -125,6 +134,9 @@ a lone couple's total follows the rule above.
 
 ## 4. Validate and publish
 
-Validate summarized outcomes, then publish the round.
+Open the summary round and check each couple's row under **Judge results**: the points of its
+level, the bonuses, the multiplier and the **Sum**. Then take the round through its steps like any
+other round, ending with **Publish results online**. See
+[Run a round](/manager-guide/live-operations/#run-a-round).
 
-![Results](/assets/images/point-summary/results.png)
+![Judge results of a point summary, with a column per bonus and the Sum](/assets/images/point-summary/results.png)

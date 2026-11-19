@@ -13,24 +13,21 @@ redirect_from:
 
 Many federations require a valid license before you can register for their events or earn rankings. Find out below which license you need, who applies for it, and how to follow it until it is active.
 
-**Not all federations require licenses.** Some competitions are open to anyone without licensing. Ask your federation or the event organizer whether you need one.
+**Not all federations require licenses.** Some competitions are open to anyone without a license. Ask your federation or [the event organizer](/getting-help/#reaching-the-organizer) whether you need one.
 
 ## Who applies for the license
 
-This is not a federation-wide setting — it is decided **per license item**, by that item's
-organization mode and by whether it allows self-application:
+The federation decides this for each license it offers (a "license item"). There are three routes:
 
 | Route | When it applies | Where it is done |
 |---|---|---|
-| **You apply yourself** | The item allows self-application. You are usually the payer too. | `Account → Licenses`, see [Dancer self-service](/federation-licenses/dancer-self-service/) |
-| **Your club applies for you** | The item requires an organization, or forbids self-application. The club is often the payer. | The club's **License Applications** page, see [Organization admin](/federation-licenses/organization-admin/) |
-| **The federation issues it** | The federation adds it directly, for example for officials. | Federation admin, see [Federation admin](/federation-licenses/federation-admin/) |
+| **You apply yourself** | The federation lets dancers apply for this item. You usually pay for it too. | **My account** → **Licenses**, see [Dancer self-service](/federation-licenses/dancer-self-service/) |
+| **Your club applies for you** | The item has to go through a club, or the federation does not let dancers apply for it. The club often pays. | The club's **License Applications** page, see [Licenses for your members](/school-club/getting-a-license/) |
+| **The federation issues it** | The federation adds it directly, for example for officials. | The federation's own screens, see [Federation admin](/federation-licenses/federation-admin/) |
 
-Every license records which of these it came through, as **Applied via: Self, Club or Federation
-admin**.
-
-**If you don't know which applies to you:** open `Account → Licenses`, pick the federation, and
-see what the list offers. What you can apply for yourself is exactly what is shown.
+**If you don't know which applies to you:** open **My account** → **Licenses**, pick the federation
+under **Apply for a license**, and see what the **License item** list offers. It holds the items
+you can apply for yourself, and only those.
 
 ## Your club and the federation
 
@@ -44,17 +41,17 @@ places:
 
 ## Before you start
 
-Answer these first. If you cannot, ask your federation or your coach before touching anything.
+Answer these first. If you cannot, ask your federation or your coach.
 
 | Question | Why it matters |
 |---|---|
 | **Which federation?** | Licenses belong to a federation, and you pick it first. |
-| **Which license item?** | The federation defines the products ("license items"); you apply for one of them. |
-| **Which season year?** | Most licenses are per season. Officials' and music licenses can be lifetime instead. |
+| **Which license item?** | The federation decides which licenses it offers. You apply for one of them. |
+| **Which season year?** | Most licenses are for one season. Licenses for officials and music can be for life. |
 | **Season or single competition?** | A license item covers either a **full season** or a **single competition**. |
-| **Do I apply, or my club?** | Each license item is set to require an organization, allow one, or forbid one. That decides who can apply. |
-| **Is my date of birth on my account?** | Applying is blocked without it: "A date of birth is required before applying for a license." |
-| **Does the item need a federation ID?** | Some items require your external federation ID, verified beforehand. |
+| **Do I apply, or my club?** | See [Who applies for the license](#who-applies-for-the-license). |
+| **Is my birth date on my account?** | You cannot apply without it: "A date of birth is required before applying for a license." |
+| **Does the item need a federation ID?** | Some items ask for your number in the federation's own register. See [Your federation ID](#your-federation-id). |
 
 ## Step-by-step: Get your license
 
@@ -62,165 +59,180 @@ Answer these first. If you cannot, ask your federation or your coach before touc
 
 **If you apply yourself:**
 
-1. Sign in and open `Account → Licenses`
-2. Under **Apply for a license**, select your **federation**
-3. The page lists the items you can apply for *yourself*. It shows only those: an item is left
-   out when the federation wants your club to apply, or when it needs a membership or an
-   approved issuer you do not have. If the list is empty you get "No licenses available for
-   self-application" — which is the answer, not an error.
-4. Pick the item that matches you
+1. Sign in and open **My account** → **Licenses**.
+2. Under **Apply for a license**, choose your federation in **Select federation**.
+3. Open the **License item** list. It holds the items you can apply for *yourself*. An item is
+   left out when the federation wants your club to apply, or when it needs a club you are not
+   an approved member of. If there is nothing to apply for, the page says "No licenses available
+   for self-application". That is the answer, not an error: your club applies for you.
+4. Pick the item that matches you.
 
 **If your club applies for you:**
 
-1. Tell your club they should apply. The club can only apply for its members, so join it
-   first: see [Joining your club](/dancer/applying-for-a-school-club/)
-2. They do it from the organization's **License Applications** page, picking you under **Member**
-3. Your date of birth must be on your account first, or you are shown as "No birthdate" and
-   they cannot apply for you
-4. Skip to *Waiting for approval* below — they handle applying and, usually, paying
+1. Tell your club that they should apply. The club can only apply for its members, so join it
+   first: see [Joining your club](/dancer/applying-for-a-school-club/).
+2. They do it on the club's **License Applications** page, where they pick you under **Member**.
+3. Your birth date must be on your account first. Without it the club sees you as "No birthdate"
+   and cannot apply for you.
+4. Go on to [Step 4: Wait for approval](#step-4-wait-for-approval). The club applies and, usually,
+   pays.
 
 ### Step 2: Fill in the application
 
 | Field | What to do |
 |---|---|
-| **Federation** | The federation you are applying in. |
 | **License item** | The item you picked. |
-| **Season year** | The season. Left blank only for lifetime licenses, which are for officials, music and DJs — not dancers. |
-| **Competition ID** | Only for an item scoped to a single competition. Leave blank for a season license. |
-| **Organization** | Only when the item requires or allows it. Required items say so, and need an approved issuer membership. A club still awaiting approval shows "awaiting approval" and cannot be used yet. |
-| **Federation ID** | Only when the item requires your external federation ID. It must already be verified, and the date of birth on the federation's record must match your account. |
+| **Season year** | The season. It is left empty only for licenses for life, which are for officials, music and DJs, not dancers. |
+| **Competition ID** | Only for an item that covers a single competition. It is not shown for a season license. |
+| **Organization** | Only when the item requires or allows a club. If the item requires one, the form says so, and the club must be approved by the federation and allowed to issue licenses. A club where your membership is not approved yet shows "awaiting approval" and cannot be chosen. |
+| **Federation ID** | Only when the item asks for it. Type your number and press **Verify**. See [Your federation ID](#your-federation-id). |
 | **Note** | Optional. |
 
-Then press **Apply for license**.
+Then press **Apply for license**. The new license shows under **Your current licenses** at the
+top of the page.
 
-Full field-by-field detail, including what the page hides and why:
-[Dancer self-service](/federation-licenses/dancer-self-service/).
+Each field is described once more on [Dancer self-service](/federation-licenses/dancer-self-service/).
 
 ### Step 3: Pay, if you are the payer
 
-Each license has a **payer type**. If it is *self* and the payment status is *unpaid*, your row
-shows a **Pay** button, which takes you through Stripe checkout to the federation's own Stripe
-account. If the payer is your organization, there is no button for you — the club pays from its
-own page.
+Under **Your current licenses**, the **Payment** column shows whether the license is paid and who
+pays: you (**self**) or your club (**organization**).
 
-Two things stop payment before it starts: a federation that has not connected Stripe ("This
-federation hasn't set up online payments yet"), and a license that is not approved yet
-("Payment will be available once this license has been approved").
+- **You pay, and it is unpaid:** the row has a **Pay** button. You pay by card, and the money goes
+  to the federation.
+- **Your club pays:** there is no button for you. The club pays from its own page.
 
-If your season fee already covers the item, the row says "Covered by your season fee for this
-license group" instead of asking for money.
+Two things can keep **Pay** switched off:
+
+- The license waits for an approval the federation asks for, from your club or from the federation itself: "Payment will be available once this license has been approved."
+- The federation cannot take payments online yet: "This federation hasn't set up online payments
+  yet. Contact the federation to complete your license."
+
+If your season fee already covers the item, the payment says "Covered by your season fee for this
+license group" and you pay nothing.
 
 ### Step 4: Wait for approval
 
-A license can sit waiting on any of **four checks**, and this is the part worth understanding,
-because it explains nearly every "why is my license still not active":
+Each federation chooses whether it approves licenses itself. Where it does not, a license becomes
+**Active** by itself once it is paid, and once the club has approved it if the federation asks
+clubs to approve. Where the federation approves licenses itself, it looks at four checks on each
+license. Nearly every "why is my license still not active" is one of them:
 
 | Check | What it means |
 |---|---|
-| **Club has approved this license** | A club-held application needs a manager or administrator at the club to approve it. |
-| **Club approved by the federation** | If your club is itself still pending federation approval, no license it holds can be issued. |
-| **Payment received** | Approval opens once payment lands. |
-| **Within the license window** | The license's validity window must be open. |
+| **The club has approved the license** | Where the federation asks clubs to approve, a manager or administrator at your club has to approve your application. |
+| **The federation has approved the club** | While your club itself waits for the federation's approval, no license naming it can be issued. |
+| **The payment is in** | The license is paid, by you or by the club. |
+| **The license window is open** | The period the license is valid for has started and has not ended. |
 
-When all four pass, the federation sees "All four checks pass · ready to approve". The federation
-still has to approve it — that is a person, not a timer, so there is no fixed waiting time.
+When all four are in place, a person at the federation approves the license. There is
+no fixed waiting time.
 
 ### Step 5: Check the status
 
-`Account → Licenses` lists your licenses with their status and payment status. A license is one
-of:
+**My account** → **Licenses** lists your licenses under **Your current licenses**, with their
+**Status** and **Payment**. A license is one of:
 
 | Status | Meaning |
 |---|---|
 | **Draft** | Created but not submitted for approval. |
 | **Pending** | Submitted, waiting on one of the four checks or on the federation. |
 | **Active** | Valid. This is what lets you register and earn rankings. |
-| **Expired** | The validity window has passed — see [Renewing for a new season](#renewing-for-a-new-season). |
+| **Expired** | The period it was valid for has passed. See [Renewing for a new season](#renewing-for-a-new-season). |
 | **Suspended** | Held by the federation. Contact them. |
 | **Cancelled** | Withdrawn or replaced. |
 
-Payment status is separate: a license can be **paid** and still **pending**.
+Payment is separate from status: a license can be paid and still **Pending**.
 
-Do not apply twice because a license is slow. If the application is wrong and unpaid, a pending
-one can be deleted ("Delete this license? You can apply again with the corrected ID") — only
-pending applications can be deleted.
+Do not apply twice because a license is slow.
 
 ## Who applies, in practice
 
-The license item decides this, through its **organization mode**:
+What the **Organization** field does on the application tells you which route the item uses:
 
-| Organization mode | What it means for you |
+| What you see | What it means for you |
 |---|---|
-| **Not allowed** | You apply yourself, with no club attached. |
-| **Optional** | Either route works; the federation's own rules say which it prefers. |
-| **Required** | The item needs a club, and an approved issuer membership. If the item also forbids self-application you are told "This license can't be applied for directly. Apply through your organization." |
+| No **Organization** field | You apply yourself, with no club on the license. |
+| **Organization** is optional | You can apply with or without a club. Ask the federation which it prefers. |
+| **Organization** is required | The license needs a club that the federation has approved and allowed to issue licenses. |
+| The item is not in the list, or you are told "This license can't be applied for directly. Apply through your organization." | Your club applies for you. |
 
 ## Your federation ID
 
-Some federations also want a **federation ID** of their own: a MIN, WSCID or license number from
-their system. You enter it on your account and press **Verify**. It ends up in one of these
-states:
+Some federations keep their own register of dancers and give each dancer a number: a MIN, a
+WSDC id or a license number, for example. Vote4Dance calls this number your **federation
+ID**. A license item can ask for it.
 
-| State | Meaning |
+The same number has other names on some screens. Messages about it call it your **member
+number**, and the organizer sees it as **Person ID** on your entry. It is one number.
+
+You type it in the **Federation ID** field when you apply for the license, and press **Verify**.
+The result is one of:
+
+| Result | Meaning |
 |---|---|
-| **Verified** | Good. This is what license items requiring an external ID need. |
+| **Verified** | The federation's register knows the number. You can apply. |
 | **Saved, not verified** | Stored but not checked yet. You cannot apply with it. |
-| **Not found** | The federation's system does not recognise the ID. Where your club is chosen first, the number is not in that club's member list: check the number, and that you chose the club you are a member of. |
-| **Birthdate does not match federation record** | The date of birth in the federation's member register differs from the one on your account. If the date on your account is correct, do not change it: ask your club or the federation to check your record in their register. |
-| **Not active** | You are in the federation's member register, but your membership there is not active. Ask your club or the federation to check your membership status. |
-| **Verification failed** | The federation's member register could not be reached. Try again in a few minutes. |
+| **Not found** | The federation's register does not know the number. Where you choose your club first, the number is not in that club's member list: check the number, and that you chose the club you are a member of. |
+| **Birthdate does not match federation record** | The birth date in the federation's register differs from the one on your account. If the date on your account is correct, do not change it: ask your club or the federation to check your record in their register. |
+| **Not active** | You are in the federation's register, but your membership there is not active. Ask your club or the federation to check your membership. |
+| **Verification failed** | The federation's register could not be reached. Try again in a few minutes. |
 
-A few federations issue credentials per club instead of per person. There you pick your club
+In a few federations each club has its own access to the register. There you choose your club
 first. The field says so: "Select your organization above before verifying — this federation uses
-per-organization credentials." If you apply without choosing a club, the application says: "Select
+per-organization credentials." If you apply without choosing a club, you are told: "Select
 your club first. Member numbers are checked against each club's member list."
 
 ## What to do if things go wrong
 
 ### "My license is still Pending"
 
-Work through the four checks above, in that order: is the club's own approval in, is the club
-approved by the federation, is the payment settled, is the validity window open. Whatever is
-outstanding is named on the license itself. If all four pass, it is waiting on a person at the
-federation.
+Go through the four checks in [Step 4](#step-4-wait-for-approval), in that order: has the club
+approved it, has the federation approved the club, is it paid, is the license window open. Your
+own list shows the status and the payment. For the other checks, ask your club. If all four are
+in place, the license is waiting for the federation to approve it.
 
 ### "I paid but it is still not active"
 
-Payment and approval are separate. A paid license stays **Pending** until the federation
-approves it. Do not apply again; refresh, and if it stays paid-but-pending, contact the
-federation.
+Payment and approval are separate. Where the federation approves licenses itself, a paid license
+stays **Pending** until it does. Do not apply again. Reload the page, and if the license stays
+paid and pending, contact the federation.
 
 ### "I applied for the wrong item"
 
-If it is still **Pending** and unpaid, delete it and apply again. If it is **Active**, contact
-the federation — an active license's organization can only be changed by cancelling and
-reissuing it.
+A license that carries a federation ID and is not paid has a delete button in **Your current
+licenses**. You are asked "Delete this license? You can apply again with the corrected ID."
+Other applications you cannot remove yourself: ask your club, which can remove an application it
+holds while it is pending, or ask the federation. If the license is **Active**, contact the
+federation. The club on an active license can only be changed by cancelling the license and
+issuing a new one.
 
 ### "The item I need is not in the list"
 
-The list only shows what you may apply for yourself. Check the federation is the right one,
-then whether the item expects your club to apply, and whether it needs a membership or an
-approved issuer you do not have. If in doubt, ask the club or the federation.
+The list only holds what you may apply for yourself. Check that the federation is the right one.
+Then check whether the item is one your club applies for, and whether it needs a club you are
+not an approved member of. If in doubt, ask the club or the federation.
 
 ### "It says my date of birth is missing"
 
-Add it in your account settings, then apply. A club applying on your behalf hits the same block.
+Add your birth date under **My account** → **Settings**, then apply. A club that applies for you
+is stopped in the same way.
 
 ### "My federation ID will not verify"
 
-The ID must be verified before you apply, the date of birth on the federation's record must
-match your account, and a revoked membership cannot be used.
+The result under the field says why: see [Your federation ID](#your-federation-id). You cannot
+apply until it says **Verified**.
 
 ### "I have an account and a club, but I still cannot register"
 
 The reason is almost always one of these. Check them in this order:
 
-1. **The club is not approved by the federation yet.** Ask the club. They can see it on their own
-   federation page.
+1. **The club is not approved by the federation yet.** Ask the club. They see it on their own
+   **Federation** screen.
 2. **The club is approved but cannot issue licenses.** That is a separate permission the
-   federation grants, and license items that require a club need it.
+   federation gives, and license items that require a club need it.
 3. **The wrong federation is on the license.** A license belongs to one federation.
-4. **Your federation ID is not Verified**, where the item requires one.
+4. **Your federation ID is not Verified**, where the item asks for one.
 5. **Your license is Pending, not Active.** Pending does not count at registration.
 
 ## When you're ready
@@ -231,30 +243,30 @@ results can count towards its rankings.
 ## Renewing for a new season
 
 There is no renew button. **You apply again for the new season.** The old license stays in your
-history and turns **Expired** when its validity window closes. The new one is a fresh application
-that goes through the same route and the same four checks as the first.
+list and turns **Expired** when the period it was valid for ends. The new one is a new application
+that goes the same route and through the same four checks as the first.
 
 If you register with a license that has run out, you are told: "A required federation license has
 expired or is for a different season — renew it for this season."
 
 Two things to plan for:
 
-- **Nothing carries over.** Approval from last season does not shorten this season's approval, and
+- **Nothing carries over.** Last season's approval does not shorten this season's, and
   a club approval or a payment is needed again.
-- **Get the season year right.** A license for the wrong season is as useless as an expired one,
-  and it is the most common mistake when a new season starts.
+- **Get the season year right.** A license for the wrong season does not count, like an expired
+  one. It is the most common mistake when a new season starts.
 
 How to do it:
 
-1. Check when your current license ends, on `Account → Licenses`.
+1. Check when your current license ends, on **My account** → **Licenses**.
 2. Check that the new season has opened.
 3. Apply for the new season the same way as last time: yourself
    ([Dancer self-service](/federation-licenses/dancer-self-service/)) or through your club
-   ([Organization admin](/federation-licenses/organization-admin/)).
-4. Check the **season year** before you submit.
+   ([Licenses for your members](/school-club/getting-a-license/#a-new-season)).
+4. Check the **Season year** before you press **Apply for license**.
 5. Pay, if you are the payer.
 6. Wait until the new license is **Active**. Pending does not count at registration.
 
-**Do it before the first registration of the new season opens.** Approval is done by a person
-at the federation, so there is no fixed waiting time. If you wait until registration day, there
-is no time left when a check is still open.
+**Do it before the first registration of the new season opens.** Where a person at the federation
+approves each license, there is no fixed waiting time. If you wait until registration day,
+there is no time left when a check is still open.

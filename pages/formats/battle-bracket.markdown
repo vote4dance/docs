@@ -8,11 +8,11 @@ nav_order: 9
 
 # Battle bracket
 
-This guide walks competition organisers through running **battle rounds** (1‑vs‑1 elimination matches and trios) where competitors are seeded based on the results of a prior qualifying round. It assumes you have **administrator** role or higher on the competition.
+How to run **battle rounds** in Manager: 1‑vs‑1 elimination battles and trios, where the competitors are seeded from the result of a qualifying round. You need Manager access to the event. Where access is given, the Manager app is labelled **Scrutineer**: see [Users, apps and stations](/manager-guide/users-and-stations/).
 
-When a federation has configured a battle round setup, the **Round Guide** generates the entire skeleton (placing round, all battle layers, B‑final) automatically for any count. Classes using **brackets mode** require only 4–5 rules total; the skeleton adapts to whatever count arrives on the day. When no round setup is configured, you build the skeleton by hand. Either way, the seeding steps below are the same.
+When the federation has made a battle round setup, the **Round guide** creates the whole skeleton (placing round, all battle layers, B‑final) for any number of competitors. For a class in **brackets mode** the federation needs only four or five rules, and the skeleton follows the number of competitors that turn up on the day. Without a round setup, you build the skeleton by hand. Either way, the seeding steps below are the same.
 
-> **Federation admins:** see [Battle round setup](/federation-rules/battle-class-rules/) for how to configure the round setup so the skeleton is generated automatically.
+> **Federation admins:** see [Battle round setup](/federation-rules/battle-class-rules/) for how to make the round setup that the Round guide builds the skeleton from.
 
 ---
 
@@ -20,25 +20,36 @@ When a federation has configured a battle round setup, the **Round Guide** gener
 
 Battle rounds work in two parts:
 
-1. **Round skeleton** — created once, before the battle starts. A *parent* battle round contains *child* rounds, one per match (final, B‑final, semis, quarters, trios).
-2. **Seeding** — done after the previous round has been judged and confirmed. The **Assign to match** button seeds the bracket automatically in most cases.
+1. **Round skeleton**: made once, before the battles start. A *parent* battle round holds *child* rounds, one per battle (final, B‑final, semifinals, quarterfinals, trios).
+2. **Seeding**: done when the round before has been judged and closed. The **Assign to match** card on the battle round seeds the bracket for you in most cases.
 
-Bronze / B‑final rounds have no special status in the system — they are normal child rounds that you populate with the losers of the prior round. When the round setup sets up `round_others_id`, the **Assign teams** button routes losers there automatically; otherwise, you place them by hand.
+A bronze battle or B‑final is an ordinary child round. You fill it with the losers of the round before. Where those losers go is set on that round, under **Round for non-qualified participants**:
+
+- When it names the B‑final, saving **Qualified participants** on the closed round sends the losers there.
+- When it says **Not advanced**, you place the losers by hand.
+
+See [Check where the round sends its participants](/manager-guide/live-operations/#check-where-the-round-sends-its-participants). In Scrutineer (Beta) you can set **Round for non-qualified participants** already during setup: see [Send the rest to a second chance or a B-final](/manager-guide/rounds-by-hand/#send-the-rest-to-a-second-chance-or-a-b-final).
 
 ### The two tools you'll use
 
-- **Assign to match** — a button on a battle round. Reads placements from a source round (the round you pick) and automatically pairs competitors using the standard tournament fold (seed 1 vs bottom, seed 2 vs second-to-last, …). Works for **any count**, including the 7-competitor bye.
-- **Per‑team match selector** — on the round‑results screen, each team has a dropdown for *Match*. Use this to override seeding, handle trios, and place B‑final competitors.
+- **Assign to match**: a card on the page of a battle round that has child rounds. It shows while the round is **Not started** and has participants.
+  1. Click **Assign from round** and pick the source round. The list holds the class's rounds that are **Closed** or **Confirmed**.
+  2. Manager reads the placements from the source round and pairs the competitors by the standard tournament fold (seed 1 against the last seed, seed 2 against the second last, and so on). This works for **any number**, including the bye with 7 competitors. You see "Targets updated, please confirm!".
+  3. Check each competitor's battle in the **Match** column.
+  4. Click **Send participants to match**. The competitors are put into their battles.
+
+  Below, "run **Assign to match**, sourcing a round" means these four steps with that round picked in step 1. Every competitor in the battle round must also be in the source round.
+- **Match** column: in the battle round's list of participants, each competitor has a **Match** list with **Not advanced** and the round's battles. Use it to change the seeding, to fill a trio, and to place the competitors of a B‑final.
 
 In Scrutineer (Beta), the new version of the Manager app, the round page has **Place in battles** instead: it puts the starters into their battles, seeded by the bracket or at random, and lets you move a starter to another battle. For how to read a battle round's result there, see [Battle rounds](/manager-guide/reading-the-marks/#battle-rounds).
 
 ### Glossary
 
-- **Seed N** — the competitor that placed Nth in the prior (qualifying) round.
-- **Quarter / Semi / Final** — successive layers of a knockout bracket.
-- **B‑final / Bronze** — the match between the two semifinal losers, dancing for 3rd place. By the rules, the B‑final is danced *before* the final.
-- **Trio** — a single match among three competitors where the judge selects who advances.
-- **Crosses** — a trio judged using select (cross) judging rather than 1v1 match judging.
+- **Seed N**: the competitor that placed Nth in the qualifying round before.
+- **Quarter / Semi / Final**: the layers of a knockout bracket, one after the other.
+- **B‑final / Bronze**: the battle between the two semifinal losers, for 3rd place. By the rules, the B‑final is danced *before* the final.
+- **Trio**: one battle among three competitors, where the judges choose who goes on.
+- **Crosses**: a trio judged with crosses (select judging) instead of as a 1‑vs‑1 battle.
 
 ---
 
@@ -51,10 +62,10 @@ In Scrutineer (Beta), the new version of the Manager app, the round page has **P
 
 ## Two‑step pattern for every battle round
 
-1. **Set up the round skeleton** in the round editor before the battle starts. Create the parent battle round and the child rounds (one per match) with the right *Number of competitors* and *Number advancing*.
-2. **Seed teams** after each judging layer is closed and confirmed: click **Assign to match** on the round you want to seed and pick the source round.
+1. **Set up the round skeleton** before the battles start. Create the parent battle round, then its child rounds, one per battle, with **Add round** → **Child round** under **Class order** on the round's page. Give each the right **Number to advance**.
+2. **Seed the competitors** after each layer is judged and closed: run **Assign to match** on the round you want to seed, sourcing the round before.
 
-That covers every case except the B‑final, which always requires a manual step (assign the two losers) unless `round_others_id` is pre-configured on the semifinal round.
+That covers every case except the B‑final. Its two competitors are placed by hand, unless the semifinal round names the B‑final under **Round for non-qualified participants**.
 
 ---
 
@@ -78,7 +89,7 @@ That covers every case except the B‑final, which always requires a manual step
 
 No bronze child. The competitor who does not advance from the trio is automatically 3rd.
 
-**Seeding the trio.** Place all three competitors into the Trio Semifinal via the *Match* dropdown, or run **Assign to match** sourcing the qualifying round.
+**Seeding the trio.** Set the **Match** of all three competitors to the Trio Semifinal, or run **Assign to match** sourcing the qualifying round.
 
 **After the trio is judged.** Run **Assign to match** on the parent round, sourcing the trio round. The two advancing competitors are moved into the Final automatically.
 
@@ -95,7 +106,7 @@ No bronze child. The competitor who does not advance from the trio is automatica
 
 **After the semis are judged.**
 - **Final.** Run **Assign to match** on the parent, sourcing the semi round. The two winners are seeded automatically.
-- **B‑Final.** If `round_others_id` is configured, the **Assign teams** button on the semi round places the losers automatically. Otherwise, use the *Match* dropdown to assign the two losers by hand.
+- **B‑Final.** If the semifinal round names the B‑final under **Round for non-qualified participants**, saving **Qualified participants** on the closed semifinal round places the losers there. Otherwise, set the two losers' **Match** to the B‑final by hand.
 
 ---
 
@@ -122,11 +133,11 @@ This size uses **crosses** (select) judging for the trios rather than 1v1 match 
 - Trio A: seed 1, seed 6, seed 5
 - Trio B: seed 2, seed 3, seed 4
 
-If the round guide generated the skeleton from the round setup, this seeding follows automatically. Otherwise, place each competitor in the right trio via the *Match* dropdown.
+If you want another grouping, put each competitor in the right trio in the **Match** column before you click **Send participants to match**.
 
 **After the trios are judged.**
 - **Final.** Run **Assign to match** sourcing the trio parent. The winner from each trio advances.
-- **B‑Final.** Assign the runner‑up from each trio by hand via the *Match* dropdown (or automatically if `round_others_id` is set on the trio round).
+- **B‑Final.** Set the **Match** of the runner‑up from each trio to the B‑final by hand, unless the trio round names the B‑final under **Round for non-qualified participants**.
 
 ---
 
@@ -173,7 +184,7 @@ Seed 1 is automatically placed alone in their battle and advances without compet
 
 **After the semis.**
 - **Final.** Run **Assign to match** sourcing the semi round. Automatic.
-- **B‑Final.** Assign the two semi losers by hand (or automatically if `round_others_id` is configured on the semi).
+- **B‑Final.** Assign the two semi losers by hand, unless the semifinal round names the B‑final under **Round for non-qualified participants**.
 
 ---
 
@@ -185,7 +196,7 @@ Seed 1 is automatically placed alone in their battle and advances without compet
 1. Qualifying / Placing result → top N advance to the quarter parent.
 2. Run **Assign to match** on the quarter parent, sourcing the placing round.
 3. After each layer, run **Assign to match** on the next parent sourcing the previous one.
-4. **B‑Final** is always manual unless `round_others_id` is set.
+4. The **B‑Final** is always filled by hand, unless the semifinal round names it under **Round for non-qualified participants**.
 
 **For 9–20 competitors**, typically advance the top 8 to quarters (1v8, 2v7, 3v6, 4v5).
 
@@ -206,7 +217,7 @@ Seed 1 is automatically placed alone in their battle and advances without compet
 | 8 | automatic (1v8 … 4v5) | automatic | automatic | manual or auto |
 | 9+ | automatic at every layer | automatic | automatic | manual or auto |
 
-*"auto"* = automatic when `round_others_id` is configured on the semifinal by the federation admin.
+*"auto"* means: done for you when the semifinal round names the B‑final under **Round for non-qualified participants**.
 
 ---
 
@@ -214,16 +225,16 @@ Seed 1 is automatically placed alone in their battle and advances without compet
 
 For every battle round:
 
-1. Confirm the round skeleton exists (parent round + all child rounds). If the class uses the Round Guide, it is generated automatically; otherwise, build it by hand.
-2. After the prior round is closed and confirmed, run **Assign to match** on the next parent round, sourcing the previous round.
-3. For the B‑Final: if not routed automatically, go to the round‑results screen and set each loser's *Match* dropdown to the B‑Final child.
-4. Repeat for every layer until the Final and B‑Final are complete.
+1. Check that the round skeleton is there: the parent round and all its child rounds. The Round guide makes it when the federation has a round setup for the class. Otherwise, build it by hand.
+2. When the round before is closed, run **Assign to match** on the next parent round, sourcing that round.
+3. For the B‑Final: if the losers were not sent there for you, set each loser's **Match** to the B‑Final in the round's list of participants.
+4. Repeat for every layer until the Final and the B‑Final are done.
 
 ---
 
 ## Judging the battles live
 
-In the new Manager, open the battle round under **Live**. The battle on the floor shows each judge's pick as it comes in, the votes for each dancer, and **Confirm winner**. The **Bracket** below it shows every battle and who goes on.
+In Scrutineer (Beta), the new Manager, open the battle round under **Live**. The battle on the floor shows each judge's pick as it comes in, the votes for each dancer, and **Confirm winner**. The **Bracket** below it shows every battle and who goes on.
 
 ### When a battle is tied
 
@@ -252,6 +263,6 @@ Under **Marks**, each battle has its own tab with the two dancers in that battle
 
 ## Known limitations
 
-- **B‑Final routing** is manual unless the federation has configured `round_others_id` on the semifinal round. This is the most common source of bracket errors — double-check before closing the semi.
-- **Trio seeding for size 6** — the standard fold places seeds (1, 6, 5) in Trio A and (2, 3, 4) in Trio B, which matches most federation rules. If your federation uses a different grouping, override it via the *Match* dropdown.
-- **Size‑5 elimination** — only the top four seeds enter the bracket; seed 5 must be manually confirmed as 5th place in the standings.
+- **The B‑Final is filled by hand** unless the semifinal round names it under **Round for non-qualified participants**. This is the most common cause of a wrong bracket. Check the setting before you close the semifinal. For a class in brackets mode, the Round guide does not fill it in, so set it yourself.
+- **Trios with 6 competitors**: the standard fold puts seeds 1, 6 and 5 in Trio A and seeds 2, 3 and 4 in Trio B, which fits most federations' rules. If your federation groups them differently, change it in the **Match** column.
+- **5 competitors**: only the top four seeds enter the bracket. Check yourself that seed 5 ends as 5th in the result.

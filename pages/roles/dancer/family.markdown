@@ -20,10 +20,11 @@ under **Family**. From then on you open their account with one click, register t
 no second inbox or password to keep track of.
 
 **In short:** every child still has an account of their own, in their own name, with their own
-results and member numbers. You just reach it from yours, and they can take it over when they are
-old enough.
+results and federation IDs (the Family screens call them member numbers). You just reach it from
+yours, and they can take it over when they are old enough.
 
-Family is for children under 18. An account can have up to ten children.
+Family is for children under 18. An account can have up to ten children. What other people can
+see of a child's account is listed under [What other people can see](#what-other-people-can-see).
 
 Buttons on this page carry your child's name. The steps below use Anna, Erik and Maja as examples.
 
@@ -39,14 +40,14 @@ Use this when your child has no Vote4Dance account yet.
 
 1. On the **Family** page, press **Add a child**.
 2. Type your child's **First name** and **Birthdate**. The **Last name** and **Country** are filled
-   in from your own account, so change them if they differ. The birthdate puts your child in the
+   in from your own account, so change them if they differ. The birth date puts your child in the
    right age class.
 3. Check the email address. Vote4Dance proposes your own address with your child's name added, for
    example `karin.lindgren+anna@example.com`. Mail to that address lands in your own inbox, so you
    do not need a new one. You can type another address instead. If your child's name has no Latin
    letters, the field stays empty and you type the address yourself.
 
-   ![The Add a child dialog with the name, birthdate, country and the proposed email address](/assets/images/family/add-child.png)
+   ![The Add a child dialog with the name, birth date, country and the proposed email address](/assets/images/family/add-child.png)
 4. Press **Add Anna**. If your own address has not been confirmed yet, you are asked to
    [confirm it](#first-confirm-your-own-address) first.
 5. Open the mail and type the six-digit code. The code works for ten minutes. **Send a new code**
@@ -65,7 +66,7 @@ If the code never arrives, your email provider may not accept addresses with a p
 Before you add your first child or bring in an existing account, Vote4Dance checks that your own
 address reaches you. This happens once, and only if your address has not been confirmed already.
 
-1. If your account has no birthdate, enter yours. A child's account cannot manage other children.
+1. If your account has no birth date, enter yours. A child's account cannot manage other children.
 2. Press **Send me a code**, and type the code from the mail. It works for ten minutes.
 3. Press **Confirm**. You go straight back to what you were doing, with everything you typed still
    there.
@@ -75,7 +76,7 @@ address reaches you. This happens once, and only if your address has not been co
 ## My child already has an account
 
 Use this when your child already has a Vote4Dance account, so their registrations, results and
-member numbers stay in one place. Do not create a second account.
+federation IDs stay in one place. Do not create a second account.
 
 1. On the **Family** page, press **My child already has an account**.
 2. Type the email address of your child's account and press **Send code**. Usually that inbox is
@@ -89,10 +90,10 @@ member numbers stay in one place. Do not create a second account.
 type the email address and the password and press **Add to my family**. The account's address is told
 by mail that it was added to your family.
 
-If the account has no birthdate, you are asked to enter it, because it is needed for the right age
-class. If you came in by code, a new code is mailed at the same time: type the birthdate and the new
-code, and press **Add to my family** again. If neither way works, write to
-[info@vote4dance.com](mailto:info@vote4dance.com).
+If the account has no birth date, you are asked to enter it, because it is needed for the right age
+class. If you came in by code, a new code is mailed at the same time: type the birth date and the new
+code, and press **Add to my family** again. If neither way works,
+[write to Vote4Dance](/getting-help/#writing-to-vote4dance).
 
 ## Your children
 
@@ -139,7 +140,7 @@ every child's ID on one screen, so you don't have to open each child's account i
 2. On a phone you see one child's ID at a time. Swipe sideways, or press a child's name above the
    card, to show the next one. Children who dance today come first.
 
-   ![My family's IDs on a phone: Alva's ID with her name, birthdate, club, today's event and the QR code](/assets/images/family/family-ids-phone.png)
+   ![My family's IDs on a phone: Alva's ID with her name, birth date, club, today's event and the QR code](/assets/images/family/family-ids-phone.png)
 3. Hold each QR code up to the desk in turn. The desk scans it and sees the same ID your child would
    show from their own account.
 
@@ -158,8 +159,8 @@ On a computer or tablet, all IDs are shown side by side.
 
 ## Let your child take over
 
-When your child is old enough, they can sign in on their own. Their registrations, results and member
-numbers stay with them. You stay in their family until one of you removes the link.
+When your child is old enough, they can sign in on their own. Their registrations, results and
+federation IDs stay with them. You stay in their family until one of you removes the link.
 
 1. On your child's card, press **···** and choose **Let Anna take over**.
 2. Choose where your child should sign in.
@@ -195,6 +196,21 @@ account stays as it is.
 
 ![Who can open your account, with one name and a Remove button](/assets/images/family/who-can-open.png)
 
+## What other people can see
+
+A child's account is shown to other people in the same way as an adult's. Nothing more is shown,
+and nothing more is hidden, because of the child's age.
+
+| Who | What they see |
+|---|---|
+| **Anyone** | The child's name in the start lists and results of the competitions they dance in. The child's public dancer page in the Vote4Dance app: first and last name, country, club, teams and results. The birth date, the e-mail address, the phone number and the ID photo are not on it. |
+| **Someone who searches for a dancer**, for example to add a partner | The child's name. The e-mail address is shown with most of its letters hidden, unless they typed the exact address or are in the same club or federation. |
+| **The child's club, and the federations the club belongs to** | The child's personal details, such as name, e-mail address and birth date. This is what you agree to when the child joins the club: see [Joining your club](/dancer/applying-for-a-school-club/). |
+| **Staff at an event the child is registered for** | The child's Vote4Dance ID when it is scanned: name, photo, birth date and club. See [What the desk sees](/dancer/vote4dance-id/#what-the-desk-sees). |
+| **You, as the parent** | The whole account. You do everything the child could do, except the things listed under [Open your child's account](#open-your-childs-account). |
+
+Season points have their own rules: see [Who can see your points](/dancer/season-points/#who-can-see-your-points).
+
 ## If something does not work
 
 | What you see | What it means and what to do |
@@ -204,8 +220,8 @@ account stays as it is.
 | **Too many wrong codes. Send a new one.** | Send a new one and type it carefully. |
 | **This address already has an account. Use My child already has an account instead.** | Your child already has an account. [Bring it in](#my-child-already-has-an-account) instead of creating a second one. |
 | **Adults manage their own accounts.** | Family is for children under 18. |
-| **You're signed in as a child's account. Create your own first.** | You are signed in to an account with a birthdate under 18. [Create an account](/dancer/account-creation/) of your own. |
+| **You're signed in as a child's account. Create your own first.** | You are signed in to an account whose birth date makes it under 18. [Create an account](/dancer/account-creation/) of your own. |
 | **Wrong email or password. Use the code instead.** | Use the code at the top of the dialog. |
-| **Ten children is the most one account can manage. Write to us if you need more.** | Write to [info@vote4dance.com](mailto:info@vote4dance.com). |
+| **Ten children is the most one account can manage. Write to us if you need more.** | [Write to Vote4Dance](/getting-help/#writing-to-vote4dance). |
 | **Sign in to this account directly to change this.** | You are in your child's account. The password, email address, passkeys, deleting the account and subscribing can only be done by signing in as your child. |
 | **Try again in an hour.** | Too many mails or tries in a short time. Wait an hour. |
