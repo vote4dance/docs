@@ -499,7 +499,7 @@ The **Data transfer** tab of the Registration page has four parts:
 | Part | What it does |
 |---|---|
 | **Import registrations** | Upload a CSV file of participants: click the upload area or drag the file onto it. The preview is the same as for [Update/import participants](#updateimport-participants). You can upload the same file again: existing participants are updated, deleted ones removed and new ones added. In the preview, **Warning Participants** can say **Missing class name**, **Duplicate start number** or "Text too long, will be shortened to 128 characters". Use this for events without online registration, not together with the import from registrations. |
-| **Download results** | **Download .csv file** and **Download partial average** download the results as files. See [Data exports](/manager-guide/post-event/#3-data-exports). |
+| **Download results** | **Download .csv file** and **Download partial average** download the results as files. See [Data exports](/manager-guide/post-event/#download-the-result-files). |
 | **Reset results** | Removes all results and takes the participants out of the rounds. Keeps participants, rounds and judges. Only available while the competition is private. |
 | **Delete registrations** | Deletes all participants. Keeps rounds and judges. Only available while the competition is private. Do not use it once online check-in has started. |
 
