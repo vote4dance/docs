@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Results, points and rankings
+title: "Your club's results, points and rankings"
 permalink: /school-club/creating-and-getting-a-ranking/
 parent: School/Club
-nav_order: 6
+nav_order: 9
 ---
 
 # Your club's results, points and rankings
@@ -23,20 +23,20 @@ ask.
 
 ## Which club a result counts for
 
-- **Licences decide it.** A competitor represents the club that holds the most active dancer
-  licences among its dancers. A tie goes to the older licence.
-- Only when none of the dancers has an active licence does the federation assign the club by
+- **Licenses decide it.** A competitor represents the club that holds the most active dancer
+  licenses among its dancers. A tie goes to the older license.
+- Only when none of the dancers has an active license does the federation assign the club by
   hand.
 - **Club membership alone does not decide it.** A dancer who joins your club but still has a
-  licence naming their old club is counted for the old club.
+  license naming their old club is counted for the old club.
 
-So when a dancer moves to your club, the federation has to reissue the licence to your club. See
+So when a dancer moves to your club, the federation has to reissue the license to your club. See
 [Club transfers](/federation/club-transfers/).
 
 ## What the club can check
 
 - **One account per dancer.** A dancer with two accounts has their results split.
-- **Licences are Active and name your club**, before the competition.
+- **Licenses are Active and name your club**, before the competition.
 - **The right club tag** (your **Short letters**) in results. For federations that import result
   files, a wrong club tag creates a duplicate club.
 
@@ -53,13 +53,9 @@ See [Your season points in the app](/dancer/season-points/) for what each line m
 | What you see | Most likely reason |
 |---|---|
 | A result is not in the ranking yet | The competition is not closed, or the ranking has not been recalculated. Wait a day. |
-| A result counts for the wrong club | The dancer's licence names another club. Ask the federation to reissue it. |
+| A result counts for the wrong club | The dancer's license names another club. Ask the federation to reissue it. |
 | A couple's points are split over two couples | A wrong person number on an entry. Tell the federation. |
 | A class or competition does not count | Each ranking only includes the classes the federation links to it. |
 
 When you contact the federation, include the dancer or team, the competition, the class, and the
 ranking you expected them in.
-
-## Next step
-
-Continue to [Age transfer](/school-club/age-transfer/).

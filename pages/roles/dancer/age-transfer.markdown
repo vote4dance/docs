@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Age transfer
+title: Moving to a new age group
 permalink: /dancer/age-transfer/
 parent: Dancer
-nav_order: 7
+nav_order: 13
 ---
 
 # Moving to a new age group
@@ -59,7 +59,3 @@ The federation's side of this, including what can block a move, is on
 
 Ask before the season starts if one of you is close to an age limit. Do not assume last season's
 age group still applies.
-
-## Next step
-
-Continue to [Class transfer](/dancer/class-transfer/) if your class level is also changing.

@@ -2,8 +2,8 @@
 layout: page
 title: At the door
 permalink: /manager-guide/the-door/
-parent: Manager Guide
-nav_order: 3.7
+parent: Registration and sales
+nav_order: 7
 help:
   checkin.event: ""
   checkin.redeem: tickets

@@ -21,7 +21,7 @@ The round setup answers one question: **"This class has N competitors — which 
 does it dance?"** The federation writes the rules once per discipline, and the
 **Round Guide** in Manager applies them to every competition, so organizers get
 the right rounds without building them by hand. The round setup is not the
-federation's rule profiles (licences, progression, age composition and the
+federation's rule profiles (licenses, progression, age composition and the
 like): those are set under **Rulebook**, while the round setup lives per discipline
 under **Structure**.
 

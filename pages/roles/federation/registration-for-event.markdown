@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Event registration policy
+title: What your rules do at event registration
 permalink: /federation/registration-for-event/
-parent: Federation
-nav_order: 5
+parent: Federation Rules
+nav_order: 7
 ---
 
 # What your rules do at event registration
@@ -25,7 +25,7 @@ what brings your rules into their event.
 
 | Check | Where you set it |
 |---|---|
-| **Licences:** which licence items a class requires | The class's **License rules**. See [Divisions](/federation/divisions/#licenses). |
+| **Licenses:** which license items a class requires | The class's **License rules**. See [Divisions](/federation/divisions/#licenses). |
 | **Age:** whether the competitor fits the class's age group | Age groups and [age category rules](/federation-rules/age-category-rules/) |
 | **Team size and dance roles** | Category rules. See [Federation Rules](/federation-rules/). |
 | **Who may register a competitor:** anyone, a member of the team, or the club | The rules editor, in the layer's **Federation rules** section under `Federation → Structure` |
@@ -107,22 +107,18 @@ What you need to know:
 ## When a dancer says they are blocked
 
 1. Open `Federation → Members → Dancers` and search for the dancer (searching needs the
-   **Administrator** role). You see their licences, competitors and class memberships, and the
+   **Administrator** role). You see their licenses, competitors and class memberships, and the
    latest rule decisions.
 2. Check the **Enforcement log** for `registration` entries. Each one says why the registration
    was allowed or blocked.
-3. Most blocks are a licence that is not **Active**, a missing birth date, or a class the
+3. Most blocks are a license that is not **Active**, a missing birth date, or a class the
    competitor has moved out of.
 
 See [Members](/federation/members/#dancers).
 
 ## Before the season's first registrations open
 
-- Every class that should require a licence has its **License rules** set.
+- Every class that should require a license has its **License rules** set.
 - Your age groups and rules are final. Changes during a registration period affect people halfway
   through registering.
-- You have told clubs and organizers which licences are needed.
-
-## Next step
-
-Continue to [Creating and getting a ranking](/federation/creating-and-getting-a-ranking/).
+- You have told clubs and organizers which licenses are needed.

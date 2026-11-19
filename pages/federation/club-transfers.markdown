@@ -2,8 +2,8 @@
 layout: page
 title: Club transfers
 permalink: /federation/club-transfers/
-parent: Federation
-nav_order: 12
+parent: Clubs and people
+nav_order: 3
 help:
   federation.organization.transfers: ""
 ---
@@ -25,9 +25,9 @@ and what changes afterwards.
 | Record | What it answers | Who changes it | Federation step? |
 |---|---|---|---|
 | **Club membership** | Is this dancer a member of the club? | The dancer (**Join organization** / **Leave organization**) and the club's staff | None. You are not involved. |
-| **Licence organization** | Which club does this dancer's federation licence name? | You, with **Change organization** on the licence | Yes: an immediate reissue |
+| **License organization** | Which club does this dancer's federation license name? | You, with **Change organization** on the license | Yes: an immediate reissue |
 | **Team ownership** | Which club owns this group or formation? | You (**Move**, **Release to independent**), or the owning club files a request that you **Approve** | Yes: immediate, or approved and dated |
-| **Representation rows** | Which club does a competitor represent when no licence says so? | You, on the organization's **Transfers** tab | Yes: immediate |
+| **Representation rows** | Which club does a competitor represent when no license says so? | You, on the organization's **Transfers** tab | Yes: immediate |
 
 There is a fifth, narrower record. When the rule **Ask which organization each dancer represents**
 is on, the registrant picks a club per dancer on each registration. That choice lives on the
@@ -39,13 +39,13 @@ updates it. See [Couples created by the result import](#couples-created-by-the-r
 
 ### How they fit together
 
-- **Licences decide representation.** A competitor represents the club that holds the **most
-  active dancer licences** among its members. A tie goes to the older licence. Representation rows
-  only count when *no* member has an active dancer licence in your federation, which is why they
+- **Licenses decide representation.** A competitor represents the club that holds the **most
+  active dancer licenses** among its members. A tie goes to the older license. Representation rows
+  only count when *no* member has an active dancer license in your federation, which is why they
   are tagged **Temporary**.
 - **Ownership decides who manages a team.** The owning club's coaches edit the lineup, register
   the team and cancel its entries. On an owned team's entries, the club shown is always the owner.
-- **Membership decides almost nothing on the federation side.** It does not move a licence, a team
+- **Membership decides almost nothing on the federation side.** It does not move a license, a team
   or a representation row. It matters for the registration club choice, and for which club the
   public dancer profile shows.
 
@@ -55,13 +55,13 @@ updates it. See [Couples created by the result import](#couples-created-by-the-r
 
 | The situation | What you do |
 |---|---|
-| A dancer with a club licence moves to a new club | [Change the licence's organization](#moving-a-dancers-licence-to-a-new-club). If the dancer dances in a couple, do it for both partners, or the couple's club may not change. See [How they fit together](#how-they-fit-together). |
+| A dancer with a club license moves to a new club | [Change the license's organization](#moving-a-dancers-license-to-a-new-club). If the dancer dances in a couple, do it for both partners, or the couple's club may not change. See [How they fit together](#how-they-fit-together). |
 | A couple **created by the result import** (DSF) changes club | [Couples created by the result import](#couples-created-by-the-result-import): two steps, the club and the club tag in the name |
-| A couple or solo with **no active licences** needs a club | [Assign organization](#assign-organization) on the organization's Transfers tab |
+| A couple or solo with **no active licenses** needs a club | [Assign organization](#assign-organization) on the organization's Transfers tab |
 | A club-owned group or formation moves to another club, and you decide it now | [Move](#move-a-team-now) in **Teams owned by the organization** |
 | The owning club has asked to move one of its teams | [Approve or reject](#approving-a-clubs-transfer-request) under **Pending transfers** |
 | A club-owned couple leaves its club and competes on its own | [Release to independent](#release-to-independent). This only works for teams of two or fewer. |
-| A dancer only changed which club they train at | Nothing on your side. Membership is between the dancer and the clubs. If the licence should follow, see the first row. |
+| A dancer only changed which club they train at | Nothing on your side. Membership is between the dancer and the clubs. If the license should follow, see the first row. |
 | A club is leaving your federation | See [When a club leaves the federation](#when-a-club-leaves-the-federation) |
 
 ---
@@ -101,33 +101,33 @@ because a result file created it, and now one or both dancers change club.
 Use the club's **tag**, the short code the result files use, not its full name. It is the same
 format the import writes: the names joined with `&`, then the tag in brackets.
 
-### Before you start: check whether the couple has licences
+### Before you start: check whether the couple has licenses
 
-The import tries to give the couple's dancers a free dancer licence at the result file's club. The
-licence note is `ranking_import_team_bootstrap`. This only works for dancers who are linked to the
+The import tries to give the couple's dancers a free dancer license at the result file's club. The
+license note is `ranking_import_team_bootstrap`. This only works for dancers who are linked to the
 couple with an account, for example after claiming their results, so many imported couples have
-no licences at all.
+no licenses at all.
 
 Open the **old** club's **Transfers** tab and look at the couple's rows:
 
 | The old club lists the couple as… | What it means | What to do |
 |---|---|---|
-| Not at all, or **Temporary** only | No active licences. The club affiliation comes from Transfers rows. | Follow the steps above. |
-| **Licensed** | At least one dancer has an active dancer licence at the old club. Licences always win over Transfers rows, so **Assign organization alone changes nothing**. | Move the licences as well. See below. |
+| Not at all, or **Temporary** only | No active licenses. The club affiliation comes from Transfers rows. | Follow the steps above. |
+| **Licensed** | At least one dancer has an active dancer license at the old club. Licenses always win over Transfers rows, so **Assign organization alone changes nothing**. | Move the licenses as well. See below. |
 
-**Moving the licences** of a couple that is listed as **Licensed**:
+**Moving the licenses** of a couple that is listed as **Licensed**:
 
-- **The new club is an approved licence issuer:** use **Change organization** on each dancer's
-  licence. See [Moving a dancer's licence to a new club](#moving-a-dancers-licence-to-a-new-club).
+- **The new club is an approved license issuer:** use **Change organization** on each dancer's
+  license. See [Moving a dancer's license to a new club](#moving-a-dancers-license-to-a-new-club).
 - **It is not an approved issuer:** clubs created by the import are approved into the federation
   but are not issuers, so the reissue is refused with "This organization isn't an approved issuer
   for this federation." Two ways forward:
   - approve the club as an issuer first, then reissue; or
-  - if the licence is only the import's free placeholder, **Edit** it, set its status to
-    **Cancelled**, and save. Once no dancer holds an active licence, the Transfers row from
+  - if the license is only the import's free placeholder, **Edit** it, set its status to
+    **Cancelled**, and save. Once no dancer holds an active license, the Transfers row from
     **Assign organization** decides the club.
 
-Move or cancel **both** dancers' licences: the club with the most active licences wins.
+Move or cancel **both** dancers' licenses: the club with the most active licenses wins.
 
 ### What stays with the old club
 
@@ -162,10 +162,10 @@ open the same pages and read the history, but cannot change anything.
 | See the Action Center counter | **Overview** | Manager, Administrator, Owner |
 | **Assign organization**, **Change organization** (representation row), **Rename competitor** | Organization → **Transfers** | Administrator, Owner |
 | **Move**, **Release to independent**, **Approve** / **Reject** a pending transfer | Organization → **Teams & integration** | Administrator, Owner |
-| **Change organization** on a licence (reissue) | **Licenses** → **Edit** | Administrator, Owner |
+| **Change organization** on a license (reissue) | **Licenses** → **Edit** | Administrator, Owner |
 
 Managers do not see these controls. Where one would be, the page says it needs a federation
-Administrator. In the licence editor, a Manager cannot change the organization of a licence the
+Administrator. In the license editor, a Manager cannot change the organization of a license the
 federation has approved. If a Manager on your staff handles transfers, give them Administrator,
 or route the change to someone who has it. See [Federation Staff Roles](/federation/staff-roles/).
 
@@ -180,8 +180,8 @@ Everything about one club is on that club's page:
 | Tab | What you do there for transfers |
 |---|---|
 | **Overview** | The **Representation summary** ("*n* active rows of *m* total") |
-| **Transfers** | The card **Competitor transfers and representation**: representation rows and licence rows for this club, **Assign organization**, **Change organization**, **Rename competitor** |
-| **Licenses** | The club's licences |
+| **Transfers** | The card **Competitor transfers and representation**: representation rows and license rows for this club, **Assign organization**, **Change organization**, **Rename competitor** |
+| **Licenses** | The club's licenses |
 | **Teams & integration** | The card **Teams owned by the organization**: owned teams, **Move**, **Release to independent**, and **Pending transfers** with **Approve** / **Reject** |
 
 > **There is no federation-wide transfer list.** Pending transfer requests are listed per club, on
@@ -293,17 +293,17 @@ the team, for example because you moved it in the meantime. The reason then carr
 | **Who manages it** | The new club's staff, immediately: editing, registering and cancelling entries. The old club loses access at the same moment. |
 | **New entries** | Register under the new club. |
 | **Existing entries** | **Keep the old club's name** on start lists, results and statistics. The club is stamped on the entry when it is made. To change an upcoming entry, the new club can cancel and re-register it, where the event allows. |
-| **Licences** | Unchanged. If a class requires members to be licensed through the owning club, the team's next registration is blocked until you move the licences too: "All members must be licensed through the owning organization for this class". |
+| **Licenses** | Unchanged. If a class requires members to be licensed through the owning club, the team's next registration is blocked until you move the licenses too: "All members must be licensed through the owning organization for this class". |
 | **Notifications** | None. No email or push goes to either club or to the dancers, so tell them yourself. |
 
 ---
 
-## Moving a dancer's licence to a new club
+## Moving a dancer's license to a new club
 
-The club named on an **active** licence cannot be edited in place. "Change organization" on the
-licence **reissues** it instead.
+The club named on an **active** license cannot be edited in place. "Change organization" on the
+license **reissues** it instead.
 
-1. `Federation → Licenses`, find the licence in **Needs your approval** or **All other licenses**
+1. `Federation → Licenses`, find the license in **Needs your approval** or **All other licenses**
 2. **Edit**, pick the new club in **Organization**, and **Save**
 3. Confirm: "Change organization for this license?" — "*New club* will represent *dancer* on this
    license starting today, valid through *end date*. The previous license under *old club* will be
@@ -312,32 +312,32 @@ licence **reissues** it instead.
 
 **What happens, in one step:**
 
-- A **new active licence** is issued under the new club, valid **from today** through the old
-  licence's end date. The dancer pays nothing again: the payment status and your federation
+- A **new active license** is issued under the new club, valid **from today** through the old
+  license's end date. The dancer pays nothing again: the payment status and your federation
   approval carry over.
-- The **old licence** is set to **Cancelled**. Its note gets
+- The **old license** is set to **Cancelled**. Its note gets
   "[Replaced by license #*n* on *date* — organization changed]", so the history stays readable.
-- **Representation follows.** Once most of a team's active dancer licences name the new club, the
+- **Representation follows.** Once most of a team's active dancer licenses name the new club, the
   team represents the new club from that day.
 
-A licence that names **no club yet**, such as a self-service licence, is not reissued. Picking a
-club in **Edit** simply adds it to the same licence, with no confirmation.
+A license that names **no club yet**, such as a self-service license, is not reissued. Picking a
+club in **Edit** simply adds it to the same license, with no confirmation.
 
 **It does not** change club membership, team ownership or representation rows. The **payer
-organization** on the licence is also carried over unchanged: it still names the old club.
+organization** on the license is also carried over unchanged: it still names the old club.
 
 **It is refused when:**
 
 | Message | Why |
 |---|---|
-| "Only active licenses can have their organization changed." | The licence is pending, suspended, expired or cancelled. For a licence that is not active, the organization can simply be edited. |
+| "Only active licenses can have their organization changed." | The license is pending, suspended, expired or cancelled. For a license that is not active, the organization can simply be edited. |
 | "The new organization must be different from the current one." | Nothing to change. |
 | "This organization isn't an approved issuer for this federation." | Approve the new club as a **license issuer** first. See [Manage issuer role on organizations](/federation-licenses/federation-admin/#6-manage-issuer-role-on-organizations). |
-| "Organization cannot be changed on an active license. Cancel this license and issue a new one." | You saved an organization change on an active licence without going through the confirmation. Use the flow above. |
+| "Organization cannot be changed on an active license. Cancel this license and issue a new one." | You saved an organization change on an active license without going through the confirmation. Use the flow above. |
 
 > **Couples: reissue both partners.** Representation follows the majority of active dancer
-> licences, and a tie goes to the older licence. If you reissue only one partner of a couple, the
-> couple keeps representing the old club until the second licence moves too.
+> licenses, and a tie goes to the older license. If you reissue only one partner of a couple, the
+> couple keeps representing the old club until the second license moves too.
 
 ---
 
@@ -348,7 +348,7 @@ competitor linked to this club by either route:
 
 | Tag | Source | Status shown |
 |---|---|---|
-| **Licensed** | A team member's dancer licence at this club | The **licence's** status. Its date is the licence's valid-from date. |
+| **Licensed** | A team member's dancer license at this club | The **license's** status. Its date is the license's valid-from date. |
 | **Temporary** | A representation row entered by staff | **pending**, **active**, **ended** or **rejected** |
 
 Active rows sort first. Ownership moves are **not** listed here; see
@@ -356,8 +356,8 @@ Active rows sort first. Ownership moves are **not** listed here; see
 currently represent this organization."
 
 A **Temporary** row only decides a competitor's club while **no member holds an active dancer
-licence** in your federation. As soon as one does, the licence wins. Use these rows for
-competitors that have no licences: imported results, teams awaiting their first licence, or
+license** in your federation. As soon as one does, the license wins. Use these rows for
+competitors that have no licenses: imported results, teams awaiting their first license, or
 federations that do not license dancers.
 
 ### Assign organization
@@ -386,7 +386,7 @@ the newest active row wins.
 
 ### Rename competitor
 
-On any row. It changes the competitor's name everywhere, without touching its club, licences or
+On any row. It changes the competitor's name everywhere, without touching its club, licenses or
 status.
 
 ### What you cannot do here
@@ -405,7 +405,7 @@ set no dates.**
 
 Leaving a club does **not**:
 
-- cancel or move the dancer's licence, which still names the old club until you reissue it;
+- cancel or move the dancer's license, which still names the old club until you reissue it;
 - remove the dancer from a club-owned team's lineup;
 - change any representation row.
 
@@ -416,7 +416,7 @@ It **does** change:
 - the club shown on the dancer's public profile.
 
 So when a dancer tells you "I've changed clubs", ask which of the four records they mean. Most of
-the time it is the licence.
+the time it is the license.
 
 ---
 
@@ -431,7 +431,7 @@ they represent.
 - **Organizer side:** **Organization selection = Required** on a registration period or class.
 
 The choice is stored on that registration and shown to you and the organizer. It does not change
-who is billed, and it does not move a licence or a team. Club-owned teams are never asked: they
+who is billed, and it does not move a license or a team. Club-owned teams are never asked: they
 always register under their owning club.
 
 Registrants can be stopped with:
@@ -450,7 +450,7 @@ transfer and before a transferred competitor starts.
 
 In practice:
 
-- Approving a request, moving a team, reissuing a licence and assigning an organization all ignore
+- Approving a request, moving a team, reissuing a license and assigning an organization all ignore
   allowed dates, deadlines and quarantine.
 - A **pending** transfer does not block the team from competing. It keeps competing for its old
   club until the move takes effect.
@@ -469,7 +469,7 @@ The Transfers tab may show an alert, **Transfer timing policy** ("Transfers must
 ### Doing it by hand, consistently
 
 1. Write your rules down once: allowed effective dates, submission deadline for each date,
-   quarantine length and when it starts, and any exemptions (age, licence type).
+   quarantine length and when it starts, and any exemptions (age, license type).
 2. Ask clubs to send requests with the **effective date** and the **submission date**.
 3. Before approving, check the date against the rules. Reject what does not fit, and tell the club
    why; the system sends no message.
@@ -484,8 +484,8 @@ The Transfers tab may show an alert, **Transfer timing policy** ("Transfers must
 |---|---|
 | Who owns a team now | The club's **Teams & integration** → **Teams owned by the organization** |
 | Transfers still waiting | **Pending transfers** on the owning club |
-| A licence club change | The **Cancelled** licence with "[Replaced by license #… organization changed]", and the new licence |
-| Representation history | The club's **Transfers** tab (licence rows and Temporary rows, with status, date and reason) |
+| A license club change | The **Cancelled** license with "[Replaced by license #… organization changed]", and the new license |
+| Representation history | The club's **Transfers** tab (license rows and Temporary rows, with status, date and reason) |
 | A registration blocked because of a club | **Members → Enforcement log** (point **registration**) |
 
 **Not visible to federation staff:**
@@ -512,7 +512,7 @@ This is the same minimum record as the
 ## When a club leaves the federation
 
 Removing a club from your federation, or the club detaching itself, does **not** move its teams,
-licences or pending transfers.
+licenses or pending transfers.
 
 - New transfer requests from that club are refused ("Transfers must stay within one federation").
 - An approved transfer with a future date **still takes effect** on its date.
@@ -521,7 +521,7 @@ Before removing a club:
 
 1. Move or release its owned teams
 2. Decide its pending transfers
-3. Reissue or cancel its licences
+3. Reissue or cancel its licenses
 
 A club that still owns teams cannot be deleted: "The organization still owns competitors —
 transfer or retire them first". A club with representation history can only be retired, not
@@ -536,10 +536,10 @@ deleted.
 For couples created by the result import, see
 [Couples created by the result import](#couples-created-by-the-result-import). For other couples:
 
-1. Reissue **both** partners' dancer licences to the new club (**Change organization** on each)
+1. Reissue **both** partners' dancer licenses to the new club (**Change organization** on each)
 2. If the couple is club-owned: **Move** it to the new club. For a couple going independent,
    **Release to independent**.
-3. If neither partner has an active dancer licence: **Assign organization** on the new club's
+3. If neither partner has an active dancer license: **Assign organization** on the new club's
    Transfers tab instead of step 1
 4. Tell the dancers to **Join organization** at the new club and leave the old one. Registration
    club choice uses membership.
@@ -550,7 +550,7 @@ For couples created by the result import, see
 
 1. Check the effective date against your rules
 2. **Approve** the owning club's request, or **Move** it yourself from the owning club's page
-3. If the class requires members licensed through the owning club: reissue the members' licences
+3. If the class requires members licensed through the owning club: reissue the members' licenses
    to the new club, **from the effective date**. A reissue always starts today, so do it on the
    day the move takes effect, not before.
 4. Tell both clubs. The new club should review the lineup, and existing entries keep the old
@@ -570,7 +570,7 @@ and formations.
 ### "I pressed Assign organization and got an error, or nothing saved"
 
 Read the error message. "This row can't be changed here…" means the row you acted on is not a
-**Temporary** row, for example a licence row. Reload the page and try again. "The chosen
+**Temporary** row, for example a license row. Reload the page and try again. "The chosen
 organization does not belong to this federation" means the club is not linked to your federation.
 If you do not see **Assign organization** at all, your role is Manager or Viewer: these actions
 need **Administrator** or **Owner**.
@@ -588,13 +588,13 @@ couple: **Rename competitor** on the club's **Transfers** tab. See
 
 ### "The club changed, but the couple still represents the old club"
 
-Representation follows the majority of the members' **active dancer licences**. Check that both
-partners' licences were reissued. A Temporary row does not override a licence.
+Representation follows the majority of the members' **active dancer licenses**. Check that both
+partners' licenses were reissued. A Temporary row does not override a license.
 
 ### "The new club can't register the formation"
 
 If the error is "All members must be licensed through the owning organization for this class",
-reissue the members' licences to the new club. If the club cannot see the team at all, check the
+reissue the members' licenses to the new club. If the club cannot see the team at all, check the
 move actually happened: a future-dated transfer only applies in the 03:10 run on its date.
 
 ### "A dancer left the club but is still in its formation"
@@ -611,9 +611,9 @@ want the move later.
 
 ## Related
 
-- [Federation admin](/federation-licenses/federation-admin/): licences, issuers and organization
+- [Federation admin](/federation-licenses/federation-admin/): licenses, issuers and organization
   approval
 - [Federation Staff Roles](/federation/staff-roles/): what Administrator and Manager can do
 - [Manual Workflows](/federation-rankings/manual-workflows/): ranking carryover exceptions after a
   club change
-- [Organization admin](/federation-licenses/organization-admin/): the club side of licences
+- [Organization admin](/federation-licenses/organization-admin/): the club side of licenses

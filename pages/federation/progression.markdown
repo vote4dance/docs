@@ -2,17 +2,19 @@
 layout: page
 title: Promotion points
 permalink: /federation/progression/
-parent: Federation
-nav_order: 9
+parent: Points and rankings
+nav_order: 1
+redirect_from:
+  - /federation/class-transfer/
 help:
   federation.division.progression: ""
   federation.progression.points-by-round: pay-by-the-round-a-dancer-reached
   federation.progression.recalculate: recalculate-points
 ---
 
-# Promotion points (U-poäng)
+# Promotion points
 
-Promotion points move competitors up a class ladder. Vote4Dance tracks them with one simple rule: **every competition entry carries the points earned at that competition** — whether the system computed them from judged results, they arrived in an imported result file, or an official typed them in. The federation side sums those values per class membership and promotes automatically at the class threshold.
+Promotion points (U-poäng) move competitors up a class ladder. Vote4Dance tracks them with one simple rule: **every competition entry carries the points earned at that competition** — whether the system computed them from judged results, they arrived in an imported result file, or an official typed them in. The federation side sums those values per class membership and promotes automatically at the class threshold.
 
 ## Where a value comes from
 
@@ -26,7 +28,7 @@ A competition entry's promotion points ("U-points") can be written three ways, a
 
 Closing a competition is the moment progression runs. For every entry in a federation-linked class, the system:
 
-1. **Resolves the couple** from the entry's person numbers — creating the dance team on first sight, reusing it forever after. The entry's club tag is resolved the same way: an unknown club is created (with placeholder details for the office to complete) and approved into the federation, and the couple is named after the file, club tag included: `Name & Name (TAG)`. Dancers who already have an account and no active dancer licence receive a free bootstrap licence at that club. The name is not updated by later files, so a club change needs a rename — see [Couples created by the result import](/federation/club-transfers/#couples-created-by-the-result-import). Accuracy in result files is critical: a typo in a person number creates a phantom second couple with a split balance, and a typo in a club tag creates a duplicate club.
+1. **Resolves the couple** from the entry's person numbers — creating the dance team on first sight, reusing it forever after. The entry's club tag is resolved the same way: an unknown club is created (with placeholder details for the office to complete) and approved into the federation, and the couple is named after the file, club tag included: `Name & Name (TAG)`. Dancers who already have an account and no active dancer license receive a free bootstrap license at that club. The name is not updated by later files, so a club change needs a rename — see [Couples created by the result import](/federation/club-transfers/#couples-created-by-the-result-import). Accuracy in result files is critical: a typo in a person number creates a phantom second couple with a split balance, and a typo in a club tag creates a duplicate club.
 2. **Registers a class membership** — but only for couples that received points (earned or carried-in). Couples with nothing to record are not registered and do not appear in the division history; they are registered by whichever later competition first awards them points.
 3. **Computes earned points** for judged classes (imported classes keep their entered values).
 4. **Updates balances and applies promotions.** A couple reaching the class threshold is moved to the target class immediately, with the reason recorded in their history.
@@ -95,7 +97,7 @@ When **Membership policy** is **Required**, a team needs a class membership to e
 
 A team that already holds a class higher up the same ladder can't enter a lower class. Registering for the bottom class is refused with "This team already dances in a higher class, so it cannot enter this lower class." Many rulebooks say this: a couple that has danced A or B may not start in a lower class. Before, such a team was placed in the bottom class as well, and then held two classes in one ladder.
 
-The ladder is the chain of **Target Class** settings, so this works as long as each class points to the next one up. If a team really should dance a lower class, for example after a long break, move it on `Members → Competitors` first (see [Class moves: your part](/federation/class-transfer/#manual-moves-and-corrections)).
+The ladder is the chain of **Target Class** settings, so this works as long as each class points to the next one up. If a team really should dance a lower class, for example after a long break, move it on `Members → Competitors` first (see [Manual moves and corrections](#manual-moves-and-corrections)).
 
 ## Pay by the round a dancer reached
 
@@ -168,6 +170,19 @@ Good to know:
 
 Only federation administrators can recalculate.
 
+## Manual moves and corrections
+
+Class moves are mostly automatic: you set the rules once, and Vote4Dance applies them each time an organizer closes a competition. You step in for exceptions, on `Federation → Members → Competitors`. Editing memberships needs the **Manager** role; **Sync federation progress** needs **Administrator**.
+
+| Task | How |
+|---|---|
+| Promote, demote or move a competitor | **Edit** the membership, change the class, choose a **Carryover type**, and write a **Reason**. |
+| Keep automation away from one membership | Tick **Lock automatic transitions**. |
+| Set a competitor's starting balance | The carryover action on the division's **Status** tab. |
+| Recalculate everyone | **Sync federation progress**. |
+
+Every change is written to **History** with its reason. Write reasons someone can understand next year: what changed, why, and who approved it.
+
 ## Where to see points
 
 - **Members → Competitors** ([Competitors tab](/federation/members/#competitors)) — the roster: filter by class for every member with status and current points, or type a couple's name in the search field to find them across all classes.
@@ -181,3 +196,11 @@ Only federation administrators can recalculate.
 ## What gets logged
 
 The federation control log records decisions with consequences: promotions applied, promotions earned but blocked by a disabled auto-promotion rule, carried-in balances set, registrations blocked. Being below a threshold is a normal state, not an event, and is never logged.
+
+## Common problems
+
+| Problem | Fix |
+|---|---|
+| A couple should have moved, but has not | Check the competition is closed. Then check the class's ladder on **Progression**, and the **Enforcement log** for `promotion` entries. |
+| A couple's points are split over two couples | A wrong person number on an entry. Have the organizer correct it, then set the real couple's balance with a carryover and retire the duplicate's membership. |
+| Clubs dispute a move | The **History** tab shows who changed what and why. |

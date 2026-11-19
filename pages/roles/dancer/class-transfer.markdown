@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Class transfer
+title: Moving up a class
 permalink: /dancer/class-transfer/
 parent: Dancer
-nav_order: 8
+nav_order: 12
 ---
 
 # Moving up a class
@@ -58,7 +58,3 @@ example as an approved exception. Both are recorded in your history.
 | You expected to move up, but have not | Check that the competition is closed. If it is, ask your federation to check your points. |
 | Your points are split over two couples | A wrong person number on an entry created a duplicate couple. Tell your federation. |
 | Your club and federation disagree about your class | Get a confirmed answer from the federation before you register. |
-
-## Next step
-
-Continue to [Renew license](/dancer/renew-license/) when you prepare for the next season.

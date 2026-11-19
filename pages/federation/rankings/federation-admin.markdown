@@ -4,13 +4,34 @@ title: Federation Admin
 permalink: /federation-rankings/federation-admin/
 parent: Federation Rankings
 nav_order: 1
+redirect_from:
+  - /federation/creating-and-getting-a-ranking/
 ---
 
 # Federation Admin
 
-Use this page when you are responsible for setting up or maintaining rankings for a federation.
+A ranking is a list your federation publishes, for example "Season ranking, Adults Standard". It is built from competition results, using a formula you set per ranking. Rankings need the **Administrator** role.
 
-Use [Federation](/federation/) if you first need to decide whether the issue is ranking policy, class transfer policy, or a federation governance issue outside the ranking workflow.
+## Set up a ranking
+
+The division and its federation classes must exist first: see [Before you start](#before-you-start).
+
+1. **Create the ranking in its division.** A ranking belongs to one division. Open the division in `Federation → Structure` and use its **Ranking** section. A ranking cannot span several divisions: create one per division.
+2. **Add the classes.** A ranking only counts results from the federation classes you add to it. Add every class that should count, and none that serve another purpose.
+3. **Set the formula:** **Purpose**, **Season start (MM-DD)**, **Window mode**, **Ranking by** and **Update daily**. Each setting is explained, with an example, under [3b. Set the scoring and the time window](#3b-set-the-scoring-and-the-time-window).
+4. **Check it.** Open the ranking and check the standings against a competition you know.
+
+## Make it public
+
+1. Make the ranking public, and turn on **Rankings** under `Federation → Settings → Public page`. A new federation has every public section off. See [Federation settings](/federation/settings/#public-page).
+2. Open the public page and check what dancers will see. See [Public Rankings](/federation-rankings/public/).
+
+## Corrections and exceptions
+
+- **Corrections** (adding or removing points, removing a team) are made on the ranking itself. Press **Import** afterwards. See [5. Apply manual corrections carefully](#5-apply-manual-corrections-carefully).
+- **Exceptions** where the published outcome must differ from the formula, such as a selection decision or a tie resolved by the committee, follow [Manual workflows](/federation-rankings/manual-workflows/).
+
+## One formula per ranking
 
 The current model assumes one automated ranking formula per ranking artifact. If the federation needs a different published outcome in a specific case, use the documented manual workflow instead of trying to encode a hidden secondary formula inside the same ranking.
 
@@ -148,16 +169,6 @@ After changes, open the public ranking page for the same division and verify:
 - the ranking license policy tag is correct
 - any correction is reflected as expected
 
-## What success looks like
-
-You know the setup is correct when:
-
-- the ranking exists in exactly one division
-- the included classes match the intended scope
-- the public page shows the ranking under the correct division
-- any required manual exception has an approval record and publication note
-- corrections affect the expected ranking only
-
 ## What to do next
 
 After the ranking is working:
@@ -176,6 +187,18 @@ This page does not decide:
 Use [Manual workflows](/federation-rankings/manual-workflows/) when the published outcome must intentionally differ from the automated ranking result.
 
 ## Common problems
+
+### A competition is missing from the ranking
+
+It is not closed yet, or its classes are not on this ranking, or the ranking has not recalculated. Press **Import**.
+
+### A dancer is left out
+
+Check the **Enforcement log** for a `ranking` entry. A missing ranking license is a common reason.
+
+### The ranking is not on the public page
+
+The ranking is not public, or **Rankings** is off under **Public page**.
 
 ### I cannot open a ranking profile until I choose a division
 

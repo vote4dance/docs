@@ -1,146 +1,80 @@
 ---
 layout: page
-title: Key Terminology
+title: Glossary
 permalink: /understanding-vote4dance/key-terminology/
-parent: Understanding Vote4Dance
+parent: Start here
 nav_order: 3
 ---
 
-# Key Terminology
+# Glossary
 
-As you read documentation and use Vote4Dance, you'll encounter these terms frequently. Understanding them now will make the rest of the docs clearer.
+The words these pages and the apps use, grouped by where you meet them.
 
----
+## People and organizations
 
-## Organization-Related Terms
+| Term | What it means |
+|---|---|
+| **Organizer** | The person or team that sets up and runs an event. See [Organizer](/organizer/). |
+| **Club** | A school, studio, team or other organization that dancers belong to. The apps call it an **Organization**; these pages say club, or school/club. See [School/Club](/school-club/). |
+| **Federation** | A governing body that sets the rules for its competitions: classes, age groups, licenses, points and rankings. An event can run under a federation or without one. See [Federation](/federation/). |
+| **Competitor** | Who a result belongs to: a single dancer, a couple or a team. A federation keeps a competitor's class and points from one competition to the next. |
+| **Participant** | A competitor in one competition, as listed on the Participants page in Manager. Older pages and some screens say "team" for the same thing, also for a single dancer. |
+| **Scrutineer** | The official who oversees judging and results at an event. See [Scrutineer](/scrutineer/). In the list of users, "Scrutineer" is also the label of the Manager app. |
 
-### **Federation**
-A governing body that sets policy, issues licenses, manages rankings, and approves schools/clubs. Often a national or regional association.
+## Events
 
-### **School/Club**
-An organization that represents a group of dancers (like a school team or independent studio). Schools/clubs register with federations and manage their members.
+| Term | What it means |
+|---|---|
+| **Event** | What the organizer creates: one occasion, on one or more days, holding one or more competitions. |
+| **Competition** | A part of an event with its own classes, registration, judges and results. |
+| **Class** | What competitors enter and are ranked in, for example one age group at one level of one discipline. Under a federation, each class maps to a **Federation Class**, which carries its age and level rules. |
+| **Round** | One judged session of a class: a qualification, a semifinal, a final. A round moves through **Not started** → **In progress** → **Closed** → **Confirmed** → **Published**. |
+| **Floor** | A place rounds are danced. A hall can be split into sections that run at the same time. See [Floors](/manager-guide/floors/). |
+| **Schedule** | The running order of the whole event: which rounds, on which day and floor, from what time. |
+| **Problems** | Manager's automatic checks of your setup, such as start number conflicts and dancers in two rounds at once. See [Problems](/manager-guide/validator/). |
 
-### **Event**
-A specific dance competition or showcase. Each event has divisions, classes, rounds, and judges. Events are organized by event organizers using the Manager app.
+## Registration and the day
 
-### **Organization**
-The umbrella term for any governing entity in the system: a federation, a school, a studio, a company, etc. The platform uses "organization" generically; context determines whether we mean a federation, school/club, or event-running entity.
+| Term | What it means |
+|---|---|
+| **Registration period** | A window in which a competition takes entries, with its own dates, prices and rules. |
+| **Entry** | One competitor registered in one class. Also called a registration. |
+| **License** | A federation's permission to compete for a season. Not every federation requires one. An entry is for one event; a license covers a season. |
+| **Vote4Dance ID** | Your account shown as a QR code, scanned at the entrance. See [Your Vote4Dance ID](/dancer/vote4dance-id/). |
+| **Check-in** | Confirming at the event that a dancer or a club has arrived, and the app the desk does it in. |
+| **Start number** | The number a competitor wears and is judged by. |
+| **Station** | A shared device that runs one app without a personal sign-in. See [Users, apps and stations](/manager-guide/users-and-stations/#stations-shared-devices). |
+| **Shop** | Tickets, meals and merchandise sold for an event, online and at the desk. See [Shop](/manager-guide/shop/). |
 
----
+## Federation structure
 
-## License-Related Terms
+A federation class is built from five parts. See [Divisions and disciplines](/federation/divisions/).
 
-### **License** / **Issued License**
-Proof that a dancer or school is eligible to participate. Some federations require licenses; others don't. If required, licenses are issued for a specific season/year.
+| Term | What it means |
+|---|---|
+| **Division** | A group of disciplines, for example Breaking, Disco, or Standard & Latin. |
+| **Discipline** | A specific dance form within a division, for example Popping or Lindy Hop. |
+| **Category** | The size of the competitor: single, duo, group, formation. |
+| **Age group** | The ages that compete together, for example Junior, Youth, Adult. |
+| **Class level** | A step on the class ladder, for example A, B, Champion. |
 
-### **License Item**
-A specific product that can be purchased or approved. Examples: "U10 Dance License", "School Membership", "Competition Fee". Federation admins define what license items are available.
+## Licenses, points and rankings
 
-### **Payer Type**
-Who pays for a license:
-- **Self-service**: The dancer pays for their own license directly
-- **Organization-managed**: The school/club pays on behalf of the dancer
+| Term | What it means |
+|---|---|
+| **License item** | One license a federation offers, with its price and who it is for. |
+| **License status** | **Draft** (not submitted), **Pending** (waiting for approval), **Active** (valid), **Expired**, **Suspended** (held by the federation) or **Cancelled**. |
+| **Self-service** and **organization-managed** | Whether a dancer applies and pays for a license themselves, or the club does it for them. |
+| **Promotion points** | Points a competitor earns at competitions and that move them up a class. See [Promotion points](/federation/progression/). |
+| **Ranking** | A federation's standing list across competitions. See [Federation Rankings](/federation-rankings/). |
 
-### **License Status**
-- **Pending**: Applied for but not yet approved or active
-- **Approved**: Reviewed and accepted
-- **Active**: Can be used for competition or other purposes
-- **Expired**: No longer valid
+## The apps
 
----
+Manager, Judging, Speaker, Screens and the others are described on
+[Which app is which](/building-blocks/).
 
-## Ranking-Related Terms
-
-### **Ranking**
-A list of dancers or teams arranged by score, typically within a division and class. Used to show who did best at a competition or across a season.
-
-### **Division**
-A grouping within rankings, usually by age group or skill level (e.g., "U10", "U12", "Open").
-
-### **Class**
-A category of performance within a division. In a competition each class maps to a **Federation Class**, which is what carries its age and level rules.
-
-### **Manual Workflow** / **Manual Exception**
-When the automatically-calculated ranking result needs to be changed due to a dispute, tie-breaking decision, or administrative override.
-
----
-
-## Event-Related Terms
-
-### **Manager**
-The central control panel where event organizers configure events, assign judges, manage registration, and run live competition rounds. (Not to be confused with event managers as people—"Manager" is the app name.)
-
-### **Judging App**
-The app where judges enter their marks during live rounds. Each judge sets their own PIN on their own device; the invitation email also carries a demo link to practise on.
-
-### **Speaker App**
-The app for floor operations and live announcements during an event.
-
-### **Screens**
-The projectors and TVs in the hall, and the app that drives them: lineups, heats, results, the prize ceremony, the schedule, judges and sponsors. Each screen is configured in `Manager → Event → Screens`; see [Screens, projectors and venue technology](/manager-guide/screens/).
-
-### **Check-in**
-The process where dancers and clubs confirm their presence at the event before the competition begins, and the app the desk does it in. The desk can scan a dancer's **Vote4Dance ID** (their personal QR card, which they open from their own account) or a ticket code, or search by name or email.
-
-### **Round**
-A distinct judging session within a class: a qualification, a semifinal, a final. Each round sits on a schedule item and a floor, and moves through five statuses — **Not started** → **In progress** → **Closed** → **Confirmed** → **Published** — driven by the buttons `Start judging`, `Close round`, `Confirm round` and `Publish results online`.
-
----
-
-## Workflow-Related Terms
-
-### **Self-Service**
-When a dancer can apply for their own license or perform their own action directly, without needing a school/club admin.
-
-### **Organization-Managed**
-When a school/club admin applies for something on behalf of dancers or handles the action for them.
-
-### **Hybrid**
-When the application process involves both self-service (dancer initiates) and organization involvement (school approves or handles payment).
-
----
-
-## System Concepts
-
-### **Approval Flow**
-The process of checking, reviewing, and authorizing something (like a license or dancer registration) before it becomes active.
-
-### **Policy**
-Rules set by a federation. Examples: "All dancers must be licensed", "Classes map to specific age divisions", "Rankings use this scoring formula".
-
-### **Bootstrap**
-The defaults Manager creates with a new event so you don't start from an empty page: a **Main floor**, one screen, default cafe products and a starting schedule with **Doors open** and **Competition start**. Classes, rounds, judges and teams you add yourself.
-
-### **Stripe**
-The payment processor used by Vote4Dance. If payments are required and Stripe is connected, dancers and admins can pay online — for registrations, and in the **Shop** for tickets and meals.
-
-### **Problems**
-Manager's automatic tests over your setup: start-number and license conflicts, rounds without judges, dancers scheduled in two overlapping rounds, advancement that does not add up, and more. They re-run as you change the competition. Clear them before the event.
-
----
-
-## Relationship Clarifications
-
-### **Event vs Federation**
-- **Federation**: Policy and governance layer that multiple events might use
-- **Event**: Specific competition run by an organizer, which may or may not use federation policies
-
-### **School/Club vs Organization**
-- **School/Club**: A specific role hub for organizations that join federations and have members
-- **Organization**: The generic term for any organizing entity (includes federations, schools, event-running companies, etc.)
-
-### **License vs Registration**
-- **License**: Permission/proof to participate issued by a federation for a season (might cover multiple events)
-- **Registration**: Entry into a specific event
-
----
-
-## Next Steps
-
-Now that you understand the terminology, go to [System Model](/understanding-vote4dance/system-model/) if you haven't already, or jump to your specific role hub:
-
-- [Organizer](/organizer/)
-- [School/Club](/school-club/)
-- [Federation](/federation/)
-- [Dancer](/dancer/)
-- [Scrutineer](/scrutineer/)
+| Term | What it means |
+|---|---|
+| **Manager** | The app the organizer sets up and runs the event in. It is an app, not a person. |
+| **Practice event** | An event for trying things out. It costs nothing and is left out of federation reporting. A **live competition** is the real thing. |
+| **Stripe** | The payment service behind online payments for entries, licenses and the shop. The money goes to the organizer's or the federation's own Stripe account. |

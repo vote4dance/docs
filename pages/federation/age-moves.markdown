@@ -2,8 +2,10 @@
 layout: page
 title: Age moves
 permalink: /federation/age-moves/
-parent: Federation
-nav_order: 10
+parent: Structure and rules
+nav_order: 4
+redirect_from:
+  - /federation/age-transfer/
 ---
 
 # Age moves
@@ -12,6 +14,10 @@ At the start of a season, competitors whose members have outgrown their age
 group move to the same class one age group up. The **Age-up batch transition**
 does this in one pass, from `Federation → Members`, on the [Competitors tab](/federation/members/#competitors). It previews first and
 moves only the competitors you tick.
+
+The batch is the part of your age rules that you run yourself. The other part is
+automatic: at every registration, Vote4Dance checks the competitor against the
+class's age group and your age category rules.
 
 > The batch always covers the **whole federation**, including when the Members
 > roster is filtered to one division. The preview lists every candidate the
@@ -57,6 +63,8 @@ belongs to the 2026/27 season and counts the age each dancer turns during 2027
 ---
 
 ## Running the batch
+
+Running the batch needs the **Administrator** role.
 
 1. Set the **Effective date**. It dates the move and decides the season, and so
    the year ages are counted in.
@@ -143,12 +151,36 @@ couples the batch moves.
 ## Before the first run
 
 - **Season start (MM-DD)** is set on the federation, so ages are counted for the
-  right year.
+  right year. See [Season start (MM-DD)](#season-start-mm-dd) below.
 - The age groups above have a **minimum age**, and the classes that use them
-  exist, are **active**, and match the class level below them.
+  exist, are **active**, and match the class level below them. Age groups and
+  their bands are under `Federation → Structure`: see
+  [Divisions](/federation/divisions/#age-groups).
 - **Ranking carry** percentages are set if rankings should follow the move.
 - **Age composition** is set wherever the band is read off one dancer rather
-  than all of them.
+  than all of them, for example the oldest member of a couple or group.
+
+Check the combined result in `Federation → Rulebook`. Publish the rules to clubs
+before the season, so the batch holds no surprises.
+
+### Season start (MM-DD)
+
+Write the season start as month and day with two digits each, for example
+`09-01` for 1 September. A date that does not exist, such as `02-30` or `9-01`,
+is not saved: you get "The season start is not a date. Write it as month-day,
+for example 09-01 for 1 September."
+
+The same season start decides what counts as "this season" on
+[Statistics](/federation/statistics/#the-season).
+
+---
+
+## Outside the batch
+
+| Case | What to do |
+|---|---|
+| A competitor needs a move outside the batch | Edit the class membership on the Competitors tab. It is recorded in the history. |
+| A dancer has no birth date | They add it to their account. Without it, some age groups block registration. |
 
 ---
 
@@ -157,5 +189,3 @@ couples the batch moves.
 - [Age category rules](/federation-rules/age-category-rules/) — the bands
   themselves and how they apply to a team.
 - [Promotion points](/federation/progression/) — what the carried points mean.
-- [Age transfer governance](/federation/age-transfer/) — the policy behind the
-  move.

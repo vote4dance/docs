@@ -2,8 +2,8 @@
 layout: page
 title: Problems (setup checks)
 permalink: /manager-guide/validator/
-parent: Manager Guide
-nav_order: 3.9
+parent: Rehearsal and event day
+nav_order: 2
 help:
   manager.event.validator: checks
   manager.event.validator.dsf: dsf-checks                          # dsf.* checks

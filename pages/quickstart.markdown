@@ -2,28 +2,28 @@
 layout: page
 title: Quickstart
 permalink: /quickstart/
-parent: Getting Started
-nav_order: 1
+parent: Plan your competition
+nav_order: 2
 ---
 
 # Quickstart
 
 This flow gets a new event organizer from zero to a runnable event.
 
-**Before you start:** If you haven't already, read [Understanding Vote4Dance](/understanding-vote4dance/) to understand the system and confirm you're an event organizer.
+This page is for organizers. If that is not you, find your section on [Start here](/getting-started/).
 
 **Organizing your first competition?** [Planning your first competition](/manager-guide/first-competition/) lays out what is required of you as organizer, what must be entered in Vote4Dance, and when.
 
 ## 1. Create an event in Manager
 
-[Manager](/understanding-vote4dance/manager-intro/) is the control panel for event organizers. Go there and create a new event.
+Manager is the app you set up and run the event in. Open it and create a new event.
 
 ### How do you want to start?
 
 The first question decides how much the wizard asks you:
 
 - **Training competition with default settings** — "Best for your first event." No federation rules, and the questions you do not need yet are filled in for you.
-- **Competition for a specific federation** — "Use this if you already know which federation setup and classes you need." You pick the [federation](/understanding-vote4dance/system-model/), and its licenses, classes and rules apply.
+- **Competition for a specific federation** — "Use this if you already know which federation setup and classes you need." You pick the [federation](/understanding-vote4dance/key-terminology/), and its licenses, classes and rules apply.
 
 **Not sure?** Take the training competition. Everything can be changed afterwards, and a practice event costs nothing and is excluded from federation reporting.
 
@@ -49,12 +49,11 @@ Classes, rounds, judges and teams are yours to add. On a **practice event** you 
 
 ## 3. Build your event structure
 
-On top of what the new event already contains, create:
+On top of what the new event already contains, work through these in order:
 
-In the [Manager Guide](/manager-guide/):
-1. **Event setup**: Verify competitions, floors, user access, schedule
-2. **Competition setup**: Define classes, rounds, teams, judges
-3. **Registration and check-in setup**: Enable registration periods, check-in windows
+1. **[Event setup](/manager-guide/event-setup/)**: verify competitions, floors, user access, schedule
+2. **[Competition setup](/manager-guide/competition-setup/)**: define classes, rounds, participants, judges
+3. **[Registration and check-in](/manager-guide/registration-checkin/)**: enable registration periods, check-in windows
 
 ## 4. Dry run before event day
 
@@ -80,9 +79,7 @@ For each round during the actual event, follow this lifecycle:
 | **Confirmed** | Results reviewed and approved for presentation. | **Publish results online** |
 | **Published** | Results are live: screens, public results, rankings. | — |
 
-**Previous status** takes a round back a step. Note that the first two statuses read *Not
-started* and *In progress* in Manager — older material (and some of this documentation's
-history) called them "Open" and "Ready".
+**Previous status** takes a round back a step.
 
 Repeat for each round.
 
@@ -96,11 +93,10 @@ From the [Post-event and exports](/manager-guide/post-event/) section, run:
 
 ---
 
-## Need Help?
+## Related pages
 
-- **What's Manager?** → [Introduction to Manager](/understanding-vote4dance/manager-intro/)
-- **What's a Federation?** → [System Model](/understanding-vote4dance/system-model/)
-- **Detailed event configuration** → [Manager Guide](/manager-guide/)
+- **Every part of the setup in detail** → [Organizer](/organizer/)
+- **The words used here** → [Glossary](/understanding-vote4dance/key-terminology/)
 - **Technical setup** → [Technical requirements](/requirements/)
 - **Projector and venue technology** → [Screens, projectors and venue technology](/manager-guide/screens/)
 - **Testing before the event** → [Test run and venue rehearsal](/manager-guide/test-run/)

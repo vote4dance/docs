@@ -2,8 +2,8 @@
 layout: page
 title: Sponsor videos and spots
 permalink: /manager-guide/sponsor-videos/
-parent: Manager Guide
-nav_order: 1.6
+parent: Set up the event
+nav_order: 7
 help:
   public.sponsor.claim: uploading-a-video
   speaker.sponsor-spots: playing-and-skipping-a-sponsor-spot

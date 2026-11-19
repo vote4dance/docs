@@ -2,8 +2,8 @@
 layout: page
 title: Planning your first competition
 permalink: /manager-guide/first-competition/
-parent: Manager Guide
-nav_order: 0.5
+parent: Plan your competition
+nav_order: 1
 ---
 
 # Planning your first competition
@@ -17,8 +17,8 @@ Read it once from top to bottom. Every step links to the page with the details.
 
 | Question | Answer |
 |---|---|
-| **Do we create the competition ourselves in Vote4Dance?** | Yes. You create the event and the competition in [Manager](/understanding-vote4dance/manager-intro/) yourself, and you keep control of it the whole way. Nobody does it for you. |
-| **Do we need permission first?** | Not in Vote4Dance. Choosing the federation when you create the event is what puts the competition under it; there is no approval step. Your federation may still have its own requirements, such as sanctioning the date, so ask them. Its dancers need active licences, and a club the federation has not approved cannot hold licences for them. |
+| **Do we create the competition ourselves in Vote4Dance?** | Yes. You create the event and the competition in [Manager](/organizer/) yourself, and you keep control of it the whole way. Nobody does it for you. |
+| **Do we need permission first?** | Not in Vote4Dance. Choosing the federation when you create the event is what puts the competition under it; there is no approval step. Your federation may still have its own requirements, such as sanctioning the date, so ask them. Its dancers need active licenses, and a club the federation has not approved cannot hold licenses for them. |
 | **Who enters the dancers?** | The dancers and their clubs, through registration on the public event page. You approve the registrations and import them. You can also enter and add walk-ins yourself at the desk. |
 | **What does Vote4Dance handle on the day?** | Start numbers, check-in, heats and lineup, judge marks, results, screens, speaker, diplomas and exports. |
 | **What does Vote4Dance *not* handle?** | Playing the music, microphones and lighting. Those stay with your DJ and the venue's technician. See [Screens, projectors and venue technology](/manager-guide/screens/). When a class dances to its own music, Vote4Dance does collect the dancers' tracks for the DJ: see [Music from the dancers](/manager-guide/music/). |
@@ -29,7 +29,7 @@ Read it once from top to bottom. Every step links to the page with the details.
 | Who | Responsibility |
 |---|---|
 | **You (organizer)** | Creates the event and the competition, sets classes, rounds, schedule, judges, registration and prices, staffs the functionary positions, runs the day. |
-| **Federation** (if any) | Approves clubs and licences, and owns the rules: licenses, age and level rules, ranking points. See [Federation](/federation/). |
+| **Federation** (if any) | Approves clubs and licenses, and owns the rules: licenses, age and level rules, ranking points. See [Federation](/federation/). |
 | **Clubs and dancers** | Register themselves, pay, hold valid licenses, confirm their roster at check-in. |
 | **Judges** | Open the Judging app on their own device and mark. They need an invitation from you, a device and Wi-Fi; the PIN they set themselves. |
 | **Venue** | Projector, sound, light, power and internet. Your Vote4Dance display computer plugs into their projector — nothing more. |
@@ -105,10 +105,13 @@ Vote4Dance gives access per app, so decide who gets what before the day.
 
 Full detail, including the naming traps: [Users, apps and stations](/manager-guide/users-and-stations/).
 
-## Next steps
+## The rest of the way
 
-1. [Event setup](/manager-guide/event-setup/) — create the event
-2. [Competition setup](/manager-guide/competition-setup/) — classes, rounds, judges
-3. [Registration and check-in](/manager-guide/registration-checkin/)
-4. [Test run and venue rehearsal](/manager-guide/test-run/) — prove it works before the day
-5. [Live operations](/manager-guide/live-operations/) — the event-day runbook
+The work, in the order most organizers do it. Each is a group of pages in the
+[Organizer](/organizer/) section.
+
+1. [Set up the event](/organizer/event/): create the event, give people their apps, floors and screens
+2. [Classes, rounds and judges](/organizer/classes-rounds-judges/): what is danced, who judges it, the schedule
+3. [Registration and sales](/organizer/registration-and-sales/): entries, e-mails, tickets and the door
+4. [Rehearsal and event day](/organizer/event-day/): prove it works before the day, then run it
+5. [After the event](/organizer/after/): results, points, exports and diplomas

@@ -2,8 +2,8 @@
 layout: page
 title: WDSF competitions
 permalink: /manager-guide/wdsf/
-parent: Manager Guide
-nav_order: 2.3
+parent: Classes, rounds and judges
+nav_order: 4
 help:
   manager.event.edit.wdsf: connect-to-wdsf
   manager.comp.classes.wdsf-import: import-competitions-from-wdsf
@@ -98,18 +98,18 @@ Each letter on your panel shows **On both**, **Only here** or **Only on WDSF**. 
 
 ### Officials
 
-Click **Get from WDSF** to see who WDSF has for the competition, with each official's task and whether their licence covers the discipline. When WDSF keeps the panel secret until the day before the competition, the list stays empty until then.
+Click **Get from WDSF** to see who WDSF has for the competition, with each official's task and whether their license covers the discipline. When WDSF keeps the panel secret until the day before the competition, the list stays empty until then.
 
 To add someone WDSF doesn't have yet:
 
 1. Under **Add an official**, type a name or a WDSF member number and click **Search**. A name works as "Firstname Surname".
-2. Pick the person from the list. The badges show their WDSF licences.
+2. Pick the person from the list. The badges show their WDSF licenses.
 3. Pick the **Task**: **Adjudicator**, **Chairperson**, **Scrutiny** or **DJ**. For an adjudicator, type their **Letter**.
 4. Click **Add on WDSF**.
 
 ![Add an official: a person found on WDSF with the task set to Chairperson](/assets/images/wdsf/officials.png)
 
-WDSF needs a **chairperson** before it moves a competition to **In progress** or **Processing**, and a **DJ** before it closes it. Each of them needs a WDSF licence for that task. Add both well before the results go out.
+WDSF needs a **chairperson** before it moves a competition to **In progress** or **Processing**, and a **DJ** before it closes it. Each of them needs a WDSF license for that task. Add both well before the results go out.
 
 ## Couples, start numbers and check-in
 
@@ -122,12 +122,12 @@ While you work on **Participants**, Vote4Dance keeps WDSF in step for the classe
 To add a couple that registered late, click the class on **Participants** and then **Add from WDSF** below its entries:
 
 1. Pick **Couple**, **Solo** or **Team**.
-2. Type a name or a WDSF member number (MIN). With **Sounds like** ticked, names spelled a little differently are found too. The badges show each hit's licences and whether their age fits the competition; a couple that WDSF does not allow in it shows **Blocked** instead of **Add**.
+2. Type a name or a WDSF member number (MIN). With **Sounds like** ticked, names spelled a little differently are found too. The badges show each hit's licenses and whether their age fits the competition; a couple that WDSF does not allow in it shows **Blocked** instead of **Add**.
 3. Click **Add**. The couple is put in this class and entered in the WDSF competition.
 
 ![Add from WDSF with a search for a couple: each hit's badges, and Blocked for couples whose age doesn't fit](/assets/images/wdsf/add-from-wdsf.png)
 
-Two dancers who have WDSF licences but have never danced together can be made a couple under **Not a couple on WDSF yet?**, from their member numbers. WDSF often allows only the dancers' national federation to create couples and teams; when it says no, ask the federation to create the couple and search again.
+Two dancers who have WDSF licenses but have never danced together can be made a couple under **Not a couple on WDSF yet?**, from their member numbers. WDSF often allows only the dancers' national federation to create couples and teams; when it says no, ask the federation to create the couple and search again.
 
 ## Send results and close on WDSF
 

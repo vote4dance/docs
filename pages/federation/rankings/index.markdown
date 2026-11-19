@@ -2,8 +2,8 @@
 layout: page
 title: Federation Rankings
 permalink: /federation-rankings/
-parent: Federation
-nav_order: 3
+parent: Points and rankings
+nav_order: 4
 has_children: true
 ---
 

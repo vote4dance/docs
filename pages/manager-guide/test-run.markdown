@@ -2,8 +2,8 @@
 layout: page
 title: Test run and venue rehearsal
 permalink: /manager-guide/test-run/
-parent: Manager Guide
-nav_order: 3.8
+parent: Rehearsal and event day
+nav_order: 1
 ---
 
 # Test run and venue rehearsal

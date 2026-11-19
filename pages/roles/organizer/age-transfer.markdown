@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Age and class transfers
+title: Age and class transfers at your event
 permalink: /organizer/age-transfer/
-parent: Organizer
-nav_order: 7
+parent: Federations and seasons
+nav_order: 2
+redirect_from:
+  - /organizer/class-transfer/
 ---
 
 # Age and class transfers at your event
@@ -16,6 +18,10 @@ what to do when a dancer says they are in the wrong class.
 |---|---|---|
 | **Age move** (same class, next age group) | The federation, in one batch. | At the start of each season. See [Age moves](/federation/age-moves/). |
 | **Class move** (next class level) | Vote4Dance, automatically, from promotion points. | When a competition the couple danced in is closed. See [Promotion points](/federation/progression/). |
+
+**Close your competition** once results are final, or your dancers' points and class moves do
+not happen. See [Results, points and rankings](/organizer/creating-and-getting-a-ranking/). The
+federation can also move a couple by hand.
 
 ## What registration checks for you
 
@@ -46,7 +52,3 @@ classes is right, registration enforces the rest.
 | The dancer thinks the federation has them in the wrong class or age group | Send them to their federation. You cannot change a couple's class or age group. |
 | It is found after you imported participants | Correct the participant in Manager, check the rounds it is in, and run **Update/import participants** again if you changed the registration. |
 | It is found on the day | Decide with the federation's representative or chief scrutineer before you move anyone. |
-
-## Next step
-
-Continue to [New season](/organizer/renew-license/).

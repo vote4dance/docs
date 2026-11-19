@@ -3,7 +3,7 @@ layout: page
 title: Federation Licenses
 permalink: /federation-licenses/
 parent: Federation
-nav_order: 2
+nav_order: 4
 has_children: true
 ---
 

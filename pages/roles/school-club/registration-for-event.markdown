@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Registration for event
+title: Registering your dancers for an event
 permalink: /school-club/registration-for-event/
 parent: School/Club
-nav_order: 5
+nav_order: 7
 help:
   public.organization.registrations.change-class: moving-an-entry-to-another-class
   public.organization.registrations.signing: signing-your-members-entries
 ---
 
-# Registering your club's dancers for an event
+# Registering your dancers for an event
 
 A club can register its own competitors, pay for them, and follow every entry from one list.
 Dancers can also register themselves; those entries show up in the club's list too.
@@ -46,11 +46,11 @@ See [Competitors](/school-club/club-admin/#competitors) for every field.
 
 Before registration closes, for every dancer you enter:
 
-- their licence is **Active**, if the federation requires one. See
+- their license is **Active**, if the federation requires one. See
   [Getting a license](/school-club/getting-a-license/).
 - their birth date is on their account.
 - the class is right for this season. Age groups and classes can change between seasons. See
-  [Age transfer](/school-club/age-transfer/) and [Class transfer](/school-club/class-transfer/).
+  [Class and age moves](/school-club/class-transfer/).
 - if the event asks which club the dancer represents, they have an approved membership in your
   club.
 
@@ -63,7 +63,7 @@ Some federations only let the club register a competitor, or only a member of th
 list says so.
 
 **The rules are checked on the lineup that dances**, with the team's skipped and replacement
-dancers applied. This covers the federation's rules and licences and the organizer's own class
+dancers applied. This covers the federation's rules and licenses and the organizer's own class
 and period rules (age, team size, dance roles), and they are checked again when the registration is
 sent, not only on the page. So:
 
@@ -161,7 +161,7 @@ What you can move to:
   levels of the same group of classes. They cost the same, so nothing is charged and nothing is
   refunded. The entry keeps its status and its payment.
 - **Only classes the entry may dance.** The new class's rules are checked as for a new
-  registration: age, level, licence and team size. A class the entry does not qualify for is greyed
+  registration: age, level, license and team size. A class the entry does not qualify for is greyed
   out with the reason.
 - **Not a class the team is already in.**
 - **Not a class only the competitors themselves may register**, unless your club owns the team. It
@@ -279,9 +279,9 @@ Manager.
 
 | Problem | Fix |
 |---|---|
-| A class is missing or locked for a competitor | Read the reason in the class list: licence, age, dance role or team size. A class the team is too big for is not shown. |
+| A class is missing or locked for a competitor | Read the reason in the class list: license, age, dance role or team size. A class the team is too big for is not shown. |
 | A class says "Edit the lineup in the cart before registering" | Add it, then use **Edit lineup** in the cart to skip or replace the dancers who do not fit. |
-| A dancer's licence is Pending | Pending does not count. See [Getting a license](/school-club/getting-a-license/). |
+| A dancer's license is Pending | Pending does not count. See [Getting a license](/school-club/getting-a-license/). |
 | "Independent competitors can have at most 2 members" | Create the group on the **Competitors** screen with **Owned by organization** ticked. |
 | A group class is locked with "This team does not belong to a club, and only club teams can enter this class." | The team is independent, even if its dancers are club members. Under **As coach**, choose your club, create the team there with **Owned by organization** ticked (see [Step 1](#step-1-set-up-the-competitors)) and register that team. |
 | A class says **A dancer in this team is already in …** | Your federation lets each dancer dance one class per category (solo, duo…): one age group and one level. One of the team's dancers is already in another class of that category, registered or in the cart. The same check applies when you add a dancer to a registered team or bring one in with **Edit lineup**. See [One class per category](/dancer/registration-for-event/#one-class-per-category). |
@@ -290,7 +290,3 @@ Manager.
 | The lineup must change after registering | **Edit lineup** while the period is open. After that, ask the organizer. If the federation counts your club's dancers, a swap is free and a new dancer is paid for: see [Changing a group's lineup after paying](#changing-a-groups-lineup-after-paying). |
 | A member says the entry is **Waiting for the organization** | Open the event on your **Registration** list and sign it under **To sign**. See [Signing your members' entries](#signing-your-members-entries). |
 | An entry was cancelled on the day | The club did not confirm it at check-in. Talk to the organizer. |
-
-## Next step
-
-Continue to [Results, points and rankings](/school-club/creating-and-getting-a-ranking/).

@@ -3,7 +3,7 @@ layout: page
 title: Your Vote4Dance ID
 permalink: /dancer/vote4dance-id/
 parent: Dancer
-nav_order: 1.5
+nav_order: 2
 ---
 
 # Your Vote4Dance ID

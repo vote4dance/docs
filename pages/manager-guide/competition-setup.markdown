@@ -2,8 +2,8 @@
 layout: page
 title: Competition setup
 permalink: /manager-guide/competition-setup/
-parent: Manager Guide
-nav_order: 2
+parent: Classes, rounds and judges
+nav_order: 1
 help:
   manager.event.competitions: ""
   manager.comp.classes: step-1-create-classes
@@ -253,15 +253,15 @@ After you have imported an entry list, **Verify** checks all entries of the comp
 
 It has these checks:
 
-- **Licence number**: when the entry list has licence numbers (for example a list imported from the federation's system), it lists every entry where a dancer has no licence number. It tells you which dancer (dancer 1, 2 or 3) and their birth year. It only checks that a number is there. Whether a licence is valid is still checked in the federation's own system.
+- **Licence number**: when the entry list has license numbers (for example a list imported from the federation's system), it lists every entry where a dancer has no license number. It tells you which dancer (dancer 1, 2 or 3) and their birth year. It only checks that a number is there. Whether a license is valid is still checked in the federation's own system.
 - **WSDC level** (WSDC competitions only): looks up each Jack&Jill leader and follower in the WSDC registry and compares their level with the class they entered. A dancer's points decide the lowest level they must dance, and the registry also says how far up they may go. Verify lists every dancer who is below their level ("Leader must dance Intermediate or higher · 22 points in Novice") or above it ("Follower may dance up to Novice"). A dancer the registry doesn't know may dance Newcomer and Novice. Entries without a WSDC id, and dancers the registry didn't answer for, are listed under **Not checked**. The registry shows today's points, so run it before the event.
 
 1. Go to **Competition → Participants**.
 2. Click **Verify**, next to **Print start numbers**. The **Verify entries** panel opens. Each row shows the start number, what is missing and the classes of the entry.
 
-   ![The Verify entries panel listing dancers without a licence number](/assets/images/verify-entries/verify-entries-panel.png)
+   ![The Verify entries panel listing dancers without a license number](/assets/images/verify-entries/verify-entries-panel.png)
 
-3. Click **Open entry** on a row to open that entry and fix it, for example by adding the licence number.
+3. Click **Open entry** on a row to open that entry and fix it, for example by adding the license number.
 4. To work through all findings in one go, click **Show these N in the list**. The participants list then shows only those entries, and a **Verify findings** tag appears next to the filter buttons. Click **×** on the tag to show all participants again.
 
    ![The participants list showing only the entries Verify found, with the Verify findings tag](/assets/images/verify-entries/verify-entries-filter.png)
@@ -390,8 +390,4 @@ This often happens after results started.
 - One full rehearsal round completed successfully
 - **Problems** shows no failed tests
 
-## Next step
-
-Continue to [Test run and venue rehearsal](/manager-guide/test-run/) to prove the setup with
-real devices, then to [Live operations](/manager-guide/live-operations/) for the event-day
-runbook.
+Prove the setup with real devices before the day: [Test run and venue rehearsal](/manager-guide/test-run/).

@@ -40,7 +40,9 @@ gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
-remote_theme: pmarsceill/just-the-docs
+# Pinned: the sidebar nests four levels deep, which needs v0.10 or newer, and an unpinned
+# theme changes under us on every release.
+remote_theme: just-the-docs/just-the-docs@v0.12.0
 
 # Vote4Dance look: palette in _sass/color_schemes/v4d.scss, the rest of the
 # brochure's styling in _sass/custom/custom.scss.
@@ -49,6 +51,7 @@ color_scheme: v4d
 # Build settings
 plugins:
   - jekyll-remote-theme
+  - jekyll-redirect-from # `redirect_from:` on a page keeps the addresses of pages merged into it
 
 # Exclude from processing.
 # The Pages build runs Jekyll 3.9, where this list replaces the default one

@@ -2,8 +2,8 @@
 layout: page
 title: Running a quiz from the speaker app
 permalink: /manager-guide/speaker-quiz/
-parent: Manager Guide
-nav_order: 4.2
+parent: Rehearsal and event day
+nav_order: 4
 help:
   speaker.event.audience: ""
   speaker.event.audience.voting: the-voting-tab

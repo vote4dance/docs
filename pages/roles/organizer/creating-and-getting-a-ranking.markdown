@@ -2,8 +2,8 @@
 layout: page
 title: Results, points and rankings
 permalink: /organizer/creating-and-getting-a-ranking/
-parent: Organizer
-nav_order: 6
+parent: After the event
+nav_order: 2
 ---
 
 # Results, points and rankings
@@ -73,7 +73,3 @@ See [Post-event and exports](/manager-guide/post-event/) and
 | A couple's points appear on a second couple | A person number is wrong on an entry. Correct it, and tell the federation: it has to sort out the duplicate couple. |
 | A class was mapped to the wrong Federation Class | Ask the federation before you change it. Its points have already been processed. |
 | Dancers say the ranking is missing your event | Rankings recalculate on the federation's schedule, and only include the classes the federation links to each ranking. Ask the federation. |
-
-## Next step
-
-Continue to [Age and class transfers](/organizer/age-transfer/).

@@ -2,8 +2,8 @@
 layout: page
 title: Members
 permalink: /federation/members/
-parent: Federation
-nav_order: 5
+parent: Clubs and people
+nav_order: 1
 help:
   federation.state: competitors
   federation.state.dancers: dancers
@@ -185,7 +185,7 @@ Click a club to open its page. There:
 - an Administrator can also **Remove from federation**, and on the **Transfers** tab use
   **Assign organization**, **Change organization** and **Rename competitor**
 
-What each of these does to licences, teams and representation is covered in [Club transfers](/federation/club-transfers/) and [Federation admin licenses](/federation-licenses/federation-admin/).
+What each of these does to licenses, teams and representation is covered in [Club transfers](/federation/club-transfers/) and [Federation admin licenses](/federation-licenses/federation-admin/).
 
 ---
 
