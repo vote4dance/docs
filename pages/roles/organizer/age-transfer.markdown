@@ -42,7 +42,7 @@ classes is right, registration enforces the rest.
 
 | Situation | What to do |
 |---|---|
-| The dancer registered in the wrong class by mistake | They cancel and register again while the period is open, or you correct the registration in Manager. |
+| The dancer registered in the wrong class by mistake | While the period is open they move the entry with **Change class** (see [Changing class](/dancer/my-registration/#changing-class)), or cancel and register again if the right class is not offered there. Or you correct the registration in Manager. |
 | The dancer thinks the federation has them in the wrong class or age group | Send them to their federation. You cannot change a couple's class or age group. |
 | It is found after you imported participants | Correct the participant in Manager, check the rounds it is in, and run **Update/import participants** again if you changed the registration. |
 | It is found on the day | Decide with the federation's representative or chief scrutineer before you move anyone. |

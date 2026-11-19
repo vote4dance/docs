@@ -21,8 +21,11 @@ How it works, in more detail: [Class transfer](/dancer/class-transfer/) and
 - **Check classes before registering.** After a competition closes, a couple may have moved up.
   Registering in the class it has just left is the most common mistake.
 - **Look over entries before registration closes**, on
-  `Organization → Administration → Registration`. An entry in the wrong class: cancel it and
-  register again while the period is open. After that, ask the organizer.
+  `Organization → Administration → Registration`. An entry in the wrong class: move it with
+  **Change class** while the period is open, see
+  [Moving an entry to another class](/school-club/registration-for-event/#moving-an-entry-to-another-class).
+  If the right class is not offered there, cancel the entry and register again. After the period
+  closes, ask the organizer.
 - **Remember points belong to the couple or team.** A new partnership, or a group with a new
   lineup, can be a new competitor with no points. Where the federation requires class membership, a
   new competitor can register for entry-level classes and is placed there when it registers. For a higher class, the federation has to place

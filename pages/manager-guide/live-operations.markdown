@@ -190,7 +190,7 @@ While a round is **In progress**, the round page shows a **Stuck?** link next to
 
 ### Wrong teams in round
 
-- Use round add/copy/clear tools in open or ready state
+- Use round add/copy/clear tools while the round is **Not started** or **In progress**
 - Re-run send-through after correction
 
 If a round sent its participants to the wrong round, for example a second chance round that sent them to the

@@ -23,8 +23,8 @@ give you a role in the club. If you need both, you need both.
 
 1. Open the club and apply to join. If the club has **Member approval** switched on, a manager or
    administrator there approves you. Otherwise you are a member straight away.
-2. Or ask an administrator to add you directly: they search for you under **Permissions** and
-   press **Add**. There is no invitation email.
+2. Nobody can add you from the club's side: everyone joins by applying. If you need a role in the
+   club, an administrator gives it to you under **Permissions** once you have joined.
 
 The full joining flow is on [Applying for a school/club](/dancer/applying-for-a-school-club/).
 
