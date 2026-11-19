@@ -45,8 +45,8 @@ group whose band starts just above this one.
 
 ### Which year the age is counted in
 
-The year the **season ends**, taken from the federation's **Season start
-(MM-DD)** rule. With a season starting 1 August, a batch dated 1 August 2026
+The year the **season ends**, taken from the federation's **Season start**
+rule. With a season starting 1 August, a batch dated 1 August 2026
 belongs to the 2026/27 season and counts the age each dancer turns during 2027
 — the same year registration validates against.
 
@@ -78,7 +78,7 @@ Running the batch needs the **Administrator** role.
    can take one class at a time; *Select all* then covers exactly what the
    filter leaves.
 4. Optionally set a **carryover**: a batch default, overridden per row. Without
-   one, the competitor's progression points carry into the new class unchanged.
+   one, the competitor's promotion points carry into the new class unchanged.
 5. **Run age-up.** The confirmation names how many ticked competitors will move.
    Running with nothing ticked moves nobody, and only records the manual ranking
    corrections listed below the table.
@@ -103,7 +103,7 @@ screen.
 | Transitions are locked for this competitor                | The membership is held in place; clear the lock first.                                                              |
 | **Not everyone has reached the target class's minimum age** | See below.                                                                                                       |
 | **Someone is older than the target class's age band**     | The class above is already behind them — the ladder has no class that fits. Check the age groups and their classes. |
-| **The target class's age composition rule does not allow this competitor** | The class's own age composition rule refuses the team, for example on its maximum age span.       |
+| **The target class's age composition rule does not allow this competitor** | The class's own age composition rule refuses the competitor, for example on its maximum age span. |
 | Converted from a manual ranking correction                | The move is already recorded among the manual corrections listed below the table.                                  |
 
 ### "Not everyone has reached the target class's minimum age"
@@ -122,8 +122,8 @@ they were free to remain in.
 
 That difference is the federation's rule to state, not the batch's to guess. If
 the band is read off one dancer — as it usually is where a couple moves up
-together — set **Application preset → Oldest member decides** on the target
-class or category (see
+together — set **Whose age decides** to **Oldest member decides**, under **Age
+composition rules**, on the target class or category (see
 [Age category rules](/federation-rules/age-category-rules/)). Those competitors
 become movable in the next preview, and registration then accepts the same
 couples the batch moves.
@@ -137,10 +137,11 @@ couples the batch moves.
   as an *age move*, with the effective date.
 - **Promotion points.** Carried into the new class unchanged, or as the
   carryover you set for the batch or the row.
-- **Rankings.** With **Ranking carry on age move up (%)** set, the competitor
-  leaves the source ranking and the counted results follow into the target
-  ranking at that percentage; a move down an age group uses the matching down
-  rule. With neither rule set, the rankings ignore the move.
+- **Rankings.** With **Ranking kept when moving up an age group** set, the
+  competitor leaves the source ranking and the counted results follow into the
+  target ranking at that percentage; a move down an age group uses **Ranking kept
+  when moving down an age group**. With neither rule set, the rankings ignore the
+  move. Both rules are set on the federation or a division.
 - **Manual ranking corrections.** Age moves that staff previously recorded by
   hand as ranking corrections are converted into recorded moves, and the
   correction rows are removed. Rows the batch cannot interpret are listed as
@@ -150,28 +151,45 @@ couples the batch moves.
 
 ## Before the first run
 
-- **Season start (MM-DD)** is set on the federation, so ages are counted for the
-  right year. See [Season start (MM-DD)](#season-start-mm-dd) below.
+- **Season start** is set on the federation, so ages are counted for the
+  right year. See [Season start](#season-start) below.
 - The age groups above have a **minimum age**, and the classes that use them
   exist, are **active**, and match the class level below them. Age groups and
   their bands are under `Federation → Structure`: see
   [Divisions](/federation/divisions/#age-groups).
-- **Ranking carry** percentages are set if rankings should follow the move.
+- **Ranking kept when moving up an age group** and **Ranking kept when moving
+  down an age group** are set if rankings should follow the move.
 - **Age composition** is set wherever the band is read off one dancer rather
   than all of them, for example the oldest member of a couple or group.
 
 Check the combined result in `Federation → Rulebook`. Publish the rules to clubs
 before the season, so the batch holds no surprises.
 
-### Season start (MM-DD)
+### Season start
 
-Write the season start as month and day with two digits each, for example
-`09-01` for 1 September. A date that does not exist, such as `02-30` or `9-01`,
-is not saved: you get "The season start is not a date. Write it as month-day,
-for example 09-01 for 1 September."
+The season start is a rule of the whole federation. It cannot be set on a
+division or anything below it. Setting it needs the **Administrator** role.
+
+1. Open `Federation → Structure` and choose **Federation rules** at the top of
+   the menu on the left.
+2. Find **Season start** under **Season & ranking**.
+3. Choose the day and the month, for example 1 and September.
+4. Press **Save rules**.
+
+Without a season start, the season follows the calendar year.
+
+A script that sets the rule with a
+[configuration key](/federation/settings/#personal-configuration-keys) writes
+it as month and day with two digits each, for example `09-01` for 1 September.
+A date that does not exist, such as `02-30` or `9-01`, is not saved: the message
+is "The season start is not a date. Write it as month-day, for example 09-01
+for 1 September."
 
 The same season start decides what counts as "this season" on
-[Statistics](/federation/statistics/#the-season).
+[Statistics](/federation/statistics/#the-season), on
+[Season points](/federation/class-point-limits/#season-points) and for license
+seasons. A ranking has its own **Season start (MM-DD)** field, on the ranking
+itself: see [Set the scoring and the time window](/federation-rankings/federation-admin/#set-the-scoring-and-the-time-window).
 
 ---
 
@@ -187,5 +205,8 @@ The same season start decides what counts as "this season" on
 ## Related
 
 - [Age category rules](/federation-rules/age-category-rules/) — the bands
-  themselves and how they apply to a team.
+  themselves and how they apply to a competitor.
 - [Promotion points](/federation/progression/) — what the carried points mean.
+- [Members](/federation/members/#age-up-batch-transition) — where the batch is run.
+- [Federation Admin](/federation-rankings/federation-admin/#after-an-age-move) — what an age move does to a ranking.
+- [Setting federation rules](/federation-rules/editor/) — where the rules on this page are set.

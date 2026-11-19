@@ -16,6 +16,8 @@ Federation staff access is granted per-federation. Each person you invite to a f
 
 Use `Federation → Settings → Roles & access` to invite staff and change their roles. See [Federation settings](/federation/settings/#roles--access).
 
+On the federation's screens a club is called an **Organization**, and a competitor is a couple, a solo dancer, a duo or a group.
+
 To see what your own role allows, click your role name in the federation bar. It
 opens the **Guide to permissions**, a short list of what each role can do, with your role marked
 **Your role**.
@@ -24,12 +26,12 @@ opens the **Guide to permissions**, a short list of what each role can do, with 
 
 ## Roles at a glance
 
-| Role | Label in UI | What they can do |
-|---|---|---|
-| `normal` | Viewer | Read-only access to all federation data |
-| `manager` | Manager | Day-to-day work: licenses (issue, approve, edit, suspend, remove), organizations, class memberships |
-| `administrator` | Administrator | Everything a Manager does, plus structure (divisions, classes, rules, rankings), decisions that move competitors, federation settings, Stripe |
-| `owner` | Owner | Governance: promoting users to Administrator and Owner |
+| Role | What they can do |
+|---|---|
+| **Viewer** | Read-only access to all federation data |
+| **Manager** | Day-to-day work: licenses (issue, approve, edit, suspend, remove), clubs, class memberships |
+| **Administrator** | Everything a Manager does, plus structure (divisions, classes, rules, rankings), decisions that move competitors, federation settings, Stripe |
+| **Owner** | Governance: promoting users to Administrator and Owner |
 
 ---
 
@@ -40,10 +42,10 @@ Read-only access. Viewers can see current federation data but cannot make any ch
 Use this role for:
 - Board members who need visibility without write access
 - Auditors reviewing license or membership records
-- Organization liaisons who need to look up federation state
+- Club liaisons who need to look up federation state
 
 What a Viewer can do:
-- View federation data: divisions, classes, rankings, licenses, organizations, members, history, enforcement log, rules. The federation bar shows no destinations to a Viewer, so these pages are opened by link.
+- View federation data: divisions, classes, rankings, licenses, clubs, members, history, enforcement log, rules. The federation bar shows no destinations to a Viewer, so these pages are opened by link.
 - **Competitions** and **Statistics** need Manager or higher
 - Cannot edit, approve, issue, or delete anything
 
@@ -59,19 +61,19 @@ Use this role for:
 What a Manager can do:
 - Everything a Viewer can do, plus:
 - Issue, approve, edit and remove licenses, one by one or in bulk
-- Approve organizations and their right to issue licenses
+- Approve clubs and their right to issue licenses
 - Add, edit and remove class memberships (see [Members](/federation/members/))
 - Follow club transfers and representation changes (an Administrator decides them)
 - Open **Competitions** and **Statistics**
 
 What a Manager cannot do (these need an Administrator):
 - Edit the round setup or rule profiles
-- Assign organizations, change Temporary rows, rename competitors, move club-owned teams, or
+- Assign clubs, change Temporary rows, rename competitors, move club-owned competitors, or
   decide club transfer requests (see [Club transfers](/federation/club-transfers/))
-- Move a license to another organization, or remove its organization, once the federation has
-  approved it. A Manager can still correct the organization on an application that was never
+- Move a license to another club, or remove its club, once the federation has
+  approved it. A Manager can still correct the club on an application that was never
   approved, or add one to a license that names none.
-- Remove an organization from the federation, or set up its NORRIQ credentials
+- Remove a club from the federation, or set up its NORRIQ credentials
 - Run **Sync federation progress**, age-ups or promotions
 - Edit divisions, disciplines, classes, age groups, or categories
 - Edit the license catalog (license items) or rankings
@@ -102,12 +104,12 @@ What an Administrator can do:
 - Create and edit rule profiles
 - Create and edit rankings, leagues, and ranking corrections
 - Edit the round setup
-- Create and edit representation records, move club-owned teams, and approve or reject club transfer requests (see [Club transfers](/federation/club-transfers/))
-- Move a license the federation has approved to another organization (reissue), or remove its organization
-- Remove an organization from the federation, and set up its NORRIQ credentials
+- Create and edit representation records, move club-owned competitors, and approve or reject club transfer requests (see [Club transfers](/federation/club-transfers/))
+- Move a license the federation has approved to another club (reissue), or remove its club
+- Remove a club from the federation, and set up its NORRIQ credentials
 - Run **Sync federation progress**, age-ups and promotions (see [Members](/federation/members/))
 - Edit federation name, tag, description, icon, and branding
-- Set the federation as restricted or published
+- Show or hide the federation in the public federation list (**Visible in public federation list**)
 - Connect and manage the Stripe account
 - Invite staff and promote them up to Manager level
 
@@ -149,8 +151,8 @@ You need the Administrator or Owner role to see the staff list and add staff; Vi
 
 1. Open `Federation → Settings → Roles & access`
 2. Search for the user by name or email
-3. Press `Add`
-4. The user is added with the default `Viewer` role
+3. Press **Add**
+4. The user is added with the **Viewer** role
 5. Change the role using the dropdown next to their name
 
 The current user's role is shown as a tag next to their email address. The role dropdown shows a summary of what each level can do.
@@ -175,3 +177,14 @@ When you have set the role, ask the person to sign in with their own account, op
 | **Add** fails | The person has no Vote4Dance account with that email, or is already on the list. |
 | Someone cannot find a button, or the page says an action needs a federation Administrator | Their role is too low. Managers do not see Administrator-only buttons. To check what a role allows, click the role name in the federation bar. |
 | You cannot change someone's role | An Administrator can only change Viewers and Managers. Ask an Owner. |
+
+---
+
+## Related pages
+
+- [Federation settings](/federation/settings/#roles--access): the **Roles & access** tab, where roles are given
+- [Set up your federation](/federation/setup/): what to do once the staff have their roles
+- [Members](/federation/members/#who-can-do-what), [Divisions and disciplines](/federation/divisions/) and [Federation licenses](/federation-licenses/federation-admin/#who-can-do-what): what each role can do on those screens
+- [Club transfers](/federation/club-transfers/): the decisions that need an Administrator
+- [Account creation](/dancer/account-creation/): how a new colleague gets an account
+- [Getting help](/getting-help/#writing-to-vote4dance): how to write to Vote4Dance

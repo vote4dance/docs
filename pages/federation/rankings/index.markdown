@@ -9,59 +9,39 @@ has_children: true
 
 # Federation Rankings
 
-Use this section only for the actual ranking workflow.
+A ranking is a list your federation publishes from competition results, for example "Season ranking, Adults Standard". You choose the classes that count, the results that are looked at and how they are scored. Vote4Dance works out the standings and can show them on your federation's public page.
 
-Use the role pages when you first need to decide who owns the task or whether the issue is policy, operations, or public visibility:
+Rankings are set up per division, in the division's **Ranking** section: `Federation → Structure → (division) → Ranking`. Adding or changing a ranking needs the **Administrator** role.
 
-- federation context: [Federation](/federation/)
-- dancer context: [Dancer](/dancer/)
-- organizer context: [Organizer](/organizer/)
+A ranking only orders a list. It moves nobody between classes and closes no class. For the features that do, see [Points and rankings](/federation/points-and-rankings/).
 
 ## Start here
 
-Choose the page by task:
+| You want to | Read |
+|---|---|
+| Create a ranking, add its classes, set how it is scored, recalculate it, make it public or correct it | [Federation Admin](/federation-rankings/federation-admin/) |
+| Publish an outcome that differs from the calculated standings: a selection list, a decided tie, an exception | [Manual Workflows](/federation-rankings/manual-workflows/) |
+| See what dancers, clubs and visitors see | [Public Rankings](/federation-rankings/public/) |
 
-1. [Federation admin](/federation-rankings/federation-admin/)  
-   Use this to create rankings, review standings, and apply corrections in the correct division.
-2. [Manual workflows](/federation-rankings/manual-workflows/)  
-   Use this when the published outcome must differ from the automated ranking result.
-3. [Public rankings](/federation-rankings/public/)  
-   Use this to verify what dancers, clubs, and visitors can actually see.
+## What every ranking has
 
-## What is shared across all ranking pages
+- **One division.** A ranking belongs to the division you create it in, and cannot span several. A federation-wide list is one ranking per division.
+- **Its own classes.** A ranking counts results only from the federation classes you add to it, and only classes of its own division can be added.
+- **One way of scoring.** **Ranking by**, the time window and the points table are set once per ranking. If your federation needs a second list that is calculated differently, for example a selection ranking next to the public one, create a second ranking.
+- **A state and a privacy.** Only a ranking that is **Active** and **Public** is listed on the public page.
 
-All ranking workflows still follow the same core rules:
+## The order of the work
 
-- every ranking belongs to one division
-- public links must use the correct division together with the ranking
-- one ranking should have one automated formula
-- recurring exceptions should become their own ranking, not a hidden override
-
-## End-to-end ranking path
-
-Most ranking work follows this order:
-
-1. Federation creates the ranking in the correct division.
-2. Federation links the correct classes and validates the formula.
-3. Federation reviews the generated standings.
-4. Federation uses a manual workflow only if the published outcome must differ.
-5. Federation verifies the public ranking page.
+1. Create the ranking in its division.
+2. Add the classes and set how it is scored.
+3. Press **Import** and check the standings against a competition you know.
+4. Make it public, and check the public page.
+5. Correct single cases on the ranking, with a written reason. See [Corrections and exceptions](/federation-rankings/federation-admin/#corrections-and-exceptions).
 
 ## Common mistakes
 
-Most ranking problems still come from one of these:
-
-- the ranking was created in the wrong division
-- the needed federation classes were not added to the ranking
-- the ranking license policy was assumed instead of checked
-- someone expected one ranking to be federation-wide instead of division-specific
-- someone expected hidden public-versus-selection formulas inside one ranking
-- someone expected another ranking to act as a hidden tie-break source
-- a manual correction was applied to the wrong division ranking
-
-## Recommended use of this section
-
-1. Start on this page only if you need shared ranking context.
-2. Open [Federation admin](/federation-rankings/federation-admin/) for setup, review, and corrections.
-3. Open [Manual workflows](/federation-rankings/manual-workflows/) when the final published outcome must differ from the automated result.
-4. Open [Public rankings](/federation-rankings/public/) to verify what end users can actually see.
+- The ranking was created in the wrong division. It cannot be moved: create it again in the right one.
+- A class that should count was never added to the ranking.
+- The rule **Ranking needs a licence** is **Required** for a class, and nobody checked that the dancers hold a license. Their results are then left out. See [A competitor is left out](/federation-rankings/federation-admin/#a-competitor-is-left-out).
+- One ranking was expected to give a public result and a different selection result. One ranking has one result.
+- A correction was added on the ranking of another division.
