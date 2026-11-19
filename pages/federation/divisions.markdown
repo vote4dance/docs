@@ -33,14 +33,16 @@ Structure is in the navigation for Administrators and Owners. Every create, edit
 |---|---|---|---|
 | **Division** | A group of disciplines | Breaking, Disco, Standard & Latin | The federation |
 | **Discipline** | A specific dance form | Freestyle, Popping, Lindy Hop | A division |
-| **Category** | A competitor size | Single, duo, groups, formation | A division |
+| **Category** | The size of a competitor | Single, duo, groups, formation | A division |
 | **Age group** | Ages allowed to compete together | Adult, Youth, Junior | A division |
 | **Class level** | A level of the class ladder | A, B, Champion, SuperStar | A division |
 | **Competition level** | A tier of competitions, with options for ranking-based competitions | | A division |
 | **Class** | One combination of discipline, category, class level and age group that competitors enter | | A discipline |
 | **Dance** | A dance style danced in the discipline | Waltz, Tango, Slow, Fast, Jam, Old School | A discipline |
 
-Categories, age groups, class levels and competition levels are shared by every discipline in the division. A class picks one of each.
+Categories, age groups, class levels and competition levels are shared by every discipline in the division. A class picks one category, one age group and one class level.
+
+A competitor is whoever enters a class together: a couple, a solo dancer, a duo or a group. Some rules and messages say *team* for the same thing.
 
 Each block has a **State**: **Draft**, **Active** or **Retired**. A new block starts as **Active**; choose **Draft** when you create it if it is not ready yet. The lists under Structure show the state as a tag next to each name, the class table shows it in its **State** column, and the division and discipline pages show it in their header. In the menu column, only blocks that are not active are tagged. The public federation pages only show active divisions and active disciplines. The age-up batch skips retired age groups when it looks for the next age group (see [Age moves](/federation/age-moves/)).
 
@@ -50,7 +52,7 @@ Each block has a **State**: **Draft**, **Active** or **Retired**. A new block st
 
 `Federation → Structure` opens the first division. The page has a menu column on the left and the selected section on the right.
 
-- The menu lists **Judging** (the federation's own judging setups) and then every division. The open division shows its sections, and **Disciplines** lists its disciplines. An open discipline shows its own sections.
+- The menu lists **Judging** (the federation's own judging setups), for Administrators also **Federation rules** (the rules of the whole federation) and **Round setup findings** (see [Checking the round setup](/federation-rules/round-setup-checks/)), and then every division. The open division shows its sections, and **Disciplines** lists its disciplines. An open discipline shows its own sections.
 - **Filter divisions and sections** narrows the menu.
 - The header shows the division's name, image, state and description, and, when you have access to statistics, the division's **Active competitors** and **Active classes**.
 - **Open this division in Members** opens the class roster limited to this division. See [Members](/federation/members/#competitors).
@@ -69,9 +71,12 @@ Each section has its own address, so you can bookmark or share it.
 | **Class Levels** | `classlevel` | Class levels |
 | **Competition Levels** | `competitionlevel` | Competition levels |
 | **Judging** | `judging` | The division's judging setups. Only a system administrator can change them. |
-| **Ranking** | `ranking` | The division's rankings. See [Federation admin rankings](/federation-rankings/federation-admin/). |
-| **Progression** | `progression` | How each class promotes. See [Promotion points](/federation/progression/). |
+| **Ranking** | `ranking` | The division's rankings. See [Federation Admin](/federation-rankings/federation-admin/). |
+| **Progression** | `progression` | How each class promotes, and the **Promotion worklist**. See [Promotion points](/federation/progression/). |
+| **Season points** | `points` | Every competitor's points this season, per discipline, category and age group. See [Closing a class at points](/federation/class-point-limits/#season-points). |
 | **Federation rules** | `rules` | The division's own rule overrides |
+
+These ten are all the sections a division has.
 
 Age Groups, Categories, Class Levels and Competition Levels each have two tabs, set with `sub`: **List** (`sub=list`, the default) and **Federation rules** (`sub=rules`). The **Federation rules** tab is only there for Administrators, and only once the list has at least one entry. Changing the division section clears `sub`.
 
@@ -187,13 +192,13 @@ Class levels are the steps a class ladder promotes through. Competition levels a
 
 ### What a team represents
 
-The rule **Team represents** decides what is shown under each team's name on the public participants list, in the Vote4Dance app, in the speaker app and on the event's screens. Use it, for example, to leave out the country at national competitions and show it only at international ones.
+The rule **Team represents** decides what is shown under each competitor's name on the public participants list, in the Vote4Dance app, in the speaker app and on the event's screens. Use it, for example, to leave out the country at national competitions and show it only at international ones.
 
-| Value | Shown under the team |
+| Value | Shown under the competitor |
 |---|---|
-| **Country** | Club, city and country. This is what every team shows when the rule is not set. |
-| **Club** | Club and city, without the country |
-| **Individual dancer** | Only the team's country, without the club |
+| **Club, city and country** | Club, city and country. This is what every competitor shows when the rule is not set. |
+| **Club and city** | Club and city, without the country |
+| **Country only** | Only the competitor's country, without the club |
 
 1. Set the value most of your competitions need for the whole federation in `Federation → Rulebook`, or on a division's or discipline's **Federation rules** tab.
 2. Open **Competition Levels**, go to the **Federation rules** tab of a level that needs something else (for example your international level) and set **Team represents** there.
@@ -275,9 +280,15 @@ Entries made before you turned the rule on stay as they are.
 
 ## Rankings
 
-A ranking belongs to one division and counts results from the federation classes you add to it. Create and manage rankings in the division's **Ranking** section. Each ranking there links to **Open rule review** and **Open enforcement log**. The full workflow is in [Federation admin rankings](/federation-rankings/federation-admin/).
+A ranking belongs to one division and counts results from the federation classes you add to it. Create and manage rankings in the division's **Ranking** section:
 
-When a competitor moves to another age group, a ranking carry percentage decides whether their ranking results follow; see [Age moves](/federation/age-moves/#what-the-move-does).
+- **Add** under the list creates a ranking, and **Edit** on a row changes it.
+- Click a row to open it. There you choose the ranking's classes and add corrections, and **Open rule review** and **Open enforcement log** take you to the Rulebook and the enforcement log.
+- **Import** on a row recalculates the ranking now.
+
+The full workflow is in [Federation Admin](/federation-rankings/federation-admin/).
+
+When a competitor moves to another age group, the rules **Ranking kept when moving up an age group** and **Ranking kept when moving down an age group** decide whether their ranking results follow; see [Age moves](/federation/age-moves/#what-the-move-does).
 
 ---
 
