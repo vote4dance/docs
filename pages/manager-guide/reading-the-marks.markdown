@@ -40,6 +40,10 @@ It has a tab for each dance, with how many judges have submitted it (such as **3
 **Result** tab that puts the dances together.
 
 - **A dance tab** shows the judges' marks in that dance, and that dance's own sum and place.
+- **A column for each judge** is headed with the judge's letter, so a judge has the same header
+  in every panel. When the letters are first names, as at some events, the header shows the
+  start of the name, such as **And…**. Hover over it to see the whole name. Only a judge with no
+  letter is headed A, B, C… in seat order.
 - **The Result tab** adds the dances up and shows the place each participant ends up with. Its
   **Status** column says what happens to the participant next: **Through**, **Out**, or the name
   of the round it goes to when that is another round than the next one, such as a hope round or
