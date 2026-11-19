@@ -82,7 +82,7 @@ Each round has a **Floor** field in its settings, next to **Schedule item** and 
 
 ## Screens
 
-Each screen under `Manager → Event → Screens` has a **Floor** setting: **All floors** or one floor. The floor list shows every floor and section by name.
+Each screen under `Manager → Audience → Screens` has a **Floor** setting: **All floors** or one floor. The floor list shows every floor and section by name.
 
 The floor setting affects these **Show** options: **Heat**, **Lineup**, **Schedule (no heats)**, **Round number** and **Results (last 6)**. They only show rounds on the screen's floor and rounds that have no floor. **Result** and **Judge presentation** are not filtered by floor.
 
