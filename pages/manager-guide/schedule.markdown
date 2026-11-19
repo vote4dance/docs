@@ -13,9 +13,11 @@ help:
 
 # Schedule and conflicts
 
-The schedule is the running order of the whole event: which rounds dance on which day, in what order, from what time, and on which floor. It lives on the event, so all competitions in the event share one schedule. Open it at `Manager → Event → Schedule`.
+For organizers and scrutineers who plan the day. Here you put the rounds in running order, give the blocks of the day their start times, publish and print the schedule, and check that no dancer is due in two rounds at once.
 
-The same data drives the public event page, the Speaker app, the screens, the printed schedule, the dressing-room and schedule-load statistics, and the conflicts report that checks whether a dancer is due on two floors at once.
+The schedule is the running order of the whole event: which rounds dance on which day, in what order, from what time, and on which floor. It belongs to the event, so all competitions in the event share one schedule. Open it at `Manager → Event → Schedule`.
+
+The same schedule is what the public event page, the Speaker app, the screens, the printed schedule, the dressing-room and schedule-load statistics and the conflicts report show.
 
 ## How the schedule is built
 
@@ -82,20 +84,24 @@ Items with rounds in progress or partly confirmed open expanded, so the live par
 
 Each round has a **Schedule item** field in its settings. Pick the item there when you create or edit the round; new rounds from a class template default to the last item of the first competition day. A round without an item sits on **Unscheduled**.
 
-Expand an item to see its rounds in a table. The columns are icons; hover them for the name:
+Expand an item to see its rounds in a table. The column headings are icons. Hover over an icon to see its name:
 
-| Column | Content |
-|---|---|
-| **Round** | Class and round, linked to the round |
-| **Number** | The round number |
-| **Floor** | The floor code or name (hidden when no round has a floor) |
-| **Start** | Estimated start time (shown once times can be calculated) |
-| **Offset** | How far that round ran over (red) or under (green) its plan |
-| **Judging** | The judging system |
-| **Status** | Round status |
-| **Participants** | Number of competitors in the round |
-| **Advance** | How many go through |
-| **Heats** | Number of heats |
+| Icon | Name when you hover | What the column shows |
+|---|---|---|
+| Box | **Round** | The class and the round. A speech bubble marks a round with a comment; hover over it to read the comment. A **+** button (**Add participants**) is shown when there are new participants to add to the round. |
+| `#` | **Number** | The round number. |
+| Table with rows | **Floor** | The floor's letter code, or its name when it has no code. The column is hidden when no round has a floor. |
+| Clock | **Start** | The estimated start time. Shown once times can be calculated; see [Times](#times). |
+| Hourglass | **Offset** | How far the round ran over its plan (red, with a plus) or under it (green, with a minus), for example `+02:30`. Empty when the round has no offset. |
+| No icon | No name | A ring that fills as the round moves on: started, all judges handed in, closed, confirmed, and full with a tick once the results are published. |
+| Open book | **Judging** | The judging system. For a round with sub-rounds, how it adds them up, for example **Sum placements**. |
+| Tag | **Status** | **Not started**, **In progress**, **Closed** or **Confirmed**. A tick is added when all judges have handed in, and a trophy when the results are published. |
+| People | **Participants** | The number of participants in the round. |
+| Arrow turning back | **Advance** | How many go through: the round's **Number to advance**. |
+| Branching lines | **Heats** | The number of heats. |
+| Crossed-out eye | **Hide results from position** | Only shown when a round hides results: the position results are hidden from, and an icon for what is hidden. Hover over the icon to read it. |
+
+Only two things in a row can be clicked: the round's name opens the round, and **+** adds the new participants to it. The tick box at the start of a row selects the round, and the handle at the end is for dragging; see [Moving and ordering rounds](#moving-and-ordering-rounds). On a narrow screen some of the columns are left out.
 
 Below the table the item shows **Planned end**, and, once the day is running late or early, **Estimated end** and **Total delay**.
 
@@ -125,7 +131,7 @@ Times are calculated, not typed per round. For each schedule item:
 2. Each round takes **Heat length × Number of heats**, both set in the round settings. **Heat length** is the whole time for one heat, including transitions.
 3. Rounds follow each other in the order shown.
 4. Rounds with the same round number start together. The next round starts when the longest of them is expected to end.
-5. Consecutive rounds of a class on different sub-floors (floors with a parent floor) also start together.
+5. Rounds of a class that follow each other on different sections of a floor also start together.
 
 During the event the plan is compared with reality: when a round is submitted, the difference from its planned end is its **Offset**, and the following rounds' estimated starts move by the accumulated delay. That is what the Speaker, the screens and the public page show as the estimated time.
 
@@ -156,7 +162,7 @@ Only people who can edit the event can publish or change the schedule, and only 
 
 ## Printing
 
-The print view is at `/manager/print/<event id>/schedule`. When the schedule is published, the print button on the schedule page opens it; before that, open the address directly.
+To print the schedule, publish it first. The line "Schedule is published" at the top of the schedule page then has a print button (a printer icon). Click it to open the print view. While the schedule is hidden from the public, the button is not shown.
 
 | Option | Effect |
 |---|---|
@@ -170,7 +176,7 @@ Each page of the schedule starts on a new sheet, with its date when the event sp
 
 ## Conflicts
 
-**Open conflicts page** at the top of the schedule page opens **Schedule conflicts** (`/manager/event/<event id>/conflicts`). It lists every dancer who is due in two rounds at the same time, or with very little time between them, across all competitions in the event.
+**Open conflicts page** at the top of the schedule page opens **Schedule conflicts**. It lists every dancer who is due in two rounds at the same time, or with very little time between them, across all competitions in the event.
 
 Opening it needs the **Supervisor** app on `Event → Users`; see [Users, apps and stations](/manager-guide/users-and-stations/).
 
@@ -229,7 +235,7 @@ Click the round in **Round A** or **Round B** and change the plan so the windows
 
 The report follows the schedule as you change it. A **Tight** row is a warning, not an error: decide whether the dancer can make the change of floor in that time.
 
-**Problems**, which appears in the sidebar when any setup check fails, runs the same check and fails when any dancer identified by account or federation ID has a hard conflict, so it is worth clearing both before the event.
+[Problems](/manager-guide/validator/#schedule-conflicts), which appears in the sidebar when a setup check fails, looks for the same clashes. It lists a dancer recognised by account or federation ID who has a **Conflict**, so clear both before the event.
 
 ## Troubleshooting
 

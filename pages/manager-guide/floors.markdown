@@ -10,9 +10,11 @@ help:
 
 # Floors
 
-A floor is a place where rounds are danced. You set up the floors of an event under `Manager → Event → Floor`. Each round is then placed on a floor. The Speaker, the Supervisor and each screen can be set to follow one floor, so staff at one floor are not shown another floor's rounds.
+For organizers and scrutineers who run rounds in more than one place at a time. Here you add the floors of an event, split a floor into sections, and see what a floor changes on the schedule, the screens and in the Speaker and Supervisor apps.
 
 Most events need only one floor. A new event already has one called **Main floor**, and that is enough if everything happens on one dance floor.
+
+A floor is a place where rounds are danced. You set up the floors of an event under `Manager → Event → Floor`. Each round is then placed on a floor. The Speaker, the Supervisor and each screen can be set to follow one floor, so staff at one floor are not shown another floor's rounds.
 
 ## What a floor is
 
@@ -62,7 +64,7 @@ Click the bin on the card or row and confirm. A floor can only be deleted when:
 - it has no sections. Delete the sections first.
 - no round is placed on it. Move those rounds to another floor first, in the round's settings.
 
-If one of these is not met, the delete is refused. See [Troubleshooting](#troubleshooting).
+If one of these is not met, the floor stays and a red message says why. See [Troubleshooting](#troubleshooting).
 
 ## Order
 
@@ -80,7 +82,7 @@ Each round has a **Floor** field in its settings, next to **Schedule item** and 
 
 ## Screens
 
-Each screen under `Manager → Event → Screens` has a **Floor** setting: **All floors** or one floor. The floor list shows every floor and section by name.
+Each screen under `Manager → Audience → Screens` has a **Floor** setting: **All floors** or one floor. The floor list shows every floor and section by name.
 
 The floor setting affects these **Show** options: **Heat**, **Lineup**, **Schedule (no heats)**, **Round number** and **Results (last 6)**. They only show rounds on the screen's floor and rounds that have no floor. **Result** and **Judge presentation** are not filtered by floor.
 
@@ -128,13 +130,13 @@ So to run two floors in parallel, give the parallel rounds the same **Round numb
 
 ## Who can change floors
 
-You need the Manager app for the event. Floors can be created, changed and deleted only while the event is not closed or archived. After that, the buttons are greyed out and the server refuses changes.
+You need the Manager app for the event. Floors can be created, changed and deleted only while the event is not closed or archived. After that, the buttons are greyed out.
 
-Reading the floor list needs no login, so Speaker, Supervisor, Screens and the public pages can all show floor names.
+Floor names are not secret: Speaker, Supervisor, Screens and the public pages all show them.
 
 ## Troubleshooting
 
-The delete errors come from the server as short codes:
+When a floor cannot be deleted, a red message appears with one of these short texts.
 
 ### "floor-has-children"
 
@@ -143,6 +145,8 @@ The floor still has sections. Delete its sections first, then delete the floor.
 ### "floor-has-rounds"
 
 At least one round is still placed on this floor or section, in any competition of the event. Open those rounds, choose another **Floor**, and delete again. The schedule's **Floor** column helps you find them.
+
+Scrutineer (Beta) shows **This floor still has rounds** instead, with a list of the rounds on the floor and its sections, and "Move these rounds to another floor first."
 
 ### A screen or Speaker shows rounds from another floor
 
