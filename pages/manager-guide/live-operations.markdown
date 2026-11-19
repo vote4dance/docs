@@ -345,6 +345,11 @@ Other cases:
   the marks are complete.
 - **A judge has to leave.** See
   [Replacing a judge who has already given marks](/manager-guide/judges-on-the-day/#replacing-a-judge-who-has-already-given-marks).
+- **You close the round although a judge has not submitted.** Manager asks first: "Warning! All
+  judges have not submitted their results!!" Avoid going on from here. Get the judge to submit, or
+  mark the judge as submitted yourself, as described under
+  [Judges not finishing](#judges-not-finishing), so that it is clear which marks the result is
+  built on. If you closed too early, set the round back with **Previous status**.
 
 ### A judge's tablet loses the network
 
@@ -361,6 +366,24 @@ are on that tablet, not on another one.
 
 If many devices drop at once, the fault is in the hall's network. See
 [Network](/manager-guide/screens/#network).
+
+### A judge's tablet stops working
+
+Neither the classic Manager nor Scrutineer (Beta) lets you type in marks for a judge, for example
+from a paper judging sheet. Marks are only given in the Judging app, by the judge. So when a
+tablet fails:
+
+1. Give the judge another phone or tablet. The judge signs in there, opens the Judging app and
+   goes on. The marks the judge had saved before the tablet failed are still there. If the judge
+   has forgotten the PIN, press **Reset PIN** on their row in `Manager → Competition → Judges`.
+2. If the judge went on marking on paper meanwhile, the judge enters those marks in the Judging
+   app on the new device and presses **Submit results**.
+3. If the judge cannot go on at all, mark the judge as submitted with the marks given so far, as
+   described under [Judges not finishing](#judges-not-finishing), or replace the judge: see
+   [Replacing a judge who has already given marks](/manager-guide/judges-on-the-day/#replacing-a-judge-who-has-already-given-marks).
+
+In Scrutineer (Beta), the judge's row on the round's page in **Live** has **Phone problem?**,
+which lists the same ways out.
 
 ### Wrong teams in round
 
@@ -412,6 +435,20 @@ starting order stay as they are, including a drawn order.
 **Clear marks** also shows under **Judging type** in the round's settings in Setup. It is only
 there while the round is **In progress**. To change a round whose judging is closed, open it
 again first.
+
+In the classic Manager, **Judging type** in **Round information** is greyed out as long as the
+round has marks. Setting the round back to **Not started** does not remove them. The only way to
+remove the marks of one round there is to empty the round, which also loses its heats and
+starting order:
+
+1. Press **Previous status** until the round is **Not started**.
+2. Click **Remove participants** at the top of the **Judge results** card and confirm. The
+   participants are taken out of the round, and their marks in it are deleted. This is refused
+   once the round has sent participants on to another round.
+3. Change **Judging type** in **Round information** and click **Save changes**.
+4. Put the participants back, as described for a whole round under
+   [Wrong teams in round](#wrong-teams-in-round), then press **Start judging**. The judges mark
+   the round again.
 
 ### A round was closed, confirmed or published too early
 

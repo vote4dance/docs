@@ -117,6 +117,24 @@ Good to know:
 - You can change both until the round's judging is closed. After that, use **Qualified participants** on the closed round.
 - When you confirm the round on the day, the rest are sent to the round you chose, and that round's **Best placement** is set to the first place after those who went through unless you choose otherwise.
 
+## Add a child round or a chance round
+
+A child round is a round under another round, for example one dance of a round that is danced in several dances. The steps describe the classic Manager.
+
+1. Go to `Competition → Classes`, click the class and click the name of the round the new round belongs under.
+2. In the **Class order** card, next to **Round information**, click **Add child round**. It is under the list of the class's rounds, beside **Add round**. It is greyed out when the round you have open is not an ordinary round, for example a chance round or a point summary.
+3. Choose what to add:
+
+   | Choice | What you get |
+   |---|---|
+   | **Child round** | A round under the round you have open. Once a round has child rounds, its **Judging type** says how they are added up: **Don't summarize**, **Sum marks**, **Sum placements** and so on. |
+   | **Chance round - without placements** | A second chance round under the round you have open. It is named "Chance round" until you give it another name. |
+   | **Match Race (Round Robin)** | A list with one match for every pair of participants in the round you have open, shown by their start numbers. Drag the matches into the order they are danced and save. Each match becomes a child round named after the two start numbers. |
+
+4. For a child round or a chance round, the form for a new round opens, filled in from the round you have open. Check the values and click **Save changes**. If the round you have open already has participants, the new round gets the same participants when you save it.
+
+Participants are sent to a chance round like to any other round: choose it under **Round for non-qualified participants** when the round before it is closed. See [Check where the round sends its participants](/manager-guide/live-operations/#check-where-the-round-sends-its-participants). A chance round gives no places of its own. A participant who does not go on from it keeps the place from the round it came from. Unlike other child rounds, a chance round has its own **Publish results online** button.
+
 ## Delete a round
 
 1. Open the class and tick the round in the list.

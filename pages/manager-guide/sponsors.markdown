@@ -28,7 +28,7 @@ A sponsor is shown only when the sponsorship was bought through Vote4Dance. You 
 | You need to know | Details |
 |---|---|
 | Stripe must be connected | You cannot create sponsor offers until the event has a connected Stripe account. The **Offers** tab shows **Connect Stripe account** until it is connected, and **Connected to Stripe!** when it is. |
-| Prices are without VAT | The page says **All prices exclude VAT.** The sponsor sees the same text. |
+| Prices are without VAT | The page says **All prices exclude VAT.** The sponsor sees the same text. At the payment, Stripe adds the tax on top of the price. Vote4Dance sets no VAT rate: which tax is added, if any, follows the tax settings of your own Stripe account. |
 | Fees | Each purchase includes a 5% Vote4Dance fee, plus Stripe's own fees. |
 | Currency | SEK, EUR, USD or NOK. You choose it for each offer. |
 | Lowest price | 500 SEK, or 50 in EUR, USD or NOK. |
@@ -36,7 +36,7 @@ A sponsor is shown only when the sponsorship was bought through Vote4Dance. You 
 ## Create the sponsor offers
 
 1. In Manager, open **Sponsors**. It is under **Audience** in the menu.
-2. On the **Offers** tab, if you see **Connect Stripe account**, click it and finish the steps at Stripe. If the tab says **Your event need billing information to connect**, the event has no billing details yet, and they must be added before Stripe can be connected.
+2. On the **Offers** tab, if you see **Connect Stripe account**, click it and finish the steps at Stripe. If the tab says **Your event need billing information to connect**, the event has no billing details yet, and they must be added before Stripe can be connected. Add them on the event's details page, in the **Finalize** step, under **Billing information**: see [Step 3: Event details page](/manager-guide/event-setup/#step-3-event-details-page). The step only asks for them on a live competition, not on a practice event. When they are saved, the **Offers** tab shows **Connect Stripe account**.
 3. Click **Create sponsor items**. You see the message **Default sponsor items created**.
 
 Manager creates these four offers. Each one is created **Active**, which means it can be bought at once.
@@ -118,6 +118,8 @@ This is how a sponsor buys:
 4. After the payment the sponsor comes to the page **Sponsor Profile**. Here the sponsor can correct the company details, upload a logo under **Company logo**, and add a video under **Sponsor video**.
 
 Ask the sponsor to save the address of the **Sponsor Profile** page, for example as a bookmark. It is the sponsor's own page for changing the logo and the details later. If the sponsor cannot do it, you can fill in the details yourself, as described under [After a purchase](#after-a-purchase).
+
+A sponsor who has lost the address cannot get it back from Vote4Dance. The sponsor is sent to the page once, right after the payment. Vote4Dance sends no e-mail with the address, the page has no sign-in, and Manager does not show the address to you either. Change the sponsor's details and logo yourself with **Edit sponsor info** instead.
 
 A sponsor's video has to be approved before the screens play it. See [Sponsor videos and spots](/manager-guide/sponsor-videos/).
 

@@ -88,6 +88,16 @@ The quiz is now in the list on the **Quiz** page as **Draft**, and the speaker s
 
 A quiz that is **Open** can't be edited: the speaker has to close it from the **Audience** page first. A quiz that is **Closed** has been scored and can't be changed.
 
+### If the Quiz page is not there
+
+The audience quiz is switched on or off for all of Vote4Dance, not for one event, and there is no setting for it in Manager. While it is off:
+
+- Scrutineer (Beta) has no **Quiz** link, neither in the menu nor under **Everything else**. If you open the page from a saved address, it says "The audience quiz is not switched on."
+- In the Speaker app, the **Audience** page has no **Quiz** tab, only **Voting**. The **Audience** item in the menu is only there when voting is on for the event.
+- Nobody can write, open or answer a quiz, and Call it is not made.
+
+If you expected the quiz to be on, ask Vote4Dance: see [Getting help](/getting-help/).
+
 ## Call it
 
 **Call it** is the audience's game of calling who goes through and who wins. Vote4Dance makes it by itself, so there is nothing to set up or run:

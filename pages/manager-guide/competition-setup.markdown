@@ -222,6 +222,12 @@ Run one round at your desk before the event day. For the full rehearsal at the v
 
 If anything fails, fix it before you start the real rounds.
 
+For step 3, someone has to mark as a judge. Marks are only given in the Judging app, by a judge on the round's panel: Manager has no button that makes up marks or results.
+
+- Add yourself as a judge and put yourself on the panel of the test class, then mark the round in the Judging app. See [Judges](/manager-guide/judges/).
+- In Scrutineer (Beta), the **Judges** page of a practice event has **Judge it myself**. It adds you as a judge, creates a panel, seats you on it and uses the panel for your classes. In a live competition the button is **Add me as a judge**, and you seat yourself on a panel.
+- The **Demo** in the Judging app's menu does not put marks in your round. It shows made-up teams, and nothing you mark there is saved.
+
 A round goes through these statuses, in this order:
 
 | Status | What it means | Button that takes the round there |
@@ -248,6 +254,38 @@ A round goes through these statuses, in this order:
 **Reset results** and **Delete registrations** cannot be undone. Use them for test data. Both work only while the event is **Hidden**. Do not delete all participants when online check-in has started.
 
 Do not mix participants from a file and participants from registrations in the same competition. See [Update/import participants](/manager-guide/entries-and-participants/#updateimport-participants).
+
+### The import file
+
+**Import registrations** takes one `.csv` file. It has the same layout as the result file from **Download .csv file**, so a downloaded result file can be uploaded again.
+
+- **Separator:** semicolon, comma or tab. Manager uses the one that splits the row of column names into the most columns.
+- **Text:** save the file as UTF-8. A file that is not UTF-8 is read as Western European (ISO 8859-1).
+- **Lines that start with `#`** above the column names are skipped.
+- **The first other line holds the column names.** They must be spelled exactly as in the table, capital letters included. If one column is called `Class name`, Manager reads the English names. Otherwise it reads the Swedish names. Columns with any other name are ignored.
+- **No column has to be there**, but every participant needs a class, in **Starting class** or **Original class**. The preview marks a row without one **Missing class name**.
+
+| English name | Swedish name | What it holds |
+|---|---|---|
+| `Class name` | `Klassrubrik` | A class title. A row with a value here is a heading, not a participant: the title goes for the rows under it, when their class is created. |
+| `Startnr` | `Startnr` | The start number. Empty means no number yet. Two participants of a class with the same number are marked **Duplicate start number**. |
+| `Plac` | `Plac` | The place. `S` means the participant has withdrawn. So does `C` in a file with English names. |
+| `Points` | `UP` | The promotion points earned at this competition. |
+| `Name 1`, `Name 2`, `Name 3` | `Namn 1`, `Namn 2`, `Namn 3` | The dancers, at most three. |
+| `Club` | `Klubb` | The club's short code. |
+| `Original class` | `Klass` | The class's short letter. Used as the class when **Starting class** is empty. |
+| `Starting class` | `Startar i` | The short letter of the class the participant starts in. A class with exactly this short letter is used. If there is none, the class is created. |
+| `Starting round` | `Startande runda` | The round the participant starts in. |
+| `Warning`, `Note` | `Varning`, `Notering` | A warning and a note on the participant. |
+| `Club 1`, `Club 2`, `Club 3` | `Klubb 1`, `Klubb 2`, `Klubb 3` | The club of each dancer. |
+| `Lic 1`, `Lic 2`, `Lic 3` | the same | The license number of each dancer. |
+| `Person-ID 1`, `Person-ID 2`, `Person-ID 3` | the same | The person ID of each dancer. |
+| `Year 1`, `Year 2`, `Year 3` | `Född 1`, `Född 2`, `Född 3` | The birth year of each dancer. |
+| `Show name` | `Shownamn` | The name of the show. |
+| `Country`, `City`, `Choreographer` | `Land`, `Stad`, `Koreograf` | **City** and **Choreographer** are cut at 128 characters. |
+| `Complete clubs` | `Fullständiga klubbnamn` | The club's full name. |
+
+The import is refused when a participant it should add or change has no class in the competition, for example because you unticked the new classes in the preview. It then answers "Some participants are in a class that isn't in the competition. Tick the new classes in the import, or untick those participants."
 
 ## Troubleshooting
 
