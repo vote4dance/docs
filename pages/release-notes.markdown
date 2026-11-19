@@ -6,6 +6,9 @@ nav_order: 10
 ---
 
 # Release notes
+## 2026-11-19
+ 🛠️ **Improvements**
+* Federation: Moving a competitor's class membership on **Members** to a class they had a retired membership in now works. The old membership becomes the active one with your changes, and the one you edited is retired. If the competitor is still active in that class, you see "This competitor already has an active membership in that class". Before, saving showed "Internal Error" (see [Editing a membership](/federation/members/#editing-a-membership))
 ## 2026-11-18
  🛠️ **Improvements**
 * Website: On a phone, the division cards on a federation's **Divisions** page now show **Season ranking** and **Explore** under the division's name. Before, the name was squeezed to a few letters per line

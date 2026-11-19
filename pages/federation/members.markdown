@@ -124,6 +124,8 @@ Use this for a manual promotion, demotion, correction or class move.
    A **Carryover preview** line shows the points the new class will start with.
 4. Press **Save changes**.
 
+If the competitor had an earlier membership in the class you move them to, for example a retired one from an earlier season, that membership becomes the current one with your changes, and the one you edited is retired. If they are still active in that class, you see "This competitor already has an active membership in that class": edit or remove that membership instead.
+
 The change is written to the competitor's class history (see [History](#history)): as an **age move** when the new class is in a different age group, otherwise as **manual**. Promotion points and how they are earned are explained in [Promotion points](/federation/progression/).
 
 ### Removing a membership
