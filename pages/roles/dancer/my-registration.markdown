@@ -18,7 +18,7 @@ Every event you are registered for has a page of its own: **My registration**. I
 still have to do, every class you are in with its rounds and results, and whether your start number
 has been picked up. You also pay, add a class, change class and withdraw from a class there.
 
-In the Vote4Dance app the same page is called **My event**. See [In the Vote4Dance app](#in-the-vote4dance-app).
+The Vote4Dance app has a page for each event too. See [In the Vote4Dance app](#in-the-vote4dance-app).
 
 ![My registration on the day of an event](/assets/images/my-registration/page.png)
 
@@ -77,7 +77,7 @@ At some events, your club or organization has to sign your entry before it count
 
    ![My registration with a declined entry and the Contact your organization card](/assets/images/organization-signing/6c-my-event-declined.png)
 
-If you have no organization, your entry skips signing and you pay yourself. The same texts show in the Vote4Dance app, on **My event**.
+If you have no organization, your entry skips signing and you pay yourself. The Vote4Dance app shows **Waiting for the organization** and **Declined by the organization** on the event's page too.
 
 ## Your classes
 
@@ -324,13 +324,17 @@ Press an event to open its **My registration**. Paying and withdrawing happen th
 
 ## In the Vote4Dance app
 
-In the app, open **Profile → Registrations** and tap an event to open **My event**. It shows the
-same things to do, your Vote4Dance ID and your classes, including **Waiting for the organization** and **Declined by the organization** (see [When your organization signs your entry](#when-your-organization-signs-your-entry)). Inside an event, the **Mine** part lists
-your classes and links to **My event** with **My registration, ID and payment**.
+In the app, open **Profile → Registrations** and tap an event. Its page has the event's name at the
+top. It shows what you still have to do, your Vote4Dance ID and **My classes**, including
+**Waiting for the organization** and **Declined by the organization** (see [When your organization signs your entry](#when-your-organization-signs-your-entry)).
 
-Paying, adding a class and withdrawing open this page on the website. You may need to sign in there.
+Paying, adding a class and withdrawing open the website. You may need to sign in there.
 
-Under a class you have finished, **Share result** opens your phone's share sheet with a picture of
+From ten days before an event until two days after it, the **Favorites** tab lists your classes at
+the event under **Mine**, with your rounds and how they went. **My registration, ID and payment**
+under them opens the event's page.
+
+Under a class you have finished there, **Share** opens your phone's share sheet with a picture of
 the result, and **Diploma** opens your diploma as a PDF. The same two buttons are on a team's own
 page (tap a couple or team anywhere in the app): everyone can share a published result there, and
 the diploma button appears when you are in the team.

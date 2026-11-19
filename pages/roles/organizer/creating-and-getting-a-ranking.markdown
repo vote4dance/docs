@@ -45,15 +45,21 @@ names.
 
 ## Close the competition
 
-On the event overview, **Change status → End competition** sets the event to **Closed**. For a
-federation event, closing:
+On **Event overview**, press **End competition** and confirm the **Change status** dialog. The
+event is now **Closed**. The button offers the next status, so it says **End competition** only
+while the event is **Published**. See
+[Close the competition](/manager-guide/post-event/#close-the-competition).
+
+For a federation event, closing:
 
 1. identifies each couple from its person numbers
 2. registers class memberships for everyone who earned points
 3. adds the points, and moves couples that reach the class's limit up a class
 
-If you import or correct results after closing, set the event to **Closed** again. It is safe to
-repeat.
+A closed event cannot be closed a second time straight away: its button says **Revert to hidden**.
+To import or correct results after closing, open the event again, make the change and close it
+again. Closing is safe to repeat. See
+[After you have closed](/manager-guide/post-event/#after-you-have-closed).
 
 See [Post-event and exports](/manager-guide/post-event/) and
 [Promotion points](/federation/progression/).
