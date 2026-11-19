@@ -10,6 +10,7 @@ child_nav_order: reversed
 # Release notes
 ## 2026-11-19
  ⭐ **New**
+* Federation: A website API key can now read which divisions and disciplines each public event has classes in, and the list of the federation's divisions and disciplines, so your website can label and filter the events by them. The guide now also says how the website finds events that were deleted (see [API keys for your website](/federation/settings/#api-keys-for-your-website))
 * Federation: The configuration API can now read and change dances: add a dance to a discipline, or change a dance's name, order or a single setting, such as the place a bronze battle starts from, without resending the others (see [Personal configuration keys](/federation/settings/#personal-configuration-keys))
 * Scrutineer (Beta): **Let autopilot do it** on a round in **Live** lets autopilot run just that round, so you can try it without switching it on for the whole event. A short window says what autopilot will do in the round and lets you choose whether it confirms after the countdown or waits for you to press Confirm. When autopilot has run a round, the class's next round offers **Run the … on autopilot** or **Whole class from here…** (see [Let autopilot run a round](/manager-guide/live-operations/#let-autopilot-run-a-round))
  🛠️ **Improvements**
