@@ -8,6 +8,7 @@ nav_order: 10
 # Release notes
 ## 2026-11-19
  🛠️ **Improvements**
+* Manager: In **Update/import participants** and a file import, you can now untick the new classes in the preview together with the participants in them, and the rest is imported. If a ticked participant is in a class you unticked, nothing is imported and a message says to tick the class or untick the participant. Before, the import failed with "Class Not Found", and classes it had already added stayed (see [Update/import participants](/manager-guide/registration-checkin/#updateimport-participants))
 * Federation: Moving a competitor's class membership on **Members** to a class they had a retired membership in now works. The old membership becomes the active one with your changes, and the one you edited is retired. If the competitor is still active in that class, you see "This competitor already has an active membership in that class". Before, saving showed "Internal Error" (see [Editing a membership](/federation/members/#editing-a-membership))
 ## 2026-11-18
  🛠️ **Improvements**
