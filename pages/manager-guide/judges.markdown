@@ -24,7 +24,7 @@ The guide to it is on four pages:
 
 | Page | What is on it |
 |---|---|
-| **Judges** (this page) | Adding and inviting judges, the judge list and letters, PINs, the demo, judge types, and removing a judge. |
+| **Judges** (this page) | Adding and inviting judges, the judge list and letters, PINs, the demo, judge types, removing a judge, and the judge's own notes. |
 | [Judge panels](/manager-guide/judge-panels/) | Seating judges on panels, judge needs, letting Vote4Dance suggest seats, problems with the panels, the panel of each class and round, and when panels lock. |
 | [Judge schedules](/manager-guide/judge-schedules/) | A schedule for each judge: printed, in the Judging app and in the invitation email. |
 | [Judges on the day](/manager-guide/judges-on-the-day/) | A judge who can't come or can't judge one class, replacing a judge who has given marks, and separating tied positions. |
@@ -275,6 +275,46 @@ A panel with scores keeps its judges so that marks are not given by a panel that
 4. The toolbar has **Theme Light/Dark**, **Lock** (asks for the PIN again) and **Hide screen** (blanks the screen between heats).
 
 The judge's app also has the schedule, the café and the results.
+
+## The judge's own notes
+
+Next to each start number the Judging app has a row of small buttons. They help the judge keep track of the dancers while the round is danced. None of them counts in the result; only the mark does.
+
+| Button | What it does |
+|---|---|
+| **−** and **+** | Keeps a count for the dancer, shown as a badge on the button, for example **+2** or **-1**. |
+| Paint bucket | Gives the dancer colors and a pattern, so the judge finds them again on the floor. |
+| Smiley | Puts icons on the dancer as quick notes. |
+| Warning triangle | Sends a warning about the dancer to the officials. This one is not a private note. |
+
+Which buttons a round has depends on how it is judged. The **−** and **+** buttons are on rounds where the judge selects who advances, one-to-five rounds and placement rounds. One-to-five rounds have no smiley. The warning triangle is only there when the round's judging has remarks set up; see [Judging](/federation/judging/).
+
+### Colors and pattern
+
+The paint bucket opens two rows of colors and a row of patterns. The first row colors the upper half of the button, the second row the lower half, and the pattern is laid over both. A judge can use them for the top and the bottom the dancer wears, for example, or in any way that helps them recognize the dancer.
+
+![The two rows of colors and the row of patterns, opened from the paint bucket](/assets/images/judges/judge-app-colors.png)
+
+- A color picked in one row is used for both halves until a color is picked in the other row.
+- Tap the chosen color or pattern again to take it away.
+
+### Note icons
+
+The smiley opens two rows with the same eight themes: the upper row in green, the lower row in red.
+
+![The green and the red row of note icons, opened from the smiley](/assets/images/judges/judge-app-notes.png)
+
+The icons have no labels and no set meaning. Each judge decides what an icon stands for and uses the ones that suit how they judge. A judge can put several icons on one dancer; tap an icon again to take it away. The button shows up to four of the chosen icons, and a dot when there are more.
+
+### In the Ranked view
+
+On some rounds the judge can switch between **Start number** and **Ranked** above the dancers. **Ranked** orders the dancers by the mark the judge has given them. Dancers with the same mark are ordered by their count, where the round has **−** and **+**. On other rounds they are ordered by their note icons: each green icon counts one up and each red icon one down.
+
+### Who sees them
+
+- The colors, the pattern and the note icons are only shown to the judge who set them.
+- The count is saved with the mark. In Scrutineer (Beta), **Changes this judge saved** shows it as stars, for example "2 stars".
+- A warning goes to the scrutineer and the supervisor; see [Warnings from the judges](/scrutineer/#warnings-from-the-judges).
 
 ## Troubleshooting
 
