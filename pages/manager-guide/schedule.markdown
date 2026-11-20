@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Schedule and conflicts
+description: Put the rounds in running order, set start times, publish and print the schedule, and check that no dancer is due in two rounds at once.
 permalink: /manager-guide/schedule/
 parent: Classes, rounds and judges
 nav_order: 7

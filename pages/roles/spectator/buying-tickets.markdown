@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Buying tickets
+description: Buy tickets for a competition on the event's Tickets tab, find them afterwards, and see who to ask about refunds.
 permalink: /spectator/buying-tickets/
 parent: Spectator
 nav_order: 1

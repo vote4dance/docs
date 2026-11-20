@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Results, points and rankings
+description: Where to find your results, and how promotion points, season points and rankings work where a federation uses them.
 permalink: /dancer/creating-and-getting-a-ranking/
 parent: Dancer
 nav_order: 10

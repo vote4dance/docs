@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Set up your federation
+description: The order in which a new federation is set up in Vote4Dance, step by step.
 permalink: /federation/setup/
 parent: Federation
 nav_order: 1

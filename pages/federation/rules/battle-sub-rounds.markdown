@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Battle sub-rounds
+description: "Set up battles that are themselves split into rounds: semifinal battles in two rounds with a tie-break, and a final with a bronze and a gold battle."
 permalink: /federation-rules/battle-sub-rounds/
 parent: Federation Rules
 nav_order: 10

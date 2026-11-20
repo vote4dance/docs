@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Live operations
+description: "The competition-day runbook for Manager: checks before the first round, the steps for every round, and what to do when something goes wrong."
 permalink: /manager-guide/live-operations/
 parent: Rehearsal and event day
 nav_order: 3

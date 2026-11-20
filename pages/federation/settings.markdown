@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Federation settings
+description: Change the federation's details, decide who has access, choose what the public federation page shows, and set up API keys and integrations.
 permalink: /federation/settings/
 parent: Set up your federation
 nav_order: 2

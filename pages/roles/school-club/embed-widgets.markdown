@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Embed widgets
+description: Show your club's upcoming competition registrations and its results on your own website with an embed widget.
 permalink: /school-club/embed-widgets/
 parent: School/Club
 nav_order: 11

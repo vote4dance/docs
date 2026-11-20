@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Creating your account
+description: Create your personal Vote4Dance account, which holds your identity, licenses, registrations and rankings.
 permalink: /dancer/account-creation/
 parent: Dancer
 nav_order: 1

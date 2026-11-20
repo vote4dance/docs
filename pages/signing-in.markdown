@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Signing in
+description: Sign in to Vote4Dance with a code sent to your e-mail or with a passkey, create an account, and manage how you sign in.
 permalink: /signing-in/
 parent: Start here
 nav_order: 1

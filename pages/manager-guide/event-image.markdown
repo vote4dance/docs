@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Event image
+description: "The one picture your event uses everywhere: format, size and proportions, how to choose one that works, and how to upload it."
 permalink: /manager-guide/event-image/
 parent: Set up the event
 nav_order: 2

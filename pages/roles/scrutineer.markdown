@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Scrutineer
+description: "For the chief scrutineer, the chairperson of adjudicators or a federation observer: the Supervisor app, and what to watch on the day."
 permalink: /scrutineer/
 nav_order: 8
 has_children: true

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Problems (setup checks)
+description: The Problems page checks your competition setup (participants, start numbers, classes, rounds, judge panels and schedule) and lists what fails.
 permalink: /manager-guide/validator/
 parent: Rehearsal and event day
 nav_order: 2

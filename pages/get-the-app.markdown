@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Get the app
+description: "The Vote4Dance app for iPhone and Android: what you use it for, and what works on the website without it."
 permalink: /get-the-app/
 parent: Start here
 nav_order: 2

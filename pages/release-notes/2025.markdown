@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Release notes, 2025 and earlier"
+description: Changes to Vote4Dance in 2025 and earlier.
 permalink: /release-notes/2025/
 parent: Release notes
 nav_order: 202512

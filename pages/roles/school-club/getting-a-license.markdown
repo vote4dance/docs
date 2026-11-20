@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Licenses for your members
+description: How a club applies for licenses for its members one at a time, approves what members applied for themselves, pays and follows each license.
 permalink: /school-club/getting-a-license/
 parent: School/Club
 nav_order: 5

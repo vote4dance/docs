@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Quickstart
+description: "The shortest path for a new organizer from nothing to a runnable event: create it, build its structure, do a dry run and run the day."
 permalink: /quickstart/
 parent: Plan your competition
 nav_order: 2

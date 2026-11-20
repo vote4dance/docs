@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Emails and the check-in QR code
+description: The emails Vote4Dance sends around registration, how to email participants, and the check-in QR code.
 permalink: /manager-guide/emails/
 parent: Registration and sales
 nav_order: 8

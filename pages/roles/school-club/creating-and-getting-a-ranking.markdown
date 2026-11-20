@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Your club's results, points and rankings"
+description: Which club a result counts for, what the club can check, and how to follow your teams' season points.
 permalink: /school-club/creating-and-getting-a-ranking/
 parent: School/Club
 nav_order: 9

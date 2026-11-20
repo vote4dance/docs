@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Federation Rankings
+description: A ranking is a list a federation publishes from competition results. What every ranking has, and the order in which to set one up.
 permalink: /federation-rankings/
 parent: Points and rankings
 nav_order: 4

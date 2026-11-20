@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Post-event and exports
+description: "What to do in Manager after the last round: publish the results, close the competition, download and print files, and correct a result."
 permalink: /manager-guide/post-event/
 parent: After the event
 nav_order: 1

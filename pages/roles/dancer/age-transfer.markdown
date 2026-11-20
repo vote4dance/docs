@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Moving to a new age group
+description: How your age is counted for age groups, when a couple moves up and what moves with you, where your federation uses age groups.
 permalink: /dancer/age-transfer/
 parent: Dancer
 nav_order: 13

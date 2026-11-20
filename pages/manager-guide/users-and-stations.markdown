@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Users, apps and stations
+description: Give each person who works at a competition access to the apps they need, and set up shared devices as stations.
 permalink: /manager-guide/users-and-stations/
 parent: Set up the event
 nav_order: 3

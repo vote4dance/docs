@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Registering for an event
+description: "How a dancer or a parent registers for a competition: solo, with a partner, in a group or for a child, and how to pay and check the entry."
 permalink: /dancer/registration-for-event/
 parent: Dancer
 nav_order: 4

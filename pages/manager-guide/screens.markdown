@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Screens, projectors and venue technology
+description: How projectors and TVs at the venue get their picture from the Screens app, what they can show, who controls them and what to ask the venue.
 permalink: /manager-guide/screens/
 parent: Set up the event
 nav_order: 5

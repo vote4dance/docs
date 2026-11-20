@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Set up the event
+description: "The event itself: its details and picture, who gets which app, the floors, the screens in the hall and your sponsors."
 permalink: /organizer/event/
 parent: Organizer
 nav_order: 2

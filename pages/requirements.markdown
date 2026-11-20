@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Technical requirements
+description: The devices, projectors, network and browsers a competition run with Vote4Dance needs, with a readiness checklist.
 permalink: /requirements/
 parent: Plan your competition
 nav_order: 3

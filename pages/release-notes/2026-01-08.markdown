@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Release notes, January to August 2026"
+description: Changes to Vote4Dance from January to August 2026.
 permalink: /release-notes/2026-01-08/
 parent: Release notes
 nav_order: 202608

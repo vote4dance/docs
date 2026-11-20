@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Following the schedule
+description: See what is dancing now, what is next and which results are out, on the website and in the Vote4Dance app.
 permalink: /spectator/following-the-schedule/
 parent: Spectator
 nav_order: 2

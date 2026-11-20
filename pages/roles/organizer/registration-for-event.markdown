@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Setting up registration for your event
+description: Open a registration period, test it, approve what comes in and import the approved registrations as participants.
 permalink: /organizer/registration-for-event/
 parent: Registration and sales
 nav_order: 1

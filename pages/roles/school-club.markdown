@@ -1,6 +1,7 @@
 ---
 layout: page
 title: School/Club
+description: "For the people who run a dance school, studio or club: its administrators, managers and coaches."
 permalink: /school-club/
 nav_order: 5
 has_children: true

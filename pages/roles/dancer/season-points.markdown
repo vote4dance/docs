@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Your season points in the app
+description: See your teams' season points in the Vote4Dance app, the results behind them, and what happens when a team moves up.
 permalink: /dancer/season-points/
 parent: Dancer
 nav_order: 11

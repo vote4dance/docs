@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Getting ready for a new season
+description: What changes for your dancers and your event at a new season, and what to check with the federation.
 permalink: /organizer/renew-license/
 parent: Federations and seasons
 nav_order: 3

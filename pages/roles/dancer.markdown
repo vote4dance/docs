@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Dancer
+description: "For dancers who compete, and for parents who look after a child's account: the account, registering, club and license, and results."
 permalink: /dancer/
 nav_order: 4
 has_children: true

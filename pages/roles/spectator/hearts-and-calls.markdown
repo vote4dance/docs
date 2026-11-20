@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Hearts and Call it
+description: Give hearts to the couples you like and call who goes through or wins, from your seat in the Vote4Dance app.
 permalink: /spectator/hearts-and-calls/
 parent: Spectator
 nav_order: 3

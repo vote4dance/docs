@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Battle round setup
+description: Set up a 1v1 battle discipline so that the Round guide creates the placing round, the battle rounds and a B-final for a class of any size.
 permalink: /federation-rules/battle-class-rules/
 parent: Federation Rules
 nav_order: 9

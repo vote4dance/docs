@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Organizer
+description: For the person or team that sets up and runs a competition in Manager, from planning the event to publishing the results.
 permalink: /organizer/
 nav_order: 3
 has_children: true

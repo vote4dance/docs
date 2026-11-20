@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Competition setup
+description: "Set up a competition in Manager in four steps: create classes, build rounds, add participants with start numbers, and check the setup."
 permalink: /manager-guide/competition-setup/
 parent: Classes, rounds and judges
 nav_order: 1

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Notifications
+description: Post short updates about your event and send them as push notifications to people who follow it in the Vote4Dance app.
 permalink: /manager-guide/notifications/
 parent: Registration and sales
 nav_order: 9

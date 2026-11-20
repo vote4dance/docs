@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Federation Staff Roles
+description: "The federation staff roles Viewer, Manager, Administrator and Owner: what each may do, and how staff are invited to their own account."
 permalink: /federation/staff-roles/
 parent: Set up your federation
 nav_order: 1

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Age moves
+description: Move the competitors who have outgrown their age group up one age group at the start of a season, with the Age-up batch transition.
 permalink: /federation/age-moves/
 parent: Structure and rules
 nav_order: 4

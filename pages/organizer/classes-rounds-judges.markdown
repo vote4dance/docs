@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Classes, rounds and judges
+description: "What is danced and who judges it: classes and rounds, the judges and their panels, the schedule, and the formats that need their own setup."
 permalink: /organizer/classes-rounds-judges/
 parent: Organizer
 nav_order: 3

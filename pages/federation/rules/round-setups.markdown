@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Round templates
+description: A round template is a table that decides which rounds a group of classes dances. How to fill one in, preview it, compare and activate it.
 permalink: /federation-rules/round-setups/
 parent: Federation Rules
 nav_order: 11

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Sponsors
+description: Set up the sponsor offers companies can buy for your event, follow who has bought, and see where a sponsor's name and logo are shown.
 permalink: /manager-guide/sponsors/
 parent: Set up the event
 nav_order: 6

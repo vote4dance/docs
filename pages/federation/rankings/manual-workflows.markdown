@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Manual Workflows
+description: "What to do when a published ranking has to differ from its formula: quotas, a tie the committee decides, results kept after a partner change."
 permalink: /federation-rankings/manual-workflows/
 parent: Federation Rankings
 nav_order: 2

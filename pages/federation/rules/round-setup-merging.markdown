@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Merging and linking round setup rules
+description: Merge the copies of a round setup rule in one discipline, and link a rule that several disciplines use, so that a change is made once.
 permalink: /federation-rules/round-setup-merging/
 parent: Federation Rules
 nav_order: 4

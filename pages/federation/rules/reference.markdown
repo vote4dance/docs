@@ -1,6 +1,7 @@
 ---
 layout: page
 title: How the round setup works
+description: How a federation's round setup decides which rounds a class of a given size dances, with a worked example and a rule set built step by step.
 permalink: /federation-rules/reference/
 parent: Federation Rules
 nav_order: 1

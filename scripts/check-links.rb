@@ -9,6 +9,7 @@
 #   - an internal link or image points at a page, file or #section that is not in the built site,
 #   - an internal link points at an address that only redirects (link to the new page instead),
 #   - a page's sidebar title differs from its first heading,
+#   - a page has no `description`, which is its line in search results and in llms.txt,
 #   - two pages under the same parent share a nav_order,
 #   - a page's parent is not the title of exactly one page.
 
@@ -106,6 +107,17 @@ pages.each do |page|
   errors << "#{page.file}: sidebar title #{title.inspect} differs from the heading #{heading.inspect}" unless heading == title
 end
 
+# --- descriptions -----------------------------------------------------------------------
+
+pages.each do |page|
+  description = page.front["description"]
+  if !description.is_a?(String) || description.strip.empty?
+    errors << "#{page.file}: no description in the front matter"
+  elsif description.include?("\n")
+    errors << "#{page.file}: the description runs over several lines"
+  end
+end
+
 # --- navigation -------------------------------------------------------------------------
 
 by_title = pages.group_by { |page| page.front["title"].to_s }
@@ -129,7 +141,7 @@ pages.reject { |page| page.front["nav_exclude"] }.group_by { |page| page.front["
 end
 
 if errors.empty?
-  puts "#{pages.size} pages: links, titles and navigation are consistent"
+  puts "#{pages.size} pages: links, titles, descriptions and navigation are consistent"
 else
   warn errors.join("\n")
   warn "\n#{errors.size} problem#{"s" unless errors.size == 1}"

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Registration and check-in
+description: "An overview for organizers of registration and check-in: opening registration, approving entries, start numbers and checking clubs in."
 permalink: /manager-guide/registration-checkin/
 parent: Registration and sales
 nav_order: 2

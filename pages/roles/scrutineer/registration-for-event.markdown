@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Getting event access
+description: A scrutineer cannot register for an event. Someone with Manager on the event adds you and ticks the apps you need.
 permalink: /scrutineer/registration-for-event/
 parent: Scrutineer
 nav_order: 1

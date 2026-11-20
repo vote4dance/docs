@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Entries and participants
+description: Approve, reject and correct entries while registration is open, follow the organizations that sign and pay, and import entries as participants.
 permalink: /manager-guide/entries-and-participants/
 parent: Registration and sales
 nav_order: 4

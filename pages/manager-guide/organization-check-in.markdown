@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Organization check-in
+description: Open the check-in window, see which clubs have said who dances and signed, and apply their answers so withdrawn participants are cancelled.
 permalink: /manager-guide/organization-check-in/
 parent: Registration and sales
 nav_order: 6

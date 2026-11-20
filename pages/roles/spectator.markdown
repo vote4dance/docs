@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Spectator
+description: "For everyone who comes to watch a competition: tickets, the schedule, hearts and calls, and quizzes."
 permalink: /spectator/
 nav_order: 6
 has_children: true

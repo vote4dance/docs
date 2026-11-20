@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Family
+description: "Register and manage your children from your own account: add a child under Family, open their account, pay for them and show their IDs."
 permalink: /dancer/family/
 parent: Dancer
 nav_order: 3

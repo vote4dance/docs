@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Your Vote4Dance ID
+description: Your Vote4Dance ID is the QR code the entrance scans when you arrive at a competition. Where to find it and what the desk sees.
 permalink: /dancer/vote4dance-id/
 parent: Dancer
 nav_order: 2

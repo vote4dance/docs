@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Judge schedules
+description: Print a schedule for each judge, and see the schedule a judge gets in the Judging app and in the invitation email.
 permalink: /manager-guide/judge-schedules/
 parent: Classes, rounds and judges
 nav_order: 5

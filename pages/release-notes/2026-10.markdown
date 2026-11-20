@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Release notes, October 2026"
+description: Changes to Vote4Dance in October 2026.
 permalink: /release-notes/2026-10/
 parent: Release notes
 nav_order: 202610

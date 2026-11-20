@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Which app is which
+description: Vote4Dance is one account and several apps. Which app dancers, the audience, competition staff and federations each use.
 permalink: /building-blocks/
 parent: Start here
 nav_order: 3

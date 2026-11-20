@@ -1,6 +1,7 @@
 ---
 layout: page
 title: WDSF competitions
+description: "Run WDSF competitions in Vote4Dance: import competitions and couples from WDSF, keep check-in and officials in step, and send the results to WDSF."
 permalink: /manager-guide/wdsf/
 parent: Classes, rounds and judges
 nav_order: 8
