@@ -40,7 +40,9 @@ Cables, resolutions, screen displays and the questions to ask the venue's techni
 
 ## Network and internet
 
-Vote4Dance is cloud-based and requires reliable internet during operations.
+Vote4Dance runs in the cloud: every device at the event works against the same server over the
+internet. A dropout does not lose any marks, but the event waits until the connection is back,
+so plan for a stable connection and a backup.
 
 Checklist:
 
@@ -50,6 +52,18 @@ Checklist:
 - Device capacity sized for all event devices
 - Backup internet path (secondary router or 4G/5G)
 - A designated technical contact on event day
+
+### If the connection drops
+
+A judging tablet keeps the marks a judge makes while it is offline and sends them by itself
+when the connection is back. The judge can go on marking, but cannot submit until the marks are
+sent. What the judge sees, and what to do:
+[A judge's tablet loses the network](/manager-guide/live-operations/#a-judges-tablet-loses-the-network).
+
+Everything else waits for the connection. You cannot start or close a round or publish a result
+while Manager is offline, and the screens, Speaker and Lineup do not update. So set up the
+backup internet path before the event and try it at the
+[venue rehearsal](/manager-guide/test-run/), so the devices can move over to it within a minute.
 
 ## Updates during an event
 
