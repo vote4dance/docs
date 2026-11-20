@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Competitions
+description: "The federation's Competitions screen: every competition run under your federation, its state, and what a finished one has still not given you."
 permalink: /federation/competitions/
 parent: Federation
 nav_order: 6

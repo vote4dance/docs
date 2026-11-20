@@ -52,6 +52,7 @@ color_scheme: v4d
 plugins:
   - jekyll-remote-theme
   - jekyll-redirect-from # `redirect_from:` on a page keeps the addresses of pages merged into it
+  - jekyll-sitemap # /sitemap.xml: every page, without the addresses that only redirect
 
 # Exclude from processing.
 # The Pages build runs Jekyll 3.9, where this list replaces the default one

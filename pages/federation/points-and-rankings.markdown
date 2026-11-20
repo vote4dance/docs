@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Points and rankings
+description: The four federation features that use points or produce a ranking, and what each one does to a competitor.
 permalink: /federation/points-and-rankings/
 parent: Federation
 nav_order: 5

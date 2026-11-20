@@ -1,6 +1,7 @@
 ---
 layout: page
 title: My registration
+description: "The My registration page of an event: what you still have to do, your classes and results, paying, changing class, withdrawing and your music."
 permalink: /dancer/my-registration/
 parent: Dancer
 nav_order: 5

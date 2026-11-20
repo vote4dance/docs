@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Start numbers
+description: "Give participants their start numbers: number one class or the whole competition, choose how the series runs, and print the numbers."
 permalink: /manager-guide/start-numbers/
 parent: Registration and sales
 nav_order: 5

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Reading the marks
+description: How a scrutineer reads the judges' marks of a round and sees how a place follows from them.
 permalink: /manager-guide/reading-the-marks/
 parent: Rehearsal and event day
 nav_order: 4

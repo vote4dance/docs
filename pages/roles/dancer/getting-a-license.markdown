@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Getting a license
+description: Find out which federation license you need, who applies for it, and how to follow it until it is active.
 permalink: /dancer/getting-a-license/
 parent: Dancer
 nav_order: 8

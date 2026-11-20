@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Creating your club
+description: Create your school or club as an organization in Vote4Dance, which can have several administrators.
 permalink: /school-club/account-creation/
 parent: School/Club
 nav_order: 1

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Results, points and rankings
+description: "How an organizer makes sure results reach the federation correctly: map the classes, publish every result, check the data and close."
 permalink: /organizer/creating-and-getting-a-ranking/
 parent: After the event
 nav_order: 2

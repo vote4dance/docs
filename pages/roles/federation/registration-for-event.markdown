@@ -1,6 +1,7 @@
 ---
 layout: page
 title: What your rules do at event registration
+description: What a federation's rules check automatically when a dancer, club or organizer registers for an event run under the federation.
 permalink: /federation/registration-for-event/
 parent: Federation Rules
 nav_order: 13

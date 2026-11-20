@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Federation Admin
+description: Create a federation ranking, add its classes, set the scoring and the time window, recalculate it and make it public.
 permalink: /federation-rankings/federation-admin/
 parent: Federation Rankings
 nav_order: 1

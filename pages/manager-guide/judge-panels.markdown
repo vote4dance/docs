@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Judge panels
+description: Seat judges on panels, record what each judge can and can't judge, let Vote4Dance suggest seats, and give every class and round its panel.
 permalink: /manager-guide/judge-panels/
 parent: Classes, rounds and judges
 nav_order: 4

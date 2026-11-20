@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Class and age moves
+description: How a couple or team moves up a class level or to the next age group, and the club's part in it.
 permalink: /school-club/class-transfer/
 parent: School/Club
 nav_order: 8

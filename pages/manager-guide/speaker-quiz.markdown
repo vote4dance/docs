@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Running a quiz from the speaker app
+description: How the speaker runs the audience quiz from the Speaker app and puts the lobby, the questions and the standings on the screens in the hall.
 permalink: /manager-guide/speaker-quiz/
 parent: Rehearsal and event day
 nav_order: 5

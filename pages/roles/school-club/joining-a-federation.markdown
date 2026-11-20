@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Joining a federation
+description: How your club applies to its federation and is approved, and why no license naming the club can be issued before that.
 permalink: /school-club/joining-a-federation/
 parent: School/Club
 nav_order: 4

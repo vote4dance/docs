@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Closing a class at points
+description: Set the season points at which a competitor can no longer enter a class level and moves up, and see what dancers and event staff are shown.
 permalink: /federation/class-point-limits/
 parent: Points and rankings
 nav_order: 2

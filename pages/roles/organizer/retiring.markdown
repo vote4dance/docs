@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Handing over your events
+description: "Hand your events over to someone else when you stop organizing. Nothing is deleted: events, results and history stay."
 permalink: /organizer/retiring/
 parent: Federations and seasons
 nav_order: 4

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: When members, teams or the club stop
+description: What to do when a member leaves, a team stops, an administrator leaves or the club itself stops. Results and history are kept.
 permalink: /school-club/retiring/
 parent: School/Club
 nav_order: 10

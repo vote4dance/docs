@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Shop — tickets, meals and merch
+description: Sell spectator tickets, weekend passes, table seats, meals and merch for your event, paid by card to your own Stripe account.
 permalink: /manager-guide/shop/
 parent: Registration and sales
 nav_order: 10

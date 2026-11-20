@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Federation admin
+description: How federation staff approve license applications, issue, correct, suspend or cancel a license, and manage license items.
 permalink: /federation-licenses/federation-admin/
 parent: Federation Licenses
 nav_order: 2

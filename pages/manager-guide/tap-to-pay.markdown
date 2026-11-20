@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Tap to Pay on iPhone
+description: Take contactless card payments at the desk with Tap to Pay on iPhone in the Vote4Dance app, without a card reader.
 permalink: /manager-guide/tap-to-pay/
 parent: Registration and sales
 nav_order: 12

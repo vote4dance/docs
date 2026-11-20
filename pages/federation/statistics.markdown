@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Federation statistics
+description: "The federation's Statistics screen: licenses, members, participation, competitions and clubs for the season, with filters and exports."
 permalink: /federation/statistics/
 parent: Federation
 nav_order: 7

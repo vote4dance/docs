@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Promotion points
+description: "How promotion points move competitors up a class ladder: where the points come from, what happens at competition close, and how to set it up."
 permalink: /federation/progression/
 parent: Points and rankings
 nav_order: 1

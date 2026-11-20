@@ -78,6 +78,10 @@ Rules the checks enforce:
 - **The sidebar `title` is the page's first heading**, word for word.
 - **A `parent` is the title of exactly one page.** Give a new group page a title no other page has.
 - **Siblings have different `nav_order`s.**
+- **Every page has a `description`**: one sentence or two, about 160 characters at most, saying
+  what the page answers and for whom. It is the text under the page's title in a search result,
+  the preview when the link is shared, and the page's line in `llms.txt`. When a page changes
+  what it covers, change its description too.
 - **Do not change a `permalink`** of a page the app links to: any page with `help:` keys, and
   the addresses listed in `CLAUDE.md`.
 
@@ -107,8 +111,8 @@ ruby scripts/check-links.rb
 ```
 
 It fails on a link, image or `#section` that is not in the built site, a link to a redirected
-address, a title that differs from the heading, a `nav_order` used twice, and a `parent` that
-matches no page or several. `.github/workflows/check.yml` runs it, and the help map check
+address, a title that differs from the heading, a page without a description, a `nav_order`
+used twice, and a `parent` that matches no page or several. `.github/workflows/check.yml` runs it, and the help map check
 below, on every pull request.
 
 ## In-app help map
@@ -149,4 +153,19 @@ ruby scripts/check-help.rb
 It fails on a malformed or duplicate key, and on a key whose page or section is not in
 the built site.
 
+## Search engines and AI agents
+
+Three files tell a crawler or an AI agent what is on the site. All three are built on every
+build, so there is nothing to keep up to date by hand:
+
+- **`/sitemap.xml`** lists every page (the `jekyll-sitemap` plugin). Addresses that only
+  redirect are left out.
+- **`/robots.txt`** lets every crawler read everything and points at the sitemap. The docs are
+  public help text; if that ever changes for some crawler, this file is where to say so.
+- **`/llms.txt`** is the site as one Markdown list for AI agents ([llmstxt.org]): every page
+  with its address and its `description`, in sidebar order, one section per top-level page.
+  `llms.txt` and `_includes/llms_children.txt` are Liquid templates that read the front
+  matter, like `help.json`.
+
 [just-the-docs]: https://just-the-docs.com
+[llmstxt.org]: https://llmstxt.org

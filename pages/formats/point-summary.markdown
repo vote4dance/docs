@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Point summary
+description: Set up a class where a qualification round splits the couples into levels, and the final ranking adds up points for the level and the rounds reached.
 permalink: /point-summary/
 parent: Classes, rounds and judges
 nav_order: 11

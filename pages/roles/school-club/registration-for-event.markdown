@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Registering your dancers for an event
+description: How club administrators and coaches enter the club's competitors in a competition, then follow, pay and change every entry from one list.
 permalink: /school-club/registration-for-event/
 parent: School/Club
 nav_order: 7

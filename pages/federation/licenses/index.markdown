@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Federation Licenses
+description: "How federation licenses work in Vote4Dance: which licenses exist, who applies and who pays, and the path from application to active license."
 permalink: /federation-licenses/
 parent: Federation
 nav_order: 4

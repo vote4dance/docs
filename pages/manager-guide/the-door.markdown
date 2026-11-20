@@ -1,6 +1,7 @@
 ---
 layout: page
 title: At the door
+description: "How the Check-in app handles the entrance: it scans a dancer's Vote4Dance ID or a spectator's ticket and records who has arrived."
 permalink: /manager-guide/the-door/
 parent: Registration and sales
 nav_order: 11

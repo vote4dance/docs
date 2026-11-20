@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Jack'n'Jill"
+description: "Set up and run a Jack'n'Jill competition: dancers enter alone as leader or follower, and are drawn into couples for the final."
 permalink: /jack-n-jill/
 parent: Classes, rounds and judges
 nav_order: 10

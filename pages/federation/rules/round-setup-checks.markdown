@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Checking the round setup
+description: Use the Findings and By class tabs to see what in the round setup rules is probably not meant, and why a class gets the rounds it does.
 permalink: /federation-rules/round-setup-checks/
 parent: Federation Rules
 nav_order: 3

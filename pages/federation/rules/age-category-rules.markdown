@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Age category rules
+description: Set up how a federation decides which age category a solo, duo or group competes in, with worked examples of age composition rules.
 permalink: /federation-rules/age-category-rules/
 parent: Federation Rules
 nav_order: 8

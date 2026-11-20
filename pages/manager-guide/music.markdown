@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Music from the dancers
+description: Follow up on the music tracks dancers upload for their entries, upload or change a track yourself, and hand the music to the DJ.
 permalink: /manager-guide/music/
 parent: Registration and sales
 nav_order: 7

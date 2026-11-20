@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Setting up licenses
+description: "Define how licenses work in your federation: whether you need them, which license items you offer, who applies, who pays and which classes accept them."
 permalink: /federation/getting-a-license/
 parent: Federation Licenses
 nav_order: 1

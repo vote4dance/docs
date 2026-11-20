@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Planning your first competition
+description: "What running a competition with Vote4Dance requires of a first-time organizer: who does what, what to decide and enter, and a timeline."
 permalink: /manager-guide/first-competition/
 parent: Plan your competition
 nav_order: 1

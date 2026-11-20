@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Your organizer account
+description: "How an organizer gets started: create a personal Vote4Dance account, get Manager access to an event, and add a second Manager."
 permalink: /organizer/account-creation/
 parent: Plan your competition
 nav_order: 4

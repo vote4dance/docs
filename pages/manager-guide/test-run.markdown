@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Test run and venue rehearsal
+description: "Simulate a complete competition before the real one: a practice event, a desk rehearsal at home and a rehearsal at the venue."
 permalink: /manager-guide/test-run/
 parent: Rehearsal and event day
 nav_order: 1

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Customizing diplomas
+description: Print a personalized diploma for every competitor from Manager, on your own diploma paper, with print options and custom CSS.
 permalink: /manager-guide/diploma-customization/
 parent: After the event
 nav_order: 3

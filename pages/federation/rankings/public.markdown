@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Public Rankings
+description: What visitors see of a federation's rankings on its public page, and what to check when a ranking is missing or looks wrong.
 permalink: /federation-rankings/public/
 parent: Federation Rankings
 nav_order: 3

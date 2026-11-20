@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Round setup conditions, actions and settings
+description: "Reference for round setup rules: what each condition matches, what each action does, what each setting controls and how rules combine."
 permalink: /federation-rules/round-setup-settings/
 parent: Federation Rules
 nav_order: 6

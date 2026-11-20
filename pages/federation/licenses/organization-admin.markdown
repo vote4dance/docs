@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Organization admin
+description: How a club's manager or administrator applies for licenses for its members, pays the ones the club pays for, and removes a wrong application.
 permalink: /federation-licenses/organization-admin/
 parent: School/Club
 nav_order: 6

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Glossary
+description: The words the Vote4Dance docs and apps use, grouped by where you meet them.
 permalink: /understanding-vote4dance/key-terminology/
 parent: Start here
 nav_order: 4

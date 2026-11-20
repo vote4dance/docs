@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Age and class transfers at your event
+description: Age and class moves are decided by the federation. What registration checks for you, and what to do when a dancer says they are in the wrong class.
 permalink: /organizer/age-transfer/
 parent: Federations and seasons
 nav_order: 2

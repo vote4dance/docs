@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Vote4Dance Docs
+description: "Guides to Vote4Dance for everyone at a dance competition: organizers, dancers and parents, clubs, spectators, federation staff and scrutineers."
 nav_order: 1
 ---
 

@@ -1,0 +1,16 @@
+{%- comment -%}
+The pages under one page, in sidebar order, as llms.txt lines. Calls itself for each page's
+own children. `children` is overwritten by the inner call, which is safe: the loop already
+holds its list.
+
+  parent    the title of the page whose children are listed
+  reversed  that page's child_nav_order
+{%- endcomment -%}
+{%- assign children = site.pages | where: "parent", include.parent | sort: "nav_order" -%}
+{%- if include.reversed == "reversed" or include.reversed == "desc" -%}
+{%- assign children = children | reverse -%}
+{%- endif -%}
+{%- for child in children %}
+- [{{ child.title }}]({{ site.url }}{{ child.url }}): {{ child.description }}
+{%- include llms_children.txt parent=child.title reversed=child.child_nav_order -%}
+{%- endfor -%}

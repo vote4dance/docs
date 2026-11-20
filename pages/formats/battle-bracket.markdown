@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Battle bracket
+description: "How to run battle rounds in Manager: 1-vs-1 elimination battles and trios, seeded from the result of a qualifying round."
 permalink: /battle-bracket/
 parent: Classes, rounds and judges
 nav_order: 9

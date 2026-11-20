@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Club admin screens
+description: "The club's admin screens one by one: what each one lists, what you can do there and which club role you need."
 permalink: /school-club/club-admin/
 parent: School/Club
 nav_order: 2

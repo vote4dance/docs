@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Floors
+description: Add the floors of an event, split a floor into sections, and see what a floor changes on the schedule, the screens and in the Speaker and Supervisor apps.
 permalink: /manager-guide/floors/
 parent: Set up the event
 nav_order: 4

@@ -1,0 +1,24 @@
+---
+permalink: /llms.txt
+layout: null
+---
+{%- comment -%}
+The docs for AI agents (https://llmstxt.org): every page with its address and the
+`description` from its front matter, in sidebar order, one section per top-level page.
+Built from front matter on every build, like help.json. See README.md.
+{%- endcomment -%}
+# {{ site.title }} Docs
+
+> Official documentation for Vote4Dance, a platform for running dance competitions: registration, check-in, judging, results and rankings. Written for organizers, dancers and parents, clubs, spectators, federation staff and scrutineers.
+
+- Every link below is a page on {{ site.url }}, in English. There is one section for each kind of reader.
+- The organizer's pages describe the classic Manager. Where the new Manager (shown in the app as Scrutineer, with a Beta tag) differs, the page says so.
+- Questions about one competition, such as entries, prices and refunds, are answered by its organizer and not by Vote4Dance: see [Getting help]({{ site.url }}/getting-help/).
+{% assign tops = site.pages | where_exp: "p", "p.title" | where_exp: "p", "p.parent == nil" | sort: "nav_order" -%}
+{%- for top in tops -%}
+{%- if top.url == "/" or top.nav_exclude %}{% continue %}{% endif %}
+## {{ top.title }}
+
+- [{{ top.title }}]({{ site.url }}{{ top.url }}): {{ top.description }}
+{%- include llms_children.txt parent=top.title reversed=top.child_nav_order %}
+{% endfor -%}

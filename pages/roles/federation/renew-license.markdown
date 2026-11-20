@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Starting a new license season
+description: "Licenses are not renewed: dancers and clubs apply again each season. What to check before the season, what to tell clubs, and how to work the queue."
 permalink: /federation/renew-license/
 parent: Federation Licenses
 nav_order: 3

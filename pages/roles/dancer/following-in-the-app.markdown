@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Following results in the app
+description: "Use the Vote4Dance app at the venue: find results, follow dancers and clubs with Premium, and vote for a competitor."
 permalink: /dancer/following-in-the-app/
 parent: Dancer
 nav_order: 6

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Members
+description: "The federation's Members screen: which competitors are in which class, the dancers and clubs behind them, class history and the rule-check log."
 permalink: /federation/members/
 parent: Clubs and people
 nav_order: 1

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: When dancers, clubs or staff leave
+description: What to do when a dancer or couple stops competing, a club closes or a staff member leaves. Results and history are kept.
 permalink: /federation/retiring/
 parent: Clubs and people
 nav_order: 4

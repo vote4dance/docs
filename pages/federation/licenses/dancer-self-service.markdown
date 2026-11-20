@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Dancer self-service
+description: Apply for your own federation license under My account, pay for it when you are the payer, and follow it until it is active.
 permalink: /federation-licenses/dancer-self-service/
 parent: Dancer
 nav_order: 9

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Sponsor videos and spots
+description: How a sponsor adds a short video, how the organizer approves it, and how the venue screens and the speaker play it.
 permalink: /manager-guide/sponsor-videos/
 parent: Set up the event
 nav_order: 7

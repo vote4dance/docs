@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Clubs and people
+description: "The clubs in your federation and the people in them: members, approving clubs, moving dancers between clubs, and what happens when someone leaves."
 permalink: /federation/clubs-and-people/
 parent: Federation
 nav_order: 2

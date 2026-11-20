@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Approving clubs
+description: How a club applies to your federation, what to check before you approve it, and how you decide whether it may issue licenses.
 permalink: /federation/joining-a-federation/
 parent: Clubs and people
 nav_order: 2

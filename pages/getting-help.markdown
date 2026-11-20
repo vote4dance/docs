@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Getting help
+description: Who to ask about a competition (the organizer, the federation or Vote4Dance) and how to reach each of them.
 permalink: /getting-help/
 parent: Start here
 nav_order: 5

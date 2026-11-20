@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Judges on the day
+description: What to do during the competition when a judge is ill, delayed or can't judge a class, and how to separate tied positions.
 permalink: /manager-guide/judges-on-the-day/
 parent: Classes, rounds and judges
 nav_order: 6

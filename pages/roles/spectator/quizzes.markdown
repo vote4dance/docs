@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Quizzes
+description: "Play the organizer's quizzes in the Vote4Dance app: the live quiz in the hall and the all-day quizzes on your own phone."
 permalink: /spectator/quizzes/
 parent: Spectator
 nav_order: 4

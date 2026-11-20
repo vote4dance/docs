@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Release notes
+description: What has changed in Vote4Dance, newest first, with a page for each earlier month.
 permalink: /release-notes/
 nav_order: 9
 has_children: true

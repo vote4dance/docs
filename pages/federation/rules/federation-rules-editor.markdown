@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Setting federation rules
+description: "How the federation rules editors work: find a rule, see whether it is inherited or set here, and make one discipline different."
 permalink: /federation-rules/editor/
 parent: Federation Rules
 nav_order: 7

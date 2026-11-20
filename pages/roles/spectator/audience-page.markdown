@@ -1,6 +1,7 @@
 ---
 layout: page
 title: The Audience page
+description: The Audience tab on an event's page shows what is going on for the audience and the results so far. It is open to everyone.
 permalink: /spectator/audience-page/
 parent: Spectator
 nav_order: 5

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Joining your club
+description: How to join your school or club in Vote4Dance, and why the right club matters for your license and your teams.
 permalink: /dancer/applying-for-a-school-club/
 parent: Dancer
 nav_order: 7

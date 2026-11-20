@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Setting the default ladder
+description: Give a discipline one default ladder, with round sizes and round names, for the classes that no other rule gives one.
 permalink: /federation-rules/default-ladder/
 parent: Federation Rules
 nav_order: 5

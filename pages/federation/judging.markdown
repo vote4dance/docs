@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Judging
+description: "The federation's catalog of judging setups: the judging types, components and settings that competition rounds under your federation can use."
 permalink: /federation/judging/
 parent: Structure and rules
 nav_order: 2

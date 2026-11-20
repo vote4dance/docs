@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Event setup
+description: Create an event in Vote4Dance with the right name, dates, place, timezone and picture, and publish it when you are ready.
 permalink: /manager-guide/event-setup/
 parent: Set up the event
 nav_order: 1

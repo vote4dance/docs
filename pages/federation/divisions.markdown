@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Divisions and disciplines
+description: How a federation's classes are built from divisions, disciplines, categories, age groups and class levels, and where to set each one up.
 permalink: /federation/divisions/
 parent: Structure and rules
 nav_order: 1

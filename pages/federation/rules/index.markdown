@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Federation Rules
+description: "The federation rules Vote4Dance enforces automatically: which teams may enter a class, how a class's rounds are generated and how battles are built."
 permalink: /federation-rules/
 parent: Structure and rules
 nav_order: 3

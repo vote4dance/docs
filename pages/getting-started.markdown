@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Start here
+description: "Vote4Dance runs dance competitions: registration, check-in, judging, results and rankings. Find the section for what you do at a competition."
 permalink: /getting-started/
 nav_order: 2
 has_children: true

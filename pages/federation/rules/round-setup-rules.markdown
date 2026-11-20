@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Adding and editing round setup rules
+description: Read, reorder and download a discipline's round setup rules, and add or change a rule in the rule editor.
 permalink: /federation-rules/round-setup-rules/
 parent: Federation Rules
 nav_order: 2

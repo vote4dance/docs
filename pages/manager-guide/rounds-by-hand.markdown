@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Adding rounds by hand
+description: "Add a round the Round guide did not create: one more round, a round before or between rounds, a second chance or a B-final."
 permalink: /manager-guide/rounds-by-hand/
 parent: Classes, rounds and judges
 nav_order: 2

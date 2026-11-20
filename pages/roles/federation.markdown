@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Federation
+description: For federation staff who set a federation's structure and rules, approve clubs, issue licenses and publish rankings in Vote4Dance.
 permalink: /federation/
 nav_order: 7
 has_children: true

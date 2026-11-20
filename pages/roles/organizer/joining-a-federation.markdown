@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Running an event under a federation
+description: Choose the federation for your event, and see which of its classes, license checks and rules then apply.
 permalink: /organizer/joining-a-federation/
 parent: Federations and seasons
 nav_order: 1

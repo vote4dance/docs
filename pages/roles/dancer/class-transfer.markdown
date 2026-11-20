@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Moving up a class
+description: How promotion points move a couple up a class level, where the federation uses them, and what to do if something looks wrong.
 permalink: /dancer/class-transfer/
 parent: Dancer
 nav_order: 12

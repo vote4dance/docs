@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Own music
+description: Decide which classes ask dancers to bring their own music, how long a track may be and how long Vote4Dance keeps the files.
 permalink: /federation-rules/own-music/
 parent: Federation Rules
 nav_order: 12

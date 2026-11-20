@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Entry rules and the season ranking
+description: Decide who may enter an event by season points and competitions danced, and publish a season ranking per age group.
 permalink: /federation/season-ranking/
 parent: Points and rankings
 nav_order: 3

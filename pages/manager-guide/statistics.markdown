@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Statistics
+description: "Numbers about your event: its size, the dancers each club brings on each day, schedule load, medals, dressing rooms and dancer lists."
 permalink: /manager-guide/statistics/
 parent: Rehearsal and event day
 nav_order: 6

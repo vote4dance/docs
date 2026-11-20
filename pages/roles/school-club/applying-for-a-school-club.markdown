@@ -1,6 +1,7 @@
 ---
 layout: page
 title: How members join
+description: How dancers and staff find and join your club, and how you approve the people who apply.
 permalink: /school-club/applying-for-a-school-club/
 parent: School/Club
 nav_order: 3

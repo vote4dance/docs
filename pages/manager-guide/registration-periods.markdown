@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Registration periods
+description: "Create the registration periods of a competition: how dancers pay and what it costs, which classes they can enter and what the form asks for."
 permalink: /manager-guide/registration-periods/
 parent: Registration and sales
 nav_order: 3

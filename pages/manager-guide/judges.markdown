@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Judges
+description: "Set up the judging of a competition: who judges, which panel each judge sits on, and which panel judges each class and round."
 permalink: /manager-guide/judges/
 parent: Classes, rounds and judges
 nav_order: 3

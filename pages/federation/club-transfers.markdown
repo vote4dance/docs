@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Club transfers
+description: "Every way a dancer or competitor moves from one club to another: who can start the move, where federation staff approve it and what changes."
 permalink: /federation/club-transfers/
 parent: Clubs and people
 nav_order: 3
