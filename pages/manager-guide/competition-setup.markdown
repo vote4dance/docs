@@ -120,6 +120,26 @@ The Round guide replaces the rounds the class already has. So you can run it aga
 
 It works until participants have been put in one of the class's rounds. After that it answers "Cannot create rounds from guide if participants are already present". Then change the rounds one at a time: see [Adding rounds by hand](/manager-guide/rounds-by-hand/).
 
+### Heats not needed
+
+When fewer participants come than the rounds were created for, for example after withdrawals, a round can be left with more heats than it needs, and each heat with only a few dancers on the floor. Scrutineer (Beta) points this out for you, from the federation's max on the floor for the class.
+
+On **Classes**, the class gets an orange tag, such as **1 heat not needed**. Hold the pointer over it to see each round with the heats it needs, for example "Semifinal: 2 heats for 14 entries (now 3)". The same classes are listed on [**Problems**](/manager-guide/validator/#heats-not-needed) under **1 class has more heats than it needs**.
+
+![A class on Classes with the tag "1 heat not needed" and the rounds it lists](/assets/images/heats-not-needed/heats-tag.png)
+
+To fix it:
+
+1. Click the tag on the class, or **Set the rules' heats…** on **Problems** to fix every class at once.
+2. Check the rounds in the list.
+3. Click **Set the heats**. The participants are spread over the heats that are left, also in a round whose heats are already drawn.
+
+   ![The question "Set the heats as the federation rules give?" with Keep as they are and Set the heats](/assets/images/heats-not-needed/set-the-heats.png)
+
+If you want to keep the heats, for example because the floor is small, click **Keep as they are**. The warning is then not shown again on this computer until the number of participants changes.
+
+Only rounds that haven't started are checked, and only a round with more heats than it needs: a round with fewer heats is left as it is. A class whose number of participants means a whole round is no longer needed shows **1 round not needed** first; once that round is removed, its heats are checked.
+
 ### Round settings
 
 Click a round's name to open it. Its settings are in **Round information**, in four tabs:

@@ -8,6 +8,9 @@ child_nav_order: reversed
 ---
 
 # Release notes
+## 2026-11-20
+ ⭐ **New**
+* Scrutineer (Beta): **Classes** and **Problems** now warn when a class has more heats than it needs, for example after withdrawals. The class gets a tag such as **1 heat not needed**, worked out from the participants it has now and the federation's max on the floor, and **Set the heats** takes the extra heats away and spreads the participants over the heats that are left. **Keep as they are** leaves them (see [Heats not needed](/manager-guide/competition-setup/#heats-not-needed))
 ## 2026-11-19
  🛠️ **Improvements**
 * Federation: **Assign organization** on an organization's **Transfers** tab now works. Choosing a **Competitor** and an **Organization** and pressing **OK** assigns the competitor to the club and shows **Organization assigned**. Before, pressing **OK** always ended in an error and nothing was assigned (see [Assign organization](/federation/club-transfers/#assign-organization))

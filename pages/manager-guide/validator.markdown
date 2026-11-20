@@ -160,6 +160,14 @@ This happens when you [run floors in parallel](/manager-guide/floors/#several-fl
 
 Two floor sections of the same floor count as two floors. If one panel judges both sections of a floor at the same time, the check fails for those rounds.
 
+## Heats not needed
+
+In Scrutineer (Beta), **Problems** warns when a class has more heats than it needs: **1 class has more heats than it needs**, followed by the names of the classes. With the participants the classes have now and the federation's max on the floor, some rounds that haven't started need fewer heats, for example after withdrawals.
+
+![The Problems item "1 class has more heats than it needs" with Set the rules' heats…](/assets/images/heats-not-needed/problems-heats.png)
+
+Click **Set the rules' heats…** to see each round with the heats it needs, then **Set the heats** to change them, or **Keep as they are** to leave them. See [Heats not needed](/manager-guide/competition-setup/#heats-not-needed).
+
 ## Severity
 
 Problems has two levels. Most checks fail; a few only warn, see [Reading the page](#reading-the-page). Each check counts as one in the sidebar badge, however many rows it has, and warnings are counted there only when nothing is failing.
