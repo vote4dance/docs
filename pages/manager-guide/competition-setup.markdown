@@ -8,6 +8,7 @@ help:
   manager.event.competitions: ""
   manager.comp.classes: step-1-create-classes
   manager.comp.classes.round: step-2-build-rounds-from-classes
+  manager.comp.classes.heats-not-needed: heats-not-needed
   manager.comp.teams: step-3-add-participants
   manager.comp.teams.participants-verify: verify-entries
   manager.comp.data: data-transfer
