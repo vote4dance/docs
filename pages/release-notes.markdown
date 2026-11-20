@@ -9,6 +9,10 @@ child_nav_order: reversed
 
 # Release notes
 ## 2026-11-20
+ 🛠️ **Improvements**
+* Manager and Scrutineer (Beta): Clearing **Competition level** on an event and saving now removes the level. Changing an event's federation while it has a level also works now: the level is cleared, because levels belong to a federation. Before, the level could not be removed, and a federation change with a level set ended in an error (see [Event details page](/manager-guide/event-setup/#step-3-event-details-page))
+* Manager and Scrutineer (Beta): Clearing **Competitor Group** on an entry and saving now takes the entry out of its group. Before, saving with an empty **Competitor Group** ended in an error (see [Add participants](/manager-guide/competition-setup/#step-3-add-participants))
+## 2026-11-20
  ⭐ **New**
 * Scrutineer (Beta): **Classes** and **Problems** now warn when a class has more heats than it needs, for example after withdrawals. The class gets a tag such as **1 heat not needed**, worked out from the participants it has now and the federation's max on the floor, and **Set the heats** takes the extra heats away and spreads the participants over the heats that are left. **Keep as they are** leaves them (see [Heats not needed](/manager-guide/competition-setup/#heats-not-needed))
 ## 2026-11-19
