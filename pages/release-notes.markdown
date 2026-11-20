@@ -10,6 +10,10 @@ child_nav_order: reversed
 # Release notes
 ## 2026-11-20
  🛠️ **Improvements**
+* Public: Setting a password now works with a password manager such as 1Password. **Set password** under **My account** → **Settings** → **How you sign in**, and the page you reach from **Forgot your password?**, tell it which account the new password is for, so it can suggest a password and save it under the right login. **Set password** with an empty field now says **This is required**; before, nothing happened (see [Manage how you sign in](/signing-in/#manage-how-you-sign-in))
+* All web apps: Fields for someone else's details are now marked for 1Password to leave alone: a child's e-mail and password under **My child already has an account**, the name and e-mail of a child you add or a judge you invite, the dancers on an entry in Scrutineer (Beta), and the **WDSF API token**. Before, it could offer your own login in these fields, or offer to save what you typed there as your Vote4Dance login
+## 2026-11-20
+ 🛠️ **Improvements**
 * Manager and Scrutineer (Beta): **Synchronize heats with …** on two rounds with child rounds now changes nothing when it can't synchronize them all, for example when one of the child rounds has no participants or the two rounds have a different number of child rounds. Before, it synchronized the rounds and the first child rounds, then stopped with a message, so some heats had changed and others had not. In Manager, the message now shows; before, nothing was shown
 * Manager and Scrutineer (Beta): Changing a round's **Judging type** to one without **Submit rules** and saving now works. Before, the round kept the hidden **Submit rules** of the earlier judging type, and saving ended in an error. Switching back to the earlier judging type before saving brings back the round's own **Submit rules** (see [Round settings](/manager-guide/competition-setup/#round-settings))
 ## 2026-11-20
