@@ -10,6 +10,10 @@ child_nav_order: reversed
 # Release notes
 ## 2026-11-20
  🛠️ **Improvements**
+* Manager and Scrutineer (Beta): **Synchronize heats with …** on two rounds with child rounds now changes nothing when it can't synchronize them all, for example when one of the child rounds has no participants or the two rounds have a different number of child rounds. Before, it synchronized the rounds and the first child rounds, then stopped with a message, so some heats had changed and others had not. In Manager, the message now shows; before, nothing was shown
+* Manager and Scrutineer (Beta): Changing a round's **Judging type** to one without **Submit rules** and saving now works. Before, the round kept the hidden **Submit rules** of the earlier judging type, and saving ended in an error. Switching back to the earlier judging type before saving brings back the round's own **Submit rules** (see [Round settings](/manager-guide/competition-setup/#round-settings))
+## 2026-11-20
+ 🛠️ **Improvements**
 * Manager and Scrutineer (Beta): Clearing **Competition level** on an event and saving now removes the level. Changing an event's federation while it has a level also works now: the level is cleared, because levels belong to a federation. Before, the level could not be removed, and a federation change with a level set ended in an error (see [Event details page](/manager-guide/event-setup/#step-3-event-details-page))
 * Manager and Scrutineer (Beta): Clearing **Competitor Group** on an entry and saving now takes the entry out of its group. Before, saving with an empty **Competitor Group** ended in an error (see [Add participants](/manager-guide/competition-setup/#step-3-add-participants))
 ## 2026-11-20
