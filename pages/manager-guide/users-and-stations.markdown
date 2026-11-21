@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Users, apps and stations
-description: Give each person who works at a competition access to the apps they need, and set up shared devices as stations.
+description: Give each person who works at a competition access to the apps they need, and set up shared devices as stations, including tablets for the judges.
 permalink: /manager-guide/users-and-stations/
 parent: Set up the event
 nav_order: 3
@@ -9,6 +9,8 @@ help:
   manager.event.users: the-apps
   manager.event.stations: stations-shared-devices
   public.station.activate: stations-shared-devices
+  manager.comp.judges.tablets: judge-tablets
+  supervisor.judges.tablets: judge-tablets
 ---
 
 # Users, apps and stations
@@ -71,13 +73,15 @@ A judge is not a user in the Users list. Judges are created on `Manager → Comp
 
 **The PIN belongs to the judge, not to the event.** There is no event-wide judge code to hand out. The first time a judge opens the Judging app they set their own PIN on their own device ("Keep this PIN private"), and enter it again whenever they come back to the app. A judge has one PIN for the whole event: the same PIN works in every competition of the event they judge. If a judge forgets it, you reset it for them with **Reset PIN** on their row in `Manager → Competition → Judges`, and they set a new one. The reset clears the PIN in every competition of the event. **Reset PIN** is disabled until the judge has set a PIN.
 
+A judge does not need a device of their own. You can hand out tablets instead, and the judge sets or enters the same PIN there; see [Judge tablets](#judge-tablets).
+
 The invitation email also contains a **demo link** to the Judging app, so a judge can try the marking interface before the competition. The demo needs a signed-in Vote4Dance account; any signed-in account can open it, which is also how a manager sees what the judges see.
 
 ## Stations: shared devices
 
 A station is a **device**, not a person. Use it for tablets and screens that stay in one place all weekend and should not be tied to anyone's personal login: the TV in the hall, the check-in tablet, the lineup phone at the floor entrance, the cafe till.
 
-- A station runs **exactly one** app: Cafe, Lineup, Check-in, Screens or Speaker. Manager and Supervisor cannot be stations; a person who wears several hats signs in as a user.
+- A station runs **exactly one** app: Cafe, Lineup, Check-in, Screens or Speaker. Manager and Supervisor cannot be stations; a person who wears several hats signs in as a user. A tablet for a judge is a station too, set up in its own way; see [Judge tablets](#judge-tablets).
 - Create the station under `Manager → Event → Stations` with a name and the app. The manager shows a **QR code** and a join link. Scan it with the device (or open the link, or type the six-character code) and the device becomes that station. No account, no password.
 - Several devices can join the same station.
 - A Screens station is display-only.
@@ -97,6 +101,51 @@ The device signs out of your personal account and opens the station's app, strai
 The device stays a station through restarts and new tabs. It stops being one when someone chooses **Leave station** in the app's menu, or when you revoke the station. On a revoked station the device goes back to the join screen within about 20 seconds.
 
 Rule of thumb: people get users, devices get stations.
+
+## Judge tablets
+
+A judge tablet is a tablet you hand to a judge, for a judge who does not mark on a device of their own. It is a station that runs the Judging app. Nobody is signed in on it: the judge picks their name on the tablet and proves it with their PIN.
+
+You need the **Manager** app on the event to set up or remove a judge tablet, and the event must not be **Closed** or **Archived**. There are two ways to set one up.
+
+### On the tablet itself
+
+Nothing to scan and no code to type, so this also works on a tablet without a camera.
+
+1. On the tablet, sign in with your own account.
+2. Open the event page and tap the **Judges** tile. The Judging app opens on **Set this tablet up for a judge**. If you are also a judge at this event, the tile opens your own rounds instead: choose **Set up tablet** in the app's menu.
+3. Press **Set up this tablet**.
+
+You are signed out on the tablet, and it opens on **Choose your name**, ready for a judge. Do this once on each tablet.
+
+If judge tablets exist that no device is using, the screen lists them under **Judge tablets free to pick up**, each marked "Never used" or "Last used by" and the judge's name. Press **Use on this tablet** to take one over, or **Set up a new tablet instead** to make another.
+
+### With a QR code
+
+1. Open `Manager → Competition → Judges` and the **Tablets** tab.
+2. Press **Add tablets**, enter how many, and press **Add tablets** again. They are named "Judge tablet 1", "Judge tablet 2" and so on.
+3. **Judge tablet codes** opens with a QR code and a six-character code for each tablet. **View tablets** opens it again, and **Print** gives a page to print. In Scrutineer (Beta) the codes are in the **Code** column of the list, and **Print the codes ↗** opens the page to print.
+4. Scan a tablet's QR code with the camera of the tablet that is to be that judge tablet.
+
+Give each tablet its own code. Two devices on the same code act as the same judge.
+
+### What the judge does
+
+1. On **Choose your name**, the judge taps their name. The list has every judge of the event who has an account, from all its competitions.
+2. A judge who has no PIN yet gets **Choose a PIN** ("This will become the PIN for this judge."). A judge who has one gets **Enter PIN**. The PIN has four digits and is the judge's one PIN for the event, the same as on a device of their own.
+3. The tablet says "You're now judging as" and the judge's name, and from there it is the Judging app as described under [What the judge sees](/manager-guide/judges/#what-the-judge-sees).
+
+Another judge takes the tablet over with **Switch judge** in the app's menu, their name and their PIN.
+
+Five wrong PINs within five minutes lock the tablet: "Too many attempts — this tablet has been locked. Ask a manager for a new station code." The tablet is then removed, as if you had removed it yourself. Set it up again.
+
+### Keeping track of the tablets
+
+The **Tablets** tab lists each judge tablet as **Online** or **Offline**.
+
+- **Remove** takes a tablet out of use: "Its code stops working for good. Anything already saved from it is kept." A judge who is using it is disconnected at once, and the tablet shows "This tablet has been removed". The marks they had saved are safe.
+- A judge tablet stops working by itself at the end of the day after the event's last day. A competition without dates has no such limit.
+- Judge tablets are also listed under `Manager → Event → Stations`.
 
 ## Related pages
 

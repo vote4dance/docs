@@ -37,7 +37,7 @@ The page has four tabs:
 | **Judges** | Add and invite judges, give them letters, reset PINs, see each judge's needs, and, in Scrutineer (Beta), print each judge's schedule. |
 | **Judging panels** | Seat judges on panels in one grid, let Vote4Dance suggest seats, and handle a judge who can't come. See [Panels](/manager-guide/judge-panels/#panels). |
 | **Classes** | Choose the panel for each class, and give single rounds a panel of their own. See [Classes](/manager-guide/judge-panels/#classes). |
-| **Tablets** | Shared judging tablets, when they are switched on for your event. |
+| **Tablets** | Add tablets to hand out to the judges, and see which are in use. See [Judge tablets](/manager-guide/users-and-stations/#judge-tablets). |
 
 Above the tabs, the page lists any [problems with the judging panels](/manager-guide/judge-panels/#problems-with-the-panels).
 
@@ -275,7 +275,7 @@ A panel with scores keeps its judges so that marks are not given by a panel that
 3. They see the rounds that are open for judging and that their panel judges. With nothing to judge, the screen says "Great job! Waiting for a round..." and shows their next round and their schedule; see [In the Judging app](/manager-guide/judge-schedules/#in-the-judging-app).
 4. The toolbar has **Theme Light/Dark**, **Lock** (asks for the PIN again) and **Hide screen** (blanks the screen between heats).
 
-The judge's app also has the schedule, the café and the results.
+The judge's app also has the schedule and the café. At DSF competitions its menu has **Results** too: a class's results show there once every round of the class is confirmed, so judges don't see results from a class they are still judging. A [point summary](/point-summary/) that has not been run yet doesn't hold the results back.
 
 ## The judge's own notes
 

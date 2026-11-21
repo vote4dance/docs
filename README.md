@@ -97,11 +97,18 @@ redirect_from:
 Then change the links that pointed at the old address. A link to an address that only
 redirects fails the check.
 
-**Release notes.** New notes go at the top of `pages/release-notes.markdown`. When a month is
-over, cut its sections from the bottom of that file into `pages/release-notes/YYYY-MM.markdown`
-(copy the front matter of the newest file there and change the month), and add it to the list
-under **Earlier**. Cutting from the bottom keeps branches that add notes at the top free of
-conflicts.
+**Release notes.** New notes go at the top of `pages/release-notes.markdown`, one section per date.
+When the top section already has today's date, add your line to it, under **⭐ New** or
+**🛠️ Improvements**, and add that list if the section doesn't have it yet: **New** before
+**Improvements**, with a blank line between the last **New** line and **🛠️ Improvements**. Start
+a new `## YYYY-MM-DD` section only for a new date, with a blank line before the heading. Two
+branches that add to the same day can conflict there; keep both lines. Escape a `|` in a note as
+`\|`, or it can turn the line into a table.
+
+When a month is over, cut its sections from the bottom of that file into
+`pages/release-notes/YYYY-MM.markdown` (copy the front matter of the newest file there and change
+the month), and add it to the list under **Earlier**. Cutting from the bottom keeps branches that
+add notes at the top free of conflicts.
 
 Check all of this after building:
 

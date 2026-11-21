@@ -110,8 +110,10 @@ Do these steps for every round. The buttons are in the **Round status** card.
    results!!"
 6. **Set who goes on.** Not in a final. Under **Qualified participants**:
    - Set **Number to advance**. The slider only stops at numbers the result allows: it does not
-     cut between participants that share a place. Under it you see the **Position** and the
-     **Result average** at the line.
+     cut between participants that share a place. If the planned number falls between
+     participants that share a place, the slider starts at the number that takes all of them.
+     Move it down to leave them out. Under it you see the **Position** and the **Result average**
+     at the line.
    - Check **Round for those that qualify**: see
      [Check where the round sends its participants](#check-where-the-round-sends-its-participants).
    - If the others go to a second chance round or a B-final, choose it under **Round for
@@ -156,7 +158,10 @@ participants came than planned, save as usual.
 When you choose a round under **Round for non-qualified participants**, and it is not a chance
 round, **Best placement** is shown under it. It offers to set that round's best placement to the
 first place after those who went through, for example "Update best placement to 13", or to keep
-the **Previous** value.
+the **Previous** value. When the round you are confirming is itself a second chance, the places of
+those who went straight on from the round before count too: an extra chance placed from 5 that
+sends 2 on offers 7. When the round you chose is also the **Round for those that qualify**,
+**Best placement** is not shown and that round keeps its own.
 
 ### Changing who goes through by hand
 
@@ -199,6 +204,50 @@ When participants share a place in a closed round, the **Judge results** card of
 In a closed final, a participant that shares a place has a warning icon next to the place:
 **Shared placement**. If you press **Confirm round** while places are still shared, Manager asks
 first: "Warning! Some participants share a placement."
+
+### Participants left out with a majority of the crosses
+
+In Scrutineer (Beta), a round judged with crosses can stop when the number going through leaves
+out participants who have more than half of the judges' crosses. Leaving them out is then a
+choice you make, not something that passes unnoticed.
+
+It is on in events of Norges Danseforbund, whose rules send everyone with a majority through. In
+other events it is off until you turn it on (see below). It only applies to a round with crosses
+that sends participants on to a next round. Manager does not ask.
+
+When it applies, the round can't be confirmed until you have chosen:
+
+1. After judging is closed, the round page says "Settle what is open, then confirm." In the
+   marks, the participants it is about have **Decide** where the others have **Through** or
+   **Out**.
+2. Press **Decide**. **Left out with a majority of the crosses** lists them, each with their
+   crosses, such as "4 of 7".
+3. Choose one of the two ways:
+   - **6 go through** (with the number that takes all of them): everyone with a majority goes on
+     to the next round.
+   - **Leave them out: 4 go through** (with the round's own number): they are out, although they
+     have a majority.
+4. Press the confirm button, which now says what you chose. The round is confirmed with it.
+
+A tie at the cut is settled first. When everyone who is tied has a majority, taking them all
+through is the suggested way, ahead of a redance. If you settle the tie by leaving them out,
+this question comes next.
+
+Autopilot stops and asks you in the same way, and never leaves participants with a majority out
+by itself.
+
+**Turn it on or off for an event.** In **Live**, open the **Autopilot** tab and press
+**Settings in Setup**. Under **Event defaults**, **A majority left out** has three choices:
+
+- **As the federation's rules say**: asks in events of a federation whose rules send everyone
+  with a majority through, and nowhere else. This is the built-in choice.
+- **Ask me**: every crosses round of the event stops and asks.
+- **Leave them out**: no round of the event asks.
+
+Unlike the other defaults on that page, this one counts for every round of the event, on
+autopilot or confirmed by hand. A round that is on autopilot can have its own choice on the
+round's **Autopilot** tab; it counts while autopilot is on for that round. A round you run by
+hand follows the event's choice. A final has no such choice, since nobody is left out of it.
 
 ### Rounds that use priority
 
@@ -476,6 +525,10 @@ press it:
 Open `Manager → Event → Schedule` to see how late the day is running. Under the rounds of a
 schedule item you see **Planned end** and, once the day runs late or early, **Estimated end**
 and **Total delay**. The **Offset** column shows how far each round ran over its plan.
+
+In Scrutineer (Beta) the same figures are under **Setup** → **Schedule** for every schedule item
+where a round has started. Its **Live** schedule tags an item that still has rounds to run with
+the same delay in whole minutes, for example **5 min behind** or **7 min ahead**.
 
 The estimated start of the rounds that follow moves by itself, and the Speaker, the screens and
 the public page show the new times. You do not have to change anything for that.
