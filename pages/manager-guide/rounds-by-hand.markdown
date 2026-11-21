@@ -116,7 +116,9 @@ Good to know:
 - When **Round for those that qualify** reads **The next round**, followed by a round's name, the round has no link of its own: its qualifiers go to the round after it in the class when it starts, passing over its own second chance round or B-final. A second chance round without a link goes to the round after the round it takes the rest from.
 - Once you choose a round for the non-qualified, saving also fills in the round for those that qualify, so the two groups can never end up in the same round by accident.
 - You can change both until the round's judging is closed. After that, use **Qualified participants** on the closed round.
-- When you confirm the round on the day, the rest are sent to the round you chose, and that round's **Best placement** is set to the first place after those who went through unless you choose otherwise.
+- When you confirm the round on the day, the rest are sent to the round you chose, and that round's **Best placement** is set to the first place after those who went through unless you choose otherwise. A best placement of the round's own does not change that: a quarterfinal placed from 14 that sends 7 on sets its second chance to 8.
+- When the round is itself a second chance, the places of those who went straight on from the round before count too. For example, four went from the first round to the final and the rest to an extra chance placed from 5: when the extra chance sends 2 on, the round its rest go to is set to 7.
+- When the round you chose for the non-qualified is also the round for those that qualify, its **Best placement** is left as it is.
 
 ## Add a child round or a chance round
 

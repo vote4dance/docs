@@ -158,7 +158,10 @@ participants came than planned, save as usual.
 When you choose a round under **Round for non-qualified participants**, and it is not a chance
 round, **Best placement** is shown under it. It offers to set that round's best placement to the
 first place after those who went through, for example "Update best placement to 13", or to keep
-the **Previous** value.
+the **Previous** value. When the round you are confirming is itself a second chance, the places of
+those who went straight on from the round before count too: an extra chance placed from 5 that
+sends 2 on offers 7. When the round you chose is also the **Round for those that qualify**,
+**Best placement** is not shown and that round keeps its own.
 
 ### Changing who goes through by hand
 
