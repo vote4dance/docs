@@ -110,8 +110,10 @@ Do these steps for every round. The buttons are in the **Round status** card.
    results!!"
 6. **Set who goes on.** Not in a final. Under **Qualified participants**:
    - Set **Number to advance**. The slider only stops at numbers the result allows: it does not
-     cut between participants that share a place. Under it you see the **Position** and the
-     **Result average** at the line.
+     cut between participants that share a place. If the planned number falls between
+     participants that share a place, the slider starts at the number that takes all of them.
+     Move it down to leave them out. Under it you see the **Position** and the **Result average**
+     at the line.
    - Check **Round for those that qualify**: see
      [Check where the round sends its participants](#check-where-the-round-sends-its-participants).
    - If the others go to a second chance round or a B-final, choose it under **Round for
