@@ -11,6 +11,10 @@ child_nav_order: reversed
 # Release notes
 ## 2026-11-21
  🛠️ **Improvements**
+* Scrutineer (Beta): Autopilot now waits while a round's redance or paper redance is being judged. Until it is confirmed, autopilot asks nothing in that round, changes nobody going through and confirms nothing; then it goes on from the places the redance gave. Before, the judges' redance marks could make autopilot ask a new question in the round, such as about couples going through without a majority, before the redance was confirmed, or try to confirm the round and stop with an error (see [Let autopilot run a round](/manager-guide/live-operations/#let-autopilot-run-a-round))
+
+## 2026-11-21
+ 🛠️ **Improvements**
 * Public: Going back from a competition to the home page or a federation's page now returns you to where you were: the same tab (**Upcoming**, **Results** or **My competitions**), the same search, as many competitions as you had loaded with **Show more**, and the same place in the list. Before, the page opened at the top of the first tab, and if you have competitions of your own it always opened on **My competitions**. The tab and the search are now also in the page's address, so a link can open the **Results** tab or a search
 
 ## 2026-11-21
