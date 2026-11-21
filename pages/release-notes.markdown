@@ -9,6 +9,10 @@ child_nav_order: reversed
 ---
 
 # Release notes
+## 2026-11-22
+ 🛠️ **Improvements**
+* App: On the **Favorites** tab, competitions that are over and archived are now listed at the bottom under **Earlier events**, folded away, one line each with the date and how many you follow there. Tap a line to open the competition. Before, every competition you had ever followed someone at stayed on the tab with all its rounds, which made the tab slow for people who follow many. The phone app gets this with its next update; until then, archived competitions are no longer listed on the tab, and what you follow there is kept (see [Follow dancers and clubs with Premium](/dancer/following-in-the-app/#follow-dancers-and-clubs-with-premium))
+
 ## 2026-11-21
  ⭐ **New**
 * Scrutineer (Beta): **Schedule** under **Setup** now shows how far each block of the day runs ahead or behind, as in Manager. Once a round of a schedule item has started, the item shows **Estimated end** and **Total delay** next to **Planned end**, and the **Offset** column shows how far each round ran over its time or under it. The figures are the ones behind the **behind** and **ahead** tags of the **Live** schedule, so the two agree. An item where nothing has started shows its planned end only (see [Schedule drift](/manager-guide/live-operations/#schedule-drift))
