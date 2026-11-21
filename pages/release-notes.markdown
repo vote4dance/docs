@@ -9,6 +9,9 @@ child_nav_order: reversed
 ---
 
 # Release notes
+## 2026-11-21
+ 🛠️ **Improvements**
+* Public and the phone app: **Promotion points** on a class's results now lists only what that class's own final pays, when the federation's points table pays a direct final and a final after qualifying rounds differently. A class with qualifying rounds shows the points of a qualified final, a class whose final everyone dances shows those of a direct final, and the line at the top names the right points for 1st place. Before, both lists showed, in the phone app without saying which was which, and the top line named the direct final's points. A class with no rounds yet still shows both lists, each marked **direct final** or **after qualifying rounds**; the phone app gets these marks with its next update (see [Where to see points](/federation/progression/#where-to-see-points))
 ## 2026-11-20
  🛠️ **Improvements**
 * Public: Setting a password now works with a password manager such as 1Password. **Set password** under **My account** → **Settings** → **How you sign in**, and the page you reach from **Forgot your password?**, tell it which account the new password is for, so it can suggest a password and save it under the right login. **Set password** with an empty field now says **This is required**; before, nothing happened (see [Manage how you sign in](/signing-in/#manage-how-you-sign-in))
