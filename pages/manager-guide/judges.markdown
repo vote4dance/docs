@@ -37,7 +37,7 @@ The page has four tabs:
 | **Judges** | Add and invite judges, give them letters, reset PINs, see each judge's needs, and, in Scrutineer (Beta), print each judge's schedule. |
 | **Judging panels** | Seat judges on panels in one grid, let Vote4Dance suggest seats, and handle a judge who can't come. See [Panels](/manager-guide/judge-panels/#panels). |
 | **Classes** | Choose the panel for each class, and give single rounds a panel of their own. See [Classes](/manager-guide/judge-panels/#classes). |
-| **Tablets** | Shared judging tablets, when they are switched on for your event. |
+| **Tablets** | Add tablets to hand out to the judges, and see which are in use. See [Judge tablets](/manager-guide/users-and-stations/#judge-tablets). |
 
 Above the tabs, the page lists any [problems with the judging panels](/manager-guide/judge-panels/#problems-with-the-panels).
 
