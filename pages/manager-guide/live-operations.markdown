@@ -205,6 +205,50 @@ In a closed final, a participant that shares a place has a warning icon next to 
 **Shared placement**. If you press **Confirm round** while places are still shared, Manager asks
 first: "Warning! Some participants share a placement."
 
+### Participants left out with a majority of the crosses
+
+In Scrutineer (Beta), a round judged with crosses can stop when the number going through leaves
+out participants who have more than half of the judges' crosses. Leaving them out is then a
+choice you make, not something that passes unnoticed.
+
+It is on in events of Norges Danseforbund, whose rules send everyone with a majority through. In
+other events it is off until you turn it on (see below). It only applies to a round with crosses
+that sends participants on to a next round. Manager does not ask.
+
+When it applies, the round can't be confirmed until you have chosen:
+
+1. After judging is closed, the round page says "Settle what is open, then confirm." In the
+   marks, the participants it is about have **Decide** where the others have **Through** or
+   **Out**.
+2. Press **Decide**. **Left out with a majority of the crosses** lists them, each with their
+   crosses, such as "4 of 7".
+3. Choose one of the two ways:
+   - **6 go through** (with the number that takes all of them): everyone with a majority goes on
+     to the next round.
+   - **Leave them out: 4 go through** (with the round's own number): they are out, although they
+     have a majority.
+4. Press the confirm button, which now says what you chose. The round is confirmed with it.
+
+A tie at the cut is settled first. When everyone who is tied has a majority, taking them all
+through is the suggested way, ahead of a redance. If you settle the tie by leaving them out,
+this question comes next.
+
+Autopilot stops and asks you in the same way, and never leaves participants with a majority out
+by itself.
+
+**Turn it on or off for an event.** In **Live**, open the **Autopilot** tab and press
+**Settings in Setup**. Under **Event defaults**, **A majority left out** has three choices:
+
+- **As the federation's rules say**: asks in events of a federation whose rules send everyone
+  with a majority through, and nowhere else. This is the built-in choice.
+- **Ask me**: every crosses round of the event stops and asks.
+- **Leave them out**: no round of the event asks.
+
+Unlike the other defaults on that page, this one counts for every round of the event, on
+autopilot or confirmed by hand. A round that is on autopilot can have its own choice on the
+round's **Autopilot** tab; it counts while autopilot is on for that round. A round you run by
+hand follows the event's choice. A final has no such choice, since nobody is left out of it.
+
 ### Rounds that use priority
 
 A round can give its participants a priority instead of only sending them on. This is the
