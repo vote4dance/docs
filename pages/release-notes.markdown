@@ -11,6 +11,11 @@ child_nav_order: reversed
 # Release notes
 ## 2026-11-21
  🛠️ **Improvements**
+* Scrutineer (Beta): **Settle the tie at the cut** now also says how many started in the round and how many the class started with, for example "This round has 18 starters. The class started with 24 in 1st round." It stands under how many the next round already has and the total it gets, so you can weigh sending more or fewer on against all of them. The same line shows when you choose another number (see [A tie at the line, or in a final](/manager-guide/live-operations/#a-tie-at-the-line-or-in-a-final))
+* Scrutineer (Beta): In **Settle the tie at the cut**, **Choose how many go through…** is now a button under the ways to settle the tie, where you set any number with plus and minus. Before, it was a small link that was easy to miss
+
+## 2026-11-21
+ 🛠️ **Improvements**
 * Scrutineer (Beta): When you confirm a round that sends the rest to another round, that round's **Best placement** now starts right after those who went through, also when the round has a best placement of its own, the same as in Manager. A quarterfinal placed from 14 that sends 7 on sets its second chance to 8. Before, Scrutineer counted the quarterfinal's own places as well (21), and by default left the second chance at its planned place (see [Change where a round sends its participants](/manager-guide/rounds-by-hand/#change-where-a-round-sends-its-participants))
 * Manager: When the round you confirm is itself a second chance, the round its rest go to now starts after those who went straight on from the round before as well, as in Scrutineer (Beta). An extra chance placed from 5 that sends 2 on sets the next round's best placement to 7; before, it was set to 3. When that next round is a chance round, this only changes how it numbers its own places: participants whose run ends in a chance round keep their place from the round they came from (see [Check where the round sends its participants](/manager-guide/live-operations/#check-where-the-round-sends-its-participants))
 * Manager and Scrutineer (Beta): When the round chosen for the non-qualified is also the round for those that qualify, its **Best placement** is no longer changed when you confirm. Before, it was set from the number going through, which moved the places of that round's own participants
