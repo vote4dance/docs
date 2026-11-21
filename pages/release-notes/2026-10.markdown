@@ -26,6 +26,7 @@ The newest changes are on [Release notes](/release-notes/).
 ## 2026-10-29
  ⭐ **New**
 * Federation: The **Class rules** tab has a **Download CSV** button. It saves every rule of the discipline as a spreadsheet row, with where it applies, its condition and each setting in its own column, so you can go through the rules or agree changes outside Vote4Dance (see [Download the rules](/federation-rules/round-setup-rules/#download-the-rules))
+
  🛠️ **Improvements**
 * Speaker: On **Lineup**, every heat card always shows its heat number and how many are dancing in it. When the cards are narrow, for example with two rounds side by side or a zoomed-in browser, the **Done** button shrinks to a ✓ instead of covering the count (see [Live operations](/manager-guide/live-operations/))
 * App: The notification you get when a dancer you follow finishes a round now includes their placing whenever the app shows it. Before, the placing was often left out of the notification in rounds where the organizer had not set a position to hide results from (see [Follow dancers and clubs with Premium](/dancer/following-in-the-app/#follow-dancers-and-clubs-with-premium))
