@@ -320,6 +320,37 @@ was closed and confirmed, and that there was nothing for you to settle.
   number of rounds). Tick **Wait for me to press Confirm in these rounds** to keep confirming
   yourself.
 
+### Confirm yourself in preliminary rounds, let finals confirm by themselves
+
+A tie at the line matters in a preliminary round, so you may want to press **Confirm** there
+yourself, while a final can confirm by itself. You set this once for the whole event:
+
+1. Open **Autopilot** in the menu under your name at the top right. **Event settings** in the
+   window that switches rounds on opens the same page.
+2. Under **Event defaults**, set **Confirm preliminary rounds** to **Wait for me to press
+   Confirm**.
+3. Set **Confirm finals** to a countdown, for example **After a 30 s countdown**. With **The same
+   as preliminary rounds**, finals confirm the way the row above says.
+4. Click **Save changes**.
+
+![Confirm preliminary rounds waits for you, Confirm finals after a 30 s countdown](/assets/images/autopilot/event-confirm-finals.png)
+
+When you then switch rounds on with **Autopilot on…**, leave **Wait for me to press Confirm in
+these rounds** unticked. The window lists the two ways, for example **Wait for you to press
+Confirm** for the preliminary rounds and **Confirm after a 30 s countdown** for the finals. You
+can still hold a final's countdown with **Hold**.
+
+![Switching on a preliminary round and a final: the preliminary round waits, the final counts down](/assets/images/autopilot/switch-on-confirm-finals.png)
+
+Good to know:
+
+- Ticking **Wait for me to press Confirm in these rounds** stores the wait on each round you
+  switch on, finals too, and a round's own setting goes before the event's. Switching rounds on
+  with the box unticked takes that wait off again, so they follow the event's settings. A round
+  that is already on is not offered by **Autopilot on…**: switch it off with **Autopilot off**
+  first.
+- A change on a round's own **Autopilot** tab goes before the event's settings too.
+
 ## When things go wrong
 
 While a round is **In progress**, the **Round status** card has a **Stuck?** link next to the
