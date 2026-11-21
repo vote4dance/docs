@@ -106,6 +106,8 @@ Only two things in a row can be clicked: the round's name opens the round, and *
 
 Below the table the item shows **Planned end**, and, once the day is running late or early, **Estimated end** and **Total delay**.
 
+Scrutineer (Beta) shows **Estimated end**, **Total delay** and the **Offset** column under **Setup** → **Schedule** once a round of the item has started. An item where nothing has started shows **Planned end** only.
+
 ### Moving and ordering rounds
 
 - **Drag a round** by the handle at the end of its row to change its order within the item, or into another expanded item on the same page.
@@ -135,6 +137,8 @@ Times are calculated, not typed per round. For each schedule item:
 5. Rounds of a class that follow each other on different sections of a floor also start together.
 
 During the event the plan is compared with reality: when a round is submitted, the difference from its planned end is its **Offset**, and the following rounds' estimated starts move by the accumulated delay. That is what the Speaker, the screens and the public page show as the estimated time.
+
+Scrutineer (Beta) counts a round as finished when it is confirmed, not when it is submitted, so its **Offset** and **Total delay** can be a little larger than Manager's for the same round. They are the figures behind the **behind** and **ahead** tags of its **Live** schedule.
 
 The event's timezone (see [Event setup](/manager-guide/event-setup/)) is the clock all of these times are in.
 

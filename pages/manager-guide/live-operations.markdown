@@ -557,6 +557,10 @@ Open `Manager → Event → Schedule` to see how late the day is running. Under 
 schedule item you see **Planned end** and, once the day runs late or early, **Estimated end**
 and **Total delay**. The **Offset** column shows how far each round ran over its plan.
 
+In Scrutineer (Beta) the same figures are under **Setup** → **Schedule** for every schedule item
+where a round has started. Its **Live** schedule tags an item that still has rounds to run with
+the same delay in whole minutes, for example **5 min behind** or **7 min ahead**.
+
 The estimated start of the rounds that follow moves by itself, and the Speaker, the screens and
 the public page show the new times. You do not have to change anything for that.
 
