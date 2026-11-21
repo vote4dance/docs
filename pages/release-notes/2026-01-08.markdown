@@ -25,6 +25,7 @@ The newest changes are on [Release notes](/release-notes/).
 * Federation: Machine-written membership reasons ("Automatic promotion — point threshold reached", auto-enrollment, age transitions) are now localized; free-text reasons render exactly as written
 * Federation: Name search on the division Status tab works without selecting a class first
 * Federation: The control log no longer records the steady state — being below a promotion threshold is not an event; only promotions applied, promotions blocked by a disabled rule, and other consequential decisions are logged
+
 ## 2026-08-05
  🛠️ **Improvements**
 * Federation: New Progression tab per division — the class ladder (advance by, target class, threshold, points source) is shown in one place with the scope each value was resolved from, and settings that silently do nothing are reported as warnings
