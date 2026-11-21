@@ -26,6 +26,7 @@ The newest changes are on [Release notes](/release-notes/).
 * Manager: A Manager can connect a Stripe account that is already connected to another event they manage, and connecting explains why it was refused instead of Permission denied
 * Judging: The event page has one Judges tile for judges and Managers — a judge goes to their rounds, a Manager to the judge demo; the demo is also in the Judging app's menu and in the invitation email
 * Dancer app: This release requires the latest version from the App Store or Google Play
+
 ## 2026-09-28
  ⭐ **New**
 * Check-in: Add classes at the door — an Add classes button on the person screen opens the desk's registration with the dancer filled in; the total includes what the dancer still owes from earlier entries, and Payment collected settles both. The class list warns, but does not block, when a class has started or its heats are drawn, and entries the organizer has not imported yet are tagged Not imported (see [At the door](/manager-guide/the-door/))
@@ -61,6 +62,7 @@ The newest changes are on [Release notes](/release-notes/).
 * Public: A shared Vote4Dance link shows a preview picture, and links to an event or competition show its name, dates and place
 * Public: A web page opened without a network shows a translated hint instead of a technical error
 * Dutch: "coach" is used instead of "trainer" throughout the web apps, the dancer app and the store listing
+
 ## 2026-09-27
  ⭐ **New**
 * Check-in: The person screen shows what a dancer owes for registrations paid at the door — a red or green payment tag on each registration, the amount to pay with the organizer's payment note, and a Payment collected button that marks the dancer's unpaid registrations paid once the desk confirms the amount. Rejected registrations and free periods are left out, and for a couple or group the amount covers the whole entry, so either dancer's scan settles it (see [At the door](/manager-guide/the-door/))
@@ -69,6 +71,7 @@ The newest changes are on [Release notes](/release-notes/).
 
  🛠️ **Improvements**
 * Registration: The confirmation email is sent for every registration when it is made — registrations paid at the door, invoiced, awaiting the organizer's approval or entered by staff on a dancer's behalf previously got no email until their status changed. Registrations paid online still get theirs once the payment goes through
+
 ## 2026-09-21
  ⭐ **New**
 * Organizer: New Organizer app with a Shop — sell passes, tickets, meals and merchandise for an event: products from templates with stock, per-order caps, sales windows and a VAT rate; a Tickets tab on the public event page; and an Orders tab with search, status and channel filters, resend, receipt link and per-ticket void after a partial refund. Payments run on the organizer's connected Stripe account with the 5 % platform fee. A new Organizer role is granted from the Users page; managers have it already (see [Shop](/manager-guide/shop/))
@@ -90,6 +93,7 @@ The newest changes are on [Release notes](/release-notes/).
 * Federation: Ranking corrections can be added again — the effective-date column was missing in production, so every new correction failed
 * Registration: A check-in station can approve a registration but no longer cancel, reject or delete one; the log and email name the participant
 * Admin: The Stripe audit links an active Stripe subscription even when a lapsed Google Play or App Store purchase started after it
+
 ## 2026-09-15
  ⭐ **New**
 * Federation: Battles can be split into rounds — a dance can carry dances of its own, so a battle generates its rounds and a tie-break underneath it, and a final can hold a bronze battle and a gold battle each danced in several rounds; `[N]` in a battle dance name expands to the number of battles (see [Battle sub-rounds](/federation-rules/battle-sub-rounds/))
@@ -98,6 +102,7 @@ The newest changes are on [Release notes](/release-notes/).
 * Manager: Rounds created from the Round Guide attach every sub-round to the right parent — a B-final or bronze battle with dances placed after rounds that already had sub-rounds was previously imported under the wrong round
 * Check-in: The QR code in the registration approval email opens the check-in page again — the check-in app now lives at `/checkin/`, and old `/checkin-react/` links and station home screens redirect there
 * Registration and Federation: Registration, sponsor and licence payments are only accepted from the Stripe account connected to that competition or federation, and connecting a Stripe account to a competition requires the Manager role
+
 ## 2026-09-14
  ⭐ **New**
 * Dancer app: New Profile tab — Settings moves inside it; tapping any dancer's name opens a public dancer page with their results across every team they have danced in and their progression standing, and dancers can claim historical results that exist only as text names. A claim joins the team the couple already has, so standings and class memberships follow the claim
@@ -118,6 +123,7 @@ The newest changes are on [Release notes](/release-notes/).
 * Public: "Hide results from position" applies to every row of a round without placements (star collection, point summary), not only the placed ones
 * Public: The Kontrollant tile shows for users who have the Supervisor app
 * Dancer app: A results class with nothing published shows that instead of a blank sheet, the schedule tab is localized, competition dates no longer read "Invalid Date", the Android launch screen shows the logo at its intended size, and the image picker no longer offers HEIC and states the correct size limit
+
 ## 2026-09-01
  ⭐ **New**
 * Federation: The console has been rebuilt — Overview shows what needs the federation today (work counters, season timeline, recent enforcement), Licences is a triage queue beside the pane that decides it, Members gathers roster, dancers, clubs, class history and the enforcement log into one page, and Structure replaces eleven tabs with a division and discipline tree beside a detail pane. Existing links into a tab still resolve
