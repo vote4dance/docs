@@ -246,7 +246,8 @@ by itself.
 
 Unlike the other defaults on that page, this one counts for every round of the event, on
 autopilot or confirmed by hand. A round that is on autopilot can have its own choice on the
-round's **Autopilot** tab.
+round's **Autopilot** tab; it counts while autopilot is on for that round. A round you run by
+hand follows the event's choice. A final has no such choice, since nobody is left out of it.
 
 ### Rounds that use priority
 
