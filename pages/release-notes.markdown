@@ -11,6 +11,7 @@ child_nav_order: reversed
 # Release notes
 ## 2026-11-21
  🛠️ **Improvements**
+* Public and the phone app: **Promotion points** on a class's results now lists only what that class's own final pays, when the federation's points table pays a direct final and a final after qualifying rounds differently. A class with qualifying rounds shows the points of a qualified final, a class whose final everyone dances shows those of a direct final, and the line at the top names the right points for 1st place. Before, both lists showed, in the phone app without saying which was which, and the top line named the direct final's points. A class with no rounds yet still shows the whole table, each row marked with the final it pays, such as **direct final** or **after qualifying rounds**; the phone app gets these marks with its next update (see [Where to see points](/federation/progression/#where-to-see-points))
 * Judging: In a round judged with collect stars, such as Framtidens Stjärnor, **Submit results** is no longer greyed out with **You have conflicts** when two couples have the same number of stars from different boxes. Before, the judge could not submit such a sheet, and the scrutineer had to mark the judge as submitted (see [Judges not finishing](/manager-guide/live-operations/#judges-not-finishing))
 ## 2026-11-20
  🛠️ **Improvements**

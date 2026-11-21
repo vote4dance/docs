@@ -61,7 +61,7 @@ The rules involved:
 - **Promotion points source** — **Points on the competition entry** for the model described on this page. The other sources remain available: **Summary score**, and **Placement achieved**, where the points are worked out from the placement again each time progress is synced.
 - **Promotion points table** — the placement-to-points table. Each row has:
   - **Round** — *Any round*, *Final*, *Semifinal* or *Before the semifinal*. See [Pay by the round a dancer reached](#pay-by-the-round-a-dancer-reached).
-  - **Final kind** — *Either final*, *Qualified for the final* (there was at least one earlier round) or *Direct final* (everyone in the class danced the final). Use it when the rulebook pays less for a direct final. The kind is derived from the class's rounds; it is not entered per competition.
+  - **Final kind** — *Either final*, *Qualified for the final* (there was at least one earlier round) or *Direct final* (everyone in the class danced the final). Use it when the rulebook pays less for a direct final. The kind is derived from the class's rounds; it is not entered per competition. Rows are read from the top and the first one that fits pays, so a row left on *Either final* also pays a direct final for any place the *Direct final* rows above it don't cover. Set such a row to *Qualified for the final* if it should pay only after earlier rounds.
   - **Min. jury marks** — only on *Semifinal* and *Before the semifinal* rows: the row pays only with at least this many jury marks in that round.
   - **From place / To place** — leave "to place" empty for no upper bound.
   - **Min entrants / Max entrants** — the field-size band; leave both empty for any field size.
@@ -209,7 +209,7 @@ Every change is written to **History** with its reason. Write reasons someone ca
 - **Members → Competitors** ([Competitors tab](/federation/members/#competitors)) — the roster: filter by class for every member with status and current points, or type a competitor's name in the search field to find them across all classes.
 - **Competitor profile** — click any competitor in **Members → History** ([History tab](/federation/members/#history)) to open their page: classes with current points, membership details, and their full class history.
 - **Manager participants list** — a points column appears automatically in any class where entries carry points, and a green rise icon marks competitors whose result takes them past the threshold (with the target class in the tooltip).
-- **Public results** — a class's results show its points table under **Promotion points**, including what a semifinal pays, so dancers can see how it works.
+- **Public results** — a class's results show its points table under **Promotion points**, including what a semifinal pays, so dancers can see how it works. Where the table pays a direct final and a qualified final differently, the class shows the rows for its own final as soon as its rounds are set up. A class with no rounds yet shows the whole table, each row marked with the final it pays, such as **direct final** or **after qualifying rounds**.
 - **Speaker (prize ceremony)** — the placement reveal shows a "moving up" badge for competitors whose result earns the promotion, switching to past tense once the promotion is applied.
 
 ![Promotion points in a class's public results](/assets/images/promotion-points/public-points-panel.png)
