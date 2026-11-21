@@ -9,6 +9,10 @@ child_nav_order: reversed
 ---
 
 # Release notes
+## 2026-11-21
+ 🛠️ **Improvements**
+* All apps: You now stay signed in on a device you keep using: every time you open Vote4Dance on it, the 30 days you stay signed in start again. Before, a device was signed out 30 days after it first opened Vote4Dance, however recently you had used it, which could happen in the middle of a competition (see [Signing in](/signing-in/))
+* All web apps: Having Vote4Dance open in a second tab of the same browser no longer signs you out. Before, a tab left on the sign-in page could remove the sign-in of the tab you were working in, and you had to sign in again the next time your connection dropped and came back
 ## 2026-11-20
  🛠️ **Improvements**
 * Public: Setting a password now works with a password manager such as 1Password. **Set password** under **My account** → **Settings** → **How you sign in**, and the page you reach from **Forgot your password?**, tell it which account the new password is for, so it can suggest a password and save it under the right login. **Set password** with an empty field now says **This is required**; before, nothing happened (see [Manage how you sign in](/signing-in/#manage-how-you-sign-in))
