@@ -11,6 +11,11 @@ child_nav_order: reversed
 # Release notes
 ## 2026-11-21
  🛠️ **Improvements**
+* Manager: Under **Qualified participants**, **Number to advance** now saves the number the slider shows. When the planned number falls between participants that share a place, the slider starts at the number that takes all of them, and you move it down to leave them out. Before, the slider showed the nearest number it could stop at while the planned number stayed saved, and choosing the number it showed changed nothing, so **Save changes** and **Confirm round** could send on more participants than the slider said. This affected rounds made with the round guide between 27 October and 6 November (see [Run a round](/manager-guide/live-operations/#run-a-round))
+* Manager: **Number of alternates** under **Qualified participants** now saves the number its slider shows, in the same way as **Number to advance**. Before, when the planned number of alternates fell between participants that share a place, the slider showed another number of alternates than **Update priority** saved (see [Rounds that use priority](/manager-guide/live-operations/#rounds-that-use-priority))
+* Manager: When **Save changes** under **Qualified participants** ends in an error, the round chosen under **Round for non-qualified participants** now keeps its **Best placement**. Before, its best placement was already changed to follow the new number, although the number itself was not saved
+## 2026-11-21
+ 🛠️ **Improvements**
 * Scrutineer (Beta): Autopilot now waits while a round's redance or paper redance is being judged. Until it is confirmed, autopilot asks nothing in that round, changes nobody going through and confirms nothing; then it goes on from the places the redance gave. Before, the judges' redance marks could make autopilot ask a new question in the round, such as about couples going through without a majority, before the redance was confirmed, or try to confirm the round and stop with an error (see [Let autopilot run a round](/manager-guide/live-operations/#let-autopilot-run-a-round))
 
 ## 2026-11-21
