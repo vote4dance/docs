@@ -48,6 +48,7 @@ What the timetable shows:
 - Every round with dancers you follow lists them under the round: start number, name and club. A group or formation shows its team name and start number. A round with many of your entries shows the first six; click **+ more** to see the rest.
 - Each round shows its number, floor, class, round (such as **Semifinal**), and the number and names of its dances. The time is shown when the organizer publishes times.
 - Your dancers are named at their class's first round. A later round of the class says **if through from round** and the round number until that round is done. Then it lists who got through, or says **None through**.
+- A second chance round lists only those of your dancers who dance it, under **Chance round from round** and the number of the round they come from. A dancer who went straight through is not listed there, and the round after says **Through from round** with the number of the round they came from. While a dancer is still in the second chance, the round after keeps saying **if through from round**.
 - The other rounds stay in the list, greyed out, so you can see how much is danced in between. Pick **Only followed** to fold them away: a short row then says how many rounds are in between and lists them. **All rounds** shows them again.
 
 ### Print the timetable

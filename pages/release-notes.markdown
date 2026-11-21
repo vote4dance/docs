@@ -12,6 +12,7 @@ child_nav_order: reversed
 ## 2026-11-22
  🛠️ **Improvements**
 * App: On the **Favorites** tab, competitions that are over and archived are now listed at the bottom under **Earlier events**, folded away, one line each with the date and how many you follow there. Tap a line to open the competition. Before, every competition you had ever followed someone at stayed on the tab with all its rounds, which made the tab slow for people who follow many. The phone app gets this with its next update; until then, archived competitions are no longer listed on the tab, and what you follow there is kept (see [Follow dancers and clubs with Premium](/dancer/following-in-the-app/#follow-dancers-and-clubs-with-premium))
+* Public: Under **Favorites** on the schedule, a class with a second chance round now tells you the right thing about the dancers you follow. A dancer who goes straight from the semifinal to the final is listed under the final with **Through from round** and the semifinal's number, and the second chance lists only those who dance it. Before, such a dancer read **Not through** under both the second chance and the final. The same goes for a B-final (see [Find your club's rounds](/spectator/following-the-schedule/#find-your-clubs-rounds))
 
 ## 2026-11-21
  ⭐ **New**
