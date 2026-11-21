@@ -12,51 +12,65 @@ child_nav_order: reversed
 ## 2026-11-21
  🛠️ **Improvements**
 * Public: Going back from a competition to the home page or a federation's page now returns you to where you were: the same tab (**Upcoming**, **Results** or **My competitions**), the same search, as many competitions as you had loaded with **Show more**, and the same place in the list. Before, the page opened at the top of the first tab, and if you have competitions of your own it always opened on **My competitions**. The tab and the search are now also in the page's address, so a link can open the **Results** tab or a search
+
 ## 2026-11-21
  🛠️ **Improvements**
 * Public and the phone app: **Promotion points** on a class's results now lists only what that class's own final pays, when the federation's points table pays a direct final and a final after qualifying rounds differently. A class with qualifying rounds shows the points of a qualified final, a class whose final everyone dances shows those of a direct final, and the line at the top names the right points for 1st place. Before, both lists showed, in the phone app without saying which was which, and the top line named the direct final's points. A class with no rounds yet still shows the whole table, each row marked with the final it pays, such as **direct final** or **after qualifying rounds**; the phone app gets these marks with its next update (see [Where to see points](/federation/progression/#where-to-see-points))
 * Judging: In a round judged with collect stars, such as Framtidens Stjärnor, **Submit results** is no longer greyed out with **You have conflicts** when two couples have the same number of stars from different boxes. Before, the judge could not submit such a sheet, and the scrutineer had to mark the judge as submitted (see [Judges not finishing](/manager-guide/live-operations/#judges-not-finishing))
 * Judging: The cookie notice no longer shows in the Judging app. It lay over the bottom of a judge's screen until it was answered, covering the refresh button of the **Ranked** view. Analytics stay off for a judge who has not allowed them on the public website.
+
 ## 2026-11-20
  🛠️ **Improvements**
 * Public: Setting a password now works with a password manager such as 1Password. **Set password** under **My account** → **Settings** → **How you sign in**, and the page you reach from **Forgot your password?**, tell it which account the new password is for, so it can suggest a password and save it under the right login. **Set password** with an empty field now says **This is required**; before, nothing happened (see [Manage how you sign in](/signing-in/#manage-how-you-sign-in))
 * All web apps: Fields for someone else's details are now marked for 1Password to leave alone: a child's e-mail and password under **My child already has an account**, the name and e-mail of a child you add or a judge you invite, the dancers on an entry in Scrutineer (Beta), and the **WDSF API token**. Before, it could offer your own login in these fields, or offer to save what you typed there as your Vote4Dance login
+
 ## 2026-11-20
  🛠️ **Improvements**
 * Manager and Scrutineer (Beta): **Synchronize heats with …** on two rounds with child rounds now changes nothing when it can't synchronize them all, for example when one of the child rounds has no participants or the two rounds have a different number of child rounds. Before, it synchronized the rounds and the first child rounds, then stopped with a message, so some heats had changed and others had not. In Manager, the message now shows; before, nothing was shown
 * Manager and Scrutineer (Beta): Changing a round's **Judging type** to one without **Submit rules** and saving now works. Before, the round kept the hidden **Submit rules** of the earlier judging type, and saving ended in an error. Switching back to the earlier judging type before saving brings back the round's own **Submit rules** (see [Round settings](/manager-guide/competition-setup/#round-settings))
+
 ## 2026-11-20
  🛠️ **Improvements**
 * Manager and Scrutineer (Beta): Clearing **Competition level** on an event and saving now removes the level. Changing an event's federation while it has a level also works now: the level is cleared, because levels belong to a federation. Before, the level could not be removed, and a federation change with a level set ended in an error (see [Event details page](/manager-guide/event-setup/#step-3-event-details-page))
 * Manager and Scrutineer (Beta): Clearing **Competitor Group** on an entry and saving now takes the entry out of its group. Before, saving with an empty **Competitor Group** ended in an error (see [Add participants](/manager-guide/competition-setup/#step-3-add-participants))
+
 ## 2026-11-20
  ⭐ **New**
 * Scrutineer (Beta): **Classes** and **Problems** now warn when a class has more heats than it needs, for example after withdrawals. The class gets a tag such as **1 heat not needed**, worked out from the participants it has now and the federation's max on the floor, and **Set the heats** takes the extra heats away and spreads the participants over the heats that are left. **Keep as they are** leaves them (see [Heats not needed](/manager-guide/competition-setup/#heats-not-needed))
+
 ## 2026-11-19
  🛠️ **Improvements**
 * Federation: **Assign organization** on an organization's **Transfers** tab now works. Choosing a **Competitor** and an **Organization** and pressing **OK** assigns the competitor to the club and shows **Organization assigned**. Before, pressing **OK** always ended in an error and nothing was assigned (see [Assign organization](/federation/club-transfers/#assign-organization))
+
 ## 2026-11-19
  🛠️ **Improvements**
 * All apps: A page now shows that it is loading until its information arrives, instead of first showing "No data" or an empty list for a moment. Going back to a page you just had open shows it straight away. Without a connection, a page you have not opened yet keeps loading under the **Disconnected, retrying connection…** message and fills in once you are back online. The phone app gets this with its next update
+
 ## 2026-11-19
  🛠️ **Improvements**
 * Scrutineer (Beta): In **Live**, a round danced as several dances at different places in the schedule, such as a bugg final with Slow early and Quick after other classes, now has a line for each part in the list on the right, in its place, such as **Final – Slow** and **Final – Quick**. The next part shows as coming up when its turn comes, and **You're on it** marks the part being danced. Before, the round was one line at its first dance, so the list never showed when the later dance was due (see [The round page](/manager-guide/live-operations/#the-round-page))
 * Scrutineer (Beta): A point summary is easier to find and run in **Live**. In **Classes** it always has its own link, and the **+** number on a class with many rounds now opens the rounds that don't fit. **Next** points to the summary once every round it adds up is closed, and says how many rounds it waits for until then. A summary opened too early names the rounds it doesn't count yet, and it no longer asks for a judging panel. At the end of the day the run sheet names an unpublished point summary as what is left before the competition can be closed (see [Running it in Scrutineer (Beta)](/point-summary/#running-it-in-scrutineer-beta))
+
 ## 2026-11-19
  🛠️ **Improvements**
 * Scrutineer (Beta): In the **Marks** card, each judge's column is now headed with the judge's own letter, or the start of their name when the letters are names, such as **And…**. Before, letters that were names were replaced by A, B, C… in seat order, so with several panels **A** could be a different judge in each panel (see [The Marks card in Scrutineer (Beta)](/manager-guide/reading-the-marks/#the-marks-card-in-scrutineer-beta))
+
 ## 2026-11-19
  🛠️ **Improvements**
 * Manager and Scrutineer (Beta): Numbering one class with **Assign start numbers** now gives a couple the number it already has in another class when **Reuse numbers** is on, so a couple with 16 in Juniors also gets 16 in Juniors Slow. A number another couple holds in another class is no longer given out, and keeping numbers no longer gives two couples the same number. In Scrutineer (Beta), **Only entries without a number** leaves every other number as it is, and **Everyone, from scratch** keeps a couple's number from its other classes when **Keep a dancer's number across classes** is on. Before, numbering one class ignored the other classes and gave such a couple a new number (see [Numbering one class at a time](/manager-guide/start-numbers/#numbering-one-class-at-a-time))
+
 ## 2026-11-19
  🛠️ **Improvements**
 * Website, Judging, Federation and Scrutineer (Beta): When a page can't load its information, or you aren't allowed to see it, the page now says so straight away instead of showing a spinner or an empty page until it gives up. Opening an event you can't manage shows **You don't have access to manage this event** at once, and a ticket order that isn't yours says "This order belongs to another account, or the link is no longer valid." immediately. When loading failed because of a passing problem on our side, the page tries again by itself and fills in once it works
+
 ## 2026-11-19
  🛠️ **Improvements**
 * Manager, Scrutineer (Beta) and Supervisor: Removing a judge from a competition now asks **Remove … from this competition?** and names the panels the judge leaves, since adding them again later does not put the seats back. A judge who sits on a panel that already has scores can no longer be removed, also when they have given no marks themselves; a message names the panels and says how to let someone else judge the remaining rounds. Before, the question did not mention the panels, and only the judge's own marks stopped the removal (see [Removing a judge](/manager-guide/judges/#removing-a-judge))
+
 ## 2026-11-19
  🛠️ **Improvements**
 * Check-in: In **Organization check-in**, an organization whose entries were registered through Vote4Dance is answered and signed for by its own people: a dancer on one of its entries, an approved member of the organization, or the person who registered the entries. Another account gets a message that says so and points to the check-in desk. Managers, check-in staff and check-in stations can still check in any organization (see [Confirming who dances on the day](/school-club/registration-for-event/#confirming-who-dances-on-the-day))
+
 ## 2026-11-19
  ⭐ **New**
 * Federation: A website API key can now read which divisions and disciplines each public event has classes in, and the list of the federation's divisions and disciplines, so your website can label and filter the events by them. The guide now also says how the website finds events that were deleted (see [API keys for your website](/federation/settings/#api-keys-for-your-website))
@@ -74,14 +88,17 @@ child_nav_order: reversed
 * Manager: In **Update/import participants** and a file import, you can now untick the new classes in the preview together with the participants in them, and the rest is imported. If a ticked participant is in a class you unticked, nothing is imported and a message says to tick the class or untick the participant. Before, the import failed with "Class Not Found", and classes it had already added stayed (see [Update/import participants](/manager-guide/entries-and-participants/#updateimport-participants))
 * Federation: Moving a competitor's class membership on **Members** to a class they had a retired membership in now works. The old membership becomes the active one with your changes, and the one you edited is retired. If the competitor is still active in that class, you see "This competitor already has an active membership in that class". Before, saving showed "Internal Error" (see [Editing a membership](/federation/members/#editing-a-membership))
 * Manager and Scrutineer (Beta): A couple you sent through or kept out by hand in a closed round (**Changed by hand**) now stays as you set it when you change something else on the same couple afterwards, such as its **Through** or **Alt** or its battle. Before, such a change took the mark away, and confirming the round set the couple from the result again, which could send one couple too many to the next round (see [Changing who goes through by hand](/manager-guide/live-operations/#changing-who-goes-through-by-hand))
+
 ## 2026-11-18
  🛠️ **Improvements**
 * App and website: Searching for a dancer or start number now shows the class the entry is in after the organizer moves it to another class, by the class's full name. Before, the search kept showing the class the entry was first entered in
 * Manager: The **Class** column on check-in and in the check-in report now shows the class the entry is in, by its full name. Before, it showed the class from the import, which could be out of date after a class change or empty
+
 ## 2026-11-18
  🛠️ **Improvements**
 * Website: On a phone, the division cards on a federation's **Divisions** page now show **Season ranking** and **Explore** under the division's name. Before, the name was squeezed to a few letters per line
 * Website: A division's image now shows on its card on the federation's **Divisions** page, also when it was added before March 2026. Before, those cards stayed black. Images added back then were saved small, so upload them again for a sharp card (see [Add a division](/federation/divisions/#add-a-division))
+
 ## 2026-11-16
  ⭐ **New**
 * Website: A federation that publishes its season ranking now has **Season ranking** in its menu, next to **Divisions**, opening the ranking of each published division, and a **Season ranking** button next to **Explore** on those divisions. On a phone the federation menu is a row you can swipe instead of folding away (see [The public season ranking](/federation/season-ranking/#the-public-season-ranking))
@@ -116,9 +133,11 @@ child_nav_order: reversed
 * Speaker: The **Judges** card on **Overview** can now show the judges **By panel**: each panel with the judges seated on it, and the judges on no panel under **Not in a panel**. **All judges** shows one list per competition, as before (see [Panels in the speaker app](/manager-guide/judge-panels/#panels-in-the-speaker-app))
 * Manager: Check-in and **Statistics** now show the full name of every club. A club whose dancers only dance with partners from other clubs showed only its short name, such as `OLAND`, because its name was only taken from couples where both dancers are from that club (see [Organization check-in controls](/manager-guide/organization-check-in/#organization-check-in-controls))
 * Manager: On an event whose entries you imported, without a registration period, **Set up payment** in the event checklist is now **Optional** and no longer the next step, and the overview no longer says sign-up is waiting for payment. Before, the checklist kept pointing you to it (see [Organizations sign their dancers' entries](/manager-guide/entries-and-participants/#organizations-sign-their-dancers-entries))
+
 ## 2026-11-15
  🛠️ **Improvements**
 * Federation: When you move a competitor to another class under **Members**, **Carry over a percentage** can now be picked. It starts at 50%, and you can change it. Before, the choice jumped back to **Keep everything**, so no percentage could be entered (see [Editing a membership](/federation/members/#editing-a-membership))
+
 ## 2026-11-13
  ⭐ **New**
 * Manager: A registration period can have **The organization signs the entries**. Dancers' entries then wait until their club or organization has signed them, and under **Who pays?** you choose **The organization, together** or **Each dancer**. With manual payment you give the organizations payment instructions, and on the **Organizations** tab you see what each has signed, waits for, owes and paid, press **Mark paid** when the money arrives, and **Send reminder** to organizations and waiting dancers. The event checklist now recommends online payment and offers **Take payment manually** (see [Organizations sign their dancers' entries](/manager-guide/entries-and-participants/#organizations-sign-their-dancers-entries))
@@ -140,6 +159,7 @@ child_nav_order: reversed
 * Federation: **Rulebook** → **Setup check** says when promotion is not set up in a division, and links each division to its **Progression** (see [Setup check](/federation-rules/#setup-check))
 * Registration: Where class membership is required, a team that already holds a higher class can no longer register for the bottom class of the same ladder. Before, it was placed in the bottom class as well and held two classes in one ladder (see [A team that already holds a higher class](/federation/progression/#a-team-that-already-holds-a-higher-class))
 * Scrutineer (Beta): A floor section you add now gets a letter code straight away, so the public schedule shows round numbers such as `1A` and `1B` again. A section named `A` or `Section B` gets that letter; otherwise it gets the first letter the floor's other sections don't use. Before, a new section got no letter code and the schedule showed only `1`. For sections you already added, open **Edit** on the section and fill in **Letter** (see [Create a section](/manager-guide/floors/#create-a-section))
+
 ## 2026-11-12
  ⭐ **New**
 * App: **Profile** → **Quiz history** lists every quiz you have played, newest first, with how many you have played, your best place and your high score; each quiz shows your place, the event, the date, your points and how many played, and opens its full standings. Part of Premium. Update the app from the App Store or Play Store to get it (see [Your quiz history](/spectator/quizzes/#your-quiz-history))
@@ -150,13 +170,16 @@ child_nav_order: reversed
 * Registration: A dancer younger than a class's **License required from age year** is no longer asked for a licence. Before, the age limit was ignored and every dancer needed a licence, whatever their age (see [Step 3: Decide which classes accept which items](/federation/getting-a-license/#step-3-decide-which-classes-accept-which-items))
 * Federation: A licence with no price now becomes **Active** as soon as a dancer or club applies for it. Before, it stayed **Pending** with payment outstanding until you activated it by hand. If you require club or federation approval, it waits for that approval and nothing else (see [Step 2: Create the licence items](/federation/getting-a-license/#step-2-define-the-license-items))
 * Federation: A dancer whose licence you suspended can no longer get it back by applying again, and a licence item you set to inactive can no longer be applied for (see [Step 2: Define the licence items](/federation/getting-a-license/#step-2-define-the-license-items))
+
 ## 2026-11-11
  ⭐ **New**
 * Manager: **Assign start numbers** in the new Manager has a **Numbers to skip** field. Type the numbers that must not be given out, separated by commas, with ranges such as `100-104`, and numbering leaves them out. Useful when clubs keep gaps in their number series. Type the list each time you number (see [Start numbers](/manager-guide/start-numbers/))
+
 ## 2026-11-11
  🛠️ **Improvements**
 * Manager: Printed start numbers are easier to print. A long event name no longer runs into the club name above the number, the club pages follow **Show name of competition** and **Show child competition name** like the other sheets, and the fold line stays in the middle of the A4 page. A club's name now keeps its short name in brackets, such as "Dala Dansförening (Dala)", also in the participant list, check-in and live heats. Before, the short name was left out whenever the full name contained it
 * Manager: A round's judging type can now be changed after the judges have started marking. Under the locked **Judging type**, click **Clear marks**: the marks given so far are removed, the couples and their order stay, including a drawn order, and you pick the right type. Before, you had to take the couples out of the round and add them again (see [Wrong judging type on a round in progress](/manager-guide/live-operations/#wrong-judging-type-on-a-round-in-progress))
+
 ## 2026-11-10
  ⭐ **New**
 * Manager: When you add a round to a class yourself, you can now say during setup where the participants who do not qualify go. **Takes the rest from** on **Add a single round** links a second chance round or a B-final to the round it follows, a second chance takes its judging type, schedule item and floor from that round, and a round's settings now show **Round for those that qualify** and **Round for non-qualified participants** under **How many go through**. Before, only the Round guide could set this ahead of time; for a round you added yourself you had to wait until its judging was closed (see [Send the rest to a second chance or a B-final](/manager-guide/rounds-by-hand/#send-the-rest-to-a-second-chance-or-a-b-final))
@@ -164,6 +187,7 @@ child_nav_order: reversed
 * Manager: When you create an event or a competition, you now start with access to every app, not only the Manager app. The tiles for Supervisor, Speaker, Screens, Lineup, Check-in and the cafe show on your event page straight away, without you first giving them to yourself. With **Café & sales** on, the Vote4Dance app also notifies you of each new cafe order; take it off your own row under **People & access** (**Users** in the classic Manager) if someone else runs the cafe. Events you created before this update keep the access they have (see [The apps](/manager-guide/users-and-stations/#the-apps))
 * Public: A person with **Music (DJ)** access now has a **Music** tile under **Functions** on the event page, which opens the event's Music page. Before, the DJ needed a direct link (see [Give the DJ their own login](/manager-guide/music/#give-the-dj-their-own-login))
 * Scrutineer (Beta): Under **People & access**, **Edit access** now says what **Music (DJ)** gives access to, and **Docs** in the account menu on the **Music** page now opens its guide (see [Music from the dancers](/manager-guide/music/))
+
 ## 2026-11-09
  ⭐ **New**
 * Federation: **Personal configuration keys** on `Settings → API keys` let a script make big configuration changes for you, such as a new season's class rules, instead of clicking through every discipline. A key acts with your own rights, reaches only this federation's configuration (never members, licences, clubs or competitions), is shown once, and stops working after at most 30 days. Every administrator of the federation sees all configuration keys and can revoke any of them (see [Personal configuration keys](/federation/settings/#personal-configuration-keys))
@@ -178,6 +202,7 @@ child_nav_order: reversed
 * Scrutineer (Beta): On a battle round, the **Result** tab of the **Marks** card shows the battle each starter danced in under **Match**, a **×** for each battle's winner and the battles won as **Total**; the judges' votes stay on each battle's own tab. Putting the starters into their battles is now called **Place in battles** instead of **Draw battles**, and a change of panel on a battle round now reaches its battles too (see [Battle rounds](/manager-guide/reading-the-marks/#battle-rounds))
 * Scrutineer (Beta): The **Marks** card now shows the same as the classic Manager: the **Result** tab has a **Status** column, and a couple sent to another round, such as a hope round, shows that round's name instead of **Through**; each dance tab shows that dance's own sum and place; a withdrawn or disqualified couple keeps its sum and place, struck through; a couple that danced with a total of 0 shows 0; and partial scores show with the same decimals as full scores (see [Reading the marks of a round](/manager-guide/reading-the-marks/#the-marks-card-in-scrutineer-beta))
 * Scrutineer (Beta): In a point summary, the couple with the highest total is now placed first in the summary table, also when totals were set by hand. Before, the table showed the order upside down. Published results were not affected (see [Point summary](/point-summary/))
+
 ## 2026-11-08
  ⭐ **New**
 * App: Live quiz and all-day quizzes at the event: join by QR code or from the event page, answer before the clock runs out, and see your place (see [Quizzes](/spectator/quizzes/))
@@ -191,11 +216,13 @@ child_nav_order: reversed
  🛠️ **Improvements**
 * Public: Giving hearts moved to the app; the website shows a **Take part in the Vote4Dance app** prompt on the heat instead of a voting button (see [Hearts and Call it](/spectator/hearts-and-calls/#give-hearts))
 * Federation: In a class rule, round names and round sizes are now one **Rounds** table, with a row per round counted from the final, so each round's size and name sit side by side. **Small classes start here** lets a class that is a little too big for a round start in it anyway, and **Rounds by class size** shows which rounds each class size gets. Before, they were separate lists you had to match up by position. The rules are stored as before, so the rounds the Round Guide creates do not change ([guide](/federation-rules/round-setup-rules/#rounds-round-names-and-round-sizes))
+
 ## 2026-11-07
  🛠️ **Improvements**
 * Federation: On/off rules now have three choices, **Inherit** (or **Default**), **On** and **Off**, with a line under each that says what applies now and where it comes from, so you can see an inherited value and go back to it ([guide](/federation/divisions/#onoff-rules))
 * Registration: Custom competitor names are now off unless the federation allows them or the registration form asks for a team name; federations choose where they apply, such as formations and breaking
 * Speaker, Lineup, Supervisor: An empty heat now says why it has no dancers: they show once the results of the previous round are published. Before, it only said **Results not published**, which looked like it was about the round on screen (see [Users, apps and stations](/manager-guide/users-and-stations/))
+
 ## 2026-11-06
  ⭐ **New**
 * Public: Where the federation's rule is on, a club can change the lineup of a paid small group or formation without paying again, as long as it has no more different dancers than it has paid for. **Edit lineup** has a new **Add dancer** button for approved club members. If a change takes the club above the number it has paid for, a pop-up shows the dancers and the price, and the lineup is saved once the club has paid. A paid place stays with the club when a dancer leaves (see [Changing a group's lineup after paying](/school-club/registration-for-event/#changing-a-groups-lineup-after-paying))
@@ -211,6 +238,7 @@ child_nav_order: reversed
 * App: On iPhone, when a Premium payment has to be approved first, for example through Ask to Buy, the app now says it is waiting for your purchase to be confirmed instead of showing an error. Once the payment is approved, Premium starts by itself the next time you open the app; before, you had to tap **Restore purchases** (see [Follow dancers and clubs with Premium](/dancer/following-in-the-app/#follow-dancers-and-clubs-with-premium))
 * Manager: On a round that hasn't started, changing **How many go through** now also changes how many go on when you confirm the round, and the schedule shows the new number. Before, a round made with the round guide kept its old number, so it could send too many or too few. A B-final's first place moves with it, and the number of alternates stays the same. If you changed the number before this update, open the round in Live, choose **Edit round…** and set **Through** to the number you want.
 * Federation: The ranking editor no longer offers **Snapshot selection** as a window mode, because the frozen result it describes is not available yet (see [Set the scoring and the time window](/federation-rankings/federation-admin/#set-the-scoring-and-the-time-window))
+
 ## 2026-11-05
  ⭐ **New**
 * Public, Dancer app: Every class you finished has **Share result** and **Download diploma** once its results are published. Share result makes a picture of your placing for social media or a message; the diploma is your A4 PDF to keep or print, in the organizer's own design when the organizer has uploaded one and switched diplomas on (see [Sharing your result and your diploma](/dancer/my-registration/#sharing-your-result-and-your-diploma))
@@ -230,12 +258,14 @@ child_nav_order: reversed
 * Federation: **Download CSV** on Competitions, the roster and ranking standings does the same, and points and ranking scores use a decimal comma when your browser's language does. The license list and **Export setup** keep commas in every language; their guides explain how to open them (see [Members](/federation/members/#download-csv))
 * Manager: **Download partial average** no longer writes the word null after the name of a dancer without a partner (see [Data exports](/manager-guide/post-event/#download-the-result-files))
 * Manager: On **Participants**, each club now shows by its full name, with its short code in brackets when the name doesn't already contain it, such as Dansstudio Shake Vzw (SHAKE). Before, only the short code showed. Sorting follows the full name, and in the new Manager you can also search for it. A participant with no full club name on file keeps the short code (see [Step 3: Add participants](/manager-guide/competition-setup/#step-3-add-participants))
+
 ## 2026-11-04
  ⭐ **New**
 * Public: **My account** has a new **Family** page. Add your children once and open their accounts from your own to register them and pay, with no second inbox or password. A bar on every page shows whose account you are in. An account a child already has can be brought in, and your child can take it over when they are old enough (see [Family](/dancer/family/))
  🛠️ **Improvements**
 * All web apps: A page that has been open since before an update now notices the update by itself. Screens and lineup reload on their own within a few minutes; judging tablets, Supervisor, Speaker, Check-in and Cafe show **There is a newer version** and reload once the device has not been touched for 5 minutes, but never while a judge's tablet is unlocked, marks are still being sent, or a registration, sale or order is half-filled; Manager and the other apps only show the message, and you press **Reload** when it suits you (see [Updates during an event](/requirements/#updates-during-an-event))
 * Supervisor: On the **Panels** tab of **Judges**, one click on an empty cell now seats the judge as **Judge**, or as **Trainee judge** if that is their **Seat** need. To give them another seat, click the seat or right-click the cell (see [Seating a judge](/manager-guide/judge-panels/#seating-a-judge))
+
 ## 2026-11-03
  ⭐ **New**
 * Screens: A sponsor can now present the results of a final (**Results presented by**), the start of a final (**Final intro**) and a card of its own in the **Sponsors** screen loop during breaks (**Break screen**). All three can be added to the sponsor catalog as standard items (see [What the venue screens show for sponsors](/manager-guide/sponsors/#what-the-venue-screens-show-for-sponsors))
@@ -249,6 +279,7 @@ child_nav_order: reversed
 * Supervisor: Each warning on **Warnings** shows the entry's original class and the dancers' years of birth with their age, so an age warning can be checked on the spot (see [Warnings from the judges](/scrutineer/#warnings-from-the-judges))
 * Supervisor: The number of new warnings on the menu now counts the floor you have chosen, so ticking off everything on **Warnings** clears it; it no longer comes back after warnings were ticked in another tab, and **Mark all seen** replaces **Undo** as soon as new warnings come in (see [Warnings from the judges](/scrutineer/#warnings-from-the-judges))
 * Manager: When a final has a shared placement, confirming the round says so again ("Warning! Some participants share a placement."), and the tooltip reads "Shared placement"; in Swedish it had become "conflicting placements" (see [What to watch on the day](/scrutineer/#what-to-watch-on-the-day))
+
 ## 2026-11-02
  ⭐ **New**
 * Public: Dancers upload their own music per class on **My registration**; the federation sets the limits in its rules. A class that dances to your own music shows **Own music · max 1:30** when you register, and after registering you upload an MP3 on **My registration**, listen to it, **Replace** or **Remove** it, until registration closes (see [Your music](/dancer/my-registration/#your-music))

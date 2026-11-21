@@ -22,15 +22,18 @@ The newest changes are on [Release notes](/release-notes/).
 * Manager: **Statistics** → **Dressing rooms**, its **Print view** and the printed dancer lists now name each club in full, with its short code in brackets, for example **Dansstudio Shake Vzw (SHAKE)**; before, clubs from the imported participants were listed by their short code only (see [The numbers on the page](/manager-guide/statistics/#the-numbers-on-the-page))
 * Manager: The **Registrations** list shows the dancers who dance the entry, with lineup changes applied, instead of the team's roster (see [Team names](/manager-guide/registration-periods/#team-names))
 * Public, Federation, Manager: A club's and the federation's registration overview, the amount a club pays by invoice and the organizer's club list (CSV) now follow each entry's lineup: dancers skipped for a class are not listed or charged for it, and a replacement is. Before, they still showed the team's whole roster, and a team that skipped different dancers in two classes could be charged for a dancer who sits one out (see [Step 3: Register](/school-club/registration-for-event/#fitting-a-teams-lineup-to-a-class))
+
 ## 2026-10-29
  ⭐ **New**
 * Federation: The **Class rules** tab has a **Download CSV** button. It saves every rule of the discipline as a spreadsheet row, with where it applies, its condition and each setting in its own column, so you can go through the rules or agree changes outside Vote4Dance (see [Download the rules](/federation-rules/round-setup-rules/#download-the-rules))
  🛠️ **Improvements**
 * Speaker: On **Lineup**, every heat card always shows its heat number and how many are dancing in it. When the cards are narrow, for example with two rounds side by side or a zoomed-in browser, the **Done** button shrinks to a ✓ instead of covering the count (see [Live operations](/manager-guide/live-operations/))
 * App: The notification you get when a dancer you follow finishes a round now includes their placing whenever the app shows it. Before, the placing was often left out of the notification in rounds where the organizer had not set a position to hide results from (see [Follow dancers and clubs with Premium](/dancer/following-in-the-app/#follow-dancers-and-clubs-with-premium))
+
 ## 2026-10-28
  🛠️ **Improvements**
 * Manager: Importing registrations now puts a group or formation team on the start list under its team name, also when the name was given to the team and not typed on the registration; before, such a team showed up under its first three dancers on the start list and the public participants list, while the **Registrations** list showed its name. A team name containing **&** now stays whole. To fix a start list you imported earlier, import the registrations again (see [Team names](/manager-guide/registration-periods/#team-names))
+
 ## 2026-10-26
  ⭐ **New**
 * Manager: A dancer who belongs to more than one club now gets a list under **Represents** in **Edit registration**, so you can correct the club a dancer or parent picked by mistake when registering. Only clubs that have approved the dancer are listed, and clearing the list goes back to the club Vote4Dance finds on its own (see [Change the club a dancer represents](/manager-guide/entries-and-participants/#change-the-club-a-dancer-represents))
@@ -46,6 +49,7 @@ The newest changes are on [Release notes](/release-notes/).
 * Manager: The **Organization** column on the **Registrations** tab now shows every dancer's club as soon as the page opens; before, a dancer whose club came from their own account showed only after you opened the row (see [Which club a dancer represents](/manager-guide/entries-and-participants/#which-club-a-dancer-represents))
 * Registration, Check-in: Dancers you skip from a team's lineup for a class no longer get that class's confirmation e-mail or check-in QR code, are no longer let in at the check-in desk as dancing in it, and no longer show for it in the club's and organizer's registration lists or on **My event**. A replacement dancer gets all of these instead. Before, everyone on the team got them, even though only the dancers in the lineup were charged (see [Step 3: Register](/school-club/registration-for-event/#fitting-a-teams-lineup-to-a-class))
 * Manager: **Statistics → Dressing rooms**, **Day by day** and **Print dancer lists** now count and list every dancer of a group or formation, following the line-up the club sent for each class. Before, once the participants were imported, an entry counted at most three dancers, so events with groups and formations showed far too few **Dancers** and the dancer lists missed people. A dancer who is both in a registered entry and in a couple put together on the start list (a Jack & Jill final) now counts once. The tab now also says above the numbers what **Dancers** and **Organizations** count (see [What Dancers and Organizations count](/manager-guide/statistics/#what-dancers-and-organizations-count))
+
 ## 2026-10-25
  🛠️ **Improvements**
 * App: Tapping **Vote** in a round without Premium now closes the round and shows the Premium offer; before, nothing seemed to happen on iPhone and the app stopped responding to taps once the round was closed (see [Vote for a competitor](/dancer/following-in-the-app/#vote-for-a-competitor))
@@ -55,6 +59,7 @@ The newest changes are on [Release notes](/release-notes/).
 * Manager, Screens: A judge is shown with the **Photo** uploaded on the **Judges** page, or a placeholder when there is none. The judge's Vote4Dance ID photo, the one the check-in desk compares faces with, is no longer used as a stand-in on screens or in judge lists (see [Judge list](/manager-guide/judges/#judge-list))
 * Manager: **Schedule conflicts** now lists a dancer who goes from one class straight into another on the same floor as **Tight**; before, two rounds on the same floor were never compared, so an event on one floor showed no conflicts at all. **Hide tight transitions within the same hall** only appears when the event has rounds on a floor's sections, and only hides moves between the whole floor and its sections (see [What counts as a conflict](/manager-guide/schedule/#what-counts-as-a-conflict))
 * App: On Android, the icons in the tab bar and on the event pages show again after updating the app. In version 1.13.3 they could stay blank if you updated from an earlier version; update to 1.13.4 (see [Following in the app](/dancer/following-in-the-app/))
+
 ## 2026-10-24
  ⭐ **New**
 * Public: **My registration** has a **Change class** button. Until registration closes you can move your entry to another class that opens for registration together with yours, for example another level or region, without withdrawing and registering again. The price is the same, so nothing is charged or refunded; a duo or team moves together, and a class you are not allowed to dance is shown greyed out with the reason (see [Changing class](/dancer/my-registration/#changing-class))
@@ -63,15 +68,19 @@ The newest changes are on [Release notes](/release-notes/).
 * Manager: On the **Judges** page, a **Chief judge (in)** now counts as one of the panel's judges. A panel that wants 5 judges with a **Chief judge (in)** is full with 4 judges plus the chief, so it no longer shows "Still needed: 1 × Judge" or a warning on the **Validator**; before, the chief was counted separately. A **Chief judge (out)** still does not count towards the judges, and a panel with a **Chief judge (in)** on its **Seats wanted** now needs one who marks, not a **Chief judge (out)** (see [A panel's settings](/manager-guide/judge-panels/#a-panels-settings))
 * Public: Opening an event's **Registration** tab without being signed in now shows how registration works and a **Sign in** button that brings you back to the same page, instead of sending you straight to the sign-in page (see [Registering on your own (solo)](/dancer/registration-for-event/#registering-on-your-own-solo))
 * Public: **Pay now** has a line under it saying that your registration is final once paid, and if you have paid, confirming a **Withdraw** reminds you that the payment is not refunded automatically: contact the organizer. The card for a class with no start time yet now says **Your dance time is announced after registration closes** (see [Withdrawing from a class](/dancer/my-registration/#withdrawing-from-a-class))
+
 ## 2026-10-22
  🛠️ **Improvements**
 * Manager, Registration: Solo and couple entries, and entries in classes without a federation class, now appear under the dancers' names on the **Registrations** list, in the cart, on start lists, in registration e-mails, on **My event**, in the club's registration lists and at the check-in desk, instead of a nickname given to the team. Group and formation classes keep their team names. To collect team names in another class, add **Participant name** under **Requested information** in its **Registration rules**. A name you type on a registration still shows and is imported (see [Team names](/manager-guide/registration-periods/#team-names))
+
 ## 2026-10-21
  🛠️ **Improvements**
 * Manager: When a dancer cancels a paid registration and registers again, the **Payment** button on the registration now lists every payment made for it, the earlier ones marked **Earlier payment**, each with its own **Refund**; before, only the latest payment was shown, so a payment made twice could not be found or refunded from the registration (see [Paid twice after cancelling](/manager-guide/entries-and-participants/#paid-twice-after-cancelling))
+
 ## 2026-10-20
  🛠️ **Improvements**
 * Public: On an event's **Tickets** tab, the price, the choice between variants (such as **Under 16** and **Over 16**) and the quantity buttons now sit next to each item instead of under a long description; on a phone the choices are stacked so they fit on the screen (see [Checking the public page](/manager-guide/shop/#checking-the-public-page))
+
 ## 2026-10-19
  ⭐ **New**
 * Manager: **Print dancer lists** on **Statistics** and **Check-in** prints every club's dancers with their classes, start numbers and a box to tick on arrival, for the entrance when the network is down or to hand to the clubs. Pick a day to list only that day's dancers, and tick **One page per organization** for a page per club (see [Dancer lists](/manager-guide/statistics/#dancer-lists))
@@ -83,20 +92,24 @@ The newest changes are on [Release notes](/release-notes/).
 * Manager: A class whose short letter is one of the federation's class codes is now linked to that Federation Class when you create, rename or split it, so the federation's age, level and round rules reach it without picking the class by hand; before, only classes created by importing a file were linked (see [Step 1: Create classes](/manager-guide/competition-setup/#step-1-create-classes))
 * Manager: The diploma guide has a downloadable A4 template and sample printout for designing your own pre-printed diploma paper: they show where each line is printed and which corner to keep free for the Vote4Dance mark (see [Designing your own diploma paper](/manager-guide/diploma-customization/#designing-your-own-diploma-paper))
 * App: If you bought Premium on the Vote4Dance website, **Cancel subscription** under **Profile → Settings** now opens your subscription in your browser, where you can change or cancel it; before, it only pointed to the App Store or Play Store, which do not list subscriptions bought on the website. Premium bought in the app is still cancelled in the App Store or Play Store (see [Cancel Premium](/dancer/following-in-the-app/#cancel-premium))
+
 ## 2026-10-18
  🛠️ **Improvements**
 * Federation: Class rule **Findings** now report rules for a category, level or age group the division no longer has (**Deleted value**) and rules whose settings cannot be read (**Cannot be read**), which are skipped when rounds are made. Both have a **Switch off** button that keeps the rule saved but stops it applying; you can switch it on again in the rule editor. A rule whose settings are not valid can no longer be saved (see [Findings](/federation-rules/round-setup-checks/#findings))
 * Manager: The printed schedule now shows the time each round is planned to start, also with **Group by classes** on; a new **Show round times** option leaves them out (see [Printing](/manager-guide/schedule/#printing))
 * Public: In the lists of events, an event that runs over the end of a month is now listed under the month it starts in, the same date its card shows; before, an event from 28 October to 1 November was listed under November
+
 ## 2026-10-17
  🛠️ **Improvements**
 * Public: A published event's page now has an address made from its name, such as vote4dance.com/public/event/snow-ball-2026, instead of a number. Links, QR codes and e-mails with the old numbered address keep working and open the same page. E-mails, payment pages and the app now link to the readable address, and a shared link shows the event's name and picture either way. While an event is **Hidden** its page keeps the numbered address; the readable one follows the event's name and date until you publish, and renaming a published event does not change it (see [Step 2: Event status](/manager-guide/event-setup/#step-2-event-status))
+
 ## 2026-10-16
  🛠️ **Improvements**
 * Manager, Supervisor: Under each judge's name on the **Panels** tab of **Judges**, the rounds and minutes now count only this competition; the "(N in other competitions)" note is gone. Seats in the event's other competitions still count when checking overlaps, rounds per day and breaks (see [Panels](/manager-guide/judge-panels/#panels))
 * Event page: Helpers with **Check-in** or **Café & sales** access now see their **Registration** or **Café & sales** tile before the event opens, so they can find their way in before the day (see [Getting a helper in before the day](/manager-guide/users-and-stations/#getting-a-helper-in-before-the-day))
 * Check-in: On a phone the **Scan** button is an icon, so the search box keeps room for its hint, and the arrived tag and country flag stay on the same line as the person's name (see [Check-in on a phone](/manager-guide/the-door/#check-in-on-a-phone))
 * Check-in: The cookie notice no longer hides the last card on a person's page; you can scroll it into view above the notice
+
 ## 2026-10-15
  ⭐ **New**
 * Scrutineer (Beta): **Add earlier judges** on the **Judges** page lists the judges of your earlier events and, once you have run an event in the federation before, of its other events, so you tick them instead of searching for each one; one click picks the whole panel of a recent event (see [Judges from earlier events](/manager-guide/judges/#judges-from-earlier-events))
@@ -117,6 +130,7 @@ The newest changes are on [Release notes](/release-notes/).
 * Federation: Searching for a person under **User** when you add or edit a licence now waits until you stop typing, and a search that cannot run shows why instead of an empty list. Federation Managers, who add and edit licences, can now search for the person too, and federation staff can search far more often before being asked to wait a minute (see [Add a license manually](/federation-licenses/federation-admin/#add-a-license-manually))
 * Federation: When you add or edit a licence, **Save** asks you to pick a person from the list under **User**; before, a name you typed without picking it was sent in place of the person (see [Add a license manually](/federation-licenses/federation-admin/#add-a-license-manually))
 * Federation: **Roles & access** shows the staff list and the search box for adding staff to Administrators and Owners, who manage staff; Viewers and Managers see a note saying so instead of an empty list (see [Invitation flow](/federation/staff-roles/#invitation-flow))
+
 ## 2026-10-13
  🛠️ **Improvements**
 * Manager, School/Club: A dancer who starts paying online but does not finish no longer shows up as **Cancelled** in the event's registrations or in the club's list; the entry stays hidden until it is paid, and an abandoned payment is removed within the hour (see [Registration statuses](/manager-guide/entries-and-participants/#registration-statuses))
@@ -124,6 +138,7 @@ The newest changes are on [Release notes](/release-notes/).
 * Manager, Supervisor: A judge on a whole floor and on one of its sections is no longer warned about being on two panels at the same time when the schedule runs a few minutes over; those rounds run one after the other. Two sections of the same floor are still checked (see [Problems with the panels](/manager-guide/judge-panels/#problems-with-the-panels))
 * Manager, Supervisor: On the **Panels** tab of **Judges**, judges are listed by letter, then by name, as on the **Judges** tab, so a temporary letter per hall groups them while you build the panels (see [Panels](/manager-guide/judge-panels/#panels))
 * Manager, Supervisor: Panel names can contain spaces again, and dragging panels to change their order no longer stops working after you rename a panel with Enter (see [A panel's settings](/manager-guide/judge-panels/#a-panels-settings))
+
 ## 2026-10-12
  ⭐ **New**
 * App: **Tap to Pay on iPhone** — desk staff take contactless cards, Apple Pay and other digital wallets right on their iPhone, with no card reader, in version 1.13.0 of the app; turn it on once from the event's **Tap to Pay on iPhone** card (see [Tap to Pay on iPhone](/manager-guide/tap-to-pay/))
@@ -150,6 +165,7 @@ The newest changes are on [Release notes](/release-notes/).
 * Federation: **Member check** now asks you to choose the dancer's club before **Check**. **All clubs** is gone: checking every club took too long and ended in "Failed to load data" (see [Check a member number](/federation-licenses/federation-admin/#9-check-a-member-number))
 * Federation: Editing a class rule is a page of its own, with **Applies to**, **When**, **Change**, how many classes the rule **Reaches**, an **Example** class and which other rules set the same value (see [The rule editor](/federation-rules/round-setup-rules/#the-rule-editor))
 * Federation: Round conditions of class rules are set in plain words, such as **The final** or **Every round except the final**, with a strip showing the rounds the rule hits. Older rules keep doing what they did, and the **Does the opposite** finding lets you choose whether to keep that or make them do what the words say (see [Round conditions in plain words](/federation-rules/round-setup-rules/#round-conditions-in-plain-words))
+
 ## 2026-10-11
  🛠️ **Improvements**
 * Manager, Supervisor: Renaming a judge panel to a name another panel in the event already uses now says so right in the panel's pop-up and keeps what you typed, instead of only showing "Could not save the panels" (see [A panel's settings](/manager-guide/judge-panels/#a-panels-settings))
@@ -159,9 +175,11 @@ The newest changes are on [Release notes](/release-notes/).
 * Manager: Importing a WDSF competition with **Search WDSF API** on the **Classes** page now fills in both partners' names for couples, and importing it again updates the teams instead of adding another class with a second copy of them
 * Manager: Uploading a couple's result with marks to WDSF now includes the rounds of couples who started in a later round
 * Manager: The **Medals** list under **Statistics** names each club as it is written on the event's entries, so two clubs with the same short name, such as SDC, get their own rows instead of being shown as one club. Different spellings of the same club name are counted together (see [Statistics](/manager-guide/statistics/))
+
 ## 2026-10-10
  🛠️ **Improvements**
 * Manager: The **Medals** list under **Statistics** ranks clubs without a medal by their 4th, 5th and 6th places, instead of by how many entries they have (see [Statistics](/manager-guide/statistics/))
+
 ## 2026-10-09
  ⭐ **New**
 * App: The **Results** tab has a **With results** filter, and opens on it as soon as a class has results; **All** shows every class (see [Find results](/dancer/following-in-the-app/#find-results))
@@ -180,6 +198,7 @@ The newest changes are on [Release notes](/release-notes/).
 * School/Club: **Members** keeps every row short: **Entries this season** shows how many competitions and entries a dancer has, such as "5 competitions · 12 entries", and the next competition they are entered in, instead of one line per competition. Click the dancer for the full list (see [Members](/school-club/club-admin/#members))
 * School/Club: **Licenses** opens on **Active** when nothing needs your club, so you see who holds a licence straight away, and the **Needs your action** card and tab only show when your federation asks clubs to approve licences or something waits for you. **Waiting for the federation** is now called **In progress**: applications that need nothing from your club, waiting on the federation's approval or the dancer's payment (see [Getting a license](/school-club/getting-a-license/))
 * Manager: **Send notifications** now marks a notification as sent even when none of the event's followers can receive a push, so it no longer stays unsent with the button still showing. Pressing it twice no longer sends the push twice, and when sending fails before anyone gets it, you can retry (see [Sending](/manager-guide/notifications/#sending))
+
 ## 2026-10-08
  ⭐ **New**
 * Public: **My registration** — every event you are registered for has a page of its own, with what you still have to do, your classes with their rounds, times and results, and whether your start number has been picked up; you pay, add a class and withdraw from a class there (see [My registration](/dancer/my-registration/))
@@ -201,15 +220,18 @@ The newest changes are on [Release notes](/release-notes/).
 * All apps: A failed sign-in says that the email or password is incorrect and suggests **Forgot your password?** or creating an account, and the sign-in page says "Sign in or create an account to continue." when you were sent there from another page (see [Account creation](/dancer/account-creation/))
 * School/Club: **Competitors** opens on this season's competitors. Duos from earlier seasons, such as the ones a dancer brings in by claiming old results, are under **Earlier seasons**, and each competitor shows whether it is entered and when it last competed. Only approved members' competitors are listed, and a competitor's own name leads the row instead of a green tag (see [Club admin screens](/school-club/club-admin/#competitors))
 * School/Club: **Licenses** has a season filter, summary cards, one list with status tabs, and approve or decline for several applications at once. **Approve** only shows where the federation asks clubs to approve licences; before, it showed on every pending application and gave an error (see [Getting a license](/school-club/getting-a-license/))
+
 ## 2026-10-07
  🛠️ **Improvements**
 * Supervisor: Supervisors can add judges who already have an account from the **Search users** box on the Judges page, not only managers; on events with several competitions, **Invite by email** also finds existing accounts again (see [Adding judges](/manager-guide/judges/#adding-judges))
+
 ## 2026-10-06
  🛠️ **Improvements**
 * Federation: The licenses overview shows each dancer's **Federation ID** under their name, the **CSV** download has a **Federation ID** column, and the search box finds a license by federation ID (see [Federation admin licenses](/federation-licenses/federation-admin/#federation-id-on-the-list))
 * Manager: Judges can be seated on a panel before it judges any class, so you can set up every panel first and give the classes their panels afterwards (see [Panels](/manager-guide/judge-panels/#panels))
 * Manager: When seating a judge, the seat menu says what each judge type does, with **How it works** linking to the guide (see [Judge types](/manager-guide/judges/#judge-types))
 * Manager: The Judges page has **How it works** links to the guide next to judge needs, **Judge absent**, the problem list and the **Suggest** preview, and the Supervisor **Judges** tab now has a **Docs** link (see [Judges](/manager-guide/judges/))
+
 ## 2026-10-05
  ⭐ **New**
 * Manager: The **Judges** page has four tabs — **Judges**, **Panels**, **Classes** and **Tablets** — and Supervisor gets the same page as its **Judges** tab (see [Judges](/manager-guide/judges/))
@@ -239,6 +261,7 @@ The newest changes are on [Release notes](/release-notes/).
 * Federation: Brackets mode can add a redance round, take the top 4 at 6–7 competitors, dance a final of three at 3, and end with a gold and a bronze battle (see [Battle class rules](/federation-rules/battle-class-rules/#bracket-settings))
 * Federation: The round setup editor shows how many active classes a setup covers and warns when it covers none, and dances that share a name are shown with what tells them apart, such as "Extrachans (Num To Advance: 3)" (see [Round setups](/federation-rules/round-setups/))
 * Federation: In brackets mode a battle round keeps the match judging its class rule sets, and a redance round without its own judging is judged like the other battles
+
 ## 2026-10-03
  ⭐ **New**
 * Manager: New and re-saved point summary rounds count round bonuses by what each round is — quarterfinal, semifinal, final or extra chance — read from the round's name, instead of by its position; finals danced as duel ladders pay every finalist its placement, and a seeding round before a final makes it a direct final. Formats with duels, lucky loser or hope rounds can be scored right by setting what each round counts as in the new **Bonus per round** table in the summary's priority settings, instead of retyping totals. Results show one column per bonus — quarterfinal, semifinal, final, extra chance and placement — and classes that name their rounds differently all get their bonuses (see [Point summary](/point-summary/#bonus-per-round))
@@ -249,6 +272,7 @@ The newest changes are on [Release notes](/release-notes/).
 * Manager: **Chief judge** and **Paper redance** take one tied position at a time. Picking several placed the new round at the lowest position you picked but filled it with the competitors tied at the first one, so their placements came back at the wrong position (see [Chief judge](/manager-guide/judges-on-the-day/#chief-judge))
 * Manager: A couple alone in a point summary that never danced against another couple gets a flat 100 points without bonus or multiplier, as when no competition is held; recalculating an older summary applies this too (see [Point summary](/point-summary/#how-points-are-counted))
 * All apps: On a slow connection, the Organizer, Federation and School/Club admin pages and the event's Stations page wait while your access is checked instead of showing Access denied until it is; an organizer who is already logged in is no longer sent to the login page while their account loads
+
 ## 2026-10-01
  🛠️ **Improvements**
 * Dancer app: An event whose organizer takes entries outside Vote4Dance shows a **Registration** card saying **Handled by the organizer** before the event, and Profile → **Registrations** says that it only lists registrations made in Vote4Dance, so a dancer whose start was added by the organizer knows where to look (see [Registration for event](/dancer/registration-for-event/#when-the-organizer-handles-entries))

@@ -355,6 +355,7 @@ The newest changes are on [Release notes](/release-notes/).
 * Documentation update
 
 ---
+
 ## 2024-12-27
  🛠️ **Improvements**
 * Screen for group results only display name of group instead of "Through to ..."
