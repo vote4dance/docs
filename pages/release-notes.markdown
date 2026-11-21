@@ -11,6 +11,7 @@ child_nav_order: reversed
 # Release notes
 ## 2026-11-21
  🛠️ **Improvements**
+* Public and the phone app: **Promotion points** on a class's results now lists only what that class's own final pays, when the federation's points table pays a direct final and a final after qualifying rounds differently. A class with qualifying rounds shows the points of a qualified final, a class whose final everyone dances shows those of a direct final, and the line at the top names the right points for 1st place. Before, both lists showed, in the phone app without saying which was which, and the top line named the direct final's points. A class with no rounds yet still shows the whole table, each row marked with the final it pays, such as **direct final** or **after qualifying rounds**; the phone app gets these marks with its next update (see [Where to see points](/federation/progression/#where-to-see-points))
 * All apps: You now stay signed in on a device you keep using: every time you open Vote4Dance on it, the 30 days you stay signed in start again. Before, a device was signed out 30 days after it first opened Vote4Dance, however recently you had used it, which could happen in the middle of a competition (see [Signing in](/signing-in/))
 * All web apps: Having Vote4Dance open in a second tab of the same browser no longer signs you out. Before, a tab left on the sign-in page could remove the sign-in of the tab you were working in, and you had to sign in again the next time your connection dropped and came back
 ## 2026-11-20
