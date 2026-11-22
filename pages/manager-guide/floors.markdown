@@ -34,7 +34,7 @@ Each floor and each section has two fields:
 | Field | What it does |
 |---|---|
 | **Floor name** | Shown in the floor lists in Manager, Speaker, Supervisor and Screens, and in the **Floor** column of the schedule. |
-| **Letter code** | A short code such as `A` or `B`. It is added after the **Round number** wherever the round number is shown: on the public schedule, the screens and the judges' round list. For example, round `3` on the section with code `A` shows as `3A`. The code also replaces the name in the schedule's **Floor** column. The hint on the field reads "Leavy empty on main floor", so leave it empty on the main floor and give the sections a code. |
+| **Letter code** | A short code such as `A` or `B`. It is added after the **Round number** wherever the round number is shown: on the public schedule, the screens and the judges' round list. For example, round `3` on the section with code `A` shows as `3A`. The code also replaces the name in the schedule's **Floor** column. The hint on the field reads "Leavy empty on main floor", so leave it empty on the main floor and give the sections a code. A section without a code whose name is only one or two characters, such as `A` or `B`, uses its name as the code in Speaker, Supervisor, the screens and the public schedule. |
 
 ## Create a floor
 
