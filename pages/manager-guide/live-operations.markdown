@@ -205,6 +205,41 @@ In a closed final, a participant that shares a place has a warning icon next to 
 **Shared placement**. If you press **Confirm round** while places are still shared, Manager asks
 first: "Warning! Some participants share a placement."
 
+### A tie at the cut in Scrutineer (Beta)
+
+When the number going through falls among participants who share a place, Scrutineer (Beta)
+stops before the round is confirmed and opens **Settle the tie at the cut**. Each way says what
+it leads to:
+
+- **A lower number**, such as **3 go through**: "everyone tied is out". The round is confirmed
+  with that number at once, and nobody dances again.
+- **A higher number**, such as **10 go through**: everyone who shares the place goes through.
+- **Dance again**: those who share the place dance again in a redance round of their own. The
+  round waits for the redance, and its places decide who goes through.
+- **Let the chief judge decide** or **Settle with a paper redance**, when the round's panel or
+  judging has them.
+
+**Dance again first, then the number.** Choose the redance straight away; how many go through is
+settled after it. For example, a second chance should send 5 on to the final. 3 participants
+have a majority of the crosses and 7 share 4th place with one cross each. **3 go through** would
+confirm the round with 3 and leave all 7 out. To let the 7 dance for the last 2 places:
+
+1. Under **Settle the tie at the cut**, choose **Dance again**.
+2. **Where it dances** shows where the redance goes in the running order. Drag it, or use ↑ ↓,
+   to move it.
+3. Press **Confirm: dance again**. The redance is on the run sheet, and the round waits for it.
+4. Start, judge and confirm the redance like any other round.
+5. Go back to the round and confirm it. The redance's places now separate the 7, so the planned
+   5 go through. If participants still share the place at the cut, Scrutineer asks again.
+
+**If you chose the lower number by mistake**, re-open the round and settle the tie again:
+
+1. On the round's page, open **···** and choose **Re-open round**.
+2. Under **What needs fixing?**, choose **Something else**, then **Judging closed — keep the
+   marks, decide the cut again**. Leave **Take those it sent on back out of the next round**
+   ticked.
+3. Press **Re-open round**. Then press **Settle the tie** and choose **Dance again**.
+
 ### Participants left out with a majority of the crosses
 
 In Scrutineer (Beta), a round judged with crosses can stop when the number going through leaves
