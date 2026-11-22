@@ -30,6 +30,12 @@ The pink number next to a class is how many competitors are in it, not how many 
 
 The **Favorites** tab collects the dancers and clubs you follow, grouped by competition. For each followed competitor you see the class, when they dance, and whether they got through. **Clear** removes everything you follow in that competition.
 
+Competitions that are over and archived move to **Earlier events** at the bottom of the tab, folded away. Tap the heading to unfold it. Each competition there is one line with its date and how many dancers and clubs you follow at it. Tap the line to open the competition and see its results, or tap **Clear** to stop following them. What you follow there stays followed until you clear it.
+
+![Earlier events on the Favorites tab, unfolded, with two competitions](/assets/images/app/favorites-earlier-events.png)
+
+In app versions from before **Earlier events**, archived competitions are no longer listed on the Favorites tab. What you follow there is kept and shows again under **Earlier events** once you update the app.
+
 ![Favorites tab with an example of followed dancers and a club](/assets/images/app/favorites-example.png)
 
 *The example card shown on the Favorites tab before you have Premium. The names are made up.*

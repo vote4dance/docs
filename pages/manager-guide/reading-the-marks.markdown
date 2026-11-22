@@ -36,7 +36,8 @@ one table for each heat:
 
 ## The Marks card in Scrutineer (Beta)
 
-In Scrutineer (Beta), the new version of the Manager app, the round page has a **Marks** card.
+In Scrutineer (Beta), the new version of the Manager app, the round page has a **Marks** card
+(**Bedömning** in Swedish).
 It has a tab for each dance, with how many judges have submitted it (such as **3/3**), and a
 **Result** tab that puts the dances together.
 
@@ -56,6 +57,16 @@ It has a tab for each dance, with how many judges have submitted it (such as **3
 
 To send a single participant on, or keep it out, against the result, see
 [Changing who goes through by hand](/manager-guide/live-operations/#changing-who-goes-through-by-hand).
+
+## The Total row in the Supervisor app
+
+In the **Supervisor** app, the result table of a round judged with crosses ends with a **Total**
+row. Under each judge's column it shows how many crosses that judge gave and, under that number,
+how many the judge was asked for, such as **6** and **of 6**. A judge who gave too few or too
+many stands out at once.
+
+In a round with several dances, the row is under each dance's table. The table for the whole
+round has a column for each dance, not for each judge, so it has no such row.
 
 ## Rounds judged with scores over several dances
 
