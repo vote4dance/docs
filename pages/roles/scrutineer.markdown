@@ -44,7 +44,7 @@ What it gives you, and what it deliberately does not:
 | See each judge's marks per round, and each participant's **Offset from Average** as a chart, so a judge who is out of line with the panel is visible at a glance | Enter or alter a judge's marks |
 | Switch to a **By component** view where the round is judged on components, show all participants, and show the name column | |
 | Show **trainee scores**, which are entered but do not affect the result | |
-| Follow judging live: *Judging in progress*, *Judges are done* per heat | |
+| Follow judging live: *Judging in progress*, *Judges are done* per heat, a padlock by each judge that turns green when the judge has handed in, and each judge's **Battery**. List a round **By heat** or by **Ranking**. See [A round's table in the Supervisor app](/manager-guide/reading-the-marks/#a-rounds-table-in-the-supervisor-app) | |
 | Filter to one floor, follow the schedule, and push things to the screens with **Show on screen** | |
 | See every warning the judges give during the whole event in one list, **Warnings**, and keep track of which ones you have dealt with | |
 | Look up any dancer by name or start number under **Dancers**, with their age, original class and rounds | |
@@ -117,6 +117,9 @@ shown side by side on **Lineup** and **Results**, in the order A, B. If you sit 
 of the floor, B is on your left: choose **B | A** under **Floor sides** at the top of the page.
 The choice is remembered on your phone or computer, so every scrutineer can pick the side they
 sit on. **Floor sides** only shows when a split floor is on the page.
+
+The Speaker app has the same choice on its **Lineup**, kept apart from yours. See
+[A split floor, seen from where you stand](/manager-guide/floors/#a-split-floor-seen-from-where-you-stand).
 
 ![Floor sides at the top of Lineup, with A | B and B | A](/assets/images/scrutineer/floor-sides.png)
 
