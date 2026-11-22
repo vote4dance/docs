@@ -44,7 +44,8 @@ It has a tab for each dance, with how many judges have submitted it (such as **3
 - **A dance tab** shows the judges' marks in that dance, and that dance's own sum and place.
 - **A column for each judge** is headed with the judge's letter, so a judge has the same header
   in every panel. When the letters are first names, as at some events, the header shows the
-  start of the name, such as **And…**. Hover over it to see the whole name. Only a judge with no
+  whole name, such as **Amanda**, and the columns are as wide as the longest name needs. Only a
+  name too long for its column is cut; hover over it to see the whole name. Only a judge with no
   letter is headed A, B, C… in seat order.
 - **The Result tab** adds the dances up and shows the place each participant ends up with. Its
   **Status** column says what happens to the participant next: **Through**, **Out**, or the name
@@ -57,6 +58,30 @@ It has a tab for each dance, with how many judges have submitted it (such as **3
 
 To send a single participant on, or keep it out, against the result, see
 [Changing who goes through by hand](/manager-guide/live-operations/#changing-who-goes-through-by-hand).
+
+### Judges' remarks
+
+In the Judging app, a judge can put a remark on a participant, such as a warning for clothes or
+a lift, or a disqualifying remark. Which remarks there are is set in the judging the round uses.
+In Scrutineer (Beta), the **Marks** card shows them at every competition and for every kind of
+judging, also in rounds judged with crosses and in battles:
+
+- **In the judge's cell**, a flag with the remark's code, such as **C**, stands under the mark.
+  It is there also when the judge gave the participant no cross. A disqualifying remark has a
+  red stop sign in place of the flag. Hover over it to read the remark in words, such as
+  "Warning: Clothes".
+- **Next to the start number**, a flag with a number says how many judges put a remark on the
+  participant, so you see it without reading every cell. Hover over it, or move to it with the
+  Tab key, to see **Judges' remarks**: each judge and the remark.
+- **In a round with several dances**, the flags are those of the dance whose tab is open.
+
+![A placement final in the Marks card: a flag with C under judge A's mark of 44, and the row's flag showing the judge and "Warning: Clothes"](/assets/images/live-marks/judges-remarks.png)
+
+The flag is a mark of its own. The small warning triangle next to a start number is a note on
+the participant's entry, and a coloured bar at the left of a row is a tie at the cut.
+
+To see when a judge saved a remark, click the judge at the top of the column. **Changes this
+judge saved** lists it with the time, such as **Remark: Warning: Clothes**.
 
 ## The Total row in the Supervisor app
 

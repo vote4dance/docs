@@ -31,6 +31,13 @@ To number the whole competition in one unbroken series, set **Start each class o
 
 A cancelled participant gets no start number. If it had one, numbering takes it away.
 
+## Printing one number again
+
+When a participant has lost a number or it is damaged, print that one number again:
+
+- **In Manager:** open the participant on `Manager → Competition → Participants` and press the printer button at the top of the panel.
+- **In Scrutineer (Beta), during the event:** open **Participants** under **Live** and search for the participant by name or start number. In the **⋮** menu of the entry, choose **Print start number**. The print page opens in a new tab with that number, and **Live** stays open where you were. A withdrawn entry, or one without a number, has no **Print start number**.
+
 ## Numbering one class at a time
 
 When you number one class, the numbers in the other classes stay as they are, and the class is numbered around them:
