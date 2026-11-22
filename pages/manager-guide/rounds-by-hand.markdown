@@ -79,6 +79,7 @@ Good to know:
 
 - If the round before sends its qualifiers somewhere other than the next round, for example straight to the final, that link stays as it is. Check its **Round for those that qualify** afterwards if it should go to the new round.
 - An **After** choice is greyed out when the round before would not send anyone to the new round, with the reason under it: the round has started, it sends nobody on (a final), or it sends its qualifiers to a round picked for it.
+- **Place in class** is only on the form when you add a round. A round that already exists can't be moved to another place in the class, so if a round ended up in the wrong place, delete it and add it again with the right **After** choice. Deleting a round links the round before it to the round after it.
 - A second chance round can only be added **After the last round**. Where it sits in the class doesn't change where its participants go.
 
 ## Send the rest to a second chance or a B-final
