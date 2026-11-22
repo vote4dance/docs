@@ -254,7 +254,7 @@ Do not create it a second time. If the **Setting up your event** window stopped 
 3. Change the date. To go between one day and several, change **Event duration** first.
 4. Go to **Finalize** and press **Save changes**.
 
-Changing the date does not move the schedule. Check the day headings on `Event → Schedule` afterwards.
+Changing the date does not move the schedule. Check the day headings on `Event → Schedule` afterwards. In Scrutineer (Beta), **Schedule** warns when a page is dated outside the event's dates (see [A day outside the event's dates](/manager-guide/schedule/#a-day-outside-the-events-dates)).
 
 ### "Publish competition is greyed out, or answers with a message"
 
