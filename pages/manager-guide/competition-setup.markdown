@@ -88,7 +88,7 @@ Every class needs its rounds, for example a semifinal and a final. The **Round g
 
 1. Go to `Competition → Classes` and click the class. Its rounds open under it.
 2. Click **Round guide**.
-3. Check **Division**, **Discipline** and **Federation Class**. They are filled in from the class.
+3. Check **Division**, **Discipline** and **Federation Class**. They are filled in from the class. The **Federation** is the competition's own and cannot be changed in the Round guide. To plan from another federation's classes, change the federation in the event's details first.
 4. Pick the **Schedule item** the rounds go on, and the **Floor**. See [Schedule and conflicts](/manager-guide/schedule/) for schedule items.
 5. Enter the **Number of Participants**. If the class already has participants, their number is filled in. If not, enter the number you expect.
 6. Click **Preview** to see the rounds you will get: for each round its name, how many participants dance in it, its judging type, its heats and how many go on. A point summary from the federation's rules is marked **Unscheduled · calculated after the final**.
@@ -121,6 +121,27 @@ In Scrutineer (Beta), the new version of the Manager app, the button is **Create
 The Round guide replaces the rounds the class already has. So you can run it again when the number of participants has changed, for example after registration closes.
 
 It works until participants have been put in one of the class's rounds. After that it answers "Cannot create rounds from guide if participants are already present". Then change the rounds one at a time: see [Adding rounds by hand](/manager-guide/rounds-by-hand/).
+
+### Rounds that show "Judging type not active"
+
+A round's judging type belongs to a federation. A round whose judging type belongs to another federation than the competition's shows **Judging type not active** in red, and its settings cannot be saved until you choose another judging type. It still judges and calculates. This happens when the competition's federation was changed after its rounds were made.
+
+In Scrutineer (Beta), the **Classes** page then says how many rounds this is, with a button to switch them:
+
+![The Classes page saying that 8 rounds use judging types of another federation](/assets/images/judging-switch/classes-notice.jpg)
+
+1. Click **Switch judging types…**. The list shows each judging type the rounds use now, what it becomes, and how many rounds it is. Each round gets the competition's judging of the same kind, the one with the same name when there are several.
+
+   ![The list of judging types before and after the switch](/assets/images/judging-switch/switch-dialog.jpg)
+
+2. Click **Switch** with the number of rounds. The notice goes away when no round is left to switch.
+
+Some rounds are not switched:
+
+- A round that judges have already marked keeps its judging type, so the marks stay as they were given.
+- A judging type the competition has nothing of the same kind for shows **No match: choose one in the round's settings**. Open the round and choose a **Judging type** yourself.
+
+When you change the federation in the event's details, **Save changes** asks the same question before it saves. **Switch** is chosen for you; **Keep them as they are** leaves the rounds for later.
 
 ### Heats not needed
 
@@ -318,6 +339,7 @@ The import is refused when a participant it should add or change has no class in
 | A participant is not in the class. | The registration is not **Approved**, or it was approved after the last import. | Approve it and click **Update/import participants** again. For a participant added by hand, check **Starting in**. |
 | A participant is in the class but not in the round. | Participants are put in the first round with a button, not by themselves. | Click **Add participants** on the round. |
 | The Round guide says "Cannot create rounds from guide if participants are already present". | A round of the class already has participants. | Change the rounds one at a time. See [Adding rounds by hand](/manager-guide/rounds-by-hand/). |
+| A round shows **Judging type not active** in red. | The round uses a judging type of another federation than the competition's. | Switch it on the **Classes** page in Scrutineer (Beta). See [Rounds that show "Judging type not active"](#rounds-that-show-judging-type-not-active). |
 | A panel cannot be changed. | A panel locks once a round that uses it has scores. | See [When assignment locks](/manager-guide/judge-panels/#when-assignment-locks). |
 | A file import put participants in the wrong class. | The file names the wrong class for them. | Correct the file and upload it again on **Data transfer**. The preview shows what will change. |
 
