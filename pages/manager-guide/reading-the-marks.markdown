@@ -44,7 +44,8 @@ It has a tab for each dance, with how many judges have submitted it (such as **3
 - **A dance tab** shows the judges' marks in that dance, and that dance's own sum and place.
 - **A column for each judge** is headed with the judge's letter, so a judge has the same header
   in every panel. When the letters are first names, as at some events, the header shows the
-  start of the name, such as **And…**. Hover over it to see the whole name. Only a judge with no
+  whole name, such as **Amanda**, and the columns are as wide as the longest name needs. Only a
+  name too long for its column is cut; hover over it to see the whole name. Only a judge with no
   letter is headed A, B, C… in seat order.
 - **The Result tab** adds the dances up and shows the place each participant ends up with. Its
   **Status** column says what happens to the participant next: **Through**, **Out**, or the name
@@ -57,6 +58,58 @@ It has a tab for each dance, with how many judges have submitted it (such as **3
 
 To send a single participant on, or keep it out, against the result, see
 [Changing who goes through by hand](/manager-guide/live-operations/#changing-who-goes-through-by-hand).
+
+### Judges' remarks
+
+In the Judging app, a judge can put a remark on a participant, such as a warning for clothes or
+a lift, or a disqualifying remark. Which remarks there are is set in the judging the round uses.
+In Scrutineer (Beta), the **Marks** card shows them at every competition and for every kind of
+judging, also in rounds judged with crosses and in battles:
+
+- **In the judge's cell**, a flag with the remark's code, such as **C**, stands under the mark.
+  It is there also when the judge gave the participant no cross. A disqualifying remark has a
+  red stop sign in place of the flag. Hover over it to read the remark in words, such as
+  "Warning: Clothes".
+- **Next to the start number**, a flag with a number says how many judges put a remark on the
+  participant, so you see it without reading every cell. Hover over it, or move to it with the
+  Tab key, to see **Judges' remarks**: each judge and the remark.
+- **In a round with several dances**, the flags are those of the dance whose tab is open.
+
+![A placement final in the Marks card: a flag with C under judge A's mark of 44, and the row's flag showing the judge and "Warning: Clothes"](/assets/images/live-marks/judges-remarks.png)
+
+The flag is a mark of its own. The small warning triangle next to a start number is a note on
+the participant's entry, and a coloured bar at the left of a row is a tie at the cut.
+
+To see when a judge saved a remark, click the judge at the top of the column. **Changes this
+judge saved** lists it with the time, such as **Remark: Warning: Clothes**.
+
+## A round's table in the Supervisor app
+
+In the **Supervisor** app, **Results** has a table for each round that is being judged or waits
+to be published. A round opened from **Schedule** shows the same table.
+
+![A round in Supervisor listed by heat, with padlocks by the judges and a warning triangle by a start number](/assets/images/scrutineer/round-by-heat.png)
+
+- **A column for each judge** is headed with the judge's letter. While the round is being
+  judged, a padlock by the letter shows whether the judge has handed in: a green closed padlock
+  when they have, a grey open one while they have not.
+- **A warning triangle by a start number** marks a participant whose entry carries a warning,
+  such as one that came with the registration from the federation. Hover over the triangle, or
+  tap it on a tablet, to read the warning. It is the same warning that Scrutineer (Beta) shows
+  by the start number in the **Marks** card.
+- **By heat** and **Ranking**, above the table, choose how the rows are listed. **Ranking**
+  lists the participants as the round ranks them. **By heat** puts them under a heading for
+  each heat, such as **Heat 2 · 3** for a heat of three, in start number order, so the table
+  follows what you see on the floor. A round danced in one heat looks the same either way.
+  The choice is remembered on your phone or computer and holds for every round. The columns
+  cannot be sorted while **By heat** is chosen.
+- **The judges of the round** are listed under the table. A judge whose tablet or phone is
+  connected has its battery after the name, such as **Battery 94%**. At 20% or less it turns
+  red, so you can have the device charged or swapped before it goes out. A judge with no
+  battery shown is not connected, or uses a device that does not report its battery. Hovering
+  over a judge's letter at the top of the table shows the name and the battery too.
+
+![The judges under a round's table in Supervisor, with the battery after the name of the judge whose device is connected](/assets/images/scrutineer/judge-battery.png)
 
 ## The Total row in the Supervisor app
 

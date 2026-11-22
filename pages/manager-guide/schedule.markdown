@@ -53,6 +53,25 @@ Two tabs are made by the system and cannot be edited or moved:
 
 A page can only be deleted when it is empty, and the schedule must keep at least one page.
 
+### A day outside the event's dates
+
+The event's own dates decide on which days the event is running. On vote4dance.com it is shown as running only from its first day to its last. A page dated outside those days, such as a Sunday page in an event set to Saturday only, is a day the event is not shown as running, even though rounds are planned for it.
+
+Scrutineer (Beta) warns about this at the top of **Schedule**, naming the days and the event's dates, for example "November 22, 2026 is in the schedule, but the event is set to November 21, 2026."
+
+![The warning above the tabs of the schedule when a page is dated after the event's last day](/assets/images/schedule/day-outside-event-dates.png)
+
+When the event really runs on that day, change the event's dates:
+
+1. Click **Change event dates →** in the warning. **Event details** opens.
+2. Under **When**, choose **Multiple days**.
+3. Set **Date** so it runs from the first day of the schedule to the last.
+4. Click **Save changes**. The warning goes away.
+
+When it is the page that has the wrong date, click the pencil on its tab and change **Date** there instead.
+
+The **Schedule page** dialog gives the same warning under **Date** as soon as you pick a day outside the event's dates: "The event is set to November 21, 2026. Change the event's dates to include this day." You can still save the page.
+
 ## Schedule items
 
 **Add schedule item** on a page opens **Schedule information**:
@@ -249,6 +268,7 @@ The report follows the schedule as you change it. A **Tight** row is a warning, 
 | "You must remove all schedule items in the page before deleting." | Delete or move the page's items first. |
 | "You must keep at least one schedule page break." | The last page cannot be deleted. Rename it instead. |
 | "You must remove all rounds in the schedule before deleting." | The item still has rounds. Use **Move to other** or change the rounds' **Schedule item**. |
+| "… is in the schedule, but the event is set to …" | A page is dated outside the event's dates. Change the event's dates, or the page's date; see [A day outside the event's dates](#a-day-outside-the-events-dates). |
 | No **Start** column and no **Planned end** | The item has no time, or the rounds have no **Heat length** or **Number of heats**. |
 | Buttons are greyed out | The event is closed or archived, or you do not have edit access. |
 | The public page says there is no schedule | The schedule is not published, or all items are **Visible for staff only**. |

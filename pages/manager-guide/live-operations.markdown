@@ -205,6 +205,43 @@ In a closed final, a participant that shares a place has a warning icon next to 
 **Shared placement**. If you press **Confirm round** while places are still shared, Manager asks
 first: "Warning! Some participants share a placement."
 
+### A tie at the cut in Scrutineer (Beta)
+
+When the number going through falls among participants who share a place, Scrutineer (Beta)
+stops before the round is confirmed and opens **Settle the tie at the cut**. Each way says what
+it leads to:
+
+- **A lower number**, such as **3 to Final**: everyone who shares the place is out, and nobody
+  dances again. The round is confirmed with that number at once.
+- **A higher number**, such as **10 to Final**: everyone who shares the place goes through.
+- **Dance again**: those who share the place dance again in a redance round of their own, for the
+  places that are left. The round waits for the redance; then the planned number goes through.
+- **Let the chief judge decide** or **Settle with a paper redance**, when the round's panel or
+  judging has them.
+
+**Dance again first, then the number.** Choose the redance straight away; how many go through is
+settled after it. For example, a second chance should send 5 on to the final. 3 participants
+have a majority of the crosses and 7 share 4th place with one cross each. **3 to Final** says
+"All 7 who share the place are out, and nobody dances again": it would confirm the round with 3.
+**Dance again** says "The 7 who share the place dance again for the last 2 places. This round
+waits until the redance is confirmed; then 5 go to Final." To let the 7 dance for those places:
+
+1. Under **Settle the tie at the cut**, choose **Dance again**.
+2. **Where it dances** shows where the redance goes in the running order. Drag it, or use ↑ ↓,
+   to move it.
+3. Press **Confirm: dance again**. The redance is on the run sheet, and the round waits for it.
+4. Start, judge and confirm the redance like any other round.
+5. Go back to the round and confirm it. The redance's places now separate the 7, so the planned
+   5 go through. If participants still share the place at the cut, Scrutineer asks again.
+
+**If you chose the lower number by mistake**, re-open the round and settle the tie again:
+
+1. On the round's page, open **···** and choose **Re-open round**.
+2. Under **What needs fixing?**, choose **Something else**, then **Judging closed — keep the
+   marks, decide the cut again**. Leave **Take those it sent on back out of the next round**
+   ticked.
+3. Press **Re-open round**. Then press **Settle the tie** and choose **Dance again**.
+
 ### Participants left out with a majority of the crosses
 
 In Scrutineer (Beta), a round judged with crosses can stop when the number going through leaves
@@ -279,9 +316,17 @@ read its result.
 
 ### A dancer withdraws before the first round
 
-When you withdraw a participant in its own form, or with check-in, while it is only in the first
-round of its class and no judge has marked it there yet, it is taken out of that round as well.
-It gets no place in the result, and the results file shows it as withdrawn (**S**).
+When you withdraw a participant in its own form, with check-in, or with **Withdraw…** in the
+**⋮** menu of its entry on **Participants** under **Live**, while it is only in the first round of
+its class and no judge has marked it there yet, it is taken out of that round as well. This works
+while the round is not started or is being judged. It gets no place in the result, and the
+results file shows it as withdrawn (**S**). The **Withdraw** dialog on **Participants** says when
+this will happen.
+
+Take the withdrawal back with **Undo** in the message that confirms it, with **Undo withdraw** on
+the entry, or in the participant's form. The participant goes back into the same heat, in the same
+place, as long as the round is still not closed. A participant you took out of a round yourself
+is not put back.
 
 A participant you withdraw from the round itself, from the menu on its row (**Cancel
 competitor**) or from the lineup, stays in the round, struck through, so you can take the
@@ -289,8 +334,8 @@ withdrawal back with **Undo cancel**. So does a participant that has already bee
 that is in a round that is closed or confirmed. Such a participant is placed last. To leave it
 out of the result, take it out of the round before judging starts.
 
-If you withdrew the wrong participant in its form, take back the withdrawal and add the
-participant to the round again.
+If you withdrew the wrong participant after its round was closed, take back the withdrawal and
+add the participant to the round again.
 
 ### Round comment
 
@@ -313,6 +358,49 @@ walk through the rounds before the event:
 ![The round comment as the last row of the round facts](/assets/images/live-round/round-comment.png)
 
 There, once a round is confirmed and published, its comment is still shown but can't be changed.
+
+### Start the class's next round
+
+In Scrutineer (Beta), once a round is confirmed you usually start the next round of the same
+class straight away, so its judges have it. The confirmed round's card leads with that:
+
+1. Confirm the round. Its card now shows **Start** and the name of the class's next round, for
+   example **Start Second chance**: the class's second chance round while it is still to be
+   danced, otherwise the round the participants were sent to.
+2. Press it. Judging starts in that round and you stay on the confirmed round, so you can
+   publish it. **Publish results…** stands beside the button.
+3. To open the started round, click it in the class's rounds at the top of the page.
+
+If that round can't start yet, for example nobody is in it or it has no judging panel, the
+button is greyed out and the card says why, with a link to open the round and put it right. If
+you want to change how many go through to it first, open it from the class's rounds and start it
+there. The **Previous on the schedule** and **Next on the schedule** boxes under the round's facts follow the running
+order of the event, whatever class comes next.
+
+### Change how many go through
+
+In Scrutineer (Beta), on a round's page in **Live**:
+
+1. Click **Through** in the round's facts, at the top of the page.
+2. While the round is **Not started** or **In progress**, a box opens with the number. Use
+   **−** and **+**, or type it, and click **Save** (or press **Enter**). On a round being judged,
+   the box warns you first.
+3. Once judging is closed, **Through** opens **How many go through?** instead, where you pick the
+   number from the result.
+
+On a confirmed round the number can't be changed there: see
+[A round was closed, confirmed or published too early](#a-round-was-closed-confirmed-or-published-too-early).
+
+### Where a redance dances
+
+When you settle a tie at the line with **Redance** in Scrutineer (Beta), **Where it dances**
+lists the run sheet from the tied round on. The redance starts **Up next** and can be dragged, or
+moved with the arrows, to any place before the class's next round, which waits for it.
+
+It can't go before a round that is being danced or is done: judging closed, or at least one judge
+handed in. A round whose judging was started ahead of its turn, with no judge in yet, says
+**started, no judge in yet** and the redance can go before it. If the redance has only one place,
+the list says why instead of how to move it.
 
 ## Let autopilot run a round
 
@@ -528,7 +616,10 @@ and **Total delay**. The **Offset** column shows how far each round ran over its
 
 In Scrutineer (Beta) the same figures are under **Setup** → **Schedule** for every schedule item
 where a round has started. Its **Live** schedule tags an item that still has rounds to run with
-the same delay in whole minutes, for example **5 min behind** or **7 min ahead**.
+the same delay in whole minutes once it is 5 minutes or more, for example **5 min behind** or
+**7 min ahead**. From 5 minutes Live also offers **Move start times…** for the items that follow.
+Each round on the **Live** schedule shows how many start in it and, when it is danced in two or
+more heats, how many heats, such as **15 starters** and **2 heats** under it.
 
 The estimated start of the rounds that follow moves by itself, and the Speaker, the screens and
 the public page show the new times. You do not have to change anything for that.
