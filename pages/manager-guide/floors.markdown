@@ -7,6 +7,7 @@ parent: Set up the event
 nav_order: 4
 help:
   manager.event.floor: ""
+  speaker.floor-sides: a-split-floor-seen-from-where-you-stand
 ---
 
 # Floors
@@ -111,6 +112,14 @@ What the filter includes:
 Rounds with no floor are always included.
 
 Give each floor's MC their own Speaker set to that floor. Your chief scrutineer can keep Supervisor on **All floors**.
+
+### A split floor, seen from where you stand
+
+When a floor is split into sections, such as A and B, the rounds that are danced at the same time are shown side by side on **Lineup**, in the order A, B. If you stand on the other side of the floor, B is on your left: choose **B \| A** under **Floor sides** at the top of **Lineup**.
+
+![Floor sides at the top of the Speaker's Lineup, set to B \| A](/assets/images/floors/speaker-floor-sides.png)
+
+Both Speaker and Supervisor have **Floor sides**. Each app remembers the choice on the phone or computer it was made on, so the speaker and the scrutineer can be on opposite sides of the floor. In Supervisor it turns **Results** as well, see [A split floor, seen from your seat](/scrutineer/#a-split-floor-seen-from-your-seat). **Floor sides** only shows when a split floor is on the page.
 
 ## Several floors at once
 
