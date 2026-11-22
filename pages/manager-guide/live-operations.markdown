@@ -211,18 +211,20 @@ When the number going through falls among participants who share a place, Scruti
 stops before the round is confirmed and opens **Settle the tie at the cut**. Each way says what
 it leads to:
 
-- **A lower number**, such as **3 go through**: "everyone tied is out". The round is confirmed
-  with that number at once, and nobody dances again.
-- **A higher number**, such as **10 go through**: everyone who shares the place goes through.
-- **Dance again**: those who share the place dance again in a redance round of their own. The
-  round waits for the redance, and its places decide who goes through.
+- **A lower number**, such as **3 to Final**: everyone who shares the place is out, and nobody
+  dances again. The round is confirmed with that number at once.
+- **A higher number**, such as **10 to Final**: everyone who shares the place goes through.
+- **Dance again**: those who share the place dance again in a redance round of their own, for the
+  places that are left. The round waits for the redance; then the planned number goes through.
 - **Let the chief judge decide** or **Settle with a paper redance**, when the round's panel or
   judging has them.
 
 **Dance again first, then the number.** Choose the redance straight away; how many go through is
 settled after it. For example, a second chance should send 5 on to the final. 3 participants
-have a majority of the crosses and 7 share 4th place with one cross each. **3 go through** would
-confirm the round with 3 and leave all 7 out. To let the 7 dance for the last 2 places:
+have a majority of the crosses and 7 share 4th place with one cross each. **3 to Final** says
+"All 7 who share the place are out, and nobody dances again": it would confirm the round with 3.
+**Dance again** says "The 7 who share the place dance again for the last 2 places. This round
+waits until the redance is confirmed; then 5 go to Final." To let the 7 dance for those places:
 
 1. Under **Settle the tie at the cut**, choose **Dance again**.
 2. **Where it dances** shows where the redance goes in the running order. Drag it, or use ↑ ↓,
