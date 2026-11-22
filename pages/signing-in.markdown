@@ -36,6 +36,8 @@ Use this the first time, on a new device, or whenever you have no passkey.
 
    ![The screen where you type the 6-digit code](/assets/images/sign-in/sign-in-code.png)
 
+Under the code boxes the screen says **The code works for 10 minutes.** That is how long you have to type it. **Send again in 0:30** further down counts something else: the half minute before you can ask for another code.
+
 If the code is late, press **Send again** after 30 seconds. The code in the first e-mail keeps working for 10 minutes, so it is not wasted if that e-mail turns up late. Use whichever code you have: either one signs you in, and then both stop working.
 
 You are signed in. The code proves that the inbox is yours, so there is nothing to remember and nothing to reset.
