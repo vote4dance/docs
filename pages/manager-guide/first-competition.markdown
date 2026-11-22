@@ -56,7 +56,7 @@ This is the minimum. Everything else is optional polish.
 | # | What | Where | Why it must be there |
 |---|---|---|---|
 | 1 | Event (name, dates, location, description) | **Create a competition** on the **My competitions** tab of the Vote4Dance home page | Holds everything else. See [Event setup](/manager-guide/event-setup/). |
-| 2 | The kind of event, and the federation | Event creation | **What kind of event?** is `Practice event` or `Live competition`; live competitions enable reusable competition profiles and billing. **Use classes from** is the federation whose classes and rules apply: optional for a practice event, required for a live competition. Both shape everything after them. |
+| 2 | The kind of event, and the federation | Event creation | **What kind of event?** is `Practice event` or `Live competition`; live competitions enable reusable competition profiles and billing. **Sanctioned by** is the federation whose classes and rules apply: optional for a practice event, required for a live competition. Both shape everything after them. |
 | 3 | Event image | `Manager → Event overview` | The event **cannot be published without it**. 1600 × 900 JPG/PNG, not HEIC. See [Event image](/manager-guide/event-image/). |
 | 4 | Floor | `Manager → Event → Floor` | A round can be placed on a floor, so the Speaker, the Supervisor and each screen can follow one floor. A new event already has a **Main floor**, which is enough for most competitions. See [Floors](/manager-guide/floors/). |
 | 5 | Competition and classes | `Manager → Event → Competitions`, then `Competition → Classes` | What dancers register into. Each class maps to a Federation Class, which carries its age and level rules. See [Competition setup](/manager-guide/competition-setup/). |

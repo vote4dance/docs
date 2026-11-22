@@ -46,7 +46,7 @@ Do not rehearse in your real event. Create a separate event for testing:
 2. Fill in **Event name** and the date.
 3. Under **What kind of event?**, keep **Practice event**. Practice events are not billed
    and are excluded from federation reporting, so nothing you do here shows up anywhere real.
-4. Under **Use classes from**, keep **No federation (I make my own classes)** and no
+4. Under **Sanctioned by**, keep **No federation (I make my own classes)** and no
    federation rules, licenses or rankings get in the way. To rehearse with your federation's
    classes, pick the federation instead; no points are given.
 5. Press **Create event**. The event opens in Scrutineer (Beta). To follow this page in the

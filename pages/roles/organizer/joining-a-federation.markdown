@@ -20,9 +20,9 @@ date or expecting your club to be a member. Ask them before you announce the eve
 ## How to choose the federation
 
 **When you create the event.** The **Create event** form asks **What kind of event?** and has the
-field **Use classes from** for the federation:
+field **Sanctioned by** for the federation:
 
-| Kind of event | What you choose in **Use classes from** |
+| Kind of event | What you choose in **Sanctioned by** |
 |---|---|
 | **Practice event** | The federation is optional. Leave **No federation (I make my own classes)**, or pick a federation to try out its classes. No points are given. Good for a first event or a test. |
 | **Live competition** | You must pick the federation. Its rules, classes and license checks apply, and the event appears on the federation's Competitions list. |
@@ -32,7 +32,7 @@ The form belongs to Scrutineer (Beta), the new version of Manager. For the whole
 
 **To change it later.** On **Event overview**, press **Edit event**. The federation is on the
 **Federation** step, under **Select a federation**. Go to **Finalize** and press **Save changes**.
-In Scrutineer (Beta) the field is **Federation**, under **Classes from** on **Event details**. See
+In Scrutineer (Beta) the field is **Federation**, under **Sanctioned by** on **Event details**. See
 [Event details page](/manager-guide/event-setup/#step-3-event-details-page).
 
 The event moves to the new federation's list at once. **Do it before you build classes and open

@@ -29,8 +29,8 @@ The form, and the page the new event opens on, belong to Scrutineer (Beta), the 
 
 This choice decides how much the form asks you:
 
-- **Practice event** — "Try it out with test dancers. It's free, and results don't give federation points." Under **Use classes from** you can leave **No federation (I make my own classes)**.
-- **Live competition** — "A real competition, with federation rules, levels and points." Under **Use classes from** you pick the [federation](/understanding-vote4dance/key-terminology/), and its licenses, classes and rules apply.
+- **Practice event** — "Try it out with test dancers. It's free, and results don't give federation points." Under **Sanctioned by** you can leave **No federation (I make my own classes)**.
+- **Live competition** — "A real competition, with federation rules, levels and points." Under **Sanctioned by** you pick the [federation](/understanding-vote4dance/key-terminology/), and its licenses, classes and rules apply.
 
 **Not sure?** Take the practice event. You can change the kind afterwards, and a practice event costs nothing and is excluded from federation reporting.
 
