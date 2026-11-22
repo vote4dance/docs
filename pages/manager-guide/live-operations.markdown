@@ -618,6 +618,8 @@ In Scrutineer (Beta) the same figures are under **Setup** → **Schedule** for e
 where a round has started. Its **Live** schedule tags an item that still has rounds to run with
 the same delay in whole minutes once it is 5 minutes or more, for example **5 min behind** or
 **7 min ahead**. From 5 minutes Live also offers **Move start times…** for the items that follow.
+Each round on the **Live** schedule shows how many start in it and, when it is danced in two or
+more heats, how many heats, such as **15 starters** and **2 heats** under it.
 
 The estimated start of the rounds that follow moves by itself, and the Speaker, the screens and
 the public page show the new times. You do not have to change anything for that.
