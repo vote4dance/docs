@@ -60,9 +60,10 @@ To get back to an event you have already created, open it from the **My competit
    | **Practice event** | "Try it out with test dancers. It's free, and results don't give federation points." The right choice for a first look and for a rehearsal. It is chosen for you when the form opens. |
    | **Live competition** | "A real competition, with federation rules, levels and points." Vote4Dance invoices you per dancer, and you add the billing details later, before you publish. |
 
-4. In **Use classes from**, choose the federation.
+4. In **Federation**, choose the federation.
    - For a practice event this is optional. Leave **No federation (I make my own classes)**, or pick a federation to try out its classes. No points are given.
    - For a live competition you must pick the federation. Its rules, classes and license checks apply. There is no approval step: picking the federation is what puts the event on the federation's [Competitions](/federation/competitions/) list.
+   - The federation is chosen here, or later in the field **Federation** in the event's details, and nowhere else: the Round guide and the class settings always use it. If you change it once the event has rounds, the field says how many rounds use judging types the new federation does not have, and **Save changes** asks whether to switch them to the new federation's judging of the same kind. See [Rounds that show "Judging type not active"](/manager-guide/competition-setup/#rounds-that-show-judging-type-not-active).
 5. For a live competition, fill in **Live competition details**:
    - **Level**: optional, a reusable level from that federation.
    - **Organizer**: the organizing club or company, as it should be shown.
