@@ -316,9 +316,17 @@ read its result.
 
 ### A dancer withdraws before the first round
 
-When you withdraw a participant in its own form, or with check-in, while it is only in the first
-round of its class and no judge has marked it there yet, it is taken out of that round as well.
-It gets no place in the result, and the results file shows it as withdrawn (**S**).
+When you withdraw a participant in its own form, with check-in, or with **Withdraw…** in the
+**⋮** menu of its entry on **Participants** under **Live**, while it is only in the first round of
+its class and no judge has marked it there yet, it is taken out of that round as well. This works
+while the round is not started or is being judged. It gets no place in the result, and the
+results file shows it as withdrawn (**S**). The **Withdraw** dialog on **Participants** says when
+this will happen.
+
+Take the withdrawal back with **Undo** in the message that confirms it, with **Undo withdraw** on
+the entry, or in the participant's form. The participant goes back into the same heat, in the same
+place, as long as the round is still not closed. A participant you took out of a round yourself
+is not put back.
 
 A participant you withdraw from the round itself, from the menu on its row (**Cancel
 competitor**) or from the lineup, stays in the round, struck through, so you can take the
@@ -326,8 +334,8 @@ withdrawal back with **Undo cancel**. So does a participant that has already bee
 that is in a round that is closed or confirmed. Such a participant is placed last. To leave it
 out of the result, take it out of the round before judging starts.
 
-If you withdrew the wrong participant in its form, take back the withdrawal and add the
-participant to the round again.
+If you withdrew the wrong participant after its round was closed, take back the withdrawal and
+add the participant to the round again.
 
 ### Round comment
 
