@@ -130,7 +130,7 @@ In Scrutineer (Beta), the **Classes** page then says how many rounds this is, wi
 
 ![The Classes page saying that 8 rounds use judging types of another federation](/assets/images/judging-switch/classes-notice.jpg)
 
-1. Click **Switch judging types…**. The list shows each judging type the rounds use now, what it becomes, and how many rounds it is. Each round gets the competition's judging of the same kind, the one with the same name when there are several.
+1. Click **Switch judging types…**. The list shows each judging type the rounds use now, what it becomes, and how many rounds it is. Each round gets the competition's judging of the same kind that its class's division can use, the one with the same name when there are several.
 
    ![The list of judging types before and after the switch](/assets/images/judging-switch/switch-dialog.jpg)
 
