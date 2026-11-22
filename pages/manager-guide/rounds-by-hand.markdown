@@ -120,6 +120,9 @@ Good to know:
 - When you confirm the round on the day, the rest are sent to the round you chose, and that round's **Best placement** is set to the first place after those who went through unless you choose otherwise. A best placement of the round's own does not change that: a quarterfinal placed from 14 that sends 7 on sets its second chance to 8.
 - When the round is itself a second chance, the places of those who went straight on from the round before count too. For example, four went from the first round to the final and the rest to an extra chance placed from 5: when the extra chance sends 2 on, the round its rest go to is set to 7.
 - When the round you chose for the non-qualified is also the round for those that qualify, its **Best placement** is left as it is.
+- In Scrutineer (Beta), you can also set how many go on from the round for the non-qualified when you confirm. In **How many go through?**, or in **Settle the tie at the cut** when there is a tie, open **Round for non-qualified participants**: under **Best placement**, **How many go through from** (with the round's name) starts at that round's own number. Change it, for example to let the judges bring 3 back from the second chance instead of 2, and it is saved when you press **Confirm**. It shows only while that round sends participants on (not for a B-final) and has not started.
+
+  ![How many go through from Andra Chansen under Best placement in the How many go through? window](/assets/images/round-guide/how-many-from-second-try.png)
 
 ## Add a child round or a chance round
 
