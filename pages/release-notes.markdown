@@ -26,6 +26,7 @@ child_nav_order: reversed
 * Scrutineer (Beta): In Swedish, Norwegian, Dutch, German, French and Finnish, the **Marks** card on a live round is now named after judging, such as **Bedömning** in Swedish, and its line **Updates as marks arrive** no longer speaks of crosses. Before, the card was called **Kryss** (crosses) also on a final judged with places. English and Spanish are unchanged
 * All web apps: In the dark theme, the selected tab, links such as **Show more**, and grey text such as descriptions are now lighter, so they are easier to read against the dark background. Before, the pink and the grey were too faint for many readers
 * All web apps: On a phone, keyboard and screen reader users no longer land on the header links that are folded away under **…**, and the logo link is read out as **Vote4Dance**. Before, pressing Tab moved to links that could not be seen, and the logo link had no name
+* All apps: You now stay signed in on a device you keep using: every time you open Vote4Dance on it, the 30 days you stay signed in start again. Before, a device was signed out 30 days after it first opened Vote4Dance, however recently you had used it, which could happen in the middle of a competition (see [Signing in](/signing-in/))
 
 ## 2026-11-21
  ⭐ **New**
