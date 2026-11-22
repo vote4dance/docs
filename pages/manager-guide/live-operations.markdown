@@ -571,7 +571,8 @@ and **Total delay**. The **Offset** column shows how far each round ran over its
 
 In Scrutineer (Beta) the same figures are under **Setup** → **Schedule** for every schedule item
 where a round has started. Its **Live** schedule tags an item that still has rounds to run with
-the same delay in whole minutes, for example **5 min behind** or **7 min ahead**.
+the same delay in whole minutes once it is 5 minutes or more, for example **5 min behind** or
+**7 min ahead**. From 5 minutes Live also offers **Move start times…** for the items that follow.
 
 The estimated start of the rounds that follow moves by itself, and the Speaker, the screens and
 the public page show the new times. You do not have to change anything for that.
