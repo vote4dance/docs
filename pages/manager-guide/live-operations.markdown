@@ -314,6 +314,49 @@ walk through the rounds before the event:
 
 There, once a round is confirmed and published, its comment is still shown but can't be changed.
 
+### Start the class's next round
+
+In Scrutineer (Beta), once a round is confirmed you usually start the next round of the same
+class straight away, so its judges have it. The confirmed round's card leads with that:
+
+1. Confirm the round. Its card now shows **Start** and the name of the class's next round, for
+   example **Start Second chance**: the class's second chance round while it is still to be
+   danced, otherwise the round the participants were sent to.
+2. Press it. Judging starts in that round and you stay on the confirmed round, so you can
+   publish it. **Publish results…** stands beside the button.
+3. To open the started round, click it in the class's rounds at the top of the page.
+
+If that round can't start yet, for example nobody is in it or it has no judging panel, the
+button is greyed out and the card says why, with a link to open the round and put it right. If
+you want to change how many go through to it first, open it from the class's rounds and start it
+there. The **Previous on the schedule** and **Next on the schedule** boxes under the round's facts follow the running
+order of the event, whatever class comes next.
+
+### Change how many go through
+
+In Scrutineer (Beta), on a round's page in **Live**:
+
+1. Click **Through** in the round's facts, at the top of the page.
+2. While the round is **Not started** or **In progress**, a box opens with the number. Use
+   **−** and **+**, or type it, and click **Save** (or press **Enter**). On a round being judged,
+   the box warns you first.
+3. Once judging is closed, **Through** opens **How many go through?** instead, where you pick the
+   number from the result.
+
+On a confirmed round the number can't be changed there: see
+[A round was closed, confirmed or published too early](#a-round-was-closed-confirmed-or-published-too-early).
+
+### Where a redance dances
+
+When you settle a tie at the line with **Redance** in Scrutineer (Beta), **Where it dances**
+lists the run sheet from the tied round on. The redance starts **Up next** and can be dragged, or
+moved with the arrows, to any place before the class's next round, which waits for it.
+
+It can't go before a round that is being danced or is done: judging closed, or at least one judge
+handed in. A round whose judging was started ahead of its turn, with no judge in yet, says
+**started, no judge in yet** and the redance can go before it. If the redance has only one place,
+the list says why instead of how to move it.
+
 ## Let autopilot run a round
 
 In Scrutineer (Beta), autopilot can take the routine steps of a round off your hands: starting
