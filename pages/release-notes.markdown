@@ -15,6 +15,7 @@ child_nav_order: reversed
 
  🛠️ **Improvements**
 * Cafe: Staff and judges now see the price of a café product on its card and in the question before they order, and the product list in the Cafe app's order form shows it too. A staff order is saved with that day's price and stays **To be settled** until you collect it (see [Prices on café products](/manager-guide/shop/#prices-on-café-products))
+* App: In a competition's **Participants** list under **Favorites**, a dancer who went straight from the semifinal to the final no longer gets a cross on the **Andra chansen** line, a round they never danced. It comes with the next release of the app. The website's favourites schedule was changed the same way on 22 November
 
 ## 2026-11-22
  ⭐ **New**
