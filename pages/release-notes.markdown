@@ -12,6 +12,7 @@ child_nav_order: reversed
 ## 2026-11-23
  ⭐ **New**
 * Cafe: **Orders** now has **Completed orders** below the queue: every order that has been handed over, with its price, a total, the part still **To be settled** (staff orders), and **Export CSV** for the final accounting (see [Completed orders and the final accounting](/manager-guide/shop/#completed-orders-and-the-final-accounting))
+* Scrutineer (Beta): When the cut sends more participants to a round than planned, such as more to the second chance round when fewer go through, **How many go through?** warns you when a heat would have more on the floor than the federation's rules allow, for example "Andra Chansen: 11 in 1 heat — max 10 on the floor". You can set **Number of heats in** that round right there; it is saved when you confirm. A round left with heats that are too big is marked in the class's rounds at the top of the round page (see [When the cut puts more on the floor than allowed](/manager-guide/live-operations/#when-the-cut-puts-more-on-the-floor-than-allowed))
 
  🛠️ **Improvements**
 * Cafe: Staff and judges now see the price of a café product on its card and in the question before they order, and the product list in the Cafe app's order form shows it too. A staff order is saved with that day's price and stays **To be settled** until you collect it (see [Prices on café products](/manager-guide/shop/#prices-on-café-products))
