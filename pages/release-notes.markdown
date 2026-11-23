@@ -9,6 +9,13 @@ child_nav_order: reversed
 ---
 
 # Release notes
+## 2026-11-23
+ ⭐ **New**
+* Cafe: **Orders** now has **Completed orders** below the queue: every order that has been handed over, with its price, a total, the part still **To be settled** (staff orders), and **Export CSV** for the final accounting (see [Completed orders and the final accounting](/manager-guide/shop/#completed-orders-and-the-final-accounting))
+
+ 🛠️ **Improvements**
+* Cafe: Staff and judges now see the price of a café product on its card and in the question before they order, and the product list in the Cafe app's order form shows it too. A staff order is saved with that day's price and stays **To be settled** until you collect it (see [Prices on café products](/manager-guide/shop/#prices-on-café-products))
+
 ## 2026-11-22
  ⭐ **New**
 * Scrutineer (Beta): Rounds whose judging type belongs to another federation than the competition's can now be switched to the competition's own judging of the same kind. The **Classes** page says how many rounds this is, with **Switch judging types…**, and changing the federation in the event's details asks the same before it saves. Rounds judges have marked keep their judging type (see [Rounds that show "Judging type not active"](/manager-guide/competition-setup/#rounds-that-show-judging-type-not-active))

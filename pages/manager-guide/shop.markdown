@@ -131,6 +131,30 @@ The desk can also adjust the catalog under pressure, without opening the Manager
 
 The café menu is part of the shop as **internal** café products: never on the public catalog, ordered by staff for a person, and picked up at the counter. Nothing about how the café works day to day changed — only where the menu is edited.
 
+### Prices on café products
+
+A café product can have a price. Set it on the product in the Cafe app under **Products**. Staff and judges see it when they order: each product card shows the price next to its name, and the question before the order is sent names it, for example "Order 1 Coffee (SEK 3.00)?". In the Cafe app, the product list in the order form shows it too.
+
+![The café on a phone, with the price next to each product](/assets/images/cafe/staff-order-card.png)
+
+A staff order is not paid when it is placed. The price is saved on the order as it was that day, so the order keeps its price even if you change the menu later, and the amount stays **To be settled** until you have invoiced or collected it.
+
+![The product list in the Cafe app's order form, with prices](/assets/images/cafe/order-form-prices.png)
+
+### Completed orders and the final accounting
+
+Every order that has been handed over is listed together under **Completed orders** on the **Orders** page of the Cafe app, so you can do the final accounting from one place.
+
+1. Open the Cafe app and go to **Orders**.
+2. Scroll below the queue to **Completed orders**. The oldest order is first.
+3. Read each row: when it was completed, the product, the quantity, the price of one, the total for the row, who it was for, and whether it is **Paid** or **To be settled**.
+4. Read **Total** at the bottom for everything that was handed over. **To be settled (staff orders)** is the part that staff ordered and you still need to invoice or collect. Orders paid by card or at the desk count as **Paid**.
+5. Click **Export CSV** to download the list for your accounting. The file has one line per order, with the date, product, quantity, price, total, currency, who it was for, whether it is paid, and the note. It opens in Excel or Numbers.
+
+![Completed orders, with the total and the part still to be settled](/assets/images/cafe/completed-orders.png)
+
+If an event sells in more than one currency, the totals are shown for each currency separately. An order you move back to pending leaves the list until it is handed over again.
+
 ## Money
 
 - **Platform fee:** Vote4Dance takes 5 % of each shop payment. Stripe's own fees are separate and charged by Stripe.
