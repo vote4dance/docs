@@ -12,6 +12,7 @@ help:
   manager.comp.live.schedule-drift: schedule-drift
   manager.comp.live.send-through: check-where-the-round-sends-its-participants
   manager.comp.live.autopilot-try: let-autopilot-run-a-round
+  manager.comp.live.heats-after-cut: when-the-cut-puts-more-on-the-floor-than-allowed
 ---
 
 # Live operations
@@ -390,6 +391,52 @@ In Scrutineer (Beta), on a round's page in **Live**:
 
 On a confirmed round the number can't be changed there: see
 [A round was closed, confirmed or published too early](#a-round-was-closed-confirmed-or-published-too-early).
+
+### When the cut puts more on the floor than allowed
+
+When fewer participants go through than planned, the rest go to the second chance round, so it
+gets bigger. A tie can also send more to the next round. Each round keeps the number of heats it
+was planned with, so a heat can end up with more on the floor than the rules allow, for example
+11 in one heat where the floor takes 10. In Scrutineer (Beta), **How many go through?** warns you
+before you confirm:
+
+1. Pick how many go through. If a round that gets participants from this one would have a heat
+   that is too big, a warning shows above **Round for non-qualified participants**, for example
+   "Andra Chansen: 11 in 1 heat — max 10 on the floor". You see it with the section closed too.
+
+   ![The warning in How many go through? when Andra Chansen would get 12 in one heat](/assets/images/heats-after-cut/warning-collapsed.png)
+
+2. Open **Round for non-qualified participants**. Under **How many go through from** the round,
+   **Number of heats in** the round shows its heats and how the participants are split over them,
+   for example "1 heat: 11".
+
+   ![Number of heats in Andra Chansen, with 11 participants in 1 heat](/assets/images/heats-after-cut/heats-field.png)
+
+3. Raise the number of heats until the warning goes away. The split shows what each heat gets,
+   for example "2 heats: 6 + 5".
+
+   ![Andra Chansen with 2 heats: 6 + 5, and the warning gone](/assets/images/heats-after-cut/heats-field-after.png)
+
+4. Press **Confirm**. The new number of heats is saved with it, and the participants are spread
+   evenly over the heats.
+
+When the round the qualified go to is the one that gets too big, **Number of heats in** that
+round shows below the section instead. If other rounds still send participants to it, such as
+the second chance round, it says how many it counts on from them.
+
+The most allowed on the floor comes from the federation's rules for the class (the same rules the
+**Round guide** uses). When the rules don't give one, the warning compares with the round's own
+plan instead, for example "planned up to 10 per heat". A final is only checked against the rules:
+one more participant after a tie is a final as usual.
+
+If you confirm without changing the heats, the round is marked in the class's rounds at the top
+of the page. Point at it to see the warning, and click **Change heats in** the round to open it
+and change the number of **Heats** there.
+
+![The class's rounds with Andra Chansen marked, and the warning when you point at it](/assets/images/heats-after-cut/strip-mark.png)
+
+When there are more heats than needed, the **Classes** page says so: see
+[Heats not needed](/manager-guide/competition-setup/#heats-not-needed).
 
 ### Where a redance dances
 
