@@ -12,6 +12,7 @@ child_nav_order: reversed
 ## 2026-11-24
  🛠️ **Improvements**
 * Scrutineer (Beta): When you settle a tie with **Dance again**, **Where it dances** now starts the redance right after the tied round and lets you move it before any round that hasn't been danced yet, also when a round further down the run sheet was danced earlier than planned. Before, a round danced out of order pushed the redance below it, sometimes into the next block, and it could not be moved. Rounds already danced are passed when you drag the redance or move it with the arrows (see [Where a redance dances](/manager-guide/live-operations/#where-a-redance-dances))
+* Scrutineer (Beta): In **Where it dances**, each round now shows its number from the run sheet, such as **#12**, and on a hall with several floors also the floor, such as **#12 · B**. This makes it easier to match the list to the run sheet when you decide where the redance goes (see [Where a redance dances](/manager-guide/live-operations/#where-a-redance-dances))
 
 ## 2026-11-23
  ⭐ **New**

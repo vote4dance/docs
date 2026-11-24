@@ -441,8 +441,9 @@ When there are more heats than needed, the **Classes** page says so: see
 ### Where a redance dances
 
 When you settle a tie at the line with **Redance** in Scrutineer (Beta), **Where it dances**
-lists the run sheet from the tied round on. The redance starts **Up next**, right after the tied
-round, and can be dragged, or moved with the arrows, to any place before the class's next round,
+lists the run sheet from the tied round on. Each round has its number from the run sheet, such as
+**#12**, and on a hall with several floors also the floor, such as **#12 · B**, so you can find it on
+a printed run sheet. The redance starts **Up next**, right after the tied round, and can be dragged, or moved with the arrows, to any place before the class's next round,
 which waits for it.
 
 It can go before any round that hasn't been danced yet, even when a round further down the run
