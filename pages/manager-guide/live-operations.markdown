@@ -441,13 +441,16 @@ When there are more heats than needed, the **Classes** page says so: see
 ### Where a redance dances
 
 When you settle a tie at the line with **Redance** in Scrutineer (Beta), **Where it dances**
-lists the run sheet from the tied round on. The redance starts **Up next** and can be dragged, or
-moved with the arrows, to any place before the class's next round, which waits for it.
+lists the run sheet from the tied round on. The redance starts **Up next**, right after the tied
+round, and can be dragged, or moved with the arrows, to any place before the class's next round,
+which waits for it.
 
-It can't go before a round that is being danced or is done: judging closed, or at least one judge
-handed in. A round whose judging was started ahead of its turn, with no judge in yet, says
-**started, no judge in yet** and the redance can go before it. If the redance has only one place,
-the list says why instead of how to move it.
+It can go before any round that hasn't been danced yet, even when a round further down the run
+sheet was danced earlier than planned. It can't stand before a round that is being danced or is
+done (judging closed, or at least one judge handed in): the arrows and dragging pass such a round,
+and **Up next** comes after the ones danced right after the tied round. A round whose judging was
+started ahead of its turn, with no judge in yet, says **started, no judge in yet** and the redance
+can go before it. If the redance has only one place, the list says why instead of how to move it.
 
 ## Let autopilot run a round
 

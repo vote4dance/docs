@@ -9,6 +9,10 @@ child_nav_order: reversed
 ---
 
 # Release notes
+## 2026-11-24
+ 🛠️ **Improvements**
+* Scrutineer (Beta): When you settle a tie with **Dance again**, **Where it dances** now starts the redance right after the tied round and lets you move it before any round that hasn't been danced yet, also when a round further down the run sheet was danced earlier than planned. Before, a round danced out of order pushed the redance below it, sometimes into the next block, and it could not be moved. Rounds already danced are passed when you drag the redance or move it with the arrows (see [Where a redance dances](/manager-guide/live-operations/#where-a-redance-dances))
+
 ## 2026-11-23
  ⭐ **New**
 * Cafe: **Orders** now has **Completed orders** below the queue: every order that has been handed over, with its price, a total, the part still **To be settled** (staff orders), and **Export CSV** for the final accounting (see [Completed orders and the final accounting](/manager-guide/shop/#completed-orders-and-the-final-accounting))
