@@ -244,7 +244,7 @@ When the same person judges in more than one competition of the event (the same 
 
 ## Removing a judge
 
-The delete icon on a judge's row removes them from the competition. In Scrutineer (Beta) it is **Remove from this competition** in the row's **⋯** menu.
+The delete icon on a judge's row removes them from the competition. In Scrutineer (Beta) it is **Remove from this competition** in the row's **⋯** menu, on the **Judges** page in both **Setup** and **Live**.
 
 1. Click the delete icon on the judge's row.
 2. **Remove … from this competition?** opens. It names the panels the judge sits on, for example "They also leave their seats on 2 panels: Panel 1, Final. If you add them again later, the seats are not put back." For a judge without a seat it says "They are not on any panel. They can be added again later."
@@ -258,13 +258,18 @@ To take a judge off one panel and keep them on the list, don't remove them here.
 
 ### When a judge can't be removed
 
-A judge who sits on a panel that already has scores can't be removed. That is every judge who has given marks, and also a judge who has given none while others on the panel have.
+A judge can't be removed from the competition in two cases:
 
-**… can't be removed** then opens instead of the question. It names the panels, for example "They sit on Panel 1, which already has scores, and a panel with scores keeps its judges."
+- **They have given marks.** Their marks count in the results of those rounds, so a judge who has marked stays in the competition. This holds also after you have taken them off the panel.
+- **They sit on a panel that already has scores**, also when they have given no marks themselves while others on the panel have.
 
-The judge stays on the list and on that panel. To let someone else judge the panel's remaining rounds, give those rounds their own panel on the [Classes](/manager-guide/judge-panels/#classes) tab; see [Judges on the day](/manager-guide/judges-on-the-day/).
+**… can't be removed** then opens and says which case it is. For marks it names the rounds, for example "They have given marks in Bugg Grand Senior – Kvalrunda. Their marks count in the results of that round, so a judge who has marked stays in the competition." For a panel it names the panel, for example "They sit on Panel 1, which already has scores, and a panel with scores keeps its judges." **How it works** in the message opens this section.
 
-A page that has been open since before the scores came in may still ask the question. The removal is then refused with one of the messages under [Troubleshooting](#troubleshooting), and nothing is removed. Reload the page to see the panels as they are now.
+![A judge with marks can't be removed](/assets/images/judges/cant-remove-marks.jpg)
+
+The judge stays on the list. To keep them out of the rounds still to come, mark them absent for the time they should not judge; see [Judges on the day](/manager-guide/judges-on-the-day/). To let someone else judge a panel's remaining rounds, give those rounds their own panel on the [Classes](/manager-guide/judge-panels/#classes) tab.
+
+For a judge with marks and no seat, the question **Remove … from this competition?** may still open first, saying they are not on any panel. When you confirm, **… can't be removed** follows, and nothing is removed. The same happens on a page that has been open since before the scores came in; reload the page to see the panels as they are now.
 
 A panel with scores keeps its judges so that marks are not given by a panel that has changed since; see [When assignment locks](/manager-guide/judge-panels/#when-assignment-locks).
 
@@ -324,7 +329,7 @@ On some rounds the judge can switch between **Start number** and **Ranked** abov
 | "A user with this email already exists — pick them from the list." | You tried to create a new account with an email that already has one. | Press the name under the message, or pick them under **Possible existing accounts**. |
 | "Already a judge in this competition" | You tried to add someone who is on the judge list already. | Nothing; find them in the list. |
 | "This judge has no email address on file." | The judge's account has no email. | Invitations cannot be sent; give the judge the link yourself. |
-| "Cannot change judge with results" | You confirmed removing a judge who has given marks, on a page that had not shown the marks yet. | The judge stays on the list. Reload the page. To let someone else judge the rest of their rounds, see [Judges on the day](/manager-guide/judges-on-the-day/). |
+| "This judge has given marks, and their marks count in the results, so they stay in the competition." | You removed a judge who has given marks (the classic manager shows this message). | The judge stays on the list; see [When a judge can't be removed](#when-a-judge-cant-be-removed). To keep them out of the rounds still to come, see [Judges on the day](/manager-guide/judges-on-the-day/). |
 | "This judge sits on a panel that already has scores, so they can't be removed from the competition." | You confirmed removing a judge whose panel has scores, on a page that had not shown the scores yet. | The judge stays on the list. Reload the page, and see [When a judge can't be removed](#when-a-judge-cant-be-removed). |
 
 ## Not in this version
