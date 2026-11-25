@@ -54,6 +54,10 @@ You need the **Manager** app on the event. The screen is read-only once the even
 
 The notification is now on the event page. It has not been sent.
 
+A web address in the text, starting with `https://` or `www.`, becomes a link people can click. It is a link on the event page, on the **Notifications** page here in the Manager, in the run sheet's announcements list, and in the event's overview in the Vote4Dance app (from the next app release). The push notification on the phone stays plain text; tapping it opens the app, where the link can be tapped.
+
+![A notification on the event page with its web address shown as a link](/assets/images/notifications/link-in-update.png)
+
 Your text cannot contain the characters `<`, `>` or `\`. If it does, saving fails with "Malformed Request".
 
 ## Sending
