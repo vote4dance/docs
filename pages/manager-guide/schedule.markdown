@@ -135,6 +135,12 @@ Scrutineer (Beta) shows **Estimated end**, **Total delay** and the **Offset** co
   - **Assign round numbers** numbers them; see below.
   - **Edit** opens the round settings for all selected rounds together.
 
+- **Sort…** above a block's rounds puts them in order in one step. Pick one of:
+  - **By class order**: the rounds follow the order of the classes.
+  - **By stage (finals last)**: earlier rounds first, finals last.
+  - **Alternate the floors**: the rounds take turns between the floors.
+  - **By round number**: the rounds follow the round numbers you set with **Assign round numbers**, so 9 comes before 10. Rounds without a number go last, and rounds that share a number keep their order. This option keeps the numbers' order exactly: it does not move a class's final back after its semifinal, because the numbers are yours.
+
 Every change is saved immediately and the times are recalculated.
 
 ### Round numbers
