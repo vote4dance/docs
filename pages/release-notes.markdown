@@ -12,7 +12,7 @@ child_nav_order: reversed
 ## 2026-11-25
  🛠️ **Improvements**
 * Event page and app: A web address in an event update, such as `https://…` or `www.…`, is now a clickable link on the event's page under **Notifications**, on the **Notifications** page in Manager (Beta), in the run sheet's announcements list, and in the event overview in the Vote4Dance app. The app part comes with the next app release. The push notification on the phone stays plain text; tapping it opens the app, where the link can be tapped (see [Writing a notification](/manager-guide/notifications/#writing-a-notification))
-* Manager (Beta): In **Schedule**, **Sort…** above a block's rounds has a new option, **By round number**. It puts the rounds in the order of the numbers set with **Assign round numbers**, so 9 comes before 10. Rounds without a number go last, and rounds that share a number keep their order. Unlike the other options, it does not move a class's final back after its semifinal (see [Moving and ordering rounds](/manager-guide/schedule/#moving-and-ordering-rounds))
+* Manager (Beta): In **Schedule**, **Sort…** below a block's rounds has a new option, **By round number**. It puts the rounds in the order of the numbers set with **Assign round numbers**, so 9 comes before 10. Rounds without a number go last, and rounds that share a number keep their order. Unlike the other options, it does not move a class's final back after its semifinal (see [Moving and ordering rounds](/manager-guide/schedule/#moving-and-ordering-rounds))
 
 ## 2026-11-24
  🛠️ **Improvements**
