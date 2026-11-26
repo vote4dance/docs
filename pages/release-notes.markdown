@@ -9,6 +9,10 @@ child_nav_order: reversed
 ---
 
 # Release notes
+## 2026-11-26
+ 🛠️ **Improvements**
+* Scrutineer (Beta): **Classes** and **Problems** now also warn when a class has too few heats, for example after a late entry, so that a heat would hold more dancers than the federation's max on the floor. The class gets a tag such as **1 more heat needed**, and **Set the heats** adds the heats and spreads the participants over them. Before, only heats that were not needed were pointed out (see [Too few heats](/manager-guide/competition-setup/#too-few-heats))
+
 ## 2026-11-25
  🛠️ **Improvements**
 * Event page and app: A web address in an event update, such as `https://…` or `www.…`, is now a clickable link on the event's page under **Notifications**, on the **Notifications** page in Manager (Beta), in the run sheet's announcements list, and in the event overview in the Vote4Dance app. The app part comes with the next app release. The push notification on the phone stays plain text; tapping it opens the app, where the link can be tapped (see [Writing a notification](/manager-guide/notifications/#writing-a-notification))
