@@ -167,6 +167,10 @@ In Scrutineer (Beta), **Problems** warns when a class has more heats than it nee
 
 ![The Problems item "1 class has more heats than it needs" with Set the rules' heats…](/assets/images/heats-not-needed/problems-heats.png)
 
+It also warns the other way, when a heat would hold more than the federation's max on the floor, for example after late entries: **1 class has too few heats for its entries**.
+
+![The Problems item "2 classes have too few heats for their entries" with Set the rules' heats…](/assets/images/heats-not-needed/problems-too-few-heats.png)
+
 Click **Set the rules' heats…** to see each round with the heats it needs, then **Set the heats** to change them, or **Keep as they are** to leave them. See [Heats not needed](/manager-guide/competition-setup/#heats-not-needed).
 
 ## Severity

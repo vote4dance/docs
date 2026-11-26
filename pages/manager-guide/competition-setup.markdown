@@ -161,7 +161,15 @@ To fix it:
 
 If you want to keep the heats, for example because the floor is small, click **Keep as they are**. The warning is then not shown again on this computer until the number of participants changes.
 
-Only rounds that haven't started are checked, and only a round with more heats than it needs: a round with fewer heats is left as it is. A class whose number of participants means a whole round is no longer needed shows **1 round not needed** first; once that round is removed, its heats are checked.
+#### Too few heats
+
+It also works the other way. When participants are added after the rounds were created, for example a late entry, a round can end up with a heat that holds more dancers than the federation allows on the floor. The class then gets a tag such as **1 more heat needed**, and **Problems** lists it under **1 class has too few heats for its entries**. Hold the pointer over the tag to see the round, for example "Semifinal: 2 heats for 11 entries (now 1)".
+
+![A class on Classes with the tag "1 more heat needed" and the round it lists](/assets/images/heats-not-needed/too-few-heats-tag.png)
+
+Fix it the same way: click the tag, check the rounds, and click **Set the heats** to add the heats. The participants are spread over the heats again. A round with fewer heats than the federation would give, but where every heat still fits within the max on the floor, is left as it is.
+
+Only rounds that haven't started are checked. A class whose number of participants means a whole round is no longer needed shows **1 round not needed** first; once that round is removed, its heats are checked.
 
 ### Round settings
 
