@@ -9,6 +9,10 @@ child_nav_order: reversed
 ---
 
 # Release notes
+## 2026-11-27
+ ⭐ **New**
+* Scrutineer (Beta): A class danced in passes, such as under 11 in Norway with **Runde 1** and **Runde 2**, shows its parts in the round's **Heats** card. **Runde 1 over, next class** ends the pass: the class moves to the end of its block, so the other classes dance their Runde 1 first, and its heats start again from heat 1. The judges keep their marks and hand in once, at the end (see [A class danced in passes](/manager-guide/live-operations/#a-class-danced-in-passes))
+
 ## 2026-11-26
  🛠️ **Improvements**
 * Scrutineer (Beta): **Classes** and **Problems** now also warn when a class has too few heats, for example after a late entry, so that a heat would hold more dancers than the federation's max on the floor. The class gets a tag such as **1 more heat needed**, and **Set the heats** adds the heats and spreads the participants over them. Before, only heats that were not needed were pointed out (see [Too few heats](/manager-guide/competition-setup/#too-few-heats))

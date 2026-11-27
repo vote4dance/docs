@@ -13,6 +13,7 @@ help:
   manager.comp.live.send-through: check-where-the-round-sends-its-participants
   manager.comp.live.autopilot-try: let-autopilot-run-a-round
   manager.comp.live.heats-after-cut: when-the-cut-puts-more-on-the-floor-than-allowed
+  manager.comp.live.round-passes: a-class-danced-in-passes
 ---
 
 # Live operations
@@ -437,6 +438,42 @@ and change the number of **Heats** there.
 
 When there are more heats than needed, the **Classes** page says so: see
 [Heats not needed](/manager-guide/competition-setup/#heats-not-needed).
+
+### A class danced in passes
+
+Some classes dance their round more than once in the same block of the schedule, with the other
+classes in between. Under 11 in Norway, for example, dances **Runde 1** of every class in the
+block, then **Runde 2** of every class. The class still has one round: the judges fill in one
+judging sheet over both passes and hand it in once, at the end.
+
+In Scrutineer (Beta), such a round shows its parts in the **Heats** card, above the heats. The
+part being danced is highlighted, a part danced after the other classes says
+**After the other classes**, and a part that is over has a tick.
+
+![The Heats card of an under 11 class with Runde 1 on the floor](/assets/images/round-parts/runde-1-on-floor.png)
+
+When the last heat of Runde 1 has been danced:
+
+1. Press **Runde 1 over, next class** in the **Heats** card.
+2. Manager asks **End Runde 1 for this class?** Press **End Runde 1**.
+
+   ![The question before Runde 1 ends](/assets/images/round-parts/end-runde-1.png)
+
+3. The class moves to the end of its block in the schedule, so the next class in the block is on
+   the floor. When the class comes back for Runde 2, its heats start again from heat 1. The
+   judges keep the marks they have given.
+
+   ![After Runde 1: the singel class is on the floor, and the dobbel class is last in the block](/assets/images/round-parts/block-order-after.png)
+
+4. When the class is back on the floor, its **Heats** card shows Runde 1 with a tick and offers
+   **Runde 2 over**. Close the round as usual once the judges have handed in.
+
+   ![Runde 1 is over and Runde 2 is next](/assets/images/round-parts/runde-2-next.png)
+
+Pressing the button twice does not move the class twice. The scrutineer, the speaker and the
+line-up staff can all end a pass, the same people who mark heats as danced. A class only moves
+behind the other classes of its own block, so each class that dances in passes needs its own
+class in the same block: a class that combines dobbel and singel has no one to move behind.
 
 ### Where a redance dances
 
