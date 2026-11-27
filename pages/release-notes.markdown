@@ -9,6 +9,13 @@ child_nav_order: reversed
 ---
 
 # Release notes
+## 2026-11-27
+ ⭐ **New**
+* Manager: Joining two classes with few entries now makes a new joined class where everyone dances, and the classes you joined keep their names and registrations. Each participant counts in their own class: promotion points, rankings and the age group go there, placed against the whole joined class, as the federations' rules ask. Before, the first class was renamed and its participants' points had to be put right by hand. Late registrations go straight into the joined class, a participant added by hand picks their **Original class**, and **Separate classes** gives every participant back to their own class (see [Join classes with few entries](/manager-guide/competition-setup/#join-classes-with-few-entries))
+
+ 🛠️ **Improvements**
+* Rankings: In a ranking by placement, such as Ungdomskampen, a couple in a joined class keeps its placement in the joined final. Before, it could move up past couples from the other joined classes when someone else in the ranking was left out
+
 ## 2026-11-26
  🛠️ **Improvements**
 * Scrutineer (Beta): **Classes** and **Problems** now also warn when a class has too few heats, for example after a late entry, so that a heat would hold more dancers than the federation's max on the floor. The class gets a tag such as **1 more heat needed**, and **Set the heats** adds the heats and spreads the participants over them. Before, only heats that were not needed were pointed out (see [Too few heats](/manager-guide/competition-setup/#too-few-heats))
