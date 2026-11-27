@@ -15,6 +15,8 @@ child_nav_order: reversed
 
  🛠️ **Improvements**
 * Rankings: In a ranking by placement, such as Ungdomskampen, a couple in a joined class keeps its placement in the joined final. Before, it could move up past couples from the other joined classes when someone else in the ranking was left out
+* Manager: When two level classes behind a qualification are joined, such as Bugg Senior B with Grand Senior B, the qualifications' **Summering av poäng** now gives those couples their level's points and the bonus for their place in the joined final. Before, they got no points there. Joining also points each qualification's point summary at the joined class, so the round waits for the joined final before it can be confirmed, and **Separate classes** gives each summary back its own class (see [Join classes with few entries](/manager-guide/competition-setup/#join-classes-with-few-entries))
+* Manager: Joining a class that was merged the old way, with "/" in its short letter, keeps each participant's **Original class**, so rankings still place them in their own class. **Problems** no longer warns about a qualification whose group sends couples to a class that has been joined
 
 ## 2026-11-26
  🛠️ **Improvements**
