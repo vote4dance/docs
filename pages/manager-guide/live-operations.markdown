@@ -512,6 +512,18 @@ heats in the **Heats** card, and the **Lineup** app shows them too, without butt
 
    ![The closing heats in Scrutineer (Beta), above the round's own heats](/assets/images/round-parts/manager-closing.png)
 
+### What the judges see in a round danced in parts
+
+The judges' sheet in the **Judging** app names the parts above the marks, with the part on the
+floor highlighted. In an opening or a closing danced in heats of its own, it also says which heat
+is on the floor and the start numbers dancing in it, and it follows along as the heats are marked
+done. The judges mark the round's own heats as usual, over all the parts.
+
+![The judge's sheet with the opening on the floor](/assets/images/round-parts/judge-parts.png)
+
+A judge who presses **Submit results** before the last part has been danced is told which parts
+are still to come, and can still hand in.
+
 ### Where a redance dances
 
 When you settle a tie at the line with **Redance** in Scrutineer (Beta), **Where it dances**
