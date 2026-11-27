@@ -172,6 +172,11 @@ You set up the parts in Scrutineer (Beta):
    ![Runde 1 and Runde 2, the second after the other classes](/assets/images/round-parts/editor-two-passes.png)
 
 6. Press **Save parts**.
+7. To give other classes the same parts, such as every class in the same block, press
+   **Use for other rounds**. Tick the rounds, or **All rounds**, and press **Save on …**. Parts a
+   round already had are replaced.
+
+   ![Use these parts for other rounds](/assets/images/round-parts/editor-copy.png)
 
 Use the arrows to change the order of the parts, and the bin to remove one. Remove every part and
 save to have the round danced once again. Saving the parts of a round that has already started
