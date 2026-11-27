@@ -13,6 +13,7 @@ help:
   manager.comp.live.send-through: check-where-the-round-sends-its-participants
   manager.comp.live.autopilot-try: let-autopilot-run-a-round
   manager.comp.live.heats-after-cut: when-the-cut-puts-more-on-the-floor-than-allowed
+  manager.comp.live.round-passes: a-class-danced-in-passes
 ---
 
 # Live operations
@@ -437,6 +438,91 @@ and change the number of **Heats** there.
 
 When there are more heats than needed, the **Classes** page says so: see
 [Heats not needed](/manager-guide/competition-setup/#heats-not-needed).
+
+### A class danced in passes
+
+Some classes dance their round more than once in the same block of the schedule, with the other
+classes in between. Under 11 in Norway, for example, dances **Runde 1** of every class in the
+block, then **Runde 2** of every class. The class still has one round: the judges fill in one
+judging sheet over both passes and hand it in once, at the end.
+
+The parts of a round are set up in its settings: see
+[Dance a round in parts](/manager-guide/rounds-by-hand/#dance-a-round-in-parts).
+
+Such a round shows its parts above its heats: in the **Speaker** app's lineup and in the
+**Heats** card in Scrutineer (Beta). The part being danced is highlighted, a part danced after the
+other classes says **After the other classes**, and a part that is over has a tick. The **Lineup**
+app shows the parts too, without the button.
+
+![The Speaker lineup of an under 11 block with Runde 1 on the floor](/assets/images/round-parts/speaker-runde-1.png)
+
+When the last heat of Runde 1 has been danced:
+
+1. Press **Runde 1 over, next class** above the class on the floor, in the Speaker app or in the
+   **Heats** card in Scrutineer (Beta).
+2. You are asked **End Runde 1 for this class?** Press **End Runde 1**.
+
+   ![The question before Runde 1 ends](/assets/images/round-parts/end-runde-1.png)
+
+3. The class moves to the end of its block in the schedule, so the next class in the block is on
+   the floor. When the class comes back for Runde 2, its heats start again from heat 1. The
+   judges keep the marks they have given.
+
+   ![After Runde 1: the next dobbel class is on the floor, the first waits with Runde 1 ticked](/assets/images/round-parts/speaker-next-class.png)
+
+4. When the class is back on the floor, it shows Runde 1 with a tick and offers **Runde 2 over**.
+   Close the round as usual once the judges have handed in.
+
+   ![Runde 1 is over and Runde 2 is next](/assets/images/round-parts/runde-2-next.png)
+
+Pressing the button twice does not move the class twice. The scrutineer, the speaker and the
+line-up staff may all end a pass, the same people who mark heats as danced.
+
+A class only moves behind the other classes of its own block, so put the classes that dance their
+passes together in a block of their own. If doubles dance both passes before the singles start,
+make one block for the dobbel classes and one for the singel classes. A class alone in its block
+dances Runde 2 straight after Runde 1.
+
+### A round with an opening and a closing
+
+Many disco rounds open with the dancers on the floor together, dance a spot in the round's own
+heats, and close together again. When the floor holds fewer dancers than the class has, the opening
+and the closing are danced in heats of their own, for example heats of at most 6. Set this up in
+the round's parts: see
+[Dance a round in parts](/manager-guide/rounds-by-hand/#dance-a-round-in-parts).
+
+The judges keep the round's own heats and fill in one judging sheet for the whole round. The
+opening and closing heats exist only on the floor: the participants in running order, shared
+evenly over as few heats as the size allows.
+
+While the opening or the closing is on the floor, the **Speaker** app's lineup shows its heats in
+place of the round's heats, with who dances in each. Scrutineer (Beta) shows them above the round's
+heats in the **Heats** card, and the **Lineup** app shows them too, without buttons.
+
+![The Speaker lineup with the opening on the floor in heats of at most 6](/assets/images/round-parts/speaker-opening.png)
+
+1. When a heat has danced, press **Done** on it. The next heat is now the one on the floor. If you
+   pressed it too early, the undo button beside the last **Done** takes it back.
+2. When every heat is done, the lineup says **Every heat of Opening is danced**.
+
+   ![Both opening heats done](/assets/images/round-parts/speaker-opening-danced.png)
+
+3. Press **Opening over**. The round's own heats come back for the spot.
+4. After the spot, press **Spot over**. The closing shows its heats the same way.
+
+   ![The closing heats in Scrutineer (Beta), above the round's own heats](/assets/images/round-parts/manager-closing.png)
+
+### What the judges see in a round danced in parts
+
+The judges' sheet in the **Judging** app names the parts above the marks, with the part on the
+floor highlighted. In an opening or a closing danced in heats of its own, it also says which heat
+is on the floor and the start numbers dancing in it, and it follows along as the heats are marked
+done. The judges mark the round's own heats as usual, over all the parts.
+
+![The judge's sheet with the opening on the floor](/assets/images/round-parts/judge-parts.png)
+
+A judge who presses **Submit results** before the last part has been danced is told which parts
+are still to come, and can still hand in.
 
 ### Where a redance dances
 

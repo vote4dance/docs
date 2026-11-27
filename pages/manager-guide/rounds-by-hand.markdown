@@ -7,6 +7,7 @@ parent: Classes, rounds and judges
 nav_order: 2
 help:
   manager.comp.classes.round.place: add-a-round-between-two-rounds
+  manager.comp.classes.round.parts: dance-a-round-in-parts
 ---
 
 # Adding rounds by hand
@@ -138,6 +139,52 @@ A child round is a round under another round, for example one dance of a round t
 4. For a child round or a chance round, the form for a new round opens, filled in from the round you have open. Check the values and click **Save changes**. If the round you have open already has participants, the new round gets the same participants when you save it.
 
 Participants are sent to a chance round like to any other round: choose it under **Round for non-qualified participants** when the round before it is closed. See [Check where the round sends its participants](/manager-guide/live-operations/#check-where-the-round-sends-its-participants). A chance round gives no places of its own. A participant who does not go on from it keeps the place from the round it came from. Unlike other child rounds, a chance round has its own **Publish results online** button.
+
+## Dance a round in parts
+
+Some rounds are danced in parts while they stay one round, with one judging sheet that the judges
+hand in once. Under 11 in Norway dances **Runde 1** of every class in the block and then
+**Runde 2** of every class. In disco, everyone opens and closes the round in big heats, with the
+spot danced in the round's own heats in between.
+
+You set up the parts in Scrutineer (Beta):
+
+1. Go to `Competition → Classes`, click the class and click the round.
+2. On the **Settings** tab, find the **Danced in parts** card under the round's settings. A round
+   without parts says it is danced once, in its own heats.
+
+   ![A round without parts](/assets/images/round-parts/editor-none.png)
+
+3. Press **Two passes (round 1, then round 2)** for a class that dances in two passes, or
+   **Opening, spot, closing** for disco. You can also press **Add part** and fill in each part
+   yourself.
+4. For each part, give it a name, for example *Runde 1*, and choose its **Heats**:
+
+   | Heats | What it means |
+   |---|---|
+   | **The round's own heats** | The part is danced in the heats of the round. |
+   | **Everyone in one heat** | All participants dance the part together. |
+   | **Heats of at most** | The running order is cut into even heats of at most the number you give. |
+
+5. Tick **After the other classes** on a part that is danced once the rest of the block has
+   danced, like Runde 2.
+
+   ![Runde 1 and Runde 2, the second after the other classes](/assets/images/round-parts/editor-two-passes.png)
+
+6. Press **Save parts**.
+7. To give other classes the same parts, such as every class in the same block, press
+   **Use for other rounds**. Tick the rounds, or **All rounds**, and press **Save on …**. Parts a
+   round already had are replaced.
+
+   ![Use these parts for other rounds](/assets/images/round-parts/editor-copy.png)
+
+Use the arrows to change the order of the parts, and the bin to remove one. Remove every part and
+save to have the round danced once again. Saving the parts of a round that has already started
+them asks first, since every part starts over from the first one. Once judging is closed, the parts
+can no longer change.
+
+How a class danced in passes runs on the day is described in
+[A class danced in passes](/manager-guide/live-operations/#a-class-danced-in-passes).
 
 ## Delete a round
 
