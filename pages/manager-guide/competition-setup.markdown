@@ -70,8 +70,8 @@ A class has these fields:
 Buttons at the bottom of the dialog change how classes belong together:
 
 - **Group** shows **Group under**, where you pick the class this one belongs under, and **Class role**.
-- **Merge class** shows **Merge with**, where you pick the class to merge this one with. It is refused while the other class has rounds.
-- **Separate classes** splits a merged class again. It shows on a class whose short letter contains `/`, such as `BJITT/BVITT`.
+- **Merge class** shows **Merge with**, where you pick the class to join this one with, then **Save**. It is refused while the other class has rounds. See [Join classes with few entries](#join-classes-with-few-entries).
+- **Separate classes** splits a joined class again. It shows on a joined class, and on a class joined the old way, whose short letter contains `/`, such as `BJITT/BVITT`.
 - **Delete** removes the class. It is refused while the class has participants or rounds, or is part of a registration period.
 
 If the class's short letter is one of the federation's class codes, such as `BJITT`, the class is linked to that **Federation Class** by itself when you save it, and its division, discipline and category are filled in from the federation. This also works for older codes the federation still lists, and for each class when you split a merged class such as `BJITT/BVITT`. If two of the federation's classes share the code, set the **Discipline** first so the right one is picked. A Federation Class you chose yourself is never changed.
@@ -81,6 +81,30 @@ Good to know:
 - Keep the class title easy to read. It is what dancers see when they register, and it is on the printouts.
 - In a competition that follows a federation's rules, use the federation's names.
 - Pick the Federation Class with care. The rules follow from it.
+
+### Join classes with few entries
+
+When few have registered in a class, it can dance together with another class, usually one in the same discipline. Open the class, press **Merge class**, pick the other class in **Merge with**, and press **Save**.
+
+What the join does:
+
+- **A new class dances.** The two classes become one class, named after both, such as `STPCS/STPCGS`. It has every participant of both, and the rounds the first class had. Rounds, heats, judging, results and diplomas belong to it. The classes you joined are no longer listed under **Classes** or in the results; a link to one of them opens the joined class.
+- **The classes you joined stay.** They keep their names and their registrations, and registration still shows them. Someone who registers in one of them after the join is put straight into the joined class.
+- **Each participant counts in their own class.** Promotion points, rankings and the age group go to the class they registered in. The placement and the number of starters are those of the whole joined class, so a participant from another age group is placed with everyone but keeps their own age group's points and ranking. A join never moves anyone up on its own.
+- **A participant you add by hand** to a joined class needs an **Original class**: pick the class they belong to. Only the classes joined into it are offered.
+- **The joined class takes over** what belongs to its classes: a sponsor of one of them shows on the joined class, the diplomas use the joined class's template or else the first class's, and a judge who must avoid one of the classes is kept out of its rounds.
+
+A join is refused when:
+
+- the same couple, or the same dancer, is registered in both classes. The message names them; withdraw one of the entries first.
+- a class is part of a group or a Jack & Jill, or is linked to a WDSF competition, or the competition follows WSDC rules.
+- the class is already joined into another class. Join with the joined class instead. A joined class can take more classes.
+
+To undo a join, open the joined class and press **Separate classes**. Each participant goes back to their own class, also those added after the join, and the rounds go back to the first class. It is refused while participants are in the rounds: take them out first.
+
+In Scrutineer (Beta), the new version of the Manager, you join from the class's dialog under **Join with another class**, with **Join classes**, and split under **Split a joined class**, with **Split into separate classes**. A joined class there lists its classes under **Classes joined into this one**, each with its own edit button.
+
+In the phone app, joined classes show this way from its next release. Classes joined before this change, by name with `/`, work as they did.
 
 ## Step 2: Build rounds from classes
 
