@@ -158,7 +158,7 @@ You can also type a number directly in a round's settings under **Round number**
 Times are calculated, not typed per round. For each schedule item:
 
 1. The item's time is the start. An item without a time gives its rounds no planned times.
-2. Each round takes **Heat length × Number of heats**, both set in the round settings. **Heat length** is the whole time for one heat, including transitions.
+2. Each round takes **Heat length × Number of heats**, both set in the round settings. **Heat length** is the whole time for one heat, including transitions. A round [danced in parts](/manager-guide/rounds-by-hand/#dance-a-round-in-parts) takes all its parts: two passes take its heats twice, and an opening or closing in heats of its own takes those heats at the part's own length. The schedule names the part on the floor after the round, such as **Final · Runde 1**.
 3. Rounds follow each other in the order shown.
 4. Rounds with the same round number start together. The next round starts when the longest of them is expected to end.
 5. Rounds of a class that follow each other on different sections of a floor also start together.
