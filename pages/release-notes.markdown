@@ -12,6 +12,7 @@ child_nav_order: reversed
 ## 2026-11-27
  ⭐ **New**
 * Scrutineer (Beta): A class danced in passes, such as under 11 in Norway with **Runde 1** and **Runde 2**, shows its parts in the round's **Heats** card. **Runde 1 over, next class** ends the pass: the class moves to the end of its block, so the other classes dance their Runde 1 first, and its heats start again from heat 1. The judges keep their marks and hand in once, at the end (see [A class danced in passes](/manager-guide/live-operations/#a-class-danced-in-passes))
+* Speaker: A disco round whose opening or closing is danced in heats of its own, for example heats of at most 6, shows those heats with who dances in each and a **Done** on the heat on the floor. Scrutineer (Beta) and the Lineup app show them too (see [A round with an opening and a closing](/manager-guide/live-operations/#a-round-with-an-opening-and-a-closing))
 
 ## 2026-11-26
  🛠️ **Improvements**

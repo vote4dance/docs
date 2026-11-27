@@ -483,6 +483,35 @@ passes together in a block of their own. If doubles dance both passes before the
 make one block for the dobbel classes and one for the singel classes. A class alone in its block
 dances Runde 2 straight after Runde 1.
 
+### A round with an opening and a closing
+
+Many disco rounds open with the dancers on the floor together, dance a spot in the round's own
+heats, and close together again. When the floor holds fewer dancers than the class has, the opening
+and the closing are danced in heats of their own, for example heats of at most 6. Set this up in
+the round's parts: see
+[Dance a round in parts](/manager-guide/rounds-by-hand/#dance-a-round-in-parts).
+
+The judges keep the round's own heats and fill in one judging sheet for the whole round. The
+opening and closing heats exist only on the floor: the participants in running order, shared
+evenly over as few heats as the size allows.
+
+While the opening or the closing is on the floor, the **Speaker** app's lineup shows its heats in
+place of the round's heats, with who dances in each. Scrutineer (Beta) shows them above the round's
+heats in the **Heats** card, and the **Lineup** app shows them too, without buttons.
+
+![The Speaker lineup with the opening on the floor in heats of at most 6](/assets/images/round-parts/speaker-opening.png)
+
+1. When a heat has danced, press **Done** on it. The next heat is now the one on the floor. If you
+   pressed it too early, the undo button beside the last **Done** takes it back.
+2. When every heat is done, the lineup says **Every heat of Opening is danced**.
+
+   ![Both opening heats done](/assets/images/round-parts/speaker-opening-danced.png)
+
+3. Press **Opening over**. The round's own heats come back for the spot.
+4. After the spot, press **Spot over**. The closing shows its heats the same way.
+
+   ![The closing heats in Scrutineer (Beta), above the round's own heats](/assets/images/round-parts/manager-closing.png)
+
 ### Where a redance dances
 
 When you settle a tie at the line with **Redance** in Scrutineer (Beta), **Where it dances**
