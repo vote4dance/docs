@@ -446,6 +446,9 @@ classes in between. Under 11 in Norway, for example, dances **Runde 1** of every
 block, then **Runde 2** of every class. The class still has one round: the judges fill in one
 judging sheet over both passes and hand it in once, at the end.
 
+The parts of a round are set up in its settings: see
+[Dance a round in parts](/manager-guide/rounds-by-hand/#dance-a-round-in-parts).
+
 In Scrutineer (Beta), such a round shows its parts in the **Heats** card, above the heats. The
 part being danced is highlighted, a part danced after the other classes says
 **After the other classes**, and a part that is over has a tick.
