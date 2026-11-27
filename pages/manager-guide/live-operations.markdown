@@ -449,16 +449,18 @@ judging sheet over both passes and hand it in once, at the end.
 The parts of a round are set up in its settings: see
 [Dance a round in parts](/manager-guide/rounds-by-hand/#dance-a-round-in-parts).
 
-In Scrutineer (Beta), such a round shows its parts in the **Heats** card, above the heats. The
-part being danced is highlighted, a part danced after the other classes says
-**After the other classes**, and a part that is over has a tick.
+Such a round shows its parts above its heats: in the **Speaker** app's lineup and in the
+**Heats** card in Scrutineer (Beta). The part being danced is highlighted, a part danced after the
+other classes says **After the other classes**, and a part that is over has a tick. The **Lineup**
+app shows the parts too, without the button.
 
-![The Heats card of an under 11 class with Runde 1 on the floor](/assets/images/round-parts/runde-1-on-floor.png)
+![The Speaker lineup of an under 11 block with Runde 1 on the floor](/assets/images/round-parts/speaker-runde-1.png)
 
 When the last heat of Runde 1 has been danced:
 
-1. Press **Runde 1 over, next class** in the **Heats** card.
-2. Manager asks **End Runde 1 for this class?** Press **End Runde 1**.
+1. Press **Runde 1 over, next class** above the class on the floor, in the Speaker app or in the
+   **Heats** card in Scrutineer (Beta).
+2. You are asked **End Runde 1 for this class?** Press **End Runde 1**.
 
    ![The question before Runde 1 ends](/assets/images/round-parts/end-runde-1.png)
 
@@ -466,17 +468,20 @@ When the last heat of Runde 1 has been danced:
    the floor. When the class comes back for Runde 2, its heats start again from heat 1. The
    judges keep the marks they have given.
 
-   ![After Runde 1: the singel class is on the floor, and the dobbel class is last in the block](/assets/images/round-parts/block-order-after.png)
+   ![After Runde 1: the next dobbel class is on the floor, the first waits with Runde 1 ticked](/assets/images/round-parts/speaker-next-class.png)
 
-4. When the class is back on the floor, its **Heats** card shows Runde 1 with a tick and offers
-   **Runde 2 over**. Close the round as usual once the judges have handed in.
+4. When the class is back on the floor, it shows Runde 1 with a tick and offers **Runde 2 over**.
+   Close the round as usual once the judges have handed in.
 
    ![Runde 1 is over and Runde 2 is next](/assets/images/round-parts/runde-2-next.png)
 
 Pressing the button twice does not move the class twice. The scrutineer, the speaker and the
-line-up staff can all end a pass, the same people who mark heats as danced. A class only moves
-behind the other classes of its own block, so each class that dances in passes needs its own
-class in the same block: a class that combines dobbel and singel has no one to move behind.
+line-up staff may all end a pass, the same people who mark heats as danced.
+
+A class only moves behind the other classes of its own block, so put the classes that dance their
+passes together in a block of their own. If doubles dance both passes before the singles start,
+make one block for the dobbel classes and one for the singel classes. A class alone in its block
+dances Runde 2 straight after Runde 1.
 
 ### Where a redance dances
 
